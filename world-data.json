@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:49:09.540098+00:00",
+  "generatedAt": "2026-09-14T19:58:49.748533+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -13,63 +13,63 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Henry P. Beckley in Russia, 1919.jpg",
-    "artist": "Honolulu Star-Advertiser",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Henry_P._Beckley_in_Russia%2C_1919.jpg"
+    "title": "File:20230924 183033sabinas.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Spot3b&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Spot3b (page does not exist)\">Spot3b</a>",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20230924_183033sabinas.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K20U",
-    "station": "K20U",
-    "lat": 46.9251,
-    "lon": -103.9852,
+    "name": "CWEU",
+    "station": "CWEU",
+    "lat": 79.989,
+    "lon": -85.934,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 5.0,
-    "windSpeed": 25.0,
-    "windDirection": 270.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-14T19:35:00.000Z",
-    "raw": "METAR K20U 141935Z AUTO 27025G31KT 16/05 A2972 RMK AO2 TSNO"
+    "temperature": -5.0,
+    "dewpoint": -7.0,
+    "windSpeed": 11.0,
+    "windDirection": 120.0,
+    "visibility": "15",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-14T19:00:00.000Z",
+    "raw": "METAR CWEU 141900Z 12011KT 15SM BKN011 M05/M07 A2967 RMK SC7 SLP060"
   },
   "randomPlace": {
-    "name": "K1DN",
-    "station": "K1DN",
-    "lat": 47.8,
-    "lon": -101.3,
+    "name": "LTCT",
+    "station": "LTCT",
+    "lat": 39.977,
+    "lon": 43.878,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 14.0,
-    "windSpeed": 25.0,
-    "windDirection": 270.0,
-    "visibility": "10+",
+    "temperature": 22.0,
+    "dewpoint": 5.0,
+    "windSpeed": 6.0,
+    "windDirection": 220.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:45:00.000Z",
-    "raw": "SPECI K1DN 141945Z AUTO 27025G35KT 10SM FEW016 SCT023 SCT029 BKN042 BKN050 18/14 A2953 RMK AO2 SLP003 $"
+    "observationTime": "2026-09-14T19:50:00.000Z",
+    "raw": "METAR LTCT 141950Z 22006KT CAVOK 22/05 Q1016"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T19:43:00Z",
-      "speed": 361.0
+      "time": "2026-09-14T19:50:00Z",
+      "speed": 359.0
     },
     "magneticField": {
-      "time": "2026-09-14T19:43:00Z",
+      "time": "2026-09-14T19:50:00Z",
       "bt": 13.0,
       "bz": 1.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T19:43:00Z",
-        "speed": 361.0
+        "time": "2026-09-14T19:50:00Z",
+        "speed": 359.0
       },
       "magneticField": {
-        "time": "2026-09-14T19:43:00Z",
+        "time": "2026-09-14T19:50:00Z",
         "bt": 13.0,
         "bz": 1.0
       }
