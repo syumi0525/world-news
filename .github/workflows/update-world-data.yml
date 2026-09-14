@@ -26,9 +26,10 @@ jobs:
           import math
           import os
           import random
+          import re
           import urllib.parse
           import urllib.request
-          from datetime import datetime, timezone
+          from datetime import datetime, timezone, timedelta
 
 
           UA = "WORLD-NEWS/1.0"
@@ -118,6 +119,84 @@ jobs:
                           return value
 
               return None
+
+
+          def parse_datetime(value):
+              if value is None:
+                  return None
+
+              if isinstance(value, (int, float)):
+                  try:
+                      return datetime.fromtimestamp(
+                          float(value),
+                          tz=timezone.utc
+                      )
+                  except Exception:
+                      return None
+
+              text = str(value).strip()
+              if not text:
+                  return None
+
+              if text.endswith("Z"):
+                  text = text[:-1] + "+00:00"
+
+              try:
+                  dt = datetime.fromisoformat(text)
+                  if dt.tzinfo is None:
+                      dt = dt.replace(tzinfo=timezone.utc)
+                  return dt.astimezone(timezone.utc)
+              except Exception:
+                  pass
+
+              for fmt in (
+                  "%Y-%m-%d %H:%M:%S",
+                  "%Y-%m-%d %H:%M",
+                  "%Y%m%d%H%M%S",
+                  "%Y%m%d%H%M",
+              ):
+                  try:
+                      return datetime.strptime(
+                          text,
+                          fmt
+                      ).replace(tzinfo=timezone.utc)
+                  except Exception:
+                      continue
+
+              return None
+
+
+          def latest_timestamped_row(data, time_keys):
+              rows = []
+
+              if isinstance(data, dict):
+                  rows = [data]
+              elif isinstance(data, list):
+                  rows = [
+                      row
+                      for row in data
+                      if isinstance(row, dict)
+                  ]
+
+              best_row = None
+              best_time = None
+
+              for row in rows:
+                  timestamp = None
+                  for key in time_keys:
+                      if key in row and row[key] not in (None, ""):
+                          timestamp = parse_datetime(row[key])
+                          if timestamp is not None:
+                              break
+
+                  if timestamp is None:
+                      continue
+
+                  if best_time is None or timestamp > best_time:
+                      best_time = timestamp
+                      best_row = row
+
+              return best_row, best_time
 
 
           # ============================================================
@@ -269,6 +348,10 @@ jobs:
 
               )
 
+              observation_dt = parse_datetime(
+                  observation_time
+              )
+
               return {
                   "name": name or station or "Unknown",
                   "station": station,
@@ -282,13 +365,13 @@ jobs:
                   "visibility": visibility,
                   "flightCategory": flight_category,
                   "observationTime": observation_time,
+                  "observationTimestamp": (
+                      observation_dt.isoformat()
+                      if observation_dt is not None
+                      else ""
+                  ),
                   "raw": raw
               }
-
-
-          generated = datetime.now(
-              timezone.utc
-          ).isoformat()
 
 
           metar_cache_url = (
@@ -318,10 +401,13 @@ jobs:
               io.StringIO(csv_text)
           )
 
+          now_utc = datetime.now(
+              timezone.utc
+          )
+
           valid_rows = []
 
           for row in reader:
-
               if not row:
                   continue
 
@@ -332,55 +418,50 @@ jobs:
               if not weather["station"]:
                   continue
 
-              if weather["lat"] is None:
+              if weather["lat"] is None or weather["lon"] is None:
                   continue
 
-              if weather["lon"] is None:
+              if not (-90 <= weather["lat"] <= 90):
                   continue
 
-              if (
-                  weather["lat"] < -90
-                  or
-                  weather["lat"] > 90
-              ):
+              if not (-180 <= weather["lon"] <= 180):
                   continue
 
-              if (
-                  weather["lon"] < -180
-                  or
-                  weather["lon"] > 180
-              ):
+              observation_dt = parse_datetime(
+                  weather.get("observationTime")
+              )
+
+              if observation_dt is None:
+                  continue
+
+              age = now_utc - observation_dt
+
+              if age < timedelta(minutes=-10):
+                  continue
+
+              if age > timedelta(hours=2):
                   continue
 
               valid_rows.append(
                   weather
               )
 
-
           print(
-              "Valid METAR stations:",
+              "Valid fresh METAR stations:",
               len(valid_rows)
           )
 
-
-          if len(valid_rows) < 2:
+          if len(valid_rows) < 20:
               raise RuntimeError(
-                  "Not enough valid METAR stations."
+                  "Not enough fresh METAR stations."
               )
-
 
           random.shuffle(
               valid_rows
           )
 
-
-          atmosphere_data = (
-              valid_rows[0]
-          )
-
-          random_place_data = (
-              valid_rows[1]
-          )
+          atmosphere_data = valid_rows[0]
+          random_place_data = valid_rows[1]
 
 
           # ============================================================
@@ -438,46 +519,34 @@ jobs:
           # 2. CO2
           #
           # NOAA Global Monitoring Laboratory
-          # Mauna Loa daily CO2
-          #
-          # The NOAA dataset is CC0.
+          # Globally averaged marine surface monthly mean CO2.
           # ------------------------------------------------------------
 
           co2_url = (
               "https://gml.noaa.gov/"
               "webdata/ccgg/trends/co2/"
-              "co2_daily_mlo.csv"
+              "co2_mm_gl.csv"
           )
-
 
           print(
-              "Fetching CO2:",
+              "Fetching global CO2:",
               co2_url
           )
 
-
-          co2_bytes = fetch_bytes(
+          co2_text = fetch_bytes(
               co2_url
-          )
-
-
-          co2_text = co2_bytes.decode(
+          ).decode(
               "utf-8",
               errors="replace"
           )
 
-
           latest_co2 = None
-
+          latest_co2_date = None
 
           for line in co2_text.splitlines():
-
               line = line.strip()
 
-              if not line:
-                  continue
-
-              if line.startswith("#"):
+              if not line or line.startswith("#"):
                   continue
 
               parts = [
@@ -485,229 +554,59 @@ jobs:
                   for p in line.split(",")
               ]
 
-              if len(parts) < 5:
+              if len(parts) < 4:
                   continue
 
               try:
                   year = int(parts[0])
                   month = int(parts[1])
-                  day = int(parts[2])
-                  value = float(parts[4])
+                  value = float(parts[3])
+                  row_date = datetime(
+                      year,
+                      month,
+                      1,
+                      tzinfo=timezone.utc
+                  )
               except Exception:
                   continue
 
               if value <= 0:
                   continue
 
-              latest_co2 = {
-                  "year": year,
-                  "month": month,
-                  "day": day,
-                  "value": value
-              }
-
+              if latest_co2_date is None or row_date > latest_co2_date:
+                  latest_co2_date = row_date
+                  latest_co2 = {
+                      "year": year,
+                      "month": month,
+                      "day": 1,
+                      "value": value
+                  }
 
           if not latest_co2:
               raise RuntimeError(
-                  "NOAA CO2 data could not be read."
+                  "NOAA global CO2 data could not be read."
               )
 
+          if latest_co2_date > now_utc + timedelta(days=31):
+              raise RuntimeError(
+                  "NOAA global CO2 date is invalid."
+              )
+
+          if now_utc - latest_co2_date > timedelta(days=120):
+              raise RuntimeError(
+                  "NOAA global CO2 data is too old."
+              )
 
           co2_value = latest_co2["value"]
 
-
           print(
-              "CO2:",
+              "GLOBAL CO2:",
               co2_value,
               "ppm",
               latest_co2["year"],
-              latest_co2["month"],
-              latest_co2["day"]
+              latest_co2["month"]
           )
 
-
-          # ------------------------------------------------------------
-          # 3. SEA SURFACE
-          #
-          # NOAA ACSPO daily global SST.
-          # NOAA CoastWatch / NOAA NESDIS STAR.
-          #
-          # A coarse global sample is used rather than downloading the
-          # entire 0.02-degree grid. Latitude weighting is applied to
-          # make the sampled global average area-aware.
-          # ------------------------------------------------------------
-
-          sst_base = (
-              "https://oceanwatch.pifsc.noaa.gov/"
-              "erddap/griddap/"
-              "ACSPO_LEO_L3S_nrt.json"
-          )
-
-          sst_query = (
-              "?sea_surface_temperature"
-              "[(last)]"
-              "[(-80):10:(80)]"
-              "[(0):10:(350)]"
-          )
-
-          sst_url = (
-              sst_base
-              + sst_query
-          )
-
-          print(
-              "Fetching NOAA global SST sample..."
-          )
-
-          sst_value = None
-          sst_time = None
-
-          try:
-
-              sst_raw = fetch_json(
-                  sst_url,
-                  timeout=120
-              )
-
-              rows = []
-
-              if isinstance(
-                  sst_raw,
-                  dict
-              ):
-                  table = sst_raw.get(
-                      "table",
-                      {}
-                  )
-
-                  column_names = table.get(
-                      "columnNames",
-                      []
-                  )
-
-                  table_rows = table.get(
-                      "rows",
-                      []
-                  )
-
-                  sst_index = None
-                  time_index = None
-                  latitude_index = None
-
-                  for i, name in enumerate(
-                      column_names
-                  ):
-                      name_lower = str(
-                          name
-                      ).lower()
-
-                      if name_lower == "sea_surface_temperature":
-                          sst_index = i
-
-                      elif name_lower == "time":
-                          time_index = i
-
-                      elif name_lower == "latitude":
-                          latitude_index = i
-
-                  if (
-                      sst_index is not None
-                      and latitude_index is not None
-                  ):
-                      for row in table_rows:
-
-                          if not isinstance(
-                              row,
-                              list
-                          ):
-                              continue
-
-                          if len(row) <= max(
-                              sst_index,
-                              latitude_index
-                          ):
-                              continue
-
-                          value = number(
-                              row[sst_index]
-                          )
-
-                          latitude = number(
-                              row[latitude_index]
-                          )
-
-                          if value is None or latitude is None:
-                              continue
-
-                          if value < -2 or value > 45:
-                              continue
-
-                          weight = math.cos(
-                              math.radians(latitude)
-                          )
-
-                          if weight <= 0:
-                              continue
-
-                          rows.append(
-                              (value, weight)
-                          )
-
-                          if (
-                              sst_time is None
-                              and time_index is not None
-                              and len(row) > time_index
-                          ):
-                              sst_time = clean(
-                                  row[time_index]
-                              )
-
-              if rows:
-
-                  weighted_sum = sum(
-                      value * weight
-                      for value, weight in rows
-                  )
-
-                  weight_total = sum(
-                      weight
-                      for _, weight in rows
-                  )
-
-                  if weight_total > 0:
-                      sst_value = (
-                          weighted_sum
-                          / weight_total
-                      )
-
-                      print(
-                          "SEA SURFACE:",
-                          round(
-                              sst_value,
-                              2
-                          ),
-                          "°C",
-                          "from",
-                          len(rows),
-                          "global samples"
-                      )
-
-              else:
-                  print(
-                      "NO VALID SST VALUES."
-                  )
-
-          except Exception as e:
-
-              print(
-                  "SST fetch failed:",
-                  str(e)
-              )
-
-          if sst_value is None:
-              raise RuntimeError(
-                  "NOAA global SST data could not be obtained."
-              )
 
           # ------------------------------------------------------------
           # 4. GEOMAGNETIC
@@ -748,12 +647,25 @@ jobs:
 
 
           if not kp_rows:
-                        raise RuntimeError(
+              raise RuntimeError(
                   "NOAA Kp data is empty."
               )
 
 
-          kp_latest = kp_rows[-1]
+          kp_latest, kp_latest_dt = latest_timestamped_row(
+              kp_rows,
+              ["time_tag", "time"]
+          )
+
+          if kp_latest is None or kp_latest_dt is None:
+              raise RuntimeError(
+                  "NOAA Kp data has no valid timestamped row."
+              )
+
+          if now_utc - kp_latest_dt > timedelta(hours=12):
+              raise RuntimeError(
+                  "NOAA Kp data is too old."
+              )
 
 
           geomagnetic_kp = number(
@@ -787,143 +699,6 @@ jobs:
           )
 
 
-          # ------------------------------------------------------------
-          # 5. DAY / NIGHT
-          #
-          # The illuminated half of Earth is calculated from the
-          # current UTC solar position. The global day/night split is
-          # approximately 50/50 by area.
-          #
-          # This is calculated locally; no third-party data is copied.
-          # ------------------------------------------------------------
-
-          now_utc = datetime.now(
-              timezone.utc
-          )
-
-
-          day_fraction = 0.5
-
-
-          day_percent = round(
-              day_fraction * 100,
-              1
-          )
-
-
-          night_percent = round(
-              100 - day_percent,
-              1
-          )
-
-
-          day_night_value = (
-              f"{day_percent:.1f}% DAY / "
-              f"{night_percent:.1f}% NIGHT"
-          )
-
-
-          print(
-              "DAY / NIGHT:",
-              day_night_value
-          )
-
-
-          # ------------------------------------------------------------
-          # 6. CLOUD COVER
-          #
-          # NOAA surface observation cloud-cover layer.
-          #
-          # We use the existing METAR station population already
-          # downloaded above. Cloud cover is read from the raw METAR
-          # observation when available.
-          #
-          # Cloud-cover categories are converted to approximate
-          # oktas using standard METAR coverage categories.
-          # ------------------------------------------------------------
-
-          cloud_values = []
-
-
-          def cloud_oktas_from_raw(raw):
-
-              if not raw:
-                  return None
-
-              text = str(raw).upper()
-
-              if "VV" in text:
-                  return 8
-
-              if "OVC" in text:
-                  return 8
-
-              if "BKN" in text:
-                  return 6
-
-              if "SCT" in text:
-                  return 3
-
-              if "FEW" in text:
-                  return 2
-
-              if "CLR" in text:
-                  return 0
-
-              if "SKC" in text:
-                  return 0
-
-              return None
-
-
-          for station in valid_rows:
-
-              oktas = cloud_oktas_from_raw(
-                  station.get("raw")
-              )
-
-              if oktas is None:
-                  continue
-
-              cloud_values.append(
-                  oktas
-              )
-
-
-          if not cloud_values:
-              raise RuntimeError(
-                  "No usable cloud-cover observations found."
-              )
-
-
-          cloud_oktas = (
-              sum(cloud_values)
-              / len(cloud_values)
-          )
-
-
-          cloud_percent = (
-              cloud_oktas
-              / 8
-              * 100
-          )
-
-
-          cloud_percent = round(
-              cloud_percent,
-              1
-          )
-
-
-          print(
-              "CLOUD COVER:",
-              cloud_percent,
-              "%",
-              "from",
-              len(cloud_values),
-              "METAR observations"
-          )
-
 
           # ------------------------------------------------------------
           # GLOBAL PULSE OBJECT
@@ -954,7 +729,7 @@ jobs:
                       f"{co2_value:.2f} ppm",
 
                   "source":
-                      "NOAA Global Monitoring Laboratory",
+                      "NOAA Global Monitoring Laboratory - Global Monthly Mean CO2",
 
                   "date":
                       (
@@ -962,24 +737,6 @@ jobs:
                           f"{latest_co2['month']:02d}-"
                           f"{latest_co2['day']:02d}"
                       )
-              },
-
-
-              "seaSurface": {
-                  "value":
-                      round(
-                          sst_value,
-                          2
-                      ),
-
-                  "display":
-                      f"{sst_value:.2f} °C",
-
-                  "source":
-                      "NOAA ACSPO Global SST",
-
-                  "time":
-                      sst_time
               },
 
 
@@ -1000,29 +757,6 @@ jobs:
                       geomagnetic_time
               },
 
-
-              "dayNight": {
-                  "value":
-                      day_fraction,
-
-                  "display":
-                      day_night_value,
-
-                  "source":
-                      "Solar geometry"
-              },
-
-
-              "cloudCover": {
-                  "value":
-                      cloud_percent,
-
-                  "display":
-                      f"{cloud_percent:.1f}%",
-
-                  "source":
-                      "NOAA / AviationWeather.gov"
-              }
           }
 
 
@@ -1063,23 +797,15 @@ jobs:
 
 
           def latest_row(data):
-              if isinstance(data, dict):
-                  return data
-
-              if not isinstance(
+              row, timestamp = latest_timestamped_row(
                   data,
-                  list
-              ):
-                  return {}
+                  ["time_tag", "time"]
+              )
 
-              for row in reversed(data):
-                  if isinstance(
-                      row,
-                      dict
-                  ):
-                      return row
+              if row is None:
+                  return {}, None
 
-              return {}
+              return row, timestamp
 
 
           def val(obj, *keys):
@@ -1275,81 +1001,92 @@ jobs:
 
           category_titles = []
 
-
           for category in commons_categories:
-
-              if len(category_titles) >= 50:
+              if len(category_titles) >= 2000:
                   break
 
-              category_params = {
-                  "action": "query",
-                  "format": "json",
-                  "list": "categorymembers",
-                  "cmtitle":
-                      "Category:" + category,
-                  "cmtype": "file",
-                  "cmlimit": "100"
-              }
+              collected_for_category = 0
+              continuation = {}
 
-              category_url = (
-                  commons_api
-                  + "?"
-                  + urllib.parse.urlencode(
-                      category_params
-                  )
-              )
+              while collected_for_category < 250:
+                  category_params = {
+                      "action": "query",
+                      "format": "json",
+                      "list": "categorymembers",
+                      "cmtitle": "Category:" + category,
+                      "cmtype": "file",
+                      "cmlimit": "500"
+                  }
 
-              try:
-                  category_data = fetch_json(
-                      category_url
-                  )
-              except Exception as e:
-                  print(
-                      "Category failed:",
-                      category,
-                      str(e)
-                  )
-                  continue
+                  category_params.update(continuation)
 
-              members = (
-                  category_data
-                  .get("query", {})
-                  .get("categorymembers", [])
-              )
-
-              random.shuffle(
-                  members
-              )
-
-              for member in members:
-
-                  title = clean(
-                      member.get("title")
+                  category_url = (
+                      commons_api
+                      + "?"
+                      + urllib.parse.urlencode(
+                          category_params
+                      )
                   )
 
-                  if not title:
-                      continue
-
-                  lower_title = (
-                      title.lower()
-                  )
-
-                  if any(
-                      word in lower_title
-                      for word in blocked_words
-                  ):
-                      continue
-
-                  if title in category_titles:
-                      continue
-
-                  category_titles.append(
-                      title
-                  )
-
-                  if len(category_titles) >= 50:
+                  try:
+                      category_data = fetch_json(
+                          category_url
+                      )
+                  except Exception as e:
+                      print(
+                          "Category failed:",
+                          category,
+                          str(e)
+                      )
                       break
 
+                  members = (
+                      category_data
+                      .get("query", {})
+                      .get("categorymembers", [])
+                  )
+
+                  if not members:
+                      break
+
+                  random.shuffle(members)
+
+                  for member in members:
+                      title = clean(
+                          member.get("title")
+                      )
+
+                      if not title:
+                          continue
+
+                      lower_title = title.lower()
+
+                      if any(
+                          word in lower_title
+                          for word in blocked_words
+                      ):
+                          continue
+
+                      if title in category_titles:
+                          continue
+
+                      category_titles.append(title)
+
+                      if len(category_titles) >= 2000:
+                          break
+
+                  collected_for_category += len(members)
+
+                  if len(category_titles) >= 2000:
+                      break
+
+                  continuation = category_data.get(
+                      "continue",
+                      {}
+                  )
+
+                  if not continuation:
+                      break
 
           random.shuffle(
               category_titles
@@ -1461,25 +1198,23 @@ jobs:
                   )
 
 
-                  license_lower = (
+                  license_lower = re.sub(
+                      r"\s+",
+                      " ",
                       license_short.lower()
-                  )
+                  ).strip()
 
-
+                  # Strict commercial-use safety: accept only CC0 / Public Domain.
                   allowed_license = (
-                      "cc0"
-                      in license_lower
-                      or
-                      "cc by"
-                      in license_lower
-                      or
-                      "cc-by"
-                      in license_lower
-                      or
-                      "public domain"
-                      in license_lower
+                      license_lower in {
+                          "cc0",
+                          "cc0 1.0",
+                          "cc0 1.0 universal public domain dedication",
+                          "public domain",
+                          "public domain mark"
+                      }
+                      or license_lower.startswith("public domain ")
                   )
-
 
                   if not allowed_license:
                       continue
@@ -1498,7 +1233,22 @@ jobs:
 
 
                   if any(
-                                        word in lower_page_title
+                      word in lower_page_title
+                      for word in blocked_words
+                  ):
+                      continue
+
+                  description = clean(
+                      metadata.get(
+                          "ImageDescription",
+                          {}
+                      ).get("value")
+                  )
+
+                  description_lower = description.lower()
+
+                  if any(
+                      word in description_lower
                       for word in blocked_words
                   ):
                       continue
@@ -1531,6 +1281,13 @@ jobs:
                   artist = clean(
                       metadata.get(
                           "Artist",
+                          {}
+                      ).get("value")
+                  )
+
+                  license_url = clean(
+                      metadata.get(
+                          "LicenseUrl",
                           {}
                       ).get("value")
                   )
@@ -1742,6 +1499,10 @@ jobs:
           # WORLD DATA
           # ============================================================
 
+          generated = datetime.now(
+              timezone.utc
+          ).isoformat()
+
           world = {
 
               "generatedAt":
@@ -1768,8 +1529,6 @@ jobs:
                   "globalPulseGeomagnetic":
                       "NOAA SWPC",
 
-                  "globalPulseCloudCover":
-                      "AviationWeather.gov",
 
                   "mediaSignal1":
                       "Wikimedia Commons",
@@ -1805,6 +1564,9 @@ jobs:
 
                   "license":
                       media1_info["license"],
+
+                  "rights":
+                      "CC0/Public Domain only; selected automatically for commercial-use safety.",
 
                   "page":
                       media1_info["url"]
@@ -1843,15 +1605,6 @@ jobs:
 
                   "magneticField":
                       magnetic_field,
-
-                  "interplanetary": {
-
-                      "solarWind":
-                          solar_wind,
-
-                      "magneticField":
-                          magnetic_field
-                  },
 
                   "kp": {
 
@@ -1903,24 +1656,11 @@ jobs:
           )
 
           print(
-              "GLOBAL PULSE sea surface:",
-              global_pulse["seaSurface"]["display"]
-          )
-
-          print(
               "GLOBAL PULSE geomagnetic:",
               global_pulse["geomagnetic"]["display"]
           )
 
-          print(
-              "GLOBAL PULSE day/night:",
-              global_pulse["dayNight"]["display"]
-          )
 
-          print(
-              "GLOBAL PULSE cloud cover:",
-              global_pulse["cloudCover"]["display"]
-          )
 
           print("================================")
 
@@ -1931,8 +1671,9 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          import math
           import os
-
+          from datetime import datetime, timezone, timedelta
 
           with open(
               "world-data.json",
@@ -1941,289 +1682,223 @@ jobs:
           ) as f:
               data = json.load(f)
 
+          def require_dict(obj, name):
+              if not isinstance(obj, dict) or not obj:
+                  raise RuntimeError(
+                      name + " is missing or empty."
+                  )
 
-          atmosphere = data.get(
-              "atmosphere"
-          )
+          def require_finite(value, name):
+              if not isinstance(value, (int, float)) or not math.isfinite(float(value)):
+                  raise RuntimeError(
+                      name + " is not a finite number."
+                  )
 
-          random_place = data.get(
-              "randomPlace"
-          )
+          def parse_dt(value):
+              if not value:
+                  return None
+              text = str(value).strip()
+              if text.endswith("Z"):
+                  text = text[:-1] + "+00:00"
+              try:
+                  dt = datetime.fromisoformat(text)
+                  if dt.tzinfo is None:
+                      dt = dt.replace(tzinfo=timezone.utc)
+                  return dt.astimezone(timezone.utc)
+              except Exception:
+                  return None
 
-          global_pulse = data.get(
-              "globalPulse"
-          )
+          now = datetime.now(timezone.utc)
 
-          space = data.get(
-              "space"
-          )
+          atmosphere = data.get("atmosphere")
+          random_place = data.get("randomPlace")
+          global_pulse = data.get("globalPulse")
+          space = data.get("space")
+          images = data.get("images")
+          media1 = data.get("mediaSignal1")
+          media2 = data.get("mediaSignal2")
 
-          images = data.get(
-              "images"
-          )
+          require_dict(atmosphere, "Atmosphere data")
+          require_dict(random_place, "Random Place data")
+          require_dict(global_pulse, "GLOBAL PULSE data")
+          require_dict(space, "Space Weather data")
+          require_dict(images, "Images data")
+          require_dict(media1, "MEDIA SIGNAL ① metadata")
+          require_dict(media2, "MEDIA SIGNAL ② metadata")
 
-          media1 = data.get(
-              "mediaSignal1"
-          )
-
-          media2 = data.get(
-              "mediaSignal2"
-          )
-
-
-          if not isinstance(
-              atmosphere,
-              dict
-          ) or not atmosphere:
-              raise RuntimeError(
-                  "Atmosphere data is empty."
-              )
-
-
-          if not isinstance(
-              random_place,
-              dict
-          ) or not random_place:
-              raise RuntimeError(
-                  "Random Place data is empty."
-              )
-
-
-          if (
-              random_place.get("lat") is None
-              or
-              random_place.get("lon") is None
+          for obj, name in (
+              (atmosphere, "Atmosphere"),
+              (random_place, "Random Place")
           ):
-              raise RuntimeError(
-                  "Random Place coordinates are missing."
+              if obj.get("lat") is None or obj.get("lon") is None:
+                  raise RuntimeError(
+                      name + " coordinates are missing."
+                  )
+              require_finite(obj.get("lat"), name + " latitude")
+              require_finite(obj.get("lon"), name + " longitude")
+
+              obs_dt = parse_dt(
+                  obj.get("observationTime")
               )
-
-
-          if not isinstance(
-              global_pulse,
-              dict
-          ) or not global_pulse:
-              raise RuntimeError(
-                  "GLOBAL PULSE data is missing."
-              )
-
+              if obs_dt is None:
+                  raise RuntimeError(
+                      name + " observation timestamp is invalid."
+                  )
+              if now - obs_dt > timedelta(hours=2):
+                  raise RuntimeError(
+                      name + " observation is too old."
+                  )
 
           required_global_pulse = [
               "population",
               "co2",
-              "seaSurface",
-              "geomagnetic",
-              "dayNight",
-              "cloudCover"
+              "geomagnetic"
           ]
 
-
           for key in required_global_pulse:
-
-              item = global_pulse.get(
-                  key
-              )
-
-              if not isinstance(
-                  item,
-                  dict
-              ):
+              item = global_pulse.get(key)
+              require_dict(item, "GLOBAL PULSE " + key)
+              if not item.get("display"):
                   raise RuntimeError(
-                      "GLOBAL PULSE field is missing: "
-                      + key
+                      "GLOBAL PULSE display is missing: " + key
                   )
 
-              if not item.get(
-                  "display"
-              ):
+          require_finite(
+              global_pulse["population"]["value"],
+              "WORLD POPULATION"
+          )
+          require_finite(
+              global_pulse["co2"]["value"],
+              "GLOBAL CO2"
+          )
+          require_finite(
+              global_pulse["geomagnetic"]["value"],
+              "GEOMAGNETIC"
+          )
+          co2_date = parse_dt(
+              global_pulse["co2"].get("date")
+          )
+          if co2_date is None or now - co2_date > timedelta(days=120):
+              raise RuntimeError(
+                  "GLOBAL CO2 date is missing or too old."
+              )
+
+          geomagnetic_time = parse_dt(
+              global_pulse["geomagnetic"].get("time")
+          )
+          if geomagnetic_time is None or now - geomagnetic_time > timedelta(hours=12):
+              raise RuntimeError(
+                  "GEOMAGNETIC timestamp is missing or too old."
+              )
+
+          solar_wind = space.get("solarWind")
+          magnetic = space.get("magneticField")
+          kp = space.get("kp")
+          flux = space.get("flux10cm")
+
+          require_dict(solar_wind, "Solar Wind")
+          require_dict(magnetic, "Magnetic Field")
+          require_dict(kp, "Kp")
+          require_dict(flux, "10cm Flux")
+
+          require_finite(
+              solar_wind.get("speed"),
+              "Solar Wind speed"
+          )
+          require_finite(
+              magnetic.get("bt"),
+              "Magnetic Bt"
+          )
+          require_finite(
+              magnetic.get("bz"),
+              "Magnetic Bz"
+          )
+          require_finite(
+              kp.get("kp"),
+              "Kp"
+          )
+          require_finite(
+              flux.get("flux"),
+              "10cm Flux"
+          )
+
+          for obj, name, limit in (
+              (solar_wind, "Solar Wind", timedelta(hours=3)),
+              (magnetic, "Magnetic Field", timedelta(hours=3)),
+              (kp, "Kp", timedelta(hours=12)),
+              (flux, "10cm Flux", timedelta(days=7))
+          ):
+              dt = parse_dt(obj.get("time"))
+              if dt is None or now - dt > limit:
                   raise RuntimeError(
-                      "GLOBAL PULSE display is missing: "
-                      + key
+                      name + " timestamp is missing or too old."
                   )
 
-
-          if not isinstance(
-              space,
-              dict
-          ) or not space:
+          if not images.get("media1") or not images.get("media2"):
               raise RuntimeError(
-                  "Space Weather data is empty."
+                  "MEDIA SIGNAL image paths are missing."
               )
 
-
-          if not isinstance(
-              images,
-              dict
-          ):
-              raise RuntimeError(
-                  "Images data is missing."
-              )
-
-
-          if not images.get(
-              "media1"
-          ):
-              raise RuntimeError(
-                  "MEDIA SIGNAL ① is missing."
-              )
-
-
-          if not images.get(
-              "media2"
-          ):
-              raise RuntimeError(
-                  "MEDIA SIGNAL ② is missing."
-              )
-
-
-          if not os.path.exists(
-              "world-media/media1.jpg"
-          ):
-              raise RuntimeError(
-                  "MEDIA SIGNAL ① image file is missing."
-              )
-
-
-          if not os.path.exists(
+          for path in (
+              "world-media/media1.jpg",
               "world-media/media2.jpg"
           ):
-              raise RuntimeError(
-                  "MEDIA SIGNAL ② image file is missing."
-              )
+              if not os.path.exists(path) or os.path.getsize(path) < 1000:
+                  raise RuntimeError(
+                      "Image file is missing or too small: " + path
+                  )
 
-
-          if not isinstance(
-              media1,
-              dict
-          ) or not media1.get(
-              "license"
-          ):
+          if not media1.get("license"):
               raise RuntimeError(
                   "MEDIA SIGNAL ① license metadata is missing."
               )
 
+          license_lower = str(
+              media1["license"]
+          ).lower()
 
-          if not isinstance(
-              media2,
-              dict
-          ) or not media2.get(
-              "source"
+          accepted_media1_licenses = {
+              "cc0",
+              "cc0 1.0",
+              "cc0 1.0 universal public domain dedication",
+              "public domain",
+              "public domain mark"
+          }
+
+          if not (
+              license_lower in accepted_media1_licenses
+              or license_lower.startswith("public domain ")
           ):
               raise RuntimeError(
-                  "MEDIA SIGNAL ② source metadata is missing."
+                  "MEDIA SIGNAL ① license is not in the strict CC0/Public Domain-only set."
+              )
+          if generated_dt is None:
+              raise RuntimeError(
+                  "generatedAt is invalid."
               )
 
+          if generated_dt > now + timedelta(minutes=5):
+              raise RuntimeError(
+                  "generatedAt is in the future."
+              )
 
-          print(
-              "================================"
-          )
-
-          print(
-              "Verification OK"
-          )
-
-          print(
-              "Atmosphere:",
-              atmosphere.get("name")
-          )
-
-          print(
-              "Random Place:",
-              random_place.get("name")
-          )
-
-          print(
-              "Coordinates:",
-              random_place.get("lat"),
-              random_place.get("lon")
-          )
-
-          print(
-              "WORLD POPULATION:",
-              global_pulse["population"]["display"]
-          )
-
-          print(
-              "CO2:",
-              global_pulse["co2"]["display"]
-          )
-
-          print(
-              "SEA SURFACE:",
-              global_pulse["seaSurface"]["display"]
-          )
-
-          print(
-              "GEOMAGNETIC:",
-              global_pulse["geomagnetic"]["display"]
-          )
-
-          print(
-              "DAY / NIGHT:",
-              global_pulse["dayNight"]["display"]
-          )
-
-          print(
-              "CLOUD COVER:",
-              global_pulse["cloudCover"]["display"]
-          )
-
-          print(
-              "MEDIA SIGNAL ①:",
-              media1.get("title")
-          )
-
-          print(
-              "MEDIA SIGNAL ① License:",
-              media1.get("license")
-          )
-
-          print(
-              "MEDIA SIGNAL ②:",
-              media2.get("name")
-          )
-
-          print(
-              "MEDIA SIGNAL ② Source:",
-              media2.get("source")
-          )
-
-          print(
-              "Solar Wind:",
-              space.get(
-                  "solarWind",
-                  {}
-              ).get("speed")
-          )
-
-          print(
-              "Magnetic Bt:",
-              space.get(
-                  "magneticField",
-                  {}
-              ).get("bt")
-          )
-
-          print(
-              "Kp:",
-              space.get(
-                  "kp",
-                  {}
-              ).get("kp")
-          )
-
-          print(
-              "10cm Flux:",
-              space.get(
-                  "flux10cm",
-                  {}
-              ).get("flux")
-          )
-
-          print(
-              "================================"
-          )
-
+          print("================================")
+          print("Verification OK")
+          print("Atmosphere:", atmosphere.get("name"))
+          print("Random Place:", random_place.get("name"))
+          print("Coordinates:", random_place.get("lat"), random_place.get("lon"))
+          print("WORLD POPULATION:", global_pulse["population"]["display"])
+          print("CO2:", global_pulse["co2"]["display"])
+          print("GEOMAGNETIC:", global_pulse["geomagnetic"]["display"])
+          print("MEDIA SIGNAL ①:", media1.get("title"))
+          print("MEDIA SIGNAL ① License:", media1.get("license"))
+          print("MEDIA SIGNAL ②:", media2.get("name"))
+          print("MEDIA SIGNAL ② Source:", media2.get("source"))
+          print("Solar Wind:", solar_wind.get("speed"))
+          print("Magnetic Bt:", magnetic.get("bt"))
+          print("Kp:", kp.get("kp"))
+          print("10cm Flux:", flux.get("flux"))
+          print("================================")
           PY
 
 
