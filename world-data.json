@@ -1,29 +1,65 @@
 {
-  "generatedAt": "2026-09-14T15:52:56.807731+00:00",
+  "generatedAt": "2026-09-14T16:35:09.153141+00:00",
+  "sources": {
+    "weather": "AviationWeather.gov",
+    "spaceWeather": "NOAA SWPC",
+    "satellite": "NOAA GOES"
+  },
   "images": {
     "earth": "world-media/earth.jpg",
     "media1": "world-media/media1.jpg",
     "media2": "world-media/media2.jpg"
   },
-  "atmosphere": {},
-  "randomPlace": {},
+  "atmosphere": {
+    "name": "EFTP",
+    "station": "EFTP",
+    "lat": 61.419,
+    "lon": 23.616,
+    "weather": "No coded weather",
+    "temperature": 12.0,
+    "dewpoint": 6.0,
+    "windSpeed": 4.0,
+    "windDirection": 260.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-14T16:20:00.000Z",
+    "raw": "METAR EFTP 141620Z AUTO 26004KT CAVOK 12/06 Q1019"
+  },
+  "randomPlace": {
+    "name": "KEFT",
+    "station": "KEFT",
+    "lat": 42.6196,
+    "lon": -89.5931,
+    "weather": "No coded weather",
+    "temperature": 18.0,
+    "dewpoint": 9.6,
+    "windSpeed": 12.0,
+    "windDirection": 150.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-14T16:15:00.000Z",
+    "raw": "METAR KEFT 141615Z AUTO 15012KT 10SM BKN080 18/10 A3023 RMK AO2 T01800096 PWINO"
+  },
   "space": {
     "solarWind": {
-      "time": "",
-      "speed": null
+      "time": "2026-09-14T16:27:00Z",
+      "speed": 350.0
     },
     "magneticField": {
-      "time": "",
-      "bt": null,
-      "bz": null
+      "time": "2026-09-14T16:27:00Z",
+      "bt": 13.0,
+      "bz": 11.0
     },
     "interplanetary": {
-      "solarWindSpeed": null,
-      "bt": null,
-      "bz": null
-    },
-    "aurora": {
-      "available": true
+      "solarWind": {
+        "time": "2026-09-14T16:27:00Z",
+        "speed": 350.0
+      },
+      "magneticField": {
+        "time": "2026-09-14T16:27:00Z",
+        "bt": 13.0,
+        "bz": 11.0
+      }
     },
     "kp": {
       "time": "2026-09-14T12:00:00",
