@@ -15,155 +15,198 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate WORLD NEWS data
+      - name: Update WORLD NEWS
         run: |
           python - <<'PY'
-          import json, gzip, csv, io, os, random, urllib.request
+          import json
+          import os
+          import random
+          import urllib.request
           from datetime import datetime, timezone
 
           UA = "WORLD-NEWS/1.0"
 
           def get(url):
-              req = urllib.request.Request(url, headers={"User-Agent": UA})
+              req = urllib.request.Request(
+                  url,
+                  headers={"User-Agent": UA, "Accept": "application/json"}
+              )
               with urllib.request.urlopen(req, timeout=60) as r:
                   return r.read()
 
           def get_json(url):
               return json.loads(get(url).decode("utf-8"))
 
-          def num(x):
+          def num(v):
               try:
-                  return float(x)
+                  return float(v)
               except:
                   return None
 
-          # =========================
-          # ATMOSPHERE / RANDOM PLACE
-          # =========================
+          # ==========================================
+          # WEATHER
+          # ==========================================
 
-          raw = get(
-              "https://aviationweather.gov/data/cache/metars.cache.csv.gz"
-          )
+          weather = []
 
-          text = gzip.decompress(raw).decode("utf-8", errors="replace")
+          try:
+              data = get_json(
+                  "https://aviationweather.gov/api/data/metar"
+                  "?format=json&hours=1"
+              )
 
-          rows = list(csv.DictReader(io.StringIO(text)))
+              if isinstance(data, list):
+                  weather = [
+                      x for x in data
+                      if isinstance(x, dict)
+                      and x.get("icaoId")
+                      and num(x.get("lat")) is not None
+                      and num(x.get("lon")) is not None
+                  ]
 
-          usable = []
+          except Exception as e:
+              print("WEATHER ERROR:", e)
 
-          for r in rows:
-              lat = num(r.get("lat"))
-              lon = num(r.get("lon"))
-
-              if r.get("icaoId") and lat is not None and lon is not None:
-                  usable.append(r)
-
-          if len(usable) < 2:
-              raise RuntimeError("METAR data unavailable")
-
-          random.shuffle(usable)
-
-          def weather(r):
+          def make_weather(x):
               return {
-                  "name": r.get("name") or r.get("icaoId"),
-                  "station": r.get("icaoId"),
-                  "lat": num(r.get("lat")),
-                  "lon": num(r.get("lon")),
-                  "weather": r.get("wxString") or "No coded weather",
-                  "temperature": num(r.get("temp")),
-                  "dewpoint": num(r.get("dewp")),
-                  "windSpeed": num(r.get("wspd")),
-                  "windDirection": num(r.get("wdir")),
-                  "visibility": r.get("visib") or "N/A",
-                  "flightCategory": r.get("fltCat") or "N/A",
-                  "observationTime": r.get("obsTime") or "",
-                  "raw": r.get("rawOb") or ""
+                  "name": x.get("name") or x.get("icaoId") or "Unknown",
+                  "station": x.get("icaoId") or "",
+                  "lat": num(x.get("lat")),
+                  "lon": num(x.get("lon")),
+                  "weather": x.get("wxString") or "No coded weather",
+                  "temperature": num(x.get("temp")),
+                  "dewpoint": num(x.get("dewp")),
+                  "windSpeed": num(x.get("wspd")),
+                  "windDirection": num(x.get("wdir")),
+                  "visibility": x.get("visib") or "N/A",
+                  "flightCategory": x.get("fltCat") or "N/A",
+                  "observationTime": x.get("obsTime") or "",
+                  "raw": x.get("rawOb") or ""
               }
 
-          atmosphere = weather(usable[0])
-          random_place = weather(usable[1])
+          if len(weather) >= 2:
+              random.shuffle(weather)
+              atmosphere = make_weather(weather[0])
+              random_place = make_weather(weather[1])
+          elif len(weather) == 1:
+              atmosphere = make_weather(weather[0])
+              random_place = make_weather(weather[0])
+          else:
+              atmosphere = {}
+              random_place = {}
 
-          # =========================
+          # ==========================================
           # NOAA SPACE WEATHER
-          # =========================
+          # ==========================================
 
-          speed = get_json(
-              "https://services.swpc.noaa.gov/products/solar-wind/solar-wind-speed.json"
+          def latest(url):
+              try:
+                  data = get_json(url)
+
+                  if isinstance(data, list):
+                      for row in reversed(data):
+                          if isinstance(row, dict):
+                              return row
+
+                  return {}
+              except Exception as e:
+                  print("NOAA ERROR:", url, e)
+                  return {}
+
+          solar = latest(
+              "https://services.swpc.noaa.gov/"
+              "products/solar-wind/solar-wind-speed.json"
           )
 
-          mag = get_json(
-              "https://services.swpc.noaa.gov/products/solar-wind/solar-wind-mag-field.json"
+          magnetic = latest(
+              "https://services.swpc.noaa.gov/"
+              "products/solar-wind/solar-wind-mag-field.json"
           )
 
-          kp = get_json(
-              "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json"
+          kp = latest(
+              "https://services.swpc.noaa.gov/"
+              "products/noaa-planetary-k-index.json"
           )
 
-          flux = get_json(
-              "https://services.swpc.noaa.gov/products/10cm-flux-30-day.json"
+          flux = latest(
+              "https://services.swpc.noaa.gov/"
+              "products/10cm-flux-30-day.json"
           )
 
-          def last(data):
-              if isinstance(data, list):
-                  for x in reversed(data):
-                      if isinstance(x, dict):
-                          return x
-              return {}
-
-          s = last(speed)
-          m = last(mag)
-          k = last(kp)
-          f = last(flux)
+          # Aurora
+          try:
+              aurora = get_json(
+                  "https://services.swpc.noaa.gov/"
+                  "json/ovation_aurora_latest.json"
+              )
+              aurora_available = bool(aurora)
+          except:
+              aurora_available = False
 
           solar_wind = {
-              "time": s.get("time_tag", ""),
-              "speed": num(s.get("proton_speed"))
+              "time": solar.get("time_tag", ""),
+              "speed": num(solar.get("proton_speed"))
           }
 
-          magnetic = {
-              "time": m.get("time_tag", ""),
-              "bt": num(m.get("bt")),
-              "bz": num(m.get("bz_gsm"))
+          magnetic_field = {
+              "time": magnetic.get("time_tag", ""),
+              "bt": num(magnetic.get("bt")),
+              "bz": num(magnetic.get("bz_gsm"))
           }
 
           kp_data = {
-              "time": k.get("time_tag", ""),
-              "kp": num(k.get("Kp"))
+              "time": kp.get("time_tag", ""),
+              "kp": num(kp.get("Kp"))
           }
 
           flux_data = {
-              "time": f.get("time_tag", ""),
-              "flux": num(f.get("flux"))
+              "time": flux.get("time_tag", ""),
+              "flux": num(flux.get("flux"))
           }
 
-          # =========================
-          # SAVE
-          # =========================
+          # ==========================================
+          # IMAGES
+          # ==========================================
 
           os.makedirs("world-media", exist_ok=True)
 
           images = {
               "earth":
-                "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg",
+              "https://cdn.star.nesdis.noaa.gov/"
+              "GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg",
 
               "media1":
-                "https://cdn.star.nesdis.noaa.gov/GOES19/GLM/CONUS/EXTENT3/1250x750.jpg",
+              "https://cdn.star.nesdis.noaa.gov/"
+              "GOES19/GLM/CONUS/EXTENT3/1250x750.jpg",
 
               "media2":
-                "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/DMW/1250x750.jpg"
+              "https://cdn.star.nesdis.noaa.gov/"
+              "GOES19/ABI/CONUS/DMW/1250x750.jpg"
           }
 
           for name, url in images.items():
               try:
                   data = get(url)
+
                   if len(data) > 1000:
-                      with open(f"world-media/{name}.jpg", "wb") as f:
+                      with open(
+                          f"world-media/{name}.jpg",
+                          "wb"
+                      ) as f:
                           f.write(data)
+
+                      print("IMAGE OK:", name)
+
               except Exception as e:
-                  print("IMAGE ERROR", name, e)
+                  print("IMAGE ERROR:", name, e)
+
+          # ==========================================
+          # WORLD DATA
+          # ==========================================
 
           output = {
-              "generatedAt": datetime.now(timezone.utc).isoformat(),
+              "generatedAt":
+                  datetime.now(timezone.utc).isoformat(),
 
               "images": {
                   "earth": "world-media/earth.jpg",
@@ -177,35 +220,65 @@ jobs:
 
               "space": {
                   "solarWind": solar_wind,
-                  "magneticField": magnetic,
+
+                  "magneticField": magnetic_field,
 
                   "interplanetary": {
-                      "solarWindSpeed": solar_wind["speed"],
-                      "bt": magnetic["bt"],
-                      "bz": magnetic["bz"]
+                      "solarWindSpeed":
+                          solar_wind["speed"],
+                      "bt":
+                          magnetic_field["bt"],
+                      "bz":
+                          magnetic_field["bz"]
+                  },
+
+                  "aurora": {
+                      "available":
+                          aurora_available
                   },
 
                   "kp": kp_data,
+
                   "flux10cm": flux_data
               }
           }
 
-          with open("world-data.json", "w", encoding="utf-8") as f:
-              json.dump(output, f, ensure_ascii=False, indent=2)
+          with open(
+              "world-data.json",
+              "w",
+              encoding="utf-8"
+          ) as f:
+              json.dump(
+                  output,
+                  f,
+                  ensure_ascii=False,
+                  indent=2
+              )
 
-          print("ATMOSPHERE:", atmosphere["name"])
-          print("RANDOM:", random_place["name"])
+          print("================================")
+          print("WORLD NEWS UPDATE COMPLETE")
+          print("ATMOSPHERE:", atmosphere.get("name"))
+          print("RANDOM:", random_place.get("name"))
           print("SOLAR WIND:", solar_wind)
-          print("MAGNETIC:", magnetic)
+          print("MAGNETIC:", magnetic_field)
+          print("INTERPLANETARY:", output["space"]["interplanetary"])
           print("KP:", kp_data)
           print("FLUX:", flux_data)
+          print("AURORA:", aurora_available)
+          print("================================")
 
           PY
 
-      - name: Commit
+      - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add world-data.json world-media/
-          git diff --cached --quiet || git commit -m "Update WORLD NEWS"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update WORLD NEWS data"
+            git push
+          fi
