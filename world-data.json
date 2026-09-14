@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T23:13:03.840991+00:00",
+  "generatedAt": "2026-09-14T23:29:17.586043+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -18,50 +18,50 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Tsi me numiemiewo.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Komavo\" title=\"User:Komavo\">Komavo</a>",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tsi_me_numiemiewo.jpg"
+    "title": "File:500px photo (105267149).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Elektroll\">Elektroll</a></div>",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28105267149%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA SUVI",
-    "name": "NOAA GOES-19 SUVI 195",
-    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/195/latest.png"
+    "name": "NOAA GOES-19 SUVI 171",
+    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/171/latest.png"
   },
   "atmosphere": {
-    "name": "K9L2",
-    "station": "K9L2",
-    "lat": 34.996,
-    "lon": -117.857,
-    "weather": "No coded weather",
-    "temperature": 34.9,
-    "dewpoint": 0.0,
-    "windSpeed": 5.0,
-    "windDirection": 210.0,
-    "visibility": "7",
+    "name": "MHCA",
+    "station": "MHCA",
+    "lat": 14.875,
+    "lon": -85.775,
+    "weather": "-RA",
+    "temperature": 27.0,
+    "dewpoint": 23.0,
+    "windSpeed": 6.0,
+    "windDirection": 100.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T22:55:00.000Z",
-    "raw": "METAR K9L2 142255Z AUTO 21005G19KT 7SM CLR 35/00 A2979 RMK AO2 SLP063 T03490000 $"
+    "observationTime": "2026-09-14T23:00:00.000Z",
+    "raw": "METAR MHCA 142300Z 10006KT 9999 -RA SCT028TCU FEW030CB BKN070 27/23 Q1014 A2994 RMK CB E"
   },
   "randomPlace": {
-    "name": "KOLM",
-    "station": "KOLM",
-    "lat": 46.9737,
-    "lon": -122.9049,
+    "name": "CWZN",
+    "station": "CWZN",
+    "lat": 47.368,
+    "lon": -55.795,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 10.0,
-    "windSpeed": 9.0,
-    "windDirection": 260.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-14T22:54:00.000Z",
-    "raw": "METAR KOLM 142254Z 26009KT 10SM OVC060 20/10 A3011 RMK AO2 SLP195 T02000100"
+    "temperature": 15.0,
+    "dewpoint": 14.9,
+    "windSpeed": 25.0,
+    "windDirection": 220.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-14T23:00:00.000Z",
+    "raw": "METAR CWZN 142300Z AUTO 22025KT 15/15 RMK AO1 PK WND 21039/2203 SLP058 T01500149 53036"
   },
   "globalPulse": {
     "population": {
-      "value": 8211048228,
-      "display": "8,211,048,228",
+      "value": 8211050171,
+      "display": "8,211,050,171",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -88,28 +88,28 @@
       "source": "Solar geometry"
     },
     "cloudCover": {
-      "value": 37.0,
-      "display": "37.0%",
+      "value": 36.7,
+      "display": "36.7%",
       "source": "NOAA / AviationWeather.gov"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T23:07:00Z",
-      "speed": 383.0
+      "time": "2026-09-14T23:19:00Z",
+      "speed": 377.0
     },
     "magneticField": {
-      "time": "2026-09-14T23:07:00Z",
+      "time": "2026-09-14T23:19:00Z",
       "bt": 14.0,
       "bz": 7.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T23:07:00Z",
-        "speed": 383.0
+        "time": "2026-09-14T23:19:00Z",
+        "speed": 377.0
       },
       "magneticField": {
-        "time": "2026-09-14T23:07:00Z",
+        "time": "2026-09-14T23:19:00Z",
         "bt": 14.0,
         "bz": 7.0
       }
