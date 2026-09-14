@@ -48,6 +48,7 @@ jobs:
                       response.read().decode("utf-8")
                   )
 
+
           def fetch_bytes(url):
               req = urllib.request.Request(
                   url,
@@ -62,6 +63,7 @@ jobs:
               ) as response:
                   return response.read()
 
+
           def download(url, path):
               data = fetch_bytes(url)
 
@@ -73,11 +75,13 @@ jobs:
               with open(path, "wb") as f:
                   f.write(data)
 
+
           def clean(value, default=""):
               if value is None:
                   return default
 
               return str(value).strip()
+
 
           def number(value):
               try:
@@ -94,6 +98,7 @@ jobs:
               except Exception:
                   return None
 
+
           def find_value(row, names):
               for name in names:
                   if name in row:
@@ -106,6 +111,7 @@ jobs:
                           return value
 
               return None
+
 
           def make_weather(row):
               lat = number(
@@ -267,9 +273,11 @@ jobs:
                   "raw": raw
               }
 
+
           generated = datetime.now(
               timezone.utc
           ).isoformat()
+
 
           # ============================================================
           # METAR
@@ -398,6 +406,7 @@ jobs:
                   "Random Place has no coordinates."
               )
 
+
           # ============================================================
           # NOAA SPACE WEATHER
           # ============================================================
@@ -447,6 +456,7 @@ jobs:
               flux_url
           )
 
+
           def latest_row(data):
               if isinstance(data, dict):
                   return data
@@ -458,7 +468,6 @@ jobs:
                   return {}
 
               for row in reversed(data):
-
                   if isinstance(
                       row,
                       dict
@@ -466,6 +475,7 @@ jobs:
                       return row
 
               return {}
+
 
           def val(obj, *keys):
               for key in keys:
@@ -477,6 +487,7 @@ jobs:
                       return obj[key]
 
               return None
+
 
           solar_speed = latest_row(
               solar_speed_raw
@@ -514,6 +525,7 @@ jobs:
               flux_raw
           )
 
+
           solar_wind = {
               "time": clean(
                   val(
@@ -522,7 +534,6 @@ jobs:
                       "time"
                   )
               ),
-
               "speed": number(
                   val(
                       solar_speed,
@@ -532,6 +543,7 @@ jobs:
               )
           }
 
+
           magnetic_field = {
               "time": clean(
                   val(
@@ -540,7 +552,6 @@ jobs:
                       "time"
                   )
               ),
-
               "bt": number(
                   val(
                       magnetic,
@@ -548,7 +559,6 @@ jobs:
                       "Bt"
                   )
               ),
-
               "bz": number(
                   val(
                       magnetic,
@@ -559,6 +569,7 @@ jobs:
               )
           }
 
+
           kp_data = {
               "time": clean(
                   val(
@@ -567,7 +578,6 @@ jobs:
                       "time"
                   )
               ),
-
               "kp": number(
                   val(
                       kp,
@@ -577,6 +587,7 @@ jobs:
               )
           }
 
+
           flux_data = {
               "time": clean(
                   val(
@@ -585,7 +596,6 @@ jobs:
                       "time"
                   )
               ),
-
               "flux": number(
                   val(
                       flux,
@@ -595,11 +605,13 @@ jobs:
               )
           }
 
+
           # ============================================================
           # MEDIA SIGNAL IMAGES
           #
           # ① Wikimedia Commons
-          #    最近追加された商用利用可能画像からランダム選択
+          #    自然・動物・風景・建築・都市などの
+          #    地上 / 世界写真からランダム選択
           #
           # ② NOAA
           #    地球観測 / 太陽観測画像からランダム選択
@@ -610,9 +622,14 @@ jobs:
               exist_ok=True
           )
 
+
           # ------------------------------------------------------------
           # MEDIA SIGNAL ①
           # Wikimedia Commons
+          #
+          # 「最近追加された画像」ではなく、
+          # 世界の地上写真系カテゴリから取得する。
+          # 宇宙・天体系は明示的に除外する。
           # ------------------------------------------------------------
 
           commons_api = (
@@ -620,95 +637,200 @@ jobs:
               "w/api.php"
           )
 
-          recent_params = {
-              "action": "query",
-              "format": "json",
-              "list": "recentchanges",
-              "rcnamespace": "6",
-              "rctype": "new",
-              "rcshow": "!redirect",
-              "rcprop": "title|ids|timestamp",
-              "rclimit": "100"
-          }
 
-          recent_url = (
-              commons_api
-              + "?"
-              + urllib.parse.urlencode(
-                  recent_params
-              )
+          commons_categories = [
+              "Nature",
+              "Animals",
+              "Birds",
+              "Mammals",
+              "Plants",
+              "Landscapes",
+              "Forests",
+              "Mountains",
+              "Rivers",
+              "Lakes",
+              "Water",
+              "Beaches",
+              "Gardens",
+              "Architecture",
+              "Buildings",
+              "Cities",
+              "Streets",
+              "Bridges",
+              "Roads",
+              "Rail transport",
+              "Vehicles",
+              "Ships",
+              "Science"
+          ]
+
+
+          # タイトルにこれらが含まれるものは
+          # MEDIA SIGNAL ①から除外する。
+          blocked_words = [
+              "portrait",
+              "selfie",
+              "wedding",
+              "funeral",
+              "person",
+              "people",
+              "face",
+              "human",
+              "screenshot",
+              "logo",
+              "poster",
+              "advertisement",
+              "advertising",
+
+              "space",
+              "astronomy",
+              "astronomical",
+              "planet",
+              "planets",
+              "moon",
+              "lunar",
+              "sun",
+              "solar",
+              "star",
+              "stars",
+              "galaxy",
+              "galaxies",
+              "nebula",
+              "nebulae",
+              "comet",
+              "asteroid",
+              "meteor",
+              "meteoroid",
+              "satellite",
+              "spacecraft",
+              "rocket",
+              "astronaut",
+              "cosmonaut",
+              "nasa",
+              "esa",
+              "spacex",
+              "iss",
+              "international space station",
+              "hubble",
+              "jwst",
+              "james webb",
+              "telescope",
+              "observatory"
+          ]
+
+
+          random.shuffle(
+              commons_categories
           )
+
+
+          category_titles = []
+
 
           print("")
           print("================================")
           print("FETCHING WIKIMEDIA COMMONS")
           print("================================")
 
-          recent_data = fetch_json(
-              recent_url
-          )
 
-          recent_changes = (
-              recent_data
-              .get("query", {})
-              .get("recentchanges", [])
-          )
+          for category in commons_categories:
+
+              if len(category_titles) >= 50:
+                  break
+
+              category_params = {
+                  "action": "query",
+                  "format": "json",
+                  "list": "categorymembers",
+                  "cmtitle":
+                      "Category:" + category,
+                  "cmtype": "file",
+                  "cmlimit": "100"
+              }
+
+              category_url = (
+                  commons_api
+                  + "?"
+                  + urllib.parse.urlencode(
+                      category_params
+                  )
+              )
+
+              try:
+                  category_data = fetch_json(
+                      category_url
+                  )
+              except Exception as e:
+                  print(
+                      "Category failed:",
+                      category,
+                      str(e)
+                  )
+                  continue
+
+              members = (
+                  category_data
+                  .get("query", {})
+                  .get("categorymembers", [])
+              )
+
+              random.shuffle(
+                  members
+              )
+
+              for member in members:
+
+                  title = clean(
+                      member.get("title")
+                  )
+
+                  if not title:
+                      continue
+
+                  lower_title = (
+                      title.lower()
+                  )
+
+                  if any(
+                      word in lower_title
+                      for word in blocked_words
+                  ):
+                      continue
+
+                  if title in category_titles:
+                      continue
+
+                  category_titles.append(
+                      title
+                  )
+
+                  if len(category_titles) >= 50:
+                      break
+
 
           random.shuffle(
-              recent_changes
+              category_titles
           )
 
-          titles = []
 
-          for change in recent_changes:
+          print(
+              "Candidate Commons titles:",
+              len(category_titles)
+          )
 
-              title = clean(
-                  change.get("title")
-              )
-
-              if not title:
-                  continue
-
-              lower_title = title.lower()
-
-              blocked_words = [
-                  "portrait",
-                  "selfie",
-                  "wedding",
-                  "funeral",
-                  "person",
-                  "people",
-                  "face",
-                  "screenshot",
-                  "logo",
-                  "poster",
-                  "advertisement",
-                  "advertising"
-              ]
-
-              if any(
-                  word in lower_title
-                  for word in blocked_words
-              ):
-                  continue
-
-              titles.append(
-                  title
-              )
-
-              if len(titles) >= 30:
-                  break
 
           media1_info = None
 
-          if titles:
+
+          if category_titles:
 
               image_params = {
                   "action": "query",
                   "format": "json",
-                  "titles": "|".join(
-                      titles
-                  ),
+                  "titles":
+                      "|".join(
+                          category_titles[:50]
+                      ),
                   "prop": "imageinfo",
                   "iiprop":
                       "url|mime|size|extmetadata",
@@ -734,6 +856,7 @@ jobs:
               )
 
               candidates = []
+
 
               for page in pages.values():
 
@@ -763,11 +886,13 @@ jobs:
                       0
                   )
 
-                  if mime not in [
-                      "image/jpeg",
-                      "image/png"
-                  ]:
+
+                  # JPEGのみ。
+                  # media1.jpgとして保存するため、
+                  # PNG等はここで除外する。
+                  if mime != "image/jpeg":
                       continue
+
 
                   if (
                       not isinstance(
@@ -782,16 +907,19 @@ jobs:
                   ):
                       continue
 
+
                   if width < 800:
                       continue
 
                   if height < 450:
                       continue
 
+
                   metadata = info.get(
                       "extmetadata",
                       {}
                   )
+
 
                   license_short = clean(
                       metadata.get(
@@ -800,9 +928,11 @@ jobs:
                       ).get("value")
                   )
 
+
                   license_lower = (
                       license_short.lower()
                   )
+
 
                   allowed_license = (
                       "cc0"
@@ -818,8 +948,32 @@ jobs:
                       in license_lower
                   )
 
+
                   if not allowed_license:
                       continue
+
+
+                  page_title = clean(
+                      page.get(
+                          "title"
+                      )
+                  )
+
+
+                  lower_page_title = (
+                      page_title.lower()
+                  )
+
+
+                  # APIでカテゴリを通ってきても、
+                  # ファイル名自体に宇宙関連語がある場合は
+                  # 最終段階でもう一度除外する。
+                  if any(
+                      word in lower_page_title
+                      for word in blocked_words
+                  ):
+                      continue
+
 
                   thumburl = clean(
                       info.get(
@@ -827,19 +981,23 @@ jobs:
                       )
                   )
 
+
                   original_url = clean(
                       info.get(
                           "url"
                       )
                   )
 
+
                   if not thumburl:
                       thumburl = (
                           original_url
                       )
 
+
                   if not thumburl:
                       continue
+
 
                   artist = clean(
                       metadata.get(
@@ -848,11 +1006,6 @@ jobs:
                       ).get("value")
                   )
 
-                  page_title = clean(
-                      page.get(
-                          "title"
-                      )
-                  )
 
                   page_url = (
                       "https://commons.wikimedia.org/wiki/"
@@ -864,6 +1017,7 @@ jobs:
                           safe=":/"
                       )
                   )
+
 
                   candidates.append(
                       {
@@ -884,19 +1038,29 @@ jobs:
                       }
                   )
 
+
+              print(
+                  "Valid Commons candidates:",
+                  len(candidates)
+              )
+
+
               if candidates:
                   media1_info = random.choice(
                       candidates
                   )
 
+
           if not media1_info:
               raise RuntimeError(
-                  "No suitable commercial-use Wikimedia Commons image found."
+                  "No suitable commercial-use Wikimedia Commons ground/world image found."
               )
+
 
           media1_path = (
               "world-media/media1.jpg"
           )
+
 
           print("")
           print(
@@ -918,10 +1082,12 @@ jobs:
               media1_info["imageUrl"]
           )
 
+
           download(
               media1_info["imageUrl"],
               media1_path
           )
+
 
           # ------------------------------------------------------------
           # MEDIA SIGNAL ②
@@ -939,7 +1105,6 @@ jobs:
                       "GOES19/ABI/CONUS/"
                       "GEOCOLOR/1250x750.jpg"
               },
-
               {
                   "name":
                       "NOAA GOES-18 CONUS",
@@ -950,7 +1115,6 @@ jobs:
                       "GOES18/ABI/CONUS/"
                       "GEOCOLOR/1250x750.jpg"
               },
-
               {
                   "name":
                       "NOAA GOES-19 SUVI 094",
@@ -961,7 +1125,6 @@ jobs:
                       "images/animations/suvi/"
                       "primary/094/latest.png"
               },
-
               {
                   "name":
                       "NOAA GOES-19 SUVI 131",
@@ -972,7 +1135,6 @@ jobs:
                       "images/animations/suvi/"
                       "primary/131/latest.png"
               },
-
               {
                   "name":
                       "NOAA GOES-19 SUVI 171",
@@ -983,7 +1145,6 @@ jobs:
                       "images/animations/suvi/"
                       "primary/171/latest.png"
               },
-
               {
                   "name":
                       "NOAA GOES-19 SUVI 195",
@@ -994,7 +1155,6 @@ jobs:
                       "images/animations/suvi/"
                       "primary/195/latest.png"
               },
-
               {
                   "name":
                       "NOAA GOES-19 SUVI 284",
@@ -1005,7 +1165,6 @@ jobs:
                       "images/animations/suvi/"
                       "primary/284/latest.png"
               },
-
               {
                   "name":
                       "NOAA GOES-19 SUVI 304",
@@ -1018,15 +1177,18 @@ jobs:
               }
           ]
 
+
           random.shuffle(
               noaa_sources
           )
+
 
           media2_info = None
 
           media2_path = (
               "world-media/media2.jpg"
           )
+
 
           for candidate in noaa_sources:
 
@@ -1076,10 +1238,12 @@ jobs:
                       str(e)
                   )
 
+
           if not media2_info:
               raise RuntimeError(
                   "No NOAA MEDIA SIGNAL ② image could be downloaded."
               )
+
 
           print("")
           print(
@@ -1095,6 +1259,7 @@ jobs:
               "URL:",
               media2_info["url"]
           )
+
 
           # ============================================================
           # WORLD DATA
@@ -1186,6 +1351,7 @@ jobs:
               }
           }
 
+
           with open(
               "world-data.json",
               "w",
@@ -1198,6 +1364,7 @@ jobs:
                   ensure_ascii=False,
                   indent=2
               )
+
 
           print("")
           print("================================")
@@ -1259,6 +1426,7 @@ jobs:
 
           PY
 
+
       - name: Verify world-data.json
         run: |
           python - <<'PY'
@@ -1271,6 +1439,7 @@ jobs:
               encoding="utf-8"
           ) as f:
               data = json.load(f)
+
 
           atmosphere = data.get(
               "atmosphere"
@@ -1296,6 +1465,7 @@ jobs:
               "mediaSignal2"
           )
 
+
           if not isinstance(
               atmosphere,
               dict
@@ -1304,6 +1474,7 @@ jobs:
                   "Atmosphere data is empty."
               )
 
+
           if not isinstance(
               random_place,
               dict
@@ -1311,6 +1482,7 @@ jobs:
               raise RuntimeError(
                   "Random Place data is empty."
               )
+
 
           if (
               random_place.get("lat") is None
@@ -1321,6 +1493,7 @@ jobs:
                   "Random Place coordinates are missing."
               )
 
+
           if not isinstance(
               space,
               dict
@@ -1328,6 +1501,7 @@ jobs:
               raise RuntimeError(
                   "Space Weather data is empty."
               )
+
 
           if not isinstance(
               images,
@@ -1337,12 +1511,14 @@ jobs:
                   "Images data is missing."
               )
 
+
           if not images.get(
               "media1"
           ):
               raise RuntimeError(
                   "MEDIA SIGNAL ① is missing."
               )
+
 
           if not images.get(
               "media2"
@@ -1351,6 +1527,7 @@ jobs:
                   "MEDIA SIGNAL ② is missing."
               )
 
+
           if not os.path.exists(
               "world-media/media1.jpg"
           ):
@@ -1358,12 +1535,14 @@ jobs:
                   "MEDIA SIGNAL ① image file is missing."
               )
 
+
           if not os.path.exists(
               "world-media/media2.jpg"
           ):
               raise RuntimeError(
                   "MEDIA SIGNAL ② image file is missing."
               )
+
 
           if not isinstance(
               media1,
@@ -1375,6 +1554,7 @@ jobs:
                   "MEDIA SIGNAL ① license metadata is missing."
               )
 
+
           if not isinstance(
               media2,
               dict
@@ -1384,6 +1564,7 @@ jobs:
               raise RuntimeError(
                   "MEDIA SIGNAL ② source metadata is missing."
               )
+
 
           print(
               "================================"
@@ -1466,6 +1647,7 @@ jobs:
           )
 
           PY
+
 
       - name: Commit updated data
         run: |
