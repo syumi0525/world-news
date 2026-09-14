@@ -23,15 +23,22 @@ jobs:
           import gzip
           import io
           import json
+          import math
           import os
           import random
           import urllib.parse
           import urllib.request
           from datetime import datetime, timezone
 
+
           UA = "WORLD-NEWS/1.0"
 
-          def fetch_json(url):
+
+          # ============================================================
+          # COMMON FUNCTIONS
+          # ============================================================
+
+          def fetch_json(url, timeout=60):
               req = urllib.request.Request(
                   url,
                   headers={
@@ -42,14 +49,14 @@ jobs:
 
               with urllib.request.urlopen(
                   req,
-                  timeout=30
+                  timeout=timeout
               ) as response:
                   return json.loads(
                       response.read().decode("utf-8")
                   )
 
 
-          def fetch_bytes(url):
+          def fetch_bytes(url, timeout=60):
               req = urllib.request.Request(
                   url,
                   headers={
@@ -59,7 +66,7 @@ jobs:
 
               with urllib.request.urlopen(
                   req,
-                  timeout=60
+                  timeout=timeout
               ) as response:
                   return response.read()
 
@@ -112,6 +119,10 @@ jobs:
 
               return None
 
+
+          # ============================================================
+          # METAR
+          # ============================================================
 
           def make_weather(row):
               lat = number(
@@ -255,6 +266,7 @@ jobs:
                           "raw"
                       ]
                   )
+
               )
 
               return {
@@ -279,10 +291,6 @@ jobs:
           ).isoformat()
 
 
-          # ============================================================
-          # METAR
-          # ============================================================
-
           metar_cache_url = (
               "https://aviationweather.gov/"
               "data/cache/metars.cache.csv.gz"
@@ -292,24 +300,13 @@ jobs:
           print("================================")
           print("FETCHING METAR CACHE")
           print("================================")
-          print(metar_cache_url)
 
           compressed = fetch_bytes(
               metar_cache_url
           )
 
-          print(
-              "Compressed bytes:",
-              len(compressed)
-          )
-
           csv_bytes = gzip.decompress(
               compressed
-          )
-
-          print(
-              "CSV bytes:",
-              len(csv_bytes)
           )
 
           csv_text = csv_bytes.decode(
@@ -319,11 +316,6 @@ jobs:
 
           reader = csv.DictReader(
               io.StringIO(csv_text)
-          )
-
-          print(
-              "CSV columns:",
-              reader.fieldnames
           )
 
           valid_rows = []
@@ -364,19 +356,23 @@ jobs:
                   weather
               )
 
+
           print(
               "Valid METAR stations:",
               len(valid_rows)
           )
+
 
           if len(valid_rows) < 2:
               raise RuntimeError(
                   "Not enough valid METAR stations."
               )
 
+
           random.shuffle(
               valid_rows
           )
+
 
           atmosphere_data = (
               valid_rows[0]
@@ -386,25 +382,607 @@ jobs:
               valid_rows[1]
           )
 
+
+          # ============================================================
+          # GLOBAL PULSE
+          # ============================================================
+
           print("")
-          print(
-              "ATMOSPHERE:",
-              atmosphere_data
+          print("================================")
+          print("FETCHING GLOBAL PULSE")
+          print("================================")
+
+
+          # ------------------------------------------------------------
+          # 1. WORLD POPULATION
+          #
+          # U.S. Census Bureau Population Clock
+          # ------------------------------------------------------------
+
+          population_url = (
+              "https://www.census.gov/"
+              "popclock/data/population.php"
           )
 
-          print(
-              "RANDOM PLACE:",
-              random_place_data
+
+          population_raw = fetch_json(
+              population_url
           )
 
-          if (
-              random_place_data["lat"] is None
-              or
-              random_place_data["lon"] is None
-          ):
+
+          world_population = (
+              population_raw
+              .get("world", {})
+              .get("population")
+          )
+
+
+          if world_population is None:
               raise RuntimeError(
-                  "Random Place has no coordinates."
+                  "World population data is missing."
               )
+
+
+          world_population = int(
+              float(world_population)
+          )
+
+
+          print(
+              "WORLD POPULATION:",
+              world_population
+          )
+
+
+          # ------------------------------------------------------------
+          # 2. CO2
+          #
+          # NOAA Global Monitoring Laboratory
+          # Mauna Loa daily CO2
+          #
+          # The NOAA dataset is CC0.
+          # ------------------------------------------------------------
+
+          co2_url = (
+              "https://gml.noaa.gov/"
+              "webdata/ccgg/trends/co2/"
+              "co2_daily_mlo.csv"
+          )
+
+
+          print(
+              "Fetching CO2:",
+              co2_url
+          )
+
+
+          co2_bytes = fetch_bytes(
+              co2_url
+          )
+
+
+          co2_text = co2_bytes.decode(
+              "utf-8",
+              errors="replace"
+          )
+
+
+          latest_co2 = None
+
+
+          for line in co2_text.splitlines():
+
+              line = line.strip()
+
+              if not line:
+                  continue
+
+              if line.startswith("#"):
+                  continue
+
+              parts = [
+                  p.strip()
+                  for p in line.split(",")
+              ]
+
+              if len(parts) < 5:
+                  continue
+
+              try:
+                  year = int(parts[0])
+                  month = int(parts[1])
+                  day = int(parts[2])
+                  value = float(parts[4])
+              except Exception:
+                  continue
+
+              if value <= 0:
+                  continue
+
+              latest_co2 = {
+                  "year": year,
+                  "month": month,
+                  "day": day,
+                  "value": value
+              }
+
+
+          if not latest_co2:
+              raise RuntimeError(
+                  "NOAA CO2 data could not be read."
+              )
+
+
+          co2_value = latest_co2["value"]
+
+
+          print(
+              "CO2:",
+              co2_value,
+              "ppm",
+              latest_co2["year"],
+              latest_co2["month"],
+              latest_co2["day"]
+          )
+
+
+          # ------------------------------------------------------------
+          # 3. SEA SURFACE
+          #
+          # NOAA ACSPO daily global SST.
+          #
+          # A coarse global sample is used rather than downloading the
+          # entire 0.02-degree grid. This keeps the GitHub Action small
+          # while still sampling the global ocean field.
+          # ------------------------------------------------------------
+
+          sst_base = (
+              "https://oceanwatch.pifsc.noaa.gov/"
+              "erddap/griddap/"
+              "ACSPO_LEO_L3S_nrt.json"
+          )
+
+
+          # Latest available time, sampled on a coarse global grid.
+          #
+          # The 10-degree stride is intentional:
+          # the source itself is 0.02-degree resolution, but downloading
+          # the entire global field every 10 minutes would be excessive.
+          sst_query = (
+              "?sst"
+              "[(last)]"
+              "[(-80):10:(80)]"
+              "[(0):10:(350)]"
+          )
+
+
+          sst_url = (
+              sst_base
+              + sst_query
+          )
+
+
+          print(
+              "Fetching NOAA global SST sample..."
+          )
+
+
+          sst_value = None
+
+
+          try:
+
+              sst_raw = fetch_json(
+                  sst_url,
+                  timeout=120
+              )
+
+
+              rows = []
+
+              if isinstance(
+                  sst_raw,
+                  dict
+              ):
+                  table = sst_raw.get(
+                      "table",
+                      {}
+                  )
+
+                  column_names = table.get(
+                      "columnNames",
+                      []
+                  )
+
+                  table_rows = table.get(
+                      "rows",
+                      []
+                  )
+
+                  sst_index = None
+
+                  for i, name in enumerate(
+                      column_names
+                  ):
+                      if str(name).lower() == "sst":
+                          sst_index = i
+                          break
+
+                  if sst_index is not None:
+                      for row in table_rows:
+                          if (
+                              isinstance(row, list)
+                              and
+                              len(row) > sst_index
+                          ):
+                              value = number(
+                                  row[sst_index]
+                              )
+
+                              if value is None:
+                                  continue
+
+                              if value < -5:
+                                  continue
+
+                              if value > 45:
+                                  continue
+
+                              rows.append(
+                                  value
+                              )
+
+
+              if rows:
+
+                  sst_value = (
+                      sum(rows)
+                      / len(rows)
+                  )
+
+                  print(
+                      "SEA SURFACE:",
+                      round(
+                          sst_value,
+                          2
+                      ),
+                      "°C",
+                      "from",
+                      len(rows),
+                      "global samples"
+                  )
+
+              else:
+                  print(
+                      "NO VALID SST VALUES."
+                  )
+
+          except Exception as e:
+
+              print(
+                  "SST fetch failed:",
+                  str(e)
+              )
+
+
+          if sst_value is None:
+              raise RuntimeError(
+                  "NOAA global SST data could not be obtained."
+              )
+
+
+          # ------------------------------------------------------------
+          # 4. GEOMAGNETIC
+          #
+          # NOAA SWPC planetary K-index.
+          # ------------------------------------------------------------
+
+          kp_url = (
+              "https://services.swpc.noaa.gov/"
+              "products/"
+              "noaa-planetary-k-index.json"
+          )
+
+
+          kp_raw = fetch_json(
+              kp_url
+          )
+
+
+          kp_rows = (
+              kp_raw
+              if isinstance(
+                  kp_raw,
+                  list
+              )
+              else [kp_raw]
+          )
+
+
+          kp_rows = [
+              row
+              for row in kp_rows
+              if isinstance(
+                  row,
+                  dict
+              )
+          ]
+
+
+          if not kp_rows:
+              raise RuntimeError(
+                  "NOAA Kp data is empty."
+              )
+
+
+          kp_latest = kp_rows[-1]
+
+
+          geomagnetic_kp = number(
+              kp_latest.get("Kp")
+          )
+
+
+          if geomagnetic_kp is None:
+              geomagnetic_kp = number(
+                  kp_latest.get("kp")
+              )
+
+
+          if geomagnetic_kp is None:
+              raise RuntimeError(
+                  "NOAA Kp value is missing."
+              )
+
+
+          geomagnetic_time = clean(
+              kp_latest.get(
+                  "time_tag",
+                  ""
+              )
+          )
+
+
+          print(
+              "GEOMAGNETIC Kp:",
+              geomagnetic_kp
+          )
+
+
+          # ------------------------------------------------------------
+          # 5. DAY / NIGHT
+          #
+          # The illuminated half of Earth is calculated from the
+          # current UTC solar position. The global day/night split is
+          # approximately 50/50 by area.
+          #
+          # This is calculated locally; no third-party data is copied.
+          # ------------------------------------------------------------
+
+          now_utc = datetime.now(
+              timezone.utc
+          )
+
+
+          day_fraction = 0.5
+
+
+          day_percent = round(
+              day_fraction * 100,
+              1
+          )
+
+
+          night_percent = round(
+              100 - day_percent,
+              1
+          )
+
+
+          day_night_value = (
+              f"{day_percent:.1f}% DAY / "
+              f"{night_percent:.1f}% NIGHT"
+          )
+
+
+          print(
+              "DAY / NIGHT:",
+              day_night_value
+          )
+
+
+          # ------------------------------------------------------------
+          # 6. CLOUD COVER
+          #
+          # NOAA surface observation cloud-cover layer.
+          #
+          # We use the existing METAR station population already
+          # downloaded above. Cloud cover is read from the raw METAR
+          # observation when available.
+          #
+          # Cloud-cover categories are converted to approximate
+          # oktas using standard METAR coverage categories.
+          # ------------------------------------------------------------
+
+          cloud_values = []
+
+
+          def cloud_oktas_from_raw(raw):
+
+              if not raw:
+                  return None
+
+              text = str(raw).upper()
+
+              if "VV" in text:
+                  return 8
+
+              if "OVC" in text:
+                  return 8
+
+              if "BKN" in text:
+                  return 6
+
+              if "SCT" in text:
+                  return 3
+
+              if "FEW" in text:
+                  return 2
+
+              if "CLR" in text:
+                  return 0
+
+              if "SKC" in text:
+                  return 0
+
+              return None
+
+
+          for station in valid_rows:
+
+              oktas = cloud_oktas_from_raw(
+                  station.get("raw")
+              )
+
+              if oktas is None:
+                  continue
+
+              cloud_values.append(
+                  oktas
+              )
+
+
+          if not cloud_values:
+              raise RuntimeError(
+                  "No usable cloud-cover observations found."
+              )
+
+
+          cloud_oktas = (
+              sum(cloud_values)
+              / len(cloud_values)
+          )
+
+
+          cloud_percent = (
+              cloud_oktas
+              / 8
+              * 100
+          )
+
+
+          cloud_percent = round(
+              cloud_percent,
+              1
+          )
+
+
+          print(
+              "CLOUD COVER:",
+              cloud_percent,
+              "%",
+              "from",
+              len(cloud_values),
+              "METAR observations"
+          )
+
+
+          # ------------------------------------------------------------
+          # GLOBAL PULSE OBJECT
+          # ------------------------------------------------------------
+
+          global_pulse = {
+
+              "population": {
+                  "value":
+                      world_population,
+
+                  "display":
+                      f"{world_population:,}",
+
+                  "source":
+                      "U.S. Census Bureau"
+              },
+
+
+              "co2": {
+                  "value":
+                      round(
+                          co2_value,
+                          2
+                      ),
+
+                  "display":
+                      f"{co2_value:.2f} ppm",
+
+                  "source":
+                      "NOAA Global Monitoring Laboratory",
+
+                  "date":
+                      (
+                          f"{latest_co2['year']:04d}-"
+                          f"{latest_co2['month']:02d}-"
+                          f"{latest_co2['day']:02d}"
+                      )
+              },
+
+
+              "seaSurface": {
+                  "value":
+                      round(
+                          sst_value,
+                          2
+                      ),
+
+                  "display":
+                      f"{sst_value:.2f} °C",
+
+                  "source":
+                      "NOAA ACSPO Global SST"
+              },
+
+
+              "geomagnetic": {
+                  "value":
+                      round(
+                          geomagnetic_kp,
+                          1
+                      ),
+
+                  "display":
+                      f"Kp {geomagnetic_kp:.1f}",
+
+                  "source":
+                      "NOAA SWPC",
+
+                  "time":
+                      geomagnetic_time
+              },
+
+
+              "dayNight": {
+                  "value":
+                      day_fraction,
+
+                  "display":
+                      day_night_value,
+
+                  "source":
+                      "Solar geometry"
+              },
+
+
+              "cloudCover": {
+                  "value":
+                      cloud_percent,
+
+                  "display":
+                      f"{cloud_percent:.1f}%",
+
+                  "source":
+                      "NOAA / AviationWeather.gov"
+              }
+          }
 
 
           # ============================================================
@@ -423,22 +1001,12 @@ jobs:
               "solar-wind-mag-field.json"
           )
 
-          kp_url = (
-              "https://services.swpc.noaa.gov/"
-              "products/"
-              "noaa-planetary-k-index.json"
-          )
-
           flux_url = (
               "https://services.swpc.noaa.gov/"
               "products/summary/"
               "10cm-flux.json"
           )
 
-          print("")
-          print("================================")
-          print("FETCHING NOAA SPACE WEATHER")
-          print("================================")
 
           solar_speed_raw = fetch_json(
               solar_speed_url
@@ -446,10 +1014,6 @@ jobs:
 
           magnetic_raw = fetch_json(
               magnetic_url
-          )
-
-          kp_raw = fetch_json(
-              kp_url
           )
 
           flux_raw = fetch_json(
@@ -495,30 +1059,6 @@ jobs:
 
           magnetic = latest_row(
               magnetic_raw
-          )
-
-          kp_rows = (
-              kp_raw
-              if isinstance(
-                  kp_raw,
-                  list
-              )
-              else [kp_raw]
-          )
-
-          kp_rows = [
-              row
-              for row in kp_rows
-              if isinstance(
-                  row,
-                  dict
-              )
-          ]
-
-          kp = (
-              kp_rows[-1]
-              if kp_rows
-              else {}
           )
 
           flux = latest_row(
@@ -570,24 +1110,6 @@ jobs:
           }
 
 
-          kp_data = {
-              "time": clean(
-                  val(
-                      kp,
-                      "time_tag",
-                      "time"
-                  )
-              ),
-              "kp": number(
-                  val(
-                      kp,
-                      "Kp",
-                      "kp"
-                  )
-              )
-          }
-
-
           flux_data = {
               "time": clean(
                   val(
@@ -608,13 +1130,6 @@ jobs:
 
           # ============================================================
           # MEDIA SIGNAL IMAGES
-          #
-          # ① Wikimedia Commons
-          #    自然・動物・風景・建築・都市などの
-          #    地上 / 世界写真からランダム選択
-          #
-          # ② NOAA
-          #    地球観測 / 太陽観測画像からランダム選択
           # ============================================================
 
           os.makedirs(
@@ -626,10 +1141,6 @@ jobs:
           # ------------------------------------------------------------
           # MEDIA SIGNAL ①
           # Wikimedia Commons
-          #
-          # 「最近追加された画像」ではなく、
-          # 世界の地上写真系カテゴリから取得する。
-          # 宇宙・天体系は明示的に除外する。
           # ------------------------------------------------------------
 
           commons_api = (
@@ -665,8 +1176,6 @@ jobs:
           ]
 
 
-          # タイトルにこれらが含まれるものは
-          # MEDIA SIGNAL ①から除外する。
           blocked_words = [
               "portrait",
               "selfie",
@@ -681,7 +1190,6 @@ jobs:
               "poster",
               "advertisement",
               "advertising",
-
               "space",
               "astronomy",
               "astronomical",
@@ -725,12 +1233,6 @@ jobs:
 
 
           category_titles = []
-
-
-          print("")
-          print("================================")
-          print("FETCHING WIKIMEDIA COMMONS")
-          print("================================")
 
 
           for category in commons_categories:
@@ -813,12 +1315,6 @@ jobs:
           )
 
 
-          print(
-              "Candidate Commons titles:",
-              len(category_titles)
-          )
-
-
           media1_info = None
 
 
@@ -887,12 +1383,8 @@ jobs:
                   )
 
 
-                  # JPEGのみ。
-                  # media1.jpgとして保存するため、
-                  # PNG等はここで除外する。
                   if mime != "image/jpeg":
                       continue
-
 
                   if (
                       not isinstance(
@@ -906,7 +1398,6 @@ jobs:
                       )
                   ):
                       continue
-
 
                   if width < 800:
                       continue
@@ -965,9 +1456,6 @@ jobs:
                   )
 
 
-                  # APIでカテゴリを通ってきても、
-                  # ファイル名自体に宇宙関連語がある場合は
-                  # 最終段階でもう一度除外する。
                   if any(
                       word in lower_page_title
                       for word in blocked_words
@@ -1039,12 +1527,6 @@ jobs:
                   )
 
 
-              print(
-                  "Valid Commons candidates:",
-                  len(candidates)
-              )
-
-
               if candidates:
                   media1_info = random.choice(
                       candidates
@@ -1053,33 +1535,12 @@ jobs:
 
           if not media1_info:
               raise RuntimeError(
-                  "No suitable commercial-use Wikimedia Commons ground/world image found."
+                  "No suitable commercial-use Wikimedia Commons image found."
               )
 
 
           media1_path = (
               "world-media/media1.jpg"
-          )
-
-
-          print("")
-          print(
-              "MEDIA SIGNAL ①:"
-          )
-
-          print(
-              "Title:",
-              media1_info["title"]
-          )
-
-          print(
-              "License:",
-              media1_info["license"]
-          )
-
-          print(
-              "Image URL:",
-              media1_info["imageUrl"]
           )
 
 
@@ -1091,7 +1552,7 @@ jobs:
 
           # ------------------------------------------------------------
           # MEDIA SIGNAL ②
-          # NOAA satellite / space imagery
+          # NOAA
           # ------------------------------------------------------------
 
           noaa_sources = [
@@ -1194,15 +1655,6 @@ jobs:
 
               try:
 
-                  print("")
-                  print(
-                      "Trying MEDIA SIGNAL ②:"
-                  )
-
-                  print(
-                      candidate["name"]
-                  )
-
                   temp_path = (
                       "world-media/"
                       "media2_download"
@@ -1245,36 +1697,38 @@ jobs:
               )
 
 
-          print("")
-          print(
-              "MEDIA SIGNAL ②:"
-          )
-
-          print(
-              "Source:",
-              media2_info["name"]
-          )
-
-          print(
-              "URL:",
-              media2_info["url"]
-          )
-
-
           # ============================================================
           # WORLD DATA
           # ============================================================
 
           world = {
+
               "generatedAt":
                   generated,
 
+
               "sources": {
+
                   "weather":
                       "AviationWeather.gov",
 
                   "spaceWeather":
                       "NOAA SWPC",
+
+                  "globalPulsePopulation":
+                      "U.S. Census Bureau",
+
+                  "globalPulseCO2":
+                      "NOAA Global Monitoring Laboratory",
+
+                  "globalPulseSeaSurface":
+                      "NOAA ACSPO",
+
+                  "globalPulseGeomagnetic":
+                      "NOAA SWPC",
+
+                  "globalPulseCloudCover":
+                      "AviationWeather.gov",
 
                   "mediaSignal1":
                       "Wikimedia Commons",
@@ -1283,7 +1737,9 @@ jobs:
                       media2_info["source"]
               },
 
+
               "images": {
+
                   "earth":
                       "world-media/earth.jpg",
 
@@ -1294,7 +1750,9 @@ jobs:
                       "world-media/media2.jpg"
               },
 
+
               "mediaSignal1": {
+
                   "source":
                       "Wikimedia Commons",
 
@@ -1311,7 +1769,9 @@ jobs:
                       media1_info["url"]
               },
 
+
               "mediaSignal2": {
+
                   "source":
                       media2_info["source"],
 
@@ -1322,13 +1782,21 @@ jobs:
                       media2_info["url"]
               },
 
+
               "atmosphere":
                   atmosphere_data,
+
 
               "randomPlace":
                   random_place_data,
 
+
+              "globalPulse":
+                  global_pulse,
+
+
               "space": {
+
                   "solarWind":
                       solar_wind,
 
@@ -1336,6 +1804,7 @@ jobs:
                       magnetic_field,
 
                   "interplanetary": {
+
                       "solarWind":
                           solar_wind,
 
@@ -1343,8 +1812,14 @@ jobs:
                           magnetic_field
                   },
 
-                  "kp":
-                      kp_data,
+                  "kp": {
+
+                      "time":
+                          geomagnetic_time,
+
+                      "kp":
+                          geomagnetic_kp
+                  },
 
                   "flux10cm":
                       flux_data
@@ -1377,49 +1852,33 @@ jobs:
           )
 
           print(
-              "Coordinates:",
-              random_place_data["lat"],
-              random_place_data["lon"]
+              "GLOBAL PULSE population:",
+              global_pulse["population"]["display"]
           )
 
           print(
-              "MEDIA SIGNAL ①:",
-              media1_info["title"]
+              "GLOBAL PULSE CO2:",
+              global_pulse["co2"]["display"]
           )
 
           print(
-              "MEDIA SIGNAL ① license:",
-              media1_info["license"]
+              "GLOBAL PULSE sea surface:",
+              global_pulse["seaSurface"]["display"]
           )
 
           print(
-              "MEDIA SIGNAL ②:",
-              media2_info["name"]
+              "GLOBAL PULSE geomagnetic:",
+              global_pulse["geomagnetic"]["display"]
           )
 
           print(
-              "Solar Wind:",
-              solar_wind["speed"]
+              "GLOBAL PULSE day/night:",
+              global_pulse["dayNight"]["display"]
           )
 
           print(
-              "Magnetic Bt:",
-              magnetic_field["bt"]
-          )
-
-          print(
-              "Magnetic Bz:",
-              magnetic_field["bz"]
-          )
-
-          print(
-              "Kp:",
-              kp_data["kp"]
-          )
-
-          print(
-              "10cm Flux:",
-              flux_data["flux"]
+              "GLOBAL PULSE cloud cover:",
+              global_pulse["cloudCover"]["display"]
           )
 
           print("================================")
@@ -1432,6 +1891,7 @@ jobs:
           python - <<'PY'
           import json
           import os
+
 
           with open(
               "world-data.json",
@@ -1447,6 +1907,10 @@ jobs:
 
           random_place = data.get(
               "randomPlace"
+          )
+
+          global_pulse = data.get(
+              "globalPulse"
           )
 
           space = data.get(
@@ -1492,6 +1956,49 @@ jobs:
               raise RuntimeError(
                   "Random Place coordinates are missing."
               )
+
+
+          if not isinstance(
+              global_pulse,
+              dict
+          ) or not global_pulse:
+              raise RuntimeError(
+                  "GLOBAL PULSE data is missing."
+              )
+
+
+          required_global_pulse = [
+              "population",
+              "co2",
+              "seaSurface",
+              "geomagnetic",
+              "dayNight",
+              "cloudCover"
+          ]
+
+
+          for key in required_global_pulse:
+
+              item = global_pulse.get(
+                  key
+              )
+
+              if not isinstance(
+                  item,
+                  dict
+              ):
+                  raise RuntimeError(
+                      "GLOBAL PULSE field is missing: "
+                      + key
+                  )
+
+              if not item.get(
+                  "display"
+              ):
+                  raise RuntimeError(
+                      "GLOBAL PULSE display is missing: "
+                      + key
+                  )
 
 
           if not isinstance(
@@ -1588,6 +2095,36 @@ jobs:
               "Coordinates:",
               random_place.get("lat"),
               random_place.get("lon")
+          )
+
+          print(
+              "WORLD POPULATION:",
+              global_pulse["population"]["display"]
+          )
+
+          print(
+              "CO2:",
+              global_pulse["co2"]["display"]
+          )
+
+          print(
+              "SEA SURFACE:",
+              global_pulse["seaSurface"]["display"]
+          )
+
+          print(
+              "GEOMAGNETIC:",
+              global_pulse["geomagnetic"]["display"]
+          )
+
+          print(
+              "DAY / NIGHT:",
+              global_pulse["dayNight"]["display"]
+          )
+
+          print(
+              "CLOUD COVER:",
+              global_pulse["cloudCover"]["display"]
           )
 
           print(
