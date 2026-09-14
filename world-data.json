@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T16:35:09.153141+00:00",
+  "generatedAt": "2026-09-14T16:53:26.943652+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -11,54 +11,54 @@
     "media2": "world-media/media2.jpg"
   },
   "atmosphere": {
-    "name": "EFTP",
-    "station": "EFTP",
-    "lat": 61.419,
-    "lon": 23.616,
+    "name": "KMAE",
+    "station": "KMAE",
+    "lat": 36.9851,
+    "lon": -120.1107,
     "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 6.0,
+    "temperature": 17.2,
+    "dewpoint": 11.1,
     "windSpeed": 4.0,
-    "windDirection": 260.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-14T16:20:00.000Z",
-    "raw": "METAR EFTP 141620Z AUTO 26004KT CAVOK 12/06 Q1019"
-  },
-  "randomPlace": {
-    "name": "KEFT",
-    "station": "KEFT",
-    "lat": 42.6196,
-    "lon": -89.5931,
-    "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 9.6,
-    "windSpeed": 12.0,
-    "windDirection": 150.0,
+    "windDirection": 310.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T16:15:00.000Z",
-    "raw": "METAR KEFT 141615Z AUTO 15012KT 10SM BKN080 18/10 A3023 RMK AO2 T01800096 PWINO"
+    "observationTime": "2026-09-14T15:55:00.000Z",
+    "raw": "METAR KMAE 141555Z AUTO 31004KT 10SM 17/11 A2995 RMK AO2 SLP136 T01720111 FZRANO $"
+  },
+  "randomPlace": {
+    "name": "LEVC",
+    "station": "LEVC",
+    "lat": 39.489,
+    "lon": -0.482,
+    "weather": "No coded weather",
+    "temperature": 30.0,
+    "dewpoint": 10.0,
+    "windSpeed": 11.0,
+    "windDirection": 140.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-14T16:30:00.000Z",
+    "raw": "METAR LEVC 141630Z 14011KT 110V170 CAVOK 30/10 Q1020 NOSIG"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T16:27:00Z",
-      "speed": 350.0
+      "time": "2026-09-14T16:43:00Z",
+      "speed": 356.0
     },
     "magneticField": {
-      "time": "2026-09-14T16:27:00Z",
+      "time": "2026-09-14T16:43:00Z",
       "bt": 13.0,
-      "bz": 11.0
+      "bz": 7.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T16:27:00Z",
-        "speed": 350.0
+        "time": "2026-09-14T16:43:00Z",
+        "speed": 356.0
       },
       "magneticField": {
-        "time": "2026-09-14T16:27:00Z",
+        "time": "2026-09-14T16:43:00Z",
         "bt": 13.0,
-        "bz": 11.0
+        "bz": 7.0
       }
     },
     "kp": {
