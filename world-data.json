@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T22:14:24.817893+00:00",
+  "generatedAt": "2026-09-14T22:32:50.946582+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -18,50 +18,50 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Abrevadero-vado de \"Las Merinas\" 07.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Diegui57\" title=\"User:Diegui57\">Diegui57</a>",
-    "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Abrevadero-vado_de_%22Las_Merinas%22_07.jpg"
+    "title": "File:2013 CW Kim Ying-Yang.jpg",
+    "artist": "C.W. Kim",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2013_CW_Kim_Ying-Yang.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA SUVI",
-    "name": "NOAA GOES-19 SUVI 131",
-    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/131/latest.png"
+    "name": "NOAA GOES-19 SUVI 304",
+    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/304/latest.png"
   },
   "atmosphere": {
-    "name": "CZSP",
-    "station": "CZSP",
-    "lat": 46.45,
-    "lon": -62.576,
+    "name": "K8V7",
+    "station": "K8V7",
+    "lat": 37.4547,
+    "lon": -102.6192,
     "weather": "No coded weather",
-    "temperature": 16.7,
-    "dewpoint": 15.2,
-    "windSpeed": 5.0,
-    "windDirection": 200.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-14T22:00:00.000Z",
-    "raw": "METAR CZSP 142200Z AUTO 20005KT 17/15 RMK AO1 3PAST HR 3027 PK WND 26031/2113 SLP078 P0017 T01670152 50043"
+    "temperature": 33.0,
+    "dewpoint": 9.0,
+    "windSpeed": 19.0,
+    "windDirection": 180.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-14T22:15:00.000Z",
+    "raw": "METAR K8V7 142215Z AUTO 18019G26KT 10SM SCT110 33/09 A2988 RMK AO2 LTG DSNT NE"
   },
   "randomPlace": {
-    "name": "DFOO",
-    "station": "DFOO",
-    "lat": 11.163,
-    "lon": -4.322,
+    "name": "KVBG",
+    "station": "KVBG",
+    "lat": 34.733,
+    "lon": -120.583,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 23.0,
-    "windSpeed": 3.0,
-    "windDirection": 150.0,
-    "visibility": "6+",
+    "temperature": 21.6,
+    "dewpoint": 15.2,
+    "windSpeed": 10.0,
+    "windDirection": 310.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T22:00:00.000Z",
-    "raw": "METAR DFOO 142200Z 15003KT 9999 FEW016 26/23 Q1016"
+    "observationTime": "2026-09-14T21:55:00.000Z",
+    "raw": "METAR KVBG 142155Z 31010KT 10SM FEW012 22/15 A2986 RMK AO2A SLP113 T02160152"
   },
   "globalPulse": {
     "population": {
-      "value": 8211041207,
-      "display": "8,211,041,207",
+      "value": 8211043413,
+      "display": "8,211,043,413",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -88,30 +88,30 @@
       "source": "Solar geometry"
     },
     "cloudCover": {
-      "value": 38.4,
-      "display": "38.4%",
+      "value": 37.7,
+      "display": "37.7%",
       "source": "NOAA / AviationWeather.gov"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T22:06:00Z",
-      "speed": 369.0
+      "time": "2026-09-14T22:23:00Z",
+      "speed": 377.0
     },
     "magneticField": {
-      "time": "2026-09-14T22:08:00Z",
+      "time": "2026-09-14T22:25:00Z",
       "bt": 14.0,
-      "bz": -4.0
+      "bz": -2.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T22:06:00Z",
-        "speed": 369.0
+        "time": "2026-09-14T22:23:00Z",
+        "speed": 377.0
       },
       "magneticField": {
-        "time": "2026-09-14T22:08:00Z",
+        "time": "2026-09-14T22:25:00Z",
         "bt": 14.0,
-        "bz": -4.0
+        "bz": -2.0
       }
     },
     "kp": {
