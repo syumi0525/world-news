@@ -47,7 +47,7 @@ jobs:
                       response.read().decode("utf-8")
                   )
 
-          def fetch_text(url):
+          def fetch_bytes(url):
               req = urllib.request.Request(
                   url,
                   headers={
@@ -62,18 +62,7 @@ jobs:
                   return response.read()
 
           def download(url, path):
-              req = urllib.request.Request(
-                  url,
-                  headers={
-                      "User-Agent": UA
-                  },
-              )
-
-              with urllib.request.urlopen(
-                  req,
-                  timeout=60
-              ) as response:
-                  data = response.read()
+              data = fetch_bytes(url)
 
               if len(data) < 1000:
                   raise RuntimeError(
@@ -122,8 +111,8 @@ jobs:
                   find_value(
                       row,
                       [
-                          "lat",
-                          "latitude"
+                          "latitude",
+                          "lat"
                       ]
                   )
               )
@@ -132,8 +121,8 @@ jobs:
                   find_value(
                       row,
                       [
-                          "lon",
-                          "longitude"
+                          "longitude",
+                          "lon"
                       ]
                   )
               )
@@ -142,10 +131,9 @@ jobs:
                   find_value(
                       row,
                       [
-                          "icaoId",
-                          "station",
                           "station_id",
-                          "id"
+                          "icaoId",
+                          "station"
                       ]
                   )
               )
@@ -154,8 +142,8 @@ jobs:
                   find_value(
                       row,
                       [
-                          "name",
-                          "station_name"
+                          "station_name",
+                          "name"
                       ]
                   )
               )
@@ -164,8 +152,8 @@ jobs:
                   find_value(
                       row,
                       [
-                          "wxString",
                           "wx_string",
+                          "wxString",
                           "weather"
                       ]
                   ),
@@ -176,6 +164,7 @@ jobs:
                   find_value(
                       row,
                       [
+                          "temp_c",
                           "temp",
                           "temperature"
                       ]
@@ -186,6 +175,7 @@ jobs:
                   find_value(
                       row,
                       [
+                          "dewpoint_c",
                           "dewp",
                           "dewpoint"
                       ]
@@ -196,9 +186,9 @@ jobs:
                   find_value(
                       row,
                       [
+                          "wind_speed_kt",
                           "wspd",
-                          "windSpeed",
-                          "wind_speed"
+                          "windSpeed"
                       ]
                   )
               )
@@ -207,9 +197,9 @@ jobs:
                   find_value(
                       row,
                       [
+                          "wind_dir_degrees",
                           "wdir",
-                          "windDirection",
-                          "wind_direction"
+                          "windDirection"
                       ]
                   )
               )
@@ -218,6 +208,7 @@ jobs:
                   find_value(
                       row,
                       [
+                          "visibility_statute_mi",
                           "visib",
                           "visibility"
                       ]
@@ -229,9 +220,9 @@ jobs:
                   find_value(
                       row,
                       [
+                          "flight_category",
                           "fltCat",
-                          "flightCategory",
-                          "flight_category"
+                          "flightCategory"
                       ]
                   ),
                   "N/A"
@@ -241,10 +232,9 @@ jobs:
                   find_value(
                       row,
                       [
-                          "obsTime",
-                          "observationTime",
                           "observation_time",
-                          "reportTime"
+                          "obsTime",
+                          "observationTime"
                       ]
                   )
               )
@@ -253,9 +243,9 @@ jobs:
                   find_value(
                       row,
                       [
+                          "raw_text",
                           "rawOb",
-                          "raw",
-                          "raw_metar"
+                          "raw"
                       ]
                   )
               )
@@ -282,7 +272,6 @@ jobs:
 
           # ============================================================
           # METAR
-          # AviationWeather公式キャッシュから現在の世界中のMETARを取得
           # ============================================================
 
           metar_cache_url = (
@@ -296,7 +285,7 @@ jobs:
           print("================================")
           print(metar_cache_url)
 
-          compressed = fetch_text(
+          compressed = fetch_bytes(
               metar_cache_url
           )
 
@@ -305,14 +294,9 @@ jobs:
               len(compressed)
           )
 
-          try:
-              csv_bytes = gzip.decompress(
-                  compressed
-              )
-          except Exception as e:
-              raise RuntimeError(
-                  f"Could not decompress METAR cache: {e}"
-              )
+          csv_bytes = gzip.decompress(
+              compressed
+          )
 
           print(
               "CSV bytes:",
@@ -415,17 +399,18 @@ jobs:
 
           # ============================================================
           # NOAA SPACE WEATHER
+          # 現在のNOAA SWPC公開エンドポイント
           # ============================================================
 
           solar_speed_url = (
               "https://services.swpc.noaa.gov/"
-              "products/solar-wind/"
+              "products/summary/"
               "solar-wind-speed.json"
           )
 
           magnetic_url = (
               "https://services.swpc.noaa.gov/"
-              "products/solar-wind/"
+              "products/summary/"
               "solar-wind-mag-field.json"
           )
 
@@ -437,20 +422,45 @@ jobs:
 
           flux_url = (
               "https://services.swpc.noaa.gov/"
-              "products/"
-              "10cm-flux-30-day.json"
+              "products/summary/"
+              "10cm-flux.json"
+          )
+
+          print("")
+          print("================================")
+          print("FETCHING NOAA SPACE WEATHER")
+          print("================================")
+
+          print(
+              "Solar Wind:",
+              solar_speed_url
           )
 
           solar_speed_raw = fetch_json(
               solar_speed_url
           )
 
+          print(
+              "Magnetic Field:",
+              magnetic_url
+          )
+
           magnetic_raw = fetch_json(
               magnetic_url
           )
 
+          print(
+              "Kp:",
+              kp_url
+          )
+
           kp_raw = fetch_json(
               kp_url
+          )
+
+          print(
+              "10cm Flux:",
+              flux_url
           )
 
           flux_raw = fetch_json(
@@ -458,6 +468,9 @@ jobs:
           )
 
           def latest_row(data):
+              if isinstance(data, dict):
+                  return data
+
               if not isinstance(
                   data,
                   list
@@ -466,28 +479,21 @@ jobs:
 
               for row in reversed(data):
 
-                  if not isinstance(
+                  if isinstance(
                       row,
                       dict
                   ):
-                      continue
-
-                  values = list(
-                      row.values()
-                  )
-
-                  if not values:
-                      continue
-
-                  return row
+                      return row
 
               return {}
 
           def val(obj, *keys):
               for key in keys:
+
                   if (
                       isinstance(obj, dict)
-                      and key in obj
+                      and
+                      key in obj
                   ):
                       return obj[key]
 
@@ -501,8 +507,28 @@ jobs:
               magnetic_raw
           )
 
-          kp = latest_row(
+          kp_rows = (
               kp_raw
+              if isinstance(
+                  kp_raw,
+                  list
+              )
+              else [kp_raw]
+          )
+
+          kp_rows = [
+              row
+              for row in kp_rows
+              if isinstance(
+                  row,
+                  dict
+              )
+          ]
+
+          kp = (
+              kp_rows[-1]
+              if kp_rows
+              else {}
           )
 
           flux = latest_row(
@@ -517,6 +543,7 @@ jobs:
                       "time"
                   )
               ),
+
               "speed": number(
                   val(
                       solar_speed,
@@ -534,6 +561,7 @@ jobs:
                       "time"
                   )
               ),
+
               "bt": number(
                   val(
                       magnetic,
@@ -541,6 +569,7 @@ jobs:
                       "Bt"
                   )
               ),
+
               "bz": number(
                   val(
                       magnetic,
@@ -559,6 +588,7 @@ jobs:
                       "time"
                   )
               ),
+
               "kp": number(
                   val(
                       kp,
@@ -576,6 +606,7 @@ jobs:
                       "time"
                   )
               ),
+
               "flux": number(
                   val(
                       flux,
@@ -584,6 +615,27 @@ jobs:
                   )
               )
           }
+
+          print("")
+          print(
+              "SOLAR WIND:",
+              solar_wind
+          )
+
+          print(
+              "MAGNETIC FIELD:",
+              magnetic_field
+          )
+
+          print(
+              "KP:",
+              kp_data
+          )
+
+          print(
+              "10CM FLUX:",
+              flux_data
+          )
 
           # ============================================================
           # SATELLITE IMAGES
@@ -716,13 +768,34 @@ jobs:
           )
 
           print(
-              "Latitude:",
-              random_place_data["lat"]
+              "Coordinates:",
+              random_place_data["lat"],
+              random_place_data["lon"]
           )
 
           print(
-              "Longitude:",
-              random_place_data["lon"]
+              "Solar Wind:",
+              solar_wind["speed"]
+          )
+
+          print(
+              "Magnetic Bt:",
+              magnetic_field["bt"]
+          )
+
+          print(
+              "Magnetic Bz:",
+              magnetic_field["bz"]
+          )
+
+          print(
+              "Kp:",
+              kp_data["kp"]
+          )
+
+          print(
+              "10cm Flux:",
+              flux_data["flux"]
           )
 
           print("================================")
@@ -749,6 +822,10 @@ jobs:
               "randomPlace"
           )
 
+          space = data.get(
+              "space"
+          )
+
           if not isinstance(
               atmosphere,
               dict
@@ -765,18 +842,26 @@ jobs:
                   "Random Place data is empty."
               )
 
-          lat = random_place.get(
-              "lat"
-          )
-
-          lon = random_place.get(
-              "lon"
-          )
-
-          if lat is None or lon is None:
+          if (
+              random_place.get("lat") is None
+              or
+              random_place.get("lon") is None
+          ):
               raise RuntimeError(
                   "Random Place coordinates are missing."
               )
+
+          if not isinstance(
+              space,
+              dict
+          ) or not space:
+              raise RuntimeError(
+                  "Space Weather data is empty."
+              )
+
+          print(
+              "================================"
+          )
 
           print(
               "Verification OK"
@@ -794,8 +879,44 @@ jobs:
 
           print(
               "Coordinates:",
-              lat,
-              lon
+              random_place.get("lat"),
+              random_place.get("lon")
+          )
+
+          print(
+              "Solar Wind:",
+              space.get(
+                  "solarWind",
+                  {}
+              ).get("speed")
+          )
+
+          print(
+              "Magnetic Bt:",
+              space.get(
+                  "magneticField",
+                  {}
+              ).get("bt")
+          )
+
+          print(
+              "Kp:",
+              space.get(
+                  "kp",
+                  {}
+              ).get("kp")
+          )
+
+          print(
+              "10cm Flux:",
+              space.get(
+                  "flux10cm",
+                  {}
+              ).get("flux")
+          )
+
+          print(
+              "================================"
           )
 
           PY
@@ -803,7 +924,7 @@ jobs:
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add world-data.json world-media/
 
@@ -813,3 +934,4 @@ jobs:
             git commit -m "Update WORLD NEWS data"
             git push
           fi
+`
