@@ -440,7 +440,6 @@ body {
 
   <div class="grid">
 
-
     <!-- RANDOM PLACE / VERTICAL TWO-TILE AREA -->
     <section class="tile random-place-tile">
 
@@ -673,65 +672,106 @@ function renderGlobalPulse(data) {
 
 
   /*
-    world-data.json の globalPulse に
-    以下の値を入れられる構造。
+    world-data.json の globalPulse は
+    単純な文字列ではなく、
 
-    population
-    co2
-    seaSurface
-    geomagnetic
-    dayNight
-    cloudCover
+    {
+      value: 数値,
+      display: "表示文字列",
+      source: "データ元"
+    }
+
+    のようなオブジェクトを使用する。
+
+    そのため、画面には display を優先して表示する。
   */
+
+  function getDisplayValue(item) {
+
+    if (
+      item === null ||
+      item === undefined ||
+      item === ""
+    ) {
+      return "NO DATA";
+    }
+
+    if (
+      typeof item === "object"
+    ) {
+
+      if (
+        item.display !== undefined &&
+        item.display !== null &&
+        item.display !== ""
+      ) {
+        return item.display;
+      }
+
+      if (
+        item.value !== undefined &&
+        item.value !== null &&
+        item.value !== ""
+      ) {
+        return item.value;
+      }
+
+      return "NO DATA";
+    }
+
+    return item;
+
+  }
+
 
   const items = [
 
     {
       label: "WORLD POPULATION",
       value:
-        data.population !== undefined
-          ? data.population
-          : "NO DATA"
+        getDisplayValue(
+          data.population
+        )
     },
 
     {
       label: "CO₂",
       value:
-        data.co2 !== undefined
-          ? data.co2
-          : "NO DATA"
+        getDisplayValue(
+          data.co2
+        )
     },
 
     {
       label: "SEA SURFACE",
       value:
-        data.seaSurface !== undefined
-          ? data.seaSurface
-          : "NO DATA"
+        getDisplayValue(
+          data.seaSurface
+        )
     },
 
     {
       label: "GEOMAGNETIC",
       value:
-        data.geomagnetic !== undefined
-          ? data.geomagnetic
-          : "NO DATA"
+        getDisplayValue(
+          data.geomagnetic
+        )
     },
 
     {
       label: "DAY / NIGHT",
       value:
-        data.dayNight !== undefined
-          ? data.dayNight
-          : "NO DATA"
+        getDisplayValue(
+          data.dayNight
+        )
     },
 
     {
       label: "CLOUD COVER",
       value:
-        data.cloudCover !== undefined
-          ? data.cloudCover
-          : "NO DATA"
+        getDisplayValue(
+          data.cloudCover
+        )
     }
 
   ];
@@ -1475,7 +1515,6 @@ async function loadWorldData() {
     renderMediaSignal1(
       data
     );
-
 
     renderMediaSignal2(
       data
