@@ -1,3 +1,4 @@
+```yaml
 name: Update WORLD NEWS data
 
 on:
@@ -19,6 +20,9 @@ jobs:
       - name: Update WORLD NEWS
         run: |
           python - <<'PY'
+          import csv
+          import gzip
+          import io
           import json
           import os
           import random
@@ -36,10 +40,27 @@ jobs:
                   },
               )
 
-              with urllib.request.urlopen(req, timeout=30) as r:
+              with urllib.request.urlopen(
+                  req,
+                  timeout=30
+              ) as response:
                   return json.loads(
-                      r.read().decode("utf-8")
+                      response.read().decode("utf-8")
                   )
+
+          def fetch_text(url):
+              req = urllib.request.Request(
+                  url,
+                  headers={
+                      "User-Agent": UA
+                  },
+              )
+
+              with urllib.request.urlopen(
+                  req,
+                  timeout=60
+              ) as response:
+                  return response.read()
 
           def download(url, path):
               req = urllib.request.Request(
@@ -52,12 +73,12 @@ jobs:
               with urllib.request.urlopen(
                   req,
                   timeout=60
-              ) as r:
-                  data = r.read()
+              ) as response:
+                  data = response.read()
 
               if len(data) < 1000:
                   raise RuntimeError(
-                      "Downloaded image is too small"
+                      "Downloaded image is too small."
                   )
 
               with open(path, "wb") as f:
@@ -84,66 +105,176 @@ jobs:
               except Exception:
                   return None
 
-          def make_weather(m):
-              return {
-                  "name": clean(
-                      m.get("name"),
-                      clean(
-                          m.get("icaoId"),
-                          "Unknown"
-                      )
-                  ),
+          def find_value(row, names):
+              for name in names:
+                  if name in row:
+                      value = row[name]
 
-                  "station": clean(
-                      m.get("icaoId")
-                  ),
+                      if (
+                          value is not None
+                          and str(value).strip() != ""
+                      ):
+                          return value
 
-                  "lat": number(
-                      m.get("lat")
-                  ),
+              return None
 
-                  "lon": number(
-                      m.get("lon")
-                  ),
-
-                  "weather": clean(
-                      m.get("wxString"),
-                      "No coded weather"
-                  ),
-
-                  "temperature": number(
-                      m.get("temp")
-                  ),
-
-                  "dewpoint": number(
-                      m.get("dewp")
-                  ),
-
-                  "windSpeed": number(
-                      m.get("wspd")
-                  ),
-
-                  "windDirection": number(
-                      m.get("wdir")
-                  ),
-
-                  "visibility": clean(
-                      m.get("visib"),
-                      "N/A"
-                  ),
-
-                  "flightCategory": clean(
-                      m.get("fltCat"),
-                      "N/A"
-                  ),
-
-                  "observationTime": clean(
-                      m.get("obsTime")
-                  ),
-
-                  "raw": clean(
-                      m.get("rawOb")
+          def make_weather(row):
+              lat = number(
+                  find_value(
+                      row,
+                      [
+                          "lat",
+                          "latitude"
+                      ]
                   )
+              )
+
+              lon = number(
+                  find_value(
+                      row,
+                      [
+                          "lon",
+                          "longitude"
+                      ]
+                  )
+              )
+
+              station = clean(
+                  find_value(
+                      row,
+                      [
+                          "icaoId",
+                          "station",
+                          "station_id",
+                          "id"
+                      ]
+                  )
+              )
+
+              name = clean(
+                  find_value(
+                      row,
+                      [
+                          "name",
+                          "station_name"
+                      ]
+                  )
+              )
+
+              weather = clean(
+                  find_value(
+                      row,
+                      [
+                          "wxString",
+                          "wx_string",
+                          "weather"
+                      ]
+                  ),
+                  "No coded weather"
+              )
+
+              temperature = number(
+                  find_value(
+                      row,
+                      [
+                          "temp",
+                          "temperature"
+                      ]
+                  )
+              )
+
+              dewpoint = number(
+                  find_value(
+                      row,
+                      [
+                          "dewp",
+                          "dewpoint"
+                      ]
+                  )
+              )
+
+              wind_speed = number(
+                  find_value(
+                      row,
+                      [
+                          "wspd",
+                          "windSpeed",
+                          "wind_speed"
+                      ]
+                  )
+              )
+
+              wind_direction = number(
+                  find_value(
+                      row,
+                      [
+                          "wdir",
+                          "windDirection",
+                          "wind_direction"
+                      ]
+                  )
+              )
+
+              visibility = clean(
+                  find_value(
+                      row,
+                      [
+                          "visib",
+                          "visibility"
+                      ]
+                  ),
+                  "N/A"
+              )
+
+              flight_category = clean(
+                  find_value(
+                      row,
+                      [
+                          "fltCat",
+                          "flightCategory",
+                          "flight_category"
+                      ]
+                  ),
+                  "N/A"
+              )
+
+              observation_time = clean(
+                  find_value(
+                      row,
+                      [
+                          "obsTime",
+                          "observationTime",
+                          "observation_time",
+                          "reportTime"
+                      ]
+                  )
+              )
+
+              raw = clean(
+                  find_value(
+                      row,
+                      [
+                          "rawOb",
+                          "raw",
+                          "raw_metar"
+                      ]
+                  )
+              )
+
+              return {
+                  "name": name or station or "Unknown",
+                  "station": station,
+                  "lat": lat,
+                  "lon": lon,
+                  "weather": weather,
+                  "temperature": temperature,
+                  "dewpoint": dewpoint,
+                  "windSpeed": wind_speed,
+                  "windDirection": wind_direction,
+                  "visibility": visibility,
+                  "flightCategory": flight_category,
+                  "observationTime": observation_time,
+                  "raw": raw
               }
 
           generated = datetime.now(
@@ -151,106 +282,116 @@ jobs:
           ).isoformat()
 
           # ============================================================
-          # WEATHER / RANDOM PLACE
+          # METAR
+          # AviationWeather公式キャッシュから現在の世界中のMETARを取得
           # ============================================================
 
-          metar_url = (
-              "https://aviationweather.gov/api/data/metar"
-              "?format=json&hours=2"
+          metar_cache_url = (
+              "https://aviationweather.gov/"
+              "data/cache/metars.cache.csv.gz"
           )
 
           print("")
           print("================================")
-          print("FETCHING METAR")
+          print("FETCHING METAR CACHE")
           print("================================")
-          print(metar_url)
+          print(metar_cache_url)
 
-          metars = fetch_json(
-              metar_url
+          compressed = fetch_text(
+              metar_cache_url
           )
 
           print(
-              "METAR response type:",
-              type(metars).__name__
+              "Compressed bytes:",
+              len(compressed)
           )
 
-          if not isinstance(metars, list):
+          try:
+              csv_bytes = gzip.decompress(
+                  compressed
+              )
+          except Exception as e:
               raise RuntimeError(
-                  "METAR API did not return a list."
+                  f"Could not decompress METAR cache: {e}"
               )
 
           print(
-              "METAR records:",
-              len(metars)
+              "CSV bytes:",
+              len(csv_bytes)
           )
 
-          stations = []
+          csv_text = csv_bytes.decode(
+              "utf-8-sig",
+              errors="replace"
+          )
 
-          for m in metars:
+          reader = csv.DictReader(
+              io.StringIO(csv_text)
+          )
 
-              if not isinstance(
-                  m,
-                  dict
+          print(
+              "CSV columns:",
+              reader.fieldnames
+          )
+
+          valid_rows = []
+
+          for row in reader:
+
+              if not row:
+                  continue
+
+              weather = make_weather(
+                  row
+              )
+
+              if not weather["station"]:
+                  continue
+
+              if weather["lat"] is None:
+                  continue
+
+              if weather["lon"] is None:
+                  continue
+
+              if (
+                  weather["lat"] < -90
+                  or
+                  weather["lat"] > 90
               ):
                   continue
 
-              icao = clean(
-                  m.get("icaoId")
+              if (
+                  weather["lon"] < -180
+                  or
+                  weather["lon"] > 180
+              ):
+                  continue
+
+              valid_rows.append(
+                  weather
               )
-
-              lat = number(
-                  m.get("lat")
-              )
-
-              lon = number(
-                  m.get("lon")
-              )
-
-              if not icao:
-                  continue
-
-              if lat is None:
-                  continue
-
-              if lon is None:
-                  continue
-
-              # 明らかにおかしい座標を除外
-              if lat < -90 or lat > 90:
-                  continue
-
-              if lon < -180 or lon > 180:
-                  continue
-
-              stations.append(m)
 
           print(
-              "Valid stations:",
-              len(stations)
+              "Valid METAR stations:",
+              len(valid_rows)
           )
 
-          if len(stations) < 2:
+          if len(valid_rows) < 2:
               raise RuntimeError(
                   "Not enough valid METAR stations."
               )
 
-          # ============================================================
-          # RANDOM PLACE
-          # ============================================================
-
           random.shuffle(
-              stations
+              valid_rows
           )
 
-          atmosphere_station = stations[0]
-          random_station = stations[1]
-
-          atmosphere_data = make_weather(
-              atmosphere_station
+          atmosphere_data = (
+              valid_rows[0]
           )
 
-          random_place_data = make_weather(
-              random_station
+          random_place_data = (
+              valid_rows[1]
           )
 
           print("")
@@ -264,14 +405,13 @@ jobs:
               random_place_data
           )
 
-          # 絶対に座標なしのRandom Placeを保存しない
           if (
               random_place_data["lat"] is None
               or
               random_place_data["lon"] is None
           ):
               raise RuntimeError(
-                  "Random Place has no valid coordinates."
+                  "Random Place has no coordinates."
               )
 
           # ============================================================
@@ -333,22 +473,19 @@ jobs:
                   ):
                       continue
 
-                  # ヘッダー行を避ける
-                  if any(
-                      value not in (
-                          None,
-                          "",
-                          "time_tag"
-                      )
-                      for value in row.values()
-                  ):
-                      return row
+                  values = list(
+                      row.values()
+                  )
+
+                  if not values:
+                      continue
+
+                  return row
 
               return {}
 
           def val(obj, *keys):
               for key in keys:
-
                   if (
                       isinstance(obj, dict)
                       and key in obj
@@ -381,7 +518,6 @@ jobs:
                       "time"
                   )
               ),
-
               "speed": number(
                   val(
                       solar_speed,
@@ -399,7 +535,6 @@ jobs:
                       "time"
                   )
               ),
-
               "bt": number(
                   val(
                       magnetic,
@@ -407,7 +542,6 @@ jobs:
                       "Bt"
                   )
               ),
-
               "bz": number(
                   val(
                       magnetic,
@@ -426,7 +560,6 @@ jobs:
                       "time"
                   )
               ),
-
               "kp": number(
                   val(
                       kp,
@@ -444,7 +577,6 @@ jobs:
                       "time"
                   )
               ),
-
               "flux": number(
                   val(
                       flux,
@@ -464,7 +596,6 @@ jobs:
           )
 
           image_sources = {
-
               "earth":
                   "https://cdn.star.nesdis.noaa.gov/"
                   "GOES19/ABI/CONUS/"
@@ -487,48 +618,31 @@ jobs:
                   f"world-media/{key}.jpg"
               )
 
-              try:
+              print(
+                  "Downloading:",
+                  key
+              )
 
-                  print(
-                      "Downloading:",
-                      key
-                  )
+              download(
+                  url,
+                  path
+              )
 
-                  download(
-                      url,
-                      path
-                  )
-
-                  print(
-                      "Downloaded:",
-                      os.path.getsize(path),
-                      "bytes"
-                  )
-
-              except Exception as e:
-
-                  print(
-                      "Image failed:",
-                      key,
-                      e
-                  )
-
-                  if not os.path.exists(
-                      path
-                  ):
-                      raise
+              print(
+                  "Downloaded:",
+                  os.path.getsize(path),
+                  "bytes"
+              )
 
           # ============================================================
-          # SAVE WORLD DATA
+          # WORLD DATA
           # ============================================================
 
           world = {
-
               "generatedAt":
                   generated,
 
               "sources": {
-
                   "weather":
                       "AviationWeather.gov",
 
@@ -540,7 +654,6 @@ jobs:
               },
 
               "images": {
-
                   "earth":
                       "world-media/earth.jpg",
 
@@ -558,7 +671,6 @@ jobs:
                   random_place_data,
 
               "space": {
-
                   "solarWind":
                       solar_wind,
 
@@ -566,7 +678,6 @@ jobs:
                       magnetic_field,
 
                   "interplanetary": {
-
                       "solarWind":
                           solar_wind,
 
@@ -597,43 +708,22 @@ jobs:
 
           print("")
           print("================================")
-          print("WORLD NEWS UPDATED")
+          print("WORLD DATA CREATED")
           print("================================")
 
           print(
-              "Atmosphere:",
-              atmosphere_data["name"]
-          )
-
-          print(
-              "Random:",
+              "Random Place:",
               random_place_data["name"]
           )
 
           print(
-              "Random coordinates:",
-              random_place_data["lat"],
+              "Latitude:",
+              random_place_data["lat"]
+          )
+
+          print(
+              "Longitude:",
               random_place_data["lon"]
-          )
-
-          print(
-              "Solar Wind:",
-              solar_wind
-          )
-
-          print(
-              "Magnetic:",
-              magnetic_field
-          )
-
-          print(
-              "Kp:",
-              kp_data
-          )
-
-          print(
-              "Flux:",
-              flux_data
           )
 
           print("================================")
@@ -652,33 +742,41 @@ jobs:
           ) as f:
               data = json.load(f)
 
-          random_place = data.get(
-              "randomPlace",
-              {}
-          )
-
           atmosphere = data.get(
-              "atmosphere",
-              {}
+              "atmosphere"
           )
 
-          if not random_place:
+          random_place = data.get(
+              "randomPlace"
+          )
+
+          if not isinstance(
+              atmosphere,
+              dict
+          ) or not atmosphere:
               raise RuntimeError(
-                  "randomPlace is empty."
+                  "Atmosphere data is empty."
               )
 
-          if (
-              random_place.get("lat") is None
-              or
-              random_place.get("lon") is None
-          ):
+          if not isinstance(
+              random_place,
+              dict
+          ) or not random_place:
               raise RuntimeError(
-                  "randomPlace coordinates are missing."
+                  "Random Place data is empty."
               )
 
-          if not atmosphere:
+          lat = random_place.get(
+              "lat"
+          )
+
+          lon = random_place.get(
+              "lon"
+          )
+
+          if lat is None or lon is None:
               raise RuntimeError(
-                  "atmosphere is empty."
+                  "Random Place coordinates are missing."
               )
 
           print(
@@ -686,26 +784,27 @@ jobs:
           )
 
           print(
-              "Random:",
+              "Atmosphere:",
+              atmosphere.get("name")
+          )
+
+          print(
+              "Random Place:",
               random_place.get("name")
           )
 
           print(
               "Coordinates:",
-              random_place.get("lat"),
-              random_place.get("lon")
+              lat,
+              lon
           )
 
-          print(
-              "Atmosphere:",
-              atmosphere.get("name")
-          )
           PY
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@github.com"
 
           git add world-data.json world-media/
 
@@ -715,3 +814,4 @@ jobs:
             git commit -m "Update WORLD NEWS data"
             git push
           fi
+```
