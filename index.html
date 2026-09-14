@@ -384,7 +384,6 @@ body {
 
     <!-- ATMOSPHERE -->
     <section class="tile">
-
       <div class="tile-title">
         <span class="emoji">🌬</span>
         <span>ATMOSPHERE</span>
@@ -393,7 +392,6 @@ body {
       <div class="content" id="atmosphere">
         <div class="no-data">LOADING...</div>
       </div>
-
     </section>
 
 
@@ -424,7 +422,6 @@ body {
         </div>
 
       </div>
-
     </section>
 
 
@@ -478,7 +475,7 @@ body {
 
           <img
             id="mediaImage2"
-            alt="Random worldwide satellite image"
+            alt="Worldwide satellite or space image"
           >
 
           <div
@@ -491,11 +488,11 @@ body {
         </div>
 
       </div>
-
     </section>
 
   </div>
 </div>
+
 
 <div
   class="updated"
@@ -1075,76 +1072,10 @@ function renderSpaceWeather(space) {
 
 /* =========================================================
    MEDIA SIGNAL ①
-   Wikimedia Commons
-   Featured Pictures
-   Commercial-compatible licenses only
+   GitHub Actionsで生成した画像を表示
 ========================================================= */
 
-const COMMONS_API =
-  "https://commons.wikimedia.org/w/api.php";
-
-
-const ALLOWED_COMMONS_LICENSES = [
-
-  "CC0 1.0",
-  "CC0",
-  "Public domain",
-  "Public Domain",
-  "CC BY 4.0",
-  "CC BY 3.0",
-  "CC BY 2.0",
-  "CC BY-SA 4.0",
-  "CC BY-SA 3.0",
-  "CC BY-SA 2.0"
-
-];
-
-
-function getCommonsMetadataValue(
-  metadata,
-  key
-) {
-
-  if (
-    !metadata ||
-    !metadata[key]
-  ) {
-    return "";
-  }
-
-  return (
-    metadata[key].value ||
-    metadata[key].source ||
-    ""
-  );
-
-}
-
-
-function isCommercialCommonsLicense(
-  license
-) {
-
-  if (!license) {
-    return false;
-  }
-
-  const normalized =
-    String(license)
-      .trim()
-      .toLowerCase();
-
-  return ALLOWED_COMMONS_LICENSES
-    .some(
-      allowed =>
-        normalized ===
-        allowed.toLowerCase()
-    );
-
-}
-
-
-async function loadCommonsPhoto() {
+function setupMediaSignal1(data) {
 
   const img =
     document.getElementById(
@@ -1156,274 +1087,107 @@ async function loadCommonsPhoto() {
       "mediaSource1"
     );
 
-
   if (!img || !source) {
     return;
   }
 
 
-  source.textContent =
-    "LOADING...";
+  const imagePath =
+    data &&
+    data.images &&
+    data.images.media1
+      ? data.images.media1
+      : "./world-media/media1.jpg";
 
 
-  try {
-
-    const params =
-      new URLSearchParams({
-
-        action:
-          "query",
-
-        generator:
-          "categorymembers",
-
-        gcmtitle:
-          "Category:Featured pictures",
-
-        gcmtype:
-          "file",
-
-        gcmnamespace:
-          "6",
-
-        gcmlimit:
-          "50",
-
-        prop:
-          "imageinfo",
-
-        iiprop:
-          "url|mime|extmetadata",
-
-        iiurlwidth:
-          "1250",
-
-        format:
-          "json",
-
-        origin:
-          "*"
-
-      });
+  const mediaInfo =
+    data &&
+    data.mediaSignal1
+      ? data.mediaSignal1
+      : null;
 
 
-    const response =
-      await fetch(
-        `${COMMONS_API}?${params.toString()}`,
-        {
-          cache: "no-store"
-        }
-      );
+  img.style.display =
+    "block";
+
+  img.src =
+    `${imagePath}?t=${Date.now()}`;
+
+  img.alt =
+    mediaInfo &&
+    mediaInfo.title
+      ? mediaInfo.title
+      : "World photograph";
 
 
-    if (!response.ok) {
-      throw new Error(
-        "Commons API error"
-      );
-    }
+  if (mediaInfo) {
 
-
-    const data =
-      await response.json();
-
-
-    const pages =
-      data &&
-      data.query &&
-      data.query.pages
-        ? Object.values(
-            data.query.pages
-          )
-        : [];
-
-
-    const candidates =
-      pages.filter(page => {
-
-        const info =
-          page.imageinfo &&
-          page.imageinfo[0];
-
-        if (!info) {
-          return false;
-        }
-
-
-        if (
-          !info.mime ||
-          !/^image\/jpe?g$/i.test(
-            info.mime
-          )
-        ) {
-          return false;
-        }
-
-
-        const metadata =
-          info.extmetadata ||
-          {};
-
-
-        const license =
-          getCommonsMetadataValue(
-            metadata,
-            "LicenseShortName"
-          );
-
-
-        return isCommercialCommonsLicense(
-          license
-        );
-
-      });
-
-
-    if (!candidates.length) {
-
-      throw new Error(
-        "No suitable Commons image found."
-      );
-
-    }
-
-
-    const selected =
-      candidates[
-        Math.floor(
-          Math.random() *
-          candidates.length
-        )
-      ];
-
-
-    const info =
-      selected.imageinfo[0];
-
-
-    const metadata =
-      info.extmetadata ||
-      {};
-
+    const artist =
+      mediaInfo.artist
+        ? `${escapeHTML(mediaInfo.artist)} · `
+        : "";
 
     const license =
-      getCommonsMetadataValue(
-        metadata,
-        "LicenseShortName"
-      ) ||
-      "Public Domain";
+      mediaInfo.license
+        ? escapeHTML(
+            mediaInfo.license
+          )
+        : "";
 
-
-    let artist =
-      getCommonsMetadataValue(
-        metadata,
-        "Artist"
-      );
-
-
-    if (!artist) {
-
-      artist =
-        getCommonsMetadataValue(
-          metadata,
-          "Credit"
-        );
-
-    }
-
-
-    artist =
-      artist
-        .replace(
-          /<[^>]*>/g,
-          ""
-        )
-        .trim();
-
-
-    const filePage =
-      `https://commons.wikimedia.org/wiki/${encodeURIComponent(
-        selected.title.replace(
-          / /g,
-          "_"
-        )
-      )}`;
-
-
-    img.style.display =
-      "block";
-
-    img.src =
-      info.thumburl ||
-      info.url;
-
-    img.alt =
-      artist
-        ? `Photograph by ${artist}`
-        : "World photograph";
-
-
-    const artistText =
-      artist
-        ? `${artist} · `
+    const page =
+      mediaInfo.page
+        ? mediaInfo.page
         : "";
 
 
-    source.innerHTML =
-      `${escapeHTML(artistText)}${escapeHTML(license)} · ` +
-      `<a href="${filePage}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>`;
+    if (page) {
 
+      source.innerHTML =
+        `${artist}${license} · ` +
+        `<a href="${escapeHTML(page)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>`;
 
-    img.onerror =
-      () => {
+    } else {
 
-        img.removeAttribute(
-          "src"
-        );
+      source.innerHTML =
+        `${artist}${license}`;
 
-        img.alt =
-          "NO DATA";
+    }
 
-        img.style.display =
-          "none";
-
-        source.textContent =
-          "NO DATA";
-
-      };
-
-
-  } catch (error) {
-
-    console.error(
-      "MEDIA SIGNAL ①:",
-      error
-    );
-
-    img.removeAttribute(
-      "src"
-    );
-
-    img.alt =
-      "NO DATA";
-
-    img.style.display =
-      "none";
+  } else {
 
     source.textContent =
-      "NO DATA";
+      "Wikimedia Commons";
 
   }
+
+
+  img.onerror =
+    () => {
+
+      img.removeAttribute(
+        "src"
+      );
+
+      img.alt =
+        "NO DATA";
+
+      img.style.display =
+        "none";
+
+      source.textContent =
+        "NO DATA";
+
+    };
 
 }
 
 
 /* =========================================================
    MEDIA SIGNAL ②
-   NASA GIBS
-   Worldwide random satellite image
+   GitHub Actionsで生成した画像を表示
 ========================================================= */
 
-function loadSatelliteImage() {
+function setupMediaSignal2(data) {
 
   const img =
     document.getElementById(
@@ -1435,113 +1199,60 @@ function loadSatelliteImage() {
       "mediaSource2"
     );
 
-
   if (!img || !source) {
     return;
   }
 
 
-  /*
-    全球のランダム地点。
-
-    極端な極域を避け、
-    -55° ～ +75°
-    の範囲からランダムに選択。
-  */
-
-  const centerLat =
-    Math.random() * 130 - 55;
-
-  const centerLon =
-    Math.random() * 360 - 180;
+  const imagePath =
+    data &&
+    data.images &&
+    data.images.media2
+      ? data.images.media2
+      : "./world-media/media2.jpg";
 
 
-  const latSpan = 12;
-  const lonSpan = 18;
-
-
-  const left =
-    Math.max(
-      -180,
-      centerLon - lonSpan
-    );
-
-  const right =
-    Math.min(
-      180,
-      centerLon + lonSpan
-    );
-
-  const bottom =
-    Math.max(
-      -90,
-      centerLat - latSpan
-    );
-
-  const top =
-    Math.min(
-      90,
-      centerLat + latSpan
-    );
-
-
-  const params =
-    new URLSearchParams({
-
-      SERVICE:
-        "WMS",
-
-      REQUEST:
-        "GetMap",
-
-      VERSION:
-        "1.1.1",
-
-      LAYERS:
-        "MODIS_Terra_CorrectedReflectance_TrueColor",
-
-      STYLES:
-        "",
-
-      FORMAT:
-        "image/jpeg",
-
-      SRS:
-        "EPSG:4326",
-
-      BBOX:
-        `${left},${bottom},${right},${top}`,
-
-      WIDTH:
-        "1250",
-
-      HEIGHT:
-        "750",
-
-      TIME:
-        "default"
-
-    });
-
-
-  const imageURL =
-    "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?" +
-    params.toString();
-
-
-  source.textContent =
-    "NASA GIBS · MODIS Terra True Color";
+  const mediaInfo =
+    data &&
+    data.mediaSignal2
+      ? data.mediaSignal2
+      : null;
 
 
   img.style.display =
     "block";
 
   img.src =
-    imageURL;
+    `${imagePath}?t=${Date.now()}`;
 
 
   img.alt =
-    `Random worldwide satellite image near ${centerLat.toFixed(2)}, ${centerLon.toFixed(2)}`;
+    mediaInfo &&
+    mediaInfo.name
+      ? mediaInfo.name
+      : "Worldwide satellite or space image";
+
+
+  if (mediaInfo) {
+
+    const sourceName =
+      mediaInfo.source ||
+      "NOAA";
+
+    const name =
+      mediaInfo.name
+        ? ` · ${escapeHTML(mediaInfo.name)}`
+        : "";
+
+    source.textContent =
+      `${escapeHTML(sourceName)}${name}`;
+
+  } else {
+
+    source.textContent =
+      "NOAA";
+
+  }
 
 
   img.onerror =
@@ -1595,6 +1306,10 @@ async function loadWorldData() {
       await response.json();
 
 
+    /* -----------------------------------------
+       通常データ
+    ----------------------------------------- */
+
     renderAtmosphere(
       data.atmosphere
     );
@@ -1604,6 +1319,11 @@ async function loadWorldData() {
       data.randomPlace
     );
 
+
+    /*
+      RANDOM PLACEとEARTH OBSERVATIONは
+      完全に同じ data.randomPlace を使用。
+    */
 
     setupRandomPlaceMap(
       data.randomPlace
@@ -1615,16 +1335,29 @@ async function loadWorldData() {
     );
 
 
-    /*
-      MEDIA SIGNAL ①②は
-      world-data.jsonではなく、
-      ここから直接取得する。
-    */
+    /* -----------------------------------------
+       MEDIA SIGNAL ①②
 
-    loadCommonsPhoto();
+       ブラウザから外部APIへ直接アクセスせず、
+       GitHub Actionsが生成した
+       world-media/media1.jpg
+       world-media/media2.jpg
+       を表示する。
+    ----------------------------------------- */
 
-    loadSatelliteImage();
+    setupMediaSignal1(
+      data
+    );
 
+
+    setupMediaSignal2(
+      data
+    );
+
+
+    /* -----------------------------------------
+       UPDATED
+    ----------------------------------------- */
 
     const updated =
       document.getElementById(
@@ -1669,13 +1402,18 @@ async function loadWorldData() {
 
 
     /*
-      world-data.json側が失敗しても
-      MEDIA SIGNALは独立して取得する。
+      world-data.jsonの読み込みに失敗しても、
+      MEDIA SIGNALは既存画像を直接表示する。
     */
 
-    loadCommonsPhoto();
+    setupMediaSignal1(
+      null
+    );
 
-    loadSatelliteImage();
+
+    setupMediaSignal2(
+      null
+    );
 
   }
 
@@ -1691,7 +1429,8 @@ loadWorldData();
 
 /*
   10分ごとにWORLD NEWSのデータを更新。
-  MEDIA SIGNAL ①②も同時に新しい画像へ更新。
+  GitHub Actionsで更新された
+  MEDIA SIGNAL ①②も再読み込みする。
 */
 
 setInterval(
