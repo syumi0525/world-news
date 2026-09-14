@@ -934,4 +934,3 @@ jobs:
             git commit -m "Update WORLD NEWS data"
             git push
           fi
-`
