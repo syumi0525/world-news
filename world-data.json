@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T20:02:17.960645+00:00",
+  "generatedAt": "2026-09-14T20:23:22.729761+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -13,10 +13,10 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Green paddy field ,লখিমপুৰ.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Rumi_Borah~aswiki\" title=\"User:Rumi Borah~aswiki\">Rumi Borah~aswiki</a>",
+    "title": "File:Var opt upload ModuleContent 102 16-09-2020 020327260 S1.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Myprocyon&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Myprocyon (page does not exist)\">Myprocyon</a>",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Green_paddy_field_%2C%E0%A6%B2%E0%A6%96%E0%A6%BF%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A7%B0.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Var_opt_upload_ModuleContent_102_16-09-2020_020327260_S1.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -24,54 +24,54 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EGXV",
-    "station": "EGXV",
-    "lat": 53.876,
-    "lon": -0.435,
+    "name": "KGCN",
+    "station": "KGCN",
+    "lat": 35.9458,
+    "lon": -112.1554,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 17.0,
-    "windSpeed": 6.0,
+    "temperature": 23.9,
+    "dewpoint": 11.1,
+    "windSpeed": 9.0,
     "windDirection": 220.0,
-    "visibility": "6+",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:20:00.000Z",
-    "raw": "METAR EGXV 141920Z AUTO 22006KT 9999 NCD 21/17 Q1015"
+    "observationTime": "2026-09-14T19:54:00.000Z",
+    "raw": "METAR KGCN 141954Z 22009G17KT 10SM FEW060 SCT075 24/11 A3016 RMK AO2 SLP111 T02390111"
   },
   "randomPlace": {
-    "name": "VNKT",
-    "station": "VNKT",
-    "lat": 27.697,
-    "lon": 85.359,
+    "name": "NTAT",
+    "station": "NTAT",
+    "lat": -23.365,
+    "lon": -149.524,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 19.0,
-    "windSpeed": 3.0,
-    "windDirection": 90.0,
-    "visibility": "4.35",
-    "flightCategory": "MVFR",
+    "temperature": 22.0,
+    "dewpoint": 18.0,
+    "windSpeed": 9.0,
+    "windDirection": 210.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-14T20:00:00.000Z",
-    "raw": "METAR VNKT 142000Z 09003KT 7000 FEW010 SCT030 BKN100 19/19 Q1020 NOSIG"
+    "raw": "METAR NTAT 142000Z AUTO 21009KT 9999 BKN038 OVC046 22/18 Q1014"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T19:52:00Z",
-      "speed": 358.0
+      "time": "2026-09-14T20:11:00Z",
+      "speed": 364.0
     },
     "magneticField": {
-      "time": "2026-09-14T19:52:00Z",
+      "time": "2026-09-14T20:11:00Z",
       "bt": 13.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T19:52:00Z",
-        "speed": 358.0
+        "time": "2026-09-14T20:11:00Z",
+        "speed": 364.0
       },
       "magneticField": {
-        "time": "2026-09-14T19:52:00Z",
+        "time": "2026-09-14T20:11:00Z",
         "bt": 13.0,
-        "bz": 1.0
+        "bz": 0.0
       }
     },
     "kp": {
