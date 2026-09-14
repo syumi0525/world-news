@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-14T19:36:05.192629+00:00",
+  "generatedAt": "2026-09-14T19:46:58.260716+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
     "mediaSignal1": "Wikimedia Commons",
-    "mediaSignal2": "NOAA SUVI"
+    "mediaSignal2": "NOAA GOES"
   },
   "images": {
     "earth": "world-media/earth.jpg",
@@ -13,63 +13,63 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:ISS075-E-20606 - View of Earth.jpg",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/en:Earth_Science_and_Remote_Sensing_Unit\" class=\"extiw\" title=\"w:en:Earth Science and Remote Sensing Unit\">Earth Science and Remote Sensing Unit</a>, <a href=\"https://en.wikipedia.org/wiki/en:Johnson_Space_Center\" class=\"extiw\" title=\"w:en:Johnson Space Center\"><span title=\"NASA field center in Houston, Texas, United States\">Lyndon B. Johnson Space Center</span></a>",
+    "title": "File:Part Of First Large Group Of Red Cross Workers Who Went From Hawaii To Siberia, 1918.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:ISS075-E-20606_-_View_of_Earth.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Part_Of_First_Large_Group_Of_Red_Cross_Workers_Who_Went_From_Hawaii_To_Siberia%2C_1918.jpg"
   },
   "mediaSignal2": {
-    "source": "NOAA SUVI",
-    "name": "NOAA GOES-19 SUVI 195",
-    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/195/latest.png"
+    "source": "NOAA GOES",
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "UAIT",
-    "station": "UAIT",
-    "lat": 43.311,
-    "lon": 68.55,
-    "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 5.0,
-    "windSpeed": 10.0,
-    "windDirection": 70.0,
+    "name": "FAOR",
+    "station": "FAOR",
+    "lat": -26.139,
+    "lon": 28.246,
+    "weather": "-RA",
+    "temperature": 12.0,
+    "dewpoint": 11.0,
+    "windSpeed": 6.0,
+    "windDirection": 210.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:00:00.000Z",
-    "raw": "METAR UAIT 141900Z 07005MPS CAVOK 21/05 Q1016 NOSIG RMK QFE737/0983"
+    "observationTime": "2026-09-14T19:30:00.000Z",
+    "raw": "METAR FAOR 141930Z 21006KT 190V250 9999 -RA FEW015 OVC040 12/11 Q1027 NOSIG"
   },
   "randomPlace": {
-    "name": "KSOW",
-    "station": "KSOW",
-    "lat": 34.2686,
-    "lon": -110.0019,
+    "name": "KMAW",
+    "station": "KMAW",
+    "lat": 36.5945,
+    "lon": -89.9865,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 15.0,
-    "windSpeed": 16.0,
-    "windDirection": 200.0,
+    "temperature": 33.0,
+    "dewpoint": 21.0,
+    "windSpeed": 5.0,
+    "windDirection": 110.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:15:00.000Z",
-    "raw": "METAR KSOW 141915Z AUTO 20016G21KT 10SM FEW033 FEW042 FEW055 24/15 A3020 RMK AO2 LTG DSNT W-NE"
+    "observationTime": "2026-09-14T19:35:00.000Z",
+    "raw": "METAR KMAW 141935Z AUTO 11005KT 10SM CLR 33/21 A3007 RMK AO1"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T19:25:00Z",
-      "speed": 363.0
+      "time": "2026-09-14T19:36:00Z",
+      "speed": 362.0
     },
     "magneticField": {
-      "time": "2026-09-14T19:28:00Z",
+      "time": "2026-09-14T19:36:00Z",
       "bt": 13.0,
       "bz": -1.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T19:25:00Z",
-        "speed": 363.0
+        "time": "2026-09-14T19:36:00Z",
+        "speed": 362.0
       },
       "magneticField": {
-        "time": "2026-09-14T19:28:00Z",
+        "time": "2026-09-14T19:36:00Z",
         "bt": 13.0,
         "bz": -1.0
       }
