@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-14T19:58:49.748533+00:00",
+  "generatedAt": "2026-09-14T19:59:51.888272+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
     "mediaSignal1": "Wikimedia Commons",
-    "mediaSignal2": "NOAA GOES"
+    "mediaSignal2": "NOAA SUVI"
   },
   "images": {
     "earth": "world-media/earth.jpg",
@@ -13,45 +13,45 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20230924 183033sabinas.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Spot3b&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Spot3b (page does not exist)\">Spot3b</a>",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:20230924_183033sabinas.jpg"
+    "title": "File:Punkt zdawczo-odbiorczy.jpg",
+    "artist": "Englishsquare.pl Sp. z o.o.",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Punkt_zdawczo-odbiorczy.jpg"
   },
   "mediaSignal2": {
-    "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "source": "NOAA SUVI",
+    "name": "NOAA GOES-19 SUVI 284",
+    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/284/latest.png"
   },
   "atmosphere": {
-    "name": "CWEU",
-    "station": "CWEU",
-    "lat": 79.989,
-    "lon": -85.934,
+    "name": "KPKV",
+    "station": "KPKV",
+    "lat": 28.6499,
+    "lon": -96.6799,
     "weather": "No coded weather",
-    "temperature": -5.0,
-    "dewpoint": -7.0,
+    "temperature": 34.7,
+    "dewpoint": 23.9,
     "windSpeed": 11.0,
-    "windDirection": 120.0,
-    "visibility": "15",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-14T19:00:00.000Z",
-    "raw": "METAR CWEU 141900Z 12011KT 15SM BKN011 M05/M07 A2967 RMK SC7 SLP060"
+    "windDirection": 160.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-14T19:55:00.000Z",
+    "raw": "METAR KPKV 141955Z AUTO 16011KT 10SM SCT046 35/24 A2997 RMK AO2 LTG DSNT NW AND SE T03470239 $"
   },
   "randomPlace": {
-    "name": "LTCT",
-    "station": "LTCT",
-    "lat": 39.977,
-    "lon": 43.878,
+    "name": "KMTN",
+    "station": "KMTN",
+    "lat": 39.3214,
+    "lon": -76.4065,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 5.0,
-    "windSpeed": 6.0,
-    "windDirection": 220.0,
-    "visibility": "6+",
+    "temperature": 26.0,
+    "dewpoint": 7.0,
+    "windSpeed": 7.0,
+    "windDirection": 360.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:50:00.000Z",
-    "raw": "METAR LTCT 141950Z 22006KT CAVOK 22/05 Q1016"
+    "observationTime": "2026-09-14T19:45:00.000Z",
+    "raw": "METAR KMTN 141945Z 36007KT 340V050 10SM FEW055 26/07 A3014"
   },
   "space": {
     "solarWind": {
