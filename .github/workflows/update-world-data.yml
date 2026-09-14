@@ -530,10 +530,11 @@ jobs:
           # 3. SEA SURFACE
           #
           # NOAA ACSPO daily global SST.
+          # NOAA CoastWatch / NOAA NESDIS STAR.
           #
           # A coarse global sample is used rather than downloading the
-          # entire 0.02-degree grid. This keeps the GitHub Action small
-          # while still sampling the global ocean field.
+          # entire 0.02-degree grid. Latitude weighting is applied to
+          # make the sampled global average area-aware.
           # ------------------------------------------------------------
 
           sst_base = (
@@ -542,33 +543,24 @@ jobs:
               "ACSPO_LEO_L3S_nrt.json"
           )
 
-
-          # Latest available time, sampled on a coarse global grid.
-          #
-          # The 10-degree stride is intentional:
-          # the source itself is 0.02-degree resolution, but downloading
-          # the entire global field every 10 minutes would be excessive.
           sst_query = (
-              "?sst"
+              "?sea_surface_temperature"
               "[(last)]"
               "[(-80):10:(80)]"
               "[(0):10:(350)]"
           )
-
 
           sst_url = (
               sst_base
               + sst_query
           )
 
-
           print(
               "Fetching NOAA global SST sample..."
           )
 
-
           sst_value = None
-
+          sst_time = None
 
           try:
 
@@ -576,7 +568,6 @@ jobs:
                   sst_url,
                   timeout=120
               )
-
 
               rows = []
 
@@ -600,57 +591,106 @@ jobs:
                   )
 
                   sst_index = None
+                  time_index = None
+                  latitude_index = None
 
                   for i, name in enumerate(
                       column_names
                   ):
-                      if str(name).lower() == "sst":
+                      name_lower = str(
+                          name
+                      ).lower()
+
+                      if name_lower == "sea_surface_temperature":
                           sst_index = i
-                          break
 
-                  if sst_index is not None:
+                      elif name_lower == "time":
+                          time_index = i
+
+                      elif name_lower == "latitude":
+                          latitude_index = i
+
+                  if (
+                      sst_index is not None
+                      and latitude_index is not None
+                  ):
                       for row in table_rows:
-                          if (
-                              isinstance(row, list)
-                              and
-                              len(row) > sst_index
+
+                          if not isinstance(
+                              row,
+                              list
                           ):
-                              value = number(
-                                  row[sst_index]
+                              continue
+
+                          if len(row) <= max(
+                              sst_index,
+                              latitude_index
+                          ):
+                              continue
+
+                          value = number(
+                              row[sst_index]
+                          )
+
+                          latitude = number(
+                              row[latitude_index]
+                          )
+
+                          if value is None or latitude is None:
+                              continue
+
+                          if value < -2 or value > 45:
+                              continue
+
+                          weight = math.cos(
+                              math.radians(latitude)
+                          )
+
+                          if weight <= 0:
+                              continue
+
+                          rows.append(
+                              (value, weight)
+                          )
+
+                          if (
+                              sst_time is None
+                              and time_index is not None
+                              and len(row) > time_index
+                          ):
+                              sst_time = clean(
+                                  row[time_index]
                               )
-
-                              if value is None:
-                                  continue
-
-                              if value < -5:
-                                  continue
-
-                              if value > 45:
-                                  continue
-
-                              rows.append(
-                                  value
-                              )
-
 
               if rows:
 
-                  sst_value = (
-                      sum(rows)
-                      / len(rows)
+                  weighted_sum = sum(
+                      value * weight
+                      for value, weight in rows
                   )
 
-                  print(
-                      "SEA SURFACE:",
-                      round(
-                          sst_value,
-                          2
-                      ),
-                      "°C",
-                      "from",
-                      len(rows),
-                      "global samples"
+                  weight_total = sum(
+                      weight
+                      for _, weight in rows
                   )
+
+                  if weight_total > 0:
+                      sst_value = (
+                          weighted_sum
+                          / weight_total
+                      )
+
+                      print(
+                          "SEA SURFACE:",
+                          round(
+                              sst_value,
+                              2
+                          ),
+                          "°C",
+                          "from",
+                          len(rows),
+                          "global samples"
+                      )
 
               else:
                   print(
@@ -664,12 +704,10 @@ jobs:
                   str(e)
               )
 
-
           if sst_value is None:
               raise RuntimeError(
                   "NOAA global SST data could not be obtained."
               )
-
 
           # ------------------------------------------------------------
           # 4. GEOMAGNETIC
@@ -710,7 +748,7 @@ jobs:
 
 
           if not kp_rows:
-              raise RuntimeError(
+                        raise RuntimeError(
                   "NOAA Kp data is empty."
               )
 
@@ -938,7 +976,10 @@ jobs:
                       f"{sst_value:.2f} °C",
 
                   "source":
-                      "NOAA ACSPO Global SST"
+                      "NOAA ACSPO Global SST",
+
+                  "time":
+                      sst_time
               },
 
 
@@ -1457,7 +1498,7 @@ jobs:
 
 
                   if any(
-                      word in lower_page_title
+                                        word in lower_page_title
                       for word in blocked_words
                   ):
                       continue
