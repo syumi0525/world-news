@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T21:58:50.169482+00:00",
+  "generatedAt": "2026-09-14T22:14:24.817893+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -18,50 +18,50 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Autumn back garden - Flickr - peganum.jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26698606@N03\">peganum</a> from Small Dole, England",
-    "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Autumn_back_garden_-_Flickr_-_peganum.jpg"
+    "title": "File:Abrevadero-vado de \"Las Merinas\" 07.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Diegui57\" title=\"User:Diegui57\">Diegui57</a>",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Abrevadero-vado_de_%22Las_Merinas%22_07.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA SUVI",
-    "name": "NOAA GOES-19 SUVI 094",
-    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/094/latest.png"
+    "name": "NOAA GOES-19 SUVI 131",
+    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/131/latest.png"
   },
   "atmosphere": {
-    "name": "MMTO",
-    "station": "MMTO",
-    "lat": 19.343,
-    "lon": -99.568,
+    "name": "CZSP",
+    "station": "CZSP",
+    "lat": 46.45,
+    "lon": -62.576,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 12.0,
-    "windSpeed": 15.0,
-    "windDirection": 140.0,
-    "visibility": "7",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-14T20:40:00.000Z",
-    "raw": "METAR MMTO 142040Z 14015KT 7SM BKN020CB BKN200 18/12 A3037 RMK SLP087 57020 907 8/308 HZY"
+    "temperature": 16.7,
+    "dewpoint": 15.2,
+    "windSpeed": 5.0,
+    "windDirection": 200.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-14T22:00:00.000Z",
+    "raw": "METAR CZSP 142200Z AUTO 20005KT 17/15 RMK AO1 3PAST HR 3027 PK WND 26031/2113 SLP078 P0017 T01670152 50043"
   },
   "randomPlace": {
-    "name": "KFIG",
-    "station": "KFIG",
-    "lat": 41.0465,
-    "lon": -78.4112,
+    "name": "DFOO",
+    "station": "DFOO",
+    "lat": 11.163,
+    "lon": -4.322,
     "weather": "No coded weather",
-    "temperature": 19.4,
-    "dewpoint": 7.8,
+    "temperature": 26.0,
+    "dewpoint": 23.0,
     "windSpeed": 3.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "windDirection": 150.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T21:54:00.000Z",
-    "raw": "METAR KFIG 142154Z AUTO VRB03KT 10SM SCT050 19/08 A3023 RMK AO2 SLP232 T01940078"
+    "observationTime": "2026-09-14T22:00:00.000Z",
+    "raw": "METAR DFOO 142200Z 15003KT 9999 FEW016 26/23 Q1016"
   },
   "globalPulse": {
     "population": {
-      "value": 8211039341,
-      "display": "8,211,039,341",
+      "value": 8211041207,
+      "display": "8,211,041,207",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -95,23 +95,23 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T21:51:00Z",
-      "speed": 367.0
+      "time": "2026-09-14T22:06:00Z",
+      "speed": 369.0
     },
     "magneticField": {
-      "time": "2026-09-14T21:51:00Z",
+      "time": "2026-09-14T22:08:00Z",
       "bt": 14.0,
-      "bz": -1.0
+      "bz": -4.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T21:51:00Z",
-        "speed": 367.0
+        "time": "2026-09-14T22:06:00Z",
+        "speed": 369.0
       },
       "magneticField": {
-        "time": "2026-09-14T21:51:00Z",
+        "time": "2026-09-14T22:08:00Z",
         "bt": 14.0,
-        "bz": -1.0
+        "bz": -4.0
       }
     },
     "kp": {
