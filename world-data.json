@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T22:32:50.946582+00:00",
+  "generatedAt": "2026-09-14T22:50:39.544501+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -9,7 +9,7 @@
     "globalPulseGeomagnetic": "NOAA SWPC",
     "globalPulseCloudCover": "AviationWeather.gov",
     "mediaSignal1": "Wikimedia Commons",
-    "mediaSignal2": "NOAA SUVI"
+    "mediaSignal2": "NOAA GOES"
   },
   "images": {
     "earth": "world-media/earth.jpg",
@@ -18,50 +18,50 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:2013 CW Kim Ying-Yang.jpg",
-    "artist": "C.W. Kim",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2013_CW_Kim_Ying-Yang.jpg"
+    "title": "File:Cuile.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Lou1923&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lou1923 (page does not exist)\">Lou1923</a>",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuile.jpg"
   },
   "mediaSignal2": {
-    "source": "NOAA SUVI",
-    "name": "NOAA GOES-19 SUVI 304",
-    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/304/latest.png"
+    "source": "NOAA GOES",
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K8V7",
-    "station": "K8V7",
-    "lat": 37.4547,
-    "lon": -102.6192,
+    "name": "KAIK",
+    "station": "KAIK",
+    "lat": 33.651,
+    "lon": -81.6821,
     "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 9.0,
-    "windSpeed": 19.0,
-    "windDirection": 180.0,
+    "temperature": 32.7,
+    "dewpoint": 19.8,
+    "windSpeed": 5.0,
+    "windDirection": 350.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T22:15:00.000Z",
-    "raw": "METAR K8V7 142215Z AUTO 18019G26KT 10SM SCT110 33/09 A2988 RMK AO2 LTG DSNT NE"
+    "observationTime": "2026-09-14T22:35:00.000Z",
+    "raw": "METAR KAIK 142235Z AUTO 35005KT 10SM CLR 33/20 A3005 RMK AO2 T03270198"
   },
   "randomPlace": {
-    "name": "KVBG",
-    "station": "KVBG",
-    "lat": 34.733,
-    "lon": -120.583,
+    "name": "KPIT",
+    "station": "KPIT",
+    "lat": 40.4814,
+    "lon": -80.2083,
     "weather": "No coded weather",
-    "temperature": 21.6,
-    "dewpoint": 15.2,
-    "windSpeed": 10.0,
-    "windDirection": 310.0,
+    "temperature": 20.6,
+    "dewpoint": 7.8,
+    "windSpeed": 5.0,
+    "windDirection": 40.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T21:55:00.000Z",
-    "raw": "METAR KVBG 142155Z 31010KT 10SM FEW012 22/15 A2986 RMK AO2A SLP113 T02160152"
+    "observationTime": "2026-09-14T21:51:00.000Z",
+    "raw": "METAR KPIT 142151Z 04005KT 10SM SCT050 21/08 A3023 RMK AO2 SLP241 T02060078"
   },
   "globalPulse": {
     "population": {
-      "value": 8211043413,
-      "display": "8,211,043,413",
+      "value": 8211045546,
+      "display": "8,211,045,546",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -88,30 +88,30 @@
       "source": "Solar geometry"
     },
     "cloudCover": {
-      "value": 37.7,
-      "display": "37.7%",
+      "value": 37.8,
+      "display": "37.8%",
       "source": "NOAA / AviationWeather.gov"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T22:23:00Z",
-      "speed": 377.0
+      "time": "2026-09-14T22:42:00Z",
+      "speed": 379.0
     },
     "magneticField": {
-      "time": "2026-09-14T22:25:00Z",
-      "bt": 14.0,
-      "bz": -2.0
+      "time": "2026-09-14T22:42:00Z",
+      "bt": 13.0,
+      "bz": 8.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T22:23:00Z",
-        "speed": 377.0
+        "time": "2026-09-14T22:42:00Z",
+        "speed": 379.0
       },
       "magneticField": {
-        "time": "2026-09-14T22:25:00Z",
-        "bt": 14.0,
-        "bz": -2.0
+        "time": "2026-09-14T22:42:00Z",
+        "bt": 13.0,
+        "bz": 8.0
       }
     },
     "kp": {
