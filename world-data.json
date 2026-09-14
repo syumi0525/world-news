@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T20:58:41.454428+00:00",
+  "generatedAt": "2026-09-14T21:18:05.342299+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -13,70 +13,70 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:6051894696 - Flickr - these are my twisted words.jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46984027@N06\">Diego Pavese</a> from Montevideo, Uruguay",
-    "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:6051894696_-_Flickr_-_these_are_my_twisted_words.jpg"
+    "title": "File:Batiment aunsein de la Ville de Majunga 13.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_13.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA SUVI",
-    "name": "NOAA GOES-19 SUVI 284",
-    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/284/latest.png"
+    "name": "NOAA GOES-19 SUVI 131",
+    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/131/latest.png"
   },
   "atmosphere": {
-    "name": "KOMA",
-    "station": "KOMA",
-    "lat": 41.3119,
-    "lon": -95.9018,
+    "name": "KFKN",
+    "station": "KFKN",
+    "lat": 36.6984,
+    "lon": -76.9032,
     "weather": "No coded weather",
-    "temperature": 25.6,
-    "dewpoint": 19.4,
-    "windSpeed": 14.0,
-    "windDirection": 160.0,
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 6.0,
+    "windDirection": 30.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T20:52:00.000Z",
-    "raw": "METAR KOMA 142052Z 16014KT 10SM SCT065 SCT110 BKN180 BKN250 26/19 A2975 RMK AO2 RAB1953E02 SLP067 RASH W-NW P0000 60000 T02560194 56037"
+    "observationTime": "2026-09-14T20:55:00.000Z",
+    "raw": "METAR KFKN 142055Z AUTO 03006KT 10SM BKN050 A3007 RMK AO2"
   },
   "randomPlace": {
-    "name": "SKGP",
-    "station": "SKGP",
-    "lat": 2.57,
-    "lon": -77.899,
-    "weather": "RA",
-    "temperature": 27.0,
-    "dewpoint": 26.0,
-    "windSpeed": 5.0,
-    "windDirection": 290.0,
-    "visibility": "5.59",
+    "name": "PAAQ",
+    "station": "PAAQ",
+    "lat": 61.5951,
+    "lon": -149.0917,
+    "weather": "No coded weather",
+    "temperature": 13.9,
+    "dewpoint": 7.2,
+    "windSpeed": 3.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T20:00:00.000Z",
-    "raw": "METAR SKGP 142000Z 29005KT 9000 4000S RA SCT020 BKN060 27/26 Q1006"
+    "observationTime": "2026-09-14T20:53:00.000Z",
+    "raw": "METAR PAAQ 142053Z VRB03KT 10SM CLR 14/07 A3015 RMK AO2 SLP212 T01390072 55001 $"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T20:48:00Z",
-      "speed": 363.0
+      "time": "2026-09-14T21:08:00Z",
+      "speed": 371.0
     },
     "magneticField": {
-      "time": "2026-09-14T20:52:00Z",
+      "time": "2026-09-14T21:08:00Z",
       "bt": 13.0,
-      "bz": 0.0
+      "bz": -3.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T20:48:00Z",
-        "speed": 363.0
+        "time": "2026-09-14T21:08:00Z",
+        "speed": 371.0
       },
       "magneticField": {
-        "time": "2026-09-14T20:52:00Z",
+        "time": "2026-09-14T21:08:00Z",
         "bt": 13.0,
-        "bz": 0.0
+        "bz": -3.0
       }
     },
     "kp": {
-      "time": "2026-09-14T15:00:00",
-      "kp": 4.0
+      "time": "2026-09-14T18:00:00",
+      "kp": 2.67
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
