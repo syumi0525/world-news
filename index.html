@@ -724,6 +724,76 @@ function renderGlobalPulse(data) {
   }
 
 
+  /*
+    DAY / NIGHTだけは、
+    現在のデータが
+    "50.0% DAY / 50.0% NIGHT"
+    のような形式でも、
+    画面上では小数点以下2桁にして
+    DAYとNIGHTを改行して表示する。
+  */
+
+  function formatDayNight(item) {
+
+    const value =
+      getDisplayValue(item);
+
+    if (
+      value === "NO DATA"
+    ) {
+      return {
+        text: "NO DATA",
+        html: false
+      };
+    }
+
+    const text =
+      String(value);
+
+    const match =
+      text.match(
+        /([\d.]+)\s*%\s*DAY\s*\/\s*([\d.]+)\s*%\s*NIGHT/i
+      );
+
+    if (match) {
+
+      const day =
+        Number(match[1]);
+
+      const night =
+        Number(match[2]);
+
+      if (
+        Number.isFinite(day) &&
+        Number.isFinite(night)
+      ) {
+
+        return {
+          text:
+            `${day.toFixed(2)}% DAY` +
+            `<br>` +
+            `${night.toFixed(2)}% NIGHT`,
+          html: true
+        };
+
+      }
+
+    }
+
+    return {
+      text: text,
+      html: false
+    };
+
+  }
+
+
+  const dayNight =
+    formatDayNight(
+      data.dayNight
+    );
+
+
   const items = [
 
     {
@@ -731,7 +801,8 @@ function renderGlobalPulse(data) {
       value:
         getDisplayValue(
           data.population
-        )
+        ),
+      html: false
     },
 
     {
@@ -739,7 +810,8 @@ function renderGlobalPulse(data) {
       value:
         getDisplayValue(
           data.co2
-        )
+        ),
+      html: false
     },
 
     {
@@ -747,7 +819,8 @@ function renderGlobalPulse(data) {
       value:
         getDisplayValue(
           data.seaSurface
-        )
+        ),
+      html: false
     },
 
     {
@@ -755,15 +828,16 @@ function renderGlobalPulse(data) {
       value:
         getDisplayValue(
           data.geomagnetic
-        )
+        ),
+      html: false
     },
 
     {
       label: "DAY / NIGHT",
       value:
-        getDisplayValue(
-          data.dayNight
-        )
+        dayNight.text,
+      html:
+        dayNight.html
     },
 
     {
@@ -771,7 +845,8 @@ function renderGlobalPulse(data) {
       value:
         getDisplayValue(
           data.cloudCover
-        )
+        ),
+      html: false
     }
 
   ];
@@ -790,7 +865,11 @@ function renderGlobalPulse(data) {
           </div>
 
           <div class="global-pulse-value">
-            ${escapeHTML(item.value)}
+            ${
+              item.html
+                ? item.value
+                : escapeHTML(item.value)
+            }
           </div>
 
         </div>
