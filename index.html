@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -167,6 +168,30 @@ body {
   color: #78919b;
 }
 
+.map-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.map-frame {
+  width: 78%;
+  height: 100%;
+  min-height: 0;
+  border: 1px solid #b8dce8;
+  border-radius: 11px;
+  background: #d9f2fa;
+}
+
+.map-source {
+  flex: 0 0 auto;
+  font-size: 10px;
+  color: #78919b;
+}
+
 .random-place {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -300,6 +325,10 @@ body {
   .space-value {
     font-size: 12px;
   }
+
+  .map-frame {
+    width: 82%;
+  }
 }
 </style>
 </head>
@@ -318,19 +347,22 @@ body {
     <!-- EARTH OBSERVATION -->
     <section class="tile">
       <div class="tile-title">
-        <span class="emoji">🛰</span>
+        <span class="emoji">🌍</span>
         <span>EARTH OBSERVATION</span>
       </div>
 
       <div class="content">
-        <div class="image-card">
-          <img
-            id="earthImage"
-            src="./world-media/earth.jpg"
-            alt="NOAA GOES Earth observation"
-          >
-          <div class="image-source">
-            NOAA GOES
+        <div class="map-card">
+          <iframe
+            id="earthMap"
+            class="map-frame"
+            title="Random Place map"
+            loading="lazy"
+            src="about:blank"
+          ></iframe>
+
+          <div class="map-source">
+            © OpenStreetMap contributors
           </div>
         </div>
       </div>
@@ -528,7 +560,6 @@ function renderRandomPlace(data) {
 
   el.innerHTML = `
     <div class="random-place">
-
       <div class="place-info">
         <div class="place-name">
           ${escapeHTML(data.name || data.station || "UNKNOWN")}
@@ -565,9 +596,42 @@ function renderRandomPlace(data) {
           ${valueOrNoData(data.visibility, " sm")}
         </div>
       </div>
-
     </div>
   `;
+}
+
+function setupRandomPlaceMap(place) {
+  const map = document.getElementById("earthMap");
+
+  if (
+    !map ||
+    !place ||
+    place.lat === undefined ||
+    place.lon === undefined
+  ) {
+    return;
+  }
+
+  const lat = Number(place.lat);
+  const lon = Number(place.lon);
+
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+    return;
+  }
+
+  const deltaLon = 1.2;
+  const deltaLat = 0.8;
+
+  const left = lon - deltaLon;
+  const right = lon + deltaLon;
+  const bottom = lat - deltaLat;
+  const top = lat + deltaLat;
+
+  map.src =
+    "https://www.openstreetmap.org/export/embed.html" +
+    `?bbox=${encodeURIComponent(left)},${encodeURIComponent(bottom)},${encodeURIComponent(right)},${encodeURIComponent(top)}` +
+    "&layer=mapnik" +
+    `&marker=${encodeURIComponent(lat)},${encodeURIComponent(lon)}`;
 }
 
 function renderSpaceWeather(space) {
@@ -588,9 +652,14 @@ function renderSpaceWeather(space) {
   let kpValue = "NO DATA";
   let fluxValue = "NO DATA";
 
-  if (solarWind && solarWind.proton_speed !== undefined) {
-    solarWindValue =
-      `${escapeHTML(solarWind.proton_speed)} km/s`;
+  if (solarWind) {
+    if (solarWind.speed !== undefined) {
+      solarWindValue =
+        `${escapeHTML(solarWind.speed)} km/s`;
+    } else if (solarWind.proton_speed !== undefined) {
+      solarWindValue =
+        `${escapeHTML(solarWind.proton_speed)} km/s`;
+    }
   }
 
   if (magneticField && magneticField.bt !== undefined) {
@@ -598,9 +667,14 @@ function renderSpaceWeather(space) {
       `${escapeHTML(magneticField.bt)} nT`;
   }
 
-  if (kp && kp.Kp !== undefined) {
-    kpValue =
-      `Kp ${escapeHTML(kp.Kp)}`;
+  if (kp) {
+    if (kp.kp !== undefined) {
+      kpValue =
+        `Kp ${escapeHTML(kp.kp)}`;
+    } else if (kp.Kp !== undefined) {
+      kpValue =
+        `Kp ${escapeHTML(kp.Kp)}`;
+    }
   }
 
   if (flux && flux.flux !== undefined) {
@@ -608,40 +682,15 @@ function renderSpaceWeather(space) {
       `${escapeHTML(flux.flux)} sfu`;
   }
 
-  let scaleValue = "NO DATA";
+  let interplanetaryTime = "NO DATA";
 
-  if (space.scales) {
-    const keys = Object.keys(space.scales);
-
-    if (keys.length > 0) {
-      const latestKey = keys
-        .filter(key => key !== "-1")
-        .sort((a, b) => Number(b) - Number(a))[0];
-
-      if (
-        latestKey !== undefined &&
-        space.scales[latestKey]
-      ) {
-        const scale = space.scales[latestKey];
-
-        const parts = [];
-
-        if (scale.R && scale.R.Scale !== undefined) {
-          parts.push(`R${scale.R.Scale}`);
-        }
-
-        if (scale.S && scale.S.Scale !== undefined) {
-          parts.push(`S${scale.S.Scale}`);
-        }
-
-        if (scale.G && scale.G.Scale !== undefined) {
-          parts.push(`G${scale.G.Scale}`);
-        }
-
-        if (parts.length) {
-          scaleValue = parts.join(" / ");
-        }
-      }
+  if (solarWind) {
+    if (solarWind.time !== undefined) {
+      interplanetaryTime =
+        escapeHTML(solarWind.time);
+    } else if (solarWind.time_tag !== undefined) {
+      interplanetaryTime =
+        escapeHTML(solarWind.time_tag);
     }
   }
 
@@ -661,16 +710,14 @@ function renderSpaceWeather(space) {
       <div class="space-item">
         <div class="space-label">INTERPLANETARY</div>
         <div class="space-value">
-          ${solarWind?.time_tag
-            ? escapeHTML(solarWind.time_tag)
-            : "NO DATA"}
+          ${interplanetaryTime}
         </div>
       </div>
 
       <div class="space-item">
         <div class="space-label">AURORA</div>
         <div class="space-value">
-          ${space.aurora ? "AVAILABLE" : "NO DATA"}
+          NO DATA
         </div>
       </div>
 
@@ -680,9 +727,9 @@ function renderSpaceWeather(space) {
       </div>
 
       <div class="space-item">
-        <div class="space-label">KP / SCALE</div>
+        <div class="space-label">KP</div>
         <div class="space-value">
-          ${kpValue} / ${scaleValue}
+          ${kpValue}
         </div>
       </div>
 
@@ -716,20 +763,22 @@ async function loadWorldData() {
     );
 
     if (!response.ok) {
-      throw new Error("world-data.json could not be loaded.");
+      throw new Error(
+        "world-data.json could not be loaded."
+      );
     }
 
     const data = await response.json();
 
     renderAtmosphere(data.atmosphere);
+
     renderRandomPlace(data.randomPlace);
+
+    setupRandomPlaceMap(data.randomPlace);
+
     renderSpaceWeather(data.space);
 
     if (data.images) {
-      setupImage(
-        "earthImage",
-        data.images.earth
-      );
 
       setupImage(
         "mediaImage1",
@@ -742,7 +791,8 @@ async function loadWorldData() {
       );
     }
 
-    const updated = document.getElementById("updated");
+    const updated =
+      document.getElementById("updated");
 
     if (updated && data.generatedAt) {
       updated.textContent =
@@ -750,6 +800,7 @@ async function loadWorldData() {
     }
 
   } catch (error) {
+
     console.error(error);
 
     document.getElementById("atmosphere").innerHTML =
@@ -777,3 +828,4 @@ setInterval(
 
 </body>
 </html>
+```
