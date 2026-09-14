@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-14T20:23:22.729761+00:00",
+  "generatedAt": "2026-09-14T20:41:39.775938+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
     "mediaSignal1": "Wikimedia Commons",
-    "mediaSignal2": "NOAA GOES"
+    "mediaSignal2": "NOAA SUVI"
   },
   "images": {
     "earth": "world-media/earth.jpg",
@@ -13,65 +13,65 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Var opt upload ModuleContent 102 16-09-2020 020327260 S1.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Myprocyon&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Myprocyon (page does not exist)\">Myprocyon</a>",
+    "title": "File:Akfa design.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sevinch2003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sevinch2003 (page does not exist)\">Sevinch2003</a>",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Var_opt_upload_ModuleContent_102_16-09-2020_020327260_S1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Akfa_design.jpg"
   },
   "mediaSignal2": {
-    "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "source": "NOAA SUVI",
+    "name": "NOAA GOES-19 SUVI 284",
+    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/284/latest.png"
   },
   "atmosphere": {
-    "name": "KGCN",
-    "station": "KGCN",
-    "lat": 35.9458,
-    "lon": -112.1554,
-    "weather": "No coded weather",
-    "temperature": 23.9,
-    "dewpoint": 11.1,
-    "windSpeed": 9.0,
-    "windDirection": 220.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:54:00.000Z",
-    "raw": "METAR KGCN 141954Z 22009G17KT 10SM FEW060 SCT075 24/11 A3016 RMK AO2 SLP111 T02390111"
+    "name": "WIDD",
+    "station": "WIDD",
+    "lat": 1.121,
+    "lon": 104.119,
+    "weather": "-RA",
+    "temperature": 28.0,
+    "dewpoint": 25.0,
+    "windSpeed": 4.0,
+    "windDirection": 160.0,
+    "visibility": "4.35",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-14T20:30:00.000Z",
+    "raw": "METAR WIDD 142030Z AUTO 16004KT 130V190 7000 -RA FEW019 28/25 Q1010"
   },
   "randomPlace": {
-    "name": "NTAT",
-    "station": "NTAT",
-    "lat": -23.365,
-    "lon": -149.524,
+    "name": "MMML",
+    "station": "MMML",
+    "lat": 32.631,
+    "lon": -115.238,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 18.0,
-    "windSpeed": 9.0,
-    "windDirection": 210.0,
-    "visibility": "6+",
+    "temperature": 38.0,
+    "dewpoint": 15.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T20:00:00.000Z",
-    "raw": "METAR NTAT 142000Z AUTO 21009KT 9999 BKN038 OVC046 22/18 Q1014"
+    "observationTime": "2026-09-14T19:42:00.000Z",
+    "raw": "METAR MMML 141942Z 00000KT 10SM SKC 38/15 A2971"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T20:11:00Z",
-      "speed": 364.0
+      "time": "2026-09-14T20:32:00Z",
+      "speed": 363.0
     },
     "magneticField": {
-      "time": "2026-09-14T20:11:00Z",
+      "time": "2026-09-14T20:32:00Z",
       "bt": 13.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T20:11:00Z",
-        "speed": 364.0
+        "time": "2026-09-14T20:32:00Z",
+        "speed": 363.0
       },
       "magneticField": {
-        "time": "2026-09-14T20:11:00Z",
+        "time": "2026-09-14T20:32:00Z",
         "bt": 13.0,
-        "bz": 0.0
+        "bz": 1.0
       }
     },
     "kp": {
