@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-14T19:59:51.888272+00:00",
+  "generatedAt": "2026-09-14T20:02:17.960645+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
     "mediaSignal1": "Wikimedia Commons",
-    "mediaSignal2": "NOAA SUVI"
+    "mediaSignal2": "NOAA GOES"
   },
   "images": {
     "earth": "world-media/earth.jpg",
@@ -13,63 +13,63 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Punkt zdawczo-odbiorczy.jpg",
-    "artist": "Englishsquare.pl Sp. z o.o.",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Punkt_zdawczo-odbiorczy.jpg"
+    "title": "File:Green paddy field ,লখিমপুৰ.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Rumi_Borah~aswiki\" title=\"User:Rumi Borah~aswiki\">Rumi Borah~aswiki</a>",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Green_paddy_field_%2C%E0%A6%B2%E0%A6%96%E0%A6%BF%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A7%B0.jpg"
   },
   "mediaSignal2": {
-    "source": "NOAA SUVI",
-    "name": "NOAA GOES-19 SUVI 284",
-    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/284/latest.png"
+    "source": "NOAA GOES",
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPKV",
-    "station": "KPKV",
-    "lat": 28.6499,
-    "lon": -96.6799,
+    "name": "EGXV",
+    "station": "EGXV",
+    "lat": 53.876,
+    "lon": -0.435,
     "weather": "No coded weather",
-    "temperature": 34.7,
-    "dewpoint": 23.9,
-    "windSpeed": 11.0,
-    "windDirection": 160.0,
-    "visibility": "10+",
+    "temperature": 21.0,
+    "dewpoint": 17.0,
+    "windSpeed": 6.0,
+    "windDirection": 220.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:55:00.000Z",
-    "raw": "METAR KPKV 141955Z AUTO 16011KT 10SM SCT046 35/24 A2997 RMK AO2 LTG DSNT NW AND SE T03470239 $"
+    "observationTime": "2026-09-14T19:20:00.000Z",
+    "raw": "METAR EGXV 141920Z AUTO 22006KT 9999 NCD 21/17 Q1015"
   },
   "randomPlace": {
-    "name": "KMTN",
-    "station": "KMTN",
-    "lat": 39.3214,
-    "lon": -76.4065,
+    "name": "VNKT",
+    "station": "VNKT",
+    "lat": 27.697,
+    "lon": 85.359,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 7.0,
-    "windSpeed": 7.0,
-    "windDirection": 360.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:45:00.000Z",
-    "raw": "METAR KMTN 141945Z 36007KT 340V050 10SM FEW055 26/07 A3014"
+    "temperature": 19.0,
+    "dewpoint": 19.0,
+    "windSpeed": 3.0,
+    "windDirection": 90.0,
+    "visibility": "4.35",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-14T20:00:00.000Z",
+    "raw": "METAR VNKT 142000Z 09003KT 7000 FEW010 SCT030 BKN100 19/19 Q1020 NOSIG"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T19:50:00Z",
-      "speed": 359.0
+      "time": "2026-09-14T19:52:00Z",
+      "speed": 358.0
     },
     "magneticField": {
-      "time": "2026-09-14T19:50:00Z",
+      "time": "2026-09-14T19:52:00Z",
       "bt": 13.0,
       "bz": 1.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T19:50:00Z",
-        "speed": 359.0
+        "time": "2026-09-14T19:52:00Z",
+        "speed": 358.0
       },
       "magneticField": {
-        "time": "2026-09-14T19:50:00Z",
+        "time": "2026-09-14T19:52:00Z",
         "bt": 13.0,
         "bz": 1.0
       }
