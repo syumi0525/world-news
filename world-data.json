@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T21:50:35.681692+00:00",
+  "generatedAt": "2026-09-14T21:58:50.169482+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -18,50 +18,50 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Abandoned building with peeling paint and overgrown balconies in an urban setting under a clear blue sky.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Shixart1985\" title=\"User:Shixart1985\">Shixart1985</a>",
-    "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Abandoned_building_with_peeling_paint_and_overgrown_balconies_in_an_urban_setting_under_a_clear_blue_sky.jpg"
+    "title": "File:Autumn back garden - Flickr - peganum.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26698606@N03\">peganum</a> from Small Dole, England",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Autumn_back_garden_-_Flickr_-_peganum.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA SUVI",
-    "name": "NOAA GOES-19 SUVI 171",
-    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/171/latest.png"
+    "name": "NOAA GOES-19 SUVI 094",
+    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/094/latest.png"
   },
   "atmosphere": {
-    "name": "EDSB",
-    "station": "EDSB",
-    "lat": 48.779,
-    "lon": 8.081,
+    "name": "MMTO",
+    "station": "MMTO",
+    "lat": 19.343,
+    "lon": -99.568,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 14.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-14T21:20:00.000Z",
-    "raw": "METAR EDSB 142120Z AUTO 00000KT CAVOK 16/14 Q1022"
+    "temperature": 18.0,
+    "dewpoint": 12.0,
+    "windSpeed": 15.0,
+    "windDirection": 140.0,
+    "visibility": "7",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-14T20:40:00.000Z",
+    "raw": "METAR MMTO 142040Z 14015KT 7SM BKN020CB BKN200 18/12 A3037 RMK SLP087 57020 907 8/308 HZY"
   },
   "randomPlace": {
-    "name": "CYOW",
-    "station": "CYOW",
-    "lat": 45.307,
-    "lon": -75.66,
+    "name": "KFIG",
+    "station": "KFIG",
+    "lat": 41.0465,
+    "lon": -78.4112,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 6.0,
-    "windSpeed": 11.0,
-    "windDirection": 280.0,
-    "visibility": "15",
+    "temperature": 19.4,
+    "dewpoint": 7.8,
+    "windSpeed": 3.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T21:00:00.000Z",
-    "raw": "METAR CYOW 142100Z 28011KT 15SM BKN058 17/06 A3020 RMK SC6 SLP230"
+    "observationTime": "2026-09-14T21:54:00.000Z",
+    "raw": "METAR KFIG 142154Z AUTO VRB03KT 10SM SCT050 19/08 A3023 RMK AO2 SLP232 T01940078"
   },
   "globalPulse": {
     "population": {
-      "value": 8211038355,
-      "display": "8,211,038,355",
+      "value": 8211039341,
+      "display": "8,211,039,341",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -88,29 +88,29 @@
       "source": "Solar geometry"
     },
     "cloudCover": {
-      "value": 39.4,
-      "display": "39.4%",
+      "value": 38.4,
+      "display": "38.4%",
       "source": "NOAA / AviationWeather.gov"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T21:44:00Z",
-      "speed": 369.0
+      "time": "2026-09-14T21:51:00Z",
+      "speed": 367.0
     },
     "magneticField": {
-      "time": "2026-09-14T21:44:00Z",
-      "bt": 13.0,
+      "time": "2026-09-14T21:51:00Z",
+      "bt": 14.0,
       "bz": -1.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T21:44:00Z",
-        "speed": 369.0
+        "time": "2026-09-14T21:51:00Z",
+        "speed": 367.0
       },
       "magneticField": {
-        "time": "2026-09-14T21:44:00Z",
-        "bt": 13.0,
+        "time": "2026-09-14T21:51:00Z",
+        "bt": 14.0,
         "bz": -1.0
       }
     },
