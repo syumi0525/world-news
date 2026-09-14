@@ -293,6 +293,45 @@ body {
   overflow-wrap: anywhere;
 }
 
+
+/* =========================================================
+   GLOBAL PULSE
+========================================================= */
+
+.global-pulse-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8px 14px;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+}
+
+.global-pulse-item {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.global-pulse-label {
+  font-size: 10px;
+  color: #78919b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+
+.global-pulse-value {
+  margin-top: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #17627f;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
 .no-data {
   display: flex;
   align-items: center;
@@ -378,6 +417,14 @@ body {
   .space-value {
     font-size: 12px;
   }
+
+  .global-pulse-label {
+    font-size: 8px;
+  }
+
+  .global-pulse-value {
+    font-size: 11px;
+  }
 }
 </style>
 </head>
@@ -412,17 +459,17 @@ body {
     </section>
 
 
-    <!-- ATMOSPHERE -->
+    <!-- GLOBAL PULSE -->
     <section class="tile">
 
       <div class="tile-title">
-        <span class="emoji">🌬</span>
-        <span>ATMOSPHERE</span>
+        <span class="emoji">🌐</span>
+        <span>GLOBAL PULSE</span>
       </div>
 
       <div
         class="content"
-        id="atmosphere"
+        id="globalPulse"
       >
         <div class="no-data">LOADING...</div>
       </div>
@@ -605,14 +652,14 @@ function formatWind(
 
 
 /* =========================================================
-   ATMOSPHERE
+   GLOBAL PULSE
 ========================================================= */
 
-function renderAtmosphere(data) {
+function renderGlobalPulse(data) {
 
   const el =
     document.getElementById(
-      "atmosphere"
+      "globalPulse"
     );
 
   if (!data) {
@@ -624,52 +671,91 @@ function renderAtmosphere(data) {
 
   }
 
+
+  /*
+    world-data.json の globalPulse に
+    以下の値を入れられる構造。
+
+    population
+    co2
+    seaSurface
+    geomagnetic
+    dayNight
+    cloudCover
+  */
+
+  const items = [
+
+    {
+      label: "WORLD POPULATION",
+      value:
+        data.population !== undefined
+          ? data.population
+          : "NO DATA"
+    },
+
+    {
+      label: "CO₂",
+      value:
+        data.co2 !== undefined
+          ? data.co2
+          : "NO DATA"
+    },
+
+    {
+      label: "SEA SURFACE",
+      value:
+        data.seaSurface !== undefined
+          ? data.seaSurface
+          : "NO DATA"
+    },
+
+    {
+      label: "GEOMAGNETIC",
+      value:
+        data.geomagnetic !== undefined
+          ? data.geomagnetic
+          : "NO DATA"
+    },
+
+    {
+      label: "DAY / NIGHT",
+      value:
+        data.dayNight !== undefined
+          ? data.dayNight
+          : "NO DATA"
+    },
+
+    {
+      label: "CLOUD COVER",
+      value:
+        data.cloudCover !== undefined
+          ? data.cloudCover
+          : "NO DATA"
+    }
+
+  ];
+
+
   el.innerHTML = `
 
-    <div class="data-card">
+    <div class="global-pulse-grid">
 
-      <div class="main-value">
-        ${escapeHTML(
-          data.station || "UNKNOWN"
-        )}
-      </div>
+      ${items.map(item => `
 
-      <div class="sub-value">
-        ${escapeHTML(
-          data.name || "UNKNOWN"
-        )}
-      </div>
+        <div class="global-pulse-item">
 
-      <div class="sub-value">
-        Temperature:
-        ${formatTemperature(
-          data.temperature
-        )}
-      </div>
+          <div class="global-pulse-label">
+            ${escapeHTML(item.label)}
+          </div>
 
-      <div class="sub-value">
-        Wind:
-        ${formatWind(
-          data.windSpeed,
-          data.windDirection
-        )}
-      </div>
+          <div class="global-pulse-value">
+            ${escapeHTML(item.value)}
+          </div>
 
-      <div class="sub-value">
-        Visibility:
-        ${valueOrNoData(
-          data.visibility,
-          " sm"
-        )}
-      </div>
+        </div>
 
-      <div class="meta">
-        Observation:
-        ${escapeHTML(
-          data.observationTime ||
-          "NO DATA"
-        )}
-      </div>
+      `).join("")}
 
     </div>
 
@@ -1358,8 +1444,8 @@ async function loadWorldData() {
       await response.json();
 
 
-    renderAtmosphere(
-      data.atmosphere
+    renderGlobalPulse(
+      data.globalPulse
     );
 
 
@@ -1404,7 +1490,7 @@ async function loadWorldData() {
 
 
     document.getElementById(
-      "atmosphere"
+      "globalPulse"
     ).innerHTML =
       `<div class="no-data">NO DATA</div>`;
 
