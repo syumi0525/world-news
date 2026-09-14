@@ -1,247 +1,779 @@
-name: Update WORLD NEWS
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WORLD NEWS</title>
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "*/10 * * * *"
+<style>
+* {
+  box-sizing: border-box;
+}
 
-permissions:
-  contents: write
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  background: #dff7ff;
+  color: #17384a;
+}
 
-jobs:
-  update-world-data:
-    runs-on: ubuntu-latest
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+.world-news {
+  width: min(94vw, 1100px);
+  height: min(90vh, 760px);
+  background: rgba(255,255,255,0.92);
+  border: 2px solid rgba(255,255,255,0.95);
+  border-radius: 22px;
+  box-shadow:
+    0 18px 50px rgba(38,120,155,0.22),
+    inset 0 1px 0 rgba(255,255,255,1);
+  overflow: hidden;
+}
 
-      - name: Download current world data
-        env:
-          PYTHONUNBUFFERED: "1"
-        run: |
-          python3 <<'PY'
-          import json
-          import random
-          import urllib.request
-          from datetime import datetime, timezone
-          from pathlib import Path
+.titlebar {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  background:
+    linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #eafaff 48%,
+      #d7f3fc 100%
+    );
+  border-bottom: 1px solid #b9e2ef;
+}
 
-          ROOT = Path(".")
+.news-icon {
+  margin-right: 10px;
+}
 
-          def get_json(url):
-              req = urllib.request.Request(
-                  url,
-                  headers={"User-Agent": "PC-PAL-WORLD-NEWS/1.0"}
-              )
-              with urllib.request.urlopen(req, timeout=30) as r:
-                  return json.loads(r.read().decode("utf-8"))
+.grid {
+  height: calc(100% - 64px);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 
-          def download(url, path):
-              req = urllib.request.Request(
-                  url,
-                  headers={"User-Agent": "PC-PAL-WORLD-NEWS/1.0"}
-              )
-              with urllib.request.urlopen(req, timeout=60) as r:
-                  Path(path).write_bytes(r.read())
+.tile {
+  min-width: 0;
+  min-height: 0;
+  padding: 16px;
+  border-right: 1px solid #b8dce8;
+  border-bottom: 1px solid #b8dce8;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.96),
+      rgba(235,249,253,0.92)
+    );
+}
 
-          def number(value):
-              try:
-                  return float(value)
-              except:
-                  return None
+.tile:nth-child(3n) {
+  border-right: none;
+}
 
-          # -----------------------------
-          # LIVE METAR
-          # -----------------------------
+.tile:nth-child(n+4) {
+  border-bottom: none;
+}
 
-          metar_url = (
-              "https://aviationweather.gov/api/data/metar"
-              "?format=json&hours=1"
-          )
+.tile-title {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #20566c;
+  white-space: nowrap;
+}
 
-          metars = get_json(metar_url)
+.tile-title .emoji {
+  font-size: 19px;
+}
 
-          valid = []
+.content {
+  height: calc(100% - 34px);
+  overflow: hidden;
+  font-size: 14px;
+}
 
-          for item in metars:
-              if not isinstance(item, dict):
-                  continue
+.data-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
 
-              if item.get("icaoId") is None:
-                  continue
+.main-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #17627f;
+}
 
-              if item.get("lat") is None or item.get("lon") is None:
-                  continue
+.sub-value {
+  font-size: 13px;
+  color: #4d7180;
+  line-height: 1.45;
+}
 
-              valid.append(item)
+.meta {
+  font-size: 11px;
+  color: #78919b;
+  line-height: 1.4;
+}
 
-          if len(valid) < 2:
-              raise RuntimeError("Not enough current METAR observations.")
+.image-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
 
-          atmosphere_raw, place_raw = random.sample(valid, 2)
+.image-card img {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  object-fit: cover;
+  border-radius: 11px;
+  border: 1px solid #b8dce8;
+  background: #d9f2fa;
+}
 
-          def simplify(item):
-              return {
-                  "station": item.get("icaoId"),
-                  "name": item.get("name") or item.get("icaoId"),
-                  "lat": item.get("lat"),
-                  "lon": item.get("lon"),
-                  "temperature": item.get("temp"),
-                  "dewpoint": item.get("dewp"),
-                  "windSpeed": item.get("wspd"),
-                  "visibility": item.get("visib"),
-                  "pressure": item.get("altim"),
-                  "weather": item.get("wxString") or "NONE",
-                  "observationTime": item.get("obsTime")
-              }
+.image-source {
+  flex: 0 0 auto;
+  font-size: 10px;
+  color: #78919b;
+}
 
-          atmosphere = simplify(atmosphere_raw)
-          random_place = simplify(place_raw)
+.random-place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  height: 100%;
+}
 
-          # -----------------------------
-          # NOAA SPACE WEATHER
-          # -----------------------------
+.place-info,
+.place-weather {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-          solar_wind = get_json(
-              "https://services.swpc.noaa.gov/products/summary/solar-wind-speed.json"
-          )
+.place-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #17627f;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
 
-          magnetic = get_json(
-              "https://services.swpc.noaa.gov/products/summary/solar-wind-mag-field.json"
-          )
+.coordinates {
+  margin-top: 5px;
+  font-size: 10px;
+  color: #78919b;
+}
 
-          kp_data = get_json(
-              "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json"
-          )
+.weather-big {
+  font-size: 22px;
+  font-weight: 700;
+  color: #237b61;
+}
 
-          f107_data = get_json(
-              "https://services.swpc.noaa.gov/products/10cm-flux-30-day.json"
-          )
+.weather-line {
+  font-size: 12px;
+  line-height: 1.45;
+  color: #4d7180;
+}
 
-          scales = get_json(
-              "https://services.swpc.noaa.gov/products/noaa-scales.json"
-          )
+.space-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 14px;
+  height: 100%;
+  align-content: center;
+}
 
-          space = {}
+.space-item {
+  min-width: 0;
+}
 
-          if solar_wind:
-              latest = solar_wind[-1]
-              space["solarWind"] = latest.get("proton_speed")
+.space-label {
+  font-size: 10px;
+  color: #78919b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
 
-          if magnetic:
-              latest = magnetic[-1]
-              space["bt"] = latest.get("bt")
-              space["bz"] = latest.get("bz_gsm")
+.space-value {
+  font-size: 15px;
+  font-weight: 700;
+  color: #17627f;
+  margin-top: 2px;
+  overflow-wrap: anywhere;
+}
 
-          if kp_data:
-              latest = kp_data[-1]
-              space["kp"] = latest.get("Kp")
+.no-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #91aab3;
+  font-size: 13px;
+}
 
-          if f107_data:
-              latest = f107_data[-1]
-              space["f107"] = latest.get("flux")
+.updated {
+  position: fixed;
+  right: 10px;
+  bottom: 7px;
+  font-size: 9px;
+  color: rgba(60,100,115,0.55);
+}
 
-          if scales:
-              observed = scales.get("0", {})
-              geomagnetic = observed.get("G", {})
-              space["scale"] = geomagnetic.get("Scale")
+@media (max-width: 700px) {
+  .world-news {
+    width: 96vw;
+    height: 94vh;
+    border-radius: 16px;
+  }
 
-          # -----------------------------
-          # AURORA
-          # -----------------------------
+  .titlebar {
+    height: 54px;
+    padding: 0 16px;
+    font-size: 20px;
+  }
 
-          try:
-              aurora_data = get_json(
-                  "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json"
-              )
+  .grid {
+    height: calc(100% - 54px);
+  }
 
-              maximum = None
+  .tile {
+    padding: 10px;
+  }
 
-              coordinates = aurora_data.get("coordinates", [])
+  .tile-title {
+    font-size: 12px;
+  }
 
-              for point in coordinates:
-                  if isinstance(point, list) and len(point) >= 3:
-                      value = number(point[2])
+  .tile-title .emoji {
+    font-size: 15px;
+  }
 
-                      if value is not None:
-                          if maximum is None or value > maximum:
-                              maximum = value
+  .content {
+    font-size: 11px;
+  }
 
-              space["aurora"] = round(maximum) if maximum is not None else None
+  .main-value {
+    font-size: 18px;
+  }
 
-          except Exception:
-              space["aurora"] = None
+  .place-name {
+    font-size: 15px;
+  }
 
-          # -----------------------------
-          # CURRENT NOAA IMAGERY
-          # -----------------------------
+  .weather-big {
+    font-size: 17px;
+  }
 
-          image_dir = ROOT / "world-media"
-          image_dir.mkdir(exist_ok=True)
+  .space-value {
+    font-size: 12px;
+  }
+}
+</style>
+</head>
 
-          earth_path = image_dir / "earth.jpg"
-          media1_path = image_dir / "media1.jpg"
-          media2_path = image_dir / "media2.jpg"
+<body>
 
-          download(
-              "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg",
-              earth_path
-          )
+<div class="world-news">
 
-          download(
-              "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg",
-              media1_path
-          )
+  <div class="titlebar">
+    <span class="news-icon">📰</span>
+    <span>WORLD NEWS</span>
+  </div>
 
-          download(
-              "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg",
-              media2_path
-          )
+  <div class="grid">
 
-          # -----------------------------
-          # OUTPUT
-          # -----------------------------
+    <!-- EARTH OBSERVATION -->
+    <section class="tile">
+      <div class="tile-title">
+        <span class="emoji">🛰</span>
+        <span>EARTH OBSERVATION</span>
+      </div>
 
-          output = {
-              "generatedAt": datetime.now(timezone.utc).isoformat(),
+      <div class="content">
+        <div class="image-card">
+          <img
+            id="earthImage"
+            src="./world-media/earth.jpg"
+            alt="NOAA GOES Earth observation"
+          >
+          <div class="image-source">
+            NOAA GOES
+          </div>
+        </div>
+      </div>
+    </section>
 
-              "images": {
-                  "earth": "./world-media/earth.jpg",
-                  "media1": "./world-media/media1.jpg",
-                  "media2": "./world-media/media2.jpg"
-              },
+    <!-- ATMOSPHERE -->
+    <section class="tile">
+      <div class="tile-title">
+        <span class="emoji">🌬</span>
+        <span>ATMOSPHERE</span>
+      </div>
 
-              "sources": {
-                  "earth": "NOAA GOES-19",
-                  "media1": "NOAA GOES-19",
-                  "media2": "NOAA GOES-18"
-              },
+      <div class="content" id="atmosphere">
+        <div class="no-data">LOADING...</div>
+      </div>
+    </section>
 
-              "atmosphere": atmosphere,
-              "randomPlace": random_place,
-              "space": space
-          }
+    <!-- MEDIA SIGNAL 01 -->
+    <section class="tile">
+      <div class="tile-title">
+        <span class="emoji">📺</span>
+        <span>MEDIA SIGNAL ①</span>
+      </div>
 
-          Path("world-data.json").write_text(
-              json.dumps(output, ensure_ascii=False, indent=2),
-              encoding="utf-8"
-          )
+      <div class="content">
+        <div class="image-card">
+          <img
+            id="mediaImage1"
+            src="./world-media/media1.jpg"
+            alt="NOAA satellite media signal"
+          >
+          <div class="image-source">
+            NOAA GOES
+          </div>
+        </div>
+      </div>
+    </section>
 
-          print("WORLD NEWS data updated.")
-          PY
+    <!-- RANDOM PLACE -->
+    <section class="tile">
+      <div class="tile-title">
+        <span class="emoji">📍</span>
+        <span>RANDOM PLACE</span>
+      </div>
 
-      - name: Commit updated data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      <div class="content" id="randomPlace">
+        <div class="no-data">LOADING...</div>
+      </div>
+    </section>
 
-          git add world-data.json world-media/
+    <!-- SPACE WEATHER -->
+    <section class="tile">
+      <div class="tile-title">
+        <span class="emoji">🌌</span>
+        <span>SPACE WEATHER</span>
+      </div>
 
-          if git diff --cached --quiet; then
-            echo "No changes."
-            exit 0
-          fi
+      <div class="content" id="spaceWeather">
+        <div class="no-data">LOADING...</div>
+      </div>
+    </section>
 
-          git commit -m "Update WORLD NEWS data"
-          git push
+    <!-- MEDIA SIGNAL 02 -->
+    <section class="tile">
+      <div class="tile-title">
+        <span class="emoji">📺</span>
+        <span>MEDIA SIGNAL ②</span>
+      </div>
+
+      <div class="content">
+        <div class="image-card">
+          <img
+            id="mediaImage2"
+            src="./world-media/media2.jpg"
+            alt="NOAA satellite media signal"
+          >
+          <div class="image-source">
+            NOAA GOES
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<div class="updated" id="updated"></div>
+
+<script>
+const DATA_URL = "./world-data.json";
+
+function escapeHTML(value) {
+  if (value === null || value === undefined) {
+    return "";
+  }
+
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function valueOrNoData(value, suffix = "") {
+  if (
+    value === null ||
+    value === undefined ||
+    value === ""
+  ) {
+    return "NO DATA";
+  }
+
+  return escapeHTML(value) + suffix;
+}
+
+function formatTemperature(value) {
+  if (value === null || value === undefined || value === "") {
+    return "NO DATA";
+  }
+
+  return `${escapeHTML(value)} °C`;
+}
+
+function formatWind(speed, direction) {
+  if (
+    speed === null ||
+    speed === undefined ||
+    speed === ""
+  ) {
+    return "NO DATA";
+  }
+
+  let result = `${escapeHTML(speed)} kt`;
+
+  if (
+    direction !== null &&
+    direction !== undefined &&
+    direction !== ""
+  ) {
+    result += ` / ${escapeHTML(direction)}°`;
+  }
+
+  return result;
+}
+
+function renderAtmosphere(data) {
+  const el = document.getElementById("atmosphere");
+
+  if (!data) {
+    el.innerHTML = `<div class="no-data">NO DATA</div>`;
+    return;
+  }
+
+  el.innerHTML = `
+    <div class="data-card">
+      <div class="main-value">
+        ${escapeHTML(data.station || "UNKNOWN")}
+      </div>
+
+      <div class="sub-value">
+        ${escapeHTML(data.name || "UNKNOWN")}
+      </div>
+
+      <div class="sub-value">
+        Temperature:
+        ${formatTemperature(data.temperature)}
+      </div>
+
+      <div class="sub-value">
+        Wind:
+        ${formatWind(data.windSpeed, data.windDirection)}
+      </div>
+
+      <div class="sub-value">
+        Visibility:
+        ${valueOrNoData(data.visibility, " sm")}
+      </div>
+
+      <div class="meta">
+        Observation:
+        ${escapeHTML(data.observationTime || "NO DATA")}
+      </div>
+    </div>
+  `;
+}
+
+function renderRandomPlace(data) {
+  const el = document.getElementById("randomPlace");
+
+  if (!data) {
+    el.innerHTML = `<div class="no-data">NO DATA</div>`;
+    return;
+  }
+
+  el.innerHTML = `
+    <div class="random-place">
+
+      <div class="place-info">
+        <div class="place-name">
+          ${escapeHTML(data.name || data.station || "UNKNOWN")}
+        </div>
+
+        <div class="coordinates">
+          ${data.lat !== undefined ? escapeHTML(data.lat) : "NO DATA"},
+          ${data.lon !== undefined ? escapeHTML(data.lon) : "NO DATA"}
+        </div>
+
+        <div class="meta">
+          Station:
+          ${escapeHTML(data.station || "NO DATA")}
+        </div>
+      </div>
+
+      <div class="place-weather">
+        <div class="weather-big">
+          ${formatTemperature(data.temperature)}
+        </div>
+
+        <div class="weather-line">
+          Weather:
+          ${escapeHTML(data.weather || "NO DATA")}
+        </div>
+
+        <div class="weather-line">
+          Wind:
+          ${formatWind(data.windSpeed, data.windDirection)}
+        </div>
+
+        <div class="weather-line">
+          Visibility:
+          ${valueOrNoData(data.visibility, " sm")}
+        </div>
+      </div>
+
+    </div>
+  `;
+}
+
+function renderSpaceWeather(space) {
+  const el = document.getElementById("spaceWeather");
+
+  if (!space) {
+    el.innerHTML = `<div class="no-data">NO DATA</div>`;
+    return;
+  }
+
+  const solarWind = space.solarWind;
+  const magneticField = space.magneticField;
+  const kp = space.kp;
+  const flux = space.flux10cm;
+
+  let solarWindValue = "NO DATA";
+  let magneticValue = "NO DATA";
+  let kpValue = "NO DATA";
+  let fluxValue = "NO DATA";
+
+  if (solarWind && solarWind.proton_speed !== undefined) {
+    solarWindValue =
+      `${escapeHTML(solarWind.proton_speed)} km/s`;
+  }
+
+  if (magneticField && magneticField.bt !== undefined) {
+    magneticValue =
+      `${escapeHTML(magneticField.bt)} nT`;
+  }
+
+  if (kp && kp.Kp !== undefined) {
+    kpValue =
+      `Kp ${escapeHTML(kp.Kp)}`;
+  }
+
+  if (flux && flux.flux !== undefined) {
+    fluxValue =
+      `${escapeHTML(flux.flux)} sfu`;
+  }
+
+  let scaleValue = "NO DATA";
+
+  if (space.scales) {
+    const keys = Object.keys(space.scales);
+
+    if (keys.length > 0) {
+      const latestKey = keys
+        .filter(key => key !== "-1")
+        .sort((a, b) => Number(b) - Number(a))[0];
+
+      if (
+        latestKey !== undefined &&
+        space.scales[latestKey]
+      ) {
+        const scale = space.scales[latestKey];
+
+        const parts = [];
+
+        if (scale.R && scale.R.Scale !== undefined) {
+          parts.push(`R${scale.R.Scale}`);
+        }
+
+        if (scale.S && scale.S.Scale !== undefined) {
+          parts.push(`S${scale.S.Scale}`);
+        }
+
+        if (scale.G && scale.G.Scale !== undefined) {
+          parts.push(`G${scale.G.Scale}`);
+        }
+
+        if (parts.length) {
+          scaleValue = parts.join(" / ");
+        }
+      }
+    }
+  }
+
+  el.innerHTML = `
+    <div class="space-grid">
+
+      <div class="space-item">
+        <div class="space-label">SOLAR WIND</div>
+        <div class="space-value">${solarWindValue}</div>
+      </div>
+
+      <div class="space-item">
+        <div class="space-label">MAGNETIC FIELD</div>
+        <div class="space-value">${magneticValue}</div>
+      </div>
+
+      <div class="space-item">
+        <div class="space-label">INTERPLANETARY</div>
+        <div class="space-value">
+          ${solarWind?.time_tag
+            ? escapeHTML(solarWind.time_tag)
+            : "NO DATA"}
+        </div>
+      </div>
+
+      <div class="space-item">
+        <div class="space-label">AURORA</div>
+        <div class="space-value">
+          ${space.aurora ? "AVAILABLE" : "NO DATA"}
+        </div>
+      </div>
+
+      <div class="space-item">
+        <div class="space-label">SOLAR ACTIVITY</div>
+        <div class="space-value">${fluxValue}</div>
+      </div>
+
+      <div class="space-item">
+        <div class="space-label">KP / SCALE</div>
+        <div class="space-value">
+          ${kpValue} / ${scaleValue}
+        </div>
+      </div>
+
+    </div>
+  `;
+}
+
+function setupImage(id, path) {
+  const img = document.getElementById(id);
+
+  if (!img || !path) {
+    return;
+  }
+
+  img.src = `${path}?t=${Date.now()}`;
+
+  img.onerror = () => {
+    img.removeAttribute("src");
+    img.alt = "NO DATA";
+    img.style.display = "none";
+  };
+}
+
+async function loadWorldData() {
+  try {
+    const response = await fetch(
+      `${DATA_URL}?t=${Date.now()}`,
+      {
+        cache: "no-store"
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error("world-data.json could not be loaded.");
+    }
+
+    const data = await response.json();
+
+    renderAtmosphere(data.atmosphere);
+    renderRandomPlace(data.randomPlace);
+    renderSpaceWeather(data.space);
+
+    if (data.images) {
+      setupImage(
+        "earthImage",
+        data.images.earth
+      );
+
+      setupImage(
+        "mediaImage1",
+        data.images.media1
+      );
+
+      setupImage(
+        "mediaImage2",
+        data.images.media2
+      );
+    }
+
+    const updated = document.getElementById("updated");
+
+    if (updated && data.generatedAt) {
+      updated.textContent =
+        `DATA UPDATED ${data.generatedAt}`;
+    }
+
+  } catch (error) {
+    console.error(error);
+
+    document.getElementById("atmosphere").innerHTML =
+      `<div class="no-data">NO DATA</div>`;
+
+    document.getElementById("randomPlace").innerHTML =
+      `<div class="no-data">NO DATA</div>`;
+
+    document.getElementById("spaceWeather").innerHTML =
+      `<div class="no-data">NO DATA</div>`;
+  }
+}
+
+loadWorldData();
+
+/*
+  GitHub Actions側で更新された
+  world-data.jsonを10分ごとに読み直す。
+*/
+setInterval(
+  loadWorldData,
+  10 * 60 * 1000
+);
+</script>
+
+</body>
+</html>
