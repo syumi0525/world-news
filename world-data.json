@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:46:58.260716+00:00",
+  "generatedAt": "2026-09-14T19:49:09.540098+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -13,65 +13,65 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Part Of First Large Group Of Red Cross Workers Who Went From Hawaii To Siberia, 1918.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "title": "File:Henry P. Beckley in Russia, 1919.jpg",
+    "artist": "Honolulu Star-Advertiser",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Part_Of_First_Large_Group_Of_Red_Cross_Workers_Who_Went_From_Hawaii_To_Siberia%2C_1918.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Henry_P._Beckley_in_Russia%2C_1919.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "FAOR",
-    "station": "FAOR",
-    "lat": -26.139,
-    "lon": 28.246,
-    "weather": "-RA",
-    "temperature": 12.0,
-    "dewpoint": 11.0,
-    "windSpeed": 6.0,
-    "windDirection": 210.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:30:00.000Z",
-    "raw": "METAR FAOR 141930Z 21006KT 190V250 9999 -RA FEW015 OVC040 12/11 Q1027 NOSIG"
+    "name": "K20U",
+    "station": "K20U",
+    "lat": 46.9251,
+    "lon": -103.9852,
+    "weather": "No coded weather",
+    "temperature": 16.0,
+    "dewpoint": 5.0,
+    "windSpeed": 25.0,
+    "windDirection": 270.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-14T19:35:00.000Z",
+    "raw": "METAR K20U 141935Z AUTO 27025G31KT 16/05 A2972 RMK AO2 TSNO"
   },
   "randomPlace": {
-    "name": "KMAW",
-    "station": "KMAW",
-    "lat": 36.5945,
-    "lon": -89.9865,
+    "name": "K1DN",
+    "station": "K1DN",
+    "lat": 47.8,
+    "lon": -101.3,
     "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 21.0,
-    "windSpeed": 5.0,
-    "windDirection": 110.0,
+    "temperature": 18.0,
+    "dewpoint": 14.0,
+    "windSpeed": 25.0,
+    "windDirection": 270.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:35:00.000Z",
-    "raw": "METAR KMAW 141935Z AUTO 11005KT 10SM CLR 33/21 A3007 RMK AO1"
+    "observationTime": "2026-09-14T19:45:00.000Z",
+    "raw": "SPECI K1DN 141945Z AUTO 27025G35KT 10SM FEW016 SCT023 SCT029 BKN042 BKN050 18/14 A2953 RMK AO2 SLP003 $"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T19:36:00Z",
-      "speed": 362.0
+      "time": "2026-09-14T19:43:00Z",
+      "speed": 361.0
     },
     "magneticField": {
-      "time": "2026-09-14T19:36:00Z",
+      "time": "2026-09-14T19:43:00Z",
       "bt": 13.0,
-      "bz": -1.0
+      "bz": 1.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T19:36:00Z",
-        "speed": 362.0
+        "time": "2026-09-14T19:43:00Z",
+        "speed": 361.0
       },
       "magneticField": {
-        "time": "2026-09-14T19:36:00Z",
+        "time": "2026-09-14T19:43:00Z",
         "bt": 13.0,
-        "bz": -1.0
+        "bz": 1.0
       }
     },
     "kp": {
