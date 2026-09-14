@@ -384,14 +384,19 @@ body {
 
     <!-- ATMOSPHERE -->
     <section class="tile">
+
       <div class="tile-title">
         <span class="emoji">🌬</span>
         <span>ATMOSPHERE</span>
       </div>
 
-      <div class="content" id="atmosphere">
+      <div
+        class="content"
+        id="atmosphere"
+      >
         <div class="no-data">LOADING...</div>
       </div>
+
     </section>
 
 
@@ -475,7 +480,7 @@ body {
 
           <img
             id="mediaImage2"
-            alt="Worldwide satellite or space image"
+            alt="Satellite or space image"
           >
 
           <div
@@ -1072,10 +1077,11 @@ function renderSpaceWeather(space) {
 
 /* =========================================================
    MEDIA SIGNAL ①
-   GitHub Actionsで生成した画像を表示
+   LOCAL WORKFLOW IMAGE
+   world-media/media1.jpg
 ========================================================= */
 
-function setupMediaSignal1(data) {
+function renderMediaSignal1(data) {
 
   const img =
     document.getElementById(
@@ -1092,6 +1098,10 @@ function setupMediaSignal1(data) {
   }
 
 
+  img.style.display =
+    "block";
+
+
   const imagePath =
     data &&
     data.images &&
@@ -1100,55 +1110,47 @@ function setupMediaSignal1(data) {
       : "./world-media/media1.jpg";
 
 
-  const mediaInfo =
+  img.src =
+    `${imagePath}?t=${Date.now()}`;
+
+
+  img.alt =
+    "World photograph";
+
+
+  const metadata =
     data &&
     data.mediaSignal1
       ? data.mediaSignal1
       : null;
 
 
-  img.style.display =
-    "block";
-
-  img.src =
-    `${imagePath}?t=${Date.now()}`;
-
-  img.alt =
-    mediaInfo &&
-    mediaInfo.title
-      ? mediaInfo.title
-      : "World photograph";
-
-
-  if (mediaInfo) {
+  if (metadata) {
 
     const artist =
-      mediaInfo.artist
-        ? `${escapeHTML(mediaInfo.artist)} · `
+      metadata.artist
+        ? `${metadata.artist} · `
         : "";
 
     const license =
-      mediaInfo.license
-        ? escapeHTML(
-            mediaInfo.license
-          )
-        : "";
+      metadata.license ||
+      "";
 
     const page =
-      mediaInfo.page
-        ? mediaInfo.page
-        : "";
-
+      metadata.page ||
+      "";
 
     if (page) {
 
       source.innerHTML =
-        `${artist}${license} · ` +
+        `${escapeHTML(artist)}` +
+        `${escapeHTML(license)}` +
+        ` · ` +
         `<a href="${escapeHTML(page)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>`;
 
     } else {
 
-      source.innerHTML =
+      source.textContent =
         `${artist}${license}`;
 
     }
@@ -1184,10 +1186,11 @@ function setupMediaSignal1(data) {
 
 /* =========================================================
    MEDIA SIGNAL ②
-   GitHub Actionsで生成した画像を表示
+   LOCAL WORKFLOW IMAGE
+   world-media/media2.jpg
 ========================================================= */
 
-function setupMediaSignal2(data) {
+function renderMediaSignal2(data) {
 
   const img =
     document.getElementById(
@@ -1204,6 +1207,10 @@ function setupMediaSignal2(data) {
   }
 
 
+  img.style.display =
+    "block";
+
+
   const imagePath =
     data &&
     data.images &&
@@ -1212,45 +1219,39 @@ function setupMediaSignal2(data) {
       : "./world-media/media2.jpg";
 
 
-  const mediaInfo =
+  img.src =
+    `${imagePath}?t=${Date.now()}`;
+
+
+  img.alt =
+    "Satellite or space image";
+
+
+  const metadata =
     data &&
     data.mediaSignal2
       ? data.mediaSignal2
       : null;
 
 
-  img.style.display =
-    "block";
-
-  img.src =
-    `${imagePath}?t=${Date.now()}`;
-
-
-  img.alt =
-    mediaInfo &&
-    mediaInfo.name
-      ? mediaInfo.name
-      : "Worldwide satellite or space image";
-
-
-  if (mediaInfo) {
+  if (metadata) {
 
     const sourceName =
-      mediaInfo.source ||
-      "NOAA";
+      metadata.source ||
+      "Satellite / Space imagery";
 
-    const name =
-      mediaInfo.name
-        ? ` · ${escapeHTML(mediaInfo.name)}`
+    const title =
+      metadata.title
+        ? ` · ${metadata.title}`
         : "";
 
     source.textContent =
-      `${escapeHTML(sourceName)}${name}`;
+      `${sourceName}${title}`;
 
   } else {
 
     source.textContent =
-      "NOAA";
+      "Satellite / Space imagery";
 
   }
 
@@ -1306,10 +1307,6 @@ async function loadWorldData() {
       await response.json();
 
 
-    /* -----------------------------------------
-       通常データ
-    ----------------------------------------- */
-
     renderAtmosphere(
       data.atmosphere
     );
@@ -1321,10 +1318,9 @@ async function loadWorldData() {
 
 
     /*
-      RANDOM PLACEとEARTH OBSERVATIONは
-      完全に同じ data.randomPlace を使用。
+      EARTH OBSERVATIONの地図は
+      RANDOM PLACEと同じ座標を使用。
     */
-
     setupRandomPlaceMap(
       data.randomPlace
     );
@@ -1335,29 +1331,19 @@ async function loadWorldData() {
     );
 
 
-    /* -----------------------------------------
-       MEDIA SIGNAL ①②
-
-       ブラウザから外部APIへ直接アクセスせず、
-       GitHub Actionsが生成した
-       world-media/media1.jpg
-       world-media/media2.jpg
-       を表示する。
-    ----------------------------------------- */
-
-    setupMediaSignal1(
+    /*
+      MEDIA SIGNAL ①②は
+      workflowが生成したローカル画像を使用。
+    */
+    renderMediaSignal1(
       data
     );
 
 
-    setupMediaSignal2(
+    renderMediaSignal2(
       data
     );
 
-
-    /* -----------------------------------------
-       UPDATED
-    ----------------------------------------- */
 
     const updated =
       document.getElementById(
@@ -1402,16 +1388,14 @@ async function loadWorldData() {
 
 
     /*
-      world-data.jsonの読み込みに失敗しても、
-      MEDIA SIGNALは既存画像を直接表示する。
+      world-data.jsonが失敗した場合でも、
+      画像自体はローカルパスから表示を試みる。
     */
-
-    setupMediaSignal1(
+    renderMediaSignal1(
       null
     );
 
-
-    setupMediaSignal2(
+    renderMediaSignal2(
       null
     );
 
@@ -1429,8 +1413,7 @@ loadWorldData();
 
 /*
   10分ごとにWORLD NEWSのデータを更新。
-  GitHub Actionsで更新された
-  MEDIA SIGNAL ①②も再読み込みする。
+  MEDIA SIGNAL ①②も同時に新しい画像へ更新。
 */
 
 setInterval(
