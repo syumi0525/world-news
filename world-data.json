@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T21:33:14.305166+00:00",
+  "generatedAt": "2026-09-14T21:34:23.012339+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -9,7 +9,7 @@
     "globalPulseGeomagnetic": "NOAA SWPC",
     "globalPulseCloudCover": "AviationWeather.gov",
     "mediaSignal1": "Wikimedia Commons",
-    "mediaSignal2": "NOAA GOES"
+    "mediaSignal2": "NOAA SUVI"
   },
   "images": {
     "earth": "world-media/earth.jpg",
@@ -18,50 +18,50 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Buna,.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Buna%2C.jpg"
+    "title": "File:Vertebrates Transverse sections through the germshield of a higher Vertebrate, showing the origin of the tubular from the bent germ-layerrudimentary.jpg",
+    "artist": "Haeckel, Ernst Heinrich Philipp August",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Vertebrates_Transverse_sections_through_the_germshield_of_a_higher_Vertebrate%2C_showing_the_origin_of_the_tubular_from_the_bent_germ-layerrudimentary.jpg"
   },
   "mediaSignal2": {
-    "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "source": "NOAA SUVI",
+    "name": "NOAA GOES-19 SUVI 171",
+    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/171/latest.png"
   },
   "atmosphere": {
-    "name": "KHWD",
-    "station": "KHWD",
-    "lat": 37.6589,
-    "lon": -122.1212,
+    "name": "FAWK",
+    "station": "FAWK",
+    "lat": -25.83,
+    "lon": 28.223,
     "weather": "No coded weather",
-    "temperature": 26.1,
-    "dewpoint": 8.3,
-    "windSpeed": 12.0,
-    "windDirection": 290.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-14T20:54:00.000Z",
-    "raw": "METAR KHWD 142054Z 29012KT 10SM CLR 26/08 A2989 RMK AO2 SLP131 T02610083 58017"
+    "temperature": 13.0,
+    "dewpoint": 13.0,
+    "windSpeed": 5.0,
+    "windDirection": 130.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-14T21:00:00.000Z",
+    "raw": "METAR FAWK 142100Z AUTO 13005KT //// // ////// 13/13 Q1027"
   },
   "randomPlace": {
-    "name": "K1JW",
-    "station": "K1JW",
-    "lat": 40.961,
-    "lon": -103.199,
-    "weather": "No coded weather",
-    "temperature": 29.6,
-    "dewpoint": 9.7,
-    "windSpeed": 7.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-14T20:55:00.000Z",
-    "raw": "METAR K1JW 142055Z AUTO 20007KT 10SM CLR 30/10 A2983 RMK AO2 SLP038 T02960097 57009 $"
+    "name": "ULOO",
+    "station": "ULOO",
+    "lat": 57.79,
+    "lon": 28.397,
+    "weather": "PRFG BR",
+    "temperature": 9.0,
+    "dewpoint": 9.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "1.68",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-14T21:21:00.000Z",
+    "raw": "SPECI ULOO 142121Z 00000MPS 2700 0300NW PRFG BR NSC 09/09 Q1020 RMK QFE761"
   },
   "globalPulse": {
     "population": {
-      "value": 8211036276,
-      "display": "8,211,036,276",
+      "value": 8211036414,
+      "display": "8,211,036,414",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -95,8 +95,8 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T21:22:00Z",
-      "speed": 366.0
+      "time": "2026-09-14T21:25:00Z",
+      "speed": 364.0
     },
     "magneticField": {
       "time": "2026-09-14T21:25:00Z",
@@ -105,8 +105,8 @@
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T21:22:00Z",
-        "speed": 366.0
+        "time": "2026-09-14T21:25:00Z",
+        "speed": 364.0
       },
       "magneticField": {
         "time": "2026-09-14T21:25:00Z",
