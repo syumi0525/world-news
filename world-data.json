@@ -1,10 +1,15 @@
 {
-  "generatedAt": "2026-09-14T21:18:05.342299+00:00",
+  "generatedAt": "2026-09-14T21:33:14.305166+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
+    "globalPulsePopulation": "U.S. Census Bureau",
+    "globalPulseCO2": "NOAA Global Monitoring Laboratory",
+    "globalPulseSeaSurface": "NOAA ACSPO",
+    "globalPulseGeomagnetic": "NOAA SWPC",
+    "globalPulseCloudCover": "AviationWeather.gov",
     "mediaSignal1": "Wikimedia Commons",
-    "mediaSignal2": "NOAA SUVI"
+    "mediaSignal2": "NOAA GOES"
   },
   "images": {
     "earth": "world-media/earth.jpg",
@@ -13,65 +18,100 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 13.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:Buna,.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_13.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Buna%2C.jpg"
   },
   "mediaSignal2": {
-    "source": "NOAA SUVI",
-    "name": "NOAA GOES-19 SUVI 131",
-    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/131/latest.png"
+    "source": "NOAA GOES",
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFKN",
-    "station": "KFKN",
-    "lat": 36.6984,
-    "lon": -76.9032,
+    "name": "KHWD",
+    "station": "KHWD",
+    "lat": 37.6589,
+    "lon": -122.1212,
     "weather": "No coded weather",
-    "temperature": null,
-    "dewpoint": null,
-    "windSpeed": 6.0,
-    "windDirection": 30.0,
+    "temperature": 26.1,
+    "dewpoint": 8.3,
+    "windSpeed": 12.0,
+    "windDirection": 290.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-14T20:54:00.000Z",
+    "raw": "METAR KHWD 142054Z 29012KT 10SM CLR 26/08 A2989 RMK AO2 SLP131 T02610083 58017"
+  },
+  "randomPlace": {
+    "name": "K1JW",
+    "station": "K1JW",
+    "lat": 40.961,
+    "lon": -103.199,
+    "weather": "No coded weather",
+    "temperature": 29.6,
+    "dewpoint": 9.7,
+    "windSpeed": 7.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-14T20:55:00.000Z",
-    "raw": "METAR KFKN 142055Z AUTO 03006KT 10SM BKN050 A3007 RMK AO2"
+    "raw": "METAR K1JW 142055Z AUTO 20007KT 10SM CLR 30/10 A2983 RMK AO2 SLP038 T02960097 57009 $"
   },
-  "randomPlace": {
-    "name": "PAAQ",
-    "station": "PAAQ",
-    "lat": 61.5951,
-    "lon": -149.0917,
-    "weather": "No coded weather",
-    "temperature": 13.9,
-    "dewpoint": 7.2,
-    "windSpeed": 3.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-14T20:53:00.000Z",
-    "raw": "METAR PAAQ 142053Z VRB03KT 10SM CLR 14/07 A3015 RMK AO2 SLP212 T01390072 55001 $"
+  "globalPulse": {
+    "population": {
+      "value": 8211036276,
+      "display": "8,211,036,276",
+      "source": "U.S. Census Bureau"
+    },
+    "co2": {
+      "value": 425.04,
+      "display": "425.04 ppm",
+      "source": "NOAA Global Monitoring Laboratory",
+      "date": "2026-09-13"
+    },
+    "seaSurface": {
+      "value": 22.06,
+      "display": "22.06 °C",
+      "source": "NOAA ACSPO Global SST",
+      "time": "2026-09-12T12:00:00Z"
+    },
+    "geomagnetic": {
+      "value": 2.7,
+      "display": "Kp 2.7",
+      "source": "NOAA SWPC",
+      "time": "2026-09-14T18:00:00"
+    },
+    "dayNight": {
+      "value": 0.5,
+      "display": "50.0% DAY / 50.0% NIGHT",
+      "source": "Solar geometry"
+    },
+    "cloudCover": {
+      "value": 39.8,
+      "display": "39.8%",
+      "source": "NOAA / AviationWeather.gov"
+    }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T21:08:00Z",
-      "speed": 371.0
+      "time": "2026-09-14T21:22:00Z",
+      "speed": 366.0
     },
     "magneticField": {
-      "time": "2026-09-14T21:08:00Z",
+      "time": "2026-09-14T21:25:00Z",
       "bt": 13.0,
-      "bz": -3.0
+      "bz": 0.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T21:08:00Z",
-        "speed": 371.0
+        "time": "2026-09-14T21:22:00Z",
+        "speed": 366.0
       },
       "magneticField": {
-        "time": "2026-09-14T21:08:00Z",
+        "time": "2026-09-14T21:25:00Z",
         "bt": 13.0,
-        "bz": -3.0
+        "bz": 0.0
       }
     },
     "kp": {
