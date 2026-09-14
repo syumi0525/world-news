@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T18:37:17.551043+00:00",
+  "generatedAt": "2026-09-14T18:55:38.194642+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -12,54 +12,54 @@
     "media2": "world-media/media2.jpg"
   },
   "atmosphere": {
-    "name": "KHVR",
-    "station": "KHVR",
-    "lat": 48.5425,
-    "lon": -109.7644,
+    "name": "PARS",
+    "station": "PARS",
+    "lat": 61.78,
+    "lon": -161.321,
     "weather": "No coded weather",
-    "temperature": 13.9,
-    "dewpoint": 5.6,
-    "windSpeed": 25.0,
+    "temperature": 6.7,
+    "dewpoint": null,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-14T17:56:00.000Z",
+    "raw": "METAR PARS 141756Z AUTO 00000KT 10SM CLR 07/ A3007 RMK AO2 SLP186 T0067 10067 20028 58005 $"
+  },
+  "randomPlace": {
+    "name": "KACP",
+    "station": "KACP",
+    "lat": 30.7469,
+    "lon": -92.687,
+    "weather": "No coded weather",
+    "temperature": 34.0,
+    "dewpoint": 23.0,
+    "windSpeed": 4.0,
     "windDirection": 260.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T17:53:00.000Z",
-    "raw": "METAR KHVR 141753Z AUTO 26025G36KT 10SM BKN043 OVC050 14/06 A2974 RMK AO2 PK WND 27036/1724 SLP071 T01390056 10156 20089 55001"
-  },
-  "randomPlace": {
-    "name": "KPVD",
-    "station": "KPVD",
-    "lat": 41.7225,
-    "lon": -71.4325,
-    "weather": "No coded weather",
-    "temperature": 23.3,
-    "dewpoint": 9.4,
-    "windSpeed": 9.0,
-    "windDirection": 320.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-14T17:51:00.000Z",
-    "raw": "METAR KPVD 141751Z 32009KT 10SM FEW030 23/09 A3000 RMK AO2 SLP159 T02330094 10239 20200 51004"
+    "observationTime": "2026-09-14T18:35:00.000Z",
+    "raw": "METAR KACP 141835Z AUTO 26004KT 10SM SCT041 BKN065 34/23 A3007 RMK AO2"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T18:30:00Z",
-      "speed": 369.0
+      "time": "2026-09-14T18:49:00Z",
+      "speed": 371.0
     },
     "magneticField": {
-      "time": "2026-09-14T18:30:00Z",
+      "time": "2026-09-14T18:49:00Z",
       "bt": 14.0,
-      "bz": -2.0
+      "bz": 0.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T18:30:00Z",
-        "speed": 369.0
+        "time": "2026-09-14T18:49:00Z",
+        "speed": 371.0
       },
       "magneticField": {
-        "time": "2026-09-14T18:30:00Z",
+        "time": "2026-09-14T18:49:00Z",
         "bt": 14.0,
-        "bz": -2.0
+        "bz": 0.0
       }
     },
     "kp": {
