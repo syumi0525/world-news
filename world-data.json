@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T20:41:39.775938+00:00",
+  "generatedAt": "2026-09-14T20:58:41.454428+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -13,10 +13,10 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Akfa design.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sevinch2003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sevinch2003 (page does not exist)\">Sevinch2003</a>",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Akfa_design.jpg"
+    "title": "File:6051894696 - Flickr - these are my twisted words.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46984027@N06\">Diego Pavese</a> from Montevideo, Uruguay",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:6051894696_-_Flickr_-_these_are_my_twisted_words.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA SUVI",
@@ -24,54 +24,54 @@
     "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/284/latest.png"
   },
   "atmosphere": {
-    "name": "WIDD",
-    "station": "WIDD",
-    "lat": 1.121,
-    "lon": 104.119,
-    "weather": "-RA",
-    "temperature": 28.0,
-    "dewpoint": 25.0,
-    "windSpeed": 4.0,
-    "windDirection": 160.0,
-    "visibility": "4.35",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-14T20:30:00.000Z",
-    "raw": "METAR WIDD 142030Z AUTO 16004KT 130V190 7000 -RA FEW019 28/25 Q1010"
-  },
-  "randomPlace": {
-    "name": "MMML",
-    "station": "MMML",
-    "lat": 32.631,
-    "lon": -115.238,
+    "name": "KOMA",
+    "station": "KOMA",
+    "lat": 41.3119,
+    "lon": -95.9018,
     "weather": "No coded weather",
-    "temperature": 38.0,
-    "dewpoint": 15.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 25.6,
+    "dewpoint": 19.4,
+    "windSpeed": 14.0,
+    "windDirection": 160.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:42:00.000Z",
-    "raw": "METAR MMML 141942Z 00000KT 10SM SKC 38/15 A2971"
+    "observationTime": "2026-09-14T20:52:00.000Z",
+    "raw": "METAR KOMA 142052Z 16014KT 10SM SCT065 SCT110 BKN180 BKN250 26/19 A2975 RMK AO2 RAB1953E02 SLP067 RASH W-NW P0000 60000 T02560194 56037"
+  },
+  "randomPlace": {
+    "name": "SKGP",
+    "station": "SKGP",
+    "lat": 2.57,
+    "lon": -77.899,
+    "weather": "RA",
+    "temperature": 27.0,
+    "dewpoint": 26.0,
+    "windSpeed": 5.0,
+    "windDirection": 290.0,
+    "visibility": "5.59",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-14T20:00:00.000Z",
+    "raw": "METAR SKGP 142000Z 29005KT 9000 4000S RA SCT020 BKN060 27/26 Q1006"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T20:32:00Z",
+      "time": "2026-09-14T20:48:00Z",
       "speed": 363.0
     },
     "magneticField": {
-      "time": "2026-09-14T20:32:00Z",
+      "time": "2026-09-14T20:52:00Z",
       "bt": 13.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T20:32:00Z",
+        "time": "2026-09-14T20:48:00Z",
         "speed": 363.0
       },
       "magneticField": {
-        "time": "2026-09-14T20:32:00Z",
+        "time": "2026-09-14T20:52:00Z",
         "bt": 13.0,
-        "bz": 1.0
+        "bz": 0.0
       }
     },
     "kp": {
@@ -79,8 +79,8 @@
       "kp": 4.0
     },
     "flux10cm": {
-      "time": "2026-09-13T20:00:00",
-      "flux": 114.0
+      "time": "2026-09-14T20:00:00",
+      "flux": 104.0
     }
   }
 }
