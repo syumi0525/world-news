@@ -189,7 +189,7 @@ body {
 }
 
 .map-frame {
-  width: 78%;
+  width: 100%;
   height: 100%;
   min-height: 0;
   border: 1px solid #b8dce8;
@@ -204,10 +204,18 @@ body {
 }
 
 .random-place {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.random-place-info {
+  flex: 0 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
-  height: 100%;
 }
 
 .place-info,
@@ -242,6 +250,20 @@ body {
   font-size: 12px;
   line-height: 1.45;
   color: #4d7180;
+}
+
+.random-place-map {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.random-place-map .map-frame {
+  flex: 1;
+  width: 100%;
+  min-height: 0;
 }
 
 .space-grid {
@@ -280,13 +302,33 @@ body {
   font-size: 13px;
 }
 
-.updated {
-  position: fixed;
-  right: 10px;
-  bottom: 7px;
-  font-size: 9px;
-  color: rgba(60,100,115,0.55);
+
+/* RANDOM PLACEを縦2段分にする */
+.random-place-tile {
+  grid-row: 1 / span 2;
+  border-bottom: none;
 }
+
+
+/* RANDOM PLACEが左端なので右ボーダーを維持 */
+.random-place-tile {
+  border-right: 1px solid #b8dce8;
+}
+
+
+/* 残り4タイルの右端だけ右ボーダーなし */
+.grid > .tile:nth-child(3),
+.grid > .tile:nth-child(5) {
+  border-right: none;
+}
+
+
+/* 右側4タイルの下段だけ下ボーダーなし */
+.grid > .tile:nth-child(4),
+.grid > .tile:nth-child(5) {
+  border-bottom: none;
+}
+
 
 @media (max-width: 700px) {
   .world-news {
@@ -336,10 +378,6 @@ body {
   .space-value {
     font-size: 12px;
   }
-
-  .map-frame {
-    width: 82%;
-  }
 }
 </style>
 </head>
@@ -355,30 +393,22 @@ body {
 
   <div class="grid">
 
-    <!-- EARTH OBSERVATION -->
-    <section class="tile">
+
+    <!-- RANDOM PLACE / VERTICAL TWO-TILE AREA -->
+    <section class="tile random-place-tile">
+
       <div class="tile-title">
-        <span class="emoji">🌍</span>
-        <span>EARTH OBSERVATION</span>
+        <span class="emoji">📍</span>
+        <span>RANDOM PLACE</span>
       </div>
 
-      <div class="content">
-        <div class="map-card">
-
-          <iframe
-            id="earthMap"
-            class="map-frame"
-            title="Random Place map"
-            loading="lazy"
-            src="about:blank"
-          ></iframe>
-
-          <div class="map-source">
-            © OpenStreetMap contributors
-          </div>
-
-        </div>
+      <div
+        class="content"
+        id="randomPlace"
+      >
+        <div class="no-data">LOADING...</div>
       </div>
+
     </section>
 
 
@@ -427,24 +457,6 @@ body {
         </div>
 
       </div>
-    </section>
-
-
-    <!-- RANDOM PLACE -->
-    <section class="tile">
-
-      <div class="tile-title">
-        <span class="emoji">📍</span>
-        <span>RANDOM PLACE</span>
-      </div>
-
-      <div
-        class="content"
-        id="randomPlace"
-      >
-        <div class="no-data">LOADING...</div>
-      </div>
-
     </section>
 
 
@@ -497,12 +509,6 @@ body {
 
   </div>
 </div>
-
-
-<div
-  class="updated"
-  id="updated"
-></div>
 
 
 <script>
@@ -696,70 +702,91 @@ function renderRandomPlace(data) {
 
     <div class="random-place">
 
-      <div class="place-info">
+      <div class="random-place-info">
 
-        <div class="place-name">
-          ${escapeHTML(
-            data.name ||
-            data.station ||
-            "UNKNOWN"
-          )}
+        <div class="place-info">
+
+          <div class="place-name">
+            ${escapeHTML(
+              data.station ||
+              data.name ||
+              "UNKNOWN"
+            )}
+          </div>
+
+          <div class="coordinates">
+            ${
+              data.lat !== undefined
+                ? escapeHTML(data.lat)
+                : "NO DATA"
+            },
+            ${
+              data.lon !== undefined
+                ? escapeHTML(data.lon)
+                : "NO DATA"
+            }
+          </div>
+
+          <div class="meta">
+            Station:
+            ${escapeHTML(
+              data.station ||
+              "NO DATA"
+            )}
+          </div>
+
         </div>
 
-        <div class="coordinates">
-          ${
-            data.lat !== undefined
-              ? escapeHTML(data.lat)
-              : "NO DATA"
-          },
-          ${
-            data.lon !== undefined
-              ? escapeHTML(data.lon)
-              : "NO DATA"
-          }
-        </div>
 
-        <div class="meta">
-          Station:
-          ${escapeHTML(
-            data.station ||
-            "NO DATA"
-          )}
+        <div class="place-weather">
+
+          <div class="weather-big">
+            ${formatTemperature(
+              data.temperature
+            )}
+          </div>
+
+          <div class="weather-line">
+            Weather:
+            ${escapeHTML(
+              data.weather ||
+              "NO DATA"
+            )}
+          </div>
+
+          <div class="weather-line">
+            Wind:
+            ${formatWind(
+              data.windSpeed,
+              data.windDirection
+            )}
+          </div>
+
+          <div class="weather-line">
+            Visibility:
+            ${valueOrNoData(
+              data.visibility,
+              " sm"
+            )}
+          </div>
+
         </div>
 
       </div>
 
 
-      <div class="place-weather">
+      <div class="random-place-map">
 
-        <div class="weather-big">
-          ${formatTemperature(
-            data.temperature
-          )}
-        </div>
+        <iframe
+          id="randomPlaceMap"
+          class="map-frame"
+          title="Random Place map"
+          loading="lazy"
+          src="about:blank"
+        ></iframe>
 
-        <div class="weather-line">
-          Weather:
-          ${escapeHTML(
-            data.weather ||
-            "NO DATA"
-          )}
-        </div>
-
-        <div class="weather-line">
-          Wind:
-          ${formatWind(
-            data.windSpeed,
-            data.windDirection
-          )}
-        </div>
-
-        <div class="weather-line">
-          Visibility:
-          ${valueOrNoData(
-            data.visibility,
-            " sm"
-          )}
+        <div class="map-source">
+          © OpenStreetMap contributors
         </div>
 
       </div>
@@ -779,7 +806,7 @@ function setupRandomPlaceMap(place) {
 
   const map =
     document.getElementById(
-      "earthMap"
+      "randomPlaceMap"
     );
 
   if (
@@ -1129,7 +1156,7 @@ function renderMediaSignal1(data) {
 
     const artist =
       metadata.artist
-        ? `${metadata.artist} · `
+        ? metadata.artist
         : "";
 
     const license =
@@ -1140,18 +1167,42 @@ function renderMediaSignal1(data) {
       metadata.page ||
       "";
 
+
+    /*
+      Commonsから返ってきた作者情報に
+      HTMLタグが混ざっていても、
+      そのまま表示しない。
+    */
+
+    const cleanArtist =
+      String(artist)
+        .replace(/<[^>]*>/g, "")
+        .replace(/&amp;/g, "&")
+        .trim();
+
+
+    const cleanLicense =
+      String(license)
+        .replace(/<[^>]*>/g, "")
+        .replace(/&amp;/g, "&")
+        .trim();
+
+
     if (page) {
 
       source.innerHTML =
-        `${escapeHTML(artist)}` +
-        `${escapeHTML(license)}` +
-        ` · ` +
+        `${escapeHTML(cleanArtist)}` +
+        `${cleanArtist && cleanLicense ? " · " : ""}` +
+        `${escapeHTML(cleanLicense)}` +
+        `${cleanArtist || cleanLicense ? " · " : ""}` +
         `<a href="${escapeHTML(page)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>`;
 
     } else {
 
       source.textContent =
-        `${artist}${license}`;
+        cleanArtist ||
+        cleanLicense ||
+        "Wikimedia Commons";
 
     }
 
@@ -1318,8 +1369,8 @@ async function loadWorldData() {
 
 
     /*
-      EARTH OBSERVATIONの地図は
-      RANDOM PLACEと同じ座標を使用。
+      RANDOM PLACEと同じ座標の地図を
+      RANDOM PLACE内部に表示。
     */
     setupRandomPlaceMap(
       data.randomPlace
@@ -1343,23 +1394,6 @@ async function loadWorldData() {
     renderMediaSignal2(
       data
     );
-
-
-    const updated =
-      document.getElementById(
-        "updated"
-      );
-
-
-    if (
-      updated &&
-      data.generatedAt
-    ) {
-
-      updated.textContent =
-        `DATA UPDATED ${data.generatedAt}`;
-
-    }
 
 
   } catch (error) {
