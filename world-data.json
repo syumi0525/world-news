@@ -1,65 +1,77 @@
 {
-  "generatedAt": "2026-09-14T19:33:25.908788+00:00",
+  "generatedAt": "2026-09-14T19:36:05.192629+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
-    "mediaSignal1": "NASA GIBS",
-    "mediaSignal2": "NOAA GOES"
+    "mediaSignal1": "Wikimedia Commons",
+    "mediaSignal2": "NOAA SUVI"
   },
   "images": {
     "earth": "world-media/earth.jpg",
     "media1": "world-media/media1.jpg",
     "media2": "world-media/media2.jpg"
   },
+  "mediaSignal1": {
+    "source": "Wikimedia Commons",
+    "title": "File:ISS075-E-20606 - View of Earth.jpg",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/en:Earth_Science_and_Remote_Sensing_Unit\" class=\"extiw\" title=\"w:en:Earth Science and Remote Sensing Unit\">Earth Science and Remote Sensing Unit</a>, <a href=\"https://en.wikipedia.org/wiki/en:Johnson_Space_Center\" class=\"extiw\" title=\"w:en:Johnson Space Center\"><span title=\"NASA field center in Houston, Texas, United States\">Lyndon B. Johnson Space Center</span></a>",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:ISS075-E-20606_-_View_of_Earth.jpg"
+  },
+  "mediaSignal2": {
+    "source": "NOAA SUVI",
+    "name": "NOAA GOES-19 SUVI 195",
+    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/195/latest.png"
+  },
   "atmosphere": {
-    "name": "KOMH",
-    "station": "KOMH",
-    "lat": 38.2487,
-    "lon": -78.0454,
+    "name": "UAIT",
+    "station": "UAIT",
+    "lat": 43.311,
+    "lon": 68.55,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 15.0,
-    "windSpeed": 7.0,
-    "windDirection": 20.0,
-    "visibility": "10+",
+    "temperature": 21.0,
+    "dewpoint": 5.0,
+    "windSpeed": 10.0,
+    "windDirection": 70.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T19:15:00.000Z",
-    "raw": "METAR KOMH 141915Z AUTO 02007KT 10SM 26/15 A3013 RMK AO2"
+    "observationTime": "2026-09-14T19:00:00.000Z",
+    "raw": "METAR UAIT 141900Z 07005MPS CAVOK 21/05 Q1016 NOSIG RMK QFE737/0983"
   },
   "randomPlace": {
-    "name": "KMCJ",
-    "station": "KMCJ",
-    "lat": 29.7139,
-    "lon": -95.3967,
-    "weather": "VCTS",
-    "temperature": 33.0,
-    "dewpoint": 21.0,
-    "windSpeed": 7.0,
-    "windDirection": 150.0,
+    "name": "KSOW",
+    "station": "KSOW",
+    "lat": 34.2686,
+    "lon": -110.0019,
+    "weather": "No coded weather",
+    "temperature": 24.0,
+    "dewpoint": 15.0,
+    "windSpeed": 16.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-14T19:15:00.000Z",
-    "raw": "METAR KMCJ 141915Z AUTO 15007G15KT 120V200 10SM VCTS CLR 33/21 A3001 RMK A01 LTG DSNT SW"
+    "raw": "METAR KSOW 141915Z AUTO 20016G21KT 10SM FEW033 FEW042 FEW055 24/15 A3020 RMK AO2 LTG DSNT W-NE"
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T19:23:00Z",
+      "time": "2026-09-14T19:25:00Z",
       "speed": 363.0
     },
     "magneticField": {
-      "time": "2026-09-14T19:23:00Z",
+      "time": "2026-09-14T19:28:00Z",
       "bt": 13.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "interplanetary": {
       "solarWind": {
-        "time": "2026-09-14T19:23:00Z",
+        "time": "2026-09-14T19:25:00Z",
         "speed": 363.0
       },
       "magneticField": {
-        "time": "2026-09-14T19:23:00Z",
+        "time": "2026-09-14T19:28:00Z",
         "bt": 13.0,
-        "bz": 0.0
+        "bz": -1.0
       }
     },
     "kp": {
