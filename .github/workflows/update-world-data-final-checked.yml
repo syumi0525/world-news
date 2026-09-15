@@ -1172,9 +1172,9 @@ jobs:
 
           try:
               short_name = eccodes.codes_get(gid, "shortName")
-              if str(short_name).upper() != "TCDC":
+              if str(short_name).lower() not in {"tcc", "tcdc"}:
                   raise RuntimeError(
-                      "NOAA/NCEP GFS response is not the TCDC field: "
+                      "NOAA/NCEP GFS response is not a total cloud-cover field: "
                       + str(short_name)
                   )
 
