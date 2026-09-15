@@ -801,74 +801,66 @@ jobs:
           # latest available day. Land/fill values are excluded.
           # ------------------------------------------------------------
 
-          # First read the small time axis.  Using the actual latest time
-          # value avoids relying on a server-side [last] expansion in the
-          # CSV request, which can return HTTP 404 on this ERDDAP endpoint.
-          sst_time_url = (
-              "https://oceanwatch.pifsc.noaa.gov/"
-              "erddap/griddap/ACSPO_LEO_L3S_nrt.csv?time"
-          )
+          sst_urls = [
+              (
+                  "NOAA OceanWatch ACSPO NRT",
+                  "https://oceanwatch.pifsc.noaa.gov/"
+                  "erddap/griddap/ACSPO_LEO_L3S_nrt.csv?"
+                  "sea_surface_temperature"
+                  "[(last)][0:1000:8999][0:1000:17999]"
+              ),
+              (
+                  "NOAA CoastWatch ACSPO NRT",
+                  "https://coastwatch.noaa.gov/"
+                  "erddap/griddap/"
+                  "noaacwLEOACSPOSSTL3SnrtCDaily.csv?"
+                  "sea_surface_temperature"
+                  "[(last)][0:1000:8999][0:1000:17999]"
+              ),
+          ]
 
-          sst_time_bytes = fetch_bytes(
-              sst_time_url,
-              timeout=60
-          )
+          sst_bytes = None
+          sst_source_name = None
+          sst_url = None
+          sst_errors = []
 
-          sst_time_text = sst_time_bytes.decode(
-              "utf-8",
-              errors="replace"
-          )
-
-          sst_time_reader = csv.reader(
-              io.StringIO(sst_time_text)
-          )
-
-          sst_time_rows = list(
-              sst_time_reader
-          )
-
-          if len(sst_time_rows) < 2:
-              raise RuntimeError(
-                  "NOAA ACSPO SST time axis returned no data."
+          for source_name, candidate_url in sst_urls:
+              print(
+                  "FETCHING GLOBAL SST:",
+                  source_name
               )
+              try:
+                  candidate_bytes = fetch_bytes(
+                      candidate_url,
+                      timeout=120
+                  )
 
-          latest_sst_time = None
+                  if len(candidate_bytes) < 100:
+                      raise RuntimeError(
+                          "NOAA ACSPO SST response was unexpectedly small."
+                      )
 
-          for row in reversed(sst_time_rows[1:]):
-              if not row:
-                  continue
-
-              candidate = number(
-                  row[0]
-              )
-
-              if candidate is not None:
-                  latest_sst_time = candidate
+                  sst_bytes = candidate_bytes
+                  sst_source_name = source_name
+                  sst_url = candidate_url
                   break
 
-          if latest_sst_time is None:
+              except Exception as exc:
+                  message = f"{type(exc).__name__}: {exc}"
+                  sst_errors.append(
+                      f"{source_name}: {message}"
+                  )
+                  print(
+                      "SST source failed:",
+                      message
+                  )
+
+          if sst_bytes is None:
               raise RuntimeError(
-                  "NOAA ACSPO SST time axis contained no valid time."
+                  "NOAA ACSPO SST could not be downloaded from the "
+                  "available official NRT endpoints.\n"
+                  + "\n".join(sst_errors)
               )
-
-          print(
-              "NOAA ACSPO latest time:",
-              latest_sst_time
-          )
-
-          sst_url = (
-              "https://oceanwatch.pifsc.noaa.gov/"
-              "erddap/griddap/ACSPO_LEO_L3S_nrt.csv?"
-              "sea_surface_temperature"
-              "["
-              + str(latest_sst_time)
-              + "][0:1000:8999][0:1000:17999]"
-          )
-
-          sst_bytes = fetch_bytes(
-              sst_url,
-              timeout=120
-          )
 
           sst_text = sst_bytes.decode(
               "utf-8",
@@ -1440,7 +1432,10 @@ jobs:
                       "NOAA ACSPO Global SST (area-weighted sample)",
 
                   "dataset":
-                      "ACSPO_LEO_L3S_nrt"
+                      "ACSPO_LEO_L3S_nrt",
+
+                  "endpoint":
+                      sst_source_name
               },
 
 
