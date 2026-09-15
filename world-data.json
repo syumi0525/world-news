@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T23:08:33.213061+00:00",
+  "generatedAt": "2026-09-15T23:22:10.731868+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "BIEG",
-    "station": "BIEG",
-    "lat": 65.275,
-    "lon": -14.409,
+    "name": "DTNH",
+    "station": "DTNH",
+    "lat": 36.074,
+    "lon": 10.436,
     "weather": "No coded weather",
-    "temperature": 1.0,
-    "dewpoint": 0.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-15T23:00:00.000Z",
-    "observationTimestamp": "2026-09-15T23:00:00+00:00",
-    "raw": "METAR BIEG 152300Z 00000KT 9999 BKN027 01/M00 Q1013"
-  },
-  "randomPlace": {
-    "name": "LRIA",
-    "station": "LRIA",
-    "lat": 47.164,
-    "lon": 27.627,
-    "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 11.0,
-    "windSpeed": 4.0,
-    "windDirection": 230.0,
+    "temperature": 22.0,
+    "dewpoint": 19.0,
+    "windSpeed": 3.0,
+    "windDirection": 240.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T23:00:00.000Z",
     "observationTimestamp": "2026-09-15T23:00:00+00:00",
-    "raw": "METAR LRIA 152300Z 23004KT CAVOK 14/11 Q1020"
+    "raw": "METAR DTNH 152300Z 24003KT CAVOK 22/19 Q1018"
+  },
+  "randomPlace": {
+    "name": "CYZE",
+    "station": "CYZE",
+    "lat": 45.885,
+    "lon": -82.57,
+    "weather": "No coded weather",
+    "temperature": 18.0,
+    "dewpoint": 18.0,
+    "windSpeed": 10.0,
+    "windDirection": 170.0,
+    "visibility": "9",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T23:00:00.000Z",
+    "observationTimestamp": "2026-09-15T23:00:00+00:00",
+    "raw": "METAR CYZE 152300Z AUTO 17010G16KT 9SM FEW033 SCT240 18/18 A2997 RMK SLP154 DENSITY ALT 1000FT"
   },
   "globalPulse": {
     "population": {
-      "value": 8211220057,
-      "display": "8,211,220,057",
+      "value": 8211221689,
+      "display": "8,211,221,689",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T22:59:00Z",
-      "speed": 453.0
+      "time": "2026-09-15T23:14:00Z",
+      "speed": 459.0
     },
     "magneticField": {
-      "time": "2026-09-15T22:59:00Z",
+      "time": "2026-09-15T23:14:00Z",
       "bt": 12.0,
-      "bz": -5.0
+      "bz": -7.0
     },
     "kp": {
       "time": "2026-09-15T18:00:00",
@@ -113,8 +113,8 @@
       "value": 60.0,
       "display": "MAX 60.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T22:59:00Z",
-      "forecastTime": "2026-09-15T23:59:00Z"
+      "observationTime": "2026-09-15T23:09:00Z",
+      "forecastTime": "2026-09-16T00:09:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
