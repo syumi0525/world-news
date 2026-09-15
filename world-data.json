@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:42:30.720432+00:00",
+  "generatedAt": "2026-09-15T17:55:29.916735+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A river is a natural.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:J.Doniyorovich&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:J.Doniyorovich (page does not exist)\">J.Doniyorovich</a>",
+    "title": "File:3D Point Cloud Overview of Milton S. Eisenhower Library, Johns Hopkins University.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Matthewadams66&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Matthewadams66 (page does not exist)\">Matthewadams66</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_river_is_a_natural.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:3D_Point_Cloud_Overview_of_Milton_S._Eisenhower_Library%2C_Johns_Hopkins_University.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RKSM",
-    "station": "RKSM",
-    "lat": 37.446,
-    "lon": 127.114,
+    "name": "KIKK",
+    "station": "KIKK",
+    "lat": 41.0687,
+    "lon": -87.8537,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 12.0,
-    "windSpeed": 1.0,
-    "windDirection": 180.0,
-    "visibility": "6+",
+    "temperature": 29.9,
+    "dewpoint": 19.2,
+    "windSpeed": 8.0,
+    "windDirection": 220.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T17:00:00.000Z",
-    "observationTimestamp": "2026-09-15T17:00:00+00:00",
-    "raw": "METAR RKSM 151700Z 18001KT 9999 SKC 15/12 A3008"
+    "observationTime": "2026-09-15T17:35:00.000Z",
+    "observationTimestamp": "2026-09-15T17:35:00+00:00",
+    "raw": "METAR KIKK 151735Z AUTO 22008KT 10SM CLR 30/19 A3008 RMK AO2 T02990192"
   },
   "randomPlace": {
-    "name": "CYCD",
-    "station": "CYCD",
-    "lat": 49.052,
-    "lon": -123.874,
+    "name": "KISP",
+    "station": "KISP",
+    "lat": 40.7939,
+    "lon": -73.1018,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 12.0,
-    "windSpeed": 4.0,
-    "windDirection": 230.0,
-    "visibility": "15",
+    "temperature": 20.6,
+    "dewpoint": 8.3,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T17:00:00.000Z",
-    "observationTimestamp": "2026-09-15T17:00:00+00:00",
-    "raw": "METAR CYCD 151700Z 23004KT 210V020 15SM FEW021 BKN051 BKN087 16/12 A3005 RMK SC2SC3AC1 SLP179"
+    "observationTime": "2026-09-15T16:56:00.000Z",
+    "observationTimestamp": "2026-09-15T16:56:00+00:00",
+    "raw": "METAR KISP 151656Z 00000KT 10SM FEW045 SCT250 21/08 A3039 RMK AO2 SLP290 T02060083"
   },
   "globalPulse": {
     "population": {
-      "value": 8211181016,
-      "display": "8,211,181,016",
+      "value": 8211182554,
+      "display": "8,211,182,554",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T17:34:00Z",
-      "speed": 384.0
+      "time": "2026-09-15T17:46:00Z",
+      "speed": 439.0
     },
     "magneticField": {
-      "time": "2026-09-15T17:34:00Z",
-      "bt": 17.0,
-      "bz": 11.0
+      "time": "2026-09-15T17:46:00Z",
+      "bt": 16.0,
+      "bz": 10.0
     },
     "kp": {
       "time": "2026-09-15T12:00:00",
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T17:29:00Z",
-      "forecastTime": "2026-09-15T18:38:00Z"
+      "observationTime": "2026-09-15T17:44:00Z",
+      "forecastTime": "2026-09-15T18:52:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
