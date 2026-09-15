@@ -1143,8 +1143,28 @@ jobs:
                   "from any of the latest available 00Z/06Z/12Z cycles."
               )
 
-          cloud_stream = io.BytesIO(cloud_grib)
-          gid = eccodes.codes_grib_new_from_file(cloud_stream)
+          # eccodes.codes_grib_new_from_file() requires a real file object
+          # with an OS-level file descriptor. BytesIO is not supported here.
+          import tempfile
+
+          with tempfile.NamedTemporaryFile(
+              mode="wb",
+              suffix=".grib2",
+              delete=False
+          ) as grib_file:
+              grib_file.write(cloud_grib)
+              grib_path = grib_file.name
+
+          gid = None
+          try:
+              with open(grib_path, "rb") as grib_file:
+                  gid = eccodes.codes_grib_new_from_file(grib_file)
+          finally:
+              try:
+                  os.unlink(grib_path)
+              except OSError:
+                  pass
+
           if gid is None:
               raise RuntimeError(
                   "NOAA/NCEP GFS cloud-cover response contained no GRIB message."
