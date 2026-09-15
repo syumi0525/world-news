@@ -1116,6 +1116,8 @@ jobs:
           candidate_cycles = previous_gfs_cycles(now_utc, count=8)
           newest_cycle = candidate_cycles[0]
 
+          cloud_reused = False
+
           if isinstance(existing_cloud, dict):
               existing_time = existing_cloud.get("time")
               existing_value = existing_cloud.get("value")
@@ -1129,6 +1131,7 @@ jobs:
                   cloud_cycle = newest_cycle
                   latest_cloud_time = existing_time
                   cloud_cover_value = round(float(existing_value), 1)
+                  cloud_reused = True
                   print(
                       "CLOUD COVER: reusing existing real GFS cycle",
                       existing_time,
@@ -1136,163 +1139,166 @@ jobs:
                       "%"
                   )
 
-          for cycle_index, cycle_dt in enumerate(candidate_cycles):
-              if cloud_cycle is not None:
-                  break
+          if not cloud_reused:
+              for cycle_index, cycle_dt in enumerate(candidate_cycles):
+                  if cloud_cycle is not None:
+                      break
 
-              # NOAA asks automated loops to wait 10 seconds between fetches
-              # to avoid excessive requests. Do not delay the first request.
-              if cycle_index > 0:
-                  time.sleep(10)
+                  # NOAA asks automated loops to wait 10 seconds between fetches
+                  # to avoid excessive requests. Do not delay the first request.
+                  if cycle_index > 0:
+                      time.sleep(10)
 
-              date_part = cycle_dt.strftime("%Y%m%d")
-              hour_part = cycle_dt.strftime("%H")
-              file_name = f"gfs.t{hour_part}z.pgrb2.1p00.f000"
-              cloud_url_candidate = (
-                  "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_1p00.pl?"
-                  + urllib.parse.urlencode({
-                      "file": file_name,
-                      "lev_entire_atmosphere": "on",
-                      "var_TCDC": "on",
-                      "subregion": "",
-                      "leftlon": "0",
-                      "rightlon": "359",
-                      "toplat": "90",
-                      "bottomlat": "-90",
-                      "dir": f"/gfs.{date_part}/{hour_part}/atmos",
-                  })
-              )
+                  date_part = cycle_dt.strftime("%Y%m%d")
+                  hour_part = cycle_dt.strftime("%H")
+                  file_name = f"gfs.t{hour_part}z.pgrb2.1p00.f000"
+                  cloud_url_candidate = (
+                      "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_1p00.pl?"
+                      + urllib.parse.urlencode({
+                          "file": file_name,
+                          "lev_entire_atmosphere": "on",
+                          "var_TCDC": "on",
+                          "subregion": "",
+                          "leftlon": "0",
+                          "rightlon": "359",
+                          "toplat": "90",
+                          "bottomlat": "-90",
+                          "dir": f"/gfs.{date_part}/{hour_part}/atmos",
+                      })
+                  )
 
-              print(
-                  "FETCHING GFS CLOUD COVER:",
-                  date_part,
-                  hour_part + "Z"
-              )
+                  print(
+                      "FETCHING GFS CLOUD COVER:",
+                      date_part,
+                      hour_part + "Z"
+                  )
 
-              candidate_bytes = fetch_gfs_cloud(
-                  cloud_url_candidate
-              )
+                  candidate_bytes = fetch_gfs_cloud(
+                      cloud_url_candidate
+                  )
 
-              if not candidate_bytes:
-                  continue
+                  if not candidate_bytes:
+                      continue
 
-              if candidate_bytes[:4] == b"GRIB":
-                  cloud_grib = candidate_bytes
-                  cloud_cycle = cycle_dt
-                  cloud_url = cloud_url_candidate
-                  break
+                  if candidate_bytes[:4] == b"GRIB":
+                      cloud_grib = candidate_bytes
+                      cloud_cycle = cycle_dt
+                      cloud_url = cloud_url_candidate
+                      break
 
-              print(
-                  "GFS cloud response was not GRIB; trying older cycle."
-              )
+                  print(
+                      "GFS cloud response was not GRIB; trying older cycle."
+                  )
 
-          if cloud_grib is None or cloud_cycle is None:
-              raise RuntimeError(
-                  "NOAA/NCEP GFS cloud-cover data could not be downloaded "
-                  "from any of the latest available 00Z/06Z/12Z cycles."
-              )
-
-          # eccodes.codes_grib_new_from_file() requires a real file object
-          # with an OS-level file descriptor. BytesIO is not supported here.
-          import tempfile
-
-          with tempfile.NamedTemporaryFile(
-              mode="wb",
-              suffix=".grib2",
-              delete=False
-          ) as grib_file:
-              grib_file.write(cloud_grib)
-              grib_path = grib_file.name
-
-          gid = None
-          try:
-              with open(grib_path, "rb") as grib_file:
-                  gid = eccodes.codes_grib_new_from_file(grib_file)
-          finally:
-              try:
-                  os.unlink(grib_path)
-              except OSError:
-                  pass
-
-          if gid is None:
-              raise RuntimeError(
-                  "NOAA/NCEP GFS cloud-cover response contained no GRIB message."
-              )
-
-          try:
-              short_name = eccodes.codes_get(gid, "shortName")
-              if str(short_name).lower() not in {"tcc", "tcdc"}:
+              if cloud_grib is None or cloud_cycle is None:
                   raise RuntimeError(
-                      "NOAA/NCEP GFS response is not a total cloud-cover field: "
-                      + str(short_name)
+                      "NOAA/NCEP GFS cloud-cover data could not be downloaded "
+                      "from any of the latest available 00Z/06Z/12Z cycles."
                   )
 
-              values = eccodes.codes_get_array(gid, "values")
-              ni = int(eccodes.codes_get(gid, "Ni"))
-              nj = int(eccodes.codes_get(gid, "Nj"))
-              lat_first = float(
-                  eccodes.codes_get(
-                      gid, "latitudeOfFirstGridPointInDegrees"
-                  )
-              )
-              lat_last = float(
-                  eccodes.codes_get(
-                      gid, "latitudeOfLastGridPointInDegrees"
-                  )
-              )
+              # eccodes.codes_grib_new_from_file() requires a real file object
+              # with an OS-level file descriptor. BytesIO is not supported here.
+              import tempfile
+
+              with tempfile.NamedTemporaryFile(
+                  mode="wb",
+                  suffix=".grib2",
+                  delete=False
+              ) as grib_file:
+                  grib_file.write(cloud_grib)
+                  grib_path = grib_file.name
+
+              gid = None
               try:
-                  missing = float(
-                      eccodes.codes_get(gid, "missingValue")
+                  with open(grib_path, "rb") as grib_file:
+                      gid = eccodes.codes_grib_new_from_file(grib_file)
+              finally:
+                  try:
+                      os.unlink(grib_path)
+                  except OSError:
+                      pass
+
+              if gid is None:
+                  raise RuntimeError(
+                      "NOAA/NCEP GFS cloud-cover response contained no GRIB message."
                   )
-              except Exception:
-                  missing = None
-          finally:
-              eccodes.codes_release(gid)
 
-          if ni <= 0 or nj <= 0 or len(values) != ni * nj:
-              raise RuntimeError(
-                  "NOAA/NCEP GFS TCDC grid dimensions are invalid."
+              try:
+                  short_name = eccodes.codes_get(gid, "shortName")
+                  if str(short_name).lower() not in {"tcc", "tcdc"}:
+                      raise RuntimeError(
+                          "NOAA/NCEP GFS response is not a total cloud-cover field: "
+                          + str(short_name)
+                      )
+
+                  values = eccodes.codes_get_array(gid, "values")
+                  ni = int(eccodes.codes_get(gid, "Ni"))
+                  nj = int(eccodes.codes_get(gid, "Nj"))
+                  lat_first = float(
+                      eccodes.codes_get(
+                          gid, "latitudeOfFirstGridPointInDegrees"
+                      )
+                  )
+                  lat_last = float(
+                      eccodes.codes_get(
+                          gid, "latitudeOfLastGridPointInDegrees"
+                      )
+                  )
+                  try:
+                      missing = float(
+                          eccodes.codes_get(gid, "missingValue")
+                      )
+                  except Exception:
+                      missing = None
+              finally:
+                  eccodes.codes_release(gid)
+
+              if ni <= 0 or nj <= 0 or len(values) != ni * nj:
+                  raise RuntimeError(
+                      "NOAA/NCEP GFS TCDC grid dimensions are invalid."
+                  )
+
+              # GFS TCDC is percent cloud cover (0..100). Average the grid
+              # using spherical-area weighting by latitude.
+              cloud_weighted_sum = 0.0
+              cloud_weight_sum = 0.0
+
+              for j in range(nj):
+                  if nj == 1:
+                      lat = lat_first
+                  else:
+                      lat = lat_first + (lat_last - lat_first) * j / (nj - 1)
+
+                  weight = math.cos(math.radians(lat))
+                  if weight <= 0.0:
+                      continue
+
+                  row_start = j * ni
+                  row_end = row_start + ni
+
+                  for raw_value in values[row_start:row_end]:
+                      value = float(raw_value)
+                      if not math.isfinite(value):
+                          continue
+                      if missing is not None and value == missing:
+                          continue
+                      if not (0.0 <= value <= 100.0):
+                          continue
+
+                      cloud_weighted_sum += value * weight
+                      cloud_weight_sum += weight
+
+              if cloud_weight_sum <= 0.0:
+                  raise RuntimeError(
+                      "NOAA/NCEP GFS TCDC contained no valid cloud-cover values."
+                  )
+
+              cloud_cover_value = round(
+                  cloud_weighted_sum / cloud_weight_sum,
+                  1
               )
+              latest_cloud_time = cloud_cycle.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-          # GFS TCDC is percent cloud cover (0..100). Average the grid
-          # using spherical-area weighting by latitude.
-          cloud_weighted_sum = 0.0
-          cloud_weight_sum = 0.0
-
-          for j in range(nj):
-              if nj == 1:
-                  lat = lat_first
-              else:
-                  lat = lat_first + (lat_last - lat_first) * j / (nj - 1)
-
-              weight = math.cos(math.radians(lat))
-              if weight <= 0.0:
-                  continue
-
-              row_start = j * ni
-              row_end = row_start + ni
-
-              for raw_value in values[row_start:row_end]:
-                  value = float(raw_value)
-                  if not math.isfinite(value):
-                      continue
-                  if missing is not None and value == missing:
-                      continue
-                  if not (0.0 <= value <= 100.0):
-                      continue
-
-                  cloud_weighted_sum += value * weight
-                  cloud_weight_sum += weight
-
-          if cloud_weight_sum <= 0.0:
-              raise RuntimeError(
-                  "NOAA/NCEP GFS TCDC contained no valid cloud-cover values."
-              )
-
-          cloud_cover_value = round(
-              cloud_weighted_sum / cloud_weight_sum,
-              1
-          )
           latest_cloud_time = cloud_cycle.strftime("%Y-%m-%dT%H:%M:%SZ")
 
           print(
