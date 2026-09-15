@@ -663,12 +663,7 @@ function renderGlobalPulse(data) {
     );
 
   if (!data) {
-
-    el.innerHTML =
-      `<div class="no-data">NO DATA</div>`;
-
     return;
-
   }
 
 
@@ -689,49 +684,49 @@ function renderGlobalPulse(data) {
     {
       label: "WORLD POPULATION",
       value:
-        data.population !== undefined
-          ? data.population
-          : "NO DATA"
+        data.population && typeof data.population === "object"
+          ? data.population.display
+          : data.population
     },
 
     {
       label: "CO₂",
       value:
-        data.co2 !== undefined
-          ? data.co2
-          : "NO DATA"
+        data.co2 && typeof data.co2 === "object"
+          ? data.co2.display
+          : data.co2
     },
 
     {
       label: "SEA SURFACE",
       value:
-        data.seaSurface !== undefined
-          ? data.seaSurface
-          : "NO DATA"
+        data.seaSurface && typeof data.seaSurface === "object"
+          ? data.seaSurface.display
+          : data.seaSurface
     },
 
     {
       label: "GEOMAGNETIC",
       value:
-        data.geomagnetic !== undefined
-          ? data.geomagnetic
-          : "NO DATA"
+        data.geomagnetic && typeof data.geomagnetic === "object"
+          ? data.geomagnetic.display
+          : data.geomagnetic
     },
 
     {
       label: "DAY / NIGHT",
       value:
-        data.dayNight !== undefined
-          ? data.dayNight
-          : "NO DATA"
+        data.dayNight && typeof data.dayNight === "object"
+          ? data.dayNight.display
+          : data.dayNight
     },
 
     {
       label: "CLOUD COVER",
       value:
-        data.cloudCover !== undefined
-          ? data.cloudCover
-          : "NO DATA"
+        data.cloudCover && typeof data.cloudCover === "object"
+          ? data.cloudCover.display
+          : data.cloudCover
     }
 
   ];
@@ -978,19 +973,39 @@ function renderSpaceWeather(space) {
 
 
   let solarWindValue =
-    "NO DATA";
+    solarWind && solarWind.display !== undefined
+      ? escapeHTML(solarWind.display)
+      : escapeHTML(String(solarWind?.speed ?? ""));
 
   let magneticValue =
-    "NO DATA";
+    magneticField && magneticField.display !== undefined
+      ? escapeHTML(magneticField.display)
+      : escapeHTML(String(magneticField?.value ?? magneticField ?? ""));
 
   let kpValue =
-    "NO DATA";
+    kp && kp.display !== undefined
+      ? escapeHTML(kp.display)
+      : escapeHTML(String(kp?.kp ?? kp ?? ""));
 
   let fluxValue =
-    "NO DATA";
+    flux && flux.display !== undefined
+      ? escapeHTML(flux.display)
+      : escapeHTML(String(flux?.value ?? flux ?? ""));
 
   let auroraValue =
-    "NO DATA";
+    aurora && aurora.display !== undefined
+      ? escapeHTML(aurora.display)
+      : escapeHTML(String(aurora?.value ?? aurora ?? ""));
+
+  if (aurora) {
+    if (aurora.display !== undefined) {
+      auroraValue =
+        escapeHTML(aurora.display);
+    } else if (aurora.value !== undefined) {
+      auroraValue =
+        escapeHTML(aurora.value);
+    }
+  }
 
 
   if (solarWind) {
@@ -1075,22 +1090,8 @@ function renderSpaceWeather(space) {
   }
 
 
-  if (
-    aurora &&
-    aurora.display !==
-    undefined
-  ) {
-
-    auroraValue =
-      escapeHTML(
-        aurora.display
-      );
-
-  }
-
-
   let interplanetaryTime =
-    "NO DATA";
+    "";
 
 
   if (solarWind) {
