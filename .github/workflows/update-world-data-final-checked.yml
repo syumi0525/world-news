@@ -69,7 +69,7 @@ jobs:
                   except urllib.error.HTTPError as exc:
                       last_error = exc
 
-                      retryable_codes = {429, 502, 503, 504}
+                      retryable_codes = {429, 500, 502, 503, 504}
                       if exc.code not in retryable_codes or attempt >= attempts - 1:
                           raise
 
@@ -112,7 +112,7 @@ jobs:
                   except urllib.error.HTTPError as exc:
                       last_error = exc
 
-                      retryable_codes = {429, 502, 503, 504}
+                      retryable_codes = {429, 500, 502, 503, 504}
                       if exc.code not in retryable_codes or attempt >= attempts - 1:
                           raise
 
@@ -805,7 +805,7 @@ jobs:
               "https://oceanwatch.pifsc.noaa.gov/"
               "erddap/griddap/ACSPO_LEO_L3S_nrt.csv?"
               "sea_surface_temperature"
-              "[last][0:500:8999][0:500:17999]"
+              "[last][0:1000:8999][0:1000:17999]"
           )
 
           sst_bytes = fetch_bytes(
