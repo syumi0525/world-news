@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:30:26.809107+00:00",
+  "generatedAt": "2026-09-15T20:38:49.319140+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
-    "artist": "Gardner, Alexander, 1821-1882",
+    "title": "File:A creek meanders through the maritime forest.jpg",
+    "artist": "Hillebrand Steve, U.S. Fish and Wildlife Service",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_creek_meanders_through_the_maritime_forest.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K4O4",
-    "station": "K4O4",
-    "lat": 33.9134,
-    "lon": -94.8546,
+    "name": "KBNW",
+    "station": "KBNW",
+    "lat": 42.0486,
+    "lon": -93.8486,
     "weather": "No coded weather",
-    "temperature": 36.0,
-    "dewpoint": 21.0,
-    "windSpeed": 8.0,
-    "windDirection": 190.0,
-    "visibility": "7",
+    "temperature": 18.0,
+    "dewpoint": 15.0,
+    "windSpeed": 9.0,
+    "windDirection": 340.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T20:15:00.000Z",
     "observationTimestamp": "2026-09-15T20:15:00+00:00",
-    "raw": "METAR K4O4 152015Z AUTO 19008G15KT 7SM SCT070 SCT075 36/21 A3004 RMK AO2"
+    "raw": "METAR KBNW 152015Z AUTO 34009KT 10SM CLR 18/15 A3011 RMK AO2"
   },
   "randomPlace": {
-    "name": "DTTK",
-    "station": "DTTK",
-    "lat": 35.667,
-    "lon": 10.1,
+    "name": "KEMT",
+    "station": "KEMT",
+    "lat": 34.0883,
+    "lon": -118.0342,
     "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 17.0,
-    "windSpeed": 4.0,
-    "windDirection": 50.0,
-    "visibility": "6+",
+    "temperature": 26.0,
+    "dewpoint": 15.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T20:00:00.000Z",
-    "observationTimestamp": "2026-09-15T20:00:00+00:00",
-    "raw": "METAR DTTK 152000Z 05004KT 330V100 9999 FEW023 27/17 Q1018"
+    "observationTime": "2026-09-15T19:45:00.000Z",
+    "observationTimestamp": "2026-09-15T19:45:00+00:00",
+    "raw": "METAR KEMT 151945Z 00000KT 10SM CLR 26/15 A2993"
   },
   "globalPulse": {
     "population": {
-      "value": 8211200484,
-      "display": "8,211,200,484",
+      "value": 8211202132,
+      "display": "8,211,202,132",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -75,7 +75,7 @@
       "display": "22.08 °C",
       "source": "NOAA ACSPO Global SST (area-weighted sample)",
       "dataset": "ACSPO_LEO_L3S_nrt",
-      "endpoint": "NOAA CoastWatch ACSPO NRT"
+      "endpoint": "NOAA OceanWatch ACSPO NRT"
     },
     "dayNight": {
       "value": 0.5,
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T20:23:00Z",
-      "speed": 519.0
+      "time": "2026-09-15T20:31:00Z",
+      "speed": 499.0
     },
     "magneticField": {
-      "time": "2026-09-15T20:23:00Z",
+      "time": "2026-09-15T20:31:00Z",
       "bt": 14.0,
       "bz": -9.0
     },
@@ -113,8 +113,8 @@
       "value": 100.0,
       "display": "MAX 100.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T20:18:00Z",
-      "forecastTime": "2026-09-15T21:14:00Z"
+      "observationTime": "2026-09-15T20:28:00Z",
+      "forecastTime": "2026-09-15T21:25:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
