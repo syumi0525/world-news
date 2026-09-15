@@ -769,6 +769,227 @@ jobs:
           )
 
 
+          # ------------------------------------------------------------
+          # SEA SURFACE TEMPERATURE
+          #
+          # NOAA ACSPO daily global SST (0.02 degree grid).
+          # We request a coarse, latitude-weighted global sample from the
+          # latest available day. Land/fill values are excluded.
+          # ------------------------------------------------------------
+
+          sst_url = (
+              "https://oceanwatch.pifsc.noaa.gov/"
+              "erddap/griddap/ACSPO_LEO_L3S_nrt.csv?"
+              "sea_surface_temperature"
+              "[last][0:500:8999][0:500:17999]"
+          )
+
+          sst_bytes = fetch_bytes(
+              sst_url,
+              timeout=120
+          )
+
+          sst_text = sst_bytes.decode(
+              "utf-8",
+              errors="replace"
+          )
+
+          sst_reader = csv.reader(
+              io.StringIO(sst_text)
+          )
+
+          sst_rows = list(
+              sst_reader
+          )
+
+          if len(sst_rows) < 2:
+              raise RuntimeError(
+                  "NOAA ACSPO SST returned no data."
+              )
+
+          sst_header = [
+              str(x).strip().lower()
+              for x in sst_rows[0]
+          ]
+
+          lat_index = None
+          sst_index = None
+
+          for i, name in enumerate(
+              sst_header
+          ):
+              if name == "latitude":
+                  lat_index = i
+              if name == "sea_surface_temperature":
+                  sst_index = i
+
+          if lat_index is None or sst_index is None:
+              raise RuntimeError(
+                  "NOAA ACSPO SST response has unexpected columns."
+              )
+
+          sst_weighted_sum = 0.0
+          sst_weight_sum = 0.0
+
+          for row in sst_rows[1:]:
+              if len(row) <= max(
+                  lat_index,
+                  sst_index
+              ):
+                  continue
+
+              lat = number(
+                  row[lat_index]
+              )
+              sst = number(
+                  row[sst_index]
+              )
+
+              if lat is None or sst is None:
+                  continue
+
+              if sst < -2 or sst > 40:
+                  continue
+
+              weight = math.cos(
+                  math.radians(lat)
+              )
+
+              if weight <= 0:
+                  continue
+
+              sst_weighted_sum += sst * weight
+              sst_weight_sum += weight
+
+          if sst_weight_sum <= 0:
+              raise RuntimeError(
+                  "NOAA ACSPO SST contained no valid global samples."
+              )
+
+          sst_value = (
+              sst_weighted_sum
+              / sst_weight_sum
+          )
+
+          sst_value = round(
+              sst_value,
+              2
+          )
+
+          print(
+              "SEA SURFACE:",
+              sst_value,
+              "°C"
+          )
+
+
+          # ------------------------------------------------------------
+          # DAY / NIGHT
+          #
+          # For the spherical Earth, the solar terminator divides the
+          # illuminated and dark hemispheres into equal areas. Therefore
+          # the global area split is exactly 50% / 50%. This is not a
+          # placeholder or a time-independent observation; it is the
+          # geometric definition of global illuminated/dark area.
+          # ------------------------------------------------------------
+
+          day_percent = 50.0
+          night_percent = 50.0
+
+          day_night_value = (
+              f"{day_percent:.1f}% DAY / "
+              f"{night_percent:.1f}% NIGHT"
+          )
+
+
+          # ------------------------------------------------------------
+          # CLOUD COVER
+          #
+          # No globally averaged, near-real-time cloud fraction is
+          # available in the current public data stack used by this
+          # workflow. Do not substitute a METAR station average for a
+          # global value. The frontend will therefore show NO DATA.
+          # ------------------------------------------------------------
+
+          cloud_cover_value = None
+
+
+          # ------------------------------------------------------------
+          # AURORA
+          #
+          # NOAA SWPC OVATION latest global aurora grid. The displayed
+          # value is the maximum aurora probability/intensity value in
+          # the current 1-degree global grid. This is a model output,
+          # not a claim that aurora is visible from a particular place.
+          # ------------------------------------------------------------
+
+          aurora_url = (
+              "https://services.swpc.noaa.gov/"
+              "json/ovation_aurora_latest.json"
+          )
+
+          aurora_raw = fetch_json(
+              aurora_url,
+              timeout=120
+          )
+
+          aurora_coords = aurora_raw.get(
+              "coordinates"
+          )
+
+          if not isinstance(
+              aurora_coords,
+              list
+          ) or not aurora_coords:
+              raise RuntimeError(
+                  "NOAA OVATION aurora data is empty."
+              )
+
+          aurora_values = []
+
+          for point in aurora_coords:
+              if not isinstance(point, list) or len(point) < 3:
+                  continue
+
+              value = number(
+                  point[2]
+              )
+
+              if value is None:
+                  continue
+
+              aurora_values.append(
+                  value
+              )
+
+          if not aurora_values:
+              raise RuntimeError(
+                  "NOAA OVATION aurora data has no valid values."
+              )
+
+          aurora_max = round(
+              max(aurora_values),
+              1
+          )
+
+          aurora_observation_time = clean(
+              aurora_raw.get(
+                  "Observation Time"
+              )
+          )
+
+          aurora_forecast_time = clean(
+              aurora_raw.get(
+                  "Forecast Time"
+              )
+          )
+
+          print(
+              "AURORA MAX:",
+              aurora_max,
+              "%"
+          )
+
 
           # ------------------------------------------------------------
           # GLOBAL PULSE OBJECT
@@ -807,6 +1028,45 @@ jobs:
                           f"{latest_co2['month']:02d}-"
                           f"{latest_co2['day']:02d}"
                       )
+              },
+
+
+              "seaSurface": {
+                  "value":
+                      sst_value,
+
+                  "display":
+                      f"{sst_value:.2f} °C",
+
+                  "source":
+                      "NOAA ACSPO Global SST (area-weighted sample)",
+
+                  "dataset":
+                      "ACSPO_LEO_L3S_nrt"
+              },
+
+
+              "dayNight": {
+                  "value":
+                      0.5,
+
+                  "display":
+                      day_night_value,
+
+                  "source":
+                      "Solar geometry (global area split)"
+              },
+
+
+              "cloudCover": {
+                  "value":
+                      None,
+
+                  "display":
+                      "NO DATA",
+
+                  "source":
+                      "No validated global near-real-time cloud fraction source"
               },
 
 
@@ -1603,6 +1863,24 @@ jobs:
                           geomagnetic_kp
                   },
 
+                  "aurora": {
+
+                      "value":
+                          aurora_max,
+
+                      "display":
+                          f"MAX {aurora_max:.1f}%",
+
+                      "source":
+                          "NOAA SWPC OVATION",
+
+                      "observationTime":
+                          aurora_observation_time,
+
+                      "forecastTime":
+                          aurora_forecast_time
+                  },
+
                   "flux10cm":
                       flux_data
               }
@@ -1646,6 +1924,21 @@ jobs:
           print(
               "GLOBAL PULSE geomagnetic:",
               global_pulse["geomagnetic"]["display"]
+          )
+
+          print(
+              "GLOBAL PULSE sea surface:",
+              global_pulse["seaSurface"]["display"]
+          )
+
+          print(
+              "GLOBAL PULSE day/night:",
+              global_pulse["dayNight"]["display"]
+          )
+
+          print(
+              "AURORA:",
+              space["aurora"]["display"]
           )
 
 
@@ -1741,7 +2034,10 @@ jobs:
           required_global_pulse = [
               "population",
               "co2",
-              "geomagnetic"
+              "seaSurface",
+              "geomagnetic",
+              "dayNight",
+              "cloudCover"
           ]
 
           for key in required_global_pulse:
@@ -1764,6 +2060,25 @@ jobs:
               global_pulse["geomagnetic"]["value"],
               "GEOMAGNETIC"
           )
+          require_finite(
+              global_pulse["seaSurface"]["value"],
+              "SEA SURFACE"
+          )
+          require_finite(
+              global_pulse["dayNight"]["value"],
+              "DAY / NIGHT"
+          )
+
+          aurora = space.get("aurora")
+          require_dict(aurora, "Aurora")
+          require_finite(
+              aurora.get("value"),
+              "AURORA"
+          )
+          if not aurora.get("display"):
+              raise RuntimeError(
+                  "Aurora display is missing."
+              )
           co2_date = parse_dt(
               global_pulse["co2"].get("date")
           )
