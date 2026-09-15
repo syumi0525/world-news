@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:43:56.725783+00:00",
+  "generatedAt": "2026-09-15T18:58:16.810895+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Table of Schedule of Soerabaja-Malang train.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:JohanSpoorlijn\" title=\"User:JohanSpoorlijn\">JohanSpoorlijn</a>",
+    "title": "File:20260803 183103 Gartenanlage Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Table_of_Schedule_of_Soerabaja-Malang_train.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_183103_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ROYN",
-    "station": "ROYN",
-    "lat": 24.467,
-    "lon": 122.978,
+    "name": "KCEU",
+    "station": "KCEU",
+    "lat": 34.6722,
+    "lon": -82.8814,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 24.0,
-    "windSpeed": 20.0,
-    "windDirection": 30.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T18:00:00.000Z",
-    "observationTimestamp": "2026-09-15T18:00:00+00:00",
-    "raw": "METAR ROYN 151800Z AUTO 03020KT 9999 FEW023 BKN039 BKN046 28/24 Q1012"
+    "temperature": 26.7,
+    "dewpoint": 19.4,
+    "windSpeed": 8.0,
+    "windDirection": 50.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-15T18:54:00.000Z",
+    "observationTimestamp": "2026-09-15T18:54:00+00:00",
+    "raw": "METAR KCEU 151854Z AUTO 05008KT 10SM BKN026 BKN047 27/19 A3031 RMK AO2 SLP252 T02670194"
   },
   "randomPlace": {
-    "name": "KSMP",
-    "station": "KSMP",
-    "lat": 47.2764,
-    "lon": -121.3383,
-    "weather": "BR",
-    "temperature": 7.8,
-    "dewpoint": 7.8,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "3",
+    "name": "LEAS",
+    "station": "LEAS",
+    "lat": 43.567,
+    "lon": -6.044,
+    "weather": "-RA FG",
+    "temperature": 18.0,
+    "dewpoint": 18.0,
+    "windSpeed": 3.0,
+    "windDirection": 310.0,
+    "visibility": "0.5",
     "flightCategory": "LIFR",
-    "observationTime": "2026-09-15T18:23:00.000Z",
-    "observationTimestamp": "2026-09-15T18:23:00+00:00",
-    "raw": "SPECI KSMP 151823Z AUTO 00000KT 3SM BR OVC002 08/08 A3004 RMK AO2 T00780078 $"
+    "observationTime": "2026-09-15T18:30:00.000Z",
+    "observationTimestamp": "2026-09-15T18:30:00+00:00",
+    "raw": "METAR LEAS 151830Z 31003KT 280V360 0800 0400NW R29/1900N R11/0400N -RA FG VV002 18/18 Q1025 TEMPO 6000 NSW"
   },
   "globalPulse": {
     "population": {
-      "value": 8211188377,
-      "display": "8,211,188,377",
+      "value": 8211190099,
+      "display": "8,211,190,099",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T18:35:00Z",
-      "speed": 757.0
+      "time": "2026-09-15T18:50:00Z",
+      "speed": 729.0
     },
     "magneticField": {
-      "time": "2026-09-15T18:35:00Z",
-      "bt": 12.0,
-      "bz": -11.0
+      "time": "2026-09-15T18:50:00Z",
+      "bt": 14.0,
+      "bz": -12.0
     },
     "kp": {
       "time": "2026-09-15T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T18:35:00Z",
-      "forecastTime": "2026-09-15T19:26:00Z"
+      "observationTime": "2026-09-15T18:45:00Z",
+      "forecastTime": "2026-09-15T19:32:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
