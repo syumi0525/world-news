@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T22:55:22.975027+00:00",
+  "generatedAt": "2026-09-15T23:08:33.213061+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Beaver Boardwalk and Maxwell Lake in Hinton, Alberta.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
-    "license": "CC0",
+    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
+    "artist": "Gardner, Alexander, 1821-1882",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Beaver_Boardwalk_and_Maxwell_Lake_in_Hinton%2C_Alberta.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MMLP",
-    "station": "MMLP",
-    "lat": 24.077,
-    "lon": -110.364,
+    "name": "BIEG",
+    "station": "BIEG",
+    "lat": 65.275,
+    "lon": -14.409,
     "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 24.0,
+    "temperature": 1.0,
+    "dewpoint": 0.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T21:40:00.000Z",
-    "observationTimestamp": "2026-09-15T21:40:00+00:00",
-    "raw": "METAR MMLP 152140Z 00000KT 10SM SCT030 SCT100 BKN200 33/24 A2990 RMK 8/838"
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-15T23:00:00.000Z",
+    "observationTimestamp": "2026-09-15T23:00:00+00:00",
+    "raw": "METAR BIEG 152300Z 00000KT 9999 BKN027 01/M00 Q1013"
   },
   "randomPlace": {
-    "name": "CYBD",
-    "station": "CYBD",
-    "lat": 52.388,
-    "lon": -126.589,
+    "name": "LRIA",
+    "station": "LRIA",
+    "lat": 47.164,
+    "lon": 27.627,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 12.0,
-    "windSpeed": 7.0,
-    "windDirection": 250.0,
-    "visibility": "15",
+    "temperature": 14.0,
+    "dewpoint": 11.0,
+    "windSpeed": 4.0,
+    "windDirection": 230.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T22:00:00.000Z",
-    "observationTimestamp": "2026-09-15T22:00:00+00:00",
-    "raw": "METAR CYBD 152200Z 25007KT 230V290 15SM FEW065 FEW090 FEW200 21/12 A3008 RMK CU1AC1CI1 CU TR CI TR CONTRAIL TCU EMBD E SLP188 DENSITY ALT 700FT"
+    "observationTime": "2026-09-15T23:00:00.000Z",
+    "observationTimestamp": "2026-09-15T23:00:00+00:00",
+    "raw": "METAR LRIA 152300Z 23004KT CAVOK 14/11 Q1020"
   },
   "globalPulse": {
     "population": {
-      "value": 8211218483,
-      "display": "8,211,218,483",
+      "value": 8211220057,
+      "display": "8,211,220,057",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T22:47:00Z",
-      "speed": 467.0
+      "time": "2026-09-15T22:59:00Z",
+      "speed": 453.0
     },
     "magneticField": {
-      "time": "2026-09-15T22:47:00Z",
-      "bt": 10.0,
-      "bz": 0.0
+      "time": "2026-09-15T22:59:00Z",
+      "bt": 12.0,
+      "bz": -5.0
     },
     "kp": {
       "time": "2026-09-15T18:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 66.0,
-      "display": "MAX 66.0%",
+      "value": 60.0,
+      "display": "MAX 60.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T22:45:00Z",
-      "forecastTime": "2026-09-15T23:45:00Z"
+      "observationTime": "2026-09-15T22:59:00Z",
+      "forecastTime": "2026-09-15T23:59:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
