@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T05:11:12.061765+00:00",
+  "generatedAt": "2026-09-15T05:26:20.626834+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:The picture shows a dry ,rocky with small plant and banana trees growing around aroded soil.At jikoki pape Abuja Nigeria.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sadeeeya3430&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sadeeeya3430 (page does not exist)\">Sadeeeya3430</a>",
+    "title": "File:Comapedrosa with snow.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:FrameOverdose\" title=\"User:FrameOverdose\">FrameOverdose</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:The_picture_shows_a_dry_%2Crocky_with_small_plant_and_banana_trees_growing_around_aroded_soil.At_jikoki_pape_Abuja_Nigeria.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Comapedrosa_with_snow.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFAQ",
-    "station": "LFAQ",
-    "lat": 49.972,
-    "lon": 2.704,
+    "name": "PAOH",
+    "station": "PAOH",
+    "lat": 58.108,
+    "lon": -135.448,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 15.0,
-    "windSpeed": 5.0,
-    "windDirection": 150.0,
-    "visibility": "5.59",
+    "temperature": 8.9,
+    "dewpoint": 7.8,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T05:00:00.000Z",
-    "observationTimestamp": "2026-09-15T05:00:00+00:00",
-    "raw": "METAR LFAQ 150500Z AUTO 15005KT 9000 NSC 15/15 Q1018"
+    "observationTime": "2026-09-15T04:56:00.000Z",
+    "observationTimestamp": "2026-09-15T04:56:00+00:00",
+    "raw": "METAR PAOH 150456Z AUTO 00000KT 10SM CLR 09/08 A3015 RMK AO2 SLP211 T00890078 $"
   },
   "randomPlace": {
-    "name": "OITT",
-    "station": "OITT",
-    "lat": 38.13,
-    "lon": 46.24,
+    "name": "KFRG",
+    "station": "KFRG",
+    "lat": 40.7344,
+    "lon": -73.4164,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 3.0,
-    "windSpeed": 1.0,
-    "windDirection": 170.0,
-    "visibility": "6+",
+    "temperature": 16.1,
+    "dewpoint": 7.8,
+    "windSpeed": 4.0,
+    "windDirection": 350.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T05:00:00.000Z",
-    "observationTimestamp": "2026-09-15T05:00:00+00:00",
-    "raw": "METAR OITT 150500Z 17001KT CAVOK 23/03 Q1021 A3015"
+    "observationTime": "2026-09-15T04:53:00.000Z",
+    "observationTimestamp": "2026-09-15T04:53:00+00:00",
+    "raw": "METAR KFRG 150453Z AUTO 35004KT 10SM CLR 16/08 A3027 RMK AO2 SLP249 T01610078 402390161"
   },
   "globalPulse": {
     "population": {
-      "value": 8211091072,
-      "display": "8,211,091,072",
+      "value": 8211092882,
+      "display": "8,211,092,882",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -95,11 +95,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T05:01:00Z",
-      "speed": 351.0
+      "time": "2026-09-15T05:16:00Z",
+      "speed": 349.0
     },
     "magneticField": {
-      "time": "2026-09-15T05:01:00Z",
+      "time": "2026-09-15T05:16:00Z",
       "bt": 14.0,
       "bz": 7.0
     },
@@ -108,11 +108,11 @@
       "kp": 3.0
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T04:58:00Z",
-      "forecastTime": "2026-09-15T06:15:00Z"
+      "observationTime": "2026-09-15T05:14:00Z",
+      "forecastTime": "2026-09-15T06:31:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
