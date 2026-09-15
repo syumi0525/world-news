@@ -26,6 +26,7 @@ jobs:
           import math
           import os
           import random
+          import time
           import re
           import urllib.parse
           import urllib.request
@@ -934,7 +935,7 @@ jobs:
 
 
           # ------------------------------------------------------------
-          # MEDIA SIGNAL ①
+          # MEDIA SIGNAL â 
           # Wikimedia Commons
           # ------------------------------------------------------------
 
@@ -1377,7 +1378,7 @@ jobs:
 
 
           # ------------------------------------------------------------
-          # MEDIA SIGNAL ②
+          # MEDIA SIGNAL â¡
           # NOAA
           # ------------------------------------------------------------
 
@@ -1519,7 +1520,7 @@ jobs:
 
           if not media2_info:
               raise RuntimeError(
-                  "No NOAA MEDIA SIGNAL ② image could be downloaded."
+                  "No NOAA MEDIA SIGNAL â¡ image could be downloaded."
               )
 
 
@@ -1751,8 +1752,8 @@ jobs:
           require_dict(global_pulse, "GLOBAL PULSE data")
           require_dict(space, "Space Weather data")
           require_dict(images, "Images data")
-          require_dict(media1, "MEDIA SIGNAL ① metadata")
-          require_dict(media2, "MEDIA SIGNAL ② metadata")
+          require_dict(media1, "MEDIA SIGNAL â  metadata")
+          require_dict(media2, "MEDIA SIGNAL â¡ metadata")
 
           for obj, name in (
               (atmosphere, "Atmosphere"),
@@ -1878,7 +1879,7 @@ jobs:
 
           if not media1.get("license"):
               raise RuntimeError(
-                  "MEDIA SIGNAL ① license metadata is missing."
+                  "MEDIA SIGNAL â  license metadata is missing."
               )
 
           license_lower = str(
@@ -1898,7 +1899,7 @@ jobs:
               or license_lower.startswith("public domain ")
           ):
               raise RuntimeError(
-                  "MEDIA SIGNAL ① license is not in the strict CC0/Public Domain-only set."
+                  "MEDIA SIGNAL â  license is not in the strict CC0/Public Domain-only set."
               )
           if generated_dt is None:
               raise RuntimeError(
@@ -1918,10 +1919,10 @@ jobs:
           print("WORLD POPULATION:", global_pulse["population"]["display"])
           print("CO2:", global_pulse["co2"]["display"])
           print("GEOMAGNETIC:", global_pulse["geomagnetic"]["display"])
-          print("MEDIA SIGNAL ①:", media1.get("title"))
-          print("MEDIA SIGNAL ① License:", media1.get("license"))
-          print("MEDIA SIGNAL ②:", media2.get("name"))
-          print("MEDIA SIGNAL ② Source:", media2.get("source"))
+          print("MEDIA SIGNAL â :", media1.get("title"))
+          print("MEDIA SIGNAL â  License:", media1.get("license"))
+          print("MEDIA SIGNAL â¡:", media2.get("name"))
+          print("MEDIA SIGNAL â¡ Source:", media2.get("source"))
           print("Solar Wind:", solar_wind.get("speed"))
           print("Magnetic Bt:", magnetic.get("bt"))
           print("Kp:", kp.get("kp"))
