@@ -28,12 +28,13 @@ jobs:
           import random
           import time
           import re
+          import urllib.error
           import urllib.parse
           import urllib.request
           from datetime import datetime, timezone, timedelta
 
 
-          UA = "WORLD-NEWS/1.0"
+          UA = "WORLD-NEWS/1.0 (https://github.com/syumi0525/world-news)"
 
 
           # ============================================================
@@ -938,136 +939,129 @@ jobs:
           # MEDIA SIGNAL â 
           # Wikimedia Commons
           # ------------------------------------------------------------
+          # Only CC0 / Public Domain is accepted.
+          # Wikimedia API rate limits must never invalidate otherwise
+          # valid WORLD NEWS data: when an existing safe image is already
+          # present, preserve it instead of failing the whole workflow.
 
           commons_api = (
               "https://commons.wikimedia.org/"
               "w/api.php"
           )
 
+          accepted_media1_licenses = {
+              "cc0",
+              "cc0 1.0",
+              "cc0 1.0 universal public domain dedication",
+              "public domain",
+              "public domain mark"
+          }
 
+          def license_is_safe(value):
+              normalized = re.sub(
+                  r"\s+",
+                  " ",
+                  clean(value).lower()
+              ).strip()
+              return (
+                  normalized in accepted_media1_licenses
+                  or normalized.startswith("public domain ")
+              )
+
+          media1_info = None
+          media1_path = "world-media/media1.jpg"
+
+          # Preserve the previous safe MEDIA SIGNAL â  when Commons is
+          # temporarily rate-limited or unavailable.
+          previous_world = {}
+          if os.path.exists("world-data.json"):
+              try:
+                  with open(
+                      "world-data.json",
+                      "r",
+                      encoding="utf-8"
+                  ) as f:
+                      previous_world = json.load(f)
+              except Exception:
+                  previous_world = {}
+
+          previous_media1 = previous_world.get(
+              "mediaSignal1",
+              {}
+          )
+
+          if (
+              os.path.exists(media1_path)
+              and os.path.getsize(media1_path) >= 1000
+              and isinstance(previous_media1, dict)
+              and license_is_safe(previous_media1.get("license", ""))
+          ):
+              media1_info = {
+                  "title": clean(
+                      previous_media1.get(
+                          "title",
+                          "Existing CC0/Public Domain image"
+                      )
+                  ),
+                  "artist": clean(
+                      previous_media1.get(
+                          "artist",
+                          ""
+                      )
+                  ),
+                  "license": clean(
+                      previous_media1.get(
+                          "license",
+                          "CC0"
+                      )
+                  ),
+                  "url": clean(
+                      previous_media1.get(
+                          "page",
+                          ""
+                      )
+                  ),
+                  "imageUrl": ""
+              }
+
+          # A small number of API requests is enough to find candidates.
+          # This avoids the previous hundreds/thousands of requests.
           commons_categories = [
               "Nature",
               "Animals",
-              "Birds",
-              "Mammals",
               "Plants",
               "Landscapes",
-              "Forests",
-              "Mountains",
-              "Rivers",
-              "Lakes",
               "Water",
-              "Beaches",
               "Gardens",
               "Architecture",
-              "Buildings",
-              "Cities",
-              "Streets",
-              "Bridges",
-              "Roads",
-              "Rail transport",
-              "Vehicles",
-              "Ships",
-              "Science"
+              "Vehicles"
           ]
+          random.shuffle(commons_categories)
 
+          try:
+              category_titles = []
 
-          blocked_words = [
-              "portrait",
-              "selfie",
-              "wedding",
-              "funeral",
-              "person",
-              "people",
-              "face",
-              "human",
-              "screenshot",
-              "logo",
-              "poster",
-              "advertisement",
-              "advertising",
-              "space",
-              "astronomy",
-              "astronomical",
-              "planet",
-              "planets",
-              "moon",
-              "lunar",
-              "sun",
-              "solar",
-              "star",
-              "stars",
-              "galaxy",
-              "galaxies",
-              "nebula",
-              "nebulae",
-              "comet",
-              "asteroid",
-              "meteor",
-              "meteoroid",
-              "satellite",
-              "spacecraft",
-              "rocket",
-              "astronaut",
-              "cosmonaut",
-              "nasa",
-              "esa",
-              "spacex",
-              "iss",
-              "international space station",
-              "hubble",
-              "jwst",
-              "james webb",
-              "telescope",
-              "observatory"
-          ]
-
-
-          random.shuffle(
-              commons_categories
-          )
-
-
-          category_titles = []
-
-          for category in commons_categories:
-              if len(category_titles) >= 2000:
-                  break
-
-              collected_for_category = 0
-              continuation = {}
-
-              while collected_for_category < 250:
-                  category_params = {
+              for category in commons_categories[:4]:
+                  params = {
                       "action": "query",
                       "format": "json",
                       "list": "categorymembers",
                       "cmtitle": "Category:" + category,
                       "cmtype": "file",
-                      "cmlimit": "500"
+                      "cmlimit": "50"
                   }
-
-                  category_params.update(continuation)
 
                   category_url = (
                       commons_api
                       + "?"
-                      + urllib.parse.urlencode(
-                          category_params
-                      )
+                      + urllib.parse.urlencode(params)
                   )
 
-                  try:
-                      category_data = fetch_json(
-                          category_url
-                      )
-                  except Exception as e:
-                      print(
-                          "Category failed:",
-                          category,
-                          str(e)
-                      )
-                      break
+                  category_data = fetch_json(
+                      category_url,
+                      timeout=30,
+                      attempts=4
+                  )
 
                   members = (
                       category_data
@@ -1075,307 +1069,155 @@ jobs:
                       .get("categorymembers", [])
                   )
 
-                  if not members:
-                      break
-
-                  random.shuffle(members)
-
                   for member in members:
                       title = clean(
                           member.get("title")
                       )
+                      if title:
+                          category_titles.append(title)
 
-                      if not title:
+              random.shuffle(category_titles)
+
+              if category_titles:
+                  image_params = {
+                      "action": "query",
+                      "format": "json",
+                      "titles": "|".join(
+                          category_titles[:30]
+                      ),
+                      "prop": "imageinfo",
+                      "iiprop": "url|mime|size|extmetadata",
+                      "iiurlwidth": "1250"
+                  }
+
+                  image_url = (
+                      commons_api
+                      + "?"
+                      + urllib.parse.urlencode(
+                          image_params
+                      )
+                  )
+
+                  image_data = fetch_json(
+                      image_url,
+                      timeout=30,
+                      attempts=4
+                  )
+
+                  candidates = []
+
+                  for page in image_data.get(
+                      "query", {}
+                  ).get("pages", {}).values():
+                      imageinfo = page.get(
+                          "imageinfo", []
+                      )
+                      if not imageinfo:
                           continue
 
-                      lower_title = title.lower()
+                      info = imageinfo[0]
+                      mime = clean(info.get("mime"))
+                      width = info.get("width", 0)
+                      height = info.get("height", 0)
 
-                      if any(
-                          word in lower_title
-                          for word in blocked_words
+                      if mime != "image/jpeg":
+                          continue
+                      if not isinstance(width, int) or not isinstance(height, int):
+                          continue
+                      if width < 800 or height < 450:
+                          continue
+
+                      metadata = info.get(
+                          "extmetadata",
+                          {}
+                      )
+                      license_short = clean(
+                          metadata.get(
+                              "LicenseShortName",
+                              {}
+                          ).get("value")
+                      )
+
+                      if not license_is_safe(
+                          license_short
                       ):
                           continue
 
-                      if title in category_titles:
+                      page_title = clean(
+                          page.get("title")
+                      )
+                      description = clean(
+                          metadata.get(
+                              "ImageDescription",
+                              {}
+                          ).get("value")
+                      )
+
+                      blocked = [
+                          "portrait", "selfie", "wedding",
+                          "funeral", "person", "people",
+                          "face", "human", "screenshot",
+                          "logo", "poster", "advertisement",
+                          "advertising"
+                      ]
+
+                      combined = (
+                          page_title + " " + description
+                      ).lower()
+
+                      if any(
+                          word in combined
+                          for word in blocked
+                      ):
                           continue
 
-                      category_titles.append(title)
-
-                      if len(category_titles) >= 2000:
-                          break
-
-                  collected_for_category += len(members)
-
-                  if len(category_titles) >= 2000:
-                      break
-
-                  continuation = category_data.get(
-                      "continue",
-                      {}
-                  )
-
-                  if not continuation:
-                      break
-
-          random.shuffle(
-              category_titles
-          )
-
-
-          media1_info = None
-
-
-          if category_titles:
-
-              image_params = {
-                  "action": "query",
-                  "format": "json",
-                  "titles":
-                      "|".join(
-                          category_titles[:50]
-                      ),
-                  "prop": "imageinfo",
-                  "iiprop":
-                      "url|mime|size|extmetadata",
-                  "iiurlwidth": "1250"
-              }
-
-              image_url = (
-                  commons_api
-                  + "?"
-                  + urllib.parse.urlencode(
-                      image_params
-                  )
-              )
-
-              image_data = fetch_json(
-                  image_url
-              )
-
-              pages = (
-                  image_data
-                  .get("query", {})
-                  .get("pages", {})
-              )
-
-              candidates = []
-
-
-              for page in pages.values():
-
-                  imageinfo = (
-                      page.get(
-                          "imageinfo",
-                          []
-                      )
-                  )
-
-                  if not imageinfo:
-                      continue
-
-                  info = imageinfo[0]
-
-                  mime = clean(
-                      info.get("mime")
-                  )
-
-                  width = info.get(
-                      "width",
-                      0
-                  )
-
-                  height = info.get(
-                      "height",
-                      0
-                  )
-
-
-                  if mime != "image/jpeg":
-                      continue
-
-                  if (
-                      not isinstance(
-                          width,
-                          int
-                      )
-                      or
-                      not isinstance(
-                          height,
-                          int
-                      )
-                  ):
-                      continue
-
-                  if width < 800:
-                      continue
-
-                  if height < 450:
-                      continue
-
-
-                  metadata = info.get(
-                      "extmetadata",
-                      {}
-                  )
-
-
-                  license_short = clean(
-                      metadata.get(
-                          "LicenseShortName",
-                          {}
-                      ).get("value")
-                  )
-
-
-                  license_lower = re.sub(
-                      r"\s+",
-                      " ",
-                      license_short.lower()
-                  ).strip()
-
-                  # Strict commercial-use safety: accept only CC0 / Public Domain.
-                  allowed_license = (
-                      license_lower in {
-                          "cc0",
-                          "cc0 1.0",
-                          "cc0 1.0 universal public domain dedication",
-                          "public domain",
-                          "public domain mark"
-                      }
-                      or license_lower.startswith("public domain ")
-                  )
-
-                  if not allowed_license:
-                      continue
-
-
-                  page_title = clean(
-                      page.get(
-                          "title"
-                      )
-                  )
-
-
-                  lower_page_title = (
-                      page_title.lower()
-                  )
-
-
-                  if any(
-                      word in lower_page_title
-                      for word in blocked_words
-                  ):
-                      continue
-
-                  description = clean(
-                      metadata.get(
-                          "ImageDescription",
-                          {}
-                      ).get("value")
-                  )
-
-                  description_lower = description.lower()
-
-                  if any(
-                      word in description_lower
-                      for word in blocked_words
-                  ):
-                      continue
-
-
-                  thumburl = clean(
-                      info.get(
-                          "thumburl"
-                      )
-                  )
-
-
-                  original_url = clean(
-                      info.get(
-                          "url"
-                      )
-                  )
-
-
-                  if not thumburl:
-                      thumburl = (
-                          original_url
+                      thumburl = clean(
+                          info.get("thumburl")
+                      ) or clean(
+                          info.get("url")
                       )
 
+                      if not thumburl:
+                          continue
 
-                  if not thumburl:
-                      continue
-
-
-                  artist = clean(
-                      metadata.get(
-                          "Artist",
-                          {}
-                      ).get("value")
-                  )
-
-                  license_url = clean(
-                      metadata.get(
-                          "LicenseUrl",
-                          {}
-                      ).get("value")
-                  )
-
-
-                  page_url = (
-                      "https://commons.wikimedia.org/wiki/"
-                      + urllib.parse.quote(
-                          page_title.replace(
-                              " ",
-                              "_"
+                      candidates.append({
+                          "title": page_title,
+                          "artist": clean(
+                              metadata.get(
+                                  "Artist", {}
+                              ).get("value")
                           ),
-                          safe=":/"
+                          "license": license_short,
+                          "url": (
+                              "https://commons.wikimedia.org/wiki/"
+                              + urllib.parse.quote(
+                                  page_title.replace(
+                                      " ", "_"
+                                  ),
+                                  safe=":/"
+                              )
+                          ),
+                          "imageUrl": thumburl
+                      })
+
+                  if candidates:
+                      candidate = random.choice(candidates)
+                      download(
+                          candidate["imageUrl"],
+                          media1_path
                       )
-                  )
+                      media1_info = candidate
 
-
-                  candidates.append(
-                      {
-                          "title":
-                              page_title,
-
-                          "artist":
-                              artist,
-
-                          "license":
-                              license_short,
-
-                          "url":
-                              page_url,
-
-                          "imageUrl":
-                              thumburl
-                      }
-                  )
-
-
-              if candidates:
-                  media1_info = random.choice(
-                      candidates
-                  )
-
+          except Exception as e:
+              print(
+                  "Wikimedia MEDIA SIGNAL â  update skipped:",
+                  str(e)
+              )
 
           if not media1_info:
               raise RuntimeError(
-                  "No suitable commercial-use Wikimedia Commons image found."
+                  "No safe MEDIA SIGNAL â  image is available."
               )
-
-
-          media1_path = (
-              "world-media/media1.jpg"
-          )
-
-
-          download(
-              media1_info["imageUrl"],
-              media1_path
-          )
-
 
           # ------------------------------------------------------------
           # MEDIA SIGNAL â¡
@@ -1552,9 +1394,6 @@ jobs:
                   "globalPulseCO2":
                       "NOAA Global Monitoring Laboratory",
 
-                  "globalPulseSeaSurface":
-                      "NOAA ACSPO",
-
                   "globalPulseGeomagnetic":
                       "NOAA SWPC",
 
@@ -1568,9 +1407,6 @@ jobs:
 
 
               "images": {
-
-                  "earth":
-                      "world-media/earth.jpg",
 
                   "media1":
                       "world-media/media1.jpg",
