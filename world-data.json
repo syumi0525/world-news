@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T14:31:21.462020+00:00",
+  "generatedAt": "2026-09-15T14:49:56.758088+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Acesso principal ao edifício JMM 01.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rqltst&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rqltst (page does not exist)\">Rqltst</a>",
+    "title": "File:Chou frisé vert à pied court.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Arn\" title=\"User:Arn\">Arn</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Acesso_principal_ao_edif%C3%ADcio_JMM_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chou_fris%C3%A9_vert_%C3%A0_pied_court.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KS33",
-    "station": "KS33",
-    "lat": 44.6653,
-    "lon": -121.1565,
+    "name": "FTTJ",
+    "station": "FTTJ",
+    "lat": 12.134,
+    "lon": 15.034,
     "weather": "No coded weather",
-    "temperature": 6.0,
-    "dewpoint": 5.0,
-    "windSpeed": null,
-    "windDirection": null,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T14:15:00.000Z",
-    "observationTimestamp": "2026-09-15T14:15:00+00:00",
-    "raw": "METAR KS33 151415Z AUTO 10SM CLR 06/05 A3003 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "DAUI",
-    "station": "DAUI",
-    "lat": 27.251,
-    "lon": 2.512,
-    "weather": "No coded weather",
-    "temperature": 40.0,
-    "dewpoint": 7.0,
-    "windSpeed": 15.0,
-    "windDirection": 100.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
+    "temperature": 37.0,
+    "dewpoint": 23.0,
+    "windSpeed": 4.0,
+    "windDirection": 0.0,
+    "visibility": "4.97",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-15T14:00:00.000Z",
     "observationTimestamp": "2026-09-15T14:00:00+00:00",
-    "raw": "METAR DAUI 151400Z 10015KT CAVOK 40/07 Q1015"
+    "raw": "METAR FTTJ 151400Z VRB04KT 8000 FEW040 37/23 Q1008 NOSIG"
+  },
+  "randomPlace": {
+    "name": "KFXE",
+    "station": "KFXE",
+    "lat": 26.199,
+    "lon": -80.1776,
+    "weather": "No coded weather",
+    "temperature": 30.0,
+    "dewpoint": 24.4,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T13:53:00.000Z",
+    "observationTimestamp": "2026-09-15T13:53:00+00:00",
+    "raw": "METAR KFXE 151353Z 00000KT 10SM SCT027 SCT033 BKN047 30/24 A3007 RMK AO2 SLP185 T03000244"
   },
   "globalPulse": {
     "population": {
-      "value": 8211158119,
-      "display": "8,211,158,119",
+      "value": 8211160349,
+      "display": "8,211,160,349",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -75,7 +75,7 @@
       "display": "22.08 °C",
       "source": "NOAA ACSPO Global SST (area-weighted sample)",
       "dataset": "ACSPO_LEO_L3S_nrt",
-      "endpoint": "NOAA CoastWatch ACSPO NRT"
+      "endpoint": "NOAA OceanWatch ACSPO NRT"
     },
     "dayNight": {
       "value": 0.5,
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T14:23:00Z",
-      "speed": 386.0
+      "time": "2026-09-15T14:40:00Z",
+      "speed": 426.0
     },
     "magneticField": {
-      "time": "2026-09-15T14:23:00Z",
-      "bt": 16.0,
-      "bz": 11.0
+      "time": "2026-09-15T14:40:00Z",
+      "bt": 15.0,
+      "bz": 9.0
     },
     "kp": {
       "time": "2026-09-15T09:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T14:20:00Z",
-      "forecastTime": "2026-09-15T15:28:00Z"
+      "observationTime": "2026-09-15T14:40:00Z",
+      "forecastTime": "2026-09-15T15:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
