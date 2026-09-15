@@ -891,15 +891,75 @@ jobs:
           # ------------------------------------------------------------
           # DAY / NIGHT
           #
-          # For the spherical Earth, the solar terminator divides the
-          # illuminated and dark hemispheres into equal areas. Therefore
-          # the global area split is exactly 50% / 50%. This is not a
-          # placeholder or a time-independent observation; it is the
-          # geometric definition of global illuminated/dark area.
+          # Calculate the global illuminated/dark surface split from the
+          # current UTC time and solar declination. The calculation uses
+          # latitude bands weighted by surface area; it does not contain
+          # a hard-coded 50/50 value.
           # ------------------------------------------------------------
 
-          day_percent = 50.0
-          night_percent = 50.0
+          def solar_declination_deg(dt):
+              # NOAA-style fractional-year approximation.
+              day_of_year = dt.timetuple().tm_yday
+              hour = dt.hour + dt.minute / 60.0 + dt.second / 3600.0
+              gamma = (
+                  2.0 * math.pi / 365.0
+                  * (day_of_year - 1 + (hour - 12.0) / 24.0)
+              )
+              declination = (
+                  0.006918
+                  - 0.399912 * math.cos(gamma)
+                  + 0.070257 * math.sin(gamma)
+                  - 0.006758 * math.cos(2 * gamma)
+                  + 0.000907 * math.sin(2 * gamma)
+                  - 0.002697 * math.cos(3 * gamma)
+                  + 0.00148 * math.sin(3 * gamma)
+              )
+              return math.degrees(declination)
+
+
+          declination_rad = math.radians(
+              solar_declination_deg(now_utc)
+          )
+
+          day_area = 0.0
+          night_area = 0.0
+
+          for lat_deg in range(-899, 900, 2):
+              lat_rad = math.radians(lat_deg / 10.0)
+              cos_lat = math.cos(lat_rad)
+
+              if cos_lat <= 0.0:
+                  continue
+
+              x = -math.tan(lat_rad) * math.tan(declination_rad)
+
+              if x <= -1.0:
+                  daylight_fraction = 1.0
+              elif x >= 1.0:
+                  daylight_fraction = 0.0
+              else:
+                  hour_angle = math.acos(x)
+                  daylight_fraction = hour_angle / math.pi
+
+              band_weight = cos_lat
+              day_area += daylight_fraction * band_weight
+              night_area += (1.0 - daylight_fraction) * band_weight
+
+          total_area = day_area + night_area
+
+          if total_area <= 0.0:
+              raise RuntimeError(
+                  "Solar day/night calculation produced no valid area."
+              )
+
+          day_percent = round(
+              day_area / total_area * 100.0,
+              1
+          )
+          night_percent = round(
+              night_area / total_area * 100.0,
+              1
+          )
 
           day_night_value = (
               f"{day_percent:.1f}% DAY / "
@@ -910,13 +970,137 @@ jobs:
           # ------------------------------------------------------------
           # CLOUD COVER
           #
-          # No globally averaged, near-real-time cloud fraction is
-          # available in the current public data stack used by this
-          # workflow. Do not substitute a METAR station average for a
-          # global value. The frontend will therefore show NO DATA.
+          # NOAA/NCEI PATMOS-x Cloud Properties CDR.
+          # The CDR is global and provides cloud_fraction on a 0.1-degree
+          # grid. Query the latest available descending-pass aggregation
+          # through NOAA's NetCDF Subset Service and calculate an
+          # area-weighted global mean from valid 0..1 values.
           # ------------------------------------------------------------
 
-          cloud_cover_value = None
+          cloud_ncss_url = (
+              "https://www.ncei.noaa.gov/thredds/ncss/grid/"
+              "avhrr-patmos-x-cloudprops-metop-des-fc/"
+              "PATMOS-X_Cloud_Properties%3A_Aggregation%2C_METOP_descending_best.ncd"
+          )
+
+          cloud_start = (
+              now_utc - timedelta(days=3)
+          ).strftime("%Y-%m-%dT%H:%M:%SZ")
+          cloud_end = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+          cloud_query = urllib.parse.urlencode({
+              "var": "cloud_fraction",
+              "north": "90",
+              "west": "-180",
+              "east": "180",
+              "south": "-90",
+              "horizStride": "20",
+              "time_start": cloud_start,
+              "time_end": cloud_end,
+              "timeStride": "1",
+              "accept": "csv"
+          })
+
+          cloud_raw = fetch_bytes(
+              cloud_ncss_url + "?" + cloud_query,
+              timeout=180,
+              attempts=4
+          ).decode("utf-8", "replace")
+
+          cloud_reader = csv.DictReader(
+              io.StringIO(cloud_raw)
+          )
+
+          cloud_rows = list(cloud_reader)
+
+          if not cloud_rows:
+              raise RuntimeError(
+                  "NOAA PATMOS-x returned no cloud-fraction rows."
+              )
+
+          time_key = next(
+              (key for key in ("time", "Time") if key in cloud_rows[0]),
+              None
+          )
+          lat_key = next(
+              (key for key in ("latitude", "lat", "Latitude") if key in cloud_rows[0]),
+              None
+          )
+          lon_key = next(
+              (key for key in ("longitude", "lon", "Longitude") if key in cloud_rows[0]),
+              None
+          )
+          cloud_key = next(
+              (key for key in ("cloud_fraction", "Cloud_Fraction") if key in cloud_rows[0]),
+              None
+          )
+
+          if not all((time_key, lat_key, lon_key, cloud_key)):
+              raise RuntimeError(
+                  "NOAA PATMOS-x CSV is missing required columns."
+              )
+
+          valid_cloud_rows = []
+          latest_cloud_time = None
+
+          for row in cloud_rows:
+              try:
+                  value = float(row[cloud_key])
+                  lat = float(row[lat_key])
+                  lon = float(row[lon_key])
+              except (TypeError, ValueError):
+                  continue
+
+              if not (0.0 <= value <= 1.0):
+                  continue
+              if not (-90.0 <= lat <= 90.0):
+                  continue
+              if not (-180.0 <= lon <= 180.0):
+                  continue
+
+              timestamp = row[time_key].strip()
+              valid_cloud_rows.append((timestamp, lat, value))
+
+              if latest_cloud_time is None or timestamp > latest_cloud_time:
+                  latest_cloud_time = timestamp
+
+          if not valid_cloud_rows or latest_cloud_time is None:
+              raise RuntimeError(
+                  "NOAA PATMOS-x returned no valid cloud-fraction values."
+              )
+
+          latest_rows = [
+              item for item in valid_cloud_rows
+              if item[0] == latest_cloud_time
+          ]
+
+          cloud_weighted_sum = 0.0
+          cloud_weight_sum = 0.0
+
+          for _, lat, value in latest_rows:
+              weight = math.cos(
+                  math.radians(lat)
+              )
+              if weight <= 0.0:
+                  continue
+              cloud_weighted_sum += value * weight
+              cloud_weight_sum += weight
+
+          if cloud_weight_sum <= 0.0:
+              raise RuntimeError(
+                  "NOAA PATMOS-x cloud-fraction weights are empty."
+              )
+
+          cloud_cover_value = round(
+              cloud_weighted_sum / cloud_weight_sum * 100.0,
+              1
+          )
+
+          print(
+              "CLOUD COVER:",
+              cloud_cover_value,
+              "%"
+          )
 
 
           # ------------------------------------------------------------
@@ -1053,7 +1237,7 @@ jobs:
 
               "dayNight": {
                   "value":
-                      0.5,
+                      day_percent / 100.0,
 
                   "display":
                       day_night_value,
@@ -2077,6 +2261,23 @@ jobs:
               global_pulse["dayNight"]["value"],
               "DAY / NIGHT"
           )
+          require_finite(
+              global_pulse["cloudCover"]["value"],
+              "CLOUD COVER"
+          )
+          if not (
+              0.0 <= global_pulse["cloudCover"]["value"] <= 100.0
+          ):
+              raise RuntimeError(
+                  "CLOUD COVER is outside the valid 0..100% range."
+              )
+          cloud_time = parse_dt(
+              global_pulse["cloudCover"].get("time")
+          )
+          if cloud_time is None or now - cloud_time > timedelta(days=3):
+              raise RuntimeError(
+                  "CLOUD COVER timestamp is missing or too old."
+              )
 
           aurora = space.get("aurora")
           require_dict(aurora, "Aurora")
@@ -2202,6 +2403,9 @@ jobs:
           print("Coordinates:", random_place.get("lat"), random_place.get("lon"))
           print("WORLD POPULATION:", global_pulse["population"]["display"])
           print("CO2:", global_pulse["co2"]["display"])
+          print("SEA SURFACE:", global_pulse["seaSurface"]["display"])
+          print("DAY / NIGHT:", global_pulse["dayNight"]["display"])
+          print("CLOUD COVER:", global_pulse["cloudCover"]["display"])
           print("GEOMAGNETIC:", global_pulse["geomagnetic"]["display"])
           print("MEDIA SIGNAL ①:", media1.get("title"))
           print("MEDIA SIGNAL ① License:", media1.get("license"))
