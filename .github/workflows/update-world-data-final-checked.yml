@@ -998,20 +998,104 @@ jobs:
 
           import eccodes
 
+          # NOMADS currently exposes the GFS 1-degree archive at 00Z, 06Z
+          # and 12Z on this filter endpoint. Build only those cycles so we
+          # do not waste requests on an unsupported 18Z cycle.
           def previous_gfs_cycles(base_dt, count=8):
               cycles = []
               cursor = base_dt.replace(minute=0, second=0, microsecond=0)
               cursor -= timedelta(hours=cursor.hour % 6)
-              for _ in range(count):
-                  cycles.append(cursor)
+
+              while len(cycles) < count:
+                  if cursor.hour in (0, 6, 12):
+                      cycles.append(cursor)
                   cursor -= timedelta(hours=6)
+
               return cycles
+
+          def fetch_gfs_cloud(url):
+              # GFS publication is asynchronous. A not-yet-published cycle
+              # must cause us to try the previous cycle, not fail the whole
+              # workflow. NOMADS may answer 404/500/502/503/504 while a file
+              # is unavailable.
+              req = urllib.request.Request(
+                  url,
+                  headers={
+                      "User-Agent": UA,
+                      "Accept": "application/octet-stream"
+                  },
+              )
+
+              try:
+                  with urllib.request.urlopen(req, timeout=120) as response:
+                      return response.read()
+              except urllib.error.HTTPError as exc:
+                  if exc.code in {404, 500, 502, 503, 504}:
+                      print(
+                          "GFS cycle unavailable (HTTP",
+                          exc.code,
+                          ")"
+                      )
+                      return None
+              except (urllib.error.URLError, TimeoutError) as exc:
+                  print("GFS network error:", exc)
+                  return None
+
+              return None
 
           cloud_grib = None
           cloud_cycle = None
           cloud_url = None
 
-          for cycle_dt in previous_gfs_cycles(now_utc, count=8):
+          # The workflow runs every 10 minutes, while GFS 1-degree is
+          # published every 6 hours. Reuse the already-stored real GFS value
+          # when it is still the newest cycle, instead of repeatedly hitting
+          # NOMADS for the same field.
+          existing_cloud = None
+          existing_path = os.path.join(
+              os.getcwd(), "world-data.json"
+          )
+          try:
+              with open(existing_path, "r", encoding="utf-8") as existing_file:
+                  existing_json = json.load(existing_file)
+              existing_cloud = existing_json.get("globalPulse", {}).get(
+                  "cloudCover"
+              )
+          except (OSError, ValueError, TypeError):
+              existing_cloud = None
+
+          candidate_cycles = previous_gfs_cycles(now_utc, count=8)
+          newest_cycle = candidate_cycles[0]
+
+          if isinstance(existing_cloud, dict):
+              existing_time = existing_cloud.get("time")
+              existing_value = existing_cloud.get("value")
+              newest_time = newest_cycle.strftime("%Y-%m-%dT%H:%M:%SZ")
+              if (
+                  existing_time == newest_time
+                  and isinstance(existing_value, (int, float))
+                  and math.isfinite(float(existing_value))
+                  and 0.0 <= float(existing_value) <= 100.0
+              ):
+                  cloud_cycle = newest_cycle
+                  latest_cloud_time = existing_time
+                  cloud_cover_value = round(float(existing_value), 1)
+                  print(
+                      "CLOUD COVER: reusing existing real GFS cycle",
+                      existing_time,
+                      cloud_cover_value,
+                      "%"
+                  )
+
+          for cycle_index, cycle_dt in enumerate(candidate_cycles):
+              if cloud_cycle is not None:
+                  break
+
+              # NOAA asks automated loops to wait 10 seconds between fetches
+              # to avoid excessive requests. Do not delay the first request.
+              if cycle_index > 0:
+                  time.sleep(10)
+
               date_part = cycle_dt.strftime("%Y%m%d")
               hour_part = cycle_dt.strftime("%H")
               file_name = f"gfs.t{hour_part}z.pgrb2.1p00.f000"
@@ -1019,7 +1103,7 @@ jobs:
                   "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_1p00.pl?"
                   + urllib.parse.urlencode({
                       "file": file_name,
-                      "lev_entire_atmos_on": "on",
+                      "lev_entire_atmosphere": "on",
                       "var_TCDC": "on",
                       "subregion": "",
                       "leftlon": "0",
@@ -1030,36 +1114,33 @@ jobs:
                   })
               )
 
-              try:
-                  print(
-                      "FETCHING GFS CLOUD COVER:",
-                      date_part,
-                      hour_part + "Z"
-                  )
-                  candidate_bytes = fetch_bytes(
-                      cloud_url_candidate,
-                      timeout=120,
-                      attempts=3
-                  )
-                  if candidate_bytes[:4] == b"GRIB":
-                      cloud_grib = candidate_bytes
-                      cloud_cycle = cycle_dt
-                      cloud_url = cloud_url_candidate
-                      break
-                  print("GFS cloud response was not GRIB; trying older cycle.")
-              except urllib.error.HTTPError as exc:
-                  if exc.code == 404:
-                      print(
-                          "GFS cycle not available:",
-                          date_part,
-                          hour_part + "Z"
-                      )
-                      continue
-                  raise
+              print(
+                  "FETCHING GFS CLOUD COVER:",
+                  date_part,
+                  hour_part + "Z"
+              )
+
+              candidate_bytes = fetch_gfs_cloud(
+                  cloud_url_candidate
+              )
+
+              if not candidate_bytes:
+                  continue
+
+              if candidate_bytes[:4] == b"GRIB":
+                  cloud_grib = candidate_bytes
+                  cloud_cycle = cycle_dt
+                  cloud_url = cloud_url_candidate
+                  break
+
+              print(
+                  "GFS cloud response was not GRIB; trying older cycle."
+              )
 
           if cloud_grib is None or cloud_cycle is None:
               raise RuntimeError(
-                  "NOAA/NCEP GFS cloud-cover analysis could not be downloaded."
+                  "NOAA/NCEP GFS cloud-cover data could not be downloaded "
+                  "from any of the latest available 00Z/06Z/12Z cycles."
               )
 
           cloud_stream = io.BytesIO(cloud_grib)
@@ -1104,8 +1185,8 @@ jobs:
                   "NOAA/NCEP GFS TCDC grid dimensions are invalid."
               )
 
-          # GFS TCDC is percent cloud cover (0..100).  Average the
-          # grid using spherical-area weighting by latitude.
+          # GFS TCDC is percent cloud cover (0..100). Average the grid
+          # using spherical-area weighting by latitude.
           cloud_weighted_sum = 0.0
           cloud_weight_sum = 0.0
 
@@ -1114,12 +1195,14 @@ jobs:
                   lat = lat_first
               else:
                   lat = lat_first + (lat_last - lat_first) * j / (nj - 1)
+
               weight = math.cos(math.radians(lat))
               if weight <= 0.0:
                   continue
 
               row_start = j * ni
               row_end = row_start + ni
+
               for raw_value in values[row_start:row_end]:
                   value = float(raw_value)
                   if not math.isfinite(value):
@@ -1128,6 +1211,7 @@ jobs:
                       continue
                   if not (0.0 <= value <= 100.0):
                       continue
+
                   cloud_weighted_sum += value * weight
                   cloud_weight_sum += weight
 
