@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:28:34.880081+00:00",
+  "generatedAt": "2026-09-15T17:42:30.720432+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Boulder in snowy mountains.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AdvaitaMakaranda&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AdvaitaMakaranda (page does not exist)\">AdvaitaMakaranda</a>",
+    "title": "File:A river is a natural.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:J.Doniyorovich&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:J.Doniyorovich (page does not exist)\">J.Doniyorovich</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Boulder_in_snowy_mountains.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_river_is_a_natural.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "PADL",
-    "station": "PADL",
-    "lat": 59.04,
-    "lon": -158.507,
+    "name": "RKSM",
+    "station": "RKSM",
+    "lat": 37.446,
+    "lon": 127.114,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 8.9,
-    "windSpeed": 13.0,
-    "windDirection": 210.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-15T16:56:00.000Z",
-    "observationTimestamp": "2026-09-15T16:56:00+00:00",
-    "raw": "METAR PADL 151656Z 21013G18KT 10SM BKN025 10/09 A2985 RMK AO2 SLP111 T01000089"
+    "temperature": 15.0,
+    "dewpoint": 12.0,
+    "windSpeed": 1.0,
+    "windDirection": 180.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T17:00:00.000Z",
+    "observationTimestamp": "2026-09-15T17:00:00+00:00",
+    "raw": "METAR RKSM 151700Z 18001KT 9999 SKC 15/12 A3008"
   },
   "randomPlace": {
-    "name": "KF17",
-    "station": "KF17",
-    "lat": 31.8277,
-    "lon": -94.154,
+    "name": "CYCD",
+    "station": "CYCD",
+    "lat": 49.052,
+    "lon": -123.874,
     "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 23.0,
-    "windSpeed": 5.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
+    "temperature": 16.0,
+    "dewpoint": 12.0,
+    "windSpeed": 4.0,
+    "windDirection": 230.0,
+    "visibility": "15",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T17:15:00.000Z",
-    "observationTimestamp": "2026-09-15T17:15:00+00:00",
-    "raw": "METAR KF17 151715Z AUTO 20005KT 10SM BKN044 33/23 A3011 RMK AO2"
+    "observationTime": "2026-09-15T17:00:00.000Z",
+    "observationTimestamp": "2026-09-15T17:00:00+00:00",
+    "raw": "METAR CYCD 151700Z 23004KT 210V020 15SM FEW021 BKN051 BKN087 16/12 A3005 RMK SC2SC3AC1 SLP179"
   },
   "globalPulse": {
     "population": {
-      "value": 8211179362,
-      "display": "8,211,179,362",
+      "value": 8211181016,
+      "display": "8,211,181,016",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T17:22:00Z",
-      "speed": 454.0
+      "time": "2026-09-15T17:34:00Z",
+      "speed": 384.0
     },
     "magneticField": {
-      "time": "2026-09-15T17:22:00Z",
+      "time": "2026-09-15T17:34:00Z",
       "bt": 17.0,
-      "bz": 7.0
+      "bz": 11.0
     },
     "kp": {
       "time": "2026-09-15T12:00:00",
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T17:19:00Z",
-      "forecastTime": "2026-09-15T18:29:00Z"
+      "observationTime": "2026-09-15T17:29:00Z",
+      "forecastTime": "2026-09-15T18:38:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
