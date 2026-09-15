@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T01:24:14.125361+00:00",
+  "generatedAt": "2026-09-15T05:11:12.061765+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 184525 Schätzl-Villa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "title": "File:The picture shows a dry ,rocky with small plant and banana trees growing around aroded soil.At jikoki pape Abuja Nigeria.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sadeeeya3430&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sadeeeya3430 (page does not exist)\">Sadeeeya3430</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_184525_Sch%C3%A4tzl-Villa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:The_picture_shows_a_dry_%2Crocky_with_small_plant_and_banana_trees_growing_around_aroded_soil.At_jikoki_pape_Abuja_Nigeria.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VTCL",
-    "station": "VTCL",
-    "lat": 18.277,
-    "lon": 99.502,
+    "name": "LFAQ",
+    "station": "LFAQ",
+    "lat": 49.972,
+    "lon": 2.704,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 24.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 15.0,
+    "dewpoint": 15.0,
+    "windSpeed": 5.0,
+    "windDirection": 150.0,
+    "visibility": "5.59",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T01:00:00.000Z",
-    "observationTimestamp": "2026-09-15T01:00:00+00:00",
-    "raw": "METAR VTCL 150100Z 00000KT 9999 FEW030 SCT050 BKN100 28/24 Q1012 NOSIG"
+    "observationTime": "2026-09-15T05:00:00.000Z",
+    "observationTimestamp": "2026-09-15T05:00:00+00:00",
+    "raw": "METAR LFAQ 150500Z AUTO 15005KT 9000 NSC 15/15 Q1018"
   },
   "randomPlace": {
-    "name": "KALK",
-    "station": "KALK",
-    "lat": 31.606,
-    "lon": -110.428,
-    "weather": "-RA",
-    "temperature": 19.4,
-    "dewpoint": 17.8,
-    "windSpeed": 20.0,
-    "windDirection": 220.0,
-    "visibility": "8",
+    "name": "OITT",
+    "station": "OITT",
+    "lat": 38.13,
+    "lon": 46.24,
+    "weather": "No coded weather",
+    "temperature": 23.0,
+    "dewpoint": 3.0,
+    "windSpeed": 1.0,
+    "windDirection": 170.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T00:56:00.000Z",
-    "observationTimestamp": "2026-09-15T00:56:00+00:00",
-    "raw": "METAR KALK 150056Z AUTO 22020G27KT 8SM -RA FEW060 BKN080 19/18 A3012 RMK AO2 PK WND 21036/0031 WSHFT 2359 RAB31 SLP116 P0001 T01940178"
+    "observationTime": "2026-09-15T05:00:00.000Z",
+    "observationTimestamp": "2026-09-15T05:00:00+00:00",
+    "raw": "METAR OITT 150500Z 17001KT CAVOK 23/03 Q1021 A3015"
   },
   "globalPulse": {
     "population": {
-      "value": 8211063917,
-      "display": "8,211,063,917",
+      "value": 8211091072,
+      "display": "8,211,091,072",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -70,26 +70,49 @@
       "source": "NOAA Global Monitoring Laboratory - Global Monthly Mean CO2",
       "date": "2026-06-01"
     },
+    "seaSurface": {
+      "value": 21.78,
+      "display": "21.78 °C",
+      "source": "NOAA ACSPO Global SST (area-weighted sample)",
+      "dataset": "ACSPO_LEO_L3S_nrt"
+    },
+    "dayNight": {
+      "value": 0.5,
+      "display": "50.0% DAY / 50.0% NIGHT",
+      "source": "Solar geometry (global area split)"
+    },
+    "cloudCover": {
+      "value": null,
+      "display": "NO DATA",
+      "source": "No validated global near-real-time cloud fraction source"
+    },
     "geomagnetic": {
-      "value": 2.7,
-      "display": "Kp 2.7",
+      "value": 3.0,
+      "display": "Kp 3.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-14T21:00:00"
+      "time": "2026-09-15T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T01:16:00Z",
-      "speed": 365.0
+      "time": "2026-09-15T05:01:00Z",
+      "speed": 351.0
     },
     "magneticField": {
-      "time": "2026-09-15T01:16:00Z",
+      "time": "2026-09-15T05:01:00Z",
       "bt": 14.0,
-      "bz": 9.0
+      "bz": 7.0
     },
     "kp": {
-      "time": "2026-09-14T21:00:00",
-      "kp": 2.67
+      "time": "2026-09-15T00:00:00",
+      "kp": 3.0
+    },
+    "aurora": {
+      "value": 15.0,
+      "display": "MAX 15.0%",
+      "source": "NOAA SWPC OVATION",
+      "observationTime": "2026-09-15T04:58:00Z",
+      "forecastTime": "2026-09-15T06:15:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
