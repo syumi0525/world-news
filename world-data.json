@@ -1,121 +1,94 @@
 {
-  "generatedAt": "2026-09-14T23:29:17.586043+00:00",
+  "generatedAt": "2026-09-15T01:06:04.879794+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
     "globalPulsePopulation": "U.S. Census Bureau",
     "globalPulseCO2": "NOAA Global Monitoring Laboratory",
-    "globalPulseSeaSurface": "NOAA ACSPO",
     "globalPulseGeomagnetic": "NOAA SWPC",
-    "globalPulseCloudCover": "AviationWeather.gov",
     "mediaSignal1": "Wikimedia Commons",
-    "mediaSignal2": "NOAA SUVI"
+    "mediaSignal2": "NOAA GOES"
   },
   "images": {
-    "earth": "world-media/earth.jpg",
     "media1": "world-media/media1.jpg",
     "media2": "world-media/media2.jpg"
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:500px photo (105267149).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Elektroll\">Elektroll</a></div>",
-    "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28105267149%29.jpeg"
+    "title": "File:A Journey to Lhasa and Central Tibet p219.jpg",
+    "artist": "Sarat Chandra Das",
+    "license": "Public domain",
+    "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Journey_to_Lhasa_and_Central_Tibet_p219.jpg"
   },
   "mediaSignal2": {
-    "source": "NOAA SUVI",
-    "name": "NOAA GOES-19 SUVI 171",
-    "url": "https://services.swpc.noaa.gov/images/animations/suvi/primary/171/latest.png"
+    "source": "NOAA GOES",
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MHCA",
-    "station": "MHCA",
-    "lat": 14.875,
-    "lon": -85.775,
-    "weather": "-RA",
-    "temperature": 27.0,
-    "dewpoint": 23.0,
-    "windSpeed": 6.0,
-    "windDirection": 100.0,
+    "name": "LFKS",
+    "station": "LFKS",
+    "lat": 41.924,
+    "lon": 9.406,
+    "weather": "No coded weather",
+    "temperature": 21.0,
+    "dewpoint": 17.0,
+    "windSpeed": 3.0,
+    "windDirection": 350.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-14T23:00:00.000Z",
-    "raw": "METAR MHCA 142300Z 10006KT 9999 -RA SCT028TCU FEW030CB BKN070 27/23 Q1014 A2994 RMK CB E"
+    "observationTime": "2026-09-15T00:30:00.000Z",
+    "observationTimestamp": "2026-09-15T00:30:00+00:00",
+    "raw": "METAR LFKS 150030Z AUTO 35003KT 300V020 CAVOK 21/17 Q1020"
   },
   "randomPlace": {
-    "name": "CWZN",
-    "station": "CWZN",
-    "lat": 47.368,
-    "lon": -55.795,
+    "name": "WSSS",
+    "station": "WSSS",
+    "lat": 1.368,
+    "lon": 103.982,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 14.9,
-    "windSpeed": 25.0,
-    "windDirection": 220.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-14T23:00:00.000Z",
-    "raw": "METAR CWZN 142300Z AUTO 22025KT 15/15 RMK AO1 PK WND 21039/2203 SLP058 T01500149 53036"
+    "temperature": 29.0,
+    "dewpoint": 25.0,
+    "windSpeed": 8.0,
+    "windDirection": 170.0,
+    "visibility": "5.59",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T01:00:00.000Z",
+    "observationTimestamp": "2026-09-15T01:00:00+00:00",
+    "raw": "METAR WSSS 150100Z 17008KT 9000 FEW016 BKN300 29/25 Q1012 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211050171,
-      "display": "8,211,050,171",
+      "value": 8211061750,
+      "display": "8,211,061,750",
       "source": "U.S. Census Bureau"
     },
     "co2": {
-      "value": 425.04,
-      "display": "425.04 ppm",
-      "source": "NOAA Global Monitoring Laboratory",
-      "date": "2026-09-13"
-    },
-    "seaSurface": {
-      "value": 22.06,
-      "display": "22.06 °C",
-      "source": "NOAA ACSPO Global SST",
-      "time": "2026-09-12T12:00:00Z"
+      "value": 427.62,
+      "display": "427.62 ppm",
+      "source": "NOAA Global Monitoring Laboratory - Global Monthly Mean CO2",
+      "date": "2026-06-01"
     },
     "geomagnetic": {
       "value": 2.7,
       "display": "Kp 2.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-14T18:00:00"
-    },
-    "dayNight": {
-      "value": 0.5,
-      "display": "50.0% DAY / 50.0% NIGHT",
-      "source": "Solar geometry"
-    },
-    "cloudCover": {
-      "value": 36.7,
-      "display": "36.7%",
-      "source": "NOAA / AviationWeather.gov"
+      "time": "2026-09-14T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-14T23:19:00Z",
-      "speed": 377.0
+      "time": "2026-09-15T00:58:00Z",
+      "speed": 371.0
     },
     "magneticField": {
-      "time": "2026-09-14T23:19:00Z",
+      "time": "2026-09-15T00:58:00Z",
       "bt": 14.0,
-      "bz": 7.0
-    },
-    "interplanetary": {
-      "solarWind": {
-        "time": "2026-09-14T23:19:00Z",
-        "speed": 377.0
-      },
-      "magneticField": {
-        "time": "2026-09-14T23:19:00Z",
-        "bt": 14.0,
-        "bz": 7.0
-      }
+      "bz": 8.0
     },
     "kp": {
-      "time": "2026-09-14T18:00:00",
+      "time": "2026-09-14T21:00:00",
       "kp": 2.67
     },
     "flux10cm": {
