@@ -30,7 +30,7 @@ jobs:
           import re
           import urllib.parse
           import urllib.request
-import urllib.error
+          import urllib.error
           from datetime import datetime, timezone, timedelta
 
 
@@ -87,19 +87,46 @@ import urllib.error
               raise last_error
 
 
-          def fetch_bytes(url, timeout=60):
-              req = urllib.request.Request(
-                  url,
-                  headers={
-                      "User-Agent": UA
-                  },
-              )
+          def fetch_bytes(url, timeout=60, attempts=5):
+              last_error = None
 
-              with urllib.request.urlopen(
-                  req,
-                  timeout=timeout
-              ) as response:
-                  return response.read()
+              for attempt in range(attempts):
+                  req = urllib.request.Request(
+                      url,
+                      headers={
+                          "User-Agent": UA
+                      },
+                  )
+
+                  try:
+                      with urllib.request.urlopen(
+                          req,
+                          timeout=timeout
+                      ) as response:
+                          return response.read()
+                  except urllib.error.HTTPError as exc:
+                      last_error = exc
+
+                      if exc.code != 429 or attempt >= attempts - 1:
+                          raise
+
+                      retry_after = exc.headers.get("Retry-After")
+
+                      try:
+                          delay = int(retry_after)
+                      except (TypeError, ValueError):
+                          delay = 2 ** attempt
+
+                      delay = max(2, min(delay, 60))
+
+                      print(
+                          f"HTTP 429 for {url}; retrying in {delay}s "
+                          f"({attempt + 1}/{attempts - 1})"
+                      )
+
+                      time.sleep(delay)
+
+              raise last_error
 
 
           def download(url, path):
@@ -715,10 +742,23 @@ import urllib.error
               )
 
 
+          def val(obj, *keys):
+              for key in keys:
+                  if (
+                      isinstance(obj, dict)
+                      and
+                      key in obj
+                  ):
+                      return obj[key]
+
+              return None
+
+
           geomagnetic_time = clean(
-              kp_latest.get(
+              val(
+                  kp_latest,
                   "time_tag",
-                  ""
+                  "time"
               )
           )
 
@@ -838,47 +878,32 @@ import urllib.error
               return row, timestamp
 
 
-          def val(obj, *keys):
-              for key in keys:
-                  if (
-                      isinstance(obj, dict)
-                      and
-                      key in obj
-                  ):
-                      return obj[key]
-
-              return None
-
-
-          solar_speed_row, solar_speed_dt = latest_row(
+          solar_speed, solar_speed_dt = latest_row(
               solar_speed_raw
           )
 
-          magnetic_row, magnetic_dt = latest_row(
+          magnetic, magnetic_dt = latest_row(
               magnetic_raw
           )
 
-          flux_row, flux_dt = latest_row(
+          flux, flux_dt = latest_row(
               flux_raw
           )
 
-          if solar_speed_row is None or solar_speed_dt is None:
-              raise RuntimeError("NOAA solar wind speed data has no valid timestamped row.")
-          if magnetic_row is None or magnetic_dt is None:
-              raise RuntimeError("NOAA magnetic field data has no valid timestamped row.")
-          if flux_row is None or flux_dt is None:
-              raise RuntimeError("NOAA 10cm flux data has no valid timestamped row.")
+          if solar_speed is None or solar_speed_dt is None:
+              raise RuntimeError(
+                  "NOAA solar-wind-speed data has no valid timestamped row."
+              )
 
-          if now_utc - solar_speed_dt > timedelta(hours=3):
-              raise RuntimeError("NOAA solar wind speed data is too old.")
-          if now_utc - magnetic_dt > timedelta(hours=3):
-              raise RuntimeError("NOAA magnetic field data is too old.")
-          if now_utc - flux_dt > timedelta(days=7):
-              raise RuntimeError("NOAA 10cm flux data is too old.")
+          if magnetic is None or magnetic_dt is None:
+              raise RuntimeError(
+                  "NOAA solar-wind-mag-field data has no valid timestamped row."
+              )
 
-          solar_speed = solar_speed_row
-          magnetic = magnetic_row
-          flux = flux_row
+          if flux is None or flux_dt is None:
+              raise RuntimeError(
+                  "NOAA 10cm flux data has no valid timestamped row."
+              )
 
 
           solar_wind = {
@@ -941,6 +966,17 @@ import urllib.error
                   )
               )
           }
+
+
+          for timestamp, name, limit in (
+              (solar_speed_dt, "Solar Wind", timedelta(hours=3)),
+              (magnetic_dt, "Magnetic Field", timedelta(hours=3)),
+              (flux_dt, "10cm Flux", timedelta(days=7))
+          ):
+              if now_utc - timestamp > limit:
+                  raise RuntimeError(
+                      name + " data is too old."
+                  )
 
 
           # ============================================================
@@ -1355,66 +1391,6 @@ import urllib.error
                       "https://cdn.star.nesdis.noaa.gov/"
                       "GOES18/ABI/CONUS/"
                       "GEOCOLOR/1250x750.jpg"
-              },
-              {
-                  "name":
-                      "NOAA GOES-19 SUVI 094",
-                  "source":
-                      "NOAA SUVI",
-                  "url":
-                      "https://services.swpc.noaa.gov/"
-                      "images/animations/suvi/"
-                      "primary/094/latest.png"
-              },
-              {
-                  "name":
-                      "NOAA GOES-19 SUVI 131",
-                  "source":
-                      "NOAA SUVI",
-                  "url":
-                      "https://services.swpc.noaa.gov/"
-                      "images/animations/suvi/"
-                      "primary/131/latest.png"
-              },
-              {
-                  "name":
-                      "NOAA GOES-19 SUVI 171",
-                  "source":
-                      "NOAA SUVI",
-                  "url":
-                      "https://services.swpc.noaa.gov/"
-                      "images/animations/suvi/"
-                      "primary/171/latest.png"
-              },
-              {
-                  "name":
-                      "NOAA GOES-19 SUVI 195",
-                  "source":
-                      "NOAA SUVI",
-                  "url":
-                      "https://services.swpc.noaa.gov/"
-                      "images/animations/suvi/"
-                      "primary/195/latest.png"
-              },
-              {
-                  "name":
-                      "NOAA GOES-19 SUVI 284",
-                  "source":
-                      "NOAA SUVI",
-                  "url":
-                      "https://services.swpc.noaa.gov/"
-                      "images/animations/suvi/"
-                      "primary/284/latest.png"
-              },
-              {
-                  "name":
-                      "NOAA GOES-19 SUVI 304",
-                  "source":
-                      "NOAA SUVI",
-                  "url":
-                      "https://services.swpc.noaa.gov/"
-                      "images/animations/suvi/"
-                      "primary/304/latest.png"
               }
           ]
 
@@ -1722,8 +1698,6 @@ import urllib.error
 
           now = datetime.now(timezone.utc)
 
-          generated_dt = parse_dt(data.get("generatedAt"))
-
           atmosphere = data.get("atmosphere")
           random_place = data.get("randomPlace")
           global_pulse = data.get("globalPulse")
@@ -1731,6 +1705,7 @@ import urllib.error
           images = data.get("images")
           media1 = data.get("mediaSignal1")
           media2 = data.get("mediaSignal2")
+          generated_dt = parse_dt(data.get("generatedAt"))
 
           require_dict(atmosphere, "Atmosphere data")
           require_dict(random_place, "Random Place data")
