@@ -1936,7 +1936,7 @@ jobs:
               global_pulse["seaSurface"]["display"]
           )
 
-          space = data.get("space")
+          space = world.get("space")
           if not isinstance(space, dict):
               raise RuntimeError("WORLD DATA space data is missing.")
 
