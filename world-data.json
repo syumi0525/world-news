@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:44:43.416571+00:00",
+  "generatedAt": "2026-09-15T13:57:28.560065+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 08.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:Borehole project 07.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_08.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_07.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFAC",
-    "station": "LFAC",
-    "lat": 50.962,
-    "lon": 1.955,
+    "name": "LZPP",
+    "station": "LZPP",
+    "lat": 48.613,
+    "lon": 17.832,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 16.0,
-    "windSpeed": 14.0,
-    "windDirection": 240.0,
+    "temperature": 24.0,
+    "dewpoint": 10.0,
+    "windSpeed": 4.0,
+    "windDirection": 320.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T13:30:00.000Z",
     "observationTimestamp": "2026-09-15T13:30:00+00:00",
-    "raw": "METAR LFAC 151330Z AUTO 24014KT 210V270 9999 SCT022/// BKN033/// BKN180/// 21/16 Q1015"
+    "raw": "METAR LZPP 151330Z 32004KT 240V030 CAVOK 24/10 Q1020"
   },
   "randomPlace": {
-    "name": "LPMR",
-    "station": "LPMR",
-    "lat": 39.831,
-    "lon": -8.887,
+    "name": "OIAI",
+    "station": "OIAI",
+    "lat": 32.001,
+    "lon": 49.27,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 15.0,
-    "windSpeed": 17.0,
-    "windDirection": 350.0,
+    "temperature": 42.0,
+    "dewpoint": 10.0,
+    "windSpeed": 8.0,
+    "windDirection": 260.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T13:00:00.000Z",
     "observationTimestamp": "2026-09-15T13:00:00+00:00",
-    "raw": "METAR LPMR 151300Z 35017KT 9999 FEW020 22/15 Q1023"
+    "raw": "METAR OIAI 151300Z 26008KT CAVOK 42/10 Q1005"
   },
   "globalPulse": {
     "population": {
-      "value": 8211152536,
-      "display": "8,211,152,536",
+      "value": 8211154062,
+      "display": "8,211,154,062",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T13:35:00Z",
-      "speed": 391.0
+      "time": "2026-09-15T13:51:00Z",
+      "speed": 379.0
     },
     "magneticField": {
-      "time": "2026-09-15T13:35:00Z",
+      "time": "2026-09-15T13:51:00Z",
       "bt": 16.0,
       "bz": 10.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T13:34:00Z",
-      "forecastTime": "2026-09-15T14:25:00Z"
+      "observationTime": "2026-09-15T13:51:00Z",
+      "forecastTime": "2026-09-15T14:46:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
