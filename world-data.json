@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:55:29.916735+00:00",
+  "generatedAt": "2026-09-15T18:09:56.648433+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:3D Point Cloud Overview of Milton S. Eisenhower Library, Johns Hopkins University.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Matthewadams66&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Matthewadams66 (page does not exist)\">Matthewadams66</a>",
+    "title": "File:A nude man poses in the formal garden of a privately owned chateau near Paris.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:The_Naked_Gentleman\" title=\"User:The Naked Gentleman\">The Naked Gentleman</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:3D_Point_Cloud_Overview_of_Milton_S._Eisenhower_Library%2C_Johns_Hopkins_University.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_nude_man_poses_in_the_formal_garden_of_a_privately_owned_chateau_near_Paris.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KIKK",
-    "station": "KIKK",
-    "lat": 41.0687,
-    "lon": -87.8537,
+    "name": "YMML",
+    "station": "YMML",
+    "lat": -37.666,
+    "lon": 144.832,
     "weather": "No coded weather",
-    "temperature": 29.9,
-    "dewpoint": 19.2,
+    "temperature": 6.0,
+    "dewpoint": 4.0,
     "windSpeed": 8.0,
     "windDirection": 220.0,
-    "visibility": "10+",
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T17:35:00.000Z",
-    "observationTimestamp": "2026-09-15T17:35:00+00:00",
-    "raw": "METAR KIKK 151735Z AUTO 22008KT 10SM CLR 30/19 A3008 RMK AO2 T02990192"
+    "observationTime": "2026-09-15T18:00:00.000Z",
+    "observationTimestamp": "2026-09-15T18:00:00+00:00",
+    "raw": "METAR YMML 151800Z AUTO 22008KT 9999 // FEW046 BKN056 06/04 Q1032"
   },
   "randomPlace": {
-    "name": "KISP",
-    "station": "KISP",
-    "lat": 40.7939,
-    "lon": -73.1018,
+    "name": "KVBT",
+    "station": "KVBT",
+    "lat": 36.3444,
+    "lon": -94.2211,
     "weather": "No coded weather",
-    "temperature": 20.6,
-    "dewpoint": 8.3,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 34.4,
+    "dewpoint": 21.1,
+    "windSpeed": 9.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T16:56:00.000Z",
-    "observationTimestamp": "2026-09-15T16:56:00+00:00",
-    "raw": "METAR KISP 151656Z 00000KT 10SM FEW045 SCT250 21/08 A3039 RMK AO2 SLP290 T02060083"
+    "observationTime": "2026-09-15T17:56:00.000Z",
+    "observationTimestamp": "2026-09-15T17:56:00+00:00",
+    "raw": "METAR KVBT 151756Z AUTO 20009KT 10SM CLR 34/21 A3012 RMK AO2 SLP184 T03440211 10344 20250 58002"
   },
   "globalPulse": {
     "population": {
-      "value": 8211182554,
-      "display": "8,211,182,554",
+      "value": 8211184300,
+      "display": "8,211,184,300",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-15T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.3,
-      "display": "Kp 2.3",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-15T12:00:00"
+      "time": "2026-09-15T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T17:46:00Z",
-      "speed": 439.0
+      "time": "2026-09-15T18:01:00Z",
+      "speed": 440.0
     },
     "magneticField": {
-      "time": "2026-09-15T17:46:00Z",
-      "bt": 16.0,
+      "time": "2026-09-15T18:01:00Z",
+      "bt": 14.0,
       "bz": 10.0
     },
     "kp": {
-      "time": "2026-09-15T12:00:00",
-      "kp": 2.33
+      "time": "2026-09-15T15:00:00",
+      "kp": 0.67
     },
     "aurora": {
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T17:44:00Z",
-      "forecastTime": "2026-09-15T18:52:00Z"
+      "observationTime": "2026-09-15T17:58:00Z",
+      "forecastTime": "2026-09-15T19:05:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
