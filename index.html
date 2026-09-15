@@ -440,6 +440,7 @@ body {
 
   <div class="grid">
 
+
     <!-- RANDOM PLACE / VERTICAL TWO-TILE AREA -->
     <section class="tile random-place-tile">
 
@@ -672,181 +673,65 @@ function renderGlobalPulse(data) {
 
 
   /*
-    world-data.json の globalPulse は
-    単純な文字列ではなく、
+    world-data.json の globalPulse に
+    以下の値を入れられる構造。
 
-    {
-      value: 数値,
-      display: "表示文字列",
-      source: "データ元"
-    }
-
-    のようなオブジェクトを使用する。
-
-    そのため、画面には display を優先して表示する。
+    population
+    co2
+    seaSurface
+    geomagnetic
+    dayNight
+    cloudCover
   */
-
-  function getDisplayValue(item) {
-
-    if (
-      item === null ||
-      item === undefined ||
-      item === ""
-    ) {
-      return "NO DATA";
-    }
-
-    if (
-      typeof item === "object"
-    ) {
-
-      if (
-        item.display !== undefined &&
-        item.display !== null &&
-        item.display !== ""
-      ) {
-        return item.display;
-      }
-
-      if (
-        item.value !== undefined &&
-        item.value !== null &&
-        item.value !== ""
-      ) {
-        return item.value;
-      }
-
-      return "NO DATA";
-    }
-
-    return item;
-
-  }
-
-
-  /*
-    DAY / NIGHTだけは、
-    現在のデータが
-    "50.0% DAY / 50.0% NIGHT"
-    のような形式でも、
-    画面上では小数点以下2桁にして
-    DAYとNIGHTを改行して表示する。
-  */
-
-  function formatDayNight(item) {
-
-    const value =
-      getDisplayValue(item);
-
-    if (
-      value === "NO DATA"
-    ) {
-      return {
-        text: "NO DATA",
-        html: false
-      };
-    }
-
-    const text =
-      String(value);
-
-    const match =
-      text.match(
-        /([\d.]+)\s*%\s*DAY\s*\/\s*([\d.]+)\s*%\s*NIGHT/i
-      );
-
-    if (match) {
-
-      const day =
-        Number(match[1]);
-
-      const night =
-        Number(match[2]);
-
-      if (
-        Number.isFinite(day) &&
-        Number.isFinite(night)
-      ) {
-
-        return {
-          text:
-            `${day.toFixed(2)}% DAY` +
-            `<br>` +
-            `${night.toFixed(2)}% NIGHT`,
-          html: true
-        };
-
-      }
-
-    }
-
-    return {
-      text: text,
-      html: false
-    };
-
-  }
-
-
-  const dayNight =
-    formatDayNight(
-      data.dayNight
-    );
-
 
   const items = [
 
     {
       label: "WORLD POPULATION",
       value:
-        getDisplayValue(
-          data.population
-        ),
-      html: false
+        data.population !== undefined
+          ? data.population
+          : "NO DATA"
     },
 
     {
       label: "CO₂",
       value:
-        getDisplayValue(
-          data.co2
-        ),
-      html: false
+        data.co2 !== undefined
+          ? data.co2
+          : "NO DATA"
     },
 
     {
       label: "SEA SURFACE",
       value:
-        getDisplayValue(
-          data.seaSurface
-        ),
-      html: false
+        data.seaSurface !== undefined
+          ? data.seaSurface
+          : "NO DATA"
     },
 
     {
       label: "GEOMAGNETIC",
       value:
-        getDisplayValue(
-          data.geomagnetic
-        ),
-      html: false
+        data.geomagnetic !== undefined
+          ? data.geomagnetic
+          : "NO DATA"
     },
 
     {
       label: "DAY / NIGHT",
       value:
-        dayNight.text,
-      html:
-        dayNight.html
+        data.dayNight !== undefined
+          ? data.dayNight
+          : "NO DATA"
     },
 
     {
       label: "CLOUD COVER",
       value:
-        getDisplayValue(
-          data.cloudCover
-        ),
-      html: false
+        data.cloudCover !== undefined
+          ? data.cloudCover
+          : "NO DATA"
     }
 
   ];
@@ -865,11 +750,7 @@ function renderGlobalPulse(data) {
           </div>
 
           <div class="global-pulse-value">
-            ${
-              item.html
-                ? item.value
-                : escapeHTML(item.value)
-            }
+            ${escapeHTML(item.value)}
           </div>
 
         </div>
@@ -1092,6 +973,9 @@ function renderSpaceWeather(space) {
   const flux =
     space.flux10cm;
 
+  const aurora =
+    space.aurora;
+
 
   let solarWindValue =
     "NO DATA";
@@ -1103,6 +987,9 @@ function renderSpaceWeather(space) {
     "NO DATA";
 
   let fluxValue =
+    "NO DATA";
+
+  let auroraValue =
     "NO DATA";
 
 
@@ -1188,6 +1075,20 @@ function renderSpaceWeather(space) {
   }
 
 
+  if (
+    aurora &&
+    aurora.display !==
+    undefined
+  ) {
+
+    auroraValue =
+      escapeHTML(
+        aurora.display
+      );
+
+  }
+
+
   let interplanetaryTime =
     "NO DATA";
 
@@ -1269,7 +1170,7 @@ function renderSpaceWeather(space) {
         </div>
 
         <div class="space-value">
-          NO DATA
+          ${auroraValue}
         </div>
 
       </div>
@@ -1594,6 +1495,7 @@ async function loadWorldData() {
     renderMediaSignal1(
       data
     );
+
 
     renderMediaSignal2(
       data
