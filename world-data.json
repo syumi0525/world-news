@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:10:37.536109+00:00",
+  "generatedAt": "2026-09-15T13:44:43.416571+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chou frisé vert à pied court.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Arn\" title=\"User:Arn\">Arn</a>",
+    "title": "File:Batiment aunsein de la Ville de Majunga 08.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chou_fris%C3%A9_vert_%C3%A0_pied_court.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_08.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFPG",
-    "station": "LFPG",
-    "lat": 49.015,
-    "lon": 2.534,
+    "name": "LFAC",
+    "station": "LFAC",
+    "lat": 50.962,
+    "lon": 1.955,
     "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 11.0,
-    "windSpeed": 10.0,
-    "windDirection": 260.0,
+    "temperature": 21.0,
+    "dewpoint": 16.0,
+    "windSpeed": 14.0,
+    "windDirection": 240.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T13:30:00.000Z",
+    "observationTimestamp": "2026-09-15T13:30:00+00:00",
+    "raw": "METAR LFAC 151330Z AUTO 24014KT 210V270 9999 SCT022/// BKN033/// BKN180/// 21/16 Q1015"
+  },
+  "randomPlace": {
+    "name": "LPMR",
+    "station": "LPMR",
+    "lat": 39.831,
+    "lon": -8.887,
+    "weather": "No coded weather",
+    "temperature": 22.0,
+    "dewpoint": 15.0,
+    "windSpeed": 17.0,
+    "windDirection": 350.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T13:00:00.000Z",
     "observationTimestamp": "2026-09-15T13:00:00+00:00",
-    "raw": "METAR LFPG 151300Z 26010KT 220V300 CAVOK 32/11 Q1015 NOSIG"
-  },
-  "randomPlace": {
-    "name": "VAOZ",
-    "station": "VAOZ",
-    "lat": 20.119,
-    "lon": 73.914,
-    "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 20.0,
-    "windSpeed": 5.0,
-    "windDirection": 270.0,
-    "visibility": "3.73",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-15T13:00:00.000Z",
-    "observationTimestamp": "2026-09-15T13:00:00+00:00",
-    "raw": "METAR VAOZ 151300Z 27005KT 6000 SCT040 SCT090 25/20 Q1013 NOSIG"
+    "raw": "METAR LPMR 151300Z 35017KT 9999 FEW020 22/15 Q1023"
   },
   "globalPulse": {
     "population": {
-      "value": 8211148448,
-      "display": "8,211,148,448",
+      "value": 8211152536,
+      "display": "8,211,152,536",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T13:03:00Z",
-      "speed": 583.0
+      "time": "2026-09-15T13:35:00Z",
+      "speed": 391.0
     },
     "magneticField": {
-      "time": "2026-09-15T13:03:00Z",
-      "bt": 12.0,
-      "bz": 1.0
+      "time": "2026-09-15T13:35:00Z",
+      "bt": 16.0,
+      "bz": 10.0
     },
     "kp": {
       "time": "2026-09-15T09:00:00",
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T13:00:00Z",
-      "forecastTime": "2026-09-15T13:48:00Z"
+      "observationTime": "2026-09-15T13:34:00Z",
+      "forecastTime": "2026-09-15T14:25:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
