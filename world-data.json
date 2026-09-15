@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T23:47:32.228343+00:00",
+  "generatedAt": "2026-09-15T23:57:16.164873+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 184525 Schätzl-Villa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "title": "File:A nude man poses in the formal garden of a privately owned chateau near Paris.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:The_Naked_Gentleman\" title=\"User:The Naked Gentleman\">The Naked Gentleman</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_184525_Sch%C3%A4tzl-Villa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_nude_man_poses_in_the_formal_garden_of_a_privately_owned_chateau_near_Paris.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EDTY",
-    "station": "EDTY",
-    "lat": 49.118,
-    "lon": 9.784,
+    "name": "K1K8",
+    "station": "K1K8",
+    "lat": 36.543,
+    "lon": -95.012,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 13.0,
-    "windSpeed": 3.0,
-    "windDirection": 80.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T23:20:00.000Z",
-    "observationTimestamp": "2026-09-15T23:20:00+00:00",
-    "raw": "METAR EDTY 152320Z AUTO 08003KT 9999 // BKN220/// 16/13 Q1015"
-  },
-  "randomPlace": {
-    "name": "KRSN",
-    "station": "KRSN",
-    "lat": 32.5159,
-    "lon": -92.5899,
-    "weather": "No coded weather",
-    "temperature": 32.5,
-    "dewpoint": 23.7,
-    "windSpeed": 5.0,
-    "windDirection": 130.0,
+    "temperature": 37.0,
+    "dewpoint": 20.0,
+    "windSpeed": 7.0,
+    "windDirection": 170.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T23:35:00.000Z",
     "observationTimestamp": "2026-09-15T23:35:00+00:00",
-    "raw": "METAR KRSN 152335Z AUTO 13005KT 10SM CLR 32/24 A3004 RMK AO2 T03250237 $"
+    "raw": "METAR K1K8 152335Z AUTO 17007KT 10SM SCT085 37/20 A2997 RMK AO2"
+  },
+  "randomPlace": {
+    "name": "KBDH",
+    "station": "KBDH",
+    "lat": 45.1111,
+    "lon": -95.1258,
+    "weather": "No coded weather",
+    "temperature": 19.0,
+    "dewpoint": 10.0,
+    "windSpeed": 5.0,
+    "windDirection": 330.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T23:35:00.000Z",
+    "observationTimestamp": "2026-09-15T23:35:00+00:00",
+    "raw": "METAR KBDH 152335Z AUTO 33005KT 10SM CLR 19/10 A3017 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211224718,
-      "display": "8,211,224,718",
+      "value": 8211225873,
+      "display": "8,211,225,873",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T23:39:00Z",
-      "speed": 524.0
+      "time": "2026-09-15T23:49:00Z",
+      "speed": 522.0
     },
     "magneticField": {
-      "time": "2026-09-15T23:39:00Z",
-      "bt": 11.0,
-      "bz": 8.0
+      "time": "2026-09-15T23:49:00Z",
+      "bt": 14.0,
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-15T18:00:00",
@@ -113,8 +113,8 @@
       "value": 60.0,
       "display": "MAX 60.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T23:34:00Z",
-      "forecastTime": "2026-09-16T00:34:00Z"
+      "observationTime": "2026-09-15T23:44:00Z",
+      "forecastTime": "2026-09-16T00:43:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
