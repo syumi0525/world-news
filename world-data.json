@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T19:12:55.732763+00:00",
+  "generatedAt": "2026-09-15T19:29:14.072329+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:30BY35 home plan by ER. AYUSH TOMAR 9997233546.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Erayushtomar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Erayushtomar (page does not exist)\">Erayushtomar</a>",
-    "license": "CC0",
+    "title": "File:1907 Hold on! Half time! A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:30BY35_home_plan_by_ER._AYUSH_TOMAR_9997233546.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1907_Hold_on%21_Half_time%21_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LELC",
-    "station": "LELC",
-    "lat": 37.775,
-    "lon": -0.812,
+    "name": "SBSC",
+    "station": "SBSC",
+    "lat": -22.932,
+    "lon": -43.719,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 19.0,
-    "windSpeed": 7.0,
-    "windDirection": 210.0,
+    "temperature": 21.0,
+    "dewpoint": 17.0,
+    "windSpeed": 9.0,
+    "windDirection": 190.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T19:00:00.000Z",
     "observationTimestamp": "2026-09-15T19:00:00+00:00",
-    "raw": "METAR LELC 151900Z 21007KT 170V240 CAVOK 25/19 Q1017 NOSIG"
+    "raw": "METAR SBSC 151900Z 19009KT 9999 FEW017 SCT025 OVC038 21/17 Q1016"
   },
   "randomPlace": {
-    "name": "K3T5",
-    "station": "K3T5",
-    "lat": 29.9064,
-    "lon": -96.9478,
+    "name": "KLLQ",
+    "station": "KLLQ",
+    "lat": 33.636,
+    "lon": -91.7555,
     "weather": "No coded weather",
-    "temperature": 36.0,
-    "dewpoint": 19.3,
-    "windSpeed": 5.0,
-    "windDirection": 200.0,
+    "temperature": 35.0,
+    "dewpoint": 22.8,
+    "windSpeed": 7.0,
+    "windDirection": 80.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T18:55:00.000Z",
-    "observationTimestamp": "2026-09-15T18:55:00+00:00",
-    "raw": "METAR K3T5 151855Z AUTO 20005KT 10SM CLR 36/19 A3004 RMK AO2 T03600193 $"
+    "observationTime": "2026-09-15T19:24:00.000Z",
+    "observationTimestamp": "2026-09-15T19:24:00+00:00",
+    "raw": "SPECI KLLQ 151924Z AUTO 08007KT 10SM CLR 35/23 A3008 RMK AO2 T03500228"
   },
   "globalPulse": {
     "population": {
-      "value": 8211191848,
-      "display": "8,211,191,848",
+      "value": 8211193802,
+      "display": "8,211,193,802",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T19:05:00Z",
-      "speed": 712.0
+      "time": "2026-09-15T19:22:00Z",
+      "speed": 644.0
     },
     "magneticField": {
-      "time": "2026-09-15T19:05:00Z",
-      "bt": 5.0,
-      "bz": 1.0
+      "time": "2026-09-15T19:22:00Z",
+      "bt": 10.0,
+      "bz": -5.0
     },
     "kp": {
       "time": "2026-09-15T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 43.0,
-      "display": "MAX 43.0%",
+      "value": 67.0,
+      "display": "MAX 67.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T19:05:00Z",
-      "forecastTime": "2026-09-15T19:46:00Z"
+      "observationTime": "2026-09-15T19:19:00Z",
+      "forecastTime": "2026-09-15T19:59:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
