@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:38:49.319140+00:00",
+  "generatedAt": "2026-09-15T20:50:59.180546+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A creek meanders through the maritime forest.jpg",
-    "artist": "Hillebrand Steve, U.S. Fish and Wildlife Service",
-    "license": "Public domain",
+    "title": "File:Boulder in snowy mountains.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AdvaitaMakaranda&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AdvaitaMakaranda (page does not exist)\">AdvaitaMakaranda</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_creek_meanders_through_the_maritime_forest.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Boulder_in_snowy_mountains.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBNW",
-    "station": "KBNW",
-    "lat": 42.0486,
-    "lon": -93.8486,
+    "name": "KMSY",
+    "station": "KMSY",
+    "lat": 29.9974,
+    "lon": -90.2777,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 15.0,
-    "windSpeed": 9.0,
-    "windDirection": 340.0,
+    "temperature": 33.3,
+    "dewpoint": 21.7,
+    "windSpeed": null,
+    "windDirection": null,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T20:15:00.000Z",
-    "observationTimestamp": "2026-09-15T20:15:00+00:00",
-    "raw": "METAR KBNW 152015Z AUTO 34009KT 10SM CLR 18/15 A3011 RMK AO2"
+    "observationTime": "2026-09-15T19:53:00.000Z",
+    "observationTimestamp": "2026-09-15T19:53:00+00:00",
+    "raw": "METAR KMSY 151953Z 10SM FEW035 SCT250 33/22 A3008 RMK AO2 SLP189 CB DSNT SE T03330217"
   },
   "randomPlace": {
-    "name": "KEMT",
-    "station": "KEMT",
-    "lat": 34.0883,
-    "lon": -118.0342,
+    "name": "KCGI",
+    "station": "KCGI",
+    "lat": 37.2254,
+    "lon": -89.5785,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 15.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 36.1,
+    "dewpoint": 21.7,
+    "windSpeed": 7.0,
+    "windDirection": 210.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T19:45:00.000Z",
-    "observationTimestamp": "2026-09-15T19:45:00+00:00",
-    "raw": "METAR KEMT 151945Z 00000KT 10SM CLR 26/15 A2993"
+    "observationTime": "2026-09-15T19:53:00.000Z",
+    "observationTimestamp": "2026-09-15T19:53:00+00:00",
+    "raw": "METAR KCGI 151953Z 21007KT 10SM CLR 36/22 A3008 RMK AO2 SLP180 T03610217"
   },
   "globalPulse": {
     "population": {
-      "value": 8211202132,
-      "display": "8,211,202,132",
+      "value": 8211203590,
+      "display": "8,211,203,590",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T20:31:00Z",
-      "speed": 499.0
+      "time": "2026-09-15T20:41:00Z",
+      "speed": 523.0
     },
     "magneticField": {
-      "time": "2026-09-15T20:31:00Z",
-      "bt": 14.0,
-      "bz": -9.0
+      "time": "2026-09-15T20:41:00Z",
+      "bt": 13.0,
+      "bz": -6.0
     },
     "kp": {
       "time": "2026-09-15T15:00:00",
@@ -113,12 +113,12 @@
       "value": 100.0,
       "display": "MAX 100.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T20:28:00Z",
-      "forecastTime": "2026-09-15T21:25:00Z"
+      "observationTime": "2026-09-15T20:41:00Z",
+      "forecastTime": "2026-09-15T21:35:00Z"
     },
     "flux10cm": {
-      "time": "2026-09-14T20:00:00",
-      "flux": 104.0
+      "time": "2026-09-15T20:00:00",
+      "flux": 107.0
     }
   }
 }
