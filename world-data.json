@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:09:59.792799+00:00",
+  "generatedAt": "2026-09-15T20:30:26.809107+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brûlé Lake from Mount Solomon Lookout.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
-    "license": "CC0",
+    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
+    "artist": "Gardner, Alexander, 1821-1882",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Br%C3%BBl%C3%A9_Lake_from_Mount_Solomon_Lookout.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KOWB",
-    "station": "KOWB",
-    "lat": 37.7297,
-    "lon": -87.1683,
+    "name": "K4O4",
+    "station": "K4O4",
+    "lat": 33.9134,
+    "lon": -94.8546,
     "weather": "No coded weather",
-    "temperature": 36.1,
-    "dewpoint": 20.6,
-    "windSpeed": 11.0,
-    "windDirection": 270.0,
-    "visibility": "10+",
+    "temperature": 36.0,
+    "dewpoint": 21.0,
+    "windSpeed": 8.0,
+    "windDirection": 190.0,
+    "visibility": "7",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T19:56:00.000Z",
-    "observationTimestamp": "2026-09-15T19:56:00+00:00",
-    "raw": "METAR KOWB 151956Z 27011KT 10SM SCT070 36/21 A3011 RMK AO2 SLP193 T03610206"
+    "observationTime": "2026-09-15T20:15:00.000Z",
+    "observationTimestamp": "2026-09-15T20:15:00+00:00",
+    "raw": "METAR K4O4 152015Z AUTO 19008G15KT 7SM SCT070 SCT075 36/21 A3004 RMK AO2"
   },
   "randomPlace": {
-    "name": "YMAV",
-    "station": "YMAV",
-    "lat": -38.029,
-    "lon": 144.478,
+    "name": "DTTK",
+    "station": "DTTK",
+    "lat": 35.667,
+    "lon": 10.1,
     "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": 5.0,
-    "windSpeed": 9.0,
-    "windDirection": 220.0,
+    "temperature": 27.0,
+    "dewpoint": 17.0,
+    "windSpeed": 4.0,
+    "windDirection": 50.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T20:00:00.000Z",
     "observationTimestamp": "2026-09-15T20:00:00+00:00",
-    "raw": "METAR YMAV 152000Z AUTO 22009KT 9999 // FEW026 SCT034 BKN043 07/05 Q1034"
+    "raw": "METAR DTTK 152000Z 05004KT 330V100 9999 FEW023 27/17 Q1018"
   },
   "globalPulse": {
     "population": {
-      "value": 8211198670,
-      "display": "8,211,198,670",
+      "value": 8211200484,
+      "display": "8,211,200,484",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -75,7 +75,7 @@
       "display": "22.08 °C",
       "source": "NOAA ACSPO Global SST (area-weighted sample)",
       "dataset": "ACSPO_LEO_L3S_nrt",
-      "endpoint": "NOAA OceanWatch ACSPO NRT"
+      "endpoint": "NOAA CoastWatch ACSPO NRT"
     },
     "dayNight": {
       "value": 0.5,
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T20:01:00Z",
-      "speed": 489.0
+      "time": "2026-09-15T20:23:00Z",
+      "speed": 519.0
     },
     "magneticField": {
-      "time": "2026-09-15T20:01:00Z",
+      "time": "2026-09-15T20:23:00Z",
       "bt": 14.0,
-      "bz": -12.0
+      "bz": -9.0
     },
     "kp": {
       "time": "2026-09-15T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 70.0,
-      "display": "MAX 70.0%",
+      "value": 100.0,
+      "display": "MAX 100.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T19:58:00Z",
-      "forecastTime": "2026-09-15T20:48:00Z"
+      "observationTime": "2026-09-15T20:18:00Z",
+      "forecastTime": "2026-09-15T21:14:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
