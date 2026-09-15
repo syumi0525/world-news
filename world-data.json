@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T21:47:48.604890+00:00",
+  "generatedAt": "2026-09-15T21:57:24.602646+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:1907 Hold on! Half time! A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Cloudpeak.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Akashpandey91\" title=\"User:Akashpandey91\">Akashpandey91</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:1907_Hold_on%21_Half_time%21_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cloudpeak.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ESNV",
-    "station": "ESNV",
-    "lat": 64.579,
-    "lon": 16.839,
-    "weather": "-DZ -RA",
-    "temperature": 11.0,
-    "dewpoint": 10.0,
-    "windSpeed": 7.0,
-    "windDirection": 130.0,
-    "visibility": "6+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-15T21:20:00.000Z",
-    "observationTimestamp": "2026-09-15T21:20:00+00:00",
-    "raw": "METAR ESNV 152120Z AUTO 13007KT 100V170 9999 -DZRA OVC005/// 11/10 Q1001 REDZ"
+    "name": "LSMP",
+    "station": "LSMP",
+    "lat": 46.844,
+    "lon": 6.916,
+    "weather": "No coded weather",
+    "temperature": 19.0,
+    "dewpoint": 13.0,
+    "windSpeed": 5.0,
+    "windDirection": 200.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-15T21:50:00.000Z",
+    "observationTimestamp": "2026-09-15T21:50:00+00:00",
+    "raw": "METAR LSMP 152150Z AUTO 20005KT 160V230 9999NDV FEW086 19/13 Q1018 RMK"
   },
   "randomPlace": {
-    "name": "KAMN",
-    "station": "KAMN",
-    "lat": 43.3209,
-    "lon": -84.6871,
+    "name": "DGSI",
+    "station": "DGSI",
+    "lat": 6.715,
+    "lon": -1.591,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 18.0,
-    "windSpeed": 10.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
+    "temperature": 27.0,
+    "dewpoint": 25.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T21:35:00.000Z",
-    "observationTimestamp": "2026-09-15T21:35:00+00:00",
-    "raw": "METAR KAMN 152135Z AUTO 20010KT 10SM FEW022 22/18 A3007 RMK AO2"
+    "observationTime": "2026-09-15T21:00:00.000Z",
+    "observationTimestamp": "2026-09-15T21:00:00+00:00",
+    "raw": "METAR DGSI 152100Z 00000KT 9999 FEW012 FEW030CB 27/25 Q1016 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211210394,
-      "display": "8,211,210,394",
+      "value": 8211211536,
+      "display": "8,211,211,536",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T21:38:00Z",
-      "speed": 389.0
+      "time": "2026-09-15T21:48:00Z",
+      "speed": 462.0
     },
     "magneticField": {
-      "time": "2026-09-15T21:38:00Z",
+      "time": "2026-09-15T21:48:00Z",
       "bt": 13.0,
-      "bz": 5.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-15T18:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 75.0,
-      "display": "MAX 75.0%",
+      "value": 72.0,
+      "display": "MAX 72.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T21:40:00Z",
-      "forecastTime": "2026-09-15T22:37:00Z"
+      "observationTime": "2026-09-15T21:45:00Z",
+      "forecastTime": "2026-09-15T22:43:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
