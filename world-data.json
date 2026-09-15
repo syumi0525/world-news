@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T21:37:34.276456+00:00",
+  "generatedAt": "2026-09-15T21:47:48.604890+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Dalam kelopak air.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:EdayatiSelamat&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:EdayatiSelamat (page does not exist)\">EdayatiSelamat</a>",
-    "license": "CC0",
+    "title": "File:1907 Hold on! Half time! A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Dalam_kelopak_air.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1907_Hold_on%21_Half_time%21_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MMLP",
-    "station": "MMLP",
-    "lat": 24.077,
-    "lon": -110.364,
+    "name": "ESNV",
+    "station": "ESNV",
+    "lat": 64.579,
+    "lon": 16.839,
+    "weather": "-DZ -RA",
+    "temperature": 11.0,
+    "dewpoint": 10.0,
+    "windSpeed": 7.0,
+    "windDirection": 130.0,
+    "visibility": "6+",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-15T21:20:00.000Z",
+    "observationTimestamp": "2026-09-15T21:20:00+00:00",
+    "raw": "METAR ESNV 152120Z AUTO 13007KT 100V170 9999 -DZRA OVC005/// 11/10 Q1001 REDZ"
+  },
+  "randomPlace": {
+    "name": "KAMN",
+    "station": "KAMN",
+    "lat": 43.3209,
+    "lon": -84.6871,
     "weather": "No coded weather",
-    "temperature": 34.0,
-    "dewpoint": 24.0,
-    "windSpeed": 6.0,
+    "temperature": 22.0,
+    "dewpoint": 18.0,
+    "windSpeed": 10.0,
     "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T20:40:00.000Z",
-    "observationTimestamp": "2026-09-15T20:40:00+00:00",
-    "raw": "METAR MMLP 152040Z 20006KT 10SM SCT030 SCT100 BKN200 34/24 A2991 RMK SLP125 57017 926 8/838"
-  },
-  "randomPlace": {
-    "name": "PHNY",
-    "station": "PHNY",
-    "lat": 20.783,
-    "lon": -156.955,
-    "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 21.0,
-    "windSpeed": 5.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-15T21:14:00.000Z",
-    "observationTimestamp": "2026-09-15T21:14:00+00:00",
-    "raw": "SPECI PHNY 152114Z AUTO VRB05KT 10SM BKN026 27/21 A2998 RMK AO2 $"
+    "observationTime": "2026-09-15T21:35:00.000Z",
+    "observationTimestamp": "2026-09-15T21:35:00+00:00",
+    "raw": "METAR KAMN 152135Z AUTO 20010KT 10SM FEW022 22/18 A3007 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211209167,
-      "display": "8,211,209,167",
+      "value": 8211210394,
+      "display": "8,211,210,394",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T21:29:00Z",
-      "speed": 425.0
+      "time": "2026-09-15T21:38:00Z",
+      "speed": 389.0
     },
     "magneticField": {
-      "time": "2026-09-15T21:29:00Z",
+      "time": "2026-09-15T21:38:00Z",
       "bt": 13.0,
       "bz": 5.0
     },
@@ -110,11 +110,11 @@
       "kp": 2.0
     },
     "aurora": {
-      "value": 100.0,
-      "display": "MAX 100.0%",
+      "value": 75.0,
+      "display": "MAX 75.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T21:23:00Z",
-      "forecastTime": "2026-09-15T22:20:00Z"
+      "observationTime": "2026-09-15T21:40:00Z",
+      "forecastTime": "2026-09-15T22:37:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
