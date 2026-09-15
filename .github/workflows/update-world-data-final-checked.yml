@@ -16,6 +16,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install GRIB reader
+        run: |
+          python -m pip install --disable-pip-version-check --no-input --quiet eccodes
+
       - name: Update WORLD NEWS
         run: |
           python - <<'PY'
@@ -985,136 +989,165 @@ jobs:
           # ------------------------------------------------------------
           # CLOUD COVER
           #
-          # NOAA/NCEI PATMOS-x Cloud Properties CDR.
-          # The CDR is global and provides cloud_fraction on a 0.1-degree
-          # grid. Query the latest available descending-pass aggregation
-          # through NOAA's NetCDF Subset Service and calculate an
-          # area-weighted global mean from valid 0..1 values.
+          # NOAA/NCEP GFS global Total Cloud Cover (TCDC).
+          # This is the current operational global model field, downloaded
+          # from NOAA/NCEP NOMADS at 1-degree resolution.  The value shown
+          # here is the cosine(latitude)-weighted global mean of the actual
+          # TCDC field from the newest available analysis cycle.
           # ------------------------------------------------------------
 
-          cloud_ncss_url = (
-              "https://www.ncei.noaa.gov/thredds/ncss/grid/"
-              "avhrr-patmos-x-cloudprops-prelim-metop-asc-fc/"
-              "PATMOS-X_Cloud_Properties%3A_Preliminary_Data_Aggregation%2C_METOP_ascending_best.ncd"
-          )
+          import eccodes
 
-          cloud_start = (
-              now_utc - timedelta(days=3)
-          ).strftime("%Y-%m-%dT%H:%M:%SZ")
-          cloud_end = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+          def previous_gfs_cycles(base_dt, count=8):
+              cycles = []
+              cursor = base_dt.replace(minute=0, second=0, microsecond=0)
+              cursor -= timedelta(hours=cursor.hour % 6)
+              for _ in range(count):
+                  cycles.append(cursor)
+                  cursor -= timedelta(hours=6)
+              return cycles
 
-          cloud_query = urllib.parse.urlencode({
-              "var": "cloud_fraction",
-              "north": "90",
-              "west": "-180",
-              "east": "180",
-              "south": "-90",
-              "horizStride": "20",
-              "time_start": cloud_start,
-              "time_end": cloud_end,
-              "timeStride": "1",
-              "accept": "csv"
-          })
+          cloud_grib = None
+          cloud_cycle = None
+          cloud_url = None
 
-          cloud_raw = fetch_bytes(
-              cloud_ncss_url + "?" + cloud_query,
-              timeout=180,
-              attempts=6
-          ).decode("utf-8", "replace")
-
-          cloud_reader = csv.DictReader(
-              io.StringIO(cloud_raw)
-          )
-
-          cloud_rows = list(cloud_reader)
-
-          if not cloud_rows:
-              raise RuntimeError(
-                  "NOAA PATMOS-x returned no cloud-fraction rows."
+          for cycle_dt in previous_gfs_cycles(now_utc, count=8):
+              date_part = cycle_dt.strftime("%Y%m%d")
+              hour_part = cycle_dt.strftime("%H")
+              file_name = f"gfs.t{hour_part}z.pgrb2.1p00.f000"
+              cloud_url_candidate = (
+                  "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_1p00.pl?"
+                  + urllib.parse.urlencode({
+                      "file": file_name,
+                      "lev_entire_atmos_on": "on",
+                      "var_TCDC": "on",
+                      "subregion": "",
+                      "leftlon": "0",
+                      "rightlon": "359",
+                      "toplat": "90",
+                      "bottomlat": "-90",
+                      "dir": f"/gfs.{date_part}/{hour_part}/atmos",
+                  })
               )
 
-          time_key = next(
-              (key for key in ("time", "Time") if key in cloud_rows[0]),
-              None
-          )
-          lat_key = next(
-              (key for key in ("latitude", "lat", "Latitude") if key in cloud_rows[0]),
-              None
-          )
-          lon_key = next(
-              (key for key in ("longitude", "lon", "Longitude") if key in cloud_rows[0]),
-              None
-          )
-          cloud_key = next(
-              (key for key in ("cloud_fraction", "Cloud_Fraction") if key in cloud_rows[0]),
-              None
-          )
-
-          if not all((time_key, lat_key, lon_key, cloud_key)):
-              raise RuntimeError(
-                  "NOAA PATMOS-x CSV is missing required columns."
-              )
-
-          valid_cloud_rows = []
-          latest_cloud_time = None
-
-          for row in cloud_rows:
               try:
-                  value = float(row[cloud_key])
-                  lat = float(row[lat_key])
-                  lon = float(row[lon_key])
-              except (TypeError, ValueError):
-                  continue
+                  print(
+                      "FETCHING GFS CLOUD COVER:",
+                      date_part,
+                      hour_part + "Z"
+                  )
+                  candidate_bytes = fetch_bytes(
+                      cloud_url_candidate,
+                      timeout=120,
+                      attempts=3
+                  )
+                  if candidate_bytes[:4] == b"GRIB":
+                      cloud_grib = candidate_bytes
+                      cloud_cycle = cycle_dt
+                      cloud_url = cloud_url_candidate
+                      break
+                  print("GFS cloud response was not GRIB; trying older cycle.")
+              except urllib.error.HTTPError as exc:
+                  if exc.code == 404:
+                      print(
+                          "GFS cycle not available:",
+                          date_part,
+                          hour_part + "Z"
+                      )
+                      continue
+                  raise
 
-              if not (0.0 <= value <= 1.0):
-                  continue
-              if not (-90.0 <= lat <= 90.0):
-                  continue
-              if not (-180.0 <= lon <= 180.0):
-                  continue
-
-              timestamp = row[time_key].strip()
-              valid_cloud_rows.append((timestamp, lat, value))
-
-              if latest_cloud_time is None or timestamp > latest_cloud_time:
-                  latest_cloud_time = timestamp
-
-          if not valid_cloud_rows or latest_cloud_time is None:
+          if cloud_grib is None or cloud_cycle is None:
               raise RuntimeError(
-                  "NOAA PATMOS-x returned no valid cloud-fraction values."
+                  "NOAA/NCEP GFS cloud-cover analysis could not be downloaded."
               )
 
-          latest_rows = [
-              item for item in valid_cloud_rows
-              if item[0] == latest_cloud_time
-          ]
+          cloud_stream = io.BytesIO(cloud_grib)
+          gid = eccodes.codes_grib_new_from_file(cloud_stream)
+          if gid is None:
+              raise RuntimeError(
+                  "NOAA/NCEP GFS cloud-cover response contained no GRIB message."
+              )
 
+          try:
+              short_name = eccodes.codes_get(gid, "shortName")
+              if str(short_name).upper() != "TCDC":
+                  raise RuntimeError(
+                      "NOAA/NCEP GFS response is not the TCDC field: "
+                      + str(short_name)
+                  )
+
+              values = eccodes.codes_get_array(gid, "values")
+              ni = int(eccodes.codes_get(gid, "Ni"))
+              nj = int(eccodes.codes_get(gid, "Nj"))
+              lat_first = float(
+                  eccodes.codes_get(
+                      gid, "latitudeOfFirstGridPointInDegrees"
+                  )
+              )
+              lat_last = float(
+                  eccodes.codes_get(
+                      gid, "latitudeOfLastGridPointInDegrees"
+                  )
+              )
+              try:
+                  missing = float(
+                      eccodes.codes_get(gid, "missingValue")
+                  )
+              except Exception:
+                  missing = None
+          finally:
+              eccodes.codes_release(gid)
+
+          if ni <= 0 or nj <= 0 or len(values) != ni * nj:
+              raise RuntimeError(
+                  "NOAA/NCEP GFS TCDC grid dimensions are invalid."
+              )
+
+          # GFS TCDC is percent cloud cover (0..100).  Average the
+          # grid using spherical-area weighting by latitude.
           cloud_weighted_sum = 0.0
           cloud_weight_sum = 0.0
 
-          for _, lat, value in latest_rows:
-              weight = math.cos(
-                  math.radians(lat)
-              )
+          for j in range(nj):
+              if nj == 1:
+                  lat = lat_first
+              else:
+                  lat = lat_first + (lat_last - lat_first) * j / (nj - 1)
+              weight = math.cos(math.radians(lat))
               if weight <= 0.0:
                   continue
-              cloud_weighted_sum += value * weight
-              cloud_weight_sum += weight
+
+              row_start = j * ni
+              row_end = row_start + ni
+              for raw_value in values[row_start:row_end]:
+                  value = float(raw_value)
+                  if not math.isfinite(value):
+                      continue
+                  if missing is not None and value == missing:
+                      continue
+                  if not (0.0 <= value <= 100.0):
+                      continue
+                  cloud_weighted_sum += value * weight
+                  cloud_weight_sum += weight
 
           if cloud_weight_sum <= 0.0:
               raise RuntimeError(
-                  "NOAA PATMOS-x cloud-fraction weights are empty."
+                  "NOAA/NCEP GFS TCDC contained no valid cloud-cover values."
               )
 
           cloud_cover_value = round(
-              cloud_weighted_sum / cloud_weight_sum * 100.0,
+              cloud_weighted_sum / cloud_weight_sum,
               1
           )
+          latest_cloud_time = cloud_cycle.strftime("%Y-%m-%dT%H:%M:%SZ")
 
           print(
               "CLOUD COVER:",
               cloud_cover_value,
-              "%"
+              "%",
+              "source cycle:",
+              latest_cloud_time
           )
 
 
@@ -1264,13 +1297,16 @@ jobs:
 
               "cloudCover": {
                   "value":
-                      None,
+                      cloud_cover_value,
 
                   "display":
-                      "NO DATA",
+                      f"{cloud_cover_value:.1f}%",
 
                   "source":
-                      "No validated global near-real-time cloud fraction source"
+                      "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
+
+                  "time":
+                      latest_cloud_time
               },
 
 
