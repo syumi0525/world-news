@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:09:56.648433+00:00",
+  "generatedAt": "2026-09-15T18:27:21.668467+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A nude man poses in the formal garden of a privately owned chateau near Paris.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:The_Naked_Gentleman\" title=\"User:The Naked Gentleman\">The Naked Gentleman</a>",
+    "title": "File:The picture shows a dry ,rocky with small plant and banana trees growing around aroded soil.At jikoki pape Abuja Nigeria.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sadeeeya3430&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sadeeeya3430 (page does not exist)\">Sadeeeya3430</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_nude_man_poses_in_the_formal_garden_of_a_privately_owned_chateau_near_Paris.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:The_picture_shows_a_dry_%2Crocky_with_small_plant_and_banana_trees_growing_around_aroded_soil.At_jikoki_pape_Abuja_Nigeria.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "YMML",
-    "station": "YMML",
-    "lat": -37.666,
-    "lon": 144.832,
+    "name": "KF95",
+    "station": "KF95",
+    "lat": 30.4881,
+    "lon": -85.1148,
     "weather": "No coded weather",
-    "temperature": 6.0,
-    "dewpoint": 4.0,
-    "windSpeed": 8.0,
-    "windDirection": 220.0,
-    "visibility": "6+",
+    "temperature": 35.0,
+    "dewpoint": 23.0,
+    "windSpeed": 11.0,
+    "windDirection": 100.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T17:55:00.000Z",
+    "observationTimestamp": "2026-09-15T17:55:00+00:00",
+    "raw": "METAR KF95 151755Z AUTO 10011KT 10SM CLR 35/23 A3011 RMK AO2"
+  },
+  "randomPlace": {
+    "name": "CYFO",
+    "station": "CYFO",
+    "lat": 54.678,
+    "lon": -101.68,
+    "weather": "No coded weather",
+    "temperature": 10.0,
+    "dewpoint": 1.0,
+    "windSpeed": 7.0,
+    "windDirection": 300.0,
+    "visibility": "15",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T18:00:00.000Z",
     "observationTimestamp": "2026-09-15T18:00:00+00:00",
-    "raw": "METAR YMML 151800Z AUTO 22008KT 9999 // FEW046 BKN056 06/04 Q1032"
-  },
-  "randomPlace": {
-    "name": "KVBT",
-    "station": "KVBT",
-    "lat": 36.3444,
-    "lon": -94.2211,
-    "weather": "No coded weather",
-    "temperature": 34.4,
-    "dewpoint": 21.1,
-    "windSpeed": 9.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T17:56:00.000Z",
-    "observationTimestamp": "2026-09-15T17:56:00+00:00",
-    "raw": "METAR KVBT 151756Z AUTO 20009KT 10SM CLR 34/21 A3012 RMK AO2 SLP184 T03440211 10344 20250 58002"
+    "raw": "METAR CYFO 151800Z 30007G17KT 250V010 15SM BKN038 10/01 A2999 RMK SC5 SLP166"
   },
   "globalPulse": {
     "population": {
-      "value": 8211184300,
-      "display": "8,211,184,300",
+      "value": 8211186395,
+      "display": "8,211,186,395",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T18:01:00Z",
-      "speed": 440.0
+      "time": "2026-09-15T18:18:00Z",
+      "speed": 568.0
     },
     "magneticField": {
-      "time": "2026-09-15T18:01:00Z",
-      "bt": 14.0,
+      "time": "2026-09-15T18:20:00Z",
+      "bt": 11.0,
       "bz": 10.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T17:58:00Z",
-      "forecastTime": "2026-09-15T19:05:00Z"
+      "observationTime": "2026-09-15T18:20:00Z",
+      "forecastTime": "2026-09-15T19:21:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
