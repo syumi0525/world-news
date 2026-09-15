@@ -30,6 +30,7 @@ jobs:
           import re
           import urllib.parse
           import urllib.request
+import urllib.error
           from datetime import datetime, timezone, timedelta
 
 
@@ -849,17 +850,35 @@ jobs:
               return None
 
 
-          solar_speed = latest_row(
+          solar_speed_row, solar_speed_dt = latest_row(
               solar_speed_raw
           )
 
-          magnetic = latest_row(
+          magnetic_row, magnetic_dt = latest_row(
               magnetic_raw
           )
 
-          flux = latest_row(
+          flux_row, flux_dt = latest_row(
               flux_raw
           )
+
+          if solar_speed_row is None or solar_speed_dt is None:
+              raise RuntimeError("NOAA solar wind speed data has no valid timestamped row.")
+          if magnetic_row is None or magnetic_dt is None:
+              raise RuntimeError("NOAA magnetic field data has no valid timestamped row.")
+          if flux_row is None or flux_dt is None:
+              raise RuntimeError("NOAA 10cm flux data has no valid timestamped row.")
+
+          if now_utc - solar_speed_dt > timedelta(hours=3):
+              raise RuntimeError("NOAA solar wind speed data is too old.")
+          if now_utc - magnetic_dt > timedelta(hours=3):
+              raise RuntimeError("NOAA magnetic field data is too old.")
+          if now_utc - flux_dt > timedelta(days=7):
+              raise RuntimeError("NOAA 10cm flux data is too old.")
+
+          solar_speed = solar_speed_row
+          magnetic = magnetic_row
+          flux = flux_row
 
 
           solar_wind = {
@@ -1702,6 +1721,8 @@ jobs:
                   return None
 
           now = datetime.now(timezone.utc)
+
+          generated_dt = parse_dt(data.get("generatedAt"))
 
           atmosphere = data.get("atmosphere")
           random_place = data.get("randomPlace")
