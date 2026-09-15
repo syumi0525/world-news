@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:21:01.718609+00:00",
+  "generatedAt": "2026-09-15T17:28:34.880081+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brume matinale (44974906495).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
-    "license": "Public domain",
+    "title": "File:Boulder in snowy mountains.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AdvaitaMakaranda&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AdvaitaMakaranda (page does not exist)\">AdvaitaMakaranda</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Brume_matinale_%2844974906495%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Boulder_in_snowy_mountains.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KWBF",
-    "station": "KWBF",
-    "lat": 26.9305,
-    "lon": -90.5069,
+    "name": "PADL",
+    "station": "PADL",
+    "lat": 59.04,
+    "lon": -158.507,
     "weather": "No coded weather",
-    "temperature": 31.0,
-    "dewpoint": 25.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 10.0,
+    "dewpoint": 8.9,
+    "windSpeed": 13.0,
+    "windDirection": 210.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-15T16:56:00.000Z",
+    "observationTimestamp": "2026-09-15T16:56:00+00:00",
+    "raw": "METAR PADL 151656Z 21013G18KT 10SM BKN025 10/09 A2985 RMK AO2 SLP111 T01000089"
+  },
+  "randomPlace": {
+    "name": "KF17",
+    "station": "KF17",
+    "lat": 31.8277,
+    "lon": -94.154,
+    "weather": "No coded weather",
+    "temperature": 33.0,
+    "dewpoint": 23.0,
+    "windSpeed": 5.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T17:15:00.000Z",
     "observationTimestamp": "2026-09-15T17:15:00+00:00",
-    "raw": "METAR KWBF 151715Z AUTO 00000KT 10SM CLR 31/25 A3012 RMK A01"
-  },
-  "randomPlace": {
-    "name": "HLLM",
-    "station": "HLLM",
-    "lat": 32.894,
-    "lon": 13.276,
-    "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 17.0,
-    "windSpeed": 2.0,
-    "windDirection": 120.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-15T17:00:00.000Z",
-    "observationTimestamp": "2026-09-15T17:00:00+00:00",
-    "raw": "METAR HLLM 151700Z 12002KT NSC 28/17 Q1016"
+    "raw": "METAR KF17 151715Z AUTO 20005KT 10SM BKN044 33/23 A3011 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211178442,
-      "display": "8,211,178,442",
+      "value": 8211179362,
+      "display": "8,211,179,362",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T17:12:00Z",
-      "speed": 369.0
+      "time": "2026-09-15T17:22:00Z",
+      "speed": 454.0
     },
     "magneticField": {
-      "time": "2026-09-15T17:12:00Z",
+      "time": "2026-09-15T17:22:00Z",
       "bt": 17.0,
-      "bz": 9.0
+      "bz": 7.0
     },
     "kp": {
       "time": "2026-09-15T12:00:00",
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T17:09:00Z",
-      "forecastTime": "2026-09-15T18:19:00Z"
+      "observationTime": "2026-09-15T17:19:00Z",
+      "forecastTime": "2026-09-15T18:29:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
