@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T09:36:35.678962+00:00",
+  "generatedAt": "2026-09-15T12:12:13.124042+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ballard locks fish ladder east entrance.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ursacascadia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ursacascadia (page does not exist)\">Ursacascadia</a>",
-    "license": "CC0",
+    "title": "File:Danau Tigi - Deiyai.jpg",
+    "artist": "Government of Deiyai, Indonesia",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ballard_locks_fish_ladder_east_entrance.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYYJ",
-    "station": "CYYJ",
-    "lat": 48.642,
-    "lon": -123.433,
+    "name": "KMMT",
+    "station": "KMMT",
+    "lat": 33.922,
+    "lon": -80.802,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 11.0,
-    "windSpeed": 5.0,
-    "windDirection": 260.0,
-    "visibility": "20",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T09:00:00.000Z",
-    "observationTimestamp": "2026-09-15T09:00:00+00:00",
-    "raw": "METAR CYYJ 150900Z 26005KT 20SM BKN052 OVC160 14/11 A3003 RMK SC7AC1 SLP171"
+    "temperature": 25.2,
+    "dewpoint": 22.3,
+    "windSpeed": 6.0,
+    "windDirection": 40.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-15T11:55:00.000Z",
+    "observationTimestamp": "2026-09-15T11:55:00+00:00",
+    "raw": "METAR KMMT 151155Z 04006KT 10SM BKN017 OVC035 25/22 A3020 RMK AO2A SLP227 T02520223 10258 20244 52026 $"
   },
   "randomPlace": {
-    "name": "KIXD",
-    "station": "KIXD",
-    "lat": 38.8221,
-    "lon": -94.8902,
+    "name": "CYHK",
+    "station": "CYHK",
+    "lat": 68.633,
+    "lon": -95.851,
     "weather": "No coded weather",
-    "temperature": 25.6,
-    "dewpoint": 19.4,
-    "windSpeed": 10.0,
-    "windDirection": 180.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T08:53:00.000Z",
-    "observationTimestamp": "2026-09-15T08:53:00+00:00",
-    "raw": "METAR KIXD 150853Z AUTO 18010KT 10SM CLR 26/19 A2990 RMK AO2 SLP110 T02560194 58001"
+    "temperature": 0.0,
+    "dewpoint": 0.0,
+    "windSpeed": 5.0,
+    "windDirection": 220.0,
+    "visibility": "15",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-15T12:00:00.000Z",
+    "observationTimestamp": "2026-09-15T12:00:00+00:00",
+    "raw": "METAR CYHK 151200Z 22005KT 15SM OVC005 00/M00 A2966 RMK SC8 SLP050"
   },
   "globalPulse": {
     "population": {
-      "value": 8211122849,
-      "display": "8,211,122,849",
+      "value": 8211141468,
+      "display": "8,211,141,468",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -71,8 +71,8 @@
       "date": "2026-06-01"
     },
     "seaSurface": {
-      "value": 22.05,
-      "display": "22.05 °C",
+      "value": 22.08,
+      "display": "22.08 °C",
       "source": "NOAA ACSPO Global SST (area-weighted sample)",
       "dataset": "ACSPO_LEO_L3S_nrt",
       "endpoint": "NOAA OceanWatch ACSPO NRT"
@@ -89,32 +89,32 @@
       "time": "2026-09-15T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.3,
-      "display": "Kp 0.3",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-15T06:00:00"
+      "time": "2026-09-15T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T09:26:00Z",
-      "speed": 383.0
+      "time": "2026-09-15T12:05:00Z",
+      "speed": 552.0
     },
     "magneticField": {
-      "time": "2026-09-15T09:29:00Z",
-      "bt": 15.0,
-      "bz": 11.0
+      "time": "2026-09-15T12:05:00Z",
+      "bt": 13.0,
+      "bz": 9.0
     },
     "kp": {
-      "time": "2026-09-15T06:00:00",
-      "kp": 0.33
+      "time": "2026-09-15T09:00:00",
+      "kp": 0.67
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T09:24:00Z",
-      "forecastTime": "2026-09-15T10:37:00Z"
+      "observationTime": "2026-09-15T12:00:00Z",
+      "forecastTime": "2026-09-15T12:49:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
