@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T15:22:11.282177+00:00",
+  "generatedAt": "2026-09-15T15:40:25.097758+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Acesso principal ao edifício JMM 01.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rqltst&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rqltst (page does not exist)\">Rqltst</a>",
+    "title": "File:20260822 102129 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Acesso_principal_ao_edif%C3%ADcio_JMM_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_102129_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LSZR",
-    "station": "LSZR",
-    "lat": 47.485,
-    "lon": 9.561,
+    "name": "KGWO",
+    "station": "KGWO",
+    "lat": 33.4961,
+    "lon": -90.0894,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 12.0,
-    "windSpeed": 1.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T14:50:00.000Z",
-    "observationTimestamp": "2026-09-15T14:50:00+00:00",
-    "raw": "METAR LSZR 151450Z VRB01KT CAVOK 24/12 Q1018"
-  },
-  "randomPlace": {
-    "name": "KGDW",
-    "station": "KGDW",
-    "lat": 43.97,
-    "lon": -84.475,
-    "weather": "-RA",
-    "temperature": 15.0,
-    "dewpoint": 13.0,
-    "windSpeed": 4.0,
+    "temperature": 31.7,
+    "dewpoint": 22.8,
+    "windSpeed": 5.0,
     "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T14:55:00.000Z",
-    "observationTimestamp": "2026-09-15T14:55:00+00:00",
-    "raw": "METAR KGDW 151455Z AUTO 20004KT 10SM -RA FEW037 FEW065 BKN100 15/13 A3005 RMK AO2 LTG DSNT NE"
+    "observationTime": "2026-09-15T14:53:00.000Z",
+    "observationTimestamp": "2026-09-15T14:53:00+00:00",
+    "raw": "METAR KGWO 151453Z AUTO 20005KT 10SM CLR 32/23 A3014 RMK AO2 SLP202 T03170228 51013"
+  },
+  "randomPlace": {
+    "name": "SLSA",
+    "station": "SLSA",
+    "lat": -13.762,
+    "lon": -65.435,
+    "weather": "No coded weather",
+    "temperature": 26.0,
+    "dewpoint": 16.0,
+    "windSpeed": 10.0,
+    "windDirection": 150.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T15:00:00.000Z",
+    "observationTimestamp": "2026-09-15T15:00:00+00:00",
+    "raw": "METAR SLSA 151500Z 15010KT 9999 NSC 26/16 Q1017"
   },
   "globalPulse": {
     "population": {
-      "value": 8211164206,
-      "display": "8,211,164,206",
+      "value": 8211166411,
+      "display": "8,211,166,411",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 60.1,
-      "display": "60.1%",
+      "value": 60.6,
+      "display": "60.6%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-15T06:00:00Z"
+      "time": "2026-09-15T12:00:00Z"
     },
     "geomagnetic": {
       "value": 2.3,
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T15:12:00Z",
-      "speed": 404.0
+      "time": "2026-09-15T15:31:00Z",
+      "speed": 402.0
     },
     "magneticField": {
-      "time": "2026-09-15T15:12:00Z",
+      "time": "2026-09-15T15:31:00Z",
       "bt": 15.0,
-      "bz": 12.0
+      "bz": 9.0
     },
     "kp": {
       "time": "2026-09-15T12:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T15:09:00Z",
-      "forecastTime": "2026-09-15T16:17:00Z"
+      "observationTime": "2026-09-15T15:29:00Z",
+      "forecastTime": "2026-09-15T16:35:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
