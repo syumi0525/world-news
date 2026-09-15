@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T12:12:13.124042+00:00",
+  "generatedAt": "2026-09-15T12:53:24.369893+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Danau Tigi - Deiyai.jpg",
-    "artist": "Government of Deiyai, Indonesia",
+    "title": "File:A park bench and waysides with a view at Lake Dardanelle State Park in Russellville, Arkansas (cf773068-fe65-4a9c-8b59-8a95ddf9d70e).JPG",
+    "artist": "National Trails Office (<i>US National Park Service</i>)",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_park_bench_and_waysides_with_a_view_at_Lake_Dardanelle_State_Park_in_Russellville%2C_Arkansas_%28cf773068-fe65-4a9c-8b59-8a95ddf9d70e%29.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMMT",
-    "station": "KMMT",
-    "lat": 33.922,
-    "lon": -80.802,
+    "name": "CYRQ",
+    "station": "CYRQ",
+    "lat": 46.358,
+    "lon": -72.68,
     "weather": "No coded weather",
-    "temperature": 25.2,
-    "dewpoint": 22.3,
-    "windSpeed": 6.0,
-    "windDirection": 40.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-15T11:55:00.000Z",
-    "observationTimestamp": "2026-09-15T11:55:00+00:00",
-    "raw": "METAR KMMT 151155Z 04006KT 10SM BKN017 OVC035 25/22 A3020 RMK AO2A SLP227 T02520223 10258 20244 52026 $"
-  },
-  "randomPlace": {
-    "name": "CYHK",
-    "station": "CYHK",
-    "lat": 68.633,
-    "lon": -95.851,
-    "weather": "No coded weather",
-    "temperature": 0.0,
-    "dewpoint": 0.0,
-    "windSpeed": 5.0,
-    "windDirection": 220.0,
-    "visibility": "15",
-    "flightCategory": "IFR",
+    "temperature": 6.0,
+    "dewpoint": 6.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "9",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-15T12:00:00.000Z",
     "observationTimestamp": "2026-09-15T12:00:00+00:00",
-    "raw": "METAR CYHK 151200Z 22005KT 15SM OVC005 00/M00 A2966 RMK SC8 SLP050"
+    "raw": "METAR CYRQ 151200Z AUTO 00000KT 9SM CLR 06/06 A3039 RMK PRESRR SLP294"
+  },
+  "randomPlace": {
+    "name": "KSUX",
+    "station": "KSUX",
+    "lat": 42.3917,
+    "lon": -96.3795,
+    "weather": "No coded weather",
+    "temperature": 18.3,
+    "dewpoint": 15.0,
+    "windSpeed": 13.0,
+    "windDirection": 330.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T11:52:00.000Z",
+    "observationTimestamp": "2026-09-15T11:52:00+00:00",
+    "raw": "METAR KSUX 151152Z 33013KT 10SM CLR 18/15 A3000 RMK AO2 SLP152 60000 70003 T01830150 10206 20178 53027"
   },
   "globalPulse": {
     "population": {
-      "value": 8211141468,
-      "display": "8,211,141,468",
+      "value": 8211146393,
+      "display": "8,211,146,393",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T12:05:00Z",
-      "speed": 552.0
+      "time": "2026-09-15T12:45:00Z",
+      "speed": 633.0
     },
     "magneticField": {
-      "time": "2026-09-15T12:05:00Z",
+      "time": "2026-09-15T12:45:00Z",
       "bt": 13.0,
-      "bz": 9.0
+      "bz": 10.0
     },
     "kp": {
       "time": "2026-09-15T09:00:00",
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T12:00:00Z",
-      "forecastTime": "2026-09-15T12:49:00Z"
+      "observationTime": "2026-09-15T12:41:00Z",
+      "forecastTime": "2026-09-15T13:28:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
