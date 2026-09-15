@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:27:21.668467+00:00",
+  "generatedAt": "2026-09-15T18:43:56.725783+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:The picture shows a dry ,rocky with small plant and banana trees growing around aroded soil.At jikoki pape Abuja Nigeria.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sadeeeya3430&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sadeeeya3430 (page does not exist)\">Sadeeeya3430</a>",
+    "title": "File:Table of Schedule of Soerabaja-Malang train.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:JohanSpoorlijn\" title=\"User:JohanSpoorlijn\">JohanSpoorlijn</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:The_picture_shows_a_dry_%2Crocky_with_small_plant_and_banana_trees_growing_around_aroded_soil.At_jikoki_pape_Abuja_Nigeria.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Table_of_Schedule_of_Soerabaja-Malang_train.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KF95",
-    "station": "KF95",
-    "lat": 30.4881,
-    "lon": -85.1148,
+    "name": "ROYN",
+    "station": "ROYN",
+    "lat": 24.467,
+    "lon": 122.978,
     "weather": "No coded weather",
-    "temperature": 35.0,
-    "dewpoint": 23.0,
-    "windSpeed": 11.0,
-    "windDirection": 100.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T17:55:00.000Z",
-    "observationTimestamp": "2026-09-15T17:55:00+00:00",
-    "raw": "METAR KF95 151755Z AUTO 10011KT 10SM CLR 35/23 A3011 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "CYFO",
-    "station": "CYFO",
-    "lat": 54.678,
-    "lon": -101.68,
-    "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 1.0,
-    "windSpeed": 7.0,
-    "windDirection": 300.0,
-    "visibility": "15",
+    "temperature": 28.0,
+    "dewpoint": 24.0,
+    "windSpeed": 20.0,
+    "windDirection": 30.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T18:00:00.000Z",
     "observationTimestamp": "2026-09-15T18:00:00+00:00",
-    "raw": "METAR CYFO 151800Z 30007G17KT 250V010 15SM BKN038 10/01 A2999 RMK SC5 SLP166"
+    "raw": "METAR ROYN 151800Z AUTO 03020KT 9999 FEW023 BKN039 BKN046 28/24 Q1012"
+  },
+  "randomPlace": {
+    "name": "KSMP",
+    "station": "KSMP",
+    "lat": 47.2764,
+    "lon": -121.3383,
+    "weather": "BR",
+    "temperature": 7.8,
+    "dewpoint": 7.8,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "3",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-15T18:23:00.000Z",
+    "observationTimestamp": "2026-09-15T18:23:00+00:00",
+    "raw": "SPECI KSMP 151823Z AUTO 00000KT 3SM BR OVC002 08/08 A3004 RMK AO2 T00780078 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211186395,
-      "display": "8,211,186,395",
+      "value": 8211188377,
+      "display": "8,211,188,377",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T18:18:00Z",
-      "speed": 568.0
+      "time": "2026-09-15T18:35:00Z",
+      "speed": 757.0
     },
     "magneticField": {
-      "time": "2026-09-15T18:20:00Z",
-      "bt": 11.0,
-      "bz": 10.0
+      "time": "2026-09-15T18:35:00Z",
+      "bt": 12.0,
+      "bz": -11.0
     },
     "kp": {
       "time": "2026-09-15T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T18:20:00Z",
-      "forecastTime": "2026-09-15T19:21:00Z"
+      "observationTime": "2026-09-15T18:35:00Z",
+      "forecastTime": "2026-09-15T19:26:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
