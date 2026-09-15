@@ -801,11 +801,68 @@ jobs:
           # latest available day. Land/fill values are excluded.
           # ------------------------------------------------------------
 
+          # First read the small time axis.  Using the actual latest time
+          # value avoids relying on a server-side [last] expansion in the
+          # CSV request, which can return HTTP 404 on this ERDDAP endpoint.
+          sst_time_url = (
+              "https://oceanwatch.pifsc.noaa.gov/"
+              "erddap/griddap/ACSPO_LEO_L3S_nrt.csv?time"
+          )
+
+          sst_time_bytes = fetch_bytes(
+              sst_time_url,
+              timeout=60
+          )
+
+          sst_time_text = sst_time_bytes.decode(
+              "utf-8",
+              errors="replace"
+          )
+
+          sst_time_reader = csv.reader(
+              io.StringIO(sst_time_text)
+          )
+
+          sst_time_rows = list(
+              sst_time_reader
+          )
+
+          if len(sst_time_rows) < 2:
+              raise RuntimeError(
+                  "NOAA ACSPO SST time axis returned no data."
+              )
+
+          latest_sst_time = None
+
+          for row in reversed(sst_time_rows[1:]):
+              if not row:
+                  continue
+
+              candidate = number(
+                  row[0]
+              )
+
+              if candidate is not None:
+                  latest_sst_time = candidate
+                  break
+
+          if latest_sst_time is None:
+              raise RuntimeError(
+                  "NOAA ACSPO SST time axis contained no valid time."
+              )
+
+          print(
+              "NOAA ACSPO latest time:",
+              latest_sst_time
+          )
+
           sst_url = (
               "https://oceanwatch.pifsc.noaa.gov/"
               "erddap/griddap/ACSPO_LEO_L3S_nrt.csv?"
               "sea_surface_temperature"
-              "[last][0:1000:8999][0:1000:17999]"
+              "["
+              + str(latest_sst_time)
+              + "][0:1000:8999][0:1000:17999]"
           )
 
           sst_bytes = fetch_bytes(
