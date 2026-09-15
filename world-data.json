@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T14:49:56.758088+00:00",
+  "generatedAt": "2026-09-15T15:01:03.538511+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chou frisé vert à pied court.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Arn\" title=\"User:Arn\">Arn</a>",
+    "title": "File:A good view of the beach cliffs.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chou_fris%C3%A9_vert_%C3%A0_pied_court.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "FTTJ",
-    "station": "FTTJ",
-    "lat": 12.134,
-    "lon": 15.034,
+    "name": "KGDK",
+    "station": "KGDK",
+    "lat": 39.6935,
+    "lon": -83.9896,
     "weather": "No coded weather",
-    "temperature": 37.0,
-    "dewpoint": 23.0,
-    "windSpeed": 4.0,
-    "windDirection": 0.0,
-    "visibility": "4.97",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-15T14:00:00.000Z",
-    "observationTimestamp": "2026-09-15T14:00:00+00:00",
-    "raw": "METAR FTTJ 151400Z VRB04KT 8000 FEW040 37/23 Q1008 NOSIG"
-  },
-  "randomPlace": {
-    "name": "KFXE",
-    "station": "KFXE",
-    "lat": 26.199,
-    "lon": -80.1776,
-    "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 24.4,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 24.0,
+    "dewpoint": 18.0,
+    "windSpeed": 7.0,
+    "windDirection": 210.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T13:53:00.000Z",
-    "observationTimestamp": "2026-09-15T13:53:00+00:00",
-    "raw": "METAR KFXE 151353Z 00000KT 10SM SCT027 SCT033 BKN047 30/24 A3007 RMK AO2 SLP185 T03000244"
+    "observationTime": "2026-09-15T14:55:00.000Z",
+    "observationTimestamp": "2026-09-15T14:55:00+00:00",
+    "raw": "METAR KGDK 151455Z AUTO 21007KT 10SM CLR 24/18 A3021 RMK AO2"
+  },
+  "randomPlace": {
+    "name": "KJWY",
+    "station": "KJWY",
+    "lat": 32.456,
+    "lon": -96.914,
+    "weather": "No coded weather",
+    "temperature": 29.6,
+    "dewpoint": 24.0,
+    "windSpeed": 10.0,
+    "windDirection": 200.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T14:55:00.000Z",
+    "observationTimestamp": "2026-09-15T14:55:00+00:00",
+    "raw": "METAR KJWY 151455Z AUTO 20010KT 10SM CLR 30/24 A3009 RMK AO2 T02960240 51017 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211160349,
-      "display": "8,211,160,349",
+      "value": 8211161676,
+      "display": "8,211,161,676",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T14:40:00Z",
-      "speed": 426.0
+      "time": "2026-09-15T14:52:00Z",
+      "speed": 422.0
     },
     "magneticField": {
-      "time": "2026-09-15T14:40:00Z",
+      "time": "2026-09-15T14:52:00Z",
       "bt": 15.0,
-      "bz": 9.0
+      "bz": 10.0
     },
     "kp": {
       "time": "2026-09-15T09:00:00",
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T14:40:00Z",
-      "forecastTime": "2026-09-15T15:51:00Z"
+      "observationTime": "2026-09-15T14:50:00Z",
+      "forecastTime": "2026-09-15T16:01:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
