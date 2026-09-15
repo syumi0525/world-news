@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T15:40:25.097758+00:00",
+  "generatedAt": "2026-09-15T17:21:01.718609+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 102129 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
-    "license": "CC0",
+    "title": "File:Brume matinale (44974906495).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_102129_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brume_matinale_%2844974906495%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGWO",
-    "station": "KGWO",
-    "lat": 33.4961,
-    "lon": -90.0894,
+    "name": "KWBF",
+    "station": "KWBF",
+    "lat": 26.9305,
+    "lon": -90.5069,
     "weather": "No coded weather",
-    "temperature": 31.7,
-    "dewpoint": 22.8,
-    "windSpeed": 5.0,
-    "windDirection": 200.0,
+    "temperature": 31.0,
+    "dewpoint": 25.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T14:53:00.000Z",
-    "observationTimestamp": "2026-09-15T14:53:00+00:00",
-    "raw": "METAR KGWO 151453Z AUTO 20005KT 10SM CLR 32/23 A3014 RMK AO2 SLP202 T03170228 51013"
+    "observationTime": "2026-09-15T17:15:00.000Z",
+    "observationTimestamp": "2026-09-15T17:15:00+00:00",
+    "raw": "METAR KWBF 151715Z AUTO 00000KT 10SM CLR 31/25 A3012 RMK A01"
   },
   "randomPlace": {
-    "name": "SLSA",
-    "station": "SLSA",
-    "lat": -13.762,
-    "lon": -65.435,
+    "name": "HLLM",
+    "station": "HLLM",
+    "lat": 32.894,
+    "lon": 13.276,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 16.0,
-    "windSpeed": 10.0,
-    "windDirection": 150.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T15:00:00.000Z",
-    "observationTimestamp": "2026-09-15T15:00:00+00:00",
-    "raw": "METAR SLSA 151500Z 15010KT 9999 NSC 26/16 Q1017"
+    "temperature": 28.0,
+    "dewpoint": 17.0,
+    "windSpeed": 2.0,
+    "windDirection": 120.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-15T17:00:00.000Z",
+    "observationTimestamp": "2026-09-15T17:00:00+00:00",
+    "raw": "METAR HLLM 151700Z 12002KT NSC 28/17 Q1016"
   },
   "globalPulse": {
     "population": {
-      "value": 8211166411,
-      "display": "8,211,166,411",
+      "value": 8211178442,
+      "display": "8,211,178,442",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T15:31:00Z",
-      "speed": 402.0
+      "time": "2026-09-15T17:12:00Z",
+      "speed": 369.0
     },
     "magneticField": {
-      "time": "2026-09-15T15:31:00Z",
-      "bt": 15.0,
+      "time": "2026-09-15T17:12:00Z",
+      "bt": 17.0,
       "bz": 9.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 2.33
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T15:29:00Z",
-      "forecastTime": "2026-09-15T16:35:00Z"
+      "observationTime": "2026-09-15T17:09:00Z",
+      "forecastTime": "2026-09-15T18:19:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
