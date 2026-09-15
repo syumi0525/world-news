@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T19:29:14.072329+00:00",
+  "generatedAt": "2026-09-15T19:43:28.861681+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:1907 Hold on! Half time! A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "title": "File:Brume matinale (44974906495).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:1907_Hold_on%21_Half_time%21_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brume_matinale_%2844974906495%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SBSC",
-    "station": "SBSC",
-    "lat": -22.932,
-    "lon": -43.719,
+    "name": "EBOS",
+    "station": "EBOS",
+    "lat": 51.199,
+    "lon": 2.862,
     "weather": "No coded weather",
-    "temperature": 21.0,
+    "temperature": 17.0,
     "dewpoint": 17.0,
-    "windSpeed": 9.0,
-    "windDirection": 190.0,
+    "windSpeed": 4.0,
+    "windDirection": 300.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T19:00:00.000Z",
-    "observationTimestamp": "2026-09-15T19:00:00+00:00",
-    "raw": "METAR SBSC 151900Z 19009KT 9999 FEW017 SCT025 OVC038 21/17 Q1016"
+    "observationTime": "2026-09-15T19:20:00.000Z",
+    "observationTimestamp": "2026-09-15T19:20:00+00:00",
+    "raw": "METAR EBOS 151920Z 30004KT 9999 FEW018TCU BKN045 17/17 Q1015 NOSIG"
   },
   "randomPlace": {
-    "name": "KLLQ",
-    "station": "KLLQ",
-    "lat": 33.636,
-    "lon": -91.7555,
+    "name": "KBCB",
+    "station": "KBCB",
+    "lat": 37.208,
+    "lon": -80.4127,
     "weather": "No coded weather",
-    "temperature": 35.0,
-    "dewpoint": 22.8,
-    "windSpeed": 7.0,
-    "windDirection": 80.0,
+    "temperature": 26.8,
+    "dewpoint": 15.9,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T19:24:00.000Z",
-    "observationTimestamp": "2026-09-15T19:24:00+00:00",
-    "raw": "SPECI KLLQ 151924Z AUTO 08007KT 10SM CLR 35/23 A3008 RMK AO2 T03500228"
+    "observationTime": "2026-09-15T19:35:00.000Z",
+    "observationTimestamp": "2026-09-15T19:35:00+00:00",
+    "raw": "METAR KBCB 151935Z AUTO 00000KT 10SM CLR 27/16 A3038 RMK AO2 T02680159"
   },
   "globalPulse": {
     "population": {
-      "value": 8211193802,
-      "display": "8,211,193,802",
+      "value": 8211195502,
+      "display": "8,211,195,502",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T19:22:00Z",
-      "speed": 644.0
+      "time": "2026-09-15T19:34:00Z",
+      "speed": 553.0
     },
     "magneticField": {
-      "time": "2026-09-15T19:22:00Z",
-      "bt": 10.0,
-      "bz": -5.0
+      "time": "2026-09-15T19:34:00Z",
+      "bt": 14.0,
+      "bz": -11.0
     },
     "kp": {
       "time": "2026-09-15T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 67.0,
-      "display": "MAX 67.0%",
+      "value": 60.0,
+      "display": "MAX 60.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T19:19:00Z",
-      "forecastTime": "2026-09-15T19:59:00Z"
+      "observationTime": "2026-09-15T19:29:00Z",
+      "forecastTime": "2026-09-15T20:11:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
