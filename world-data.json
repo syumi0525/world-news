@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T19:43:28.861681+00:00",
+  "generatedAt": "2026-09-15T19:55:23.883469+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brume matinale (44974906495).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
-    "license": "Public domain",
+    "title": "File:Alisher Navoiy garden.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Behruznurullayevv\" title=\"User:Behruznurullayevv\">Behruznurullayevv</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Brume_matinale_%2844974906495%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alisher_Navoiy_garden.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EBOS",
-    "station": "EBOS",
-    "lat": 51.199,
-    "lon": 2.862,
+    "name": "KRMG",
+    "station": "KRMG",
+    "lat": 34.3483,
+    "lon": -85.1616,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 17.0,
-    "windSpeed": 4.0,
-    "windDirection": 300.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T19:20:00.000Z",
-    "observationTimestamp": "2026-09-15T19:20:00+00:00",
-    "raw": "METAR EBOS 151920Z 30004KT 9999 FEW018TCU BKN045 17/17 Q1015 NOSIG"
-  },
-  "randomPlace": {
-    "name": "KBCB",
-    "station": "KBCB",
-    "lat": 37.208,
-    "lon": -80.4127,
-    "weather": "No coded weather",
-    "temperature": 26.8,
-    "dewpoint": 15.9,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 33.9,
+    "dewpoint": 20.0,
+    "windSpeed": 9.0,
+    "windDirection": 180.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T19:35:00.000Z",
-    "observationTimestamp": "2026-09-15T19:35:00+00:00",
-    "raw": "METAR KBCB 151935Z AUTO 00000KT 10SM CLR 27/16 A3038 RMK AO2 T02680159"
+    "observationTime": "2026-09-15T18:53:00.000Z",
+    "observationTimestamp": "2026-09-15T18:53:00+00:00",
+    "raw": "METAR KRMG 151853Z AUTO 18009G17KT 10SM SCT060 BKN070 34/20 A3019 RMK AO2 SLP211 T03390200"
+  },
+  "randomPlace": {
+    "name": "KDVL",
+    "station": "KDVL",
+    "lat": 48.1136,
+    "lon": -98.9034,
+    "weather": "No coded weather",
+    "temperature": 16.7,
+    "dewpoint": 8.9,
+    "windSpeed": 16.0,
+    "windDirection": 290.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T18:56:00.000Z",
+    "observationTimestamp": "2026-09-15T18:56:00+00:00",
+    "raw": "METAR KDVL 151856Z AUTO 29016KT 10SM BKN035 BKN050 17/09 A3008 RMK AO2 SLP194 T01670089"
   },
   "globalPulse": {
     "population": {
-      "value": 8211195502,
-      "display": "8,211,195,502",
+      "value": 8211196932,
+      "display": "8,211,196,932",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T19:34:00Z",
-      "speed": 553.0
+      "time": "2026-09-15T19:49:00Z",
+      "speed": 489.0
     },
     "magneticField": {
-      "time": "2026-09-15T19:34:00Z",
+      "time": "2026-09-15T19:49:00Z",
       "bt": 14.0,
-      "bz": -11.0
+      "bz": -10.0
     },
     "kp": {
       "time": "2026-09-15T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 60.0,
-      "display": "MAX 60.0%",
+      "value": 56.0,
+      "display": "MAX 56.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T19:29:00Z",
-      "forecastTime": "2026-09-15T20:11:00Z"
+      "observationTime": "2026-09-15T19:44:00Z",
+      "forecastTime": "2026-09-15T20:29:00Z"
     },
     "flux10cm": {
       "time": "2026-09-14T20:00:00",
