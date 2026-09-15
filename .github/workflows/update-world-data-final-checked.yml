@@ -158,7 +158,12 @@ jobs:
                   if not text:
                       return None
 
-                  return float(text)
+                  value = float(text)
+
+                  if not math.isfinite(value):
+                      return None
+
+                  return value
 
               except Exception:
                   return None
@@ -1930,6 +1935,10 @@ jobs:
               "GLOBAL PULSE sea surface:",
               global_pulse["seaSurface"]["display"]
           )
+
+          space = data.get("space")
+          if not isinstance(space, dict):
+              raise RuntimeError("WORLD DATA space data is missing.")
 
           print(
               "GLOBAL PULSE day/night:",
