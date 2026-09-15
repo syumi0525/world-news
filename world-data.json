@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T01:06:04.879794+00:00",
+  "generatedAt": "2026-09-15T01:24:14.125361+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A Journey to Lhasa and Central Tibet p219.jpg",
-    "artist": "Sarat Chandra Das",
-    "license": "Public domain",
+    "title": "File:20260803 184525 Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_Journey_to_Lhasa_and_Central_Tibet_p219.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_184525_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFKS",
-    "station": "LFKS",
-    "lat": 41.924,
-    "lon": 9.406,
+    "name": "VTCL",
+    "station": "VTCL",
+    "lat": 18.277,
+    "lon": 99.502,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 17.0,
-    "windSpeed": 3.0,
-    "windDirection": 350.0,
+    "temperature": 28.0,
+    "dewpoint": 24.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T00:30:00.000Z",
-    "observationTimestamp": "2026-09-15T00:30:00+00:00",
-    "raw": "METAR LFKS 150030Z AUTO 35003KT 300V020 CAVOK 21/17 Q1020"
-  },
-  "randomPlace": {
-    "name": "WSSS",
-    "station": "WSSS",
-    "lat": 1.368,
-    "lon": 103.982,
-    "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 25.0,
-    "windSpeed": 8.0,
-    "windDirection": 170.0,
-    "visibility": "5.59",
     "flightCategory": "VFR",
     "observationTime": "2026-09-15T01:00:00.000Z",
     "observationTimestamp": "2026-09-15T01:00:00+00:00",
-    "raw": "METAR WSSS 150100Z 17008KT 9000 FEW016 BKN300 29/25 Q1012 NOSIG"
+    "raw": "METAR VTCL 150100Z 00000KT 9999 FEW030 SCT050 BKN100 28/24 Q1012 NOSIG"
+  },
+  "randomPlace": {
+    "name": "KALK",
+    "station": "KALK",
+    "lat": 31.606,
+    "lon": -110.428,
+    "weather": "-RA",
+    "temperature": 19.4,
+    "dewpoint": 17.8,
+    "windSpeed": 20.0,
+    "windDirection": 220.0,
+    "visibility": "8",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-15T00:56:00.000Z",
+    "observationTimestamp": "2026-09-15T00:56:00+00:00",
+    "raw": "METAR KALK 150056Z AUTO 22020G27KT 8SM -RA FEW060 BKN080 19/18 A3012 RMK AO2 PK WND 21036/0031 WSHFT 2359 RAB31 SLP116 P0001 T01940178"
   },
   "globalPulse": {
     "population": {
-      "value": 8211061750,
-      "display": "8,211,061,750",
+      "value": 8211063917,
+      "display": "8,211,063,917",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -79,13 +79,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T00:58:00Z",
-      "speed": 371.0
+      "time": "2026-09-15T01:16:00Z",
+      "speed": 365.0
     },
     "magneticField": {
-      "time": "2026-09-15T00:58:00Z",
+      "time": "2026-09-15T01:16:00Z",
       "bt": 14.0,
-      "bz": 8.0
+      "bz": 9.0
     },
     "kp": {
       "time": "2026-09-14T21:00:00",
