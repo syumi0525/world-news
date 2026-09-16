@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T06:39:51.229025+00:00",
+  "generatedAt": "2026-09-16T06:56:03.435825+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AuditorioITA.JPG",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Berpasan\" class=\"extiw\" title=\"w:User:Berpasan\">Berpasan</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Berpasan\" class=\"extiw\" title=\"w:User talk:Berpasan\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Berpasan\" class=\"extiw\" title=\"w:Special:ListFiles/Berpasan\">Uploads</a>)",
-    "license": "Public domain",
+    "title": "File:Cordillera del Aramo (13736818533).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AuditorioITA.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_del_Aramo_%2813736818533%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWIJ",
-    "station": "CWIJ",
-    "lat": 65.756,
-    "lon": -111.246,
+    "name": "KDLN",
+    "station": "KDLN",
+    "lat": 45.2584,
+    "lon": -112.5546,
     "weather": "No coded weather",
-    "temperature": -1.7,
-    "dewpoint": -5.1,
-    "windSpeed": 12.0,
-    "windDirection": 300.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-16T06:00:00.000Z",
-    "observationTimestamp": "2026-09-16T06:00:00+00:00",
-    "raw": "METAR CWIJ 160600Z AUTO 30012KT M02/M05 RMK AO1 SLP168 T10171051 52003"
+    "temperature": 11.7,
+    "dewpoint": 2.8,
+    "windSpeed": 6.0,
+    "windDirection": 80.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-16T05:53:00.000Z",
+    "observationTimestamp": "2026-09-16T05:53:00+00:00",
+    "raw": "METAR KDLN 160553Z AUTO 08006KT 10SM CLR 12/03 A3005 RMK AO2 SLP144 T01170028 10222 20117 51016 $"
   },
   "randomPlace": {
-    "name": "CWWZ",
-    "station": "CWWZ",
-    "lat": 43.244,
-    "lon": -79.218,
+    "name": "DAUO",
+    "station": "DAUO",
+    "lat": 33.513,
+    "lon": 6.782,
     "weather": "No coded weather",
-    "temperature": 21.1,
-    "dewpoint": 19.1,
-    "windSpeed": 2.0,
-    "windDirection": 90.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "temperature": 24.0,
+    "dewpoint": 14.0,
+    "windSpeed": 6.0,
+    "windDirection": 120.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-16T06:00:00.000Z",
     "observationTimestamp": "2026-09-16T06:00:00+00:00",
-    "raw": "METAR CWWZ 160600Z AUTO 09002KT 21/19 RMK AO1 SLP211 T02110191 53002"
+    "raw": "METAR DAUO 160600Z 12006KT 090V150 9999 SCT040 24/14 Q1015"
   },
   "globalPulse": {
     "population": {
-      "value": 8211274057,
-      "display": "8,211,274,057",
+      "value": 8211275986,
+      "display": "8,211,275,986",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T06:30:00Z",
-      "speed": 531.0
+      "time": "2026-09-16T06:49:00Z",
+      "speed": 523.0
     },
     "magneticField": {
-      "time": "2026-09-16T06:33:00Z",
-      "bt": 6.0,
+      "time": "2026-09-16T06:49:00Z",
+      "bt": 7.0,
       "bz": 5.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T06:30:00Z",
-      "forecastTime": "2026-09-16T07:21:00Z"
+      "observationTime": "2026-09-16T06:44:00Z",
+      "forecastTime": "2026-09-16T07:36:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
