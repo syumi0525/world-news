@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T01:24:01.597692+00:00",
+  "generatedAt": "2026-09-16T01:38:45.625365+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bali Island.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:ASIRICHAILORDSIN\" title=\"User:ASIRICHAILORDSIN\">ASIRICHAILORDSIN</a>",
+    "title": "File:Nilüfer kanak köprüsü.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bali_Island.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "PASH",
-    "station": "PASH",
-    "lat": 66.252,
-    "lon": -166.084,
+    "name": "NCRG",
+    "station": "NCRG",
+    "lat": -21.203,
+    "lon": -159.806,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 9.4,
-    "windSpeed": 10.0,
-    "windDirection": 70.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-16T00:56:00.000Z",
-    "observationTimestamp": "2026-09-16T00:56:00+00:00",
-    "raw": "METAR PASH 160056Z AUTO 07010KT 10SM FEW009 OVC050 10/09 A2932 RMK AO2 SLP929 T01000094"
-  },
-  "randomPlace": {
-    "name": "EVVA",
-    "station": "EVVA",
-    "lat": 57.361,
-    "lon": 21.545,
-    "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 12.0,
-    "windSpeed": 5.0,
-    "windDirection": 160.0,
+    "temperature": 23.0,
+    "dewpoint": 13.0,
+    "windSpeed": 4.0,
+    "windDirection": 210.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T01:20:00.000Z",
-    "observationTimestamp": "2026-09-16T01:20:00+00:00",
-    "raw": "METAR EVVA 160120Z AUTO 16005KT CAVOK 12/12 Q1012"
+    "observationTime": "2026-09-16T01:30:00.000Z",
+    "observationTimestamp": "2026-09-16T01:30:00+00:00",
+    "raw": "METAR NCRG 160130Z AUTO 21004KT 120V340 9999 BKN042/// 23/13 Q1012"
+  },
+  "randomPlace": {
+    "name": "KLWV",
+    "station": "KLWV",
+    "lat": 38.7604,
+    "lon": -87.599,
+    "weather": "No coded weather",
+    "temperature": 28.3,
+    "dewpoint": 22.2,
+    "windSpeed": 6.0,
+    "windDirection": 190.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-16T00:53:00.000Z",
+    "observationTimestamp": "2026-09-16T00:53:00+00:00",
+    "raw": "METAR KLWV 160053Z AUTO 19006KT 10SM CLR 28/22 A3010 RMK AO2 SLP188 T02830222"
   },
   "globalPulse": {
     "population": {
-      "value": 8211236259,
-      "display": "8,211,236,259",
+      "value": 8211238019,
+      "display": "8,211,238,019",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T01:14:00Z",
-      "speed": 521.0
+      "time": "2026-09-16T01:31:00Z",
+      "speed": 549.0
     },
     "magneticField": {
-      "time": "2026-09-16T01:14:00Z",
+      "time": "2026-09-16T01:31:00Z",
       "bt": 11.0,
-      "bz": 10.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-15T21:00:00",
       "kp": 3.33
     },
     "aurora": {
-      "value": 40.0,
-      "display": "MAX 40.0%",
+      "value": 31.0,
+      "display": "MAX 31.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T01:09:00Z",
-      "forecastTime": "2026-09-16T02:01:00Z"
+      "observationTime": "2026-09-16T01:28:00Z",
+      "forecastTime": "2026-09-16T02:21:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
