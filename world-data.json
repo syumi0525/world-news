@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T03:48:40.507711+00:00",
+  "generatedAt": "2026-09-16T03:58:36.306576+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brûlé Lake from Mount Solomon Lookout.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
-    "license": "CC0",
+    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
+    "artist": "Ferrovia Mesolcinese",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Br%C3%BBl%C3%A9_Lake_from_Mount_Solomon_Lookout.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYPQ",
-    "station": "CYPQ",
-    "lat": 44.232,
-    "lon": -78.36,
+    "name": "KTCM",
+    "station": "KTCM",
+    "lat": 47.149,
+    "lon": -122.475,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 16.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "9",
+    "temperature": 16.7,
+    "dewpoint": 10.5,
+    "windSpeed": 5.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T03:00:00.000Z",
-    "observationTimestamp": "2026-09-16T03:00:00+00:00",
-    "raw": "METAR CYPQ 160300Z AUTO 00000KT 9SM OVC040 16/16 A3016 RMK SLP217"
+    "observationTime": "2026-09-16T03:55:00.000Z",
+    "observationTimestamp": "2026-09-16T03:55:00+00:00",
+    "raw": "METAR KTCM 160355Z AUTO 03005KT 10SM OVC060 17/11 A3007 RMK AO2 SLP186 T01670105 $"
   },
   "randomPlace": {
-    "name": "PWAK",
-    "station": "PWAK",
-    "lat": 19.287,
-    "lon": 166.623,
+    "name": "KCTJ",
+    "station": "KCTJ",
+    "lat": 33.6313,
+    "lon": -85.1538,
     "weather": "No coded weather",
-    "temperature": 32.1,
-    "dewpoint": 24.4,
-    "windSpeed": 11.0,
-    "windDirection": 40.0,
-    "visibility": "8",
+    "temperature": 24.7,
+    "dewpoint": 21.6,
+    "windSpeed": 3.0,
+    "windDirection": 110.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T02:55:00.000Z",
-    "observationTimestamp": "2026-09-16T02:55:00+00:00",
-    "raw": "METAR PWAK 160255Z AUTO 04011KT 8SM FEW050 32/24 A2976 RMK AO2 SLP080 P0000 60000 T03210244 57015"
+    "observationTime": "2026-09-16T03:35:00.000Z",
+    "observationTimestamp": "2026-09-16T03:35:00+00:00",
+    "raw": "METAR KCTJ 160335Z AUTO 11003KT 10SM CLR 25/22 A3033 RMK AO2 T02470216"
   },
   "globalPulse": {
     "population": {
-      "value": 8211253594,
-      "display": "8,211,253,594",
+      "value": 8211254783,
+      "display": "8,211,254,783",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T03:34:00Z",
-      "speed": 527.0
+      "time": "2026-09-16T03:42:00Z",
+      "speed": 546.0
     },
     "magneticField": {
-      "time": "2026-09-16T03:39:00Z",
-      "bt": 7.0,
-      "bz": -2.0
+      "time": "2026-09-16T03:47:00Z",
+      "bt": 8.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-16T00:00:00",
       "kp": 3.67
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T03:36:00Z",
-      "forecastTime": "2026-09-16T04:31:00Z"
+      "observationTime": "2026-09-16T03:43:00Z",
+      "forecastTime": "2026-09-16T04:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
