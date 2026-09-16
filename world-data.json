@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T12:22:01.834719+00:00",
+  "generatedAt": "2026-09-16T12:44:02.939214+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A river is a natural.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:J.Doniyorovich&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:J.Doniyorovich (page does not exist)\">J.Doniyorovich</a>",
+    "title": "File:Brule Lake from solomon hazy.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_river_is_a_natural.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brule_Lake_from_solomon_hazy.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KE16",
-    "station": "KE16",
-    "lat": 37.0797,
-    "lon": -121.598,
+    "name": "LEXJ",
+    "station": "LEXJ",
+    "lat": 43.429,
+    "lon": -3.831,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 12.0,
-    "windSpeed": 4.0,
-    "windDirection": 160.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-16T11:50:00.000Z",
-    "observationTimestamp": "2026-09-16T11:50:00+00:00",
-    "raw": "METAR KE16 161150Z AUTO 16004KT 10SM OVC014 15/12 A2996 RMK AO2"
+    "temperature": 19.0,
+    "dewpoint": 16.0,
+    "windSpeed": 9.0,
+    "windDirection": 310.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-16T12:30:00.000Z",
+    "observationTimestamp": "2026-09-16T12:30:00+00:00",
+    "raw": "METAR LEXJ 161230Z 31009KT 280V340 9999 FEW022 SCT040 BKN050 19/16 Q1025"
   },
   "randomPlace": {
-    "name": "KIFP",
-    "station": "KIFP",
-    "lat": 35.1487,
-    "lon": -114.5611,
+    "name": "KHND",
+    "station": "KHND",
+    "lat": 35.9657,
+    "lon": -115.1343,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 13.0,
-    "windSpeed": 5.0,
-    "windDirection": 190.0,
+    "temperature": 24.4,
+    "dewpoint": 10.0,
+    "windSpeed": 6.0,
+    "windDirection": 220.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T12:15:00.000Z",
-    "observationTimestamp": "2026-09-16T12:15:00+00:00",
-    "raw": "METAR KIFP 161215Z AUTO 19005KT 10SM SCT055 29/13 A2983 RMK AO2"
+    "observationTime": "2026-09-16T11:56:00.000Z",
+    "observationTimestamp": "2026-09-16T11:56:00+00:00",
+    "raw": "METAR KHND 161156Z AUTO 22006KT 10SM CLR 24/10 A2993 RMK AO2 SLP120 T02440100 10294 20244 53007 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211315031,
-      "display": "8,211,315,031",
+      "value": 8211317657,
+      "display": "8,211,317,657",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T12:12:00Z",
-      "speed": 567.0
+      "time": "2026-09-16T12:37:00Z",
+      "speed": 550.0
     },
     "magneticField": {
-      "time": "2026-09-16T12:12:00Z",
+      "time": "2026-09-16T12:37:00Z",
       "bt": 5.0,
-      "bz": 4.0
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-16T09:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 30.0,
-      "display": "MAX 30.0%",
+      "value": 29.0,
+      "display": "MAX 29.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T12:15:00Z",
-      "forecastTime": "2026-09-16T13:06:00Z"
+      "observationTime": "2026-09-16T12:35:00Z",
+      "forecastTime": "2026-09-16T13:25:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
