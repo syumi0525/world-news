@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T10:18:15.236663+00:00",
+  "generatedAt": "2026-09-16T10:33:31.903019+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 15.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:Comapedrosa with snow.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:FrameOverdose\" title=\"User:FrameOverdose\">FrameOverdose</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_15.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Comapedrosa_with_snow.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KTEX",
-    "station": "KTEX",
-    "lat": 37.954,
-    "lon": -107.909,
+    "name": "CWDJ",
+    "station": "CWDJ",
+    "lat": 50.408,
+    "lon": -104.58,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 6.0,
-    "windSpeed": 5.0,
-    "windDirection": 150.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-16T09:55:00.000Z",
-    "observationTimestamp": "2026-09-16T09:55:00+00:00",
-    "raw": "METAR KTEX 160955Z AUTO 15005KT 10SM SCT070 BKN075 BKN090 11/06 A3046 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "CXCA",
-    "station": "CXCA",
-    "lat": 49.154,
-    "lon": -88.344,
-    "weather": "No coded weather",
-    "temperature": 8.9,
-    "dewpoint": 7.6,
-    "windSpeed": 2.0,
-    "windDirection": 280.0,
+    "temperature": 8.5,
+    "dewpoint": 7.5,
+    "windSpeed": 6.0,
+    "windDirection": 180.0,
     "visibility": "N/A",
     "flightCategory": "null",
-    "observationTime": "2026-09-16T09:00:00.000Z",
-    "observationTimestamp": "2026-09-16T09:00:00+00:00",
-    "raw": "METAR CXCA 160900Z AUTO 28002KT 09/08 RMK AO1 SLP240 T00890076 53029"
+    "observationTime": "2026-09-16T10:00:00.000Z",
+    "observationTimestamp": "2026-09-16T10:00:00+00:00",
+    "raw": "METAR CWDJ 161000Z AUTO 18006KT 09/08 RMK AO1 3PAST HR 3007 SLP257 P0001 T00850075 50003"
+  },
+  "randomPlace": {
+    "name": "UUOB",
+    "station": "UUOB",
+    "lat": 50.644,
+    "lon": 36.59,
+    "weather": "No coded weather",
+    "temperature": 18.0,
+    "dewpoint": 12.0,
+    "windSpeed": 12.0,
+    "windDirection": 360.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-16T10:00:00.000Z",
+    "observationTimestamp": "2026-09-16T10:00:00+00:00",
+    "raw": "METAR UUOB 161000Z 36006MPS CAVOK 18/12 Q1016 R29/190065 NOSIG RMK QNH762 QFE743/0991"
   },
   "globalPulse": {
     "population": {
-      "value": 8211300235,
-      "display": "8,211,300,235",
+      "value": 8211302060,
+      "display": "8,211,302,060",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T10:10:00Z",
-      "speed": 529.0
+      "time": "2026-09-16T10:25:00Z",
+      "speed": 534.0
     },
     "magneticField": {
-      "time": "2026-09-16T10:10:00Z",
-      "bt": 6.0,
-      "bz": -2.0
+      "time": "2026-09-16T10:25:00Z",
+      "bt": 5.0,
+      "bz": -4.0
     },
     "kp": {
       "time": "2026-09-16T06:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T10:05:00Z",
-      "forecastTime": "2026-09-16T10:56:00Z"
+      "observationTime": "2026-09-16T10:25:00Z",
+      "forecastTime": "2026-09-16T11:16:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
