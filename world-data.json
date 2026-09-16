@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T02:30:25.901782+00:00",
+  "generatedAt": "2026-09-16T02:40:35.910430+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Log hotel, lake Edouard (Qc, Canada) Quebec and lake St-John Railway, 1888.jpg",
-    "artist": "Kit Clark",
-    "license": "Public domain",
+    "title": "File:The picture shows a dry ,rocky with small plant and banana trees growing around aroded soil.At jikoki pape Abuja Nigeria.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sadeeeya3430&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sadeeeya3430 (page does not exist)\">Sadeeeya3430</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Log_hotel%2C_lake_Edouard_%28Qc%2C_Canada%29_Quebec_and_lake_St-John_Railway%2C_1888.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:The_picture_shows_a_dry_%2Crocky_with_small_plant_and_banana_trees_growing_around_aroded_soil.At_jikoki_pape_Abuja_Nigeria.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1P1",
-    "station": "K1P1",
-    "lat": 43.7771,
-    "lon": -71.756,
+    "name": "K1OM",
+    "station": "K1OM",
+    "lat": 47.328,
+    "lon": -108.927,
     "weather": "No coded weather",
-    "temperature": 11.6,
-    "dewpoint": 10.9,
-    "windSpeed": 3.0,
+    "temperature": 13.7,
+    "dewpoint": 5.3,
+    "windSpeed": 9.0,
     "windDirection": 110.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T02:15:00.000Z",
-    "observationTimestamp": "2026-09-16T02:15:00+00:00",
-    "raw": "METAR K1P1 160215Z AUTO 11003KT 10SM SCT100 12/11 A3035 RMK AO2 T01160109"
+    "observationTime": "2026-09-16T01:55:00.000Z",
+    "observationTimestamp": "2026-09-16T01:55:00+00:00",
+    "raw": "METAR K1OM 160155Z AUTO 11009KT 10SM CLR 14/05 A3004 RMK AO2 SLP181 T01370053 $"
   },
   "randomPlace": {
-    "name": "KMHT",
-    "station": "KMHT",
-    "lat": 42.9245,
-    "lon": -71.4377,
+    "name": "DFFD",
+    "station": "DFFD",
+    "lat": 12.356,
+    "lon": -1.512,
     "weather": "No coded weather",
-    "temperature": 13.3,
-    "dewpoint": 9.4,
-    "windSpeed": 4.0,
-    "windDirection": 150.0,
-    "visibility": "10+",
+    "temperature": 28.0,
+    "dewpoint": 23.0,
+    "windSpeed": 10.0,
+    "windDirection": 200.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T01:53:00.000Z",
-    "observationTimestamp": "2026-09-16T01:53:00+00:00",
-    "raw": "METAR KMHT 160153Z 15004KT 10SM SCT200 13/09 A3035 RMK AO2 SLP291 T01330094 $"
+    "observationTime": "2026-09-16T02:00:00.000Z",
+    "observationTimestamp": "2026-09-16T02:00:00+00:00",
+    "raw": "METAR DFFD 160200Z 20010KT CAVOK 28/23 Q1013 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211243693,
-      "display": "8,211,243,693",
+      "value": 8211245425,
+      "display": "8,211,245,425",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -75,7 +75,7 @@
       "display": "22.08 °C",
       "source": "NOAA ACSPO Global SST (area-weighted sample)",
       "dataset": "ACSPO_LEO_L3S_nrt",
-      "endpoint": "NOAA CoastWatch ACSPO NRT"
+      "endpoint": "NOAA OceanWatch ACSPO NRT"
     },
     "dayNight": {
       "value": 0.5,
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T02:21:00Z",
-      "speed": 531.0
+      "time": "2026-09-16T02:32:00Z",
+      "speed": 538.0
     },
     "magneticField": {
-      "time": "2026-09-16T02:21:00Z",
-      "bt": 11.0,
-      "bz": 2.0
+      "time": "2026-09-16T02:32:00Z",
+      "bt": 10.0,
+      "bz": 6.0
     },
     "kp": {
       "time": "2026-09-15T21:00:00",
       "kp": 3.33
     },
     "aurora": {
-      "value": 29.0,
-      "display": "MAX 29.0%",
+      "value": 28.0,
+      "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T02:19:00Z",
-      "forecastTime": "2026-09-16T03:11:00Z"
+      "observationTime": "2026-09-16T02:30:00Z",
+      "forecastTime": "2026-09-16T03:21:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
