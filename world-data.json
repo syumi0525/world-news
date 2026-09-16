@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T05:57:51.907466+00:00",
+  "generatedAt": "2026-09-16T06:19:44.253703+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brake Through Of kpongu Dam AWC Africa Wiki Challenge 308.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mayor_555&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mayor 555 (page does not exist)\">Mayor 555</a>",
+    "title": "File:Brûlé Lake from Mount Solomon Lookout.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Brake_Through_Of_kpongu_Dam_AWC_Africa_Wiki_Challenge_308.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Br%C3%BBl%C3%A9_Lake_from_Mount_Solomon_Lookout.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDMO",
-    "station": "KDMO",
-    "lat": 38.712,
-    "lon": -93.1747,
+    "name": "KPIR",
+    "station": "KPIR",
+    "lat": 44.3819,
+    "lon": -100.2864,
     "weather": "No coded weather",
-    "temperature": 21.1,
-    "dewpoint": 20.0,
-    "windSpeed": 8.0,
-    "windDirection": 50.0,
+    "temperature": 10.0,
+    "dewpoint": 7.2,
+    "windSpeed": 3.0,
+    "windDirection": 90.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-16T05:53:00.000Z",
     "observationTimestamp": "2026-09-16T05:53:00+00:00",
-    "raw": "METAR KDMO 160553Z AUTO 05008KT 10SM CLR 21/20 A3014 RMK AO2 SLP198 60030 T02110200 10322 20211 403560211 51018"
+    "raw": "METAR KPIR 160553Z AUTO 09003KT 10SM CLR 10/07 A3022 RMK AO2 SLP232 T01000072 10217 20094 402220089 53010"
   },
   "randomPlace": {
-    "name": "VVPQ",
-    "station": "VVPQ",
-    "lat": 10.169,
-    "lon": 103.995,
+    "name": "VTUK",
+    "station": "VTUK",
+    "lat": 16.462,
+    "lon": 102.786,
     "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 26.0,
+    "temperature": 30.0,
+    "dewpoint": 24.0,
     "windSpeed": 7.0,
-    "windDirection": 260.0,
-    "visibility": "4.97",
+    "windDirection": 200.0,
+    "visibility": "6+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-16T05:30:00.000Z",
-    "observationTimestamp": "2026-09-16T05:30:00+00:00",
-    "raw": "METAR VVPQ 160530Z 26007KT 8000 FEW015 32/26 Q1012 NOSIG"
+    "observationTime": "2026-09-16T06:00:00.000Z",
+    "observationTimestamp": "2026-09-16T06:00:00+00:00",
+    "raw": "METAR VTUK 160600Z 20007KT 9999 BKN025 30/24 Q1011 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211269059,
-      "display": "8,211,269,059",
+      "value": 8211271649,
+      "display": "8,211,271,649",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-16T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.7,
-      "display": "Kp 3.7",
+      "value": 3.0,
+      "display": "Kp 3.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-16T00:00:00"
+      "time": "2026-09-16T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T05:50:00Z",
+      "time": "2026-09-16T06:12:00Z",
       "speed": 535.0
     },
     "magneticField": {
-      "time": "2026-09-16T05:50:00Z",
-      "bt": 6.0,
-      "bz": 6.0
+      "time": "2026-09-16T06:12:00Z",
+      "bt": 7.0,
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-09-16T00:00:00",
-      "kp": 3.67
+      "time": "2026-09-16T03:00:00",
+      "kp": 3.0
     },
     "aurora": {
-      "value": 29.0,
-      "display": "MAX 29.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T05:50:00Z",
-      "forecastTime": "2026-09-16T06:41:00Z"
+      "observationTime": "2026-09-16T06:09:00Z",
+      "forecastTime": "2026-09-16T07:01:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
