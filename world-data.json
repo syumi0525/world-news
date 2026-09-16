@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T23:57:16.164873+00:00",
+  "generatedAt": "2026-09-16T00:17:35.499895+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A nude man poses in the formal garden of a privately owned chateau near Paris.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:The_Naked_Gentleman\" title=\"User:The Naked Gentleman\">The Naked Gentleman</a>",
+    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_nude_man_poses_in_the_formal_garden_of_a_privately_owned_chateau_near_Paris.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1K8",
-    "station": "K1K8",
-    "lat": 36.543,
-    "lon": -95.012,
+    "name": "K1MN",
+    "station": "K1MN",
+    "lat": 48.67,
+    "lon": -101.88,
     "weather": "No coded weather",
-    "temperature": 37.0,
-    "dewpoint": 20.0,
+    "temperature": 14.4,
+    "dewpoint": 5.7,
     "windSpeed": 7.0,
-    "windDirection": 170.0,
+    "windDirection": 10.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-15T23:35:00.000Z",
-    "observationTimestamp": "2026-09-15T23:35:00+00:00",
-    "raw": "METAR K1K8 152335Z AUTO 17007KT 10SM SCT085 37/20 A2997 RMK AO2"
+    "observationTime": "2026-09-15T23:55:00.000Z",
+    "observationTimestamp": "2026-09-15T23:55:00+00:00",
+    "raw": "METAR K1MN 152355Z AUTO 01007KT 10SM CLR 14/06 M RMK AO2 SLPNO T01440057 10160 20140 $"
   },
   "randomPlace": {
-    "name": "KBDH",
-    "station": "KBDH",
-    "lat": 45.1111,
-    "lon": -95.1258,
+    "name": "KFEP",
+    "station": "KFEP",
+    "lat": 42.2475,
+    "lon": -89.581,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 10.0,
+    "temperature": 20.5,
+    "dewpoint": 19.7,
     "windSpeed": 5.0,
-    "windDirection": 330.0,
+    "windDirection": 300.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-15T23:35:00.000Z",
-    "observationTimestamp": "2026-09-15T23:35:00+00:00",
-    "raw": "METAR KBDH 152335Z AUTO 33005KT 10SM CLR 19/10 A3017 RMK AO2"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-15T23:55:00.000Z",
+    "observationTimestamp": "2026-09-15T23:55:00+00:00",
+    "raw": "METAR KFEP 152355Z AUTO 30005KT 10SM BKN018 BKN050 BKN080 21/20 A3014 RMK AO2 LTG DSNT S P0001 60006 T02050197 10253 20205"
   },
   "globalPulse": {
     "population": {
-      "value": 8211225873,
-      "display": "8,211,225,873",
+      "value": 8211228304,
+      "display": "8,211,228,304",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-15T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 3.3,
+      "display": "Kp 3.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-15T18:00:00"
+      "time": "2026-09-15T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-15T23:49:00Z",
+      "time": "2026-09-16T00:06:00Z",
       "speed": 522.0
     },
     "magneticField": {
-      "time": "2026-09-15T23:49:00Z",
-      "bt": 14.0,
-      "bz": -1.0
+      "time": "2026-09-16T00:06:00Z",
+      "bt": 11.0,
+      "bz": 1.0
     },
     "kp": {
-      "time": "2026-09-15T18:00:00",
-      "kp": 2.0
+      "time": "2026-09-15T21:00:00",
+      "kp": 3.33
     },
     "aurora": {
-      "value": 60.0,
-      "display": "MAX 60.0%",
+      "value": 57.0,
+      "display": "MAX 57.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-15T23:44:00Z",
-      "forecastTime": "2026-09-16T00:43:00Z"
+      "observationTime": "2026-09-16T00:04:00Z",
+      "forecastTime": "2026-09-16T01:00:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
