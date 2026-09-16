@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T07:32:21.816695+00:00",
+  "generatedAt": "2026-09-16T08:35:21.660124+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 02.jpg",
+    "title": "File:Batiment aunsein de la Ville de Majunga 08.jpg",
     "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_02.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_08.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EVVA",
-    "station": "EVVA",
-    "lat": 57.361,
-    "lon": 21.545,
+    "name": "KCNB",
+    "station": "KCNB",
+    "lat": 44.7297,
+    "lon": -96.2623,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 14.0,
-    "windSpeed": 9.0,
-    "windDirection": 170.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-16T07:20:00.000Z",
-    "observationTimestamp": "2026-09-16T07:20:00+00:00",
-    "raw": "METAR EVVA 160720Z AUTO 17009KT CAVOK 16/14 Q1009"
-  },
-  "randomPlace": {
-    "name": "KMCN",
-    "station": "KMCN",
-    "lat": 32.6889,
-    "lon": -83.6529,
-    "weather": "No coded weather",
-    "temperature": 22.2,
-    "dewpoint": 21.7,
-    "windSpeed": 4.0,
-    "windDirection": 90.0,
+    "temperature": 9.1,
+    "dewpoint": 8.3,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T06:53:00.000Z",
-    "observationTimestamp": "2026-09-16T06:53:00+00:00",
-    "raw": "METAR KMCN 160653Z AUTO 09004KT 10SM CLR 22/22 A3025 RMK AO2 SLP238 T02220217"
+    "observationTime": "2026-09-16T08:15:00.000Z",
+    "observationTimestamp": "2026-09-16T08:15:00+00:00",
+    "raw": "METAR KCNB 160815Z AUTO 00000KT 10SM CLR 09/08 A3030 RMK AO2 T00910083"
+  },
+  "randomPlace": {
+    "name": "K3L4",
+    "station": "K3L4",
+    "lat": 29.8,
+    "lon": -92.804,
+    "weather": "No coded weather",
+    "temperature": 28.0,
+    "dewpoint": 27.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-16T08:15:00.000Z",
+    "observationTimestamp": "2026-09-16T08:15:00+00:00",
+    "raw": "METAR K3L4 160815Z AUTO 00000KT 10SM CLR 28/27 A3009 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211280348,
-      "display": "8,211,280,348",
+      "value": 8211287886,
+      "display": "8,211,287,886",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -71,8 +71,8 @@
       "date": "2026-06-01"
     },
     "seaSurface": {
-      "value": 22.08,
-      "display": "22.08 °C",
+      "value": 22.2,
+      "display": "22.20 °C",
       "source": "NOAA ACSPO Global SST (area-weighted sample)",
       "dataset": "ACSPO_LEO_L3S_nrt",
       "endpoint": "NOAA OceanWatch ACSPO NRT"
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T07:24:00Z",
-      "speed": 516.0
+      "time": "2026-09-16T08:27:00Z",
+      "speed": 545.0
     },
     "magneticField": {
-      "time": "2026-09-16T07:24:00Z",
-      "bt": 7.0,
-      "bz": 4.0
+      "time": "2026-09-16T08:27:00Z",
+      "bt": 5.0,
+      "bz": 5.0
     },
     "kp": {
       "time": "2026-09-16T03:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T07:19:00Z",
-      "forecastTime": "2026-09-16T08:12:00Z"
+      "observationTime": "2026-09-16T08:25:00Z",
+      "forecastTime": "2026-09-16T09:16:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
