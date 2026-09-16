@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T10:33:31.903019+00:00",
+  "generatedAt": "2026-09-16T10:49:03.396100+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Comapedrosa with snow.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:FrameOverdose\" title=\"User:FrameOverdose\">FrameOverdose</a>",
+    "title": "File:Noung Lum Lake.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Saosukham\" title=\"User:Saosukham\">Saosukham</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Comapedrosa_with_snow.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Noung_Lum_Lake.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWDJ",
-    "station": "CWDJ",
-    "lat": 50.408,
-    "lon": -104.58,
-    "weather": "No coded weather",
-    "temperature": 8.5,
-    "dewpoint": 7.5,
-    "windSpeed": 6.0,
-    "windDirection": 180.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-16T10:00:00.000Z",
-    "observationTimestamp": "2026-09-16T10:00:00+00:00",
-    "raw": "METAR CWDJ 161000Z AUTO 18006KT 09/08 RMK AO1 3PAST HR 3007 SLP257 P0001 T00850075 50003"
+    "name": "K9K7",
+    "station": "K9K7",
+    "lat": 38.7502,
+    "lon": -98.2316,
+    "weather": "-RA BR",
+    "temperature": 16.0,
+    "dewpoint": 16.0,
+    "windSpeed": 7.0,
+    "windDirection": 300.0,
+    "visibility": "4",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-16T10:35:00.000Z",
+    "observationTimestamp": "2026-09-16T10:35:00+00:00",
+    "raw": "METAR K9K7 161035Z AUTO 30007KT 4SM -RA BR BKN002 OVC009 16/16 A3022 RMK AO2 LTG DSNT SE PRESRR"
   },
   "randomPlace": {
-    "name": "UUOB",
-    "station": "UUOB",
-    "lat": 50.644,
-    "lon": 36.59,
+    "name": "SBUR",
+    "station": "SBUR",
+    "lat": -19.765,
+    "lon": -47.965,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 12.0,
-    "windSpeed": 12.0,
-    "windDirection": 360.0,
+    "temperature": 17.0,
+    "dewpoint": 17.0,
+    "windSpeed": 4.0,
+    "windDirection": 30.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-16T10:00:00.000Z",
     "observationTimestamp": "2026-09-16T10:00:00+00:00",
-    "raw": "METAR UUOB 161000Z 36006MPS CAVOK 18/12 Q1016 R29/190065 NOSIG RMK QNH762 QFE743/0991"
+    "raw": "METAR SBUR 161000Z 03004KT CAVOK 17/17 Q1020"
   },
   "globalPulse": {
     "population": {
-      "value": 8211302060,
-      "display": "8,211,302,060",
+      "value": 8211303912,
+      "display": "8,211,303,912",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T10:25:00Z",
-      "speed": 534.0
+      "time": "2026-09-16T10:42:00Z",
+      "speed": 546.0
     },
     "magneticField": {
-      "time": "2026-09-16T10:25:00Z",
-      "bt": 5.0,
-      "bz": -4.0
+      "time": "2026-09-16T10:42:00Z",
+      "bt": 3.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-16T06:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T10:25:00Z",
-      "forecastTime": "2026-09-16T11:16:00Z"
+      "observationTime": "2026-09-16T10:35:00Z",
+      "forecastTime": "2026-09-16T11:26:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
