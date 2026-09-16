@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T02:09:49.003996+00:00",
+  "generatedAt": "2026-09-16T02:30:25.901782+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Active Wave At Popham Beach, Popham, Maine.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FlaggSwagg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FlaggSwagg (page does not exist)\">FlaggSwagg</a>",
-    "license": "CC0",
+    "title": "File:Log hotel, lake Edouard (Qc, Canada) Quebec and lake St-John Railway, 1888.jpg",
+    "artist": "Kit Clark",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Active_Wave_At_Popham_Beach%2C_Popham%2C_Maine.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Log_hotel%2C_lake_Edouard_%28Qc%2C_Canada%29_Quebec_and_lake_St-John_Railway%2C_1888.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VOHS",
-    "station": "VOHS",
-    "lat": 17.233,
-    "lon": 78.429,
-    "weather": "BR",
-    "temperature": 25.0,
-    "dewpoint": 22.0,
-    "windSpeed": 4.0,
-    "windDirection": 220.0,
-    "visibility": "2.49",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-16T02:00:00.000Z",
-    "observationTimestamp": "2026-09-16T02:00:00+00:00",
-    "raw": "METAR VOHS 160200Z 22004KT 4000 BR SCT015 SCT100 25/22 Q1016 NOSIG"
+    "name": "K1P1",
+    "station": "K1P1",
+    "lat": 43.7771,
+    "lon": -71.756,
+    "weather": "No coded weather",
+    "temperature": 11.6,
+    "dewpoint": 10.9,
+    "windSpeed": 3.0,
+    "windDirection": 110.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-16T02:15:00.000Z",
+    "observationTimestamp": "2026-09-16T02:15:00+00:00",
+    "raw": "METAR K1P1 160215Z AUTO 11003KT 10SM SCT100 12/11 A3035 RMK AO2 T01160109"
   },
   "randomPlace": {
-    "name": "UDYZ",
-    "station": "UDYZ",
-    "lat": 40.147,
-    "lon": 44.396,
+    "name": "KMHT",
+    "station": "KMHT",
+    "lat": 42.9245,
+    "lon": -71.4377,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 11.0,
-    "windSpeed": 1.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 13.3,
+    "dewpoint": 9.4,
+    "windSpeed": 4.0,
+    "windDirection": 150.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T02:00:00.000Z",
-    "observationTimestamp": "2026-09-16T02:00:00+00:00",
-    "raw": "METAR UDYZ 160200Z VRB01KT 9999 NSC 16/11 Q1015 NOSIG"
+    "observationTime": "2026-09-16T01:53:00.000Z",
+    "observationTimestamp": "2026-09-16T01:53:00+00:00",
+    "raw": "METAR KMHT 160153Z 15004KT 10SM SCT200 13/09 A3035 RMK AO2 SLP291 T01330094 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211241738,
-      "display": "8,211,241,738",
+      "value": 8211243693,
+      "display": "8,211,243,693",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -75,7 +75,7 @@
       "display": "22.08 °C",
       "source": "NOAA ACSPO Global SST (area-weighted sample)",
       "dataset": "ACSPO_LEO_L3S_nrt",
-      "endpoint": "NOAA OceanWatch ACSPO NRT"
+      "endpoint": "NOAA CoastWatch ACSPO NRT"
     },
     "dayNight": {
       "value": 0.5,
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T02:03:00Z",
-      "speed": 522.0
+      "time": "2026-09-16T02:21:00Z",
+      "speed": 531.0
     },
     "magneticField": {
-      "time": "2026-09-16T01:59:00Z",
+      "time": "2026-09-16T02:21:00Z",
       "bt": 11.0,
-      "bz": 0.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-15T21:00:00",
       "kp": 3.33
     },
     "aurora": {
-      "value": 32.0,
-      "display": "MAX 32.0%",
+      "value": 29.0,
+      "display": "MAX 29.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T01:59:00Z",
-      "forecastTime": "2026-09-16T02:51:00Z"
+      "observationTime": "2026-09-16T02:19:00Z",
+      "forecastTime": "2026-09-16T03:11:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
