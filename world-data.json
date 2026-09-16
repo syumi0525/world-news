@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T09:59:13.676015+00:00",
+  "generatedAt": "2026-09-16T10:18:15.236663+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A misty forest road in Coonoor.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
+    "title": "File:Borehole project 15.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_15.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KN38",
-    "station": "KN38",
-    "lat": 41.7287,
-    "lon": -77.3958,
+    "name": "KTEX",
+    "station": "KTEX",
+    "lat": 37.954,
+    "lon": -107.909,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 13.0,
-    "windSpeed": 6.0,
-    "windDirection": 210.0,
+    "temperature": 11.0,
+    "dewpoint": 6.0,
+    "windSpeed": 5.0,
+    "windDirection": 150.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-16T09:55:00.000Z",
     "observationTimestamp": "2026-09-16T09:55:00+00:00",
-    "raw": "METAR KN38 160955Z AUTO 21006KT 10SM FEW046 BKN055 OVC070 15/13 A3032 RMK AO2"
+    "raw": "METAR KTEX 160955Z AUTO 15005KT 10SM SCT070 BKN075 BKN090 11/06 A3046 RMK AO2"
   },
   "randomPlace": {
-    "name": "CYQR",
-    "station": "CYQR",
-    "lat": 50.427,
-    "lon": -104.67,
-    "weather": "-RA",
-    "temperature": 9.0,
-    "dewpoint": 7.0,
-    "windSpeed": 5.0,
-    "windDirection": 160.0,
-    "visibility": "15",
-    "flightCategory": "VFR",
+    "name": "CXCA",
+    "station": "CXCA",
+    "lat": 49.154,
+    "lon": -88.344,
+    "weather": "No coded weather",
+    "temperature": 8.9,
+    "dewpoint": 7.6,
+    "windSpeed": 2.0,
+    "windDirection": 280.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-16T09:00:00.000Z",
     "observationTimestamp": "2026-09-16T09:00:00+00:00",
-    "raw": "METAR CYQR 160900Z 16005KT 15SM -RA OVC062 09/07 A3024 RMK SC8 SLP256"
+    "raw": "METAR CXCA 160900Z AUTO 28002KT 09/08 RMK AO1 SLP240 T00890076 53029"
   },
   "globalPulse": {
     "population": {
-      "value": 8211297952,
-      "display": "8,211,297,952",
+      "value": 8211300235,
+      "display": "8,211,300,235",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T09:51:00Z",
-      "speed": 532.0
+      "time": "2026-09-16T10:10:00Z",
+      "speed": 529.0
     },
     "magneticField": {
-      "time": "2026-09-16T09:51:00Z",
-      "bt": 5.0,
-      "bz": 3.0
+      "time": "2026-09-16T10:10:00Z",
+      "bt": 6.0,
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-16T06:00:00",
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T09:51:00Z",
-      "forecastTime": "2026-09-16T10:41:00Z"
+      "observationTime": "2026-09-16T10:05:00Z",
+      "forecastTime": "2026-09-16T10:56:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
