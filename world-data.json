@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T11:32:54.816335+00:00",
+  "generatedAt": "2026-09-16T11:51:12.018856+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Panneau-B0-ZTL Paris-Place-Hôtel-de-Ville 2026-05-15.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Britzz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Britzz (page does not exist)\">Britzz</a>",
+    "title": "File:Brûlé Lake from Mount Solomon Lookout.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Panneau-B0-ZTL_Paris-Place-H%C3%B4tel-de-Ville_2026-05-15.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Br%C3%BBl%C3%A9_Lake_from_Mount_Solomon_Lookout.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KALK",
-    "station": "KALK",
-    "lat": 31.606,
-    "lon": -110.428,
+    "name": "KOFP",
+    "station": "KOFP",
+    "lat": 37.7093,
+    "lon": -77.4348,
     "weather": "No coded weather",
-    "temperature": 18.9,
-    "dewpoint": 16.7,
-    "windSpeed": 7.0,
-    "windDirection": 280.0,
-    "visibility": "10+",
+    "temperature": 14.4,
+    "dewpoint": 13.3,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "9",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T10:56:00.000Z",
-    "observationTimestamp": "2026-09-16T10:56:00+00:00",
-    "raw": "METAR KALK 161056Z AUTO 28007KT 10SM FEW048 SCT060 19/17 A3017 RMK AO2 SLP125 T01890167"
+    "observationTime": "2026-09-16T10:54:00.000Z",
+    "observationTimestamp": "2026-09-16T10:54:00+00:00",
+    "raw": "METAR KOFP 161054Z AUTO 00000KT 9SM CLR 14/13 A3038 RMK AO2 SLP285 T01440133"
   },
   "randomPlace": {
-    "name": "KSSF",
-    "station": "KSSF",
-    "lat": 29.339,
-    "lon": -98.472,
+    "name": "KSPG",
+    "station": "KSPG",
+    "lat": 27.7685,
+    "lon": -82.6257,
     "weather": "No coded weather",
-    "temperature": 25.6,
-    "dewpoint": 23.9,
-    "windSpeed": 4.0,
-    "windDirection": 110.0,
-    "visibility": "9",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-16T11:28:00.000Z",
-    "observationTimestamp": "2026-09-16T11:28:00+00:00",
-    "raw": "SPECI KSSF 161128Z AUTO 11004KT 9SM SCT013 BKN019 26/24 A3011 RMK AO2 T02560239 $"
+    "temperature": 27.2,
+    "dewpoint": 25.6,
+    "windSpeed": 15.0,
+    "windDirection": 70.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-16T10:53:00.000Z",
+    "observationTimestamp": "2026-09-16T10:53:00+00:00",
+    "raw": "METAR KSPG 161053Z 07015KT 10SM FEW010 27/26 A3010 RMK AO2 SLP191 T02720256"
   },
   "globalPulse": {
     "population": {
-      "value": 8211309125,
-      "display": "8,211,309,125",
+      "value": 8211311113,
+      "display": "8,211,311,113",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T11:23:00Z",
-      "speed": 547.0
+      "time": "2026-09-16T11:41:00Z",
+      "speed": 536.0
     },
     "magneticField": {
-      "time": "2026-09-16T11:23:00Z",
-      "bt": 4.0,
-      "bz": -1.0
+      "time": "2026-09-16T11:43:00Z",
+      "bt": 5.0,
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-16T06:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 28.0,
+      "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T11:23:00Z",
-      "forecastTime": "2026-09-16T12:16:00Z"
+      "observationTime": "2026-09-16T11:41:00Z",
+      "forecastTime": "2026-09-16T12:31:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
