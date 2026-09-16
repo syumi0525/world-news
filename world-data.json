@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T08:50:07.098125+00:00",
+  "generatedAt": "2026-09-16T08:59:48.661769+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Balcones (8677680208).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
-    "license": "Public domain",
+    "title": "File:Ejemplares de Melocactus en el desierto de la Tatacoa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cathetovar\" title=\"User:Cathetovar\">Cathetovar</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ejemplares_de_Melocactus_en_el_desierto_de_la_Tatacoa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LQBK",
-    "station": "LQBK",
-    "lat": 44.937,
-    "lon": 17.299,
+    "name": "KCGS",
+    "station": "KCGS",
+    "lat": 38.9806,
+    "lon": -76.9251,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 12.0,
-    "windSpeed": 2.0,
+    "temperature": 14.6,
+    "dewpoint": 13.3,
+    "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-16T08:30:00.000Z",
-    "observationTimestamp": "2026-09-16T08:30:00+00:00",
-    "raw": "METAR LQBK 160830Z VRB02KT CAVOK 21/12 Q1018 NOSIG"
-  },
-  "randomPlace": {
-    "name": "KVJI",
-    "station": "KVJI",
-    "lat": 36.6872,
-    "lon": -82.037,
-    "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 17.0,
-    "windSpeed": 4.0,
-    "windDirection": 60.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-16T08:35:00.000Z",
     "observationTimestamp": "2026-09-16T08:35:00+00:00",
-    "raw": "METAR KVJI 160835Z AUTO 06004KT 10SM CLR 18/17 A3037 RMK AO2"
+    "raw": "METAR KCGS 160835Z AUTO 00000KT 10SM CLR 15/13 A3033 RMK AO2 T01460133"
+  },
+  "randomPlace": {
+    "name": "LIPR",
+    "station": "LIPR",
+    "lat": 44.02,
+    "lon": 12.612,
+    "weather": "No coded weather",
+    "temperature": 26.0,
+    "dewpoint": 13.0,
+    "windSpeed": 5.0,
+    "windDirection": 120.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-16T08:50:00.000Z",
+    "observationTimestamp": "2026-09-16T08:50:00+00:00",
+    "raw": "METAR LIPR 160850Z 12005KT 090V160 CAVOK 26/13 Q1016"
   },
   "globalPulse": {
     "population": {
-      "value": 8211289660,
-      "display": "8,211,289,660",
+      "value": 8211290819,
+      "display": "8,211,290,819",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T08:40:00Z",
-      "speed": 544.0
+      "time": "2026-09-16T08:52:00Z",
+      "speed": 545.0
     },
     "magneticField": {
-      "time": "2026-09-16T08:40:00Z",
+      "time": "2026-09-16T08:52:00Z",
       "bt": 5.0,
-      "bz": 5.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-16T03:00:00",
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T08:40:00Z",
-      "forecastTime": "2026-09-16T09:31:00Z"
+      "observationTime": "2026-09-16T08:49:00Z",
+      "forecastTime": "2026-09-16T09:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
