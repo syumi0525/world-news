@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T04:48:39.188864+00:00",
+  "generatedAt": "2026-09-16T04:58:56.726433+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Basilique de Fourvière à Lyon, vue d'en bas.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PerrineSCDUM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PerrineSCDUM (page does not exist)\">PerrineSCDUM</a>",
+    "title": "File:Brake Through Of kpongu Dam AWC Africa Wiki Challenge 309.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mayor_555&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mayor 555 (page does not exist)\">Mayor 555</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_%C3%A0_Lyon%2C_vue_d%27en_bas.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brake_Through_Of_kpongu_Dam_AWC_Africa_Wiki_Challenge_309.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SAME",
-    "station": "SAME",
-    "lat": -32.832,
-    "lon": -68.793,
+    "name": "RCQC",
+    "station": "RCQC",
+    "lat": 23.569,
+    "lon": 119.628,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 0.0,
-    "windSpeed": 5.0,
-    "windDirection": 200.0,
+    "temperature": 29.0,
+    "dewpoint": 23.0,
+    "windSpeed": 18.0,
+    "windDirection": 30.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T04:00:00.000Z",
-    "observationTimestamp": "2026-09-16T04:00:00+00:00",
-    "raw": "METAR SAME 160400Z 20005KT CAVOK 11/M00 Q1020"
+    "observationTime": "2026-09-16T04:30:00.000Z",
+    "observationTimestamp": "2026-09-16T04:30:00+00:00",
+    "raw": "METAR RCQC 160430Z 03018G28KT 9999 FEW012 SCT080 29/23 Q1012 NOSIG RMK A2989"
   },
   "randomPlace": {
-    "name": "KHQG",
-    "station": "KHQG",
-    "lat": 37.1647,
-    "lon": -101.3714,
+    "name": "K3U3",
+    "station": "K3U3",
+    "lat": 46.1516,
+    "lon": -112.8683,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 14.0,
+    "temperature": 7.5,
+    "dewpoint": 2.5,
     "windSpeed": 7.0,
-    "windDirection": 350.0,
+    "windDirection": 280.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T04:35:00.000Z",
-    "observationTimestamp": "2026-09-16T04:35:00+00:00",
-    "raw": "METAR KHQG 160435Z AUTO 35007KT 10SM CLR 16/14 A3019 RMK AO2"
+    "observationTime": "2026-09-16T04:55:00.000Z",
+    "observationTimestamp": "2026-09-16T04:55:00+00:00",
+    "raw": "METAR K3U3 160455Z AUTO 28007KT 10SM CLR 07/02 A3009 RMK AO2 T00750025"
   },
   "globalPulse": {
     "population": {
-      "value": 8211260776,
-      "display": "8,211,260,776",
+      "value": 8211262006,
+      "display": "8,211,262,006",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T04:41:00Z",
-      "speed": 525.0
+      "time": "2026-09-16T04:50:00Z",
+      "speed": 529.0
     },
     "magneticField": {
-      "time": "2026-09-16T04:41:00Z",
-      "bt": 6.0,
-      "bz": 1.0
+      "time": "2026-09-16T04:50:00Z",
+      "bt": 7.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-16T00:00:00",
       "kp": 3.67
     },
     "aurora": {
-      "value": 31.0,
-      "display": "MAX 31.0%",
+      "value": 32.0,
+      "display": "MAX 32.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T04:39:00Z",
-      "forecastTime": "2026-09-16T05:31:00Z"
+      "observationTime": "2026-09-16T04:50:00Z",
+      "forecastTime": "2026-09-16T05:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
