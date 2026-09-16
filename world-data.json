@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T04:16:22.844682+00:00",
+  "generatedAt": "2026-09-16T04:32:21.982463+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Table of Schedule of Soerabaja-Malang train.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:JohanSpoorlijn\" title=\"User:JohanSpoorlijn\">JohanSpoorlijn</a>",
-    "license": "CC0",
+    "title": "File:Balcones (8677680208).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Table_of_Schedule_of_Soerabaja-Malang_train.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYUB",
-    "station": "CYUB",
-    "lat": 69.434,
-    "lon": -133.026,
+    "name": "OITZ",
+    "station": "OITZ",
+    "lat": 36.772,
+    "lon": 48.363,
     "weather": "No coded weather",
-    "temperature": 1.0,
+    "temperature": 21.0,
     "dewpoint": -1.0,
     "windSpeed": 6.0,
-    "windDirection": 140.0,
-    "visibility": "15",
+    "windDirection": 150.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-16T04:00:00.000Z",
     "observationTimestamp": "2026-09-16T04:00:00+00:00",
-    "raw": "METAR CYUB 160400Z 14006KT 15SM FEW026 SCT120 01/M01 A2991 RMK SC1AS2 SLP130"
+    "raw": "METAR OITZ 160400Z 15006KT CAVOK 21/M01 Q1021 A3017"
   },
   "randomPlace": {
-    "name": "CWNP",
-    "station": "CWNP",
-    "lat": 50.269,
-    "lon": -117.817,
+    "name": "CYET",
+    "station": "CYET",
+    "lat": 53.58,
+    "lon": -116.455,
     "weather": "No coded weather",
-    "temperature": 11.9,
-    "dewpoint": 10.6,
-    "windSpeed": 3.0,
-    "windDirection": 70.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "temperature": 4.0,
+    "dewpoint": 2.0,
+    "windSpeed": 2.0,
+    "windDirection": 250.0,
+    "visibility": "9",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-16T04:00:00.000Z",
     "observationTimestamp": "2026-09-16T04:00:00+00:00",
-    "raw": "METAR CWNP 160400Z AUTO 07003KT 12/11 RMK AO1 SLP197 T01190106 53014"
+    "raw": "METAR CYET 160400Z AUTO 25002KT 9SM CLR 04/02 A3012 RMK SLP230"
   },
   "globalPulse": {
     "population": {
-      "value": 8211256914,
-      "display": "8,211,256,914",
+      "value": 8211258823,
+      "display": "8,211,258,823",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T04:09:00Z",
-      "speed": 545.0
+      "time": "2026-09-16T04:25:00Z",
+      "speed": 538.0
     },
     "magneticField": {
-      "time": "2026-09-16T04:09:00Z",
+      "time": "2026-09-16T04:25:00Z",
       "bt": 7.0,
       "bz": 1.0
     },
@@ -110,11 +110,11 @@
       "kp": 3.67
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 28.0,
+      "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T04:04:00Z",
-      "forecastTime": "2026-09-16T04:56:00Z"
+      "observationTime": "2026-09-16T04:25:00Z",
+      "forecastTime": "2026-09-16T05:16:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
