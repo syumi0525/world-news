@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T06:19:44.253703+00:00",
+  "generatedAt": "2026-09-16T06:39:51.229025+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brûlé Lake from Mount Solomon Lookout.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
-    "license": "CC0",
+    "title": "File:AuditorioITA.JPG",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Berpasan\" class=\"extiw\" title=\"w:User:Berpasan\">Berpasan</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Berpasan\" class=\"extiw\" title=\"w:User talk:Berpasan\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Berpasan\" class=\"extiw\" title=\"w:Special:ListFiles/Berpasan\">Uploads</a>)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Br%C3%BBl%C3%A9_Lake_from_Mount_Solomon_Lookout.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AuditorioITA.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPIR",
-    "station": "KPIR",
-    "lat": 44.3819,
-    "lon": -100.2864,
+    "name": "CWIJ",
+    "station": "CWIJ",
+    "lat": 65.756,
+    "lon": -111.246,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 7.2,
-    "windSpeed": 3.0,
-    "windDirection": 90.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-16T05:53:00.000Z",
-    "observationTimestamp": "2026-09-16T05:53:00+00:00",
-    "raw": "METAR KPIR 160553Z AUTO 09003KT 10SM CLR 10/07 A3022 RMK AO2 SLP232 T01000072 10217 20094 402220089 53010"
-  },
-  "randomPlace": {
-    "name": "VTUK",
-    "station": "VTUK",
-    "lat": 16.462,
-    "lon": 102.786,
-    "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 24.0,
-    "windSpeed": 7.0,
-    "windDirection": 200.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
+    "temperature": -1.7,
+    "dewpoint": -5.1,
+    "windSpeed": 12.0,
+    "windDirection": 300.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-16T06:00:00.000Z",
     "observationTimestamp": "2026-09-16T06:00:00+00:00",
-    "raw": "METAR VTUK 160600Z 20007KT 9999 BKN025 30/24 Q1011 NOSIG"
+    "raw": "METAR CWIJ 160600Z AUTO 30012KT M02/M05 RMK AO1 SLP168 T10171051 52003"
+  },
+  "randomPlace": {
+    "name": "CWWZ",
+    "station": "CWWZ",
+    "lat": 43.244,
+    "lon": -79.218,
+    "weather": "No coded weather",
+    "temperature": 21.1,
+    "dewpoint": 19.1,
+    "windSpeed": 2.0,
+    "windDirection": 90.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-16T06:00:00.000Z",
+    "observationTimestamp": "2026-09-16T06:00:00+00:00",
+    "raw": "METAR CWWZ 160600Z AUTO 09002KT 21/19 RMK AO1 SLP211 T02110191 53002"
   },
   "globalPulse": {
     "population": {
-      "value": 8211271649,
-      "display": "8,211,271,649",
+      "value": 8211274057,
+      "display": "8,211,274,057",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T06:12:00Z",
-      "speed": 535.0
+      "time": "2026-09-16T06:30:00Z",
+      "speed": 531.0
     },
     "magneticField": {
-      "time": "2026-09-16T06:12:00Z",
-      "bt": 7.0,
-      "bz": 0.0
+      "time": "2026-09-16T06:33:00Z",
+      "bt": 6.0,
+      "bz": 5.0
     },
     "kp": {
       "time": "2026-09-16T03:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 23.0,
+      "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T06:09:00Z",
-      "forecastTime": "2026-09-16T07:01:00Z"
+      "observationTime": "2026-09-16T06:30:00Z",
+      "forecastTime": "2026-09-16T07:21:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
