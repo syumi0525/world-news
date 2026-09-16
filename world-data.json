@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T10:49:03.396100+00:00",
+  "generatedAt": "2026-09-16T10:59:00.956274+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Noung Lum Lake.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Saosukham\" title=\"User:Saosukham\">Saosukham</a>",
+    "title": "File:Ballard locks fish ladder east entrance.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ursacascadia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ursacascadia (page does not exist)\">Ursacascadia</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Noung_Lum_Lake.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ballard_locks_fish_ladder_east_entrance.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K9K7",
-    "station": "K9K7",
-    "lat": 38.7502,
-    "lon": -98.2316,
-    "weather": "-RA BR",
-    "temperature": 16.0,
-    "dewpoint": 16.0,
-    "windSpeed": 7.0,
-    "windDirection": 300.0,
-    "visibility": "4",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-16T10:35:00.000Z",
-    "observationTimestamp": "2026-09-16T10:35:00+00:00",
-    "raw": "METAR K9K7 161035Z AUTO 30007KT 4SM -RA BR BKN002 OVC009 16/16 A3022 RMK AO2 LTG DSNT SE PRESRR"
-  },
-  "randomPlace": {
-    "name": "SBUR",
-    "station": "SBUR",
-    "lat": -19.765,
-    "lon": -47.965,
+    "name": "DAAT",
+    "station": "DAAT",
+    "lat": 22.824,
+    "lon": 5.452,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 17.0,
-    "windSpeed": 4.0,
-    "windDirection": 30.0,
+    "temperature": 33.0,
+    "dewpoint": 1.0,
+    "windSpeed": 9.0,
+    "windDirection": 150.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T10:00:00.000Z",
-    "observationTimestamp": "2026-09-16T10:00:00+00:00",
-    "raw": "METAR SBUR 161000Z 03004KT CAVOK 17/17 Q1020"
+    "observationTime": "2026-09-16T10:30:00.000Z",
+    "observationTimestamp": "2026-09-16T10:30:00+00:00",
+    "raw": "METAR DAAT 161030Z 15009KT 120V190 CAVOK 33/01 Q1023"
+  },
+  "randomPlace": {
+    "name": "KSNC",
+    "station": "KSNC",
+    "lat": 41.383,
+    "lon": -72.506,
+    "weather": "No coded weather",
+    "temperature": 14.0,
+    "dewpoint": 14.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-16T10:55:00.000Z",
+    "observationTimestamp": "2026-09-16T10:55:00+00:00",
+    "raw": "METAR KSNC 161055Z AUTO 00000KT 10SM FEW120 14/14 A3036 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211303912,
-      "display": "8,211,303,912",
+      "value": 8211305105,
+      "display": "8,211,305,105",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T10:42:00Z",
-      "speed": 546.0
+      "time": "2026-09-16T10:49:00Z",
+      "speed": 520.0
     },
     "magneticField": {
-      "time": "2026-09-16T10:42:00Z",
-      "bt": 3.0,
-      "bz": 1.0
+      "time": "2026-09-16T10:49:00Z",
+      "bt": 6.0,
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-16T06:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T10:35:00Z",
-      "forecastTime": "2026-09-16T11:26:00Z"
+      "observationTime": "2026-09-16T10:49:00Z",
+      "forecastTime": "2026-09-16T11:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
