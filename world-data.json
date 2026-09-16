@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T11:58:49.094988+00:00",
+  "generatedAt": "2026-09-16T12:22:01.834719+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:The picture shows a dry ,rocky with small plant and banana trees growing around aroded soil.At jikoki pape Abuja Nigeria.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sadeeeya3430&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sadeeeya3430 (page does not exist)\">Sadeeeya3430</a>",
+    "title": "File:A river is a natural.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:J.Doniyorovich&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:J.Doniyorovich (page does not exist)\">J.Doniyorovich</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:The_picture_shows_a_dry_%2Crocky_with_small_plant_and_banana_trees_growing_around_aroded_soil.At_jikoki_pape_Abuja_Nigeria.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_river_is_a_natural.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFRM",
-    "station": "KFRM",
-    "lat": 43.6455,
-    "lon": -94.4168,
+    "name": "KE16",
+    "station": "KE16",
+    "lat": 37.0797,
+    "lon": -121.598,
     "weather": "No coded weather",
-    "temperature": 9.4,
-    "dewpoint": 8.3,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 15.0,
+    "dewpoint": 12.0,
+    "windSpeed": 4.0,
+    "windDirection": 160.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-16T11:56:00.000Z",
-    "observationTimestamp": "2026-09-16T11:56:00+00:00",
-    "raw": "METAR KFRM 161156Z AUTO 00000KT 10SM CLR 09/08 A3033 RMK AO2 SLP276 T00940083 10133 20094 52010"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-16T11:50:00.000Z",
+    "observationTimestamp": "2026-09-16T11:50:00+00:00",
+    "raw": "METAR KE16 161150Z AUTO 16004KT 10SM OVC014 15/12 A2996 RMK AO2"
   },
   "randomPlace": {
-    "name": "KEMV",
-    "station": "KEMV",
-    "lat": 36.6858,
-    "lon": -77.485,
+    "name": "KIFP",
+    "station": "KIFP",
+    "lat": 35.1487,
+    "lon": -114.5611,
     "weather": "No coded weather",
-    "temperature": 14.7,
-    "dewpoint": 14.7,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 29.0,
+    "dewpoint": 13.0,
+    "windSpeed": 5.0,
+    "windDirection": 190.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T11:55:00.000Z",
-    "observationTimestamp": "2026-09-16T11:55:00+00:00",
-    "raw": "METAR KEMV 161155Z AUTO 00000KT 10SM CLR 15/15 A3039 RMK AO2 T01470147 10147 20122"
+    "observationTime": "2026-09-16T12:15:00.000Z",
+    "observationTimestamp": "2026-09-16T12:15:00+00:00",
+    "raw": "METAR KIFP 161215Z AUTO 19005KT 10SM SCT055 29/13 A2983 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211312274,
-      "display": "8,211,312,274",
+      "value": 8211315031,
+      "display": "8,211,315,031",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-16T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.3,
-      "display": "Kp 2.3",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-16T06:00:00"
+      "time": "2026-09-16T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T11:48:00Z",
-      "speed": 538.0
+      "time": "2026-09-16T12:12:00Z",
+      "speed": 567.0
     },
     "magneticField": {
-      "time": "2026-09-16T11:50:00Z",
+      "time": "2026-09-16T12:12:00Z",
       "bt": 5.0,
-      "bz": -3.0
+      "bz": 4.0
     },
     "kp": {
-      "time": "2026-09-16T06:00:00",
-      "kp": 2.33
+      "time": "2026-09-16T09:00:00",
+      "kp": 1.67
     },
     "aurora": {
       "value": 30.0,
       "display": "MAX 30.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T11:50:00Z",
-      "forecastTime": "2026-09-16T12:41:00Z"
+      "observationTime": "2026-09-16T12:15:00Z",
+      "forecastTime": "2026-09-16T13:06:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
