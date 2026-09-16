@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T03:12:32.961597+00:00",
+  "generatedAt": "2026-09-16T03:31:33.811686+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:The picture shows a dry ,rocky with small plant and banana trees growing around aroded soil.At jikoki pape Abuja Nigeria.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sadeeeya3430&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sadeeeya3430 (page does not exist)\">Sadeeeya3430</a>",
+    "title": "File:500px photo (179745421).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:The_picture_shows_a_dry_%2Crocky_with_small_plant_and_banana_trees_growing_around_aroded_soil.At_jikoki_pape_Abuja_Nigeria.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28179745421%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBHM",
-    "station": "KBHM",
-    "lat": 33.5655,
-    "lon": -86.7449,
-    "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 20.6,
-    "windSpeed": 7.0,
-    "windDirection": 100.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-16T02:53:00.000Z",
-    "observationTimestamp": "2026-09-16T02:53:00+00:00",
-    "raw": "METAR KBHM 160253Z 10007KT 10SM FEW040 30/21 A3023 RMK AO2 SLP228 T03000206 51019"
+    "name": "OIBP",
+    "station": "OIBP",
+    "lat": 27.38,
+    "lon": 52.738,
+    "weather": "BR",
+    "temperature": 29.0,
+    "dewpoint": 25.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "1.24",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-16T03:00:00.000Z",
+    "observationTimestamp": "2026-09-16T03:00:00+00:00",
+    "raw": "METAR OIBP 160300Z 00000KT 2000 BR NSC 29/25 Q1005 A2968"
   },
   "randomPlace": {
-    "name": "KPAO",
-    "station": "KPAO",
-    "lat": 37.458,
-    "lon": -122.112,
+    "name": "KWLD",
+    "station": "KWLD",
+    "lat": 37.1649,
+    "lon": -97.0349,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 14.0,
-    "windSpeed": 11.0,
-    "windDirection": 340.0,
+    "temperature": 25.6,
+    "dewpoint": 21.1,
+    "windSpeed": 10.0,
+    "windDirection": 330.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T02:47:00.000Z",
-    "observationTimestamp": "2026-09-16T02:47:00+00:00",
-    "raw": "METAR KPAO 160247Z 34011KT 10SM SKC 17/14 A2988"
+    "observationTime": "2026-09-16T02:54:00.000Z",
+    "observationTimestamp": "2026-09-16T02:54:00+00:00",
+    "raw": "METAR KWLD 160254Z AUTO 33010KT 10SM BKN090 BKN110 26/21 A3008 RMK AO2 LTG DSNT W-N SLP171 T02560211 53033 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211249246,
-      "display": "8,211,249,246",
+      "value": 8211251514,
+      "display": "8,211,251,514",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T03:05:00Z",
-      "speed": 527.0
+      "time": "2026-09-16T03:20:00Z",
+      "speed": 537.0
     },
     "magneticField": {
-      "time": "2026-09-16T03:05:00Z",
-      "bt": 9.0,
-      "bz": 0.0
+      "time": "2026-09-16T03:23:00Z",
+      "bt": 8.0,
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-16T00:00:00",
       "kp": 3.67
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T02:59:00Z",
-      "forecastTime": "2026-09-16T03:51:00Z"
+      "observationTime": "2026-09-16T03:20:00Z",
+      "forecastTime": "2026-09-16T04:11:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
