@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T04:32:21.982463+00:00",
+  "generatedAt": "2026-09-16T04:48:39.188864+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Balcones (8677680208).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
-    "license": "Public domain",
+    "title": "File:Basilique de Fourvière à Lyon, vue d'en bas.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PerrineSCDUM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PerrineSCDUM (page does not exist)\">PerrineSCDUM</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_%C3%A0_Lyon%2C_vue_d%27en_bas.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OITZ",
-    "station": "OITZ",
-    "lat": 36.772,
-    "lon": 48.363,
+    "name": "SAME",
+    "station": "SAME",
+    "lat": -32.832,
+    "lon": -68.793,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": -1.0,
-    "windSpeed": 6.0,
-    "windDirection": 150.0,
+    "temperature": 11.0,
+    "dewpoint": 0.0,
+    "windSpeed": 5.0,
+    "windDirection": 200.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-16T04:00:00.000Z",
     "observationTimestamp": "2026-09-16T04:00:00+00:00",
-    "raw": "METAR OITZ 160400Z 15006KT CAVOK 21/M01 Q1021 A3017"
+    "raw": "METAR SAME 160400Z 20005KT CAVOK 11/M00 Q1020"
   },
   "randomPlace": {
-    "name": "CYET",
-    "station": "CYET",
-    "lat": 53.58,
-    "lon": -116.455,
+    "name": "KHQG",
+    "station": "KHQG",
+    "lat": 37.1647,
+    "lon": -101.3714,
     "weather": "No coded weather",
-    "temperature": 4.0,
-    "dewpoint": 2.0,
-    "windSpeed": 2.0,
-    "windDirection": 250.0,
-    "visibility": "9",
+    "temperature": 16.0,
+    "dewpoint": 14.0,
+    "windSpeed": 7.0,
+    "windDirection": 350.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T04:00:00.000Z",
-    "observationTimestamp": "2026-09-16T04:00:00+00:00",
-    "raw": "METAR CYET 160400Z AUTO 25002KT 9SM CLR 04/02 A3012 RMK SLP230"
+    "observationTime": "2026-09-16T04:35:00.000Z",
+    "observationTimestamp": "2026-09-16T04:35:00+00:00",
+    "raw": "METAR KHQG 160435Z AUTO 35007KT 10SM CLR 16/14 A3019 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211258823,
-      "display": "8,211,258,823",
+      "value": 8211260776,
+      "display": "8,211,260,776",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T04:25:00Z",
-      "speed": 538.0
+      "time": "2026-09-16T04:41:00Z",
+      "speed": 525.0
     },
     "magneticField": {
-      "time": "2026-09-16T04:25:00Z",
-      "bt": 7.0,
+      "time": "2026-09-16T04:41:00Z",
+      "bt": 6.0,
       "bz": 1.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 3.67
     },
     "aurora": {
-      "value": 28.0,
-      "display": "MAX 28.0%",
+      "value": 31.0,
+      "display": "MAX 31.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T04:25:00Z",
-      "forecastTime": "2026-09-16T05:16:00Z"
+      "observationTime": "2026-09-16T04:39:00Z",
+      "forecastTime": "2026-09-16T05:31:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
