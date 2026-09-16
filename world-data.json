@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T14:10:47.508929+00:00",
+  "generatedAt": "2026-09-16T20:48:26.775654+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Noung Lum Lake.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Saosukham\" title=\"User:Saosukham\">Saosukham</a>",
+    "title": "File:Bird nests.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Noung_Lum_Lake.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAAT",
-    "station": "KAAT",
-    "lat": 41.4836,
-    "lon": -120.5615,
+    "name": "VOBG",
+    "station": "VOBG",
+    "lat": 12.949,
+    "lon": 77.663,
     "weather": "No coded weather",
-    "temperature": 7.8,
-    "dewpoint": 4.4,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-16T13:55:00.000Z",
-    "observationTimestamp": "2026-09-16T13:55:00+00:00",
-    "raw": "METAR KAAT 161355Z AUTO 00000KT 10SM CLR 08/04 A3003 RMK AO2 SLP142 T00780044"
+    "temperature": 24.0,
+    "dewpoint": 21.0,
+    "windSpeed": 4.0,
+    "windDirection": 250.0,
+    "visibility": "3.73",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-16T20:00:00.000Z",
+    "observationTimestamp": "2026-09-16T20:00:00+00:00",
+    "raw": "METAR VOBG 162000Z 25004KT 6000 SCT012 SCT080 24/21 Q1015 NOSIG"
   },
   "randomPlace": {
-    "name": "KPYM",
-    "station": "KPYM",
-    "lat": 41.9085,
-    "lon": -70.7278,
+    "name": "CYLC",
+    "station": "CYLC",
+    "lat": 62.85,
+    "lon": -69.88,
     "weather": "No coded weather",
-    "temperature": 18.9,
-    "dewpoint": 13.9,
-    "windSpeed": 9.0,
-    "windDirection": 230.0,
-    "visibility": "10+",
+    "temperature": 7.0,
+    "dewpoint": 0.0,
+    "windSpeed": 14.0,
+    "windDirection": 280.0,
+    "visibility": "15",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T13:52:00.000Z",
-    "observationTimestamp": "2026-09-16T13:52:00+00:00",
-    "raw": "METAR KPYM 161352Z AUTO 23009KT 10SM CLR 19/14 A3035 RMK AO2 SLP280 T01890139"
+    "observationTime": "2026-09-16T20:00:00.000Z",
+    "observationTimestamp": "2026-09-16T20:00:00+00:00",
+    "raw": "METAR CYLC 162000Z 28014G21KT 15SM FEW026 BKN036 BKN046 BKN300 07/00 A2971 RMK SC2SC3SC1CI1 CI TR LSTSTFD OBS/NXT 171200Z SLP067"
   },
   "globalPulse": {
     "population": {
-      "value": 8211328050,
-      "display": "8,211,328,050",
+      "value": 8211375675,
+      "display": "8,211,375,675",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,42 +83,42 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 60.7,
-      "display": "60.7%",
+      "value": 60.8,
+      "display": "60.8%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-16T06:00:00Z"
+      "time": "2026-09-16T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.7,
-      "display": "Kp 1.7",
+      "value": 1.0,
+      "display": "Kp 1.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-16T09:00:00"
+      "time": "2026-09-16T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T14:00:00Z",
-      "speed": 544.0
+      "time": "2026-09-16T20:39:00Z",
+      "speed": 508.0
     },
     "magneticField": {
-      "time": "2026-09-16T14:03:00Z",
-      "bt": 5.0,
-      "bz": 4.0
+      "time": "2026-09-16T20:39:00Z",
+      "bt": 6.0,
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-09-16T09:00:00",
-      "kp": 1.67
+      "time": "2026-09-16T15:00:00",
+      "kp": 1.0
     },
     "aurora": {
-      "value": 23.0,
-      "display": "MAX 23.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T14:00:00Z",
-      "forecastTime": "2026-09-16T14:49:00Z"
+      "observationTime": "2026-09-16T20:39:00Z",
+      "forecastTime": "2026-09-16T21:34:00Z"
     },
     "flux10cm": {
-      "time": "2026-09-15T20:00:00",
-      "flux": 107.0
+      "time": "2026-09-16T20:00:00",
+      "flux": 100.0
     }
   }
 }
