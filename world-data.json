@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T01:09:00.187831+00:00",
+  "generatedAt": "2026-09-16T01:24:01.597692+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ballard locks fish ladder east entrance.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ursacascadia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ursacascadia (page does not exist)\">Ursacascadia</a>",
+    "title": "File:Bali Island.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:ASIRICHAILORDSIN\" title=\"User:ASIRICHAILORDSIN\">ASIRICHAILORDSIN</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ballard_locks_fish_ladder_east_entrance.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bali_Island.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K0VG",
-    "station": "K0VG",
-    "lat": 36.6576,
-    "lon": -83.2147,
+    "name": "PASH",
+    "station": "PASH",
+    "lat": 66.252,
+    "lon": -166.084,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 22.0,
-    "windSpeed": null,
-    "windDirection": null,
+    "temperature": 10.0,
+    "dewpoint": 9.4,
+    "windSpeed": 10.0,
+    "windDirection": 70.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T00:55:00.000Z",
-    "observationTimestamp": "2026-09-16T00:55:00+00:00",
-    "raw": "METAR K0VG 160055Z AUTO 10SM 23/22 A3026 RMK AO2"
+    "observationTime": "2026-09-16T00:56:00.000Z",
+    "observationTimestamp": "2026-09-16T00:56:00+00:00",
+    "raw": "METAR PASH 160056Z AUTO 07010KT 10SM FEW009 OVC050 10/09 A2932 RMK AO2 SLP929 T01000094"
   },
   "randomPlace": {
-    "name": "KGNG",
-    "station": "KGNG",
-    "lat": 42.9155,
-    "lon": -114.7655,
+    "name": "EVVA",
+    "station": "EVVA",
+    "lat": 57.361,
+    "lon": 21.545,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 0.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 12.0,
+    "dewpoint": 12.0,
+    "windSpeed": 5.0,
+    "windDirection": 160.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T00:55:00.000Z",
-    "observationTimestamp": "2026-09-16T00:55:00+00:00",
-    "raw": "METAR KGNG 160055Z AUTO 00000KT 10SM CLR 25/M00 A2992 RMK A01"
+    "observationTime": "2026-09-16T01:20:00.000Z",
+    "observationTimestamp": "2026-09-16T01:20:00+00:00",
+    "raw": "METAR EVVA 160120Z AUTO 16005KT CAVOK 12/12 Q1012"
   },
   "globalPulse": {
     "population": {
-      "value": 8211234457,
-      "display": "8,211,234,457",
+      "value": 8211236259,
+      "display": "8,211,236,259",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T00:59:00Z",
-      "speed": 544.0
+      "time": "2026-09-16T01:14:00Z",
+      "speed": 521.0
     },
     "magneticField": {
-      "time": "2026-09-16T00:59:00Z",
-      "bt": 13.0,
-      "bz": 4.0
+      "time": "2026-09-16T01:14:00Z",
+      "bt": 11.0,
+      "bz": 10.0
     },
     "kp": {
       "time": "2026-09-15T21:00:00",
       "kp": 3.33
     },
     "aurora": {
-      "value": 44.0,
-      "display": "MAX 44.0%",
+      "value": 40.0,
+      "display": "MAX 40.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T00:59:00Z",
-      "forecastTime": "2026-09-16T01:51:00Z"
+      "observationTime": "2026-09-16T01:09:00Z",
+      "forecastTime": "2026-09-16T02:01:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
