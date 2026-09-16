@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T06:56:03.435825+00:00",
+  "generatedAt": "2026-09-16T07:11:21.942027+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cordillera del Aramo (13736818533).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
+    "title": "File:Bidon dans un robinet.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:KUBWIMANA_Bienvenu\" title=\"User:KUBWIMANA Bienvenu\">KUBWIMANA Bienvenu</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_del_Aramo_%2813736818533%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bidon_dans_un_robinet.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDLN",
-    "station": "KDLN",
-    "lat": 45.2584,
-    "lon": -112.5546,
+    "name": "K4V1",
+    "station": "K4V1",
+    "lat": 37.6941,
+    "lon": -104.7881,
     "weather": "No coded weather",
-    "temperature": 11.7,
-    "dewpoint": 2.8,
-    "windSpeed": 6.0,
-    "windDirection": 80.0,
+    "temperature": 14.0,
+    "dewpoint": 10.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T05:53:00.000Z",
-    "observationTimestamp": "2026-09-16T05:53:00+00:00",
-    "raw": "METAR KDLN 160553Z AUTO 08006KT 10SM CLR 12/03 A3005 RMK AO2 SLP144 T01170028 10222 20117 51016 $"
+    "observationTime": "2026-09-16T06:55:00.000Z",
+    "observationTimestamp": "2026-09-16T06:55:00+00:00",
+    "raw": "METAR K4V1 160655Z AUTO 00000KT 10SM FEW080 BKN095 14/10 A3031 RMK AO2"
   },
   "randomPlace": {
-    "name": "DAUO",
-    "station": "DAUO",
-    "lat": 33.513,
-    "lon": 6.782,
+    "name": "SAZR",
+    "station": "SAZR",
+    "lat": -36.593,
+    "lon": -64.28,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 14.0,
-    "windSpeed": 6.0,
-    "windDirection": 120.0,
+    "temperature": 0.0,
+    "dewpoint": -3.0,
+    "windSpeed": 5.0,
+    "windDirection": 70.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T06:00:00.000Z",
-    "observationTimestamp": "2026-09-16T06:00:00+00:00",
-    "raw": "METAR DAUO 160600Z 12006KT 090V150 9999 SCT040 24/14 Q1015"
+    "observationTime": "2026-09-16T07:00:00.000Z",
+    "observationTimestamp": "2026-09-16T07:00:00+00:00",
+    "raw": "METAR SAZR 160700Z 07005KT CAVOK 00/M03 Q1022"
   },
   "globalPulse": {
     "population": {
-      "value": 8211275986,
-      "display": "8,211,275,986",
+      "value": 8211277830,
+      "display": "8,211,277,830",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T06:49:00Z",
-      "speed": 523.0
+      "time": "2026-09-16T07:02:00Z",
+      "speed": 534.0
     },
     "magneticField": {
-      "time": "2026-09-16T06:49:00Z",
-      "bt": 7.0,
-      "bz": 5.0
+      "time": "2026-09-16T07:02:00Z",
+      "bt": 6.0,
+      "bz": 6.0
     },
     "kp": {
       "time": "2026-09-16T03:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 23.0,
-      "display": "MAX 23.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T06:44:00Z",
-      "forecastTime": "2026-09-16T07:36:00Z"
+      "observationTime": "2026-09-16T06:59:00Z",
+      "forecastTime": "2026-09-16T07:52:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
