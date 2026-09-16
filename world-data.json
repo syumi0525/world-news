@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T03:58:36.306576+00:00",
+  "generatedAt": "2026-09-16T04:16:22.844682+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
-    "artist": "Ferrovia Mesolcinese",
-    "license": "Public domain",
+    "title": "File:Table of Schedule of Soerabaja-Malang train.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:JohanSpoorlijn\" title=\"User:JohanSpoorlijn\">JohanSpoorlijn</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Table_of_Schedule_of_Soerabaja-Malang_train.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KTCM",
-    "station": "KTCM",
-    "lat": 47.149,
-    "lon": -122.475,
+    "name": "CYUB",
+    "station": "CYUB",
+    "lat": 69.434,
+    "lon": -133.026,
     "weather": "No coded weather",
-    "temperature": 16.7,
-    "dewpoint": 10.5,
-    "windSpeed": 5.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
+    "temperature": 1.0,
+    "dewpoint": -1.0,
+    "windSpeed": 6.0,
+    "windDirection": 140.0,
+    "visibility": "15",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-16T03:55:00.000Z",
-    "observationTimestamp": "2026-09-16T03:55:00+00:00",
-    "raw": "METAR KTCM 160355Z AUTO 03005KT 10SM OVC060 17/11 A3007 RMK AO2 SLP186 T01670105 $"
+    "observationTime": "2026-09-16T04:00:00.000Z",
+    "observationTimestamp": "2026-09-16T04:00:00+00:00",
+    "raw": "METAR CYUB 160400Z 14006KT 15SM FEW026 SCT120 01/M01 A2991 RMK SC1AS2 SLP130"
   },
   "randomPlace": {
-    "name": "KCTJ",
-    "station": "KCTJ",
-    "lat": 33.6313,
-    "lon": -85.1538,
+    "name": "CWNP",
+    "station": "CWNP",
+    "lat": 50.269,
+    "lon": -117.817,
     "weather": "No coded weather",
-    "temperature": 24.7,
-    "dewpoint": 21.6,
+    "temperature": 11.9,
+    "dewpoint": 10.6,
     "windSpeed": 3.0,
-    "windDirection": 110.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-16T03:35:00.000Z",
-    "observationTimestamp": "2026-09-16T03:35:00+00:00",
-    "raw": "METAR KCTJ 160335Z AUTO 11003KT 10SM CLR 25/22 A3033 RMK AO2 T02470216"
+    "windDirection": 70.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-16T04:00:00.000Z",
+    "observationTimestamp": "2026-09-16T04:00:00+00:00",
+    "raw": "METAR CWNP 160400Z AUTO 07003KT 12/11 RMK AO1 SLP197 T01190106 53014"
   },
   "globalPulse": {
     "population": {
-      "value": 8211254783,
-      "display": "8,211,254,783",
+      "value": 8211256914,
+      "display": "8,211,256,914",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T03:42:00Z",
-      "speed": 546.0
+      "time": "2026-09-16T04:09:00Z",
+      "speed": 545.0
     },
     "magneticField": {
-      "time": "2026-09-16T03:47:00Z",
-      "bt": 8.0,
-      "bz": 0.0
+      "time": "2026-09-16T04:09:00Z",
+      "bt": 7.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-16T00:00:00",
       "kp": 3.67
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 25.0,
+      "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T03:43:00Z",
-      "forecastTime": "2026-09-16T04:41:00Z"
+      "observationTime": "2026-09-16T04:04:00Z",
+      "forecastTime": "2026-09-16T04:56:00Z"
     },
     "flux10cm": {
       "time": "2026-09-15T20:00:00",
