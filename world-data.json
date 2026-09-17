@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T19:48:22.646082+00:00",
+  "generatedAt": "2026-09-17T19:58:12.308294+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Created for the National Natural landmarks Program by Dennis Caldwell, caldwell-design.com (b824c582-b833-40d1-ba54-ea580db40bbb).jpg",
-    "artist": "National Park Service",
-    "license": "Public domain",
+    "title": "File:Aalsmeer, Westeinderplas en watertoren.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Manifestas&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Manifestas (page does not exist)\">Manifestas</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Created_for_the_National_Natural_landmarks_Program_by_Dennis_Caldwell%2C_caldwell-design.com_%28b824c582-b833-40d1-ba54-ea580db40bbb%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aalsmeer%2C_Westeinderplas_en_watertoren.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ENFB",
-    "station": "ENFB",
-    "lat": 61.206,
-    "lon": 1.829,
-    "weather": "-RA",
-    "temperature": 13.0,
-    "dewpoint": 10.0,
-    "windSpeed": 28.0,
-    "windDirection": 170.0,
+    "name": "SKRH",
+    "station": "SKRH",
+    "lat": 11.528,
+    "lon": -72.918,
+    "weather": "No coded weather",
+    "temperature": 33.0,
+    "dewpoint": 25.0,
+    "windSpeed": 11.0,
+    "windDirection": 20.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T19:20:00.000Z",
-    "observationTimestamp": "2026-09-17T19:20:00+00:00",
-    "raw": "METAR ENFB 171920Z AUTO 17028KT 9999 -RA NSC 13/10 Q0989 W///S4"
-  },
-  "randomPlace": {
-    "name": "WMKL",
-    "station": "WMKL",
-    "lat": 6.33,
-    "lon": 99.729,
-    "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 25.0,
-    "windSpeed": 3.0,
-    "windDirection": 0.0,
-    "visibility": "4.97",
-    "flightCategory": "MVFR",
     "observationTime": "2026-09-17T19:00:00.000Z",
     "observationTimestamp": "2026-09-17T19:00:00+00:00",
-    "raw": "METAR WMKL 171900Z VRB03KT 8000 FEW017CB 27/25 Q1010"
+    "raw": "METAR SKRH 171900Z 02011KT 360V070 9999 FEW020 33/25 Q1006"
+  },
+  "randomPlace": {
+    "name": "PFNO",
+    "station": "PFNO",
+    "lat": 66.819,
+    "lon": -161.024,
+    "weather": "No coded weather",
+    "temperature": 4.0,
+    "dewpoint": 3.0,
+    "windSpeed": 5.0,
+    "windDirection": 250.0,
+    "visibility": "7",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T19:12:00.000Z",
+    "observationTimestamp": "2026-09-17T19:12:00+00:00",
+    "raw": "SPECI PFNO 171912Z AUTO 25005KT 7SM FEW001 04/03 A2992 RMK AO2 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211540876,
-      "display": "8,211,540,876",
+      "value": 8211542057,
+      "display": "8,211,542,057",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T19:40:00Z",
-      "speed": 483.0
+      "time": "2026-09-17T19:49:00Z",
+      "speed": 480.0
     },
     "magneticField": {
-      "time": "2026-09-17T19:40:00Z",
-      "bt": 4.0,
-      "bz": 2.0
+      "time": "2026-09-17T19:49:00Z",
+      "bt": 5.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-17T15:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T19:34:00Z",
-      "forecastTime": "2026-09-17T20:33:00Z"
+      "observationTime": "2026-09-17T19:49:00Z",
+      "forecastTime": "2026-09-17T20:47:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
