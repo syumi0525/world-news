@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T20:31:19.003381+00:00",
+  "generatedAt": "2026-09-17T20:45:50.534217+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chamba Dam AWC Water For In Africa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmakigmabi_Nakoja_Justice&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmakigmabi Nakoja Justice (page does not exist)\">Gmakigmabi Nakoja Justice</a>",
+    "title": "File:A misty forest road in Coonoor.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chamba_Dam_AWC_Water_For_In_Africa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KSIK",
-    "station": "KSIK",
-    "lat": 36.9027,
-    "lon": -89.5577,
+    "name": "KCNC",
+    "station": "KCNC",
+    "lat": 41.0185,
+    "lon": -93.3608,
     "weather": "No coded weather",
-    "temperature": 36.8,
-    "dewpoint": 18.9,
-    "windSpeed": 4.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T20:15:00.000Z",
-    "observationTimestamp": "2026-09-17T20:15:00+00:00",
-    "raw": "METAR KSIK 172015Z AUTO VRB04KT 10SM CLR 37/19 A3016 RMK AO2 T03680189 $"
+    "temperature": 26.0,
+    "dewpoint": 23.0,
+    "windSpeed": 5.0,
+    "windDirection": 320.0,
+    "visibility": "9",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T20:35:00.000Z",
+    "observationTimestamp": "2026-09-17T20:35:00+00:00",
+    "raw": "METAR KCNC 172035Z AUTO 32005KT 9SM BKN015 26/23 A3019 RMK AO2"
   },
   "randomPlace": {
-    "name": "KUBE",
-    "station": "KUBE",
-    "lat": 45.5046,
-    "lon": -91.978,
+    "name": "KTMT",
+    "station": "KTMT",
+    "lat": 39.4643,
+    "lon": -117.1972,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 16.0,
-    "windSpeed": 4.0,
-    "windDirection": 50.0,
+    "temperature": 23.6,
+    "dewpoint": -2.4,
+    "windSpeed": 8.0,
+    "windDirection": 290.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T20:15:00.000Z",
-    "observationTimestamp": "2026-09-17T20:15:00+00:00",
-    "raw": "METAR KUBE 172015Z AUTO 05004KT 10SM SCT025 OVC037 21/16 A3031 RMK AO2"
+    "observationTime": "2026-09-17T20:35:00.000Z",
+    "observationTimestamp": "2026-09-17T20:35:00+00:00",
+    "raw": "METAR KTMT 172035Z AUTO 29008KT 250V320 10SM CLR 24/M02 A3012 RMK AO2 T02361024"
   },
   "globalPulse": {
     "population": {
-      "value": 8211546018,
-      "display": "8,211,546,018",
+      "value": 8211547754,
+      "display": "8,211,547,754",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,28 +97,28 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T20:21:00Z",
-      "speed": 476.0
+      "time": "2026-09-17T20:35:00Z",
+      "speed": 455.0
     },
     "magneticField": {
-      "time": "2026-09-17T20:21:00Z",
-      "bt": 4.0,
-      "bz": -4.0
+      "time": "2026-09-17T20:35:00Z",
+      "bt": 3.0,
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-17T15:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T20:19:00Z",
-      "forecastTime": "2026-09-17T21:17:00Z"
+      "observationTime": "2026-09-17T20:33:00Z",
+      "forecastTime": "2026-09-17T21:32:00Z"
     },
     "flux10cm": {
-      "time": "2026-09-16T20:00:00",
-      "flux": 100.0
+      "time": "2026-09-17T20:00:00",
+      "flux": 97.0
     }
   }
 }
