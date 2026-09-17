@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T08:29:50.654344+00:00",
+  "generatedAt": "2026-09-17T08:34:53.958627+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cascada en Guasca.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Estudiante0001&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Estudiante0001 (page does not exist)\">Estudiante0001</a>",
+    "title": "File:Acesso principal ao edifício JMM 01.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rqltst&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rqltst (page does not exist)\">Rqltst</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cascada_en_Guasca.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Acesso_principal_ao_edif%C3%ADcio_JMM_01.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBLH",
-    "station": "KBLH",
-    "lat": 33.6188,
-    "lon": -114.7145,
+    "name": "CWIJ",
+    "station": "CWIJ",
+    "lat": 65.756,
+    "lon": -111.246,
     "weather": "No coded weather",
-    "temperature": 27.8,
-    "dewpoint": 18.9,
-    "windSpeed": 9.0,
-    "windDirection": 90.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T07:52:00.000Z",
-    "observationTimestamp": "2026-09-17T07:52:00+00:00",
-    "raw": "METAR KBLH 170752Z AUTO 09009KT 10SM CLR 28/19 A2992 RMK AO2 SLP126 T02780189 403940261 $"
-  },
-  "randomPlace": {
-    "name": "OPLA",
-    "station": "OPLA",
-    "lat": 31.522,
-    "lon": 74.404,
-    "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 19.0,
-    "windSpeed": 6.0,
+    "temperature": -1.0,
+    "dewpoint": -3.3,
+    "windSpeed": 13.0,
     "windDirection": 180.0,
-    "visibility": "4.97",
-    "flightCategory": "MVFR",
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-17T08:00:00.000Z",
     "observationTimestamp": "2026-09-17T08:00:00+00:00",
-    "raw": "METAR OPLA 170800Z 18006KT 8000 SCT100 29/19 Q1010 NOSIG RMK QFE984 A29.83"
+    "raw": "METAR CWIJ 170800Z AUTO 18013KT M01/M03 RMK AO1 T10101033 58010"
+  },
+  "randomPlace": {
+    "name": "K7BM",
+    "station": "K7BM",
+    "lat": 38.799,
+    "lon": -106.219,
+    "weather": "RA",
+    "temperature": 10.0,
+    "dewpoint": 9.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "0.25",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-17T08:15:00.000Z",
+    "observationTimestamp": "2026-09-17T08:15:00+00:00",
+    "raw": "METAR K7BM 170815Z AUTO 00000KT M1/4SM RA OVC002 10/09 A3060 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211459623,
-      "display": "8,211,459,623",
+      "value": 8211460226,
+      "display": "8,211,460,226",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T08:22:00Z",
-      "speed": 473.0
+      "time": "2026-09-17T08:27:00Z",
+      "speed": 472.0
     },
     "magneticField": {
-      "time": "2026-09-17T08:22:00Z",
+      "time": "2026-09-17T08:27:00Z",
       "bt": 4.0,
-      "bz": 3.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-17T03:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T08:19:00Z",
-      "forecastTime": "2026-09-17T09:17:00Z"
+      "observationTime": "2026-09-17T08:25:00Z",
+      "forecastTime": "2026-09-17T09:22:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
