@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T13:59:45.633502+00:00",
+  "generatedAt": "2026-09-17T14:19:05.878262+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bali Island.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:ASIRICHAILORDSIN\" title=\"User:ASIRICHAILORDSIN\">ASIRICHAILORDSIN</a>",
-    "license": "CC0",
+    "title": "File:1906-05-23 Blessed be the Tie A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bali_Island.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1906-05-23_Blessed_be_the_Tie_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ENTO",
-    "station": "ENTO",
-    "lat": 59.184,
-    "lon": 10.255,
-    "weather": "-DZ",
-    "temperature": 13.0,
-    "dewpoint": 9.0,
-    "windSpeed": 11.0,
-    "windDirection": 210.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T13:50:00.000Z",
-    "observationTimestamp": "2026-09-17T13:50:00+00:00",
-    "raw": "METAR ENTO 171350Z 21011KT 9999 -DZ FEW020 BKN049 13/09 Q1001 TEMPO BKN012"
+    "name": "KTEX",
+    "station": "KTEX",
+    "lat": 37.954,
+    "lon": -107.909,
+    "weather": "-RA",
+    "temperature": 10.0,
+    "dewpoint": 10.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "4",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T13:55:00.000Z",
+    "observationTimestamp": "2026-09-17T13:55:00+00:00",
+    "raw": "METAR KTEX 171355Z AUTO 00000KT 4SM -RA SCT036 BKN044 OVC050 10/10 A3052 RMK AO2 P0002"
   },
   "randomPlace": {
-    "name": "KK83",
-    "station": "KK83",
-    "lat": 39.9053,
-    "lon": -95.7747,
-    "weather": "FG",
-    "temperature": null,
-    "dewpoint": null,
-    "windSpeed": 4.0,
+    "name": "OEKM",
+    "station": "OEKM",
+    "lat": 18.301,
+    "lon": 42.798,
+    "weather": "No coded weather",
+    "temperature": 28.0,
+    "dewpoint": 0.0,
+    "windSpeed": 9.0,
     "windDirection": 50.0,
-    "visibility": "0.25",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-17T13:35:00.000Z",
-    "observationTimestamp": "2026-09-17T13:35:00+00:00",
-    "raw": "METAR KK83 171335Z AUTO 05004KT M1/4SM FG OVC002 A3023 RMK AO2 P0001"
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T14:00:00.000Z",
+    "observationTimestamp": "2026-09-17T14:00:00+00:00",
+    "raw": "METAR OEKM 171400Z 05009KT 9999 BKN022 FEW025CB 28/00 Q1023 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211499126,
-      "display": "8,211,499,126",
+      "value": 8211501440,
+      "display": "8,211,501,440",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T13:54:00Z",
-      "speed": 452.0
+      "time": "2026-09-17T14:08:00Z",
+      "speed": 455.0
     },
     "magneticField": {
-      "time": "2026-09-17T13:54:00Z",
+      "time": "2026-09-17T14:08:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 30.0,
-      "display": "MAX 30.0%",
+      "value": 27.0,
+      "display": "MAX 27.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T13:48:00Z",
-      "forecastTime": "2026-09-17T14:49:00Z"
+      "observationTime": "2026-09-17T14:05:00Z",
+      "forecastTime": "2026-09-17T15:04:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
