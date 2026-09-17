@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:50:39.260949+00:00",
+  "generatedAt": "2026-09-17T19:08:18.284975+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Explanation of axle arrangement.jpg",
-    "artist": "Illustrierte Technik für Jedermann",
-    "license": "Public domain",
+    "title": "File:Alwin-Muncak.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Unaaa3003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Unaaa3003 (page does not exist)\">Unaaa3003</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Explanation_of_axle_arrangement.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alwin-Muncak.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPKV",
-    "station": "KPKV",
-    "lat": 28.6499,
-    "lon": -96.6799,
+    "name": "LIPB",
+    "station": "LIPB",
+    "lat": 46.46,
+    "lon": 11.326,
     "weather": "No coded weather",
-    "temperature": 33.4,
-    "dewpoint": 26.7,
-    "windSpeed": 5.0,
-    "windDirection": 100.0,
-    "visibility": "10+",
+    "temperature": 21.0,
+    "dewpoint": 15.0,
+    "windSpeed": 4.0,
+    "windDirection": 150.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T18:35:00.000Z",
-    "observationTimestamp": "2026-09-17T18:35:00+00:00",
-    "raw": "METAR KPKV 171835Z AUTO 10005KT 10SM FEW075 33/27 A3008 RMK AO2 T03340267 $"
+    "observationTime": "2026-09-17T18:50:00.000Z",
+    "observationTimestamp": "2026-09-17T18:50:00+00:00",
+    "raw": "METAR LIPB 171850Z 15004KT 120V190 9999 SCT060 21/15 Q1013"
   },
   "randomPlace": {
-    "name": "KTNU",
-    "station": "KTNU",
-    "lat": 41.6701,
-    "lon": -93.019,
+    "name": "KTBX",
+    "station": "KTBX",
+    "lat": 43.4644,
+    "lon": -108.2382,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 26.0,
-    "windSpeed": 6.0,
-    "windDirection": 350.0,
+    "temperature": 13.0,
+    "dewpoint": 7.0,
+    "windSpeed": 8.0,
+    "windDirection": 130.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-17T18:35:00.000Z",
-    "observationTimestamp": "2026-09-17T18:35:00+00:00",
-    "raw": "METAR KTNU 171835Z AUTO 35006KT 10SM SCT018 OVC025 26/26 A3021 RMK A01"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T18:55:00.000Z",
+    "observationTimestamp": "2026-09-17T18:55:00+00:00",
+    "raw": "METAR KTBX 171855Z AUTO 13008KT 10SM CLR 13/07 A3041 RMK AO2 LTG DSNT W"
   },
   "globalPulse": {
     "population": {
-      "value": 8211533969,
-      "display": "8,211,533,969",
+      "value": 8211536082,
+      "display": "8,211,536,082",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T18:42:00Z",
-      "speed": 458.0
+      "time": "2026-09-17T18:59:00Z",
+      "speed": 456.0
     },
     "magneticField": {
-      "time": "2026-09-17T18:42:00Z",
+      "time": "2026-09-17T18:59:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -110,11 +110,11 @@
       "kp": 2.0
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T18:39:00Z",
-      "forecastTime": "2026-09-17T19:38:00Z"
+      "observationTime": "2026-09-17T18:53:00Z",
+      "forecastTime": "2026-09-17T19:53:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
