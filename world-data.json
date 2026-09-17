@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:10:29.304410+00:00",
+  "generatedAt": "2026-09-17T17:28:22.057544+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nastawnia CS Czestochowa Stradom.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cody3223&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cody3223 (page does not exist)\">Cody3223</a>",
+    "title": "File:Aalsmeer, Westeinderplas en watertoren.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Manifestas&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Manifestas (page does not exist)\">Manifestas</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nastawnia_CS_Czestochowa_Stradom.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aalsmeer%2C_Westeinderplas_en_watertoren.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OEGS",
-    "station": "OEGS",
-    "lat": 26.303,
-    "lon": 43.774,
+    "name": "KMEB",
+    "station": "KMEB",
+    "lat": 34.7913,
+    "lon": -79.3683,
     "weather": "No coded weather",
-    "temperature": 35.0,
-    "dewpoint": -3.0,
-    "windSpeed": 5.0,
-    "windDirection": 100.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T17:00:00.000Z",
-    "observationTimestamp": "2026-09-17T17:00:00+00:00",
-    "raw": "METAR OEGS 171700Z 10005KT CAVOK 35/M03 Q1012 NOSIG"
-  },
-  "randomPlace": {
-    "name": "KTQS",
-    "station": "KTQS",
-    "lat": 34.633,
-    "lon": -120.6175,
-    "weather": "No coded weather",
-    "temperature": 18.7,
-    "dewpoint": 15.9,
-    "windSpeed": 5.0,
-    "windDirection": 360.0,
+    "temperature": 29.4,
+    "dewpoint": 17.8,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T16:55:00.000Z",
-    "observationTimestamp": "2026-09-17T16:55:00+00:00",
-    "raw": "METAR KTQS 171655Z AUTO 36005KT 10SM SCT047 19/16 A3014 RMK AO2 SLP209 T01870159 $"
+    "observationTime": "2026-09-17T16:52:00.000Z",
+    "observationTimestamp": "2026-09-17T16:52:00+00:00",
+    "raw": "METAR KMEB 171652Z AUTO 00000KT 10SM CLR 29/18 A3027 RMK AO2 SLP250 T02940178"
+  },
+  "randomPlace": {
+    "name": "VOCI",
+    "station": "VOCI",
+    "lat": 10.152,
+    "lon": 76.402,
+    "weather": "BR",
+    "temperature": 27.0,
+    "dewpoint": 25.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
+    "visibility": "2.49",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-17T17:00:00.000Z",
+    "observationTimestamp": "2026-09-17T17:00:00+00:00",
+    "raw": "METAR VOCI 171700Z VRB02KT 4000 BR SCT012 SCT080 27/25 Q1013 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211521979,
-      "display": "8,211,521,979",
+      "value": 8211524120,
+      "display": "8,211,524,120",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T17:02:00Z",
-      "speed": 460.0
+      "time": "2026-09-17T17:20:00Z",
+      "speed": 450.0
     },
     "magneticField": {
-      "time": "2026-09-17T17:02:00Z",
+      "time": "2026-09-17T17:20:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 3.0
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T16:59:00Z",
-      "forecastTime": "2026-09-17T17:59:00Z"
+      "observationTime": "2026-09-17T17:20:00Z",
+      "forecastTime": "2026-09-17T18:19:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
