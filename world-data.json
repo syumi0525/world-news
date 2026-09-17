@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T16:56:42.289716+00:00",
+  "generatedAt": "2026-09-17T17:10:29.304410+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:PKP PLK SWDR nastawnia CS.jpg",
+    "title": "File:Nastawnia CS Czestochowa Stradom.jpg",
     "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cody3223&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cody3223 (page does not exist)\">Cody3223</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:PKP_PLK_SWDR_nastawnia_CS.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nastawnia_CS_Czestochowa_Stradom.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMTV",
-    "station": "KMTV",
-    "lat": 36.6272,
-    "lon": -80.0134,
+    "name": "OEGS",
+    "station": "OEGS",
+    "lat": 26.303,
+    "lon": 43.774,
     "weather": "No coded weather",
-    "temperature": 31.2,
-    "dewpoint": 14.0,
-    "windSpeed": 3.0,
+    "temperature": 35.0,
+    "dewpoint": -3.0,
+    "windSpeed": 5.0,
     "windDirection": 100.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T17:00:00.000Z",
+    "observationTimestamp": "2026-09-17T17:00:00+00:00",
+    "raw": "METAR OEGS 171700Z 10005KT CAVOK 35/M03 Q1012 NOSIG"
+  },
+  "randomPlace": {
+    "name": "KTQS",
+    "station": "KTQS",
+    "lat": 34.633,
+    "lon": -120.6175,
+    "weather": "No coded weather",
+    "temperature": 18.7,
+    "dewpoint": 15.9,
+    "windSpeed": 5.0,
+    "windDirection": 360.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-17T16:55:00.000Z",
     "observationTimestamp": "2026-09-17T16:55:00+00:00",
-    "raw": "METAR KMTV 171655Z AUTO 10003KT 10SM CLR 31/14 A3031 RMK AO2 T03120140"
-  },
-  "randomPlace": {
-    "name": "LSMM",
-    "station": "LSMM",
-    "lat": 46.743,
-    "lon": 8.11,
-    "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 12.0,
-    "windSpeed": 3.0,
-    "windDirection": 250.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-17T16:20:00.000Z",
-    "observationTimestamp": "2026-09-17T16:20:00+00:00",
-    "raw": "METAR LSMM 171620Z AUTO 25003KT 210V290 9999NDV FEW061 17/12 Q1016 RMK"
+    "raw": "METAR KTQS 171655Z AUTO 36005KT 10SM SCT047 19/16 A3014 RMK AO2 SLP209 T01870159 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211520325,
-      "display": "8,211,520,325",
+      "value": 8211521979,
+      "display": "8,211,521,979",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T16:48:00Z",
-      "speed": 475.0
+      "time": "2026-09-17T17:02:00Z",
+      "speed": 460.0
     },
     "magneticField": {
-      "time": "2026-09-17T16:48:00Z",
+      "time": "2026-09-17T17:02:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-17T12:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T16:45:00Z",
-      "forecastTime": "2026-09-17T17:44:00Z"
+      "observationTime": "2026-09-17T16:59:00Z",
+      "forecastTime": "2026-09-17T17:59:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
