@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T08:34:53.958627+00:00",
+  "generatedAt": "2026-09-17T08:48:12.527344+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Acesso principal ao edifício JMM 01.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rqltst&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rqltst (page does not exist)\">Rqltst</a>",
+    "title": "File:Buna River.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Acesso_principal_ao_edif%C3%ADcio_JMM_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Buna_River.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWIJ",
-    "station": "CWIJ",
-    "lat": 65.756,
-    "lon": -111.246,
+    "name": "YSDU",
+    "station": "YSDU",
+    "lat": -32.221,
+    "lon": 148.575,
     "weather": "No coded weather",
-    "temperature": -1.0,
-    "dewpoint": -3.3,
-    "windSpeed": 13.0,
-    "windDirection": 180.0,
+    "temperature": 11.0,
+    "dewpoint": 3.0,
+    "windSpeed": 5.0,
+    "windDirection": 130.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T08:30:00.000Z",
+    "observationTimestamp": "2026-09-17T08:30:00+00:00",
+    "raw": "METAR YSDU 170830Z AUTO 13005KT 9999 // NCD 11/03 Q1029"
+  },
+  "randomPlace": {
+    "name": "SCVD",
+    "station": "SCVD",
+    "lat": -39.65,
+    "lon": -73.086,
+    "weather": "FG",
+    "temperature": 2.0,
+    "dewpoint": 2.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "N/A",
     "flightCategory": "null",
     "observationTime": "2026-09-17T08:00:00.000Z",
     "observationTimestamp": "2026-09-17T08:00:00+00:00",
-    "raw": "METAR CWIJ 170800Z AUTO 18013KT M01/M03 RMK AO1 T10101033 58010"
-  },
-  "randomPlace": {
-    "name": "K7BM",
-    "station": "K7BM",
-    "lat": 38.799,
-    "lon": -106.219,
-    "weather": "RA",
-    "temperature": 10.0,
-    "dewpoint": 9.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "0.25",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-17T08:15:00.000Z",
-    "observationTimestamp": "2026-09-17T08:15:00+00:00",
-    "raw": "METAR K7BM 170815Z AUTO 00000KT M1/4SM RA OVC002 10/09 A3060 RMK AO2"
+    "raw": "METAR SCVD 170800Z AUTO 00000KT //// R35///// FG BKN001 02/02 Q1019"
   },
   "globalPulse": {
     "population": {
-      "value": 8211460226,
-      "display": "8,211,460,226",
+      "value": 8211461828,
+      "display": "8,211,461,828",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T08:27:00Z",
-      "speed": 472.0
+      "time": "2026-09-17T08:39:00Z",
+      "speed": 476.0
     },
     "magneticField": {
-      "time": "2026-09-17T08:27:00Z",
+      "time": "2026-09-17T08:42:00Z",
       "bt": 4.0,
       "bz": 2.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T08:25:00Z",
-      "forecastTime": "2026-09-17T09:22:00Z"
+      "observationTime": "2026-09-17T08:33:00Z",
+      "forecastTime": "2026-09-17T09:32:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
