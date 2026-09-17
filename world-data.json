@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T15:22:50.813774+00:00",
+  "generatedAt": "2026-09-17T15:40:02.921755+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 08.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:20260822 102129 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_08.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_102129_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLXL",
-    "station": "KLXL",
-    "lat": 45.9509,
-    "lon": -94.3441,
+    "name": "LFRD",
+    "station": "LFRD",
+    "lat": 48.589,
+    "lon": -2.075,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 13.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T15:15:00.000Z",
-    "observationTimestamp": "2026-09-17T15:15:00+00:00",
-    "raw": "METAR KLXL 171515Z AUTO 00000KT 10SM CLR 16/13 A3034 RMK AO2"
+    "temperature": 18.0,
+    "dewpoint": 15.0,
+    "windSpeed": 10.0,
+    "windDirection": 290.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T15:30:00.000Z",
+    "observationTimestamp": "2026-09-17T15:30:00+00:00",
+    "raw": "METAR LFRD 171530Z AUTO 29010KT 9999 BKN014 BKN019 BKN036 18/15 Q1015 TEMPO 30015G25KT BECMG BKN025"
   },
   "randomPlace": {
-    "name": "KNTD",
-    "station": "KNTD",
-    "lat": 34.124,
-    "lon": -119.123,
+    "name": "KBVI",
+    "station": "KBVI",
+    "lat": 40.7735,
+    "lon": -80.3825,
     "weather": "No coded weather",
-    "temperature": 19.4,
-    "dewpoint": 16.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "7",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T14:55:00.000Z",
-    "observationTimestamp": "2026-09-17T14:55:00+00:00",
-    "raw": "METAR KNTD 171455Z 00000KT 7SM OVC046 19/16 A3008 RMK AO2 SLP188 T01940161 53014 CHINO S VISNO S $"
+    "temperature": 24.7,
+    "dewpoint": 21.9,
+    "windSpeed": 4.0,
+    "windDirection": 260.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T15:15:00.000Z",
+    "observationTimestamp": "2026-09-17T15:15:00+00:00",
+    "raw": "METAR KBVI 171515Z AUTO 26004KT 10SM SCT009 OVC012 25/22 A3027 RMK AO2 T02470219"
   },
   "globalPulse": {
     "population": {
-      "value": 8211509074,
-      "display": "8,211,509,074",
+      "value": 8211511061,
+      "display": "8,211,511,061",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 60.9,
-      "display": "60.9%",
+      "value": 62.1,
+      "display": "62.1%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-17T06:00:00Z"
+      "time": "2026-09-17T12:00:00Z"
     },
     "geomagnetic": {
       "value": 3.0,
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T15:14:00Z",
-      "speed": 449.0
+      "time": "2026-09-17T15:32:00Z",
+      "speed": 448.0
     },
     "magneticField": {
-      "time": "2026-09-17T15:14:00Z",
-      "bt": 4.0,
+      "time": "2026-09-17T15:32:00Z",
+      "bt": 5.0,
       "bz": 0.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 3.0
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T15:14:00Z",
-      "forecastTime": "2026-09-17T16:15:00Z"
+      "observationTime": "2026-09-17T15:29:00Z",
+      "forecastTime": "2026-09-17T16:30:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
