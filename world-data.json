@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T13:11:10.487991+00:00",
+  "generatedAt": "2026-09-17T13:31:46.417553+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Dãy Bạch Mã.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%AA_%C4%90%C4%83ng_Kh%C3%B4i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lê Đăng Khôi (page does not exist)\">Lê Đăng Khôi</a>",
+    "title": "File:Boulder in snowy mountains.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AdvaitaMakaranda&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AdvaitaMakaranda (page does not exist)\">AdvaitaMakaranda</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:D%C3%A3y_B%E1%BA%A1ch_M%C3%A3.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Boulder_in_snowy_mountains.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KADW",
-    "station": "KADW",
-    "lat": 38.8215,
-    "lon": -76.8654,
+    "name": "CWTY",
+    "station": "CWTY",
+    "lat": 46.354,
+    "lon": -72.516,
     "weather": "No coded weather",
-    "temperature": 23.5,
-    "dewpoint": 19.0,
-    "windSpeed": 5.0,
-    "windDirection": 180.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T12:55:00.000Z",
-    "observationTimestamp": "2026-09-17T12:55:00+00:00",
-    "raw": "METAR KADW 171255Z AUTO 18005KT 10SM FEW090 24/19 A3023 RMK AO2 SLP242 T02350190"
+    "temperature": 15.6,
+    "dewpoint": 11.2,
+    "windSpeed": 4.0,
+    "windDirection": 30.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-17T13:00:00.000Z",
+    "observationTimestamp": "2026-09-17T13:00:00+00:00",
+    "raw": "METAR CWTY 171300Z AUTO 03004KT 16/11 RMK AO1 SLP244 T01560112 58005"
   },
   "randomPlace": {
-    "name": "KDRM",
-    "station": "KDRM",
-    "lat": 46.009,
-    "lon": -83.743,
+    "name": "KWAL",
+    "station": "KWAL",
+    "lat": 37.9372,
+    "lon": -75.4662,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 12.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 23.9,
+    "dewpoint": 18.9,
+    "windSpeed": 6.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T12:55:00.000Z",
-    "observationTimestamp": "2026-09-17T12:55:00+00:00",
-    "raw": "METAR KDRM 171255Z AUTO 00000KT 10SM OVC100 13/12 A3030 RMK AO2 T01300121"
+    "observationTime": "2026-09-17T12:54:00.000Z",
+    "observationTimestamp": "2026-09-17T12:54:00+00:00",
+    "raw": "METAR KWAL 171254Z AUTO 20006KT 10SM SCT090 BKN110 24/19 A3029 RMK AO2 SLP252 T02390189"
   },
   "globalPulse": {
     "population": {
-      "value": 8211493307,
-      "display": "8,211,493,307",
+      "value": 8211495774,
+      "display": "8,211,495,774",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T12:59:00Z",
-      "speed": 480.0
+      "time": "2026-09-17T13:22:00Z",
+      "speed": 467.0
     },
     "magneticField": {
-      "time": "2026-09-17T12:59:00Z",
-      "bt": 4.0,
+      "time": "2026-09-17T13:22:00Z",
+      "bt": 5.0,
       "bz": -3.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 34.0,
-      "display": "MAX 34.0%",
+      "value": 33.0,
+      "display": "MAX 33.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T12:59:00Z",
-      "forecastTime": "2026-09-17T13:57:00Z"
+      "observationTime": "2026-09-17T13:19:00Z",
+      "forecastTime": "2026-09-17T14:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
