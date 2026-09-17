@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T19:58:12.308294+00:00",
+  "generatedAt": "2026-09-17T20:16:10.807142+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Aalsmeer, Westeinderplas en watertoren.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Manifestas&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Manifestas (page does not exist)\">Manifestas</a>",
+    "title": "File:Brake Through Of kpongu Dam AWC Africa Wiki Challenge 309.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mayor_555&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mayor 555 (page does not exist)\">Mayor 555</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Aalsmeer%2C_Westeinderplas_en_watertoren.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brake_Through_Of_kpongu_Dam_AWC_Africa_Wiki_Challenge_309.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SKRH",
-    "station": "SKRH",
-    "lat": 11.528,
-    "lon": -72.918,
-    "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 25.0,
-    "windSpeed": 11.0,
-    "windDirection": 20.0,
-    "visibility": "6+",
+    "name": "KBMT",
+    "station": "KBMT",
+    "lat": 30.0686,
+    "lon": -94.2155,
+    "weather": "VCTS",
+    "temperature": 32.8,
+    "dewpoint": 20.4,
+    "windSpeed": 7.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T19:00:00.000Z",
-    "observationTimestamp": "2026-09-17T19:00:00+00:00",
-    "raw": "METAR SKRH 171900Z 02011KT 360V070 9999 FEW020 33/25 Q1006"
+    "observationTime": "2026-09-17T19:55:00.000Z",
+    "observationTimestamp": "2026-09-17T19:55:00+00:00",
+    "raw": "METAR KBMT 171955Z AUTO 06007KT 10SM VCTS SCT050 SCT065 33/20 A3013 RMK AO2 LTG DSNT SW AND W T03280204"
   },
   "randomPlace": {
-    "name": "PFNO",
-    "station": "PFNO",
-    "lat": 66.819,
-    "lon": -161.024,
+    "name": "EHGG",
+    "station": "EHGG",
+    "lat": 53.12,
+    "lon": 6.579,
     "weather": "No coded weather",
-    "temperature": 4.0,
-    "dewpoint": 3.0,
-    "windSpeed": 5.0,
-    "windDirection": 250.0,
-    "visibility": "7",
+    "temperature": 13.0,
+    "dewpoint": 12.0,
+    "windSpeed": 4.0,
+    "windDirection": 210.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T19:12:00.000Z",
-    "observationTimestamp": "2026-09-17T19:12:00+00:00",
-    "raw": "SPECI PFNO 171912Z AUTO 25005KT 7SM FEW001 04/03 A2992 RMK AO2 $"
+    "observationTime": "2026-09-17T19:55:00.000Z",
+    "observationTimestamp": "2026-09-17T19:55:00+00:00",
+    "raw": "METAR EHGG 171955Z AUTO 21004KT 9999 NSC 13/12 Q1007 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211542057,
-      "display": "8,211,542,057",
+      "value": 8211544208,
+      "display": "8,211,544,208",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T19:49:00Z",
-      "speed": 480.0
+      "time": "2026-09-17T20:00:00Z",
+      "speed": 467.0
     },
     "magneticField": {
-      "time": "2026-09-17T19:49:00Z",
+      "time": "2026-09-17T20:03:00Z",
       "bt": 5.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-17T15:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T19:49:00Z",
-      "forecastTime": "2026-09-17T20:47:00Z"
+      "observationTime": "2026-09-17T20:02:00Z",
+      "forecastTime": "2026-09-17T21:02:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
