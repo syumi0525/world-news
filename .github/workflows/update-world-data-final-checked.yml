@@ -801,66 +801,143 @@ jobs:
           # latest available day. Land/fill values are excluded.
           # ------------------------------------------------------------
 
-          sst_urls = [
-              (
-                  "NOAA OceanWatch ACSPO NRT",
-                  "https://oceanwatch.pifsc.noaa.gov/"
-                  "erddap/griddap/ACSPO_LEO_L3S_nrt.csv?"
-                  "sea_surface_temperature"
-                  "[(last)][0:1000:8999][0:1000:17999]"
-              ),
-              (
-                  "NOAA CoastWatch ACSPO NRT",
-                  "https://coastwatch.noaa.gov/"
-                  "erddap/griddap/"
-                  "noaacwLEOACSPOSSTL3SnrtCDaily.csv?"
-                  "sea_surface_temperature"
-                  "[(last)][0:1000:8999][0:1000:17999]"
-              ),
-          ]
-
+          # ERDDAP can return HTTP 404 when the CSV request uses a server-side
+          # [last] selector. Read the small time axis first and request the
+          # latest time by its zero-based dimension index instead.
           sst_bytes = None
           sst_source_name = None
           sst_url = None
           sst_errors = []
 
-          for source_name, candidate_url in sst_urls:
+          try:
               print(
-                  "FETCHING GLOBAL SST:",
-                  source_name
+                  "FETCHING GLOBAL SST: NOAA OceanWatch ACSPO NRT time axis"
+              )
+
+              sst_time_url = (
+                  "https://oceanwatch.pifsc.noaa.gov/"
+                  "erddap/griddap/ACSPO_LEO_L3S_nrt.csv?time"
+              )
+
+              sst_time_bytes = fetch_bytes(
+                  sst_time_url,
+                  timeout=60
+              )
+
+              sst_time_text = sst_time_bytes.decode(
+                  "utf-8",
+                  errors="replace"
+              )
+
+              sst_time_reader = csv.reader(
+                  io.StringIO(sst_time_text)
+              )
+              sst_time_rows = list(sst_time_reader)
+
+              if len(sst_time_rows) < 2:
+                  raise RuntimeError(
+                      "NOAA ACSPO SST time axis returned no data."
+                  )
+
+              valid_sst_times = []
+              for row in sst_time_rows[1:]:
+                  if not row:
+                      continue
+                  candidate = number(row[0])
+                  if candidate is not None:
+                      valid_sst_times.append(candidate)
+
+              if not valid_sst_times:
+                  raise RuntimeError(
+                      "NOAA ACSPO SST time axis contained no valid time."
+                  )
+
+              latest_sst_index = len(valid_sst_times) - 1
+
+              print(
+                  "NOAA ACSPO latest time index:",
+                  latest_sst_index,
+                  "UTC epoch:",
+                  valid_sst_times[-1]
+              )
+
+              # ERDDAP griddap dimension brackets use the zero-based index,
+              # not the numeric epoch value.
+              sst_url = (
+                  "https://oceanwatch.pifsc.noaa.gov/"
+                  "erddap/griddap/ACSPO_LEO_L3S_nrt.csv?"
+                  "sea_surface_temperature"
+                  "["
+                  + str(latest_sst_index)
+                  + "][0:1000:8999][0:1000:17999]"
+              )
+
+              sst_bytes = fetch_bytes(
+                  sst_url,
+                  timeout=120
+              )
+              sst_source_name = "NOAA OceanWatch ACSPO NRT"
+
+              if len(sst_bytes) < 100:
+                  raise RuntimeError(
+                      "NOAA ACSPO SST response was unexpectedly small."
+                  )
+
+          except Exception as exc:
+              message = f"{type(exc).__name__}: {exc}"
+              sst_errors.append(
+                  "NOAA OceanWatch ACSPO NRT: " + message
+              )
+              print(
+                  "SST source failed:",
+                  message
+              )
+              sst_bytes = None
+
+          # NOAA ACSPO can be temporarily unavailable. Do not abort the
+          # entire WORLD NEWS update when that happens: preserve the previous
+          # verified SST value so MEDIA SIGNAL images and the rest of WORLD
+          # NEWS can still be refreshed.
+          if sst_bytes is None:
+              print(
+                  "NOAA ACSPO SST unavailable; preserving previous verified SST."
               )
               try:
-                  candidate_bytes = fetch_bytes(
-                      candidate_url,
-                      timeout=120
+                  with open(
+                      "world-data.json",
+                      "r",
+                      encoding="utf-8"
+                  ) as previous_file:
+                      previous_data = json.load(previous_file)
+
+                  previous_sst = (
+                      previous_data
+                      .get("globalPulse", {})
+                      .get("seaSurface", {})
+                  )
+                  previous_value = number(
+                      previous_sst.get("value")
                   )
 
-                  if len(candidate_bytes) < 100:
+                  if previous_value is None:
                       raise RuntimeError(
-                          "NOAA ACSPO SST response was unexpectedly small."
+                          "Previous verified SST value is unavailable."
                       )
 
-                  sst_bytes = candidate_bytes
-                  sst_source_name = source_name
-                  sst_url = candidate_url
-                  break
-
-              except Exception as exc:
-                  message = f"{type(exc).__name__}: {exc}"
-                  sst_errors.append(
-                      f"{source_name}: {message}"
+                  sst_value = previous_value
+                  sst_time = clean(
+                      previous_sst.get("time")
                   )
                   print(
-                      "SST source failed:",
-                      message
+                      "SEA SURFACE: preserving previous verified value",
+                      sst_value
                   )
 
-          if sst_bytes is None:
-              raise RuntimeError(
-                  "NOAA ACSPO SST could not be downloaded from the "
-                  "available official NRT endpoints.\n"
-                  + "\n".join(sst_errors)
-              )
+              except Exception as exc:
+                  raise RuntimeError(
+                      "NOAA ACSPO SST unavailable and previous verified SST "
+                      "could not be preserved: " + str(exc)
+                  )
 
           sst_text = sst_bytes.decode(
               "utf-8",
