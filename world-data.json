@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:55:27.987984+00:00",
+  "generatedAt": "2026-09-17T18:12:35.189835+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Barhakune photo by Sangharsh Acharya.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scandinaviastats&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scandinaviastats (page does not exist)\">Scandinaviastats</a>",
+    "title": "File:Ejemplares de Melocactus en el desierto de la Tatacoa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cathetovar\" title=\"User:Cathetovar\">Cathetovar</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Barhakune_photo_by_Sangharsh_Acharya.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ejemplares_de_Melocactus_en_el_desierto_de_la_Tatacoa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPQI",
-    "station": "KPQI",
-    "lat": 46.697,
-    "lon": -68.054,
+    "name": "KDXR",
+    "station": "KDXR",
+    "lat": 41.3721,
+    "lon": -73.4834,
     "weather": "No coded weather",
-    "temperature": 18.9,
-    "dewpoint": 8.9,
-    "windSpeed": 3.0,
-    "windDirection": 220.0,
+    "temperature": 26.1,
+    "dewpoint": 19.4,
+    "windSpeed": 9.0,
+    "windDirection": 190.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T16:56:00.000Z",
-    "observationTimestamp": "2026-09-17T16:56:00+00:00",
-    "raw": "METAR KPQI 171656Z AUTO 22003KT 10SM FEW070 19/09 A3024 RMK AO2 SLP266 T01890089"
+    "observationTime": "2026-09-17T17:53:00.000Z",
+    "observationTimestamp": "2026-09-17T17:53:00+00:00",
+    "raw": "METAR KDXR 171753Z 19009G16KT 10SM FEW027 SCT034 SCT070 26/19 A3018 RMK AO2 SLP216 T02610194 10267 20194 58024"
   },
   "randomPlace": {
-    "name": "USSS",
-    "station": "USSS",
-    "lat": 56.745,
-    "lon": 60.792,
+    "name": "MMMD",
+    "station": "MMMD",
+    "lat": 20.936,
+    "lon": -89.659,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 9.0,
-    "windSpeed": 10.0,
-    "windDirection": 300.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T17:30:00.000Z",
-    "observationTimestamp": "2026-09-17T17:30:00+00:00",
-    "raw": "METAR USSS 171730Z 30005MPS 9999 OVC046 13/09 Q1012 R26L/CLRD60 R26R/220060 NOSIG RMK R26L/QFE738/0984"
+    "temperature": 33.0,
+    "dewpoint": 24.0,
+    "windSpeed": 4.0,
+    "windDirection": 80.0,
+    "visibility": "7",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T17:43:00.000Z",
+    "observationTimestamp": "2026-09-17T17:43:00+00:00",
+    "raw": "METAR MMMD 171743Z 08004KT 7SM BKN020TCU 33/24 A3001 RMK SLP171 57006 953 8/200 HZY CI"
   },
   "globalPulse": {
     "population": {
-      "value": 8211527360,
-      "display": "8,211,527,360",
+      "value": 8211529272,
+      "display": "8,211,529,272",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-17T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.0,
-      "display": "Kp 3.0",
+      "value": 2.0,
+      "display": "Kp 2.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-17T12:00:00"
+      "time": "2026-09-17T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T17:46:00Z",
-      "speed": 464.0
+      "time": "2026-09-17T18:04:00Z",
+      "speed": 452.0
     },
     "magneticField": {
-      "time": "2026-09-17T17:46:00Z",
+      "time": "2026-09-17T18:01:00Z",
       "bt": 5.0,
-      "bz": 1.0
+      "bz": 2.0
     },
     "kp": {
-      "time": "2026-09-17T12:00:00",
-      "kp": 3.0
+      "time": "2026-09-17T15:00:00",
+      "kp": 2.0
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T17:43:00Z",
-      "forecastTime": "2026-09-17T18:44:00Z"
+      "observationTime": "2026-09-17T17:58:00Z",
+      "forecastTime": "2026-09-17T18:59:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
