@@ -939,100 +939,101 @@ jobs:
                       "could not be preserved: " + str(exc)
                   )
 
-          sst_text = sst_bytes.decode(
-              "utf-8",
-              errors="replace"
-          )
-
-          sst_reader = csv.reader(
-              io.StringIO(sst_text)
-          )
-
-          sst_rows = list(
-              sst_reader
-          )
-
-          if len(sst_rows) < 2:
-              raise RuntimeError(
-                  "NOAA ACSPO SST returned no data."
+          if sst_bytes is not None:
+              sst_text = sst_bytes.decode(
+                  "utf-8",
+                  errors="replace"
               )
-
-          sst_header = [
-              str(x).strip().lower()
-              for x in sst_rows[0]
-          ]
-
-          lat_index = None
-          sst_index = None
-
-          for i, name in enumerate(
-              sst_header
-          ):
-              if name == "latitude":
-                  lat_index = i
-              if name == "sea_surface_temperature":
-                  sst_index = i
-
-          if lat_index is None or sst_index is None:
-              raise RuntimeError(
-                  "NOAA ACSPO SST response has unexpected columns."
+    
+              sst_reader = csv.reader(
+                  io.StringIO(sst_text)
               )
-
-          sst_weighted_sum = 0.0
-          sst_weight_sum = 0.0
-
-          for row in sst_rows[1:]:
-              if len(row) <= max(
-                  lat_index,
-                  sst_index
+    
+              sst_rows = list(
+                  sst_reader
+              )
+    
+              if len(sst_rows) < 2:
+                  raise RuntimeError(
+                      "NOAA ACSPO SST returned no data."
+                  )
+    
+              sst_header = [
+                  str(x).strip().lower()
+                  for x in sst_rows[0]
+              ]
+    
+              lat_index = None
+              sst_index = None
+    
+              for i, name in enumerate(
+                  sst_header
               ):
-                  continue
-
-              lat = number(
-                  row[lat_index]
+                  if name == "latitude":
+                      lat_index = i
+                  if name == "sea_surface_temperature":
+                      sst_index = i
+    
+              if lat_index is None or sst_index is None:
+                  raise RuntimeError(
+                      "NOAA ACSPO SST response has unexpected columns."
+                  )
+    
+              sst_weighted_sum = 0.0
+              sst_weight_sum = 0.0
+    
+              for row in sst_rows[1:]:
+                  if len(row) <= max(
+                      lat_index,
+                      sst_index
+                  ):
+                      continue
+    
+                  lat = number(
+                      row[lat_index]
+                  )
+                  sst = number(
+                      row[sst_index]
+                  )
+    
+                  if lat is None or sst is None:
+                      continue
+    
+                  if sst < -2 or sst > 40:
+                      continue
+    
+                  weight = math.cos(
+                      math.radians(lat)
+                  )
+    
+                  if weight <= 0:
+                      continue
+    
+                  sst_weighted_sum += sst * weight
+                  sst_weight_sum += weight
+    
+              if sst_weight_sum <= 0:
+                  raise RuntimeError(
+                      "NOAA ACSPO SST contained no valid global samples."
+                  )
+    
+              sst_value = (
+                  sst_weighted_sum
+                  / sst_weight_sum
               )
-              sst = number(
-                  row[sst_index]
+    
+              sst_value = round(
+                  sst_value,
+                  2
               )
-
-              if lat is None or sst is None:
-                  continue
-
-              if sst < -2 or sst > 40:
-                  continue
-
-              weight = math.cos(
-                  math.radians(lat)
+    
+              print(
+                  "SEA SURFACE:",
+                  sst_value,
+                  "°C"
               )
-
-              if weight <= 0:
-                  continue
-
-              sst_weighted_sum += sst * weight
-              sst_weight_sum += weight
-
-          if sst_weight_sum <= 0:
-              raise RuntimeError(
-                  "NOAA ACSPO SST contained no valid global samples."
-              )
-
-          sst_value = (
-              sst_weighted_sum
-              / sst_weight_sum
-          )
-
-          sst_value = round(
-              sst_value,
-              2
-          )
-
-          print(
-              "SEA SURFACE:",
-              sst_value,
-              "°C"
-          )
-
-
+    
+    
           # ------------------------------------------------------------
           # DAY / NIGHT
           #
