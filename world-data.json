@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T11:16:12.136176+00:00",
+  "generatedAt": "2026-09-17T11:30:53.045417+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chirchiq kanali 01.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sevindikovna_Feruza&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sevindikovna Feruza (page does not exist)\">Sevindikovna Feruza</a>",
+    "title": "File:AcapulcoJulio2024.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chirchiq_kanali_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "TKPN",
-    "station": "TKPN",
-    "lat": 17.205,
-    "lon": -62.591,
-    "weather": "-SHRA",
-    "temperature": 28.0,
-    "dewpoint": 25.0,
-    "windSpeed": 7.0,
-    "windDirection": 100.0,
+    "name": "UHWW",
+    "station": "UHWW",
+    "lat": 43.399,
+    "lon": 132.146,
+    "weather": "No coded weather",
+    "temperature": 19.0,
+    "dewpoint": 16.0,
+    "windSpeed": 4.0,
+    "windDirection": 170.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-17T11:00:00.000Z",
     "observationTimestamp": "2026-09-17T11:00:00+00:00",
-    "raw": "METAR TKPN 171100Z 10007KT 9999 -SHRA FEW016 BKN050 28/25 Q1016"
+    "raw": "METAR UHWW 171100Z 17002MPS 9999 NSC 19/16 Q1024 R25L/0///72 NOSIG RMK QFE767"
   },
   "randomPlace": {
-    "name": "SAVT",
-    "station": "SAVT",
-    "lat": -43.209,
-    "lon": -65.282,
+    "name": "UMKK",
+    "station": "UMKK",
+    "lat": 54.885,
+    "lon": 20.583,
     "weather": "No coded weather",
-    "temperature": 6.0,
-    "dewpoint": -2.0,
-    "windSpeed": 7.0,
-    "windDirection": 270.0,
+    "temperature": 16.0,
+    "dewpoint": 11.0,
+    "windSpeed": 16.0,
+    "windDirection": 250.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-17T11:00:00.000Z",
     "observationTimestamp": "2026-09-17T11:00:00+00:00",
-    "raw": "METAR SAVT 171100Z 27007KT CAVOK 06/M02 Q1018"
+    "raw": "METAR UMKK 171100Z 25008MPS 9999 BKN029CB 16/11 Q1010 R24/CLRD63 NOSIG RMK QFE757/1009"
   },
   "globalPulse": {
     "population": {
-      "value": 8211479552,
-      "display": "8,211,479,552",
+      "value": 8211481310,
+      "display": "8,211,481,310",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T11:08:00Z",
-      "speed": 467.0
+      "time": "2026-09-17T11:22:00Z",
+      "speed": 496.0
     },
     "magneticField": {
-      "time": "2026-09-17T11:08:00Z",
-      "bt": 5.0,
-      "bz": -1.0
+      "time": "2026-09-17T11:22:00Z",
+      "bt": 4.0,
+      "bz": -4.0
     },
     "kp": {
       "time": "2026-09-17T06:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 21.0,
-      "display": "MAX 21.0%",
+      "value": 22.0,
+      "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T11:05:00Z",
-      "forecastTime": "2026-09-17T12:01:00Z"
+      "observationTime": "2026-09-17T11:19:00Z",
+      "forecastTime": "2026-09-17T12:16:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
