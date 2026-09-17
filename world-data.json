@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T10:32:10.603015+00:00",
+  "generatedAt": "2026-09-17T10:49:04.624589+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 102129 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "title": "File:Bird nests.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_102129_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGSO",
-    "station": "KGSO",
-    "lat": 36.0969,
-    "lon": -79.9432,
+    "name": "KCPR",
+    "station": "KCPR",
+    "lat": 42.8978,
+    "lon": -106.4736,
     "weather": "No coded weather",
-    "temperature": 19.4,
-    "dewpoint": 16.7,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 11.1,
+    "dewpoint": 3.3,
+    "windSpeed": 4.0,
+    "windDirection": 300.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T09:54:00.000Z",
-    "observationTimestamp": "2026-09-17T09:54:00+00:00",
-    "raw": "METAR KGSO 170954Z 00000KT 10SM FEW250 19/17 A3028 RMK AO2 SLP244 T01940167"
+    "observationTime": "2026-09-17T09:53:00.000Z",
+    "observationTimestamp": "2026-09-17T09:53:00+00:00",
+    "raw": "METAR KCPR 170953Z AUTO 30004KT 10SM CLR 11/03 A3029 RMK AO2 SLP201 T01110033"
   },
   "randomPlace": {
-    "name": "LTCL",
-    "station": "LTCL",
-    "lat": 37.978,
-    "lon": 41.842,
+    "name": "KNQX",
+    "station": "KNQX",
+    "lat": 24.5801,
+    "lon": -81.6829,
     "weather": "No coded weather",
-    "temperature": 35.0,
-    "dewpoint": 2.0,
+    "temperature": 27.8,
+    "dewpoint": 25.6,
     "windSpeed": 5.0,
-    "windDirection": 320.0,
-    "visibility": "6+",
+    "windDirection": 50.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T09:50:00.000Z",
-    "observationTimestamp": "2026-09-17T09:50:00+00:00",
-    "raw": "METAR LTCL 170950Z 32005KT 260V010 CAVOK 35/02 Q1013"
+    "observationTime": "2026-09-17T09:59:00.000Z",
+    "observationTimestamp": "2026-09-17T09:59:00+00:00",
+    "raw": "SPECI KNQX 170959Z 05005KT 10SM SCT025 BKN250 28/26 A3000 RMK AO2 OCNL LTGIC DSNT E CB DSNT E T2 SET T02780256 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211474295,
-      "display": "8,211,474,295",
+      "value": 8211476314,
+      "display": "8,211,476,314",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T10:25:00Z",
-      "speed": 486.0
+      "time": "2026-09-17T10:39:00Z",
+      "speed": 480.0
     },
     "magneticField": {
-      "time": "2026-09-17T10:25:00Z",
+      "time": "2026-09-17T10:39:00Z",
       "bt": 4.0,
       "bz": -3.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T10:19:00Z",
-      "forecastTime": "2026-09-17T11:17:00Z"
+      "observationTime": "2026-09-17T10:39:00Z",
+      "forecastTime": "2026-09-17T11:37:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
