@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T22:48:22.387473+00:00",
+  "generatedAt": "2026-09-17T22:57:56.594754+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bidon dans un robinet.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:KUBWIMANA_Bienvenu\" title=\"User:KUBWIMANA Bienvenu\">KUBWIMANA Bienvenu</a>",
+    "title": "File:Bird nests.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bidon_dans_un_robinet.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KE41",
-    "station": "KE41",
-    "lat": 31.1945,
-    "lon": -101.4732,
+    "name": "KCPP",
+    "station": "KCPP",
+    "lat": 33.5991,
+    "lon": -83.1401,
     "weather": "No coded weather",
-    "temperature": 33.7,
-    "dewpoint": 14.1,
-    "windSpeed": 7.0,
-    "windDirection": 170.0,
+    "temperature": 33.0,
+    "dewpoint": 16.0,
+    "windSpeed": 5.0,
+    "windDirection": 120.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-17T22:35:00.000Z",
     "observationTimestamp": "2026-09-17T22:35:00+00:00",
-    "raw": "METAR KE41 172235Z AUTO 17007KT 10SM SCT070 34/14 A3017 RMK AO2 T03370141"
+    "raw": "METAR KCPP 172235Z AUTO 12005KT 10SM CLR 33/16 A3020 RMK AO2"
   },
   "randomPlace": {
-    "name": "EKSB",
-    "station": "EKSB",
-    "lat": 54.962,
-    "lon": 9.787,
+    "name": "CWZW",
+    "station": "CWZW",
+    "lat": 60.167,
+    "lon": -132.733,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 13.0,
-    "windSpeed": 4.0,
-    "windDirection": 190.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T22:20:00.000Z",
-    "observationTimestamp": "2026-09-17T22:20:00+00:00",
-    "raw": "METAR EKSB 172220Z AUTO 19004KT 150V220 9999 SCT029/// SCT033/// 14/13 Q1005"
+    "temperature": 13.0,
+    "dewpoint": -0.2,
+    "windSpeed": 1.0,
+    "windDirection": 240.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-17T22:00:00.000Z",
+    "observationTimestamp": "2026-09-17T22:00:00+00:00",
+    "raw": "METAR CWZW 172200Z AUTO 24001KT 13/M00 RMK AO1 SLP208 T01301002 58001"
   },
   "globalPulse": {
     "population": {
-      "value": 8211562429,
-      "display": "8,211,562,429",
+      "value": 8211563570,
+      "display": "8,211,563,570",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T22:40:00Z",
-      "speed": 453.0
+      "time": "2026-09-17T22:46:00Z",
+      "speed": 459.0
     },
     "magneticField": {
-      "time": "2026-09-17T22:40:00Z",
-      "bt": 5.0,
+      "time": "2026-09-17T22:46:00Z",
+      "bt": 4.0,
       "bz": 1.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 19.0,
       "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T22:40:00Z",
-      "forecastTime": "2026-09-17T23:39:00Z"
+      "observationTime": "2026-09-17T22:43:00Z",
+      "forecastTime": "2026-09-17T23:44:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
