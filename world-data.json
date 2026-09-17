@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T09:33:08.646174+00:00",
+  "generatedAt": "2026-09-17T09:49:00.586081+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Heading of \"Verslag van de Staatsspoorwegen over het jaar 1928\".jpg",
-    "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q64041032\" class=\"extiw\" title=\"d:Q64041032\">Willem Fredrik Staargaard</a></bdi>",
-    "license": "Public domain",
+    "title": "File:Doubtful Sound - Patea - DoubtfulSound9080.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/199350666@N08\">lumoplank</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Heading_of_%22Verslag_van_de_Staatsspoorwegen_over_het_jaar_1928%22.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Doubtful_Sound_-_Patea_-_DoubtfulSound9080.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K9D7",
-    "station": "K9D7",
-    "lat": 48.4816,
-    "lon": -99.2346,
+    "name": "PATO",
+    "station": "PATO",
+    "lat": 60.783,
+    "lon": -148.843,
     "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 5.0,
-    "windSpeed": 4.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-17T09:15:00.000Z",
-    "observationTimestamp": "2026-09-17T09:15:00+00:00",
-    "raw": "METAR K9D7 170915Z AUTO 03004KT 10SM SCT010 BKN018 OVC032 09/05 A3030 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "KMJX",
-    "station": "KMJX",
-    "lat": 39.9235,
-    "lon": -74.297,
-    "weather": "No coded weather",
-    "temperature": 18.9,
-    "dewpoint": null,
+    "temperature": 4.4,
+    "dewpoint": 3.9,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T08:56:00.000Z",
-    "observationTimestamp": "2026-09-17T08:56:00+00:00",
-    "raw": "METAR KMJX 170856Z AUTO 00000KT 10SM CLR 19/ A3027 RMK AO2 SLP252 T0189 56006 $"
+    "observationTime": "2026-09-17T08:53:00.000Z",
+    "observationTimestamp": "2026-09-17T08:53:00+00:00",
+    "raw": "METAR PATO 170853Z AUTO 00000KT 10SM BKN065 04/04 A3006 RMK AO2 SLP180 60000 T00440039 401220044 51008 TSNO"
+  },
+  "randomPlace": {
+    "name": "CYLL",
+    "station": "CYLL",
+    "lat": 53.312,
+    "lon": -110.074,
+    "weather": "No coded weather",
+    "temperature": 8.0,
+    "dewpoint": 5.0,
+    "windSpeed": 10.0,
+    "windDirection": 190.0,
+    "visibility": "9",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T09:00:00.000Z",
+    "observationTimestamp": "2026-09-17T09:00:00+00:00",
+    "raw": "METAR CYLL 170900Z AUTO 19010G15KT 9SM CLR 08/05 A3009 RMK SLP206"
   },
   "globalPulse": {
     "population": {
-      "value": 8211467221,
-      "display": "8,211,467,221",
+      "value": 8211469127,
+      "display": "8,211,469,127",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T09:25:00Z",
-      "speed": 476.0
+      "time": "2026-09-17T09:42:00Z",
+      "speed": 472.0
     },
     "magneticField": {
-      "time": "2026-09-17T09:25:00Z",
+      "time": "2026-09-17T09:42:00Z",
       "bt": 4.0,
-      "bz": 3.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-17T06:00:00",
@@ -113,8 +113,8 @@
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T09:19:00Z",
-      "forecastTime": "2026-09-17T10:17:00Z"
+      "observationTime": "2026-09-17T09:39:00Z",
+      "forecastTime": "2026-09-17T10:37:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
