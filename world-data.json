@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:24:24.989886+00:00",
+  "generatedAt": "2026-09-17T21:37:35.731372+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 16.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:-i---i- (31387900023).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/62300657@N05\">Papa Pic</a> from Eldorado, Argentina",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_16.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:-i---i-_%2831387900023%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAIO",
-    "station": "KAIO",
-    "lat": 41.4059,
-    "lon": -95.0465,
-    "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 22.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T21:15:00.000Z",
-    "observationTimestamp": "2026-09-17T21:15:00+00:00",
-    "raw": "METAR KAIO 172115Z AUTO 00000KT 10SM FEW021 26/22 A3018 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "LTBS",
-    "station": "LTBS",
-    "lat": 36.713,
-    "lon": 28.793,
+    "name": "K96D",
+    "station": "K96D",
+    "lat": 48.9402,
+    "lon": -97.9053,
     "weather": "No coded weather",
     "temperature": 19.0,
-    "dewpoint": 18.0,
-    "windSpeed": 6.0,
-    "windDirection": 20.0,
+    "dewpoint": 9.0,
+    "windSpeed": 7.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T20:55:00.000Z",
+    "observationTimestamp": "2026-09-17T20:55:00+00:00",
+    "raw": "METAR K96D 172055Z AUTO 06007KT 10SM CLR 19/09 A3033 RMK AO2"
+  },
+  "randomPlace": {
+    "name": "WITT",
+    "station": "WITT",
+    "lat": 5.524,
+    "lon": 95.42,
+    "weather": "No coded weather",
+    "temperature": 24.0,
+    "dewpoint": 23.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T20:50:00.000Z",
-    "observationTimestamp": "2026-09-17T20:50:00+00:00",
-    "raw": "METAR LTBS 172050Z 02006KT 360V080 CAVOK 19/18 Q1009 NOSIG"
+    "observationTime": "2026-09-17T21:30:00.000Z",
+    "observationTimestamp": "2026-09-17T21:30:00+00:00",
+    "raw": "METAR WITT 172130Z VRB02KT 9999 SCT018 24/23 Q1010 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211552375,
-      "display": "8,211,552,375",
+      "value": 8211553955,
+      "display": "8,211,553,955",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T21:18:00Z",
-      "speed": 462.0
+      "time": "2026-09-17T21:30:00Z",
+      "speed": 466.0
     },
     "magneticField": {
-      "time": "2026-09-17T21:18:00Z",
+      "time": "2026-09-17T21:30:00Z",
       "bt": 4.0,
-      "bz": 2.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-17T18:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T21:15:00Z",
-      "forecastTime": "2026-09-17T22:13:00Z"
+      "observationTime": "2026-09-17T21:30:00Z",
+      "forecastTime": "2026-09-17T22:28:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
