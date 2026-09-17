@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T19:22:11.151705+00:00",
+  "generatedAt": "2026-09-17T19:38:06.682905+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 07.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:20260803 183103 Gartenanlage Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_07.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_183103_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EDJA",
-    "station": "EDJA",
-    "lat": 47.989,
-    "lon": 10.239,
+    "name": "RKJK",
+    "station": "RKJK",
+    "lat": 35.9,
+    "lon": 126.618,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 8.0,
-    "windSpeed": 6.0,
-    "windDirection": 160.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T18:50:00.000Z",
-    "observationTimestamp": "2026-09-17T18:50:00+00:00",
-    "raw": "METAR EDJA 171850Z 16006KT CAVOK 11/08 Q1016"
-  },
-  "randomPlace": {
-    "name": "KSIF",
-    "station": "KSIF",
-    "lat": 36.4408,
-    "lon": -79.8544,
-    "weather": "HZ",
-    "temperature": 34.5,
-    "dewpoint": 16.7,
+    "temperature": 20.9,
+    "dewpoint": 14.8,
     "windSpeed": 4.0,
     "windDirection": 60.0,
-    "visibility": "5",
-    "flightCategory": "MVFR",
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T18:55:00.000Z",
+    "observationTimestamp": "2026-09-17T18:55:00+00:00",
+    "raw": "METAR RKJK 171855Z 06004KT 10SM BKN200 21/15 A3007 RMK AO2A SLP187 T02090148 $"
+  },
+  "randomPlace": {
+    "name": "KFKS",
+    "station": "KFKS",
+    "lat": 44.6246,
+    "lon": -86.1985,
+    "weather": "No coded weather",
+    "temperature": 21.0,
+    "dewpoint": 13.0,
+    "windSpeed": 8.0,
+    "windDirection": 340.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-17T19:15:00.000Z",
     "observationTimestamp": "2026-09-17T19:15:00+00:00",
-    "raw": "METAR KSIF 171915Z AUTO 06004KT 5SM HZ CLR 35/17 A3020 RMK AO2 T03450167"
+    "raw": "METAR KFKS 171915Z AUTO 34008KT 10SM CLR 21/13 A3023 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211537746,
-      "display": "8,211,537,746",
+      "value": 8211539649,
+      "display": "8,211,539,649",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T19:11:00Z",
-      "speed": 480.0
+      "time": "2026-09-17T19:28:00Z",
+      "speed": 471.0
     },
     "magneticField": {
-      "time": "2026-09-17T19:11:00Z",
-      "bt": 4.0,
-      "bz": 0.0
+      "time": "2026-09-17T19:28:00Z",
+      "bt": 5.0,
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-17T15:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T19:13:00Z",
-      "forecastTime": "2026-09-17T20:13:00Z"
+      "observationTime": "2026-09-17T19:28:00Z",
+      "forecastTime": "2026-09-17T20:28:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
