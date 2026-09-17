@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T09:16:55.850183+00:00",
+  "generatedAt": "2026-09-17T09:33:08.646174+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ditches, Dust, and Distance - DPLA - 62b7f33dfac43e4f5d60db1effaae5eb.jpg",
-    "artist": "Department of the Interior. Bureau of Indian Affairs. Pierre Agency. 1954-1972",
+    "title": "File:Heading of \"Verslag van de Staatsspoorwegen over het jaar 1928\".jpg",
+    "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q64041032\" class=\"extiw\" title=\"d:Q64041032\">Willem Fredrik Staargaard</a></bdi>",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ditches%2C_Dust%2C_and_Distance_-_DPLA_-_62b7f33dfac43e4f5d60db1effaae5eb.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Heading_of_%22Verslag_van_de_Staatsspoorwegen_over_het_jaar_1928%22.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KVDI",
-    "station": "KVDI",
-    "lat": 32.1933,
-    "lon": -82.3642,
+    "name": "K9D7",
+    "station": "K9D7",
+    "lat": 48.4816,
+    "lon": -99.2346,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 19.0,
-    "windSpeed": 3.0,
+    "temperature": 9.0,
+    "dewpoint": 5.0,
+    "windSpeed": 4.0,
     "windDirection": 30.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T08:55:00.000Z",
-    "observationTimestamp": "2026-09-17T08:55:00+00:00",
-    "raw": "METAR KVDI 170855Z AUTO 03003KT 10SM CLR 20/19 A3025 RMK AO2"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T09:15:00.000Z",
+    "observationTimestamp": "2026-09-17T09:15:00+00:00",
+    "raw": "METAR K9D7 170915Z AUTO 03004KT 10SM SCT010 BKN018 OVC032 09/05 A3030 RMK AO2"
   },
   "randomPlace": {
-    "name": "OOAD",
-    "station": "OOAD",
-    "lat": 22.5,
-    "lon": 57.37,
+    "name": "KMJX",
+    "station": "KMJX",
+    "lat": 39.9235,
+    "lon": -74.297,
     "weather": "No coded weather",
-    "temperature": 37.0,
-    "dewpoint": 19.0,
-    "windSpeed": 11.0,
-    "windDirection": 240.0,
-    "visibility": "6+",
+    "temperature": 18.9,
+    "dewpoint": null,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T08:50:00.000Z",
-    "observationTimestamp": "2026-09-17T08:50:00+00:00",
-    "raw": "METAR OOAD 170850Z AUTO 24011KT 210V280 9999 // ////// 37/19 Q1009 NOSIG"
+    "observationTime": "2026-09-17T08:56:00.000Z",
+    "observationTimestamp": "2026-09-17T08:56:00+00:00",
+    "raw": "METAR KMJX 170856Z AUTO 00000KT 10SM CLR 19/ A3027 RMK AO2 SLP252 T0189 56006 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211465266,
-      "display": "8,211,465,266",
+      "value": 8211467221,
+      "display": "8,211,467,221",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 60.1,
-      "display": "60.1%",
+      "value": 60.9,
+      "display": "60.9%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-17T00:00:00Z"
+      "time": "2026-09-17T06:00:00Z"
     },
     "geomagnetic": {
       "value": 1.7,
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T09:08:00Z",
-      "speed": 471.0
+      "time": "2026-09-17T09:25:00Z",
+      "speed": 476.0
     },
     "magneticField": {
-      "time": "2026-09-17T09:08:00Z",
+      "time": "2026-09-17T09:25:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-17T06:00:00",
@@ -113,8 +113,8 @@
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T09:05:00Z",
-      "forecastTime": "2026-09-17T10:02:00Z"
+      "observationTime": "2026-09-17T09:19:00Z",
+      "forecastTime": "2026-09-17T10:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
