@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T22:57:56.594754+00:00",
+  "generatedAt": "2026-09-17T23:11:59.928675+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bird nests.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
+    "title": "File:20260822 092805 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_092805_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCPP",
-    "station": "KCPP",
-    "lat": 33.5991,
-    "lon": -83.1401,
+    "name": "LEVD",
+    "station": "LEVD",
+    "lat": 41.706,
+    "lon": -4.852,
     "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 16.0,
-    "windSpeed": 5.0,
-    "windDirection": 120.0,
-    "visibility": "10+",
+    "temperature": 12.0,
+    "dewpoint": 7.0,
+    "windSpeed": 7.0,
+    "windDirection": 70.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T22:35:00.000Z",
-    "observationTimestamp": "2026-09-17T22:35:00+00:00",
-    "raw": "METAR KCPP 172235Z AUTO 12005KT 10SM CLR 33/16 A3020 RMK AO2"
+    "observationTime": "2026-09-17T23:00:00.000Z",
+    "observationTimestamp": "2026-09-17T23:00:00+00:00",
+    "raw": "METAR LEVD 172300Z AUTO 07007KT CAVOK 12/07 Q1020"
   },
   "randomPlace": {
-    "name": "CWZW",
-    "station": "CWZW",
-    "lat": 60.167,
-    "lon": -132.733,
+    "name": "KEST",
+    "station": "KEST",
+    "lat": 43.4008,
+    "lon": -94.7476,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": -0.2,
-    "windSpeed": 1.0,
-    "windDirection": 240.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-17T22:00:00.000Z",
-    "observationTimestamp": "2026-09-17T22:00:00+00:00",
-    "raw": "METAR CWZW 172200Z AUTO 24001KT 13/M00 RMK AO1 SLP208 T01301002 58001"
+    "temperature": 18.9,
+    "dewpoint": 16.1,
+    "windSpeed": 6.0,
+    "windDirection": 20.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T23:06:00.000Z",
+    "observationTimestamp": "2026-09-17T23:06:00+00:00",
+    "raw": "SPECI KEST 172306Z AUTO 02006KT 10SM OVC015 19/16 A3027 RMK AO2 T01890161"
   },
   "globalPulse": {
     "population": {
-      "value": 8211563570,
-      "display": "8,211,563,570",
+      "value": 8211565260,
+      "display": "8,211,565,260",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T22:46:00Z",
-      "speed": 459.0
+      "time": "2026-09-17T23:04:00Z",
+      "speed": 449.0
     },
     "magneticField": {
-      "time": "2026-09-17T22:46:00Z",
+      "time": "2026-09-17T23:04:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-17T18:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T22:43:00Z",
-      "forecastTime": "2026-09-17T23:44:00Z"
+      "observationTime": "2026-09-17T22:58:00Z",
+      "forecastTime": "2026-09-17T23:59:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
