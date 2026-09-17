@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T09:49:00.586081+00:00",
+  "generatedAt": "2026-09-17T09:58:48.397802+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Doubtful Sound - Patea - DoubtfulSound9080.jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/199350666@N08\">lumoplank</a>",
+    "title": "File:Brake Through Of kpongu Dam AWC Africa Wiki Challenge 307.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mayor_555&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mayor 555 (page does not exist)\">Mayor 555</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Doubtful_Sound_-_Patea_-_DoubtfulSound9080.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brake_Through_Of_kpongu_Dam_AWC_Africa_Wiki_Challenge_307.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "PATO",
-    "station": "PATO",
-    "lat": 60.783,
-    "lon": -148.843,
+    "name": "K7W4",
+    "station": "K7W4",
+    "lat": 37.9667,
+    "lon": -77.7453,
     "weather": "No coded weather",
-    "temperature": 4.4,
-    "dewpoint": 3.9,
+    "temperature": 17.6,
+    "dewpoint": 17.4,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T08:53:00.000Z",
-    "observationTimestamp": "2026-09-17T08:53:00+00:00",
-    "raw": "METAR PATO 170853Z AUTO 00000KT 10SM BKN065 04/04 A3006 RMK AO2 SLP180 60000 T00440039 401220044 51008 TSNO"
+    "observationTime": "2026-09-17T09:35:00.000Z",
+    "observationTimestamp": "2026-09-17T09:35:00+00:00",
+    "raw": "METAR K7W4 170935Z AUTO 00000KT 10SM CLR 18/17 A3024 RMK AO1 T01760174"
   },
   "randomPlace": {
-    "name": "CYLL",
-    "station": "CYLL",
-    "lat": 53.312,
-    "lon": -110.074,
+    "name": "KVHN",
+    "station": "KVHN",
+    "lat": 31.0602,
+    "lon": -104.7832,
     "weather": "No coded weather",
-    "temperature": 8.0,
-    "dewpoint": 5.0,
-    "windSpeed": 10.0,
-    "windDirection": 190.0,
-    "visibility": "9",
+    "temperature": 24.0,
+    "dewpoint": 13.2,
+    "windSpeed": 8.0,
+    "windDirection": 200.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T09:00:00.000Z",
-    "observationTimestamp": "2026-09-17T09:00:00+00:00",
-    "raw": "METAR CYLL 170900Z AUTO 19010G15KT 9SM CLR 08/05 A3009 RMK SLP206"
+    "observationTime": "2026-09-17T09:35:00.000Z",
+    "observationTimestamp": "2026-09-17T09:35:00+00:00",
+    "raw": "METAR KVHN 170935Z AUTO 20008KT 10SM CLR 24/13 A3027 RMK AO2 T02400132"
   },
   "globalPulse": {
     "population": {
-      "value": 8211469127,
-      "display": "8,211,469,127",
+      "value": 8211470302,
+      "display": "8,211,470,302",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T09:42:00Z",
-      "speed": 472.0
+      "time": "2026-09-17T09:48:00Z",
+      "speed": 478.0
     },
     "magneticField": {
-      "time": "2026-09-17T09:42:00Z",
+      "time": "2026-09-17T09:48:00Z",
       "bt": 4.0,
-      "bz": 2.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-17T06:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T09:39:00Z",
-      "forecastTime": "2026-09-17T10:37:00Z"
+      "observationTime": "2026-09-17T09:51:00Z",
+      "forecastTime": "2026-09-17T10:47:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
