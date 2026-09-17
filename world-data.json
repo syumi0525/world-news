@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T22:12:38.326302+00:00",
+  "generatedAt": "2026-09-17T22:27:38.457849+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 15.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:A nude man poses in the formal garden of a privately owned chateau near Paris.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:The_Naked_Gentleman\" title=\"User:The Naked Gentleman\">The Naked Gentleman</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_15.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_nude_man_poses_in_the_formal_garden_of_a_privately_owned_chateau_near_Paris.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "NZCH",
-    "station": "NZCH",
-    "lat": -43.489,
-    "lon": 172.528,
+    "name": "YWLM",
+    "station": "YWLM",
+    "lat": -32.794,
+    "lon": 151.836,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 6.0,
+    "temperature": 12.0,
+    "dewpoint": 8.0,
     "windSpeed": 9.0,
-    "windDirection": 70.0,
+    "windDirection": 310.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-17T22:00:00.000Z",
     "observationTimestamp": "2026-09-17T22:00:00+00:00",
-    "raw": "METAR NZCH 172200Z AUTO 07009KT 9999 NCD 10/06 Q1003"
+    "raw": "METAR YWLM 172200Z 31009KT CAVOK 12/08 Q1029"
   },
   "randomPlace": {
-    "name": "KOMA",
-    "station": "KOMA",
-    "lat": 41.3119,
-    "lon": -95.9018,
+    "name": "CYDN",
+    "station": "CYDN",
+    "lat": 51.1,
+    "lon": -100.057,
     "weather": "No coded weather",
-    "temperature": 27.2,
-    "dewpoint": 20.0,
-    "windSpeed": 3.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
+    "temperature": 19.0,
+    "dewpoint": 6.0,
+    "windSpeed": 14.0,
+    "windDirection": 140.0,
+    "visibility": "9",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T21:52:00.000Z",
-    "observationTimestamp": "2026-09-17T21:52:00+00:00",
-    "raw": "METAR KOMA 172152Z 20003KT 10SM FEW100 SCT160 BKN200 27/20 A3019 RMK AO2 SLP214 T02720200"
+    "observationTime": "2026-09-17T22:00:00.000Z",
+    "observationTimestamp": "2026-09-17T22:00:00+00:00",
+    "raw": "METAR CYDN 172200Z AUTO 14014G21KT 9SM CLR 19/06 A3028 RMK SLP262 DENSITY ALT 1300FT"
   },
   "globalPulse": {
     "population": {
-      "value": 8211558147,
-      "display": "8,211,558,147",
+      "value": 8211559947,
+      "display": "8,211,559,947",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T22:05:00Z",
+      "time": "2026-09-17T22:19:00Z",
       "speed": 459.0
     },
     "magneticField": {
-      "time": "2026-09-17T22:02:00Z",
-      "bt": 5.0,
-      "bz": -3.0
+      "time": "2026-09-17T22:19:00Z",
+      "bt": 4.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-17T18:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 20.0,
-      "display": "MAX 20.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T22:05:00Z",
-      "forecastTime": "2026-09-17T23:03:00Z"
+      "observationTime": "2026-09-17T22:14:00Z",
+      "forecastTime": "2026-09-17T23:13:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
