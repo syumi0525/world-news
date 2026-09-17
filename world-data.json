@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T15:40:02.921755+00:00",
+  "generatedAt": "2026-09-17T15:52:38.030226+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 102129 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
-    "license": "CC0",
+    "title": "File:Benue River (early 1900s).jpg",
+    "artist": "Hans Dominik",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_102129_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Benue_River_%28early_1900s%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFRD",
-    "station": "LFRD",
-    "lat": 48.589,
-    "lon": -2.075,
+    "name": "KSET",
+    "station": "KSET",
+    "lat": 38.9304,
+    "lon": -90.4329,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 15.0,
-    "windSpeed": 10.0,
-    "windDirection": 290.0,
-    "visibility": "6+",
+    "temperature": 29.4,
+    "dewpoint": 20.6,
+    "windSpeed": 8.0,
+    "windDirection": 250.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T14:54:00.000Z",
+    "observationTimestamp": "2026-09-17T14:54:00+00:00",
+    "raw": "METAR KSET 171454Z AUTO 25008KT 10SM CLR 29/21 A3022 RMK AO2 SLP228 T02940206 51008"
+  },
+  "randomPlace": {
+    "name": "GOBD",
+    "station": "GOBD",
+    "lat": 14.671,
+    "lon": -17.067,
+    "weather": "No coded weather",
+    "temperature": 31.0,
+    "dewpoint": 26.0,
+    "windSpeed": 13.0,
+    "windDirection": 260.0,
+    "visibility": "4.97",
     "flightCategory": "MVFR",
     "observationTime": "2026-09-17T15:30:00.000Z",
     "observationTimestamp": "2026-09-17T15:30:00+00:00",
-    "raw": "METAR LFRD 171530Z AUTO 29010KT 9999 BKN014 BKN019 BKN036 18/15 Q1015 TEMPO 30015G25KT BECMG BKN025"
-  },
-  "randomPlace": {
-    "name": "KBVI",
-    "station": "KBVI",
-    "lat": 40.7735,
-    "lon": -80.3825,
-    "weather": "No coded weather",
-    "temperature": 24.7,
-    "dewpoint": 21.9,
-    "windSpeed": 4.0,
-    "windDirection": 260.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-17T15:15:00.000Z",
-    "observationTimestamp": "2026-09-17T15:15:00+00:00",
-    "raw": "METAR KBVI 171515Z AUTO 26004KT 10SM SCT009 OVC012 25/22 A3027 RMK AO2 T02470219"
+    "raw": "METAR GOBD 171530Z 26013KT 240V300 8000 BKN020 31/26 Q1012 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211511061,
-      "display": "8,211,511,061",
+      "value": 8211512647,
+      "display": "8,211,512,647",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T15:32:00Z",
-      "speed": 448.0
+      "time": "2026-09-17T15:43:00Z",
+      "speed": 450.0
     },
     "magneticField": {
-      "time": "2026-09-17T15:32:00Z",
-      "bt": 5.0,
-      "bz": 0.0
+      "time": "2026-09-17T15:43:00Z",
+      "bt": 4.0,
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-17T12:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T15:29:00Z",
-      "forecastTime": "2026-09-17T16:30:00Z"
+      "observationTime": "2026-09-17T15:43:00Z",
+      "forecastTime": "2026-09-17T16:45:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
