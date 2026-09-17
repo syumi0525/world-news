@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T19:08:18.284975+00:00",
+  "generatedAt": "2026-09-17T19:22:11.151705+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Alwin-Muncak.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Unaaa3003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Unaaa3003 (page does not exist)\">Unaaa3003</a>",
+    "title": "File:Borehole project 07.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Alwin-Muncak.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_07.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LIPB",
-    "station": "LIPB",
-    "lat": 46.46,
-    "lon": 11.326,
+    "name": "EDJA",
+    "station": "EDJA",
+    "lat": 47.989,
+    "lon": 10.239,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 15.0,
-    "windSpeed": 4.0,
-    "windDirection": 150.0,
+    "temperature": 11.0,
+    "dewpoint": 8.0,
+    "windSpeed": 6.0,
+    "windDirection": 160.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-17T18:50:00.000Z",
     "observationTimestamp": "2026-09-17T18:50:00+00:00",
-    "raw": "METAR LIPB 171850Z 15004KT 120V190 9999 SCT060 21/15 Q1013"
+    "raw": "METAR EDJA 171850Z 16006KT CAVOK 11/08 Q1016"
   },
   "randomPlace": {
-    "name": "KTBX",
-    "station": "KTBX",
-    "lat": 43.4644,
-    "lon": -108.2382,
-    "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 7.0,
-    "windSpeed": 8.0,
-    "windDirection": 130.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T18:55:00.000Z",
-    "observationTimestamp": "2026-09-17T18:55:00+00:00",
-    "raw": "METAR KTBX 171855Z AUTO 13008KT 10SM CLR 13/07 A3041 RMK AO2 LTG DSNT W"
+    "name": "KSIF",
+    "station": "KSIF",
+    "lat": 36.4408,
+    "lon": -79.8544,
+    "weather": "HZ",
+    "temperature": 34.5,
+    "dewpoint": 16.7,
+    "windSpeed": 4.0,
+    "windDirection": 60.0,
+    "visibility": "5",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T19:15:00.000Z",
+    "observationTimestamp": "2026-09-17T19:15:00+00:00",
+    "raw": "METAR KSIF 171915Z AUTO 06004KT 5SM HZ CLR 35/17 A3020 RMK AO2 T03450167"
   },
   "globalPulse": {
     "population": {
-      "value": 8211536082,
-      "display": "8,211,536,082",
+      "value": 8211537746,
+      "display": "8,211,537,746",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T18:59:00Z",
-      "speed": 456.0
+      "time": "2026-09-17T19:11:00Z",
+      "speed": 480.0
     },
     "magneticField": {
-      "time": "2026-09-17T18:59:00Z",
-      "bt": 5.0,
-      "bz": 2.0
+      "time": "2026-09-17T19:11:00Z",
+      "bt": 4.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-17T15:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T18:53:00Z",
-      "forecastTime": "2026-09-17T19:53:00Z"
+      "observationTime": "2026-09-17T19:13:00Z",
+      "forecastTime": "2026-09-17T20:13:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
