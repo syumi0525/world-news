@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:34:34.741104+00:00",
+  "generatedAt": "2026-09-17T18:50:39.260949+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:American Craftsman home.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Onthehilltop&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Onthehilltop (page does not exist)\">Onthehilltop</a>",
-    "license": "CC0",
+    "title": "File:Explanation of axle arrangement.jpg",
+    "artist": "Illustrierte Technik für Jedermann",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:American_Craftsman_home.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Explanation_of_axle_arrangement.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBED",
-    "station": "KBED",
-    "lat": 42.4681,
-    "lon": -71.2946,
+    "name": "KPKV",
+    "station": "KPKV",
+    "lat": 28.6499,
+    "lon": -96.6799,
     "weather": "No coded weather",
-    "temperature": 26.7,
-    "dewpoint": 18.9,
+    "temperature": 33.4,
+    "dewpoint": 26.7,
     "windSpeed": 5.0,
-    "windDirection": 0.0,
+    "windDirection": 100.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T17:51:00.000Z",
-    "observationTimestamp": "2026-09-17T17:51:00+00:00",
-    "raw": "METAR KBED 171751Z VRB05KT 10SM BKN038 BKN060 27/19 A3015 RMK AO2 SLP221 T02670189 10278 20189 58025"
+    "observationTime": "2026-09-17T18:35:00.000Z",
+    "observationTimestamp": "2026-09-17T18:35:00+00:00",
+    "raw": "METAR KPKV 171835Z AUTO 10005KT 10SM FEW075 33/27 A3008 RMK AO2 T03340267 $"
   },
   "randomPlace": {
-    "name": "KCPS",
-    "station": "KCPS",
-    "lat": 38.57,
-    "lon": -90.156,
+    "name": "KTNU",
+    "station": "KTNU",
+    "lat": 41.6701,
+    "lon": -93.019,
     "weather": "No coded weather",
-    "temperature": 34.4,
-    "dewpoint": 22.8,
-    "windSpeed": 5.0,
-    "windDirection": 200.0,
+    "temperature": 26.0,
+    "dewpoint": 26.0,
+    "windSpeed": 6.0,
+    "windDirection": 350.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T17:53:00.000Z",
-    "observationTimestamp": "2026-09-17T17:53:00+00:00",
-    "raw": "METAR KCPS 171753Z 20005KT 10SM SCT100 34/23 A3020 RMK AO2 SLP222 T03440228 10350 20217 58012 $"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T18:35:00.000Z",
+    "observationTimestamp": "2026-09-17T18:35:00+00:00",
+    "raw": "METAR KTNU 171835Z AUTO 35006KT 10SM SCT018 OVC025 26/26 A3021 RMK A01"
   },
   "globalPulse": {
     "population": {
-      "value": 8211532045,
-      "display": "8,211,532,045",
+      "value": 8211533969,
+      "display": "8,211,533,969",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T18:24:00Z",
-      "speed": 475.0
+      "time": "2026-09-17T18:42:00Z",
+      "speed": 458.0
     },
     "magneticField": {
-      "time": "2026-09-17T18:24:00Z",
+      "time": "2026-09-17T18:42:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -110,11 +110,11 @@
       "kp": 2.0
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T18:24:00Z",
-      "forecastTime": "2026-09-17T19:24:00Z"
+      "observationTime": "2026-09-17T18:39:00Z",
+      "forecastTime": "2026-09-17T19:38:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
