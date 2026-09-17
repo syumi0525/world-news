@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T20:48:26.775654+00:00",
+  "generatedAt": "2026-09-17T08:29:50.654344+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bird nests.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
+    "title": "File:Cascada en Guasca.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Estudiante0001&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Estudiante0001 (page does not exist)\">Estudiante0001</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cascada_en_Guasca.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VOBG",
-    "station": "VOBG",
-    "lat": 12.949,
-    "lon": 77.663,
+    "name": "KBLH",
+    "station": "KBLH",
+    "lat": 33.6188,
+    "lon": -114.7145,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 21.0,
-    "windSpeed": 4.0,
-    "windDirection": 250.0,
-    "visibility": "3.73",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-16T20:00:00.000Z",
-    "observationTimestamp": "2026-09-16T20:00:00+00:00",
-    "raw": "METAR VOBG 162000Z 25004KT 6000 SCT012 SCT080 24/21 Q1015 NOSIG"
+    "temperature": 27.8,
+    "dewpoint": 18.9,
+    "windSpeed": 9.0,
+    "windDirection": 90.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T07:52:00.000Z",
+    "observationTimestamp": "2026-09-17T07:52:00+00:00",
+    "raw": "METAR KBLH 170752Z AUTO 09009KT 10SM CLR 28/19 A2992 RMK AO2 SLP126 T02780189 403940261 $"
   },
   "randomPlace": {
-    "name": "CYLC",
-    "station": "CYLC",
-    "lat": 62.85,
-    "lon": -69.88,
+    "name": "OPLA",
+    "station": "OPLA",
+    "lat": 31.522,
+    "lon": 74.404,
     "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": 0.0,
-    "windSpeed": 14.0,
-    "windDirection": 280.0,
-    "visibility": "15",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-16T20:00:00.000Z",
-    "observationTimestamp": "2026-09-16T20:00:00+00:00",
-    "raw": "METAR CYLC 162000Z 28014G21KT 15SM FEW026 BKN036 BKN046 BKN300 07/00 A2971 RMK SC2SC3SC1CI1 CI TR LSTSTFD OBS/NXT 171200Z SLP067"
+    "temperature": 29.0,
+    "dewpoint": 19.0,
+    "windSpeed": 6.0,
+    "windDirection": 180.0,
+    "visibility": "4.97",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-17T08:00:00.000Z",
+    "observationTimestamp": "2026-09-17T08:00:00+00:00",
+    "raw": "METAR OPLA 170800Z 18006KT 8000 SCT100 29/19 Q1010 NOSIG RMK QFE984 A29.83"
   },
   "globalPulse": {
     "population": {
-      "value": 8211375675,
-      "display": "8,211,375,675",
+      "value": 8211459623,
+      "display": "8,211,459,623",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -75,7 +75,7 @@
       "display": "22.20 °C",
       "source": "NOAA ACSPO Global SST (area-weighted sample)",
       "dataset": "ACSPO_LEO_L3S_nrt",
-      "endpoint": "NOAA CoastWatch ACSPO NRT"
+      "endpoint": null
     },
     "dayNight": {
       "value": 0.5,
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 60.8,
-      "display": "60.8%",
+      "value": 60.1,
+      "display": "60.1%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-16T12:00:00Z"
+      "time": "2026-09-17T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.0,
-      "display": "Kp 1.0",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-16T15:00:00"
+      "time": "2026-09-17T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-16T20:39:00Z",
-      "speed": 508.0
+      "time": "2026-09-17T08:22:00Z",
+      "speed": 473.0
     },
     "magneticField": {
-      "time": "2026-09-16T20:39:00Z",
-      "bt": 6.0,
-      "bz": 0.0
+      "time": "2026-09-17T08:22:00Z",
+      "bt": 4.0,
+      "bz": 3.0
     },
     "kp": {
-      "time": "2026-09-16T15:00:00",
-      "kp": 1.0
+      "time": "2026-09-17T03:00:00",
+      "kp": 1.67
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-16T20:39:00Z",
-      "forecastTime": "2026-09-16T21:34:00Z"
+      "observationTime": "2026-09-17T08:19:00Z",
+      "forecastTime": "2026-09-17T09:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
