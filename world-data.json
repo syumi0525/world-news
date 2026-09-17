@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:12:35.189835+00:00",
+  "generatedAt": "2026-09-17T18:34:34.741104+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ejemplares de Melocactus en el desierto de la Tatacoa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cathetovar\" title=\"User:Cathetovar\">Cathetovar</a>",
+    "title": "File:American Craftsman home.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Onthehilltop&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Onthehilltop (page does not exist)\">Onthehilltop</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ejemplares_de_Melocactus_en_el_desierto_de_la_Tatacoa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:American_Craftsman_home.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDXR",
-    "station": "KDXR",
-    "lat": 41.3721,
-    "lon": -73.4834,
+    "name": "KBED",
+    "station": "KBED",
+    "lat": 42.4681,
+    "lon": -71.2946,
     "weather": "No coded weather",
-    "temperature": 26.1,
-    "dewpoint": 19.4,
-    "windSpeed": 9.0,
-    "windDirection": 190.0,
+    "temperature": 26.7,
+    "dewpoint": 18.9,
+    "windSpeed": 5.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T17:51:00.000Z",
+    "observationTimestamp": "2026-09-17T17:51:00+00:00",
+    "raw": "METAR KBED 171751Z VRB05KT 10SM BKN038 BKN060 27/19 A3015 RMK AO2 SLP221 T02670189 10278 20189 58025"
+  },
+  "randomPlace": {
+    "name": "KCPS",
+    "station": "KCPS",
+    "lat": 38.57,
+    "lon": -90.156,
+    "weather": "No coded weather",
+    "temperature": 34.4,
+    "dewpoint": 22.8,
+    "windSpeed": 5.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-17T17:53:00.000Z",
     "observationTimestamp": "2026-09-17T17:53:00+00:00",
-    "raw": "METAR KDXR 171753Z 19009G16KT 10SM FEW027 SCT034 SCT070 26/19 A3018 RMK AO2 SLP216 T02610194 10267 20194 58024"
-  },
-  "randomPlace": {
-    "name": "MMMD",
-    "station": "MMMD",
-    "lat": 20.936,
-    "lon": -89.659,
-    "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 24.0,
-    "windSpeed": 4.0,
-    "windDirection": 80.0,
-    "visibility": "7",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-17T17:43:00.000Z",
-    "observationTimestamp": "2026-09-17T17:43:00+00:00",
-    "raw": "METAR MMMD 171743Z 08004KT 7SM BKN020TCU 33/24 A3001 RMK SLP171 57006 953 8/200 HZY CI"
+    "raw": "METAR KCPS 171753Z 20005KT 10SM SCT100 34/23 A3020 RMK AO2 SLP222 T03440228 10350 20217 58012 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211529272,
-      "display": "8,211,529,272",
+      "value": 8211532045,
+      "display": "8,211,532,045",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T18:04:00Z",
-      "speed": 452.0
+      "time": "2026-09-17T18:24:00Z",
+      "speed": 475.0
     },
     "magneticField": {
-      "time": "2026-09-17T18:01:00Z",
+      "time": "2026-09-17T18:24:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T17:58:00Z",
-      "forecastTime": "2026-09-17T18:59:00Z"
+      "observationTime": "2026-09-17T18:24:00Z",
+      "forecastTime": "2026-09-17T19:24:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
