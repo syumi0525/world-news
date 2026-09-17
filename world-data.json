@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:28:22.057544+00:00",
+  "generatedAt": "2026-09-17T17:42:22.252078+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Aalsmeer, Westeinderplas en watertoren.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Manifestas&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Manifestas (page does not exist)\">Manifestas</a>",
+    "title": "File:Aulario de la FAPyD de la UNR.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Biancalois&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Biancalois (page does not exist)\">Biancalois</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Aalsmeer%2C_Westeinderplas_en_watertoren.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aulario_de_la_FAPyD_de_la_UNR.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMEB",
-    "station": "KMEB",
-    "lat": 34.7913,
-    "lon": -79.3683,
+    "name": "KK82",
+    "station": "KK82",
+    "lat": 39.7606,
+    "lon": -98.7957,
     "weather": "No coded weather",
-    "temperature": 29.4,
-    "dewpoint": 17.8,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 27.1,
+    "dewpoint": 22.4,
+    "windSpeed": 9.0,
+    "windDirection": 60.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T16:52:00.000Z",
-    "observationTimestamp": "2026-09-17T16:52:00+00:00",
-    "raw": "METAR KMEB 171652Z AUTO 00000KT 10SM CLR 29/18 A3027 RMK AO2 SLP250 T02940178"
+    "observationTime": "2026-09-17T17:35:00.000Z",
+    "observationTimestamp": "2026-09-17T17:35:00+00:00",
+    "raw": "METAR KK82 171735Z AUTO 06009KT 10SM SCT009 BKN100 27/22 A3022 RMK AO2 T02710224"
   },
   "randomPlace": {
-    "name": "VOCI",
-    "station": "VOCI",
-    "lat": 10.152,
-    "lon": 76.402,
-    "weather": "BR",
-    "temperature": 27.0,
-    "dewpoint": 25.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "2.49",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-17T17:00:00.000Z",
-    "observationTimestamp": "2026-09-17T17:00:00+00:00",
-    "raw": "METAR VOCI 171700Z VRB02KT 4000 BR SCT012 SCT080 27/25 Q1013 NOSIG"
+    "name": "KAUO",
+    "station": "KAUO",
+    "lat": 32.617,
+    "lon": -85.4342,
+    "weather": "No coded weather",
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 10.0,
+    "windDirection": 50.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T16:56:00.000Z",
+    "observationTimestamp": "2026-09-17T16:56:00+00:00",
+    "raw": "METAR KAUO 171656Z AUTO 05010G15KT 10SM CLR A3030 RMK AO2 SLPNO FZRANO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211524120,
-      "display": "8,211,524,120",
+      "value": 8211525796,
+      "display": "8,211,525,796",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T17:20:00Z",
-      "speed": 450.0
+      "time": "2026-09-17T17:34:00Z",
+      "speed": 461.0
     },
     "magneticField": {
-      "time": "2026-09-17T17:20:00Z",
+      "time": "2026-09-17T17:34:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 3.0
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T17:20:00Z",
-      "forecastTime": "2026-09-17T18:19:00Z"
+      "observationTime": "2026-09-17T17:28:00Z",
+      "forecastTime": "2026-09-17T18:29:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
