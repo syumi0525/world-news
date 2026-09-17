@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T20:16:10.807142+00:00",
+  "generatedAt": "2026-09-17T20:31:19.003381+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brake Through Of kpongu Dam AWC Africa Wiki Challenge 309.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mayor_555&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mayor 555 (page does not exist)\">Mayor 555</a>",
+    "title": "File:Chamba Dam AWC Water For In Africa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmakigmabi_Nakoja_Justice&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmakigmabi Nakoja Justice (page does not exist)\">Gmakigmabi Nakoja Justice</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Brake_Through_Of_kpongu_Dam_AWC_Africa_Wiki_Challenge_309.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chamba_Dam_AWC_Water_For_In_Africa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBMT",
-    "station": "KBMT",
-    "lat": 30.0686,
-    "lon": -94.2155,
-    "weather": "VCTS",
-    "temperature": 32.8,
-    "dewpoint": 20.4,
-    "windSpeed": 7.0,
-    "windDirection": 60.0,
+    "name": "KSIK",
+    "station": "KSIK",
+    "lat": 36.9027,
+    "lon": -89.5577,
+    "weather": "No coded weather",
+    "temperature": 36.8,
+    "dewpoint": 18.9,
+    "windSpeed": 4.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T19:55:00.000Z",
-    "observationTimestamp": "2026-09-17T19:55:00+00:00",
-    "raw": "METAR KBMT 171955Z AUTO 06007KT 10SM VCTS SCT050 SCT065 33/20 A3013 RMK AO2 LTG DSNT SW AND W T03280204"
+    "observationTime": "2026-09-17T20:15:00.000Z",
+    "observationTimestamp": "2026-09-17T20:15:00+00:00",
+    "raw": "METAR KSIK 172015Z AUTO VRB04KT 10SM CLR 37/19 A3016 RMK AO2 T03680189 $"
   },
   "randomPlace": {
-    "name": "EHGG",
-    "station": "EHGG",
-    "lat": 53.12,
-    "lon": 6.579,
+    "name": "KUBE",
+    "station": "KUBE",
+    "lat": 45.5046,
+    "lon": -91.978,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 12.0,
+    "temperature": 21.0,
+    "dewpoint": 16.0,
     "windSpeed": 4.0,
-    "windDirection": 210.0,
-    "visibility": "6+",
+    "windDirection": 50.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T19:55:00.000Z",
-    "observationTimestamp": "2026-09-17T19:55:00+00:00",
-    "raw": "METAR EHGG 171955Z AUTO 21004KT 9999 NSC 13/12 Q1007 NOSIG"
+    "observationTime": "2026-09-17T20:15:00.000Z",
+    "observationTimestamp": "2026-09-17T20:15:00+00:00",
+    "raw": "METAR KUBE 172015Z AUTO 05004KT 10SM SCT025 OVC037 21/16 A3031 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211544208,
-      "display": "8,211,544,208",
+      "value": 8211546018,
+      "display": "8,211,546,018",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T20:00:00Z",
-      "speed": 467.0
+      "time": "2026-09-17T20:21:00Z",
+      "speed": 476.0
     },
     "magneticField": {
-      "time": "2026-09-17T20:03:00Z",
-      "bt": 5.0,
-      "bz": -1.0
+      "time": "2026-09-17T20:21:00Z",
+      "bt": 4.0,
+      "bz": -4.0
     },
     "kp": {
       "time": "2026-09-17T15:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T20:02:00Z",
-      "forecastTime": "2026-09-17T21:02:00Z"
+      "observationTime": "2026-09-17T20:19:00Z",
+      "forecastTime": "2026-09-17T21:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
