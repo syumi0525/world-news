@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T15:52:38.030226+00:00",
+  "generatedAt": "2026-09-17T16:10:17.871261+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Benue River (early 1900s).jpg",
-    "artist": "Hans Dominik",
-    "license": "Public domain",
+    "title": "File:Comapedrosa with snow.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:FrameOverdose\" title=\"User:FrameOverdose\">FrameOverdose</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Benue_River_%28early_1900s%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Comapedrosa_with_snow.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KSET",
-    "station": "KSET",
-    "lat": 38.9304,
-    "lon": -90.4329,
+    "name": "KFNL",
+    "station": "KFNL",
+    "lat": 40.4427,
+    "lon": -105.0097,
     "weather": "No coded weather",
-    "temperature": 29.4,
-    "dewpoint": 20.6,
-    "windSpeed": 8.0,
-    "windDirection": 250.0,
+    "temperature": 21.1,
+    "dewpoint": 12.2,
+    "windSpeed": 7.0,
+    "windDirection": 10.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T14:54:00.000Z",
-    "observationTimestamp": "2026-09-17T14:54:00+00:00",
-    "raw": "METAR KSET 171454Z AUTO 25008KT 10SM CLR 29/21 A3022 RMK AO2 SLP228 T02940206 51008"
+    "observationTime": "2026-09-17T15:56:00.000Z",
+    "observationTimestamp": "2026-09-17T15:56:00+00:00",
+    "raw": "METAR KFNL 171556Z 01007KT 10SM CLR 21/12 A3029 RMK AO2 SLP200 T02110122 $"
   },
   "randomPlace": {
-    "name": "GOBD",
-    "station": "GOBD",
-    "lat": 14.671,
-    "lon": -17.067,
-    "weather": "No coded weather",
-    "temperature": 31.0,
-    "dewpoint": 26.0,
-    "windSpeed": 13.0,
-    "windDirection": 260.0,
-    "visibility": "4.97",
+    "name": "SEST",
+    "station": "SEST",
+    "lat": -0.906,
+    "lon": -89.619,
+    "weather": "VCSH",
+    "temperature": 28.0,
+    "dewpoint": 24.0,
+    "windSpeed": 11.0,
+    "windDirection": 150.0,
+    "visibility": "6+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-17T15:30:00.000Z",
-    "observationTimestamp": "2026-09-17T15:30:00+00:00",
-    "raw": "METAR GOBD 171530Z 26013KT 240V300 8000 BKN020 31/26 Q1012 NOSIG"
+    "observationTime": "2026-09-17T16:00:00.000Z",
+    "observationTimestamp": "2026-09-17T16:00:00+00:00",
+    "raw": "METAR SEST 171600Z 15011KT 9999 VCSH FEW016 BKN026 28/24 Q1010 RMK A2984"
   },
   "globalPulse": {
     "population": {
-      "value": 8211512647,
-      "display": "8,211,512,647",
+      "value": 8211514770,
+      "display": "8,211,514,770",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T15:43:00Z",
-      "speed": 450.0
+      "time": "2026-09-17T16:01:00Z",
+      "speed": 454.0
     },
     "magneticField": {
-      "time": "2026-09-17T15:43:00Z",
+      "time": "2026-09-17T16:01:00Z",
       "bt": 4.0,
-      "bz": 2.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-17T12:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T15:43:00Z",
-      "forecastTime": "2026-09-17T16:45:00Z"
+      "observationTime": "2026-09-17T15:58:00Z",
+      "forecastTime": "2026-09-17T17:00:00Z"
     },
     "flux10cm": {
       "time": "2026-09-16T20:00:00",
