@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:57:15.635386+00:00",
+  "generatedAt": "2026-09-17T22:12:38.326302+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AcapulcoJulio2024.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
+    "title": "File:Borehole project 15.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_15.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K9K7",
-    "station": "K9K7",
-    "lat": 38.7502,
-    "lon": -98.2316,
+    "name": "NZCH",
+    "station": "NZCH",
+    "lat": -43.489,
+    "lon": 172.528,
     "weather": "No coded weather",
-    "temperature": 36.0,
-    "dewpoint": 17.0,
-    "windSpeed": 7.0,
+    "temperature": 10.0,
+    "dewpoint": 6.0,
+    "windSpeed": 9.0,
+    "windDirection": 70.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-17T22:00:00.000Z",
+    "observationTimestamp": "2026-09-17T22:00:00+00:00",
+    "raw": "METAR NZCH 172200Z AUTO 07009KT 9999 NCD 10/06 Q1003"
+  },
+  "randomPlace": {
+    "name": "KOMA",
+    "station": "KOMA",
+    "lat": 41.3119,
+    "lon": -95.9018,
+    "weather": "No coded weather",
+    "temperature": 27.2,
+    "dewpoint": 20.0,
+    "windSpeed": 3.0,
     "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-17T21:35:00.000Z",
-    "observationTimestamp": "2026-09-17T21:35:00+00:00",
-    "raw": "METAR K9K7 172135Z AUTO 20007KT 10SM SCT100 SCT120 36/17 A3014 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "KX59",
-    "station": "KX59",
-    "lat": 27.9624,
-    "lon": -80.561,
-    "weather": "No coded weather",
-    "temperature": 29.4,
-    "dewpoint": 23.8,
-    "windSpeed": 10.0,
-    "windDirection": 50.0,
-    "visibility": "9",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T20:55:00.000Z",
-    "observationTimestamp": "2026-09-17T20:55:00+00:00",
-    "raw": "METAR KX59 172055Z AUTO 05010KT 9SM FEW029 29/24 A3004 RMK AO2 T02940238 $"
+    "observationTime": "2026-09-17T21:52:00.000Z",
+    "observationTimestamp": "2026-09-17T21:52:00+00:00",
+    "raw": "METAR KOMA 172152Z 20003KT 10SM FEW100 SCT160 BKN200 27/20 A3019 RMK AO2 SLP214 T02720200"
   },
   "globalPulse": {
     "population": {
-      "value": 8211556308,
-      "display": "8,211,556,308",
+      "value": 8211558147,
+      "display": "8,211,558,147",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-17T21:47:00Z",
-      "speed": 483.0
+      "time": "2026-09-17T22:05:00Z",
+      "speed": 459.0
     },
     "magneticField": {
-      "time": "2026-09-17T21:47:00Z",
-      "bt": 4.0,
-      "bz": 3.0
+      "time": "2026-09-17T22:02:00Z",
+      "bt": 5.0,
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-17T18:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-17T21:44:00Z",
-      "forecastTime": "2026-09-17T22:43:00Z"
+      "observationTime": "2026-09-17T22:05:00Z",
+      "forecastTime": "2026-09-17T23:03:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
