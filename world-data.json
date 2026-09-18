@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T03:13:00.972634+00:00",
+  "generatedAt": "2026-09-18T03:44:25.875003+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 12.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:20260803 184506 Schätzl-Villa mit Garten.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_12.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_184506_Sch%C3%A4tzl-Villa_mit_Garten.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1MW",
-    "station": "K1MW",
-    "lat": 40.704,
-    "lon": -103.477,
+    "name": "EEPU",
+    "station": "EEPU",
+    "lat": 58.419,
+    "lon": 24.473,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 19.0,
+    "temperature": 14.0,
+    "dewpoint": 12.0,
     "windSpeed": 10.0,
-    "windDirection": 20.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T03:02:00.000Z",
-    "observationTimestamp": "2026-09-18T03:02:00+00:00",
-    "raw": "SPECI K1MW 180302Z AUTO 02010KT 10SM OVC100 21/19 A3014 RMK AO2 LTG DSNT NE RAE02 SLP162 $"
-  },
-  "randomPlace": {
-    "name": "LBIA",
-    "station": "LBIA",
-    "lat": 42.456,
-    "lon": 26.352,
-    "weather": "No coded weather",
-    "temperature": 11.3,
-    "dewpoint": 9.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "windDirection": 220.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T03:00:00.000Z",
-    "observationTimestamp": "2026-09-18T03:00:00+00:00",
-    "raw": "METAR LBIA 180300Z 00000KT 9999 SKC 12/10 Q1016 RMK T01130091"
+    "observationTime": "2026-09-18T03:20:00.000Z",
+    "observationTimestamp": "2026-09-18T03:20:00+00:00",
+    "raw": "METAR EEPU 180320Z AUTO 22010KT 9999 FEW060/// BKN069/// 14/12 Q1006"
+  },
+  "randomPlace": {
+    "name": "KJAC",
+    "station": "KJAC",
+    "lat": 43.6129,
+    "lon": -110.7366,
+    "weather": "No coded weather",
+    "temperature": 10.6,
+    "dewpoint": 8.9,
+    "windSpeed": 4.0,
+    "windDirection": 50.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T02:56:00.000Z",
+    "observationTimestamp": "2026-09-18T02:56:00+00:00",
+    "raw": "METAR KJAC 180256Z 05004KT 10SM CLR 11/09 A3029 RMK AO2 SLP233 T01060089 55002"
   },
   "globalPulse": {
     "population": {
-      "value": 8211594088,
-      "display": "8,211,594,088",
+      "value": 8211597865,
+      "display": "8,211,597,865",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.1,
-      "display": "62.1%",
+      "value": 61.8,
+      "display": "61.8%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-17T12:00:00Z"
+      "time": "2026-09-18T00:00:00Z"
     },
     "geomagnetic": {
       "value": 1.7,
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T03:01:00Z",
-      "speed": 454.0
+      "time": "2026-09-18T03:36:00Z",
+      "speed": 444.0
     },
     "magneticField": {
-      "time": "2026-09-18T03:01:00Z",
+      "time": "2026-09-18T03:36:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-18T00:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 27.0,
-      "display": "MAX 27.0%",
+      "value": 28.0,
+      "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T02:58:00Z",
-      "forecastTime": "2026-09-18T04:00:00Z"
+      "observationTime": "2026-09-18T03:33:00Z",
+      "forecastTime": "2026-09-18T04:35:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
