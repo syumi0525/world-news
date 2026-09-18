@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:52:09.330107+00:00",
+  "generatedAt": "2026-09-18T01:09:09.171943+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Architect Dudok.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stopperspil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stopperspil (page does not exist)\">Stopperspil</a>",
+    "title": "File:Brake Through Of kpongu Dam AWC Africa Wiki Challenge 308.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mayor_555&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mayor 555 (page does not exist)\">Mayor 555</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Architect_Dudok.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brake_Through_Of_kpongu_Dam_AWC_Africa_Wiki_Challenge_308.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYXT",
-    "station": "CYXT",
-    "lat": 54.471,
-    "lon": -128.577,
+    "name": "LFMV",
+    "station": "LFMV",
+    "lat": 43.911,
+    "lon": 4.903,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 9.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "20",
+    "temperature": 19.0,
+    "dewpoint": 7.0,
+    "windSpeed": 9.0,
+    "windDirection": 330.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T00:00:00.000Z",
-    "observationTimestamp": "2026-09-18T00:00:00+00:00",
-    "raw": "METAR CYXT 180000Z VRB02KT 20SM FEW040 FEW150 BKN210 21/09 A3010 RMK CU1AC2CI3 CU TR SLP198 DENSITY ALT 1400FT"
+    "observationTime": "2026-09-18T01:00:00.000Z",
+    "observationTimestamp": "2026-09-18T01:00:00+00:00",
+    "raw": "METAR LFMV 180100Z AUTO 33009KT CAVOK 19/07 Q1014"
   },
   "randomPlace": {
-    "name": "KACQ",
-    "station": "KACQ",
-    "lat": 44.0702,
-    "lon": -93.5535,
+    "name": "YMML",
+    "station": "YMML",
+    "lat": -37.666,
+    "lon": 144.832,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 15.0,
-    "windSpeed": 5.0,
-    "windDirection": 50.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T00:35:00.000Z",
-    "observationTimestamp": "2026-09-18T00:35:00+00:00",
-    "raw": "METAR KACQ 180035Z AUTO 05005KT 10SM OVC028 18/15 A3028 RMK AO2"
+    "temperature": 19.0,
+    "dewpoint": 7.0,
+    "windSpeed": 13.0,
+    "windDirection": 360.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T01:00:00.000Z",
+    "observationTimestamp": "2026-09-18T01:00:00+00:00",
+    "raw": "METAR YMML 180100Z AUTO 36013KT 9999 // NCD 19/07 Q1026"
   },
   "globalPulse": {
     "population": {
-      "value": 8211577224,
-      "display": "8,211,577,224",
+      "value": 8211579259,
+      "display": "8,211,579,259",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T00:41:00Z",
-      "speed": 448.0
+      "time": "2026-09-18T01:01:00Z",
+      "speed": 447.0
     },
     "magneticField": {
-      "time": "2026-09-18T00:44:00Z",
-      "bt": 4.0,
+      "time": "2026-09-18T01:01:00Z",
+      "bt": 5.0,
       "bz": -2.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 18.0,
       "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T00:38:00Z",
-      "forecastTime": "2026-09-18T01:39:00Z"
+      "observationTime": "2026-09-18T00:58:00Z",
+      "forecastTime": "2026-09-18T01:59:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
