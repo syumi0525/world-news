@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T21:56:56.492737+00:00",
+  "generatedAt": "2026-09-18T22:12:00.011489+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bheemtal lake view in night IMG 20250518 003254.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pushkar2016&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pushkar2016 (page does not exist)\">Pushkar2016</a>",
+    "title": "File:A good view of the beach cliffs.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bheemtal_lake_view_in_night_IMG_20250518_003254.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "PATK",
-    "station": "PATK",
-    "lat": 62.319,
-    "lon": -150.097,
-    "weather": "-RA",
-    "temperature": 9.4,
-    "dewpoint": 8.9,
+    "name": "VTUW",
+    "station": "VTUW",
+    "lat": 17.384,
+    "lon": 104.643,
+    "weather": "No coded weather",
+    "temperature": 25.0,
+    "dewpoint": 24.0,
     "windSpeed": 3.0,
-    "windDirection": 310.0,
-    "visibility": "10+",
+    "windDirection": 140.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T21:53:00.000Z",
-    "observationTimestamp": "2026-09-18T21:53:00+00:00",
-    "raw": "METAR PATK 182153Z 31003KT 10SM -RA FEW005 BKN050 OVC060 09/09 A2972 RMK AO2 SLP069 P0001 T00940089"
+    "observationTime": "2026-09-18T22:00:00.000Z",
+    "observationTimestamp": "2026-09-18T22:00:00+00:00",
+    "raw": "METAR VTUW 182200Z 14003KT 9999 FEW030 BKN080 25/24 Q1011 NOSIG"
   },
   "randomPlace": {
-    "name": "K7W4",
-    "station": "K7W4",
-    "lat": 37.9667,
-    "lon": -77.7453,
+    "name": "KELN",
+    "station": "KELN",
+    "lat": 47.0338,
+    "lon": -120.5314,
     "weather": "No coded weather",
-    "temperature": 27.7,
-    "dewpoint": 21.5,
+    "temperature": 25.0,
+    "dewpoint": 3.3,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T21:15:00.000Z",
-    "observationTimestamp": "2026-09-18T21:15:00+00:00",
-    "raw": "METAR K7W4 182115Z AUTO 00000KT 10SM BKN065 OVC075 28/22 A3006 RMK AO1 T02770215"
+    "observationTime": "2026-09-18T21:53:00.000Z",
+    "observationTimestamp": "2026-09-18T21:53:00+00:00",
+    "raw": "METAR KELN 182153Z AUTO 00000KT 10SM CLR 25/03 A3009 RMK AO2 SLP185 T02500033"
   },
   "globalPulse": {
     "population": {
-      "value": 8211728666,
-      "display": "8,211,728,666",
+      "value": 8211730465,
+      "display": "8,211,730,465",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T21:50:00Z",
-      "speed": 414.0
+      "time": "2026-09-18T22:02:00Z",
+      "speed": 406.0
     },
     "magneticField": {
-      "time": "2026-09-18T21:50:00Z",
+      "time": "2026-09-18T22:02:00Z",
       "bt": 5.0,
-      "bz": 3.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-18T18:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T21:43:00Z",
-      "forecastTime": "2026-09-18T22:51:00Z"
+      "observationTime": "2026-09-18T22:05:00Z",
+      "forecastTime": "2026-09-18T23:10:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
