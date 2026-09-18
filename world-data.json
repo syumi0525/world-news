@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:58:45.345956+00:00",
+  "generatedAt": "2026-09-18T12:20:31.373175+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KUNU",
-    "station": "KUNU",
-    "lat": 43.4285,
-    "lon": -88.7017,
+    "name": "KEHA",
+    "station": "KEHA",
+    "lat": 37.0012,
+    "lon": -101.8802,
     "weather": "No coded weather",
-    "temperature": 11.9,
-    "dewpoint": 11.9,
-    "windSpeed": 3.0,
-    "windDirection": 30.0,
+    "temperature": 19.9,
+    "dewpoint": 14.3,
+    "windSpeed": 12.0,
+    "windDirection": 210.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T11:55:00.000Z",
     "observationTimestamp": "2026-09-18T11:55:00+00:00",
-    "raw": "METAR KUNU 181155Z AUTO 03003KT 10SM CLR 12/12 A3031 RMK AO2 T01190119 10142 20117 TSNO"
+    "raw": "METAR KEHA 181155Z AUTO 21012KT 10SM CLR 20/14 A3020 RMK AO2 T01990143 10247 20194"
   },
   "randomPlace": {
-    "name": "PWAK",
-    "station": "PWAK",
-    "lat": 19.287,
-    "lon": 166.623,
-    "weather": "No coded weather",
-    "temperature": 28.4,
-    "dewpoint": 25.8,
-    "windSpeed": 7.0,
-    "windDirection": 80.0,
-    "visibility": "9",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T11:55:00.000Z",
-    "observationTimestamp": "2026-09-18T11:55:00+00:00",
-    "raw": "METAR PWAK 181155Z AUTO 08007KT 9SM CLR 28/26 A2991 RMK AO2 SLP131 60000 T02840258 10302 20282 403220248 50003"
+    "name": "KTKC",
+    "station": "KTKC",
+    "lat": 44.25,
+    "lon": -95.612,
+    "weather": "BR",
+    "temperature": 16.0,
+    "dewpoint": 16.0,
+    "windSpeed": 12.0,
+    "windDirection": 130.0,
+    "visibility": "2.5",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-18T12:00:00.000Z",
+    "observationTimestamp": "2026-09-18T12:00:00+00:00",
+    "raw": "METAR KTKC 181200Z AUTO 13012G18KT 2 1/2SM BR BKN005 BKN030 OVC055 16/16 A3018 RMK AO2 P0032"
   },
   "globalPulse": {
     "population": {
-      "value": 8211657052,
-      "display": "8,211,657,052",
+      "value": 8211659634,
+      "display": "8,211,659,634",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-18T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-18T06:00:00"
+      "time": "2026-09-18T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T11:48:00Z",
-      "speed": 402.0
+      "time": "2026-09-18T12:13:00Z",
+      "speed": 409.0
     },
     "magneticField": {
-      "time": "2026-09-18T11:51:00Z",
+      "time": "2026-09-18T12:10:00Z",
       "bt": 5.0,
-      "bz": 1.0
+      "bz": 3.0
     },
     "kp": {
-      "time": "2026-09-18T06:00:00",
-      "kp": 2.0
+      "time": "2026-09-18T09:00:00",
+      "kp": 1.67
     },
     "aurora": {
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T11:48:00Z",
-      "forecastTime": "2026-09-18T12:56:00Z"
+      "observationTime": "2026-09-18T12:10:00Z",
+      "forecastTime": "2026-09-18T13:16:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
