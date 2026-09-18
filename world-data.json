@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:38:46.840541+00:00",
+  "generatedAt": "2026-09-18T19:48:13.131404+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A river is a natural.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:J.Doniyorovich&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:J.Doniyorovich (page does not exist)\">J.Doniyorovich</a>",
+    "title": "File:20260803 183209 Gartenanlage Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_river_is_a_natural.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_183209_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KXNI",
-    "station": "KXNI",
-    "lat": 35.058,
-    "lon": -108.9413,
+    "name": "KD55",
+    "station": "KD55",
+    "lat": 48.7519,
+    "lon": -98.3971,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 11.0,
-    "windSpeed": 7.0,
-    "windDirection": 230.0,
+    "temperature": 21.0,
+    "dewpoint": 17.0,
+    "windSpeed": 10.0,
+    "windDirection": 180.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T19:15:00.000Z",
-    "observationTimestamp": "2026-09-18T19:15:00+00:00",
-    "raw": "METAR KXNI 181915Z AUTO 23007KT 10SM FEW060 FEW080 26/11 A3031 RMK AO2 LTG DSNT S"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-18T19:35:00.000Z",
+    "observationTimestamp": "2026-09-18T19:35:00+00:00",
+    "raw": "METAR KD55 181935Z AUTO 18010G19KT 10SM OVC023 21/17 A3012 RMK AO2"
   },
   "randomPlace": {
-    "name": "SBCA",
-    "station": "SBCA",
-    "lat": -25.0,
-    "lon": -53.501,
+    "name": "SBCF",
+    "station": "SBCF",
+    "lat": -19.635,
+    "lon": -43.966,
     "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 13.0,
-    "windSpeed": 8.0,
-    "windDirection": 50.0,
+    "temperature": 26.0,
+    "dewpoint": 16.0,
+    "windSpeed": 11.0,
+    "windDirection": 110.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T19:00:00.000Z",
     "observationTimestamp": "2026-09-18T19:00:00+00:00",
-    "raw": "METAR SBCA 181900Z 05008KT 010V110 CAVOK 27/13 Q1019"
+    "raw": "METAR SBCF 181900Z 11011KT 9999 SCT040 26/16 Q1023"
   },
   "globalPulse": {
     "population": {
-      "value": 8211712121,
-      "display": "8,211,712,121",
+      "value": 8211713252,
+      "display": "8,211,713,252",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T19:31:00Z",
-      "speed": 427.0
+      "time": "2026-09-18T19:37:00Z",
+      "speed": 417.0
     },
     "magneticField": {
-      "time": "2026-09-18T19:31:00Z",
+      "time": "2026-09-18T19:40:00Z",
       "bt": 5.0,
       "bz": -2.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.0
     },
     "aurora": {
-      "value": 20.0,
-      "display": "MAX 20.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T19:28:00Z",
-      "forecastTime": "2026-09-18T20:34:00Z"
+      "observationTime": "2026-09-18T19:40:00Z",
+      "forecastTime": "2026-09-18T20:44:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
