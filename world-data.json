@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:49:13.841423+00:00",
+  "generatedAt": "2026-09-18T11:58:45.345956+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EGNH",
-    "station": "EGNH",
-    "lat": 53.774,
-    "lon": -3.039,
-    "weather": "VCSH",
-    "temperature": 16.0,
-    "dewpoint": 11.0,
-    "windSpeed": 21.0,
-    "windDirection": 260.0,
-    "visibility": "6+",
+    "name": "KUNU",
+    "station": "KUNU",
+    "lat": 43.4285,
+    "lon": -88.7017,
+    "weather": "No coded weather",
+    "temperature": 11.9,
+    "dewpoint": 11.9,
+    "windSpeed": 3.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T11:20:00.000Z",
-    "observationTimestamp": "2026-09-18T11:20:00+00:00",
-    "raw": "METAR EGNH 181120Z 26021KT 9999 VCSH FEW011 SCT042 16/11 Q1009"
+    "observationTime": "2026-09-18T11:55:00.000Z",
+    "observationTimestamp": "2026-09-18T11:55:00+00:00",
+    "raw": "METAR KUNU 181155Z AUTO 03003KT 10SM CLR 12/12 A3031 RMK AO2 T01190119 10142 20117 TSNO"
   },
   "randomPlace": {
-    "name": "OICJ",
-    "station": "OICJ",
-    "lat": 33.893,
-    "lon": 48.755,
+    "name": "PWAK",
+    "station": "PWAK",
+    "lat": 19.287,
+    "lon": 166.623,
     "weather": "No coded weather",
-    "temperature": 34.0,
-    "dewpoint": 0.0,
-    "windSpeed": 4.0,
-    "windDirection": 190.0,
-    "visibility": "6+",
+    "temperature": 28.4,
+    "dewpoint": 25.8,
+    "windSpeed": 7.0,
+    "windDirection": 80.0,
+    "visibility": "9",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T11:00:00.000Z",
-    "observationTimestamp": "2026-09-18T11:00:00+00:00",
-    "raw": "METAR OICJ 181100Z 19004KT CAVOK 34/M00 Q1020"
+    "observationTime": "2026-09-18T11:55:00.000Z",
+    "observationTimestamp": "2026-09-18T11:55:00+00:00",
+    "raw": "METAR PWAK 181155Z AUTO 08007KT 9SM CLR 28/26 A2991 RMK AO2 SLP131 60000 T02840258 10302 20282 403220248 50003"
   },
   "globalPulse": {
     "population": {
-      "value": 8211655911,
-      "display": "8,211,655,911",
+      "value": 8211657052,
+      "display": "8,211,657,052",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T11:41:00Z",
-      "speed": 410.0
+      "time": "2026-09-18T11:48:00Z",
+      "speed": 402.0
     },
     "magneticField": {
-      "time": "2026-09-18T11:41:00Z",
+      "time": "2026-09-18T11:51:00Z",
       "bt": 5.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T11:38:00Z",
-      "forecastTime": "2026-09-18T12:45:00Z"
+      "observationTime": "2026-09-18T11:48:00Z",
+      "forecastTime": "2026-09-18T12:56:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
