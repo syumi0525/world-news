@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T07:44:28.895962+00:00",
+  "generatedAt": "2026-09-18T07:55:26.817552+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:3D Point Cloud Overview of Milton S. Eisenhower Library, Johns Hopkins University.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Matthewadams66&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Matthewadams66 (page does not exist)\">Matthewadams66</a>",
+    "title": "File:20140907 114910 Jpg (218976057).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:3D_Point_Cloud_Overview_of_Milton_S._Eisenhower_Library%2C_Johns_Hopkins_University.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K0W3",
-    "station": "K0W3",
-    "lat": 39.566,
-    "lon": -76.202,
+    "name": "KLGU",
+    "station": "KLGU",
+    "lat": 41.7865,
+    "lon": -111.8519,
     "weather": "No coded weather",
-    "temperature": 22.1,
-    "dewpoint": 22.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 19.4,
+    "dewpoint": 11.1,
+    "windSpeed": 6.0,
+    "windDirection": 170.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T07:35:00.000Z",
-    "observationTimestamp": "2026-09-18T07:35:00+00:00",
-    "raw": "METAR K0W3 180735Z AUTO 00000KT 10SM SCT065 22/22 A3005 RMK AO2 T02210221 $"
+    "observationTime": "2026-09-18T07:51:00.000Z",
+    "observationTimestamp": "2026-09-18T07:51:00+00:00",
+    "raw": "METAR KLGU 180751Z AUTO 17006KT 10SM CLR 19/11 A3007 RMK AO2 SLP136 T01940111"
   },
   "randomPlace": {
-    "name": "KRFI",
-    "station": "KRFI",
-    "lat": 32.1442,
-    "lon": -94.8539,
+    "name": "FQVL",
+    "station": "FQVL",
+    "lat": -22.017,
+    "lon": 35.313,
     "weather": "No coded weather",
-    "temperature": 22.6,
-    "dewpoint": 19.7,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 26.0,
+    "dewpoint": 23.0,
+    "windSpeed": 6.0,
+    "windDirection": 140.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T07:35:00.000Z",
-    "observationTimestamp": "2026-09-18T07:35:00+00:00",
-    "raw": "METAR KRFI 180735Z AUTO 00000KT 10SM CLR 23/20 A3014 RMK AO2 T02260197 $"
+    "observationTime": "2026-09-18T07:00:00.000Z",
+    "observationTimestamp": "2026-09-18T07:00:00+00:00",
+    "raw": "METAR FQVL 180700Z 14006KT 9999 FEW020 26/23 Q1023"
   },
   "globalPulse": {
     "population": {
-      "value": 8211626590,
-      "display": "8,211,626,590",
+      "value": 8211627903,
+      "display": "8,211,627,903",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T07:36:00Z",
-      "speed": 430.0
+      "time": "2026-09-18T07:48:00Z",
+      "speed": 428.0
     },
     "magneticField": {
-      "time": "2026-09-18T07:36:00Z",
-      "bt": 4.0,
+      "time": "2026-09-18T07:48:00Z",
+      "bt": 5.0,
       "bz": 1.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 2.0
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T07:33:00Z",
-      "forecastTime": "2026-09-18T08:38:00Z"
+      "observationTime": "2026-09-18T07:45:00Z",
+      "forecastTime": "2026-09-18T08:48:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
