@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:11:32.759418+00:00",
+  "generatedAt": "2026-09-18T19:27:53.047295+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 183022 Gartenanlage Schätzl-Villa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "title": "File:500px photo (168208635).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_183022_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28168208635%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMLC",
-    "station": "KMLC",
-    "lat": 34.8824,
-    "lon": -95.7815,
+    "name": "CWHV",
+    "station": "CWHV",
+    "lat": 46.205,
+    "lon": -70.785,
     "weather": "No coded weather",
-    "temperature": 37.2,
-    "dewpoint": 16.7,
-    "windSpeed": 5.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T18:53:00.000Z",
-    "observationTimestamp": "2026-09-18T18:53:00+00:00",
-    "raw": "METAR KMLC 181853Z AUTO VRB05KT 10SM SCT085 37/17 A3010 RMK AO2 SLP180 T03720167"
+    "temperature": 15.9,
+    "dewpoint": 2.4,
+    "windSpeed": 6.0,
+    "windDirection": 300.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-18T19:00:00.000Z",
+    "observationTimestamp": "2026-09-18T19:00:00+00:00",
+    "raw": "METAR CWHV 181900Z AUTO 30006KT 16/02 RMK AO1 SLP171 T01590024 50001"
   },
   "randomPlace": {
-    "name": "KAGZ",
-    "station": "KAGZ",
-    "lat": 43.064,
-    "lon": -98.295,
+    "name": "LPSJ",
+    "station": "LPSJ",
+    "lat": 38.6655,
+    "lon": -28.1758,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 24.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "8",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T18:55:00.000Z",
-    "observationTimestamp": "2026-09-18T18:55:00+00:00",
-    "raw": "METAR KAGZ 181855Z AUTO VRB02KT 8SM OVC011 24/24 A2998 RMK AO2"
+    "temperature": 22.0,
+    "dewpoint": 18.0,
+    "windSpeed": 9.0,
+    "windDirection": 130.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T19:00:00.000Z",
+    "observationTimestamp": "2026-09-18T19:00:00+00:00",
+    "raw": "METAR LPSJ 181900Z 13009KT 100V170 9999 FEW018 SCT035 22/18 Q1023"
   },
   "globalPulse": {
     "population": {
-      "value": 8211708861,
-      "display": "8,211,708,861",
+      "value": 8211710820,
+      "display": "8,211,710,820",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T19:00:00Z",
-      "speed": 423.0
+      "time": "2026-09-18T19:22:00Z",
+      "speed": 431.0
     },
     "magneticField": {
-      "time": "2026-09-18T19:00:00Z",
+      "time": "2026-09-18T19:22:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-18T15:00:00",
       "kp": 1.0
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T19:00:00Z",
-      "forecastTime": "2026-09-18T20:04:00Z"
+      "observationTime": "2026-09-18T19:18:00Z",
+      "forecastTime": "2026-09-18T20:24:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
