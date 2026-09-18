@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:42:12.974523+00:00",
+  "generatedAt": "2026-09-18T08:56:30.889500+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Mother Nature 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
+    "title": "File:AcapulcoJulio2024.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "FAGG",
-    "station": "FAGG",
-    "lat": -34.006,
-    "lon": 22.379,
+    "name": "KPWT",
+    "station": "KPWT",
+    "lat": 47.4942,
+    "lon": -122.7594,
     "weather": "No coded weather",
-    "temperature": 15.0,
+    "temperature": 11.1,
     "dewpoint": 10.0,
-    "windSpeed": 17.0,
-    "windDirection": 90.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T08:00:00.000Z",
-    "observationTimestamp": "2026-09-18T08:00:00+00:00",
-    "raw": "METAR FAGG 180800Z 09017KT 9999 SCT030 15/10 Q1034"
-  },
-  "randomPlace": {
-    "name": "KLMO",
-    "station": "KLMO",
-    "lat": 40.1612,
-    "lon": -105.1605,
-    "weather": "No coded weather",
-    "temperature": 15.8,
-    "dewpoint": 12.6,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T08:15:00.000Z",
-    "observationTimestamp": "2026-09-18T08:15:00+00:00",
-    "raw": "METAR KLMO 180815Z AUTO 00000KT 10SM CLR 16/13 A3023 RMK AO2 T01580126"
+    "observationTime": "2026-09-18T07:56:00.000Z",
+    "observationTimestamp": "2026-09-18T07:56:00+00:00",
+    "raw": "METAR KPWT 180756Z AUTO 00000KT 10SM CLR 11/10 A3009 RMK AO2 SLP193 T01110100 402610083 $"
+  },
+  "randomPlace": {
+    "name": "CXKT",
+    "station": "CXKT",
+    "lat": 45.067,
+    "lon": -64.478,
+    "weather": "No coded weather",
+    "temperature": 14.3,
+    "dewpoint": 14.3,
+    "windSpeed": 1.0,
+    "windDirection": 270.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-18T08:00:00.000Z",
+    "observationTimestamp": "2026-09-18T08:00:00+00:00",
+    "raw": "METAR CXKT 180800Z AUTO 27001KT 14/14 RMK AO1 0PAST HR 8026 SLP164 P0008 T01430143 50046"
   },
   "globalPulse": {
     "population": {
-      "value": 8211633498,
-      "display": "8,211,633,498",
+      "value": 8211635214,
+      "display": "8,211,635,214",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T08:32:00Z",
-      "speed": 423.0
+      "time": "2026-09-18T08:46:00Z",
+      "speed": 429.0
     },
     "magneticField": {
-      "time": "2026-09-18T08:32:00Z",
+      "time": "2026-09-18T08:46:00Z",
       "bt": 5.0,
-      "bz": -1.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-18T03:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T08:29:00Z",
-      "forecastTime": "2026-09-18T09:33:00Z"
+      "observationTime": "2026-09-18T08:43:00Z",
+      "forecastTime": "2026-09-18T09:48:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
