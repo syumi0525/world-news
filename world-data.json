@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T18:16:05.248048+00:00",
+  "generatedAt": "2026-09-18T18:32:38.166126+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AuditorioITA.JPG",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Berpasan\" class=\"extiw\" title=\"w:User:Berpasan\">Berpasan</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Berpasan\" class=\"extiw\" title=\"w:User talk:Berpasan\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Berpasan\" class=\"extiw\" title=\"w:Special:ListFiles/Berpasan\">Uploads</a>)",
-    "license": "Public domain",
+    "title": "File:20260822 102058 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AuditorioITA.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_102058_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ENST",
-    "station": "ENST",
-    "lat": 65.961,
-    "lon": 12.472,
+    "name": "KBIV",
+    "station": "KBIV",
+    "lat": 42.7463,
+    "lon": -86.0968,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 6.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 21.7,
+    "dewpoint": 12.2,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T17:50:00.000Z",
-    "observationTimestamp": "2026-09-18T17:50:00+00:00",
-    "raw": "METAR ENST 181750Z 00000KT CAVOK 10/06 Q0992 RMK WIND 0300FT 08004KT"
+    "observationTime": "2026-09-18T17:53:00.000Z",
+    "observationTimestamp": "2026-09-18T17:53:00+00:00",
+    "raw": "METAR KBIV 181753Z AUTO 10SM CLR 22/12 A3031 RMK AO2 SLP261 T02170122 10217 20139 58006"
   },
   "randomPlace": {
-    "name": "CXNP",
-    "station": "CXNP",
-    "lat": 45.76,
-    "lon": -64.241,
-    "weather": "No coded weather",
-    "temperature": 19.6,
-    "dewpoint": 16.0,
-    "windSpeed": 9.0,
-    "windDirection": 230.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "name": "CYCB",
+    "station": "CYCB",
+    "lat": 69.106,
+    "lon": -105.116,
+    "weather": "VCSH",
+    "temperature": 2.0,
+    "dewpoint": 1.0,
+    "windSpeed": 15.0,
+    "windDirection": 300.0,
+    "visibility": "12",
+    "flightCategory": "IFR",
     "observationTime": "2026-09-18T18:00:00.000Z",
     "observationTimestamp": "2026-09-18T18:00:00+00:00",
-    "raw": "METAR CXNP 181800Z AUTO 23009KT 20/16 RMK AO1 8022 SLP093 T01960160 50021"
+    "raw": "METAR CYCB 181800Z 30015KT 12SM VCSH BKN008 02/01 A2983 RMK SC7 CU EMBD CIG RAG SLP107"
   },
   "globalPulse": {
     "population": {
-      "value": 8211702218,
-      "display": "8,211,702,218",
+      "value": 8211704204,
+      "display": "8,211,704,204",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T18:06:00Z",
-      "speed": 416.0
+      "time": "2026-09-18T18:21:00Z",
+      "speed": 412.0
     },
     "magneticField": {
-      "time": "2026-09-18T18:06:00Z",
+      "time": "2026-09-18T18:24:00Z",
       "bt": 5.0,
-      "bz": 0.0
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-18T15:00:00",
       "kp": 1.0
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T18:04:00Z",
-      "forecastTime": "2026-09-18T19:10:00Z"
+      "observationTime": "2026-09-18T18:24:00Z",
+      "forecastTime": "2026-09-18T19:30:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
