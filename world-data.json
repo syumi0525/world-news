@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T05:50:47.376250+00:00",
+  "generatedAt": "2026-09-18T06:00:07.351339+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Alwin-Muncak.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Unaaa3003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Unaaa3003 (page does not exist)\">Unaaa3003</a>",
-    "license": "CC0",
+    "title": "File:Belem - Consulate Office Building - 1972 - DPLA - ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg",
+    "artist": "Department of State. Office of the Undersecretary for Management. Bureau of Overseas Buildings Operations. (2001)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Alwin-Muncak.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Belem_-_Consulate_Office_Building_-_1972_-_DPLA_-_ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "BGGH",
-    "station": "BGGH",
-    "lat": 64.191,
-    "lon": -51.677,
+    "name": "FYLZ",
+    "station": "FYLZ",
+    "lat": -26.687,
+    "lon": 15.243,
     "weather": "No coded weather",
-    "temperature": 4.0,
-    "dewpoint": -1.0,
-    "windSpeed": 8.0,
+    "temperature": 17.0,
+    "dewpoint": 8.0,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-18T05:00:00.000Z",
+    "observationTimestamp": "2026-09-18T05:00:00+00:00",
+    "raw": "METAR FYLZ 180500Z AUTO /////KT //// // ////// 17/08 Q1013"
+  },
+  "randomPlace": {
+    "name": "LTBH",
+    "station": "LTBH",
+    "lat": 40.14,
+    "lon": 26.425,
+    "weather": "No coded weather",
+    "temperature": 19.0,
+    "dewpoint": 15.0,
+    "windSpeed": 4.0,
     "windDirection": 30.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T05:20:00.000Z",
-    "observationTimestamp": "2026-09-18T05:20:00+00:00",
-    "raw": "METAR BGGH 180520Z AUTO 03008KT 9999 FEW012/// OVC058/// 04/M01 Q0996"
-  },
-  "randomPlace": {
-    "name": "KPHL",
-    "station": "KPHL",
-    "lat": 39.8733,
-    "lon": -75.2268,
-    "weather": "No coded weather",
-    "temperature": 24.4,
-    "dewpoint": 21.7,
-    "windSpeed": 5.0,
-    "windDirection": 210.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T05:46:00.000Z",
-    "observationTimestamp": "2026-09-18T05:46:00+00:00",
-    "raw": "SPECI KPHL 180546Z 21005KT 10SM BKN017 OVC045 24/22 A3005 RMK AO2 T02440217 $"
+    "observationTime": "2026-09-18T05:50:00.000Z",
+    "observationTimestamp": "2026-09-18T05:50:00+00:00",
+    "raw": "METAR LTBH 180550Z 03004KT 9999 FEW035 19/15 Q1015"
   },
   "globalPulse": {
     "population": {
-      "value": 8211613003,
-      "display": "8,211,613,003",
+      "value": 8211614108,
+      "display": "8,211,614,108",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T05:40:00Z",
-      "speed": 429.0
+      "time": "2026-09-18T05:52:00Z",
+      "speed": 433.0
     },
     "magneticField": {
-      "time": "2026-09-18T05:40:00Z",
+      "time": "2026-09-18T05:52:00Z",
       "bt": 5.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-18T00:00:00",
@@ -113,8 +113,8 @@
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T05:40:00Z",
-      "forecastTime": "2026-09-18T06:42:00Z"
+      "observationTime": "2026-09-18T05:49:00Z",
+      "forecastTime": "2026-09-18T06:52:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
