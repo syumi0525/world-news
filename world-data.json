@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:38:27.277432+00:00",
+  "generatedAt": "2026-09-18T11:49:13.841423+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Abandoned power station (41186569745).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/136665246@N05\">Dmitriy Protsenko</a> from Dubna, Russia",
-    "license": "Public domain",
+    "title": "File:A misty forest road in Coonoor.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Abandoned_power_station_%2841186569745%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAGC",
-    "station": "KAGC",
-    "lat": 40.3551,
-    "lon": -79.9215,
-    "weather": "BR",
-    "temperature": 20.6,
-    "dewpoint": 20.0,
-    "windSpeed": 3.0,
-    "windDirection": 340.0,
-    "visibility": "6",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-18T10:53:00.000Z",
-    "observationTimestamp": "2026-09-18T10:53:00+00:00",
-    "raw": "METAR KAGC 181053Z 34003KT 6SM BR OVC006 21/20 A3017 RMK AO2 SLP214 T02060200"
+    "name": "EGNH",
+    "station": "EGNH",
+    "lat": 53.774,
+    "lon": -3.039,
+    "weather": "VCSH",
+    "temperature": 16.0,
+    "dewpoint": 11.0,
+    "windSpeed": 21.0,
+    "windDirection": 260.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T11:20:00.000Z",
+    "observationTimestamp": "2026-09-18T11:20:00+00:00",
+    "raw": "METAR EGNH 181120Z 26021KT 9999 VCSH FEW011 SCT042 16/11 Q1009"
   },
   "randomPlace": {
-    "name": "OIKB",
-    "station": "OIKB",
-    "lat": 27.218,
-    "lon": 56.378,
-    "weather": "HZ",
-    "temperature": 36.0,
-    "dewpoint": 28.0,
-    "windSpeed": 16.0,
-    "windDirection": 200.0,
-    "visibility": "1.86",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-18T11:30:00.000Z",
-    "observationTimestamp": "2026-09-18T11:30:00+00:00",
-    "raw": "METAR OIKB 181130Z 20016KT 3000 HZ NSC 36/28 Q1003 A2964"
+    "name": "OICJ",
+    "station": "OICJ",
+    "lat": 33.893,
+    "lon": 48.755,
+    "weather": "No coded weather",
+    "temperature": 34.0,
+    "dewpoint": 0.0,
+    "windSpeed": 4.0,
+    "windDirection": 190.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T11:00:00.000Z",
+    "observationTimestamp": "2026-09-18T11:00:00+00:00",
+    "raw": "METAR OICJ 181100Z 19004KT CAVOK 34/M00 Q1020"
   },
   "globalPulse": {
     "population": {
-      "value": 8211654620,
-      "display": "8,211,654,620",
+      "value": 8211655911,
+      "display": "8,211,655,911",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T11:29:00Z",
-      "speed": 415.0
+      "time": "2026-09-18T11:41:00Z",
+      "speed": 410.0
     },
     "magneticField": {
-      "time": "2026-09-18T11:29:00Z",
+      "time": "2026-09-18T11:41:00Z",
       "bt": 5.0,
-      "bz": 2.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-18T06:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T11:29:00Z",
-      "forecastTime": "2026-09-18T12:35:00Z"
+      "observationTime": "2026-09-18T11:38:00Z",
+      "forecastTime": "2026-09-18T12:45:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
