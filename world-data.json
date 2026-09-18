@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T04:55:32.971759+00:00",
+  "generatedAt": "2026-09-18T05:09:01.323398+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
-    "artist": "Ferrovia Mesolcinese",
+    "title": "File:CDF Alais Beaucaire carte.jpg",
+    "artist": "Talabot frères (1833)",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CDF_Alais_Beaucaire_carte.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EYKA",
-    "station": "EYKA",
-    "lat": 54.962,
-    "lon": 24.069,
+    "name": "KEGT",
+    "station": "KEGT",
+    "lat": 37.3251,
+    "lon": -97.3901,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 9.0,
+    "temperature": 26.7,
+    "dewpoint": 20.0,
     "windSpeed": 6.0,
-    "windDirection": 180.0,
-    "visibility": "6+",
+    "windDirection": 140.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T04:50:00.000Z",
-    "observationTimestamp": "2026-09-18T04:50:00+00:00",
-    "raw": "METAR EYKA 180450Z 18006KT CAVOK 11/09 Q1012"
+    "observationTime": "2026-09-18T04:55:00.000Z",
+    "observationTimestamp": "2026-09-18T04:55:00+00:00",
+    "raw": "METAR KEGT 180455Z AUTO 14006KT 10SM CLR 27/20 A3016 RMK AO2 T02670200"
   },
   "randomPlace": {
-    "name": "CYCD",
-    "station": "CYCD",
-    "lat": 49.052,
-    "lon": -123.874,
+    "name": "KCPR",
+    "station": "KCPR",
+    "lat": 42.8978,
+    "lon": -106.4736,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 10.0,
-    "windSpeed": 2.0,
+    "temperature": 14.4,
+    "dewpoint": 13.9,
+    "windSpeed": 3.0,
     "windDirection": 0.0,
-    "visibility": "15",
+    "visibility": "7",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T04:00:00.000Z",
-    "observationTimestamp": "2026-09-18T04:00:00+00:00",
-    "raw": "METAR CYCD 180400Z VRB02KT 15SM SKC 15/10 A3002 RMK LAST STFD OBS/NEXT 181300Z SLP169"
+    "observationTime": "2026-09-18T04:53:00.000Z",
+    "observationTimestamp": "2026-09-18T04:53:00+00:00",
+    "raw": "METAR KCPR 180453Z AUTO VRB03KT 7SM FEW120 14/14 A3021 RMK AO2 SLP184 T01440139"
   },
   "globalPulse": {
     "population": {
-      "value": 8211606384,
-      "display": "8,211,606,384",
+      "value": 8211607999,
+      "display": "8,211,607,999",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T04:49:00Z",
-      "speed": 436.0
+      "time": "2026-09-18T05:00:00Z",
+      "speed": 437.0
     },
     "magneticField": {
-      "time": "2026-09-18T04:46:00Z",
+      "time": "2026-09-18T05:00:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-18T00:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 24.0,
+      "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T04:43:00Z",
-      "forecastTime": "2026-09-18T05:46:00Z"
+      "observationTime": "2026-09-18T05:00:00Z",
+      "forecastTime": "2026-09-18T06:02:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
