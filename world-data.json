@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T14:10:24.334963+00:00",
+  "generatedAt": "2026-09-18T14:26:25.482272+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Mother Nature 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
+    "title": "File:Batiment aunsein de la Ville de Majunga 11.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_11.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFLL",
-    "station": "KFLL",
-    "lat": 26.0787,
-    "lon": -80.1622,
+    "name": "FMSD",
+    "station": "FMSD",
+    "lat": -25.038,
+    "lon": 46.956,
     "weather": "No coded weather",
-    "temperature": 28.9,
-    "dewpoint": 24.4,
-    "windSpeed": 3.0,
-    "windDirection": 40.0,
+    "temperature": 25.0,
+    "dewpoint": 18.0,
+    "windSpeed": 21.0,
+    "windDirection": 80.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T14:00:00.000Z",
+    "observationTimestamp": "2026-09-18T14:00:00+00:00",
+    "raw": "METAR FMSD 181400Z 08021KT 9999 FEW020 25/18 Q1019"
+  },
+  "randomPlace": {
+    "name": "KNSI",
+    "station": "KNSI",
+    "lat": 33.2338,
+    "lon": -119.4559,
+    "weather": "No coded weather",
+    "temperature": 16.1,
+    "dewpoint": 13.9,
+    "windSpeed": 14.0,
+    "windDirection": 320.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T13:53:00.000Z",
     "observationTimestamp": "2026-09-18T13:53:00+00:00",
-    "raw": "METAR KFLL 181353Z 04003KT 10SM FEW030 FEW250 29/24 A3003 RMK AO2 SLP168 T02890244"
-  },
-  "randomPlace": {
-    "name": "K1LN",
-    "station": "K1LN",
-    "lat": 48.79,
-    "lon": -102.27,
-    "weather": "No coded weather",
-    "temperature": 14.5,
-    "dewpoint": 13.7,
-    "windSpeed": 9.0,
-    "windDirection": 130.0,
-    "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-18T13:55:00.000Z",
-    "observationTimestamp": "2026-09-18T13:55:00+00:00",
-    "raw": "METAR K1LN 181355Z AUTO 13009KT 10SM OVC009 15/14 A3008 RMK AO2 SLP192 T01450137 $"
+    "raw": "METAR KNSI 181353Z 32014KT 10SM FEW009 SCT012 16/14 A300?SMK AO2 SLP179 T01610139"
   },
   "globalPulse": {
     "population": {
-      "value": 8211672781,
-      "display": "8,211,672,781",
+      "value": 8211674700,
+      "display": "8,211,674,700",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T14:02:00Z",
-      "speed": 423.0
+      "time": "2026-09-18T14:16:00Z",
+      "speed": 424.0
     },
     "magneticField": {
-      "time": "2026-09-18T14:02:00Z",
+      "time": "2026-09-18T14:16:00Z",
       "bt": 4.0,
-      "bz": 2.0
+      "bz": 4.0
     },
     "kp": {
       "time": "2026-09-18T09:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T13:59:00Z",
-      "forecastTime": "2026-09-18T15:04:00Z"
+      "observationTime": "2026-09-18T14:13:00Z",
+      "forecastTime": "2026-09-18T15:19:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
