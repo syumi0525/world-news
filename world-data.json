@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T02:47:50.860266+00:00",
+  "generatedAt": "2026-09-18T02:57:16.087787+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
-    "artist": "Gardner, Alexander, 1821-1882",
-    "license": "Public domain",
+    "title": "File:Ausfahrsignal Freiburg Richtung Basel zeigt Fahrt Hp 1 mit Geschwindigkeitsanzeiger Kennziffer 6.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fabi_B%C3%BCKa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fabi BüKa (page does not exist)\">Fabi BüKa</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ausfahrsignal_Freiburg_Richtung_Basel_zeigt_Fahrt_Hp_1_mit_Geschwindigkeitsanzeiger_Kennziffer_6.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRZT",
-    "station": "KRZT",
-    "lat": 39.4402,
-    "lon": -83.0209,
+    "name": "CWKX",
+    "station": "CWKX",
+    "lat": 58.429,
+    "lon": -130.011,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 22.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T02:35:00.000Z",
-    "observationTimestamp": "2026-09-18T02:35:00+00:00",
-    "raw": "METAR KRZT 180235Z AUTO 00000KT 10SM CLR 22/22 A3020 RMK AO2 PWINO"
+    "temperature": 10.2,
+    "dewpoint": 4.8,
+    "windSpeed": 1.0,
+    "windDirection": 300.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-18T02:00:00.000Z",
+    "observationTimestamp": "2026-09-18T02:00:00+00:00",
+    "raw": "METAR CWKX 180200Z AUTO 30001KT 10/05 RMK AO1 SLP188 T01020048 56008"
   },
   "randomPlace": {
-    "name": "KNUI",
-    "station": "KNUI",
-    "lat": 38.152,
-    "lon": -76.432,
+    "name": "SBGO",
+    "station": "SBGO",
+    "lat": -16.632,
+    "lon": -49.221,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 22.8,
-    "windSpeed": 4.0,
-    "windDirection": 240.0,
-    "visibility": "10+",
+    "temperature": 28.0,
+    "dewpoint": 16.0,
+    "windSpeed": 10.0,
+    "windDirection": 80.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T01:53:00.000Z",
-    "observationTimestamp": "2026-09-18T01:53:00+00:00",
-    "raw": "METAR KNUI 180153Z AUTO 24004KT 10SM CLR 25/23 A3009 RMK AO2 SLP188 T02500228"
+    "observationTime": "2026-09-18T02:00:00.000Z",
+    "observationTimestamp": "2026-09-18T02:00:00+00:00",
+    "raw": "METAR SBGO 180200Z 08010KT CAVOK 28/16 Q1021"
   },
   "globalPulse": {
     "population": {
-      "value": 8211591067,
-      "display": "8,211,591,067",
+      "value": 8211592200,
+      "display": "8,211,592,200",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T02:40:00Z",
-      "speed": 450.0
+      "time": "2026-09-18T02:49:00Z",
+      "speed": 449.0
     },
     "magneticField": {
-      "time": "2026-09-18T02:40:00Z",
+      "time": "2026-09-18T02:46:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-17T21:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 27.0,
-      "display": "MAX 27.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T02:40:00Z",
-      "forecastTime": "2026-09-18T03:40:00Z"
+      "observationTime": "2026-09-18T02:49:00Z",
+      "forecastTime": "2026-09-18T03:50:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
