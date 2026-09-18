@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:23:31.623177+00:00",
+  "generatedAt": "2026-09-18T16:38:58.393925+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cia Gould 2015 (Unsplash).jpg",
-    "artist": "Cia Gould <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@ciagould\">ciagould</a>",
+    "title": "File:20140907 114910 Jpg (218976057).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cia_Gould_2015_%28Unsplash%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGAI",
-    "station": "KGAI",
-    "lat": 39.1696,
-    "lon": -77.1653,
-    "weather": "No coded weather",
-    "temperature": 27.2,
-    "dewpoint": 22.2,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T15:56:00.000Z",
-    "observationTimestamp": "2026-09-18T15:56:00+00:00",
-    "raw": "METAR KGAI 181556Z AUTO 00000KT 10SM SCT030 BKN036 BKN047 27/22 A3014 RMK AO2 SLP214 T02720222"
+    "name": "KEVW",
+    "station": "KEVW",
+    "lat": 41.2727,
+    "lon": -111.0305,
+    "weather": "RA BR",
+    "temperature": 10.0,
+    "dewpoint": 8.9,
+    "windSpeed": 9.0,
+    "windDirection": 210.0,
+    "visibility": "3",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-18T16:19:00.000Z",
+    "observationTimestamp": "2026-09-18T16:19:00+00:00",
+    "raw": "SPECI KEVW 181619Z AUTO 21009KT 3SM RA BR OVC060 10/09 A3034 RMK AO2 LTG DSNT SE-SW P0006 T01000089"
   },
   "randomPlace": {
-    "name": "EGNO",
-    "station": "EGNO",
-    "lat": 53.746,
-    "lon": -2.889,
-    "weather": "RA",
-    "temperature": 13.0,
-    "dewpoint": 12.0,
-    "windSpeed": 12.0,
-    "windDirection": 220.0,
-    "visibility": "2.17",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-18T15:50:00.000Z",
-    "observationTimestamp": "2026-09-18T15:50:00+00:00",
-    "raw": "METAR EGNO 181550Z 22012KT 190V250 3500 RA BKN004 13/12 Q1006"
+    "name": "KDYS",
+    "station": "KDYS",
+    "lat": 32.406,
+    "lon": -99.85,
+    "weather": "No coded weather",
+    "temperature": 30.9,
+    "dewpoint": 16.8,
+    "windSpeed": 10.0,
+    "windDirection": 190.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T15:55:00.000Z",
+    "observationTimestamp": "2026-09-18T15:55:00+00:00",
+    "raw": "METAR KDYS 181555Z AUTO 19010KT 10SM CLR 31/17 A3017 RMK AO2 SLP186 T03090168"
   },
   "globalPulse": {
     "population": {
-      "value": 8211688747,
-      "display": "8,211,688,747",
+      "value": 8211690598,
+      "display": "8,211,690,598",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T16:12:00Z",
-      "speed": 419.0
+      "time": "2026-09-18T16:32:00Z",
+      "speed": 415.0
     },
     "magneticField": {
-      "time": "2026-09-18T16:12:00Z",
+      "time": "2026-09-18T16:32:00Z",
       "bt": 5.0,
-      "bz": 3.0
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-18T12:00:00",
@@ -113,8 +113,8 @@
       "value": 10.0,
       "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T16:09:00Z",
-      "forecastTime": "2026-09-18T17:13:00Z"
+      "observationTime": "2026-09-18T16:28:00Z",
+      "forecastTime": "2026-09-18T17:34:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
