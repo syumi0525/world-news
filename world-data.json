@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T15:09:18.078652+00:00",
+  "generatedAt": "2026-09-18T15:25:04.230260+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Basilique de Fourvière à Lyon, vue d'en bas.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PerrineSCDUM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PerrineSCDUM (page does not exist)\">PerrineSCDUM</a>",
+    "title": "File:Bali Island.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:ASIRICHAILORDSIN\" title=\"User:ASIRICHAILORDSIN\">ASIRICHAILORDSIN</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_%C3%A0_Lyon%2C_vue_d%27en_bas.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bali_Island.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYGP",
-    "station": "CYGP",
-    "lat": 48.777,
-    "lon": -64.478,
-    "weather": "-RA",
-    "temperature": 11.0,
-    "dewpoint": 9.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "15",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T14:10:00.000Z",
-    "observationTimestamp": "2026-09-18T14:10:00+00:00",
-    "raw": "SPECI CYGP 181410Z 00000KT 15SM -RA BKN016 OVC080 11/09 A2981 RMK SC6AC2 SLP099"
+    "name": "EKYT",
+    "station": "EKYT",
+    "lat": 57.093,
+    "lon": 9.879,
+    "weather": "No coded weather",
+    "temperature": 14.0,
+    "dewpoint": 10.0,
+    "windSpeed": 12.0,
+    "windDirection": 250.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T15:20:00.000Z",
+    "observationTimestamp": "2026-09-18T15:20:00+00:00",
+    "raw": "METAR EKYT 181520Z AUTO 25012KT 9999 OVC053/// 14/10 Q1004"
   },
   "randomPlace": {
-    "name": "CYWJ",
-    "station": "CYWJ",
-    "lat": 65.209,
-    "lon": -123.434,
+    "name": "PFKO",
+    "station": "PFKO",
+    "lat": 63.0334,
+    "lon": -163.5323,
     "weather": "No coded weather",
-    "temperature": 3.0,
-    "dewpoint": 3.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "40",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T14:00:00.000Z",
-    "observationTimestamp": "2026-09-18T14:00:00+00:00",
-    "raw": "METAR CYWJ 181400Z 00000KT 40SM FEW090 BKN170 03/03 A2999 RMK AC2AC5 SLP170"
+    "temperature": 7.2,
+    "dewpoint": 6.7,
+    "windSpeed": 3.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-18T14:56:00.000Z",
+    "observationTimestamp": "2026-09-18T14:56:00+00:00",
+    "raw": "METAR PFKO 181456Z AUTO 06003KT 10SM OVC022 07/07 A2969 RMK AO2 RAB06E36 SLP055 P0000 60000 T00720067 57014 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211679842,
-      "display": "8,211,679,842",
+      "value": 8211681707,
+      "display": "8,211,681,707",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T15:01:00Z",
+      "time": "2026-09-18T15:16:00Z",
       "speed": 432.0
     },
     "magneticField": {
-      "time": "2026-09-18T15:01:00Z",
+      "time": "2026-09-18T15:16:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": 4.0
     },
     "kp": {
       "time": "2026-09-18T12:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 11.0,
-      "display": "MAX 11.0%",
+      "value": 10.0,
+      "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T14:58:00Z",
-      "forecastTime": "2026-09-18T16:03:00Z"
+      "observationTime": "2026-09-18T15:13:00Z",
+      "forecastTime": "2026-09-18T16:18:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
