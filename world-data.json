@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T23:08:40.845075+00:00",
+  "generatedAt": "2026-09-18T23:22:50.416531+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Danau Tigi - Deiyai.jpg",
-    "artist": "Government of Deiyai, Indonesia",
-    "license": "Public domain",
+    "title": "File:Dãy Bạch Mã.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%AA_%C4%90%C4%83ng_Kh%C3%B4i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lê Đăng Khôi (page does not exist)\">Lê Đăng Khôi</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:D%C3%A3y_B%E1%BA%A1ch_M%C3%A3.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMYJ",
-    "station": "KMYJ",
-    "lat": 39.1561,
-    "lon": -91.8129,
+    "name": "K13K",
+    "station": "K13K",
+    "lat": 37.8519,
+    "lon": -96.2929,
     "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 22.0,
-    "windSpeed": 3.0,
-    "windDirection": 240.0,
+    "temperature": 34.2,
+    "dewpoint": 19.5,
+    "windSpeed": 11.0,
+    "windDirection": 190.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T22:55:00.000Z",
-    "observationTimestamp": "2026-09-18T22:55:00+00:00",
-    "raw": "METAR KMYJ 182255Z AUTO 24003KT 10SM CLR 33/22 A3002 RMK AO2"
+    "observationTime": "2026-09-18T23:15:00.000Z",
+    "observationTimestamp": "2026-09-18T23:15:00+00:00",
+    "raw": "METAR K13K 182315Z AUTO 19011KT 10SM CLR 34/19 A3001 RMK AO2 T03420195"
   },
   "randomPlace": {
-    "name": "K9K7",
-    "station": "K9K7",
-    "lat": 38.7502,
-    "lon": -98.2316,
+    "name": "UOOO",
+    "station": "UOOO",
+    "lat": 69.308,
+    "lon": 87.322,
     "weather": "No coded weather",
-    "temperature": 36.0,
-    "dewpoint": 16.0,
-    "windSpeed": 14.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
+    "temperature": 3.0,
+    "dewpoint": -4.0,
+    "windSpeed": 8.0,
+    "windDirection": 160.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T22:55:00.000Z",
-    "observationTimestamp": "2026-09-18T22:55:00+00:00",
-    "raw": "METAR K9K7 182255Z AUTO 20014G19KT 10SM FEW085 36/16 A2997 RMK AO2"
+    "observationTime": "2026-09-18T23:00:00.000Z",
+    "observationTimestamp": "2026-09-18T23:00:00+00:00",
+    "raw": "METAR UOOO 182300Z 16004MPS CAVOK 03/M04 Q1027 R19/CLRD62"
   },
   "globalPulse": {
     "population": {
-      "value": 8211737237,
-      "display": "8,211,737,237",
+      "value": 8211738945,
+      "display": "8,211,738,945",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T22:56:00Z",
-      "speed": 424.0
+      "time": "2026-09-18T23:14:00Z",
+      "speed": 409.0
     },
     "magneticField": {
-      "time": "2026-09-18T22:59:00Z",
-      "bt": 4.0,
-      "bz": 1.0
+      "time": "2026-09-18T23:14:00Z",
+      "bt": 5.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-18T18:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T22:59:00Z",
-      "forecastTime": "2026-09-19T00:05:00Z"
+      "observationTime": "2026-09-18T23:08:00Z",
+      "forecastTime": "2026-09-19T00:15:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
