@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:58:03.067972+00:00",
+  "generatedAt": "2026-09-18T20:14:23.454954+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 03.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:Hüdavendigar Kent Parkı.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_03.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%BCdavendigar_Kent_Park%C4%B1.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "HKEM",
-    "station": "HKEM",
-    "lat": -0.573,
-    "lon": 37.497,
+    "name": "KNFW",
+    "station": "KNFW",
+    "lat": 32.781,
+    "lon": -97.436,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 16.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T19:00:00.000Z",
-    "observationTimestamp": "2026-09-18T19:00:00+00:00",
-    "raw": "METAR HKEM 181900Z 00000KT 9999 BKN018 18/16"
-  },
-  "randomPlace": {
-    "name": "KFKL",
-    "station": "KFKL",
-    "lat": 41.3805,
-    "lon": -79.8603,
-    "weather": "No coded weather",
-    "temperature": 23.3,
-    "dewpoint": 12.8,
+    "temperature": 35.6,
+    "dewpoint": 17.8,
     "windSpeed": 6.0,
-    "windDirection": 20.0,
+    "windDirection": 180.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T18:56:00.000Z",
-    "observationTimestamp": "2026-09-18T18:56:00+00:00",
-    "raw": "METAR KFKL 181856Z AUTO 02006KT 10SM FEW042 23/13 A3022 RMK AO2 SLP226 T02330128 $"
+    "observationTime": "2026-09-18T18:52:00.000Z",
+    "observationTimestamp": "2026-09-18T18:52:00+00:00",
+    "raw": "METAR KNFW 181852Z 18006G15KT 10SM FEW070 FEW250 36/18 A3010 RMK AO2 SLP176 T03560178 $"
+  },
+  "randomPlace": {
+    "name": "KAKR",
+    "station": "KAKR",
+    "lat": 41.0373,
+    "lon": -81.4634,
+    "weather": "No coded weather",
+    "temperature": 24.4,
+    "dewpoint": 12.8,
+    "windSpeed": 9.0,
+    "windDirection": 360.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T19:54:00.000Z",
+    "observationTimestamp": "2026-09-18T19:54:00+00:00",
+    "raw": "METAR KAKR 181954Z AUTO 36009KT 10SM CLR 24/13 A3020 RMK AO2 SLP218 T02440128 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211714431,
-      "display": "8,211,714,431",
+      "value": 8211716373,
+      "display": "8,211,716,373",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T19:49:00Z",
-      "speed": 405.0
+      "time": "2026-09-18T20:07:00Z",
+      "speed": 406.0
     },
     "magneticField": {
-      "time": "2026-09-18T19:49:00Z",
+      "time": "2026-09-18T20:04:00Z",
       "bt": 5.0,
-      "bz": -2.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-18T15:00:00",
       "kp": 1.0
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 23.0,
+      "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T19:43:00Z",
-      "forecastTime": "2026-09-18T20:49:00Z"
+      "observationTime": "2026-09-18T20:04:00Z",
+      "forecastTime": "2026-09-18T21:10:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
