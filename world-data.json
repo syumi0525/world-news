@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T22:54:45.089783+00:00",
+  "generatedAt": "2026-09-18T23:08:40.845075+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 184506 Schätzl-Villa mit Garten.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
-    "license": "CC0",
+    "title": "File:Danau Tigi - Deiyai.jpg",
+    "artist": "Government of Deiyai, Indonesia",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_184506_Sch%C3%A4tzl-Villa_mit_Garten.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHDO",
-    "station": "KHDO",
-    "lat": 29.3601,
-    "lon": -99.1742,
+    "name": "KMYJ",
+    "station": "KMYJ",
+    "lat": 39.1561,
+    "lon": -91.8129,
     "weather": "No coded weather",
-    "temperature": 30.6,
-    "dewpoint": 22.8,
-    "windSpeed": 12.0,
-    "windDirection": 100.0,
+    "temperature": 33.0,
+    "dewpoint": 22.0,
+    "windSpeed": 3.0,
+    "windDirection": 240.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T22:51:00.000Z",
-    "observationTimestamp": "2026-09-18T22:51:00+00:00",
-    "raw": "METAR KHDO 182251Z AUTO 10012KT 10SM CLR 31/23 A3003 RMK AO2 SLP151 T03060228"
+    "observationTime": "2026-09-18T22:55:00.000Z",
+    "observationTimestamp": "2026-09-18T22:55:00+00:00",
+    "raw": "METAR KMYJ 182255Z AUTO 24003KT 10SM CLR 33/22 A3002 RMK AO2"
   },
   "randomPlace": {
-    "name": "KHAE",
-    "station": "KHAE",
-    "lat": 39.7262,
-    "lon": -91.4425,
+    "name": "K9K7",
+    "station": "K9K7",
+    "lat": 38.7502,
+    "lon": -98.2316,
     "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 24.0,
-    "windSpeed": 4.0,
-    "windDirection": 90.0,
+    "temperature": 36.0,
+    "dewpoint": 16.0,
+    "windSpeed": 14.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T22:35:00.000Z",
-    "observationTimestamp": "2026-09-18T22:35:00+00:00",
-    "raw": "METAR KHAE 182235Z AUTO 09004KT 10SM CLR 32/24 A3004 RMK AO2 LTG DSNT SE"
+    "observationTime": "2026-09-18T22:55:00.000Z",
+    "observationTimestamp": "2026-09-18T22:55:00+00:00",
+    "raw": "METAR K9K7 182255Z AUTO 20014G19KT 10SM FEW085 36/16 A2997 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211735581,
-      "display": "8,211,735,581",
+      "value": 8211737237,
+      "display": "8,211,737,237",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T22:47:00Z",
-      "speed": 407.0
+      "time": "2026-09-18T22:56:00Z",
+      "speed": 424.0
     },
     "magneticField": {
-      "time": "2026-09-18T22:44:00Z",
-      "bt": 5.0,
-      "bz": 2.0
+      "time": "2026-09-18T22:59:00Z",
+      "bt": 4.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-18T18:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T22:44:00Z",
-      "forecastTime": "2026-09-18T23:51:00Z"
+      "observationTime": "2026-09-18T22:59:00Z",
+      "forecastTime": "2026-09-19T00:05:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
