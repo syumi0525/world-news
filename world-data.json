@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:23:34.131719+00:00",
+  "generatedAt": "2026-09-18T11:38:27.277432+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Danau Tigi - Deiyai.jpg",
-    "artist": "Government of Deiyai, Indonesia",
+    "title": "File:Abandoned power station (41186569745).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/136665246@N05\">Dmitriy Protsenko</a> from Dubna, Russia",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Abandoned_power_station_%2841186569745%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CXDI",
-    "station": "CXDI",
-    "lat": 42.864,
-    "lon": -80.545,
-    "weather": "No coded weather",
-    "temperature": 9.2,
-    "dewpoint": 9.2,
-    "windSpeed": 1.0,
-    "windDirection": 20.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-18T11:00:00.000Z",
-    "observationTimestamp": "2026-09-18T11:00:00+00:00",
-    "raw": "METAR CXDI 181100Z AUTO 02001KT 09/09 RMK AO1 SLP240 T00920092 53014"
+    "name": "KAGC",
+    "station": "KAGC",
+    "lat": 40.3551,
+    "lon": -79.9215,
+    "weather": "BR",
+    "temperature": 20.6,
+    "dewpoint": 20.0,
+    "windSpeed": 3.0,
+    "windDirection": 340.0,
+    "visibility": "6",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-18T10:53:00.000Z",
+    "observationTimestamp": "2026-09-18T10:53:00+00:00",
+    "raw": "METAR KAGC 181053Z 34003KT 6SM BR OVC006 21/20 A3017 RMK AO2 SLP214 T02060200"
   },
   "randomPlace": {
-    "name": "VQPR",
-    "station": "VQPR",
-    "lat": 27.403,
-    "lon": 89.425,
-    "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 13.0,
-    "windSpeed": 6.0,
-    "windDirection": 190.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T11:00:00.000Z",
-    "observationTimestamp": "2026-09-18T11:00:00+00:00",
-    "raw": "METAR VQPR 181100Z 19006KT 160V230 9999 SCT030 BKN070 22/13 Q1018"
+    "name": "OIKB",
+    "station": "OIKB",
+    "lat": 27.218,
+    "lon": 56.378,
+    "weather": "HZ",
+    "temperature": 36.0,
+    "dewpoint": 28.0,
+    "windSpeed": 16.0,
+    "windDirection": 200.0,
+    "visibility": "1.86",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-18T11:30:00.000Z",
+    "observationTimestamp": "2026-09-18T11:30:00+00:00",
+    "raw": "METAR OIKB 181130Z 20016KT 3000 HZ NSC 36/28 Q1003 A2964"
   },
   "globalPulse": {
     "population": {
-      "value": 8211652836,
-      "display": "8,211,652,836",
+      "value": 8211654620,
+      "display": "8,211,654,620",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T11:17:00Z",
-      "speed": 402.0
+      "time": "2026-09-18T11:29:00Z",
+      "speed": 415.0
     },
     "magneticField": {
-      "time": "2026-09-18T11:17:00Z",
+      "time": "2026-09-18T11:29:00Z",
       "bt": 5.0,
-      "bz": 1.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-18T06:00:00",
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T11:14:00Z",
-      "forecastTime": "2026-09-18T12:19:00Z"
+      "observationTime": "2026-09-18T11:29:00Z",
+      "forecastTime": "2026-09-18T12:35:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
