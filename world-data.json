@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T21:37:47.819066+00:00",
+  "generatedAt": "2026-09-18T21:47:38.344804+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ejemplares de Melocactus en el desierto de la Tatacoa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cathetovar\" title=\"User:Cathetovar\">Cathetovar</a>",
+    "title": "File:Agliè Castle.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pittw&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pittw (page does not exist)\">Pittw</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ejemplares_de_Melocactus_en_el_desierto_de_la_Tatacoa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Agli%C3%A8_Castle.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWWS",
-    "station": "CWWS",
-    "lat": 52.819,
-    "lon": -97.616,
+    "name": "KHOT",
+    "station": "KHOT",
+    "lat": 34.4755,
+    "lon": -93.1041,
     "weather": "No coded weather",
-    "temperature": 15.9,
-    "dewpoint": 13.1,
-    "windSpeed": 16.0,
-    "windDirection": 170.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-18T21:00:00.000Z",
-    "observationTimestamp": "2026-09-18T21:00:00+00:00",
-    "raw": "METAR CWWS 182100Z AUTO 17016G22KT 16/13 RMK AO1 PK WND 18022/2057 SLP174 T01590131 58021"
+    "temperature": 35.6,
+    "dewpoint": 16.1,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T20:53:00.000Z",
+    "observationTimestamp": "2026-09-18T20:53:00+00:00",
+    "raw": "METAR KHOT 182053Z AUTO 00000KT 10SM CLR 36/16 A3008 RMK AO2 SLP178 T03560161 56027"
   },
   "randomPlace": {
-    "name": "KISW",
-    "station": "KISW",
-    "lat": 44.3591,
-    "lon": -89.837,
-    "weather": "+RA BR",
-    "temperature": 15.0,
-    "dewpoint": 13.3,
-    "windSpeed": 8.0,
-    "windDirection": 130.0,
-    "visibility": "3",
+    "name": "DAOV",
+    "station": "DAOV",
+    "lat": 35.208,
+    "lon": 0.147,
+    "weather": "No coded weather",
+    "temperature": 21.0,
+    "dewpoint": 12.0,
+    "windSpeed": 5.0,
+    "windDirection": 150.0,
+    "visibility": "4.97",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T21:27:00.000Z",
-    "observationTimestamp": "2026-09-18T21:27:00+00:00",
-    "raw": "SPECI KISW 182127Z AUTO 13008G18KT 3SM +RA BR FEW016 BKN060 OVC095 15/13 A3024 RMK AO2 P0014 T01500133"
+    "observationTime": "2026-09-18T21:00:00.000Z",
+    "observationTimestamp": "2026-09-18T21:00:00+00:00",
+    "raw": "METAR DAOV 182100Z 15005KT 8000 FEW023CB SCT026 21/12 Q1016"
   },
   "globalPulse": {
     "population": {
-      "value": 8211726369,
-      "display": "8,211,726,369",
+      "value": 8211727550,
+      "display": "8,211,727,550",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T21:29:00Z",
-      "speed": 411.0
+      "time": "2026-09-18T21:37:00Z",
+      "speed": 406.0
     },
     "magneticField": {
-      "time": "2026-09-18T21:25:00Z",
-      "bt": 4.0,
-      "bz": 0.0
+      "time": "2026-09-18T21:37:00Z",
+      "bt": 5.0,
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-18T18:00:00",
@@ -113,8 +113,8 @@
       "value": 20.0,
       "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T21:28:00Z",
-      "forecastTime": "2026-09-18T22:36:00Z"
+      "observationTime": "2026-09-18T21:34:00Z",
+      "forecastTime": "2026-09-18T22:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
