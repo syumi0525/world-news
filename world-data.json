@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T06:00:07.351339+00:00",
+  "generatedAt": "2026-09-18T06:23:09.053323+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Belem - Consulate Office Building - 1972 - DPLA - ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg",
-    "artist": "Department of State. Office of the Undersecretary for Management. Bureau of Overseas Buildings Operations. (2001)",
+    "title": "File:170602-G-XX000-104.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Belem_-_Consulate_Office_Building_-_1972_-_DPLA_-_ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:170602-G-XX000-104.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "FYLZ",
-    "station": "FYLZ",
-    "lat": -26.687,
-    "lon": 15.243,
+    "name": "EPPO",
+    "station": "EPPO",
+    "lat": 52.417,
+    "lon": 16.835,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 8.0,
-    "windSpeed": null,
-    "windDirection": null,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-18T05:00:00.000Z",
-    "observationTimestamp": "2026-09-18T05:00:00+00:00",
-    "raw": "METAR FYLZ 180500Z AUTO /////KT //// // ////// 17/08 Q1013"
-  },
-  "randomPlace": {
-    "name": "LTBH",
-    "station": "LTBH",
-    "lat": 40.14,
-    "lon": 26.425,
-    "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 15.0,
+    "temperature": 12.0,
+    "dewpoint": 10.0,
     "windSpeed": 4.0,
-    "windDirection": 30.0,
+    "windDirection": 200.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T05:50:00.000Z",
-    "observationTimestamp": "2026-09-18T05:50:00+00:00",
-    "raw": "METAR LTBH 180550Z 03004KT 9999 FEW035 19/15 Q1015"
+    "observationTime": "2026-09-18T06:00:00.000Z",
+    "observationTimestamp": "2026-09-18T06:00:00+00:00",
+    "raw": "METAR EPPO 180600Z 20004KT CAVOK 12/10 Q1011"
+  },
+  "randomPlace": {
+    "name": "KBWD",
+    "station": "KBWD",
+    "lat": 31.7898,
+    "lon": -98.9522,
+    "weather": "No coded weather",
+    "temperature": 28.2,
+    "dewpoint": 21.0,
+    "windSpeed": 7.0,
+    "windDirection": 160.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T06:15:00.000Z",
+    "observationTimestamp": "2026-09-18T06:15:00+00:00",
+    "raw": "METAR KBWD 180615Z AUTO 16007KT 10SM CLR 28/21 A3016 RMK AO2 T02820210 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211614108,
-      "display": "8,211,614,108",
+      "value": 8211616854,
+      "display": "8,211,616,854",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-18T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.7,
-      "display": "Kp 1.7",
+      "value": 2.0,
+      "display": "Kp 2.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-18T00:00:00"
+      "time": "2026-09-18T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T05:52:00Z",
-      "speed": 433.0
+      "time": "2026-09-18T06:15:00Z",
+      "speed": 426.0
     },
     "magneticField": {
-      "time": "2026-09-18T05:52:00Z",
+      "time": "2026-09-18T06:12:00Z",
       "bt": 5.0,
       "bz": -1.0
     },
     "kp": {
-      "time": "2026-09-18T00:00:00",
-      "kp": 1.67
+      "time": "2026-09-18T03:00:00",
+      "kp": 2.0
     },
     "aurora": {
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T05:49:00Z",
-      "forecastTime": "2026-09-18T06:52:00Z"
+      "observationTime": "2026-09-18T06:15:00Z",
+      "forecastTime": "2026-09-18T07:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
