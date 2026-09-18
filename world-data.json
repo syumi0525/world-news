@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:29:04.952421+00:00",
+  "generatedAt": "2026-09-18T20:42:24.536130+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:DamanJodi Walkway.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Akashpandey91\" title=\"User:Akashpandey91\">Akashpandey91</a>",
+    "title": "File:Borehole project 07.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:DamanJodi_Walkway.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_07.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KARB",
-    "station": "KARB",
-    "lat": 42.2239,
-    "lon": -83.7398,
+    "name": "KAIO",
+    "station": "KAIO",
+    "lat": 41.4059,
+    "lon": -95.0465,
     "weather": "No coded weather",
-    "temperature": null,
-    "dewpoint": null,
-    "windSpeed": null,
-    "windDirection": null,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-18T19:53:00.000Z",
-    "observationTimestamp": "2026-09-18T19:53:00+00:00",
-    "raw": "METAR KARB 181953Z AUTO A3023 RMK AO2 SLPNO PWINO"
+    "temperature": 34.0,
+    "dewpoint": 22.0,
+    "windSpeed": 14.0,
+    "windDirection": 210.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T20:35:00.000Z",
+    "observationTimestamp": "2026-09-18T20:35:00+00:00",
+    "raw": "METAR KAIO 182035Z AUTO 21014G22KT 10SM CLR 34/22 A2993 RMK AO2"
   },
   "randomPlace": {
-    "name": "MPTO",
-    "station": "MPTO",
-    "lat": 9.056,
-    "lon": -79.391,
-    "weather": "VCSH",
-    "temperature": 29.0,
-    "dewpoint": 25.0,
-    "windSpeed": 6.0,
-    "windDirection": 260.0,
-    "visibility": "5.59",
-    "flightCategory": "VFR",
+    "name": "SBPK",
+    "station": "SBPK",
+    "lat": -31.717,
+    "lon": -52.328,
+    "weather": "No coded weather",
+    "temperature": 18.0,
+    "dewpoint": 15.0,
+    "windSpeed": 9.0,
+    "windDirection": 110.0,
+    "visibility": "3.73",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-18T20:00:00.000Z",
     "observationTimestamp": "2026-09-18T20:00:00+00:00",
-    "raw": "METAR MPTO 182000Z 26006KT 9000 VCSH SCT018CB SCT080 29/25 Q1008 NOSIG"
+    "raw": "METAR SBPK 182000Z 11009KT 6000 SCT014 18/15 Q1022"
   },
   "globalPulse": {
     "population": {
-      "value": 8211718143,
-      "display": "8,211,718,143",
+      "value": 8211719739,
+      "display": "8,211,719,739",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T20:19:00Z",
-      "speed": 398.0
+      "time": "2026-09-18T20:34:00Z",
+      "speed": 402.0
     },
     "magneticField": {
-      "time": "2026-09-18T20:19:00Z",
+      "time": "2026-09-18T20:34:00Z",
       "bt": 5.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-18T15:00:00",
       "kp": 1.0
     },
     "aurora": {
-      "value": 23.0,
-      "display": "MAX 23.0%",
+      "value": 22.0,
+      "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T20:19:00Z",
-      "forecastTime": "2026-09-18T21:26:00Z"
+      "observationTime": "2026-09-18T20:28:00Z",
+      "forecastTime": "2026-09-18T21:37:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
