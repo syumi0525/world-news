@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:09:01.797201+00:00",
+  "generatedAt": "2026-09-18T11:23:34.131719+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Table of Schedule of Soerabaja-Malang train.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:JohanSpoorlijn\" title=\"User:JohanSpoorlijn\">JohanSpoorlijn</a>",
-    "license": "CC0",
+    "title": "File:Danau Tigi - Deiyai.jpg",
+    "artist": "Government of Deiyai, Indonesia",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Table_of_Schedule_of_Soerabaja-Malang_train.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFST",
-    "station": "LFST",
-    "lat": 48.549,
-    "lon": 7.64,
+    "name": "CXDI",
+    "station": "CXDI",
+    "lat": 42.864,
+    "lon": -80.545,
     "weather": "No coded weather",
-    "temperature": 18.0,
+    "temperature": 9.2,
+    "dewpoint": 9.2,
+    "windSpeed": 1.0,
+    "windDirection": 20.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-18T11:00:00.000Z",
+    "observationTimestamp": "2026-09-18T11:00:00+00:00",
+    "raw": "METAR CXDI 181100Z AUTO 02001KT 09/09 RMK AO1 SLP240 T00920092 53014"
+  },
+  "randomPlace": {
+    "name": "VQPR",
+    "station": "VQPR",
+    "lat": 27.403,
+    "lon": 89.425,
+    "weather": "No coded weather",
+    "temperature": 22.0,
     "dewpoint": 13.0,
-    "windSpeed": 7.0,
-    "windDirection": 290.0,
+    "windSpeed": 6.0,
+    "windDirection": 190.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T11:00:00.000Z",
     "observationTimestamp": "2026-09-18T11:00:00+00:00",
-    "raw": "METAR LFST 181100Z AUTO 29007KT 9999 FEW034 BKN042 OVC049 18/13 Q1018 NOSIG"
-  },
-  "randomPlace": {
-    "name": "KECG",
-    "station": "KECG",
-    "lat": 36.2572,
-    "lon": -76.1716,
-    "weather": "No coded weather",
-    "temperature": 22.2,
-    "dewpoint": 19.4,
-    "windSpeed": null,
-    "windDirection": null,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T10:54:00.000Z",
-    "observationTimestamp": "2026-09-18T10:54:00+00:00",
-    "raw": "METAR KECG 181054Z 10SM OVC075 22/19 A3009 RMK AO2 SLP189 T02220194"
+    "raw": "METAR VQPR 181100Z 19006KT 160V230 9999 SCT030 BKN070 22/13 Q1018"
   },
   "globalPulse": {
     "population": {
-      "value": 8211651096,
-      "display": "8,211,651,096",
+      "value": 8211652836,
+      "display": "8,211,652,836",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T10:59:00Z",
-      "speed": 420.0
+      "time": "2026-09-18T11:17:00Z",
+      "speed": 402.0
     },
     "magneticField": {
-      "time": "2026-09-18T10:59:00Z",
+      "time": "2026-09-18T11:17:00Z",
       "bt": 5.0,
-      "bz": 2.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-18T06:00:00",
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T10:59:00Z",
-      "forecastTime": "2026-09-18T12:03:00Z"
+      "observationTime": "2026-09-18T11:14:00Z",
+      "forecastTime": "2026-09-18T12:19:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
