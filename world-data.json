@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T15:40:00.472068+00:00",
+  "generatedAt": "2026-09-18T15:51:41.963449+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20140907 114910 Jpg (218976057).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
+    "title": "File:Bidon dans un robinet.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:KUBWIMANA_Bienvenu\" title=\"User:KUBWIMANA Bienvenu\">KUBWIMANA Bienvenu</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bidon_dans_un_robinet.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYLL",
-    "station": "CYLL",
-    "lat": 53.312,
-    "lon": -110.074,
-    "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 8.0,
+    "name": "SPZO",
+    "station": "SPZO",
+    "lat": -13.536,
+    "lon": -71.939,
+    "weather": "VCSH",
+    "temperature": 10.0,
+    "dewpoint": 6.0,
     "windSpeed": 4.0,
-    "windDirection": 290.0,
-    "visibility": "15",
+    "windDirection": 100.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T15:00:00.000Z",
-    "observationTimestamp": "2026-09-18T15:00:00+00:00",
-    "raw": "METAR CYLL 181500Z 29004KT 15SM SKC 13/08 A3009 RMK SLP203"
+    "observationTime": "2026-09-18T15:30:00.000Z",
+    "observationTimestamp": "2026-09-18T15:30:00+00:00",
+    "raw": "METAR SPZO 181530Z 10004KT 070V160 9999 VCSH FEW025 SCT036 OVC080 10/06 Q1038 NOSIG RMK BIRD HAZARD RWY 10/28"
   },
   "randomPlace": {
-    "name": "CZSJ",
-    "station": "CZSJ",
-    "lat": 53.063,
-    "lon": -93.344,
+    "name": "KDVN",
+    "station": "KDVN",
+    "lat": 41.6133,
+    "lon": -90.5948,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 3.0,
-    "windSpeed": 5.0,
-    "windDirection": 180.0,
-    "visibility": "9",
+    "temperature": 19.4,
+    "dewpoint": 17.8,
+    "windSpeed": 11.0,
+    "windDirection": 80.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T15:00:00.000Z",
-    "observationTimestamp": "2026-09-18T15:00:00+00:00",
-    "raw": "METAR CZSJ 181500Z AUTO 18005KT 140V230 9SM CLR 11/03 A3026 RMK SLP263"
+    "observationTime": "2026-09-18T14:52:00.000Z",
+    "observationTimestamp": "2026-09-18T14:52:00+00:00",
+    "raw": "METAR KDVN 181452Z AUTO 08011KT 10SM SCT110 19/18 A3023 RMK AO2 LTG DSNT SW AND W RAE08 SLP233 P0000 60000 T01940178 50002"
   },
   "globalPulse": {
     "population": {
-      "value": 8211683539,
-      "display": "8,211,683,539",
+      "value": 8211684940,
+      "display": "8,211,684,940",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T15:31:00Z",
-      "speed": 439.0
+      "time": "2026-09-18T15:40:00Z",
+      "speed": 440.0
     },
     "magneticField": {
-      "time": "2026-09-18T15:31:00Z",
+      "time": "2026-09-18T15:40:00Z",
       "bt": 4.0,
       "bz": 4.0
     },
@@ -113,8 +113,8 @@
       "value": 10.0,
       "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T15:28:00Z",
-      "forecastTime": "2026-09-18T16:33:00Z"
+      "observationTime": "2026-09-18T15:40:00Z",
+      "forecastTime": "2026-09-18T16:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
