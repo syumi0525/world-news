@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T17:27:08.656302+00:00",
+  "generatedAt": "2026-09-18T17:38:07.137345+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Driving in the village (49286320817).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
-    "license": "Public domain",
+    "title": "File:Nilüfer kanak köprüsü.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Driving_in_the_village_%2849286320817%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LTCD",
-    "station": "LTCD",
-    "lat": 39.71,
-    "lon": 39.527,
-    "weather": "TS",
-    "temperature": 21.0,
-    "dewpoint": 10.0,
-    "windSpeed": 18.0,
-    "windDirection": 270.0,
-    "visibility": "6+",
+    "name": "KTDR",
+    "station": "KTDR",
+    "lat": 30.038,
+    "lon": -85.528,
+    "weather": "No coded weather",
+    "temperature": 30.7,
+    "dewpoint": 18.1,
+    "windSpeed": 7.0,
+    "windDirection": 70.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T16:50:00.000Z",
-    "observationTimestamp": "2026-09-18T16:50:00+00:00",
-    "raw": "METAR LTCD 181650Z 27018KT 9999 TS FEW040CB SCT045 BKN080 21/10 Q1013 NOSIG"
+    "observationTime": "2026-09-18T16:55:00.000Z",
+    "observationTimestamp": "2026-09-18T16:55:00+00:00",
+    "raw": "METAR KTDR 181655Z AUTO 07007KT 10SM CLR 31/18 A3006 RMK AO2 SLP180 T03070181 $"
   },
   "randomPlace": {
-    "name": "LFSD",
-    "station": "LFSD",
-    "lat": 47.269,
-    "lon": 5.09,
-    "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 8.0,
-    "windSpeed": 7.0,
-    "windDirection": 290.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T17:00:00.000Z",
-    "observationTimestamp": "2026-09-18T17:00:00+00:00",
-    "raw": "METAR LFSD 181700Z AUTO 29007KT 250V320 CAVOK 21/08 Q1018"
+    "name": "VOCB",
+    "station": "VOCB",
+    "lat": 11.03,
+    "lon": 77.043,
+    "weather": "BR",
+    "temperature": 26.0,
+    "dewpoint": 23.0,
+    "windSpeed": 11.0,
+    "windDirection": 220.0,
+    "visibility": "3.11",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-18T17:30:00.000Z",
+    "observationTimestamp": "2026-09-18T17:30:00+00:00",
+    "raw": "METAR VOCB 181730Z 22011KT 5000 BR FEW012 SCT080 26/23 Q1015 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211696360,
-      "display": "8,211,696,360",
+      "value": 8211697661,
+      "display": "8,211,697,661",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T17:19:00Z",
-      "speed": 414.0
+      "time": "2026-09-18T17:28:00Z",
+      "speed": 423.0
     },
     "magneticField": {
-      "time": "2026-09-18T17:19:00Z",
+      "time": "2026-09-18T17:28:00Z",
       "bt": 5.0,
-      "bz": 4.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-18T12:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T17:13:00Z",
-      "forecastTime": "2026-09-18T18:20:00Z"
+      "observationTime": "2026-09-18T17:25:00Z",
+      "forecastTime": "2026-09-18T18:29:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
