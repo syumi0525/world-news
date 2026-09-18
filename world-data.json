@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:48:13.131404+00:00",
+  "generatedAt": "2026-09-18T19:58:03.067972+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 183209 Gartenanlage Schätzl-Villa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "title": "File:Batiment aunsein de la Ville de Majunga 03.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_183209_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_03.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KD55",
-    "station": "KD55",
-    "lat": 48.7519,
-    "lon": -98.3971,
+    "name": "HKEM",
+    "station": "HKEM",
+    "lat": -0.573,
+    "lon": 37.497,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 17.0,
-    "windSpeed": 10.0,
-    "windDirection": 180.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T19:35:00.000Z",
-    "observationTimestamp": "2026-09-18T19:35:00+00:00",
-    "raw": "METAR KD55 181935Z AUTO 18010G19KT 10SM OVC023 21/17 A3012 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "SBCF",
-    "station": "SBCF",
-    "lat": -19.635,
-    "lon": -43.966,
-    "weather": "No coded weather",
-    "temperature": 26.0,
+    "temperature": 18.0,
     "dewpoint": 16.0,
-    "windSpeed": 11.0,
-    "windDirection": 110.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-18T19:00:00.000Z",
     "observationTimestamp": "2026-09-18T19:00:00+00:00",
-    "raw": "METAR SBCF 181900Z 11011KT 9999 SCT040 26/16 Q1023"
+    "raw": "METAR HKEM 181900Z 00000KT 9999 BKN018 18/16"
+  },
+  "randomPlace": {
+    "name": "KFKL",
+    "station": "KFKL",
+    "lat": 41.3805,
+    "lon": -79.8603,
+    "weather": "No coded weather",
+    "temperature": 23.3,
+    "dewpoint": 12.8,
+    "windSpeed": 6.0,
+    "windDirection": 20.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T18:56:00.000Z",
+    "observationTimestamp": "2026-09-18T18:56:00+00:00",
+    "raw": "METAR KFKL 181856Z AUTO 02006KT 10SM FEW042 23/13 A3022 RMK AO2 SLP226 T02330128 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211713252,
-      "display": "8,211,713,252",
+      "value": 8211714431,
+      "display": "8,211,714,431",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T19:37:00Z",
-      "speed": 417.0
+      "time": "2026-09-18T19:49:00Z",
+      "speed": 405.0
     },
     "magneticField": {
-      "time": "2026-09-18T19:40:00Z",
+      "time": "2026-09-18T19:49:00Z",
       "bt": 5.0,
       "bz": -2.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.0
     },
     "aurora": {
-      "value": 21.0,
-      "display": "MAX 21.0%",
+      "value": 22.0,
+      "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T19:40:00Z",
-      "forecastTime": "2026-09-18T20:44:00Z"
+      "observationTime": "2026-09-18T19:43:00Z",
+      "forecastTime": "2026-09-18T20:49:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
