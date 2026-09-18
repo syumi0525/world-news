@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:37:43.726034+00:00",
+  "generatedAt": "2026-09-18T00:52:09.330107+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:PKP PLK SWDR nastawnia CS.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cody3223&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cody3223 (page does not exist)\">Cody3223</a>",
+    "title": "File:Architect Dudok.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stopperspil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stopperspil (page does not exist)\">Stopperspil</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:PKP_PLK_SWDR_nastawnia_CS.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Architect_Dudok.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KIMS",
-    "station": "KIMS",
-    "lat": 38.7515,
-    "lon": -85.4689,
+    "name": "CYXT",
+    "station": "CYXT",
+    "lat": 54.471,
+    "lon": -128.577,
     "weather": "No coded weather",
-    "temperature": 26.5,
-    "dewpoint": 24.6,
-    "windSpeed": 0.0,
+    "temperature": 21.0,
+    "dewpoint": 9.0,
+    "windSpeed": 2.0,
     "windDirection": 0.0,
-    "visibility": "10+",
+    "visibility": "20",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T00:15:00.000Z",
-    "observationTimestamp": "2026-09-18T00:15:00+00:00",
-    "raw": "METAR KIMS 180015Z AUTO 00000KT 10SM CLR 27/25 A3017 RMK AO2 T02650246"
+    "observationTime": "2026-09-18T00:00:00.000Z",
+    "observationTimestamp": "2026-09-18T00:00:00+00:00",
+    "raw": "METAR CYXT 180000Z VRB02KT 20SM FEW040 FEW150 BKN210 21/09 A3010 RMK CU1AC2CI3 CU TR SLP198 DENSITY ALT 1400FT"
   },
   "randomPlace": {
-    "name": "TNCB",
-    "station": "TNCB",
-    "lat": 12.133,
-    "lon": -68.277,
+    "name": "KACQ",
+    "station": "KACQ",
+    "lat": 44.0702,
+    "lon": -93.5535,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 25.0,
-    "windSpeed": 15.0,
-    "windDirection": 90.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-17T23:55:00.000Z",
-    "observationTimestamp": "2026-09-17T23:55:00+00:00",
-    "raw": "METAR TNCB 172355Z 09015KT 9999 FEW017 29/25 Q1011"
+    "temperature": 18.0,
+    "dewpoint": 15.0,
+    "windSpeed": 5.0,
+    "windDirection": 50.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-18T00:35:00.000Z",
+    "observationTimestamp": "2026-09-18T00:35:00+00:00",
+    "raw": "METAR KACQ 180035Z AUTO 05005KT 10SM OVC028 18/15 A3028 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211575502,
-      "display": "8,211,575,502",
+      "value": 8211577224,
+      "display": "8,211,577,224",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T00:29:00Z",
-      "speed": 452.0
+      "time": "2026-09-18T00:41:00Z",
+      "speed": 448.0
     },
     "magneticField": {
-      "time": "2026-09-18T00:29:00Z",
+      "time": "2026-09-18T00:44:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-17T21:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T00:24:00Z",
-      "forecastTime": "2026-09-18T01:24:00Z"
+      "observationTime": "2026-09-18T00:38:00Z",
+      "forecastTime": "2026-09-18T01:39:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
