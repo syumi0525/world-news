@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T07:15:05.374844+00:00",
+  "generatedAt": "2026-09-18T07:30:19.909365+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Candies in water.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Gepsimos\" title=\"User:Gepsimos\">Gepsimos</a>",
+    "title": "File:Basilique de Fourvière à Lyon, vue d'en bas.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PerrineSCDUM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PerrineSCDUM (page does not exist)\">PerrineSCDUM</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Candies_in_water.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_%C3%A0_Lyon%2C_vue_d%27en_bas.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CXIB",
-    "station": "CXIB",
-    "lat": 46.663,
-    "lon": -60.406,
+    "name": "KWYS",
+    "station": "KWYS",
+    "lat": 44.6811,
+    "lon": -111.1245,
     "weather": "No coded weather",
-    "temperature": 10.1,
-    "dewpoint": 9.0,
-    "windSpeed": 1.0,
-    "windDirection": 350.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-18T07:00:00.000Z",
-    "observationTimestamp": "2026-09-18T07:00:00+00:00",
-    "raw": "METAR CXIB 180700Z AUTO 35001KT 10/09 RMK AO1 SLP186 T01010090 58015"
+    "temperature": 9.0,
+    "dewpoint": 8.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T07:15:00.000Z",
+    "observationTimestamp": "2026-09-18T07:15:00+00:00",
+    "raw": "METAR KWYS 180715Z AUTO 00000KT 10SM OVC070 09/08 A3032 RMK AO2"
   },
   "randomPlace": {
-    "name": "EFVA",
-    "station": "EFVA",
-    "lat": 63.051,
-    "lon": 21.762,
+    "name": "RJOR",
+    "station": "RJOR",
+    "lat": 35.53,
+    "lon": 134.165,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 9.0,
-    "windSpeed": 3.0,
-    "windDirection": 140.0,
+    "temperature": 25.0,
+    "dewpoint": 23.0,
+    "windSpeed": 8.0,
+    "windDirection": 20.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T06:50:00.000Z",
-    "observationTimestamp": "2026-09-18T06:50:00+00:00",
-    "raw": "METAR EFVA 180650Z AUTO 14003KT 9999 FEW002 10/09 Q0997"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-18T07:00:00.000Z",
+    "observationTimestamp": "2026-09-18T07:00:00+00:00",
+    "raw": "METAR RJOR 180700Z 02008KT 9999 FEW010 SCT025 BKN030 25/23 Q1018"
   },
   "globalPulse": {
     "population": {
-      "value": 8211623069,
-      "display": "8,211,623,069",
+      "value": 8211624890,
+      "display": "8,211,624,890",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T07:07:00Z",
-      "speed": 440.0
+      "time": "2026-09-18T07:22:00Z",
+      "speed": 441.0
     },
     "magneticField": {
-      "time": "2026-09-18T07:07:00Z",
+      "time": "2026-09-18T07:22:00Z",
       "bt": 4.0,
       "bz": 2.0
     },
@@ -110,11 +110,11 @@
       "kp": 2.0
     },
     "aurora": {
-      "value": 21.0,
-      "display": "MAX 21.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T07:04:00Z",
-      "forecastTime": "2026-09-18T08:09:00Z"
+      "observationTime": "2026-09-18T07:19:00Z",
+      "forecastTime": "2026-09-18T08:23:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
