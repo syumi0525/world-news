@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T12:42:56.490711+00:00",
+  "generatedAt": "2026-09-18T12:57:25.644080+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ditches, Dust, and Distance - DPLA - 62b7f33dfac43e4f5d60db1effaae5eb.jpg",
-    "artist": "Department of the Interior. Bureau of Indian Affairs. Pierre Agency. 1954-1972",
+    "title": "File:A creek meanders through the maritime forest.jpg",
+    "artist": "Hillebrand Steve, U.S. Fish and Wildlife Service",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ditches%2C_Dust%2C_and_Distance_-_DPLA_-_62b7f33dfac43e4f5d60db1effaae5eb.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_creek_meanders_through_the_maritime_forest.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAPG",
-    "station": "KAPG",
-    "lat": 39.474,
-    "lon": -76.166,
+    "name": "KCPS",
+    "station": "KCPS",
+    "lat": 38.57,
+    "lon": -90.156,
     "weather": "No coded weather",
-    "temperature": 24.2,
+    "temperature": 23.9,
     "dewpoint": 22.8,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T11:55:00.000Z",
-    "observationTimestamp": "2026-09-18T11:55:00+00:00",
-    "raw": "METAR KAPG 181155Z 00000KT 10SM SCT080 SCT200 24/23 A3008 RMK AO2A SLP188 70015 T02420228 10242 20219 52014 $"
+    "observationTime": "2026-09-18T12:53:00.000Z",
+    "observationTimestamp": "2026-09-18T12:53:00+00:00",
+    "raw": "METAR KCPS 181253Z 00000KT 10SM CLR 24/23 A3015 RMK AO2 SLP207 T02390228 $"
   },
   "randomPlace": {
-    "name": "DAOR",
-    "station": "DAOR",
-    "lat": 31.65,
-    "lon": -2.261,
+    "name": "DTNH",
+    "station": "DTNH",
+    "lat": 36.074,
+    "lon": 10.436,
     "weather": "No coded weather",
     "temperature": 30.0,
-    "dewpoint": 7.0,
-    "windSpeed": 3.0,
-    "windDirection": 140.0,
+    "dewpoint": 22.0,
+    "windSpeed": 9.0,
+    "windDirection": 100.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T12:00:00.000Z",
-    "observationTimestamp": "2026-09-18T12:00:00+00:00",
-    "raw": "METAR DAOR 181200Z 14003KT 9999 FEW033 30/07 Q1016"
+    "observationTime": "2026-09-18T12:30:00.000Z",
+    "observationTimestamp": "2026-09-18T12:30:00+00:00",
+    "raw": "METAR DTNH 181230Z 10009KT 070V130 9999 FEW026 30/22 Q1014"
   },
   "globalPulse": {
     "population": {
-      "value": 8211662317,
-      "display": "8,211,662,317",
+      "value": 8211664055,
+      "display": "8,211,664,055",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T12:34:00Z",
+      "time": "2026-09-18T12:46:00Z",
       "speed": 422.0
     },
     "magneticField": {
-      "time": "2026-09-18T12:34:00Z",
+      "time": "2026-09-18T12:46:00Z",
       "bt": 5.0,
-      "bz": 2.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-18T09:00:00",
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T12:28:00Z",
-      "forecastTime": "2026-09-18T13:36:00Z"
+      "observationTime": "2026-09-18T12:43:00Z",
+      "forecastTime": "2026-09-18T13:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
