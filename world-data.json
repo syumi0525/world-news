@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:29:45.063013+00:00",
+  "generatedAt": "2026-09-18T13:44:29.129686+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ausfahrsignal Freiburg Richtung Basel zeigt Fahrt Hp 1 mit Geschwindigkeitsanzeiger Kennziffer 6.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fabi_B%C3%BCKa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fabi BüKa (page does not exist)\">Fabi BüKa</a>",
+    "title": "File:Buna,.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ausfahrsignal_Freiburg_Richtung_Basel_zeigt_Fahrt_Hp_1_mit_Geschwindigkeitsanzeiger_Kennziffer_6.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Buna%2C.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWVF",
-    "station": "CWVF",
-    "lat": 49.106,
-    "lon": -123.303,
+    "name": "YBHM",
+    "station": "YBHM",
+    "lat": -20.357,
+    "lon": 148.949,
     "weather": "No coded weather",
-    "temperature": 14.9,
-    "dewpoint": 13.5,
-    "windSpeed": 11.0,
-    "windDirection": 300.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-18T13:00:00.000Z",
-    "observationTimestamp": "2026-09-18T13:00:00+00:00",
-    "raw": "METAR CWVF 181300Z AUTO 30011KT 15/14 RMK AO1 T01490135"
-  },
-  "randomPlace": {
-    "name": "EHMG",
-    "station": "EHMG",
-    "lat": 53.614,
-    "lon": 4.96,
-    "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 10.0,
-    "windSpeed": 21.0,
-    "windDirection": 250.0,
+    "temperature": 21.0,
+    "dewpoint": 13.0,
+    "windSpeed": 19.0,
+    "windDirection": 120.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T12:55:00.000Z",
-    "observationTimestamp": "2026-09-18T12:55:00+00:00",
-    "raw": "METAR EHMG 181255Z AUTO 25021KT 9999 FEW028 17/10 Q1012 W///H///"
+    "observationTime": "2026-09-18T13:30:00.000Z",
+    "observationTimestamp": "2026-09-18T13:30:00+00:00",
+    "raw": "METAR YBHM 181330Z AUTO 12019KT 9999 // NCD 21/13 Q1026"
+  },
+  "randomPlace": {
+    "name": "MPPA",
+    "station": "MPPA",
+    "lat": 8.909,
+    "lon": -79.597,
+    "weather": "No coded weather",
+    "temperature": 29.0,
+    "dewpoint": 25.0,
+    "windSpeed": 9.0,
+    "windDirection": 350.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T13:00:00.000Z",
+    "observationTimestamp": "2026-09-18T13:00:00+00:00",
+    "raw": "METAR MPPA 181300Z 35009KT 330V050 9999 FEW018 29/25 Q1010"
   },
   "globalPulse": {
     "population": {
-      "value": 8211667920,
-      "display": "8,211,667,920",
+      "value": 8211669688,
+      "display": "8,211,669,688",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T13:20:00Z",
-      "speed": 412.0
+      "time": "2026-09-18T13:38:00Z",
+      "speed": 419.0
     },
     "magneticField": {
-      "time": "2026-09-18T13:20:00Z",
-      "bt": 5.0,
-      "bz": 2.0
+      "time": "2026-09-18T13:38:00Z",
+      "bt": 4.0,
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-18T09:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T13:20:00Z",
-      "forecastTime": "2026-09-18T14:24:00Z"
+      "observationTime": "2026-09-18T13:35:00Z",
+      "forecastTime": "2026-09-18T14:39:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
