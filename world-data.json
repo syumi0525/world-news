@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T17:57:42.064352+00:00",
+  "generatedAt": "2026-09-18T18:16:05.248048+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 183933 Gartenanlage Schätzl-Villa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
-    "license": "CC0",
+    "title": "File:AuditorioITA.JPG",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Berpasan\" class=\"extiw\" title=\"w:User:Berpasan\">Berpasan</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Berpasan\" class=\"extiw\" title=\"w:User talk:Berpasan\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Berpasan\" class=\"extiw\" title=\"w:Special:ListFiles/Berpasan\">Uploads</a>)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_183933_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AuditorioITA.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K41U",
-    "station": "K41U",
-    "lat": 39.3323,
-    "lon": -111.6141,
+    "name": "ENST",
+    "station": "ENST",
+    "lat": 65.961,
+    "lon": 12.472,
     "weather": "No coded weather",
-    "temperature": 23.5,
-    "dewpoint": 12.9,
-    "windSpeed": 10.0,
-    "windDirection": 210.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T17:35:00.000Z",
-    "observationTimestamp": "2026-09-18T17:35:00+00:00",
-    "raw": "METAR K41U 181735Z AUTO 21010KT 10SM CLR 24/13 A3018 RMK AO1 T02350129"
-  },
-  "randomPlace": {
-    "name": "LGKR",
-    "station": "LGKR",
-    "lat": 39.61,
-    "lon": 19.913,
-    "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 20.0,
-    "windSpeed": 2.0,
-    "windDirection": 220.0,
+    "temperature": 10.0,
+    "dewpoint": 6.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T17:50:00.000Z",
     "observationTimestamp": "2026-09-18T17:50:00+00:00",
-    "raw": "METAR LGKR 181750Z 22002KT 9999 FEW030 26/20 Q1015 NOSIG"
+    "raw": "METAR ENST 181750Z 00000KT CAVOK 10/06 Q0992 RMK WIND 0300FT 08004KT"
+  },
+  "randomPlace": {
+    "name": "CXNP",
+    "station": "CXNP",
+    "lat": 45.76,
+    "lon": -64.241,
+    "weather": "No coded weather",
+    "temperature": 19.6,
+    "dewpoint": 16.0,
+    "windSpeed": 9.0,
+    "windDirection": 230.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-18T18:00:00.000Z",
+    "observationTimestamp": "2026-09-18T18:00:00+00:00",
+    "raw": "METAR CXNP 181800Z AUTO 23009KT 20/16 RMK AO1 8022 SLP093 T01960160 50021"
   },
   "globalPulse": {
     "population": {
-      "value": 8211700024,
-      "display": "8,211,700,024",
+      "value": 8211702218,
+      "display": "8,211,702,218",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-18T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.7,
-      "display": "Kp 0.7",
+      "value": 1.0,
+      "display": "Kp 1.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-18T12:00:00"
+      "time": "2026-09-18T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T17:50:00Z",
-      "speed": 406.0
+      "time": "2026-09-18T18:06:00Z",
+      "speed": 416.0
     },
     "magneticField": {
-      "time": "2026-09-18T17:50:00Z",
+      "time": "2026-09-18T18:06:00Z",
       "bt": 5.0,
-      "bz": -2.0
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-09-18T12:00:00",
-      "kp": 0.67
+      "time": "2026-09-18T15:00:00",
+      "kp": 1.0
     },
     "aurora": {
-      "value": 11.0,
-      "display": "MAX 11.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T17:43:00Z",
-      "forecastTime": "2026-09-18T18:50:00Z"
+      "observationTime": "2026-09-18T18:04:00Z",
+      "forecastTime": "2026-09-18T19:10:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
