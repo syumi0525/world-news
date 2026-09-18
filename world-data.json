@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T10:54:52.510097+00:00",
+  "generatedAt": "2026-09-18T11:09:01.797201+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A good view of the beach cliffs.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
+    "title": "File:Table of Schedule of Soerabaja-Malang train.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:JohanSpoorlijn\" title=\"User:JohanSpoorlijn\">JohanSpoorlijn</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Table_of_Schedule_of_Soerabaja-Malang_train.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RJCO",
-    "station": "RJCO",
-    "lat": 43.117,
-    "lon": 141.381,
+    "name": "LFST",
+    "station": "LFST",
+    "lat": 48.549,
+    "lon": 7.64,
     "weather": "No coded weather",
-    "temperature": 20.0,
+    "temperature": 18.0,
     "dewpoint": 13.0,
-    "windSpeed": 4.0,
-    "windDirection": 330.0,
+    "windSpeed": 7.0,
+    "windDirection": 290.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T10:00:00.000Z",
-    "observationTimestamp": "2026-09-18T10:00:00+00:00",
-    "raw": "METAR RJCO 181000Z 33004KT 9999 FEW030 20/13 Q1026"
+    "observationTime": "2026-09-18T11:00:00.000Z",
+    "observationTimestamp": "2026-09-18T11:00:00+00:00",
+    "raw": "METAR LFST 181100Z AUTO 29007KT 9999 FEW034 BKN042 OVC049 18/13 Q1018 NOSIG"
   },
   "randomPlace": {
-    "name": "SBHT",
-    "station": "SBHT",
-    "lat": -3.251,
-    "lon": -52.252,
+    "name": "KECG",
+    "station": "KECG",
+    "lat": 36.2572,
+    "lon": -76.1716,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 24.0,
-    "windSpeed": 4.0,
-    "windDirection": 70.0,
-    "visibility": "6+",
+    "temperature": 22.2,
+    "dewpoint": 19.4,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T10:00:00.000Z",
-    "observationTimestamp": "2026-09-18T10:00:00+00:00",
-    "raw": "METAR SBHT 181000Z 07004KT 9999 SCT015 26/24 Q1015"
+    "observationTime": "2026-09-18T10:54:00.000Z",
+    "observationTimestamp": "2026-09-18T10:54:00+00:00",
+    "raw": "METAR KECG 181054Z 10SM OVC075 22/19 A3009 RMK AO2 SLP189 T02220194"
   },
   "globalPulse": {
     "population": {
-      "value": 8211649404,
-      "display": "8,211,649,404",
+      "value": 8211651096,
+      "display": "8,211,651,096",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T10:46:00Z",
-      "speed": 427.0
+      "time": "2026-09-18T10:59:00Z",
+      "speed": 420.0
     },
     "magneticField": {
-      "time": "2026-09-18T10:46:00Z",
+      "time": "2026-09-18T10:59:00Z",
       "bt": 5.0,
-      "bz": 1.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-18T06:00:00",
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T10:43:00Z",
-      "forecastTime": "2026-09-18T11:48:00Z"
+      "observationTime": "2026-09-18T10:59:00Z",
+      "forecastTime": "2026-09-18T12:03:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
