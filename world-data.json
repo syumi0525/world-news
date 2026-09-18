@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:08:50.238806+00:00",
+  "generatedAt": "2026-09-18T16:23:31.623177+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Mother Nature 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
+    "title": "File:Cia Gould 2015 (Unsplash).jpg",
+    "artist": "Cia Gould <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@ciagould\">ciagould</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cia_Gould_2015_%28Unsplash%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "DXSK",
-    "station": "DXSK",
-    "lat": 8.995,
-    "lon": 1.153,
-    "weather": "TS",
-    "temperature": 27.0,
-    "dewpoint": 23.0,
-    "windSpeed": 4.0,
-    "windDirection": 320.0,
-    "visibility": "6+",
+    "name": "KGAI",
+    "station": "KGAI",
+    "lat": 39.1696,
+    "lon": -77.1653,
+    "weather": "No coded weather",
+    "temperature": 27.2,
+    "dewpoint": 22.2,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T15:00:00.000Z",
-    "observationTimestamp": "2026-09-18T15:00:00+00:00",
-    "raw": "METAR DXSK 181500Z 32004KT 9999 TS FEW020CB SCT016 SCT120 BKN260 27/23 Q////"
+    "observationTime": "2026-09-18T15:56:00.000Z",
+    "observationTimestamp": "2026-09-18T15:56:00+00:00",
+    "raw": "METAR KGAI 181556Z AUTO 00000KT 10SM SCT030 BKN036 BKN047 27/22 A3014 RMK AO2 SLP214 T02720222"
   },
   "randomPlace": {
-    "name": "KPIR",
-    "station": "KPIR",
-    "lat": 44.3819,
-    "lon": -100.2864,
-    "weather": "BR",
-    "temperature": 16.7,
-    "dewpoint": 16.7,
-    "windSpeed": 8.0,
-    "windDirection": 90.0,
-    "visibility": "3",
+    "name": "EGNO",
+    "station": "EGNO",
+    "lat": 53.746,
+    "lon": -2.889,
+    "weather": "RA",
+    "temperature": 13.0,
+    "dewpoint": 12.0,
+    "windSpeed": 12.0,
+    "windDirection": 220.0,
+    "visibility": "2.17",
     "flightCategory": "LIFR",
-    "observationTime": "2026-09-18T15:53:00.000Z",
-    "observationTimestamp": "2026-09-18T15:53:00+00:00",
-    "raw": "METAR KPIR 181553Z AUTO 09008KT 3SM BR OVC003 17/17 A3001 RMK AO2 SLP158 T01670167"
+    "observationTime": "2026-09-18T15:50:00.000Z",
+    "observationTimestamp": "2026-09-18T15:50:00+00:00",
+    "raw": "METAR EGNO 181550Z 22012KT 190V250 3500 RA BKN004 13/12 Q1006"
   },
   "globalPulse": {
     "population": {
-      "value": 8211686987,
-      "display": "8,211,686,987",
+      "value": 8211688747,
+      "display": "8,211,688,747",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T16:00:00Z",
-      "speed": 420.0
+      "time": "2026-09-18T16:12:00Z",
+      "speed": 419.0
     },
     "magneticField": {
-      "time": "2026-09-18T16:00:00Z",
-      "bt": 4.0,
-      "bz": 1.0
+      "time": "2026-09-18T16:12:00Z",
+      "bt": 5.0,
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-18T12:00:00",
@@ -113,8 +113,8 @@
       "value": 10.0,
       "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T16:00:00Z",
-      "forecastTime": "2026-09-18T17:03:00Z"
+      "observationTime": "2026-09-18T16:09:00Z",
+      "forecastTime": "2026-09-18T17:13:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
