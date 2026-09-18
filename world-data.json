@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T06:43:18.757678+00:00",
+  "generatedAt": "2026-09-18T06:58:16.343234+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Explanation of axle arrangement.jpg",
-    "artist": "Illustrierte Technik für Jedermann",
-    "license": "Public domain",
+    "title": "File:Am Ludwigskanal bei Schwarzenbruck.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peukerthomas1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peukerthomas1 (page does not exist)\">Peukerthomas1</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Explanation_of_axle_arrangement.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Am_Ludwigskanal_bei_Schwarzenbruck.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "NFTL",
-    "station": "NFTL",
-    "lat": -19.777,
-    "lon": -174.34,
+    "name": "KGUS",
+    "station": "KGUS",
+    "lat": 40.6375,
+    "lon": -86.1631,
     "weather": "No coded weather",
     "temperature": 23.0,
-    "dewpoint": 18.0,
-    "windSpeed": 9.0,
-    "windDirection": 90.0,
+    "dewpoint": 22.0,
+    "windSpeed": 7.0,
+    "windDirection": 40.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T06:45:00.000Z",
+    "observationTimestamp": "2026-09-18T06:45:00+00:00",
+    "raw": "SPECI KGUS 180645Z AUTO 04007KT 10SM SCT024 OVC031 23/22 A3016 RMK AO2 LTG DSNT S-SW SLP209 TSNO $"
+  },
+  "randomPlace": {
+    "name": "NVSG",
+    "station": "NVSG",
+    "lat": -15.305,
+    "lon": 167.969,
+    "weather": "No coded weather",
+    "temperature": 26.0,
+    "dewpoint": 17.0,
+    "windSpeed": 11.0,
+    "windDirection": 170.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T06:00:00.000Z",
     "observationTimestamp": "2026-09-18T06:00:00+00:00",
-    "raw": "METAR NFTL 180600Z 09009KT 9999 FEW016 23/18 Q1013"
-  },
-  "randomPlace": {
-    "name": "VABO",
-    "station": "VABO",
-    "lat": 22.333,
-    "lon": 73.225,
-    "weather": "BR",
-    "temperature": 24.0,
-    "dewpoint": 23.0,
-    "windSpeed": 3.0,
-    "windDirection": 340.0,
-    "visibility": "1.86",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-18T06:30:00.000Z",
-    "observationTimestamp": "2026-09-18T06:30:00+00:00",
-    "raw": "METAR VABO 180630Z 34003KT 3000 BR FEW015 SCT020 BKN080 24/23 Q1009 NOSIG"
+    "raw": "METAR NVSG 180600Z 17011KT 9999 SCT020 26/17 Q////"
   },
   "globalPulse": {
     "population": {
-      "value": 8211619260,
-      "display": "8,211,619,260",
+      "value": 8211621044,
+      "display": "8,211,621,044",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T06:35:00Z",
-      "speed": 422.0
+      "time": "2026-09-18T06:50:00Z",
+      "speed": 419.0
     },
     "magneticField": {
-      "time": "2026-09-18T06:35:00Z",
+      "time": "2026-09-18T06:47:00Z",
       "bt": 5.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 2.0
     },
     "aurora": {
-      "value": 23.0,
-      "display": "MAX 23.0%",
+      "value": 22.0,
+      "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T06:32:00Z",
-      "forecastTime": "2026-09-18T07:38:00Z"
+      "observationTime": "2026-09-18T06:50:00Z",
+      "forecastTime": "2026-09-18T07:53:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
