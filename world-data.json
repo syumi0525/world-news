@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T23:37:02.563285+00:00",
+  "generatedAt": "2026-09-18T23:46:46.416394+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Mother Nature 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
-    "license": "CC0",
+    "title": "File:I will meet you at the depot A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EETN",
-    "station": "EETN",
-    "lat": 59.413,
-    "lon": 24.801,
+    "name": "KCVG",
+    "station": "KCVG",
+    "lat": 39.0444,
+    "lon": -84.6724,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 13.0,
-    "windSpeed": 10.0,
-    "windDirection": 210.0,
-    "visibility": "6+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-18T23:20:00.000Z",
-    "observationTimestamp": "2026-09-18T23:20:00+00:00",
-    "raw": "METAR EETN 182320Z 21010KT 9999 BKN007 14/13 Q1004"
+    "temperature": 25.6,
+    "dewpoint": 20.6,
+    "windSpeed": 8.0,
+    "windDirection": 40.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T22:52:00.000Z",
+    "observationTimestamp": "2026-09-18T22:52:00+00:00",
+    "raw": "METAR KCVG 182252Z 04008KT 10SM FEW020 SCT026 SCT038 26/21 A3012 RMK AO2 SLP190 T02560206"
   },
   "randomPlace": {
-    "name": "ESTL",
-    "station": "ESTL",
-    "lat": 56.083,
-    "lon": 13.213,
-    "weather": "-RA",
-    "temperature": 14.0,
-    "dewpoint": 12.0,
-    "windSpeed": 7.0,
-    "windDirection": 220.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T23:20:00.000Z",
-    "observationTimestamp": "2026-09-18T23:20:00+00:00",
-    "raw": "METAR ESTL 182320Z AUTO 22007KT 9999 -RA FEW009/// SCT022/// BKN032/// 14/12 Q1010 REDZ"
+    "name": "CWHO",
+    "station": "CWHO",
+    "lat": 55.448,
+    "lon": -60.23,
+    "weather": "No coded weather",
+    "temperature": 7.9,
+    "dewpoint": 1.6,
+    "windSpeed": 6.0,
+    "windDirection": 0.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-18T23:00:00.000Z",
+    "observationTimestamp": "2026-09-18T23:00:00+00:00",
+    "raw": "METAR CWHO 182300Z AUTO 00006KT 08/02 RMK AO1 SLP096 T00790016 53009"
   },
   "globalPulse": {
     "population": {
-      "value": 8211740649,
-      "display": "8,211,740,649",
+      "value": 8211741804,
+      "display": "8,211,741,804",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T23:29:00Z",
-      "speed": 416.0
+      "time": "2026-09-18T23:38:00Z",
+      "speed": 420.0
     },
     "magneticField": {
-      "time": "2026-09-18T23:26:00Z",
-      "bt": 4.0,
+      "time": "2026-09-18T23:38:00Z",
+      "bt": 5.0,
       "bz": -4.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T23:29:00Z",
-      "forecastTime": "2026-09-19T00:35:00Z"
+      "observationTime": "2026-09-18T23:35:00Z",
+      "forecastTime": "2026-09-19T00:40:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
