@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T10:12:57.855799+00:00",
+  "generatedAt": "2026-09-18T10:30:01.909188+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Alisher Navoiy garden.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Behruznurullayevv\" title=\"User:Behruznurullayevv\">Behruznurullayevv</a>",
+    "title": "File:Nilüfer kanak köprüsü.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Alisher_Navoiy_garden.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KNHK",
-    "station": "KNHK",
-    "lat": 38.284,
-    "lon": -76.408,
-    "weather": "No coded weather",
-    "temperature": 22.2,
-    "dewpoint": 21.7,
-    "windSpeed": 4.0,
-    "windDirection": 270.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T09:52:00.000Z",
-    "observationTimestamp": "2026-09-18T09:52:00+00:00",
-    "raw": "METAR KNHK 180952Z 27004KT 10SM FEW080 22/22 A3006 RMK AO2 SLP178 T02220217 $"
-  },
-  "randomPlace": {
-    "name": "OIZH",
-    "station": "OIZH",
-    "lat": 29.472,
-    "lon": 60.901,
-    "weather": "No coded weather",
-    "temperature": 34.0,
-    "dewpoint": -2.0,
-    "windSpeed": 4.0,
-    "windDirection": 50.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
+    "name": "CBBC",
+    "station": "CBBC",
+    "lat": 52.181,
+    "lon": -128.154,
+    "weather": "FG",
+    "temperature": 10.0,
+    "dewpoint": 10.0,
+    "windSpeed": 5.0,
+    "windDirection": 170.0,
+    "visibility": "0.38",
+    "flightCategory": "LIFR",
     "observationTime": "2026-09-18T10:00:00.000Z",
     "observationTimestamp": "2026-09-18T10:00:00+00:00",
-    "raw": "METAR OIZH 181000Z 05004KT 310V110 CAVOK 34/M02 Q1016 A3000 NOSIG"
+    "raw": "METAR CBBC 181000Z AUTO 17005KT 3/8SM FG VV002 10/10 A3013 RMK SLP206"
+  },
+  "randomPlace": {
+    "name": "DAUA",
+    "station": "DAUA",
+    "lat": 27.839,
+    "lon": -0.186,
+    "weather": "No coded weather",
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 5.0,
+    "windDirection": 60.0,
+    "visibility": "4.35",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-18T10:00:00.000Z",
+    "observationTimestamp": "2026-09-18T10:00:00+00:00",
+    "raw": "METAR DAUA 181000Z 06005KT 7000 SCT046 SCT133 33/// Q1011"
   },
   "globalPulse": {
     "population": {
-      "value": 8211644382,
-      "display": "8,211,644,382",
+      "value": 8211646429,
+      "display": "8,211,646,429",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T10:04:00Z",
-      "speed": 449.0
+      "time": "2026-09-18T10:22:00Z",
+      "speed": 425.0
     },
     "magneticField": {
-      "time": "2026-09-18T10:04:00Z",
-      "bt": 4.0,
+      "time": "2026-09-18T10:22:00Z",
+      "bt": 5.0,
       "bz": 1.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T09:58:00Z",
-      "forecastTime": "2026-09-18T11:03:00Z"
+      "observationTime": "2026-09-18T10:19:00Z",
+      "forecastTime": "2026-09-18T11:23:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
