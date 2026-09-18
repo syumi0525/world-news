@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:55:50.669590+00:00",
+  "generatedAt": "2026-09-18T14:10:24.334963+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 05.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:Mother Nature 2026.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_05.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KYIP",
-    "station": "KYIP",
-    "lat": 42.242,
-    "lon": -83.5214,
+    "name": "KFLL",
+    "station": "KFLL",
+    "lat": 26.0787,
+    "lon": -80.1622,
     "weather": "No coded weather",
-    "temperature": 16.1,
-    "dewpoint": 11.7,
-    "windSpeed": 5.0,
-    "windDirection": 20.0,
+    "temperature": 28.9,
+    "dewpoint": 24.4,
+    "windSpeed": 3.0,
+    "windDirection": 40.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T12:53:00.000Z",
-    "observationTimestamp": "2026-09-18T12:53:00+00:00",
-    "raw": "METAR KYIP 181253Z 02005KT 10SM CLR 16/12 A3030 RMK AO2 SLP256 T01610117"
+    "observationTime": "2026-09-18T13:53:00.000Z",
+    "observationTimestamp": "2026-09-18T13:53:00+00:00",
+    "raw": "METAR KFLL 181353Z 04003KT 10SM FEW030 FEW250 29/24 A3003 RMK AO2 SLP168 T02890244"
   },
   "randomPlace": {
-    "name": "KULM",
-    "station": "KULM",
-    "lat": 44.3227,
-    "lon": -94.5024,
-    "weather": "-RA",
-    "temperature": 17.0,
-    "dewpoint": 17.0,
+    "name": "K1LN",
+    "station": "K1LN",
+    "lat": 48.79,
+    "lon": -102.27,
+    "weather": "No coded weather",
+    "temperature": 14.5,
+    "dewpoint": 13.7,
     "windSpeed": 9.0,
-    "windDirection": 120.0,
+    "windDirection": 130.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T13:35:00.000Z",
-    "observationTimestamp": "2026-09-18T13:35:00+00:00",
-    "raw": "METAR KULM 181335Z AUTO 12009KT 10SM -RA BKN015 BKN028 OVC070 17/17 A3021 RMK AO2"
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-18T13:55:00.000Z",
+    "observationTimestamp": "2026-09-18T13:55:00+00:00",
+    "raw": "METAR K1LN 181355Z AUTO 13009KT 10SM OVC009 15/14 A3008 RMK AO2 SLP192 T01450137 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211671049,
-      "display": "8,211,671,049",
+      "value": 8211672781,
+      "display": "8,211,672,781",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T13:47:00Z",
-      "speed": 425.0
+      "time": "2026-09-18T14:02:00Z",
+      "speed": 423.0
     },
     "magneticField": {
-      "time": "2026-09-18T13:47:00Z",
+      "time": "2026-09-18T14:02:00Z",
       "bt": 4.0,
-      "bz": 3.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-18T09:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T13:44:00Z",
-      "forecastTime": "2026-09-18T14:50:00Z"
+      "observationTime": "2026-09-18T13:59:00Z",
+      "forecastTime": "2026-09-18T15:04:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
