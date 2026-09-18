@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:42:24.536130+00:00",
+  "generatedAt": "2026-09-18T20:55:09.189923+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 07.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
-    "license": "CC0",
+    "title": "File:Created for the National Natural landmarks Program by Dennis Caldwell, caldwell-design.com (b824c582-b833-40d1-ba54-ea580db40bbb).jpg",
+    "artist": "National Park Service",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_07.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Created_for_the_National_Natural_landmarks_Program_by_Dennis_Caldwell%2C_caldwell-design.com_%28b824c582-b833-40d1-ba54-ea580db40bbb%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAIO",
-    "station": "KAIO",
-    "lat": 41.4059,
-    "lon": -95.0465,
+    "name": "KARM",
+    "station": "KARM",
+    "lat": 29.2515,
+    "lon": -96.1508,
     "weather": "No coded weather",
-    "temperature": 34.0,
-    "dewpoint": 22.0,
-    "windSpeed": 14.0,
-    "windDirection": 210.0,
+    "temperature": 35.0,
+    "dewpoint": 19.7,
+    "windSpeed": 13.0,
+    "windDirection": 60.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T20:35:00.000Z",
     "observationTimestamp": "2026-09-18T20:35:00+00:00",
-    "raw": "METAR KAIO 182035Z AUTO 21014G22KT 10SM CLR 34/22 A2993 RMK AO2"
+    "raw": "METAR KARM 182035Z AUTO 06013KT 10SM BKN065 35/20 A3004 RMK AO2 T03500197 TSNO"
   },
   "randomPlace": {
-    "name": "SBPK",
-    "station": "SBPK",
-    "lat": -31.717,
-    "lon": -52.328,
+    "name": "KGUR",
+    "station": "KGUR",
+    "lat": 42.261,
+    "lon": -104.732,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 15.0,
-    "windSpeed": 9.0,
-    "windDirection": 110.0,
-    "visibility": "3.73",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T20:00:00.000Z",
-    "observationTimestamp": "2026-09-18T20:00:00+00:00",
-    "raw": "METAR SBPK 182000Z 11009KT 6000 SCT014 18/15 Q1022"
+    "temperature": 27.8,
+    "dewpoint": 13.7,
+    "windSpeed": 3.0,
+    "windDirection": 100.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T19:55:00.000Z",
+    "observationTimestamp": "2026-09-18T19:55:00+00:00",
+    "raw": "METAR KGUR 181955Z AUTO 10003KT 10SM FEW290 FEW320 28/14 A3009 RMK AO2 SLP164 T02780137"
   },
   "globalPulse": {
     "population": {
-      "value": 8211719739,
-      "display": "8,211,719,739",
+      "value": 8211721263,
+      "display": "8,211,721,263",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T20:34:00Z",
-      "speed": 402.0
+      "time": "2026-09-18T20:46:00Z",
+      "speed": 409.0
     },
     "magneticField": {
-      "time": "2026-09-18T20:34:00Z",
+      "time": "2026-09-18T20:46:00Z",
       "bt": 5.0,
       "bz": 0.0
     },
@@ -113,12 +113,12 @@
       "value": 22.0,
       "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T20:28:00Z",
-      "forecastTime": "2026-09-18T21:37:00Z"
+      "observationTime": "2026-09-18T20:43:00Z",
+      "forecastTime": "2026-09-18T21:52:00Z"
     },
     "flux10cm": {
-      "time": "2026-09-17T20:00:00",
-      "flux": 97.0
+      "time": "2026-09-18T20:00:00",
+      "flux": 96.0
     }
   }
 }
