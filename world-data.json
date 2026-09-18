@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T18:32:38.166126+00:00",
+  "generatedAt": "2026-09-18T18:47:15.665035+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 102058 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
-    "license": "CC0",
+    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
+    "artist": "Ferrovia Mesolcinese",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_102058_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBIV",
-    "station": "KBIV",
-    "lat": 42.7463,
-    "lon": -86.0968,
+    "name": "KRTS",
+    "station": "KRTS",
+    "lat": 39.6658,
+    "lon": -119.8731,
     "weather": "No coded weather",
-    "temperature": 21.7,
-    "dewpoint": 12.2,
-    "windSpeed": null,
-    "windDirection": null,
+    "temperature": 17.0,
+    "dewpoint": 0.0,
+    "windSpeed": 5.0,
+    "windDirection": 30.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T17:53:00.000Z",
-    "observationTimestamp": "2026-09-18T17:53:00+00:00",
-    "raw": "METAR KBIV 181753Z AUTO 10SM CLR 22/12 A3031 RMK AO2 SLP261 T02170122 10217 20139 58006"
+    "observationTime": "2026-09-18T18:35:00.000Z",
+    "observationTimestamp": "2026-09-18T18:35:00+00:00",
+    "raw": "METAR KRTS 181835Z AUTO 03005G11KT 10SM CLR 17/00 A3025 RMK AO2"
   },
   "randomPlace": {
-    "name": "CYCB",
-    "station": "CYCB",
-    "lat": 69.106,
-    "lon": -105.116,
-    "weather": "VCSH",
-    "temperature": 2.0,
-    "dewpoint": 1.0,
-    "windSpeed": 15.0,
-    "windDirection": 300.0,
-    "visibility": "12",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-18T18:00:00.000Z",
-    "observationTimestamp": "2026-09-18T18:00:00+00:00",
-    "raw": "METAR CYCB 181800Z 30015KT 12SM VCSH BKN008 02/01 A2983 RMK SC7 CU EMBD CIG RAG SLP107"
+    "name": "EDNY",
+    "station": "EDNY",
+    "lat": 47.671,
+    "lon": 9.511,
+    "weather": "No coded weather",
+    "temperature": 16.0,
+    "dewpoint": 11.0,
+    "windSpeed": 1.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T18:20:00.000Z",
+    "observationTimestamp": "2026-09-18T18:20:00+00:00",
+    "raw": "METAR EDNY 181820Z VRB01KT CAVOK 16/11 Q1019"
   },
   "globalPulse": {
     "population": {
-      "value": 8211704204,
-      "display": "8,211,704,204",
+      "value": 8211705956,
+      "display": "8,211,705,956",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T18:21:00Z",
-      "speed": 412.0
+      "time": "2026-09-18T18:39:00Z",
+      "speed": 428.0
     },
     "magneticField": {
-      "time": "2026-09-18T18:24:00Z",
+      "time": "2026-09-18T18:39:00Z",
       "bt": 5.0,
-      "bz": -3.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-18T15:00:00",
       "kp": 1.0
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T18:24:00Z",
-      "forecastTime": "2026-09-18T19:30:00Z"
+      "observationTime": "2026-09-18T18:33:00Z",
+      "forecastTime": "2026-09-18T19:40:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
