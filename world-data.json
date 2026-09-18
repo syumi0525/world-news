@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:38:58.393925+00:00",
+  "generatedAt": "2026-09-18T16:49:32.675065+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20140907 114910 Jpg (218976057).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
+    "title": "File:Foto Oaxaca.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%ADvia_Maria_Rocha&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lívia Maria Rocha (page does not exist)\">Lívia Maria Rocha</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Foto_Oaxaca.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KEVW",
-    "station": "KEVW",
-    "lat": 41.2727,
-    "lon": -111.0305,
-    "weather": "RA BR",
-    "temperature": 10.0,
-    "dewpoint": 8.9,
-    "windSpeed": 9.0,
-    "windDirection": 210.0,
-    "visibility": "3",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T16:19:00.000Z",
-    "observationTimestamp": "2026-09-18T16:19:00+00:00",
-    "raw": "SPECI KEVW 181619Z AUTO 21009KT 3SM RA BR OVC060 10/09 A3034 RMK AO2 LTG DSNT SE-SW P0006 T01000089"
+    "name": "ESGT",
+    "station": "ESGT",
+    "lat": 58.314,
+    "lon": 12.347,
+    "weather": "No coded weather",
+    "temperature": 14.0,
+    "dewpoint": 9.0,
+    "windSpeed": 13.0,
+    "windDirection": 230.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T16:20:00.000Z",
+    "observationTimestamp": "2026-09-18T16:20:00+00:00",
+    "raw": "METAR ESGT 181620Z AUTO 23013KT 200V260 9999 SCT035/// 14/09 Q1002"
   },
   "randomPlace": {
-    "name": "KDYS",
-    "station": "KDYS",
-    "lat": 32.406,
-    "lon": -99.85,
+    "name": "LFMC",
+    "station": "LFMC",
+    "lat": 43.383,
+    "lon": 6.386,
     "weather": "No coded weather",
-    "temperature": 30.9,
-    "dewpoint": 16.8,
+    "temperature": 27.0,
+    "dewpoint": 10.0,
     "windSpeed": 10.0,
-    "windDirection": 190.0,
-    "visibility": "10+",
+    "windDirection": 110.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T15:55:00.000Z",
-    "observationTimestamp": "2026-09-18T15:55:00+00:00",
-    "raw": "METAR KDYS 181555Z AUTO 19010KT 10SM CLR 31/17 A3017 RMK AO2 SLP186 T03090168"
+    "observationTime": "2026-09-18T16:30:00.000Z",
+    "observationTimestamp": "2026-09-18T16:30:00+00:00",
+    "raw": "METAR LFMC 181630Z AUTO 11010KT CAVOK 27/10 Q1013"
   },
   "globalPulse": {
     "population": {
-      "value": 8211690598,
-      "display": "8,211,690,598",
+      "value": 8211691861,
+      "display": "8,211,691,861",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T16:32:00Z",
+      "time": "2026-09-18T16:40:00Z",
       "speed": 415.0
     },
     "magneticField": {
-      "time": "2026-09-18T16:32:00Z",
+      "time": "2026-09-18T16:40:00Z",
       "bt": 5.0,
       "bz": -3.0
     },
@@ -113,8 +113,8 @@
       "value": 10.0,
       "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T16:28:00Z",
-      "forecastTime": "2026-09-18T17:34:00Z"
+      "observationTime": "2026-09-18T16:40:00Z",
+      "forecastTime": "2026-09-18T17:45:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
