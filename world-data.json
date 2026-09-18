@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T02:16:40.543706+00:00",
+  "generatedAt": "2026-09-18T02:32:39.204298+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Danau Tigi - Deiyai.jpg",
-    "artist": "Government of Deiyai, Indonesia",
-    "license": "Public domain",
+    "title": "File:Chirchiq kanali 01.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sevindikovna_Feruza&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sevindikovna Feruza (page does not exist)\">Sevindikovna Feruza</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chirchiq_kanali_01.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHOT",
-    "station": "KHOT",
-    "lat": 34.4755,
-    "lon": -93.1041,
+    "name": "KPTN",
+    "station": "KPTN",
+    "lat": 29.71,
+    "lon": -91.3381,
     "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 20.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 26.1,
+    "dewpoint": 24.4,
+    "windSpeed": 3.0,
+    "windDirection": 100.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T01:53:00.000Z",
-    "observationTimestamp": "2026-09-18T01:53:00+00:00",
-    "raw": "METAR KHOT 180153Z AUTO 00000KT 10SM CLR 30/20 A3018 RMK AO2 SLP210 T03000200 $"
+    "observationTime": "2026-09-18T01:56:00.000Z",
+    "observationTimestamp": "2026-09-18T01:56:00+00:00",
+    "raw": "METAR KPTN 180156Z AUTO 10003KT 10SM CLR 26/24 A3018 RMK AO2 SLP220 T02610244 $"
   },
   "randomPlace": {
-    "name": "CXWB",
-    "station": "CXWB",
-    "lat": 65.879,
-    "lon": -89.446,
+    "name": "PHNG",
+    "station": "PHNG",
+    "lat": 21.45,
+    "lon": -157.763,
     "weather": "No coded weather",
-    "temperature": 2.7,
-    "dewpoint": -0.2,
-    "windSpeed": 7.0,
-    "windDirection": 300.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-18T01:00:00.000Z",
-    "observationTimestamp": "2026-09-18T01:00:00+00:00",
-    "raw": "METAR CXWB 180100Z AUTO 30007KT 03/M00 RMK AO1 SLP154 T00271002 53001"
+    "temperature": 27.2,
+    "dewpoint": 24.4,
+    "windSpeed": 11.0,
+    "windDirection": 70.0,
+    "visibility": "7",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-18T01:57:00.000Z",
+    "observationTimestamp": "2026-09-18T01:57:00+00:00",
+    "raw": "METAR PHNG 180157Z 07011G19KT 7SM OVC019 27/24 A2993 RMK AO2 SLP129 T02720244"
   },
   "globalPulse": {
     "population": {
-      "value": 8211587342,
-      "display": "8,211,587,342",
+      "value": 8211589259,
+      "display": "8,211,589,259",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T02:07:00Z",
-      "speed": 447.0
+      "time": "2026-09-18T02:22:00Z",
+      "speed": 450.0
     },
     "magneticField": {
-      "time": "2026-09-18T02:07:00Z",
-      "bt": 5.0,
-      "bz": -2.0
+      "time": "2026-09-18T02:22:00Z",
+      "bt": 4.0,
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-17T21:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 24.0,
-      "display": "MAX 24.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T02:04:00Z",
-      "forecastTime": "2026-09-18T03:05:00Z"
+      "observationTime": "2026-09-18T02:19:00Z",
+      "forecastTime": "2026-09-18T03:20:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
