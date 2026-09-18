@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T21:08:33.118845+00:00",
+  "generatedAt": "2026-09-18T21:22:49.387896+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 13.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:20190415 Yehliu geopark beach-2.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_13.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SPJI",
-    "station": "SPJI",
-    "lat": -7.169,
-    "lon": -76.729,
+    "name": "KBFF",
+    "station": "KBFF",
+    "lat": 41.8747,
+    "lon": -103.6011,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 23.0,
+    "temperature": 29.4,
+    "dewpoint": 11.1,
     "windSpeed": 4.0,
-    "windDirection": 110.0,
-    "visibility": "6+",
+    "windDirection": 280.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T21:00:00.000Z",
-    "observationTimestamp": "2026-09-18T21:00:00+00:00",
-    "raw": "METAR SPJI 182100Z 11004KT 9999 SCT020 OVC070 29/23 Q1015 RMK TX30.2 PP000"
+    "observationTime": "2026-09-18T20:53:00.000Z",
+    "observationTimestamp": "2026-09-18T20:53:00+00:00",
+    "raw": "METAR KBFF 182053Z AUTO 28004KT 10SM CLR 29/11 A3007 RMK AO2 SLP136 T02940111 56018"
   },
   "randomPlace": {
-    "name": "SCGE",
-    "station": "SCGE",
-    "lat": -37.403,
-    "lon": -72.422,
+    "name": "KIFP",
+    "station": "KIFP",
+    "lat": 35.1487,
+    "lon": -114.5611,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 6.0,
-    "windSpeed": 3.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 36.0,
+    "dewpoint": 14.0,
+    "windSpeed": 13.0,
+    "windDirection": 220.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T21:00:00.000Z",
-    "observationTimestamp": "2026-09-18T21:00:00+00:00",
-    "raw": "METAR SCGE 182100Z VRB03KT CAVOK 23/06 Q1013"
+    "observationTime": "2026-09-18T20:47:00.000Z",
+    "observationTimestamp": "2026-09-18T20:47:00+00:00",
+    "raw": "METAR KIFP 182047Z 22013G20KT 10SM CLR 36/14 A2984"
   },
   "globalPulse": {
     "population": {
-      "value": 8211722867,
-      "display": "8,211,722,867",
+      "value": 8211724579,
+      "display": "8,211,724,579",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T20:58:00Z",
-      "speed": 403.0
+      "time": "2026-09-18T21:13:00Z",
+      "speed": 396.0
     },
     "magneticField": {
-      "time": "2026-09-18T20:58:00Z",
+      "time": "2026-09-18T21:13:00Z",
       "bt": 5.0,
-      "bz": 0.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-18T18:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T20:58:00Z",
-      "forecastTime": "2026-09-18T22:07:00Z"
+      "observationTime": "2026-09-18T21:10:00Z",
+      "forecastTime": "2026-09-18T22:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
