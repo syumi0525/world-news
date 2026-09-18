@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:27:16.885874+00:00",
+  "generatedAt": "2026-09-18T08:42:12.974523+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Fusagasugá 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wilferpc&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wilferpc (page does not exist)\">Wilferpc</a>",
+    "title": "File:Mother Nature 2026.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Fusagasug%C3%A1_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYXT",
-    "station": "CYXT",
-    "lat": 54.471,
-    "lon": -128.577,
+    "name": "FAGG",
+    "station": "FAGG",
+    "lat": -34.006,
+    "lon": 22.379,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 9.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "20",
+    "temperature": 15.0,
+    "dewpoint": 10.0,
+    "windSpeed": 17.0,
+    "windDirection": 90.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T08:00:00.000Z",
     "observationTimestamp": "2026-09-18T08:00:00+00:00",
-    "raw": "METAR CYXT 180800Z 00000KT 20SM FEW210 11/09 A3012 RMK CI1 SLP205"
+    "raw": "METAR FAGG 180800Z 09017KT 9999 SCT030 15/10 Q1034"
   },
   "randomPlace": {
-    "name": "KBIE",
-    "station": "KBIE",
-    "lat": 40.3005,
-    "lon": -96.7517,
+    "name": "KLMO",
+    "station": "KLMO",
+    "lat": 40.1612,
+    "lon": -105.1605,
     "weather": "No coded weather",
-    "temperature": 23.3,
-    "dewpoint": 23.3,
-    "windSpeed": 5.0,
-    "windDirection": 130.0,
+    "temperature": 15.8,
+    "dewpoint": 12.6,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T08:15:00.000Z",
     "observationTimestamp": "2026-09-18T08:15:00+00:00",
-    "raw": "METAR KBIE 180815Z AUTO 13005KT 10SM CLR 23/23 A3011 RMK AO2 T02330233"
+    "raw": "METAR KLMO 180815Z AUTO 00000KT 10SM CLR 16/13 A3023 RMK AO2 T01580126"
   },
   "globalPulse": {
     "population": {
-      "value": 8211631712,
-      "display": "8,211,631,712",
+      "value": 8211633498,
+      "display": "8,211,633,498",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T08:17:00Z",
-      "speed": 426.0
+      "time": "2026-09-18T08:32:00Z",
+      "speed": 423.0
     },
     "magneticField": {
-      "time": "2026-09-18T08:17:00Z",
+      "time": "2026-09-18T08:32:00Z",
       "bt": 5.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-18T03:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T08:17:00Z",
-      "forecastTime": "2026-09-18T09:23:00Z"
+      "observationTime": "2026-09-18T08:29:00Z",
+      "forecastTime": "2026-09-18T09:33:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
