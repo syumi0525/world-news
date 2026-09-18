@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T03:44:25.875003+00:00",
+  "generatedAt": "2026-09-18T03:55:35.081618+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 184506 Schätzl-Villa mit Garten.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "title": "File:Borehole project 08.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_184506_Sch%C3%A4tzl-Villa_mit_Garten.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_08.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EEPU",
-    "station": "EEPU",
-    "lat": 58.419,
-    "lon": 24.473,
+    "name": "MMRX",
+    "station": "MMRX",
+    "lat": 26.01,
+    "lon": -98.232,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 12.0,
-    "windSpeed": 10.0,
-    "windDirection": 220.0,
-    "visibility": "6+",
+    "temperature": 30.0,
+    "dewpoint": 26.0,
+    "windSpeed": 8.0,
+    "windDirection": 60.0,
+    "visibility": "8",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T03:20:00.000Z",
-    "observationTimestamp": "2026-09-18T03:20:00+00:00",
-    "raw": "METAR EEPU 180320Z AUTO 22010KT 9999 FEW060/// BKN069/// 14/12 Q1006"
+    "observationTime": "2026-09-18T02:49:00.000Z",
+    "observationTimestamp": "2026-09-18T02:49:00+00:00",
+    "raw": "METAR MMRX 180249Z 06008KT 8SM SKC 30/26 A3005 RMK SLP172 52016 9//"
   },
   "randomPlace": {
-    "name": "KJAC",
-    "station": "KJAC",
-    "lat": 43.6129,
-    "lon": -110.7366,
+    "name": "VTPH",
+    "station": "VTPH",
+    "lat": 12.633,
+    "lon": 99.951,
     "weather": "No coded weather",
-    "temperature": 10.6,
-    "dewpoint": 8.9,
-    "windSpeed": 4.0,
-    "windDirection": 50.0,
-    "visibility": "10+",
+    "temperature": 32.0,
+    "dewpoint": 25.0,
+    "windSpeed": 7.0,
+    "windDirection": 130.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T02:56:00.000Z",
-    "observationTimestamp": "2026-09-18T02:56:00+00:00",
-    "raw": "METAR KJAC 180256Z 05004KT 10SM CLR 11/09 A3029 RMK AO2 SLP233 T01060089 55002"
+    "observationTime": "2026-09-18T03:00:00.000Z",
+    "observationTimestamp": "2026-09-18T03:00:00+00:00",
+    "raw": "METAR VTPH 180300Z 13007KT 9999 FEW040 32/25 Q1010 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211597865,
-      "display": "8,211,597,865",
+      "value": 8211599206,
+      "display": "8,211,599,206",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T03:36:00Z",
+      "time": "2026-09-18T03:49:00Z",
       "speed": 444.0
     },
     "magneticField": {
-      "time": "2026-09-18T03:36:00Z",
+      "time": "2026-09-18T03:49:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-18T00:00:00",
@@ -113,8 +113,8 @@
       "value": 28.0,
       "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T03:33:00Z",
-      "forecastTime": "2026-09-18T04:35:00Z"
+      "observationTime": "2026-09-18T03:42:00Z",
+      "forecastTime": "2026-09-18T04:45:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
