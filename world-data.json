@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T18:47:15.665035+00:00",
+  "generatedAt": "2026-09-18T18:56:47.744168+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
-    "artist": "Ferrovia Mesolcinese",
+    "title": "File:A park bench and waysides with a view at Lake Dardanelle State Park in Russellville, Arkansas (cf773068-fe65-4a9c-8b59-8a95ddf9d70e).JPG",
+    "artist": "National Trails Office (<i>US National Park Service</i>)",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_park_bench_and_waysides_with_a_view_at_Lake_Dardanelle_State_Park_in_Russellville%2C_Arkansas_%28cf773068-fe65-4a9c-8b59-8a95ddf9d70e%29.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRTS",
-    "station": "KRTS",
-    "lat": 39.6658,
-    "lon": -119.8731,
+    "name": "K2M8",
+    "station": "K2M8",
+    "lat": 35.276,
+    "lon": -89.931,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 0.0,
-    "windSpeed": 5.0,
-    "windDirection": 30.0,
+    "temperature": 35.1,
+    "dewpoint": 20.7,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T18:35:00.000Z",
     "observationTimestamp": "2026-09-18T18:35:00+00:00",
-    "raw": "METAR KRTS 181835Z AUTO 03005G11KT 10SM CLR 17/00 A3025 RMK AO2"
+    "raw": "METAR K2M8 181835Z AUTO 00000KT 10SM CLR 35/21 A3012 RMK AO2 T03510207 $"
   },
   "randomPlace": {
-    "name": "EDNY",
-    "station": "EDNY",
-    "lat": 47.671,
-    "lon": 9.511,
+    "name": "PAYA",
+    "station": "PAYA",
+    "lat": 59.512,
+    "lon": -139.671,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 11.0,
-    "windSpeed": 1.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 10.0,
+    "dewpoint": 7.8,
+    "windSpeed": 4.0,
+    "windDirection": 70.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T18:20:00.000Z",
-    "observationTimestamp": "2026-09-18T18:20:00+00:00",
-    "raw": "METAR EDNY 181820Z VRB01KT CAVOK 16/11 Q1019"
+    "observationTime": "2026-09-18T17:53:00.000Z",
+    "observationTimestamp": "2026-09-18T17:53:00+00:00",
+    "raw": "METAR PAYA 181753Z AUTO 07004KT 10SM SCT055 OVC090 10/08 A2988 RMK AO2 SLP120 T01000078 10100 20078 58025 TSNO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211705956,
-      "display": "8,211,705,956",
+      "value": 8211707095,
+      "display": "8,211,707,095",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T18:39:00Z",
-      "speed": 428.0
+      "time": "2026-09-18T18:48:00Z",
+      "speed": 424.0
     },
     "magneticField": {
-      "time": "2026-09-18T18:39:00Z",
+      "time": "2026-09-18T18:48:00Z",
       "bt": 5.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-18T15:00:00",
       "kp": 1.0
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T18:33:00Z",
-      "forecastTime": "2026-09-18T19:40:00Z"
+      "observationTime": "2026-09-18T18:45:00Z",
+      "forecastTime": "2026-09-18T19:49:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
