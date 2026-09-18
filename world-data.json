@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T03:55:35.081618+00:00",
+  "generatedAt": "2026-09-18T04:11:25.312782+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 08.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
-    "license": "CC0",
+    "title": "File:DSC 9881 (49995148081).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94157272@N06\">Scott Willoughby</a>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_08.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:DSC_9881_%2849995148081%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MMRX",
-    "station": "MMRX",
-    "lat": 26.01,
-    "lon": -98.232,
+    "name": "UAAH",
+    "station": "UAAH",
+    "lat": 46.893,
+    "lon": 75.005,
     "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 26.0,
-    "windSpeed": 8.0,
-    "windDirection": 60.0,
-    "visibility": "8",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T02:49:00.000Z",
-    "observationTimestamp": "2026-09-18T02:49:00+00:00",
-    "raw": "METAR MMRX 180249Z 06008KT 8SM SKC 30/26 A3005 RMK SLP172 52016 9//"
-  },
-  "randomPlace": {
-    "name": "VTPH",
-    "station": "VTPH",
-    "lat": 12.633,
-    "lon": 99.951,
-    "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 25.0,
-    "windSpeed": 7.0,
-    "windDirection": 130.0,
+    "temperature": 19.0,
+    "dewpoint": 4.0,
+    "windSpeed": 14.0,
+    "windDirection": 80.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T03:00:00.000Z",
-    "observationTimestamp": "2026-09-18T03:00:00+00:00",
-    "raw": "METAR VTPH 180300Z 13007KT 9999 FEW040 32/25 Q1010 NOSIG"
+    "observationTime": "2026-09-18T04:00:00.000Z",
+    "observationTimestamp": "2026-09-18T04:00:00+00:00",
+    "raw": "METAR UAAH 180400Z 08007MPS 050V110 CAVOK 19/04 Q1020 NOSIG RMK QFE726/0968"
+  },
+  "randomPlace": {
+    "name": "KNOG",
+    "station": "KNOG",
+    "lat": 27.895,
+    "lon": -98.043,
+    "weather": "No coded weather",
+    "temperature": 28.9,
+    "dewpoint": 25.0,
+    "windSpeed": 10.0,
+    "windDirection": 80.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-18T02:56:00.000Z",
+    "observationTimestamp": "2026-09-18T02:56:00+00:00",
+    "raw": "METAR KNOG 180256Z AUTO 08010KT FEW024 29/25 A3012 RMK AO2 SLP178 6//// T02890250 53020 PWINO PNO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211599206,
-      "display": "8,211,599,206",
+      "value": 8211601101,
+      "display": "8,211,601,101",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T03:49:00Z",
-      "speed": 444.0
+      "time": "2026-09-18T04:01:00Z",
+      "speed": 454.0
     },
     "magneticField": {
-      "time": "2026-09-18T03:49:00Z",
+      "time": "2026-09-18T04:01:00Z",
       "bt": 4.0,
       "bz": -1.0
     },
@@ -113,8 +113,8 @@
       "value": 28.0,
       "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T03:42:00Z",
-      "forecastTime": "2026-09-18T04:45:00Z"
+      "observationTime": "2026-09-18T03:58:00Z",
+      "forecastTime": "2026-09-18T05:00:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
