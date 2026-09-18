@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T23:46:46.416394+00:00",
+  "generatedAt": "2026-09-18T23:57:05.807267+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:I will meet you at the depot A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Borehole project 04.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_04.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCVG",
-    "station": "KCVG",
-    "lat": 39.0444,
-    "lon": -84.6724,
+    "name": "LFRJ",
+    "station": "LFRJ",
+    "lat": 48.527,
+    "lon": -4.138,
     "weather": "No coded weather",
-    "temperature": 25.6,
-    "dewpoint": 20.6,
-    "windSpeed": 8.0,
-    "windDirection": 40.0,
-    "visibility": "10+",
+    "temperature": 15.0,
+    "dewpoint": 13.0,
+    "windSpeed": 9.0,
+    "windDirection": 220.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T22:52:00.000Z",
-    "observationTimestamp": "2026-09-18T22:52:00+00:00",
-    "raw": "METAR KCVG 182252Z 04008KT 10SM FEW020 SCT026 SCT038 26/21 A3012 RMK AO2 SLP190 T02560206"
+    "observationTime": "2026-09-18T23:30:00.000Z",
+    "observationTimestamp": "2026-09-18T23:30:00+00:00",
+    "raw": "METAR LFRJ 182330Z AUTO 22009KT CAVOK 15/13 Q1020"
   },
   "randomPlace": {
-    "name": "CWHO",
-    "station": "CWHO",
-    "lat": 55.448,
-    "lon": -60.23,
+    "name": "FKKD",
+    "station": "FKKD",
+    "lat": 4.006,
+    "lon": 9.72,
     "weather": "No coded weather",
-    "temperature": 7.9,
-    "dewpoint": 1.6,
-    "windSpeed": 6.0,
+    "temperature": 25.0,
+    "dewpoint": 25.0,
+    "windSpeed": 1.0,
     "windDirection": 0.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "visibility": "6+",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-18T23:00:00.000Z",
     "observationTimestamp": "2026-09-18T23:00:00+00:00",
-    "raw": "METAR CWHO 182300Z AUTO 00006KT 08/02 RMK AO1 SLP096 T00790016 53009"
+    "raw": "METAR FKKD 182300Z VRB01KT 9999 BKN013 FEW016CB 25/25 Q1013 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211741804,
-      "display": "8,211,741,804",
+      "value": 8211743045,
+      "display": "8,211,743,045",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T23:38:00Z",
-      "speed": 420.0
+      "time": "2026-09-18T23:47:00Z",
+      "speed": 421.0
     },
     "magneticField": {
-      "time": "2026-09-18T23:38:00Z",
+      "time": "2026-09-18T23:47:00Z",
       "bt": 5.0,
-      "bz": -4.0
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-18T18:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 20.0,
-      "display": "MAX 20.0%",
+      "value": 22.0,
+      "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T23:35:00Z",
-      "forecastTime": "2026-09-19T00:40:00Z"
+      "observationTime": "2026-09-18T23:44:00Z",
+      "forecastTime": "2026-09-19T00:49:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
