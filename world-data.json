@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T21:47:38.344804+00:00",
+  "generatedAt": "2026-09-18T21:56:56.492737+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Agliè Castle.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pittw&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pittw (page does not exist)\">Pittw</a>",
+    "title": "File:Bheemtal lake view in night IMG 20250518 003254.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pushkar2016&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pushkar2016 (page does not exist)\">Pushkar2016</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Agli%C3%A8_Castle.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bheemtal_lake_view_in_night_IMG_20250518_003254.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHOT",
-    "station": "KHOT",
-    "lat": 34.4755,
-    "lon": -93.1041,
+    "name": "PATK",
+    "station": "PATK",
+    "lat": 62.319,
+    "lon": -150.097,
+    "weather": "-RA",
+    "temperature": 9.4,
+    "dewpoint": 8.9,
+    "windSpeed": 3.0,
+    "windDirection": 310.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T21:53:00.000Z",
+    "observationTimestamp": "2026-09-18T21:53:00+00:00",
+    "raw": "METAR PATK 182153Z 31003KT 10SM -RA FEW005 BKN050 OVC060 09/09 A2972 RMK AO2 SLP069 P0001 T00940089"
+  },
+  "randomPlace": {
+    "name": "K7W4",
+    "station": "K7W4",
+    "lat": 37.9667,
+    "lon": -77.7453,
     "weather": "No coded weather",
-    "temperature": 35.6,
-    "dewpoint": 16.1,
+    "temperature": 27.7,
+    "dewpoint": 21.5,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T20:53:00.000Z",
-    "observationTimestamp": "2026-09-18T20:53:00+00:00",
-    "raw": "METAR KHOT 182053Z AUTO 00000KT 10SM CLR 36/16 A3008 RMK AO2 SLP178 T03560161 56027"
-  },
-  "randomPlace": {
-    "name": "DAOV",
-    "station": "DAOV",
-    "lat": 35.208,
-    "lon": 0.147,
-    "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 12.0,
-    "windSpeed": 5.0,
-    "windDirection": 150.0,
-    "visibility": "4.97",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T21:00:00.000Z",
-    "observationTimestamp": "2026-09-18T21:00:00+00:00",
-    "raw": "METAR DAOV 182100Z 15005KT 8000 FEW023CB SCT026 21/12 Q1016"
+    "observationTime": "2026-09-18T21:15:00.000Z",
+    "observationTimestamp": "2026-09-18T21:15:00+00:00",
+    "raw": "METAR K7W4 182115Z AUTO 00000KT 10SM BKN065 OVC075 28/22 A3006 RMK AO1 T02770215"
   },
   "globalPulse": {
     "population": {
-      "value": 8211727550,
-      "display": "8,211,727,550",
+      "value": 8211728666,
+      "display": "8,211,728,666",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T21:37:00Z",
-      "speed": 406.0
+      "time": "2026-09-18T21:50:00Z",
+      "speed": 414.0
     },
     "magneticField": {
-      "time": "2026-09-18T21:37:00Z",
+      "time": "2026-09-18T21:50:00Z",
       "bt": 5.0,
       "bz": 3.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 20.0,
-      "display": "MAX 20.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T21:34:00Z",
-      "forecastTime": "2026-09-18T22:41:00Z"
+      "observationTime": "2026-09-18T21:43:00Z",
+      "forecastTime": "2026-09-18T22:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
