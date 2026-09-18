@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T15:51:41.963449+00:00",
+  "generatedAt": "2026-09-18T16:08:50.238806+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bidon dans un robinet.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:KUBWIMANA_Bienvenu\" title=\"User:KUBWIMANA Bienvenu\">KUBWIMANA Bienvenu</a>",
+    "title": "File:Mother Nature 2026.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bidon_dans_un_robinet.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SPZO",
-    "station": "SPZO",
-    "lat": -13.536,
-    "lon": -71.939,
-    "weather": "VCSH",
-    "temperature": 10.0,
-    "dewpoint": 6.0,
+    "name": "DXSK",
+    "station": "DXSK",
+    "lat": 8.995,
+    "lon": 1.153,
+    "weather": "TS",
+    "temperature": 27.0,
+    "dewpoint": 23.0,
     "windSpeed": 4.0,
-    "windDirection": 100.0,
+    "windDirection": 320.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T15:30:00.000Z",
-    "observationTimestamp": "2026-09-18T15:30:00+00:00",
-    "raw": "METAR SPZO 181530Z 10004KT 070V160 9999 VCSH FEW025 SCT036 OVC080 10/06 Q1038 NOSIG RMK BIRD HAZARD RWY 10/28"
+    "observationTime": "2026-09-18T15:00:00.000Z",
+    "observationTimestamp": "2026-09-18T15:00:00+00:00",
+    "raw": "METAR DXSK 181500Z 32004KT 9999 TS FEW020CB SCT016 SCT120 BKN260 27/23 Q////"
   },
   "randomPlace": {
-    "name": "KDVN",
-    "station": "KDVN",
-    "lat": 41.6133,
-    "lon": -90.5948,
-    "weather": "No coded weather",
-    "temperature": 19.4,
-    "dewpoint": 17.8,
-    "windSpeed": 11.0,
-    "windDirection": 80.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T14:52:00.000Z",
-    "observationTimestamp": "2026-09-18T14:52:00+00:00",
-    "raw": "METAR KDVN 181452Z AUTO 08011KT 10SM SCT110 19/18 A3023 RMK AO2 LTG DSNT SW AND W RAE08 SLP233 P0000 60000 T01940178 50002"
+    "name": "KPIR",
+    "station": "KPIR",
+    "lat": 44.3819,
+    "lon": -100.2864,
+    "weather": "BR",
+    "temperature": 16.7,
+    "dewpoint": 16.7,
+    "windSpeed": 8.0,
+    "windDirection": 90.0,
+    "visibility": "3",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-18T15:53:00.000Z",
+    "observationTimestamp": "2026-09-18T15:53:00+00:00",
+    "raw": "METAR KPIR 181553Z AUTO 09008KT 3SM BR OVC003 17/17 A3001 RMK AO2 SLP158 T01670167"
   },
   "globalPulse": {
     "population": {
-      "value": 8211684940,
-      "display": "8,211,684,940",
+      "value": 8211686987,
+      "display": "8,211,686,987",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T15:40:00Z",
-      "speed": 440.0
+      "time": "2026-09-18T16:00:00Z",
+      "speed": 420.0
     },
     "magneticField": {
-      "time": "2026-09-18T15:40:00Z",
+      "time": "2026-09-18T16:00:00Z",
       "bt": 4.0,
-      "bz": 4.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-18T12:00:00",
@@ -113,8 +113,8 @@
       "value": 10.0,
       "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T15:40:00Z",
-      "forecastTime": "2026-09-18T16:42:00Z"
+      "observationTime": "2026-09-18T16:00:00Z",
+      "forecastTime": "2026-09-18T17:03:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
