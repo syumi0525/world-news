@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T22:28:50.178363+00:00",
+  "generatedAt": "2026-09-18T22:41:11.399286+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:DamanJodi Walkway.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Akashpandey91\" title=\"User:Akashpandey91\">Akashpandey91</a>",
+    "title": "File:Dalam kelopak air.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:EdayatiSelamat&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:EdayatiSelamat (page does not exist)\">EdayatiSelamat</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:DamanJodi_Walkway.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Dalam_kelopak_air.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K3K3",
-    "station": "K3K3",
-    "lat": 37.9988,
-    "lon": -101.7502,
+    "name": "WAMM",
+    "station": "WAMM",
+    "lat": 1.541,
+    "lon": 124.926,
     "weather": "No coded weather",
-    "temperature": 34.0,
-    "dewpoint": 11.0,
-    "windSpeed": 4.0,
-    "windDirection": 250.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T22:15:00.000Z",
-    "observationTimestamp": "2026-09-18T22:15:00+00:00",
-    "raw": "METAR K3K3 182215Z AUTO 25004KT 10SM BKN100 BKN120 34/11 A2998 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "HTSO",
-    "station": "HTSO",
-    "lat": -10.682,
-    "lon": 35.584,
-    "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 12.0,
-    "windSpeed": 3.0,
-    "windDirection": 40.0,
+    "temperature": 27.0,
+    "dewpoint": 18.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T22:00:00.000Z",
-    "observationTimestamp": "2026-09-18T22:00:00+00:00",
-    "raw": "METAR HTSO 182200Z 04003KT 9999 R14///// SKC 18/12 Q1024"
+    "observationTime": "2026-09-18T22:30:00.000Z",
+    "observationTimestamp": "2026-09-18T22:30:00+00:00",
+    "raw": "METAR WAMM 182230Z VRB02KT 9999 FEW020 27/18 Q1016 NOSIG"
+  },
+  "randomPlace": {
+    "name": "KBYS",
+    "station": "KBYS",
+    "lat": 35.271,
+    "lon": -116.634,
+    "weather": "No coded weather",
+    "temperature": 31.1,
+    "dewpoint": -4.1,
+    "windSpeed": 3.0,
+    "windDirection": 160.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T21:55:00.000Z",
+    "observationTimestamp": "2026-09-18T21:55:00+00:00",
+    "raw": "METAR KBYS 182155Z AUTO 16003KT 10SM CLR 31/M04 A2996 RMK AO2 SLP119 T03111041 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211732483,
-      "display": "8,211,732,483",
+      "value": 8211733953,
+      "display": "8,211,733,953",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T22:20:00Z",
-      "speed": 408.0
+      "time": "2026-09-18T22:32:00Z",
+      "speed": 407.0
     },
     "magneticField": {
-      "time": "2026-09-18T22:20:00Z",
+      "time": "2026-09-18T22:32:00Z",
       "bt": 5.0,
-      "bz": 3.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-18T18:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T22:20:00Z",
-      "forecastTime": "2026-09-18T23:25:00Z"
+      "observationTime": "2026-09-18T22:29:00Z",
+      "forecastTime": "2026-09-18T23:35:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
