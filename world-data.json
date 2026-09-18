@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T18:56:47.744168+00:00",
+  "generatedAt": "2026-09-18T19:11:32.759418+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A park bench and waysides with a view at Lake Dardanelle State Park in Russellville, Arkansas (cf773068-fe65-4a9c-8b59-8a95ddf9d70e).JPG",
-    "artist": "National Trails Office (<i>US National Park Service</i>)",
-    "license": "Public domain",
+    "title": "File:20260803 183022 Gartenanlage Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_park_bench_and_waysides_with_a_view_at_Lake_Dardanelle_State_Park_in_Russellville%2C_Arkansas_%28cf773068-fe65-4a9c-8b59-8a95ddf9d70e%29.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_183022_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K2M8",
-    "station": "K2M8",
-    "lat": 35.276,
-    "lon": -89.931,
+    "name": "KMLC",
+    "station": "KMLC",
+    "lat": 34.8824,
+    "lon": -95.7815,
     "weather": "No coded weather",
-    "temperature": 35.1,
-    "dewpoint": 20.7,
-    "windSpeed": 0.0,
+    "temperature": 37.2,
+    "dewpoint": 16.7,
+    "windSpeed": 5.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T18:35:00.000Z",
-    "observationTimestamp": "2026-09-18T18:35:00+00:00",
-    "raw": "METAR K2M8 181835Z AUTO 00000KT 10SM CLR 35/21 A3012 RMK AO2 T03510207 $"
+    "observationTime": "2026-09-18T18:53:00.000Z",
+    "observationTimestamp": "2026-09-18T18:53:00+00:00",
+    "raw": "METAR KMLC 181853Z AUTO VRB05KT 10SM SCT085 37/17 A3010 RMK AO2 SLP180 T03720167"
   },
   "randomPlace": {
-    "name": "PAYA",
-    "station": "PAYA",
-    "lat": 59.512,
-    "lon": -139.671,
+    "name": "KAGZ",
+    "station": "KAGZ",
+    "lat": 43.064,
+    "lon": -98.295,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 7.8,
-    "windSpeed": 4.0,
-    "windDirection": 70.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T17:53:00.000Z",
-    "observationTimestamp": "2026-09-18T17:53:00+00:00",
-    "raw": "METAR PAYA 181753Z AUTO 07004KT 10SM SCT055 OVC090 10/08 A2988 RMK AO2 SLP120 T01000078 10100 20078 58025 TSNO $"
+    "temperature": 24.0,
+    "dewpoint": 24.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
+    "visibility": "8",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-18T18:55:00.000Z",
+    "observationTimestamp": "2026-09-18T18:55:00+00:00",
+    "raw": "METAR KAGZ 181855Z AUTO VRB02KT 8SM OVC011 24/24 A2998 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211707095,
-      "display": "8,211,707,095",
+      "value": 8211708861,
+      "display": "8,211,708,861",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T18:48:00Z",
-      "speed": 424.0
+      "time": "2026-09-18T19:00:00Z",
+      "speed": 423.0
     },
     "magneticField": {
-      "time": "2026-09-18T18:48:00Z",
-      "bt": 5.0,
-      "bz": -1.0
+      "time": "2026-09-18T19:00:00Z",
+      "bt": 4.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-18T15:00:00",
       "kp": 1.0
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T18:45:00Z",
-      "forecastTime": "2026-09-18T19:49:00Z"
+      "observationTime": "2026-09-18T19:00:00Z",
+      "forecastTime": "2026-09-18T20:04:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
