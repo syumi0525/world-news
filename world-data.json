@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:12:55.169597+00:00",
+  "generatedAt": "2026-09-18T13:29:45.063013+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20140907 114910 Jpg (218976057).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
+    "title": "File:Ausfahrsignal Freiburg Richtung Basel zeigt Fahrt Hp 1 mit Geschwindigkeitsanzeiger Kennziffer 6.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fabi_B%C3%BCKa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fabi BüKa (page does not exist)\">Fabi BüKa</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ausfahrsignal_Freiburg_Richtung_Basel_zeigt_Fahrt_Hp_1_mit_Geschwindigkeitsanzeiger_Kennziffer_6.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SPUR",
-    "station": "SPUR",
-    "lat": -5.206,
-    "lon": -80.616,
+    "name": "CWVF",
+    "station": "CWVF",
+    "lat": 49.106,
+    "lon": -123.303,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 19.0,
-    "windSpeed": 6.0,
-    "windDirection": 150.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
+    "temperature": 14.9,
+    "dewpoint": 13.5,
+    "windSpeed": 11.0,
+    "windDirection": 300.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-18T13:00:00.000Z",
     "observationTimestamp": "2026-09-18T13:00:00+00:00",
-    "raw": "METAR SPUR 181300Z 15006KT 9999 FEW010 BKN040 24/19 Q1014 RMK BIRD HAZARD RWY 19/01 PP000"
+    "raw": "METAR CWVF 181300Z AUTO 30011KT 15/14 RMK AO1 T01490135"
   },
   "randomPlace": {
-    "name": "KAXH",
-    "station": "KAXH",
-    "lat": 29.505,
-    "lon": -95.476,
+    "name": "EHMG",
+    "station": "EHMG",
+    "lat": 53.614,
+    "lon": 4.96,
     "weather": "No coded weather",
-    "temperature": 25.3,
-    "dewpoint": 24.5,
-    "windSpeed": 3.0,
-    "windDirection": 40.0,
-    "visibility": "10+",
+    "temperature": 17.0,
+    "dewpoint": 10.0,
+    "windSpeed": 21.0,
+    "windDirection": 250.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-18T12:55:00.000Z",
     "observationTimestamp": "2026-09-18T12:55:00+00:00",
-    "raw": "METAR KAXH 181255Z AUTO 04003KT 10SM CLR 25/25 A3013 RMK AO2 T02530245"
+    "raw": "METAR EHMG 181255Z AUTO 25021KT 9999 FEW028 17/10 Q1012 W///H///"
   },
   "globalPulse": {
     "population": {
-      "value": 8211665909,
-      "display": "8,211,665,909",
+      "value": 8211667920,
+      "display": "8,211,667,920",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T13:05:00Z",
-      "speed": 432.0
+      "time": "2026-09-18T13:20:00Z",
+      "speed": 412.0
     },
     "magneticField": {
-      "time": "2026-09-18T13:05:00Z",
-      "bt": 4.0,
+      "time": "2026-09-18T13:20:00Z",
+      "bt": 5.0,
       "bz": 2.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T12:59:00Z",
-      "forecastTime": "2026-09-18T14:05:00Z"
+      "observationTime": "2026-09-18T13:20:00Z",
+      "forecastTime": "2026-09-18T14:24:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
