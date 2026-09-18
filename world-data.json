@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T02:57:16.087787+00:00",
+  "generatedAt": "2026-09-18T03:13:00.972634+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ausfahrsignal Freiburg Richtung Basel zeigt Fahrt Hp 1 mit Geschwindigkeitsanzeiger Kennziffer 6.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fabi_B%C3%BCKa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fabi BüKa (page does not exist)\">Fabi BüKa</a>",
+    "title": "File:Batiment aunsein de la Ville de Majunga 12.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ausfahrsignal_Freiburg_Richtung_Basel_zeigt_Fahrt_Hp_1_mit_Geschwindigkeitsanzeiger_Kennziffer_6.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_12.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWKX",
-    "station": "CWKX",
-    "lat": 58.429,
-    "lon": -130.011,
+    "name": "K1MW",
+    "station": "K1MW",
+    "lat": 40.704,
+    "lon": -103.477,
     "weather": "No coded weather",
-    "temperature": 10.2,
-    "dewpoint": 4.8,
-    "windSpeed": 1.0,
-    "windDirection": 300.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-18T02:00:00.000Z",
-    "observationTimestamp": "2026-09-18T02:00:00+00:00",
-    "raw": "METAR CWKX 180200Z AUTO 30001KT 10/05 RMK AO1 SLP188 T01020048 56008"
+    "temperature": 21.0,
+    "dewpoint": 19.0,
+    "windSpeed": 10.0,
+    "windDirection": 20.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T03:02:00.000Z",
+    "observationTimestamp": "2026-09-18T03:02:00+00:00",
+    "raw": "SPECI K1MW 180302Z AUTO 02010KT 10SM OVC100 21/19 A3014 RMK AO2 LTG DSNT NE RAE02 SLP162 $"
   },
   "randomPlace": {
-    "name": "SBGO",
-    "station": "SBGO",
-    "lat": -16.632,
-    "lon": -49.221,
+    "name": "LBIA",
+    "station": "LBIA",
+    "lat": 42.456,
+    "lon": 26.352,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 16.0,
-    "windSpeed": 10.0,
-    "windDirection": 80.0,
+    "temperature": 11.3,
+    "dewpoint": 9.1,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T02:00:00.000Z",
-    "observationTimestamp": "2026-09-18T02:00:00+00:00",
-    "raw": "METAR SBGO 180200Z 08010KT CAVOK 28/16 Q1021"
+    "observationTime": "2026-09-18T03:00:00.000Z",
+    "observationTimestamp": "2026-09-18T03:00:00+00:00",
+    "raw": "METAR LBIA 180300Z 00000KT 9999 SKC 12/10 Q1016 RMK T01130091"
   },
   "globalPulse": {
     "population": {
-      "value": 8211592200,
-      "display": "8,211,592,200",
+      "value": 8211594088,
+      "display": "8,211,594,088",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-17T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.3,
-      "display": "Kp 2.3",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-17T21:00:00"
+      "time": "2026-09-18T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T02:49:00Z",
-      "speed": 449.0
+      "time": "2026-09-18T03:01:00Z",
+      "speed": 454.0
     },
     "magneticField": {
-      "time": "2026-09-18T02:46:00Z",
+      "time": "2026-09-18T03:01:00Z",
       "bt": 4.0,
-      "bz": -3.0
+      "bz": -1.0
     },
     "kp": {
-      "time": "2026-09-17T21:00:00",
-      "kp": 2.33
+      "time": "2026-09-18T00:00:00",
+      "kp": 1.67
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 27.0,
+      "display": "MAX 27.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T02:49:00Z",
-      "forecastTime": "2026-09-18T03:50:00Z"
+      "observationTime": "2026-09-18T02:58:00Z",
+      "forecastTime": "2026-09-18T04:00:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
