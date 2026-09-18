@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T17:15:00.365775+00:00",
+  "generatedAt": "2026-09-18T17:27:08.656302+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A good view of the beach cliffs.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
-    "license": "CC0",
+    "title": "File:Driving in the village (49286320817).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Driving_in_the_village_%2849286320817%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KNFL",
-    "station": "KNFL",
-    "lat": 39.417,
-    "lon": -118.705,
-    "weather": "No coded weather",
-    "temperature": 17.8,
-    "dewpoint": 2.2,
-    "windSpeed": 5.0,
-    "windDirection": 280.0,
-    "visibility": "10+",
+    "name": "LTCD",
+    "station": "LTCD",
+    "lat": 39.71,
+    "lon": 39.527,
+    "weather": "TS",
+    "temperature": 21.0,
+    "dewpoint": 10.0,
+    "windSpeed": 18.0,
+    "windDirection": 270.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T16:57:00.000Z",
-    "observationTimestamp": "2026-09-18T16:57:00+00:00",
-    "raw": "METAR KNFL 181657Z 28005KT 10SM FEW070 18/02 A3019 RMK AO2 SLP186 FU FEW070 T01780022"
+    "observationTime": "2026-09-18T16:50:00.000Z",
+    "observationTimestamp": "2026-09-18T16:50:00+00:00",
+    "raw": "METAR LTCD 181650Z 27018KT 9999 TS FEW040CB SCT045 BKN080 21/10 Q1013 NOSIG"
   },
   "randomPlace": {
-    "name": "KHVS",
-    "station": "KHVS",
-    "lat": 34.4065,
-    "lon": -80.1198,
+    "name": "LFSD",
+    "station": "LFSD",
+    "lat": 47.269,
+    "lon": 5.09,
     "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 21.0,
-    "windSpeed": 4.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 21.0,
+    "dewpoint": 8.0,
+    "windSpeed": 7.0,
+    "windDirection": 290.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T16:55:00.000Z",
-    "observationTimestamp": "2026-09-18T16:55:00+00:00",
-    "raw": "METAR KHVS 181655Z AUTO VRB04KT 10SM CLR 30/21 A3012 RMK AO2"
+    "observationTime": "2026-09-18T17:00:00.000Z",
+    "observationTimestamp": "2026-09-18T17:00:00+00:00",
+    "raw": "METAR LFSD 181700Z AUTO 29007KT 250V320 CAVOK 21/08 Q1018"
   },
   "globalPulse": {
     "population": {
-      "value": 8211694906,
-      "display": "8,211,694,906",
+      "value": 8211696360,
+      "display": "8,211,696,360",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T17:05:00Z",
-      "speed": 407.0
+      "time": "2026-09-18T17:19:00Z",
+      "speed": 414.0
     },
     "magneticField": {
-      "time": "2026-09-18T17:05:00Z",
+      "time": "2026-09-18T17:19:00Z",
       "bt": 5.0,
-      "bz": -2.0
+      "bz": 4.0
     },
     "kp": {
       "time": "2026-09-18T12:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T17:05:00Z",
-      "forecastTime": "2026-09-18T18:10:00Z"
+      "observationTime": "2026-09-18T17:13:00Z",
+      "forecastTime": "2026-09-18T18:20:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
