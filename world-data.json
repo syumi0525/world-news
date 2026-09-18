@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T04:25:56.314895+00:00",
+  "generatedAt": "2026-09-18T04:40:26.561254+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A Journey to Lhasa and Central Tibet p219.jpg",
-    "artist": "Sarat Chandra Das",
+    "title": "File:Balcones (8677680208).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_Journey_to_Lhasa_and_Central_Tibet_p219.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWIS",
-    "station": "CWIS",
-    "lat": 47.284,
-    "lon": -70.637,
+    "name": "KUTA",
+    "station": "KUTA",
+    "lat": 34.6766,
+    "lon": -90.344,
     "weather": "No coded weather",
-    "temperature": 5.5,
-    "dewpoint": 5.1,
-    "windSpeed": 1.0,
-    "windDirection": 150.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-18T04:00:00.000Z",
-    "observationTimestamp": "2026-09-18T04:00:00+00:00",
-    "raw": "METAR CWIS 180400Z AUTO 15001KT 06/05 RMK AO1 SLP192 T00550051 58016"
+    "temperature": 25.8,
+    "dewpoint": 21.3,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T04:35:00.000Z",
+    "observationTimestamp": "2026-09-18T04:35:00+00:00",
+    "raw": "METAR KUTA 180435Z AUTO 00000KT 10SM CLR 26/21 A3017 RMK AO2 T02580213 $"
   },
   "randomPlace": {
-    "name": "LEZG",
-    "station": "LEZG",
-    "lat": 41.661,
-    "lon": -1.004,
+    "name": "KNBC",
+    "station": "KNBC",
+    "lat": 32.477,
+    "lon": -80.722,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 9.0,
-    "windSpeed": 9.0,
-    "windDirection": 280.0,
-    "visibility": "6+",
+    "temperature": 23.3,
+    "dewpoint": 21.1,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T04:00:00.000Z",
-    "observationTimestamp": "2026-09-18T04:00:00+00:00",
-    "raw": "METAR LEZG 180400Z 28009KT CAVOK 16/09 Q1018 NOSIG"
+    "observationTime": "2026-09-18T03:56:00.000Z",
+    "observationTimestamp": "2026-09-18T03:56:00+00:00",
+    "raw": "METAR KNBC 180356Z AUTO 00000KT 10SM CLR 23/21 A3018 RMK AO2 SLP221 T02330211 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211602843,
-      "display": "8,211,602,843",
+      "value": 8211604579,
+      "display": "8,211,604,579",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T04:19:00Z",
-      "speed": 435.0
+      "time": "2026-09-18T04:31:00Z",
+      "speed": 431.0
     },
     "magneticField": {
-      "time": "2026-09-18T04:16:00Z",
+      "time": "2026-09-18T04:31:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-18T00:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 28.0,
-      "display": "MAX 28.0%",
+      "value": 27.0,
+      "display": "MAX 27.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T04:13:00Z",
-      "forecastTime": "2026-09-18T05:15:00Z"
+      "observationTime": "2026-09-18T04:28:00Z",
+      "forecastTime": "2026-09-18T05:31:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
