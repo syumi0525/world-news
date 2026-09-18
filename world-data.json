@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T01:49:37.470021+00:00",
+  "generatedAt": "2026-09-18T01:59:07.752896+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:1909-11-02 Tie game A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Batiment aunsein de la Ville de Majunga 12.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:1909-11-02_Tie_game_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_12.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EGPD",
-    "station": "EGPD",
-    "lat": 57.205,
-    "lon": -2.205,
+    "name": "KGON",
+    "station": "KGON",
+    "lat": 41.3279,
+    "lon": -72.0489,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 5.0,
+    "temperature": 22.2,
+    "dewpoint": 20.6,
     "windSpeed": 7.0,
-    "windDirection": 220.0,
-    "visibility": "6+",
+    "windDirection": 180.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T01:20:00.000Z",
-    "observationTimestamp": "2026-09-18T01:20:00+00:00",
-    "raw": "METAR EGPD 180120Z AUTO 22007KT 9999 NCD 11/05 Q0999"
+    "observationTime": "2026-09-18T00:56:00.000Z",
+    "observationTimestamp": "2026-09-18T00:56:00+00:00",
+    "raw": "METAR KGON 180056Z 18007KT 10SM OVC049 22/21 A3010 RMK AO2 RAB14E23 SLP192 P0000 T02220206"
   },
   "randomPlace": {
-    "name": "SAZM",
-    "station": "SAZM",
-    "lat": -37.932,
-    "lon": -57.581,
+    "name": "LIRN",
+    "station": "LIRN",
+    "lat": 40.885,
+    "lon": 14.292,
     "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 9.0,
-    "windSpeed": 0.0,
+    "temperature": 22.0,
+    "dewpoint": 18.0,
+    "windSpeed": 1.0,
     "windDirection": 0.0,
-    "visibility": "4.35",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T01:00:00.000Z",
-    "observationTimestamp": "2026-09-18T01:00:00+00:00",
-    "raw": "METAR SAZM 180100Z 00000KT 7000 NSC 12/09 Q1021"
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T01:50:00.000Z",
+    "observationTimestamp": "2026-09-18T01:50:00+00:00",
+    "raw": "METAR LIRN 180150Z VRB01KT 9999 SCT020 22/18 Q1014 TEMPO 4000 TSRA"
   },
   "globalPulse": {
     "population": {
-      "value": 8211584095,
-      "display": "8,211,584,095",
+      "value": 8211585239,
+      "display": "8,211,585,239",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T01:41:00Z",
-      "speed": 448.0
+      "time": "2026-09-18T01:52:00Z",
+      "speed": 456.0
     },
     "magneticField": {
-      "time": "2026-09-18T01:41:00Z",
+      "time": "2026-09-18T01:52:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-17T21:00:00",
@@ -113,8 +113,8 @@
       "value": 22.0,
       "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T01:38:00Z",
-      "forecastTime": "2026-09-18T02:40:00Z"
+      "observationTime": "2026-09-18T01:50:00Z",
+      "forecastTime": "2026-09-18T02:50:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
