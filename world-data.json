@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:14:23.454954+00:00",
+  "generatedAt": "2026-09-18T20:29:04.952421+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Hüdavendigar Kent Parkı.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "title": "File:DamanJodi Walkway.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Akashpandey91\" title=\"User:Akashpandey91\">Akashpandey91</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:H%C3%BCdavendigar_Kent_Park%C4%B1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:DamanJodi_Walkway.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KNFW",
-    "station": "KNFW",
-    "lat": 32.781,
-    "lon": -97.436,
+    "name": "KARB",
+    "station": "KARB",
+    "lat": 42.2239,
+    "lon": -83.7398,
     "weather": "No coded weather",
-    "temperature": 35.6,
-    "dewpoint": 17.8,
-    "windSpeed": 6.0,
-    "windDirection": 180.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T18:52:00.000Z",
-    "observationTimestamp": "2026-09-18T18:52:00+00:00",
-    "raw": "METAR KNFW 181852Z 18006G15KT 10SM FEW070 FEW250 36/18 A3010 RMK AO2 SLP176 T03560178 $"
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-18T19:53:00.000Z",
+    "observationTimestamp": "2026-09-18T19:53:00+00:00",
+    "raw": "METAR KARB 181953Z AUTO A3023 RMK AO2 SLPNO PWINO"
   },
   "randomPlace": {
-    "name": "KAKR",
-    "station": "KAKR",
-    "lat": 41.0373,
-    "lon": -81.4634,
-    "weather": "No coded weather",
-    "temperature": 24.4,
-    "dewpoint": 12.8,
-    "windSpeed": 9.0,
-    "windDirection": 360.0,
-    "visibility": "10+",
+    "name": "MPTO",
+    "station": "MPTO",
+    "lat": 9.056,
+    "lon": -79.391,
+    "weather": "VCSH",
+    "temperature": 29.0,
+    "dewpoint": 25.0,
+    "windSpeed": 6.0,
+    "windDirection": 260.0,
+    "visibility": "5.59",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T19:54:00.000Z",
-    "observationTimestamp": "2026-09-18T19:54:00+00:00",
-    "raw": "METAR KAKR 181954Z AUTO 36009KT 10SM CLR 24/13 A3020 RMK AO2 SLP218 T02440128 $"
+    "observationTime": "2026-09-18T20:00:00.000Z",
+    "observationTimestamp": "2026-09-18T20:00:00+00:00",
+    "raw": "METAR MPTO 182000Z 26006KT 9000 VCSH SCT018CB SCT080 29/25 Q1008 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211716373,
-      "display": "8,211,716,373",
+      "value": 8211718143,
+      "display": "8,211,718,143",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T20:07:00Z",
-      "speed": 406.0
+      "time": "2026-09-18T20:19:00Z",
+      "speed": 398.0
     },
     "magneticField": {
-      "time": "2026-09-18T20:04:00Z",
+      "time": "2026-09-18T20:19:00Z",
       "bt": 5.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-18T15:00:00",
@@ -113,8 +113,8 @@
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T20:04:00Z",
-      "forecastTime": "2026-09-18T21:10:00Z"
+      "observationTime": "2026-09-18T20:19:00Z",
+      "forecastTime": "2026-09-18T21:26:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
