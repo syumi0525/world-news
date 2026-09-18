@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:59:10.092344+00:00",
+  "generatedAt": "2026-09-18T17:15:00.365775+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Balcones (8677680208).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
-    "license": "Public domain",
+    "title": "File:A good view of the beach cliffs.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SKBG",
-    "station": "SKBG",
-    "lat": 7.127,
-    "lon": -73.185,
+    "name": "KNFL",
+    "station": "KNFL",
+    "lat": 39.417,
+    "lon": -118.705,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 19.0,
+    "temperature": 17.8,
+    "dewpoint": 2.2,
     "windSpeed": 5.0,
-    "windDirection": 350.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T16:00:00.000Z",
-    "observationTimestamp": "2026-09-18T16:00:00+00:00",
-    "raw": "METAR SKBG 181600Z 35005KT 240V040 9999 SCT020 28/19 Q1016"
-  },
-  "randomPlace": {
-    "name": "KCQB",
-    "station": "KCQB",
-    "lat": 35.7223,
-    "lon": -96.8187,
-    "weather": "No coded weather",
-    "temperature": 34.6,
-    "dewpoint": 18.7,
-    "windSpeed": 8.0,
-    "windDirection": 200.0,
+    "windDirection": 280.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T16:35:00.000Z",
-    "observationTimestamp": "2026-09-18T16:35:00+00:00",
-    "raw": "METAR KCQB 181635Z AUTO 20008G17KT 160V220 10SM CLR 35/19 A3016 RMK AO2 T03460187"
+    "observationTime": "2026-09-18T16:57:00.000Z",
+    "observationTimestamp": "2026-09-18T16:57:00+00:00",
+    "raw": "METAR KNFL 181657Z 28005KT 10SM FEW070 18/02 A3019 RMK AO2 SLP186 FU FEW070 T01780022"
+  },
+  "randomPlace": {
+    "name": "KHVS",
+    "station": "KHVS",
+    "lat": 34.4065,
+    "lon": -80.1198,
+    "weather": "No coded weather",
+    "temperature": 30.0,
+    "dewpoint": 21.0,
+    "windSpeed": 4.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T16:55:00.000Z",
+    "observationTimestamp": "2026-09-18T16:55:00+00:00",
+    "raw": "METAR KHVS 181655Z AUTO VRB04KT 10SM CLR 30/21 A3012 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211693014,
-      "display": "8,211,693,014",
+      "value": 8211694906,
+      "display": "8,211,694,906",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T16:50:00Z",
-      "speed": 434.0
+      "time": "2026-09-18T17:05:00Z",
+      "speed": 407.0
     },
     "magneticField": {
-      "time": "2026-09-18T16:52:00Z",
-      "bt": 4.0,
-      "bz": 4.0
+      "time": "2026-09-18T17:05:00Z",
+      "bt": 5.0,
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-18T12:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T16:50:00Z",
-      "forecastTime": "2026-09-18T17:54:00Z"
+      "observationTime": "2026-09-18T17:05:00Z",
+      "forecastTime": "2026-09-18T18:10:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
