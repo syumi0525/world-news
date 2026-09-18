@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T09:56:51.231638+00:00",
+  "generatedAt": "2026-09-18T10:12:57.855799+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
+    "title": "File:Alisher Navoiy garden.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Behruznurullayevv\" title=\"User:Behruznurullayevv\">Behruznurullayevv</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alisher_Navoiy_garden.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "BGGH",
-    "station": "BGGH",
-    "lat": 64.191,
-    "lon": -51.677,
-    "weather": "-RA",
-    "temperature": 3.0,
-    "dewpoint": 2.0,
-    "windSpeed": 8.0,
-    "windDirection": 350.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T09:50:00.000Z",
-    "observationTimestamp": "2026-09-18T09:50:00+00:00",
-    "raw": "METAR BGGH 180950Z 35008KT 9999 -RA FEW006 BKN011 BKN030 03/02 Q0998"
+    "name": "KNHK",
+    "station": "KNHK",
+    "lat": 38.284,
+    "lon": -76.408,
+    "weather": "No coded weather",
+    "temperature": 22.2,
+    "dewpoint": 21.7,
+    "windSpeed": 4.0,
+    "windDirection": 270.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T09:52:00.000Z",
+    "observationTimestamp": "2026-09-18T09:52:00+00:00",
+    "raw": "METAR KNHK 180952Z 27004KT 10SM FEW080 22/22 A3006 RMK AO2 SLP178 T02220217 $"
   },
   "randomPlace": {
-    "name": "HCMF",
-    "station": "HCMF",
-    "lat": 11.277,
-    "lon": 49.141,
+    "name": "OIZH",
+    "station": "OIZH",
+    "lat": 29.472,
+    "lon": 60.901,
     "weather": "No coded weather",
-    "temperature": 40.0,
-    "dewpoint": 19.0,
-    "windSpeed": 14.0,
-    "windDirection": 180.0,
+    "temperature": 34.0,
+    "dewpoint": -2.0,
+    "windSpeed": 4.0,
+    "windDirection": 50.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T09:00:00.000Z",
-    "observationTimestamp": "2026-09-18T09:00:00+00:00",
-    "raw": "METAR HCMF 180900Z 18014KT CAVOK 40/19 Q1006"
+    "observationTime": "2026-09-18T10:00:00.000Z",
+    "observationTimestamp": "2026-09-18T10:00:00+00:00",
+    "raw": "METAR OIZH 181000Z 05004KT 310V110 CAVOK 34/M02 Q1016 A3000 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211642459,
-      "display": "8,211,642,459",
+      "value": 8211644382,
+      "display": "8,211,644,382",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T09:46:00Z",
-      "speed": 420.0
+      "time": "2026-09-18T10:04:00Z",
+      "speed": 449.0
     },
     "magneticField": {
-      "time": "2026-09-18T09:46:00Z",
-      "bt": 5.0,
+      "time": "2026-09-18T10:04:00Z",
+      "bt": 4.0,
       "bz": 1.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T09:43:00Z",
-      "forecastTime": "2026-09-18T10:48:00Z"
+      "observationTime": "2026-09-18T09:58:00Z",
+      "forecastTime": "2026-09-18T11:03:00Z"
     },
     "flux10cm": {
       "time": "2026-09-17T20:00:00",
