@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T01:50:00.328597+00:00",
+  "generatedAt": "2026-09-19T01:59:28.124616+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A picturesque view of Canterbury Cathedral with surrounding gardens.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fejoy58342&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fejoy58342 (page does not exist)\">Fejoy58342</a>",
+    "title": "File:Cloudpeak.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Akashpandey91\" title=\"User:Akashpandey91\">Akashpandey91</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_picturesque_view_of_Canterbury_Cathedral_with_surrounding_gardens.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cloudpeak.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EGSY",
-    "station": "EGSY",
-    "lat": 51.406,
-    "lon": -3.434,
+    "name": "LFSL",
+    "station": "LFSL",
+    "lat": 45.04,
+    "lon": 1.486,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 15.0,
-    "windSpeed": 23.0,
-    "windDirection": 260.0,
+    "temperature": 11.0,
+    "dewpoint": 11.0,
+    "windSpeed": 3.0,
+    "windDirection": 310.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T01:20:00.000Z",
-    "observationTimestamp": "2026-09-19T01:20:00+00:00",
-    "raw": "METAR EGSY 190120Z AUTO 26023KT 9999 SCT013/// 17/15 Q1013"
+    "observationTime": "2026-09-19T01:30:00.000Z",
+    "observationTimestamp": "2026-09-19T01:30:00+00:00",
+    "raw": "METAR LFSL 190130Z AUTO 31003KT CAVOK 11/11 Q1022"
   },
   "randomPlace": {
-    "name": "KLWD",
-    "station": "KLWD",
-    "lat": 40.6306,
-    "lon": -93.9005,
+    "name": "LTAG",
+    "station": "LTAG",
+    "lat": 37.002,
+    "lon": 35.426,
     "weather": "No coded weather",
-    "temperature": 28.3,
-    "dewpoint": 22.2,
-    "windSpeed": 6.0,
-    "windDirection": 170.0,
-    "visibility": "10+",
+    "temperature": 21.0,
+    "dewpoint": 18.0,
+    "windSpeed": 7.0,
+    "windDirection": 30.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T00:53:00.000Z",
-    "observationTimestamp": "2026-09-19T00:53:00+00:00",
-    "raw": "METAR KLWD 190053Z AUTO 17006KT 10SM CLR 28/22 A2996 RMK AO2 SLP136 T02830222 $"
+    "observationTime": "2026-09-19T01:50:00.000Z",
+    "observationTimestamp": "2026-09-19T01:50:00+00:00",
+    "raw": "METAR LTAG 190150Z 03007KT CAVOK 21/18 Q1011 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211756545,
-      "display": "8,211,756,545",
+      "value": 8211757677,
+      "display": "8,211,757,677",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T01:43:00Z",
-      "speed": 420.0
+      "time": "2026-09-19T01:51:00Z",
+      "speed": 417.0
     },
     "magneticField": {
-      "time": "2026-09-19T01:43:00Z",
+      "time": "2026-09-19T01:51:00Z",
       "bt": 5.0,
       "bz": 4.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T01:40:00Z",
-      "forecastTime": "2026-09-19T02:44:00Z"
+      "observationTime": "2026-09-19T01:51:00Z",
+      "forecastTime": "2026-09-19T02:54:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
