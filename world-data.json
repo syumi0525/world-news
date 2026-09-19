@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T14:37:57.756049+00:00",
+  "generatedAt": "2026-09-19T14:47:46.556437+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Mother Nature 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
+    "title": "File:Architect Dudok.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stopperspil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stopperspil (page does not exist)\">Stopperspil</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Architect_Dudok.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "GUCY",
-    "station": "GUCY",
-    "lat": 9.577,
-    "lon": -13.612,
-    "weather": "-TSRA",
-    "temperature": 25.0,
-    "dewpoint": 24.0,
-    "windSpeed": 6.0,
-    "windDirection": 240.0,
-    "visibility": "4.97",
-    "flightCategory": "MVFR",
+    "name": "TLPL",
+    "station": "TLPL",
+    "lat": 13.743,
+    "lon": -60.948,
+    "weather": "No coded weather",
+    "temperature": 30.0,
+    "dewpoint": 25.0,
+    "windSpeed": 10.0,
+    "windDirection": 120.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-19T14:00:00.000Z",
     "observationTimestamp": "2026-09-19T14:00:00+00:00",
-    "raw": "METAR GUCY 191400Z 24006KT 8000 -TSRA BKN013 FEW020CB OVC100 25/24 Q1013 CB/E-N NOSIG"
+    "raw": "METAR TLPL 191400Z 12010KT 9999 FEW027 30/25 Q1015 NOSIG"
   },
   "randomPlace": {
-    "name": "KHTS",
-    "station": "KHTS",
-    "lat": 38.3653,
-    "lon": -82.5548,
+    "name": "KN03",
+    "station": "KN03",
+    "lat": 42.5929,
+    "lon": -76.2174,
     "weather": "No coded weather",
-    "temperature": 22.2,
-    "dewpoint": 21.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 14.0,
+    "dewpoint": 7.0,
+    "windSpeed": 5.0,
+    "windDirection": 80.0,
     "visibility": "10+",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-19T13:58:00.000Z",
-    "observationTimestamp": "2026-09-19T13:58:00+00:00",
-    "raw": "SPECI KHTS 191358Z 00000KT 10SM OVC002 22/21 A3008 RMK AO2 T02220211"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T14:35:00.000Z",
+    "observationTimestamp": "2026-09-19T14:35:00+00:00",
+    "raw": "METAR KN03 191435Z AUTO 08005KT 10SM CLR 14/07 A3022 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211848479,
-      "display": "8,211,848,479",
+      "value": 8211849654,
+      "display": "8,211,849,654",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T14:29:00Z",
-      "speed": 420.0
+      "time": "2026-09-19T14:37:00Z",
+      "speed": 434.0
     },
     "magneticField": {
-      "time": "2026-09-19T14:29:00Z",
+      "time": "2026-09-19T14:37:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-19T09:00:00",
       "kp": 1.33
     },
     "aurora": {
-      "value": 29.0,
-      "display": "MAX 29.0%",
+      "value": 28.0,
+      "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T14:29:00Z",
-      "forecastTime": "2026-09-19T15:32:00Z"
+      "observationTime": "2026-09-19T14:35:00Z",
+      "forecastTime": "2026-09-19T15:38:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
