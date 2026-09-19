@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T04:24:21.548794+00:00",
+  "generatedAt": "2026-09-19T04:38:29.260723+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 16.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
-    "license": "CC0",
+    "title": "File:A creek meanders through the maritime forest.jpg",
+    "artist": "Hillebrand Steve, U.S. Fish and Wildlife Service",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_16.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_creek_meanders_through_the_maritime_forest.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "USCM",
-    "station": "USCM",
-    "lat": 53.393,
-    "lon": 58.756,
+    "name": "KOGB",
+    "station": "KOGB",
+    "lat": 33.4637,
+    "lon": -80.8534,
     "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 7.0,
-    "windSpeed": 4.0,
-    "windDirection": 20.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T04:00:00.000Z",
-    "observationTimestamp": "2026-09-19T04:00:00+00:00",
-    "raw": "METAR USCM 190400Z 02002MPS CAVOK 12/07 Q1021 R36/090060 NOSIG RMK QFE727"
-  },
-  "randomPlace": {
-    "name": "KACJ",
-    "station": "KACJ",
-    "lat": 32.1106,
-    "lon": -84.1841,
-    "weather": "No coded weather",
-    "temperature": 22.3,
-    "dewpoint": 22.3,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 25.6,
+    "dewpoint": 20.0,
+    "windSpeed": 5.0,
+    "windDirection": 310.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T04:15:00.000Z",
-    "observationTimestamp": "2026-09-19T04:15:00+00:00",
-    "raw": "METAR KACJ 190415Z AUTO 00000KT 10SM CLR 22/22 A3004 RMK AO2 T02230223 $"
+    "observationTime": "2026-09-19T03:53:00.000Z",
+    "observationTimestamp": "2026-09-19T03:53:00+00:00",
+    "raw": "METAR KOGB 190353Z AUTO 31005KT 10SM FEW100 SCT110 26/20 A3008 RMK AO2 SLP181 T02560200"
+  },
+  "randomPlace": {
+    "name": "ZGHA",
+    "station": "ZGHA",
+    "lat": 28.18,
+    "lon": 113.219,
+    "weather": "No coded weather",
+    "temperature": 25.0,
+    "dewpoint": 21.0,
+    "windSpeed": 4.0,
+    "windDirection": 320.0,
+    "visibility": "3.73",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T04:00:00.000Z",
+    "observationTimestamp": "2026-09-19T04:00:00+00:00",
+    "raw": "METAR ZGHA 190400Z 32002MPS 270V020 6000 SCT014 OVC050 25/21 Q1020 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211775039,
-      "display": "8,211,775,039",
+      "value": 8211776729,
+      "display": "8,211,776,729",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T04:17:00Z",
-      "speed": 432.0
+      "time": "2026-09-19T04:28:00Z",
+      "speed": 436.0
     },
     "magneticField": {
-      "time": "2026-09-19T04:17:00Z",
+      "time": "2026-09-19T04:28:00Z",
       "bt": 5.0,
       "bz": 3.0
     },
@@ -110,11 +110,11 @@
       "kp": 2.33
     },
     "aurora": {
-      "value": 28.0,
-      "display": "MAX 28.0%",
+      "value": 24.0,
+      "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T04:14:00Z",
-      "forecastTime": "2026-09-19T05:17:00Z"
+      "observationTime": "2026-09-19T04:30:00Z",
+      "forecastTime": "2026-09-19T05:32:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
