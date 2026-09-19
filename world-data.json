@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T19:35:37.329633+00:00",
+  "generatedAt": "2026-09-19T19:45:03.105979+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20190415 Yehliu geopark beach-2.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
-    "license": "CC0",
+    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
+    "artist": "Gardner, Alexander, 1821-1882",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LTAI",
-    "station": "LTAI",
-    "lat": 36.9,
-    "lon": 30.798,
+    "name": "ESCF",
+    "station": "ESCF",
+    "lat": 58.398,
+    "lon": 15.526,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 19.0,
-    "windSpeed": 6.0,
-    "windDirection": 320.0,
+    "temperature": 15.0,
+    "dewpoint": 12.0,
+    "windSpeed": 17.0,
+    "windDirection": 240.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-19T19:20:00.000Z",
     "observationTimestamp": "2026-09-19T19:20:00+00:00",
-    "raw": "METAR LTAI 191920Z 32006KT CAVOK 25/19 Q1016 NOSIG"
+    "raw": "METAR ESCF 191920Z AUTO 24017G28KT 9999 SCT074/// 15/12 Q1001"
   },
   "randomPlace": {
-    "name": "ESOK",
-    "station": "ESOK",
-    "lat": 59.442,
-    "lon": 13.342,
+    "name": "ESNQ",
+    "station": "ESNQ",
+    "lat": 67.823,
+    "lon": 20.34,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 10.0,
-    "windSpeed": 14.0,
-    "windDirection": 230.0,
+    "temperature": 3.0,
+    "dewpoint": 3.0,
+    "windSpeed": 3.0,
+    "windDirection": 300.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-19T19:20:00.000Z",
     "observationTimestamp": "2026-09-19T19:20:00+00:00",
-    "raw": "METAR ESOK 191920Z 23014KT CAVOK 13/10 Q0997"
+    "raw": "METAR ESNQ 191920Z AUTO 30003KT 9999 NCD 03/03 Q0990"
   },
   "globalPulse": {
     "population": {
-      "value": 8211884128,
-      "display": "8,211,884,128",
+      "value": 8211885255,
+      "display": "8,211,885,255",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T19:26:00Z",
-      "speed": 418.0
+      "time": "2026-09-19T19:34:00Z",
+      "speed": 422.0
     },
     "magneticField": {
-      "time": "2026-09-19T19:26:00Z",
+      "time": "2026-09-19T19:34:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-19T15:00:00",
@@ -113,8 +113,8 @@
       "value": 20.0,
       "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T19:23:00Z",
-      "forecastTime": "2026-09-19T20:30:00Z"
+      "observationTime": "2026-09-19T19:34:00Z",
+      "forecastTime": "2026-09-19T20:40:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
