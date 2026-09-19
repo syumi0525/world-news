@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T19:09:28.722109+00:00",
+  "generatedAt": "2026-09-19T19:21:05.297568+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SBCC",
-    "station": "SBCC",
-    "lat": -9.334,
-    "lon": -54.965,
+    "name": "CWGR",
+    "station": "CWGR",
+    "lat": 47.425,
+    "lon": -61.775,
     "weather": "No coded weather",
-    "temperature": 35.0,
-    "dewpoint": 15.0,
-    "windSpeed": 10.0,
-    "windDirection": 60.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T18:00:00.000Z",
-    "observationTimestamp": "2026-09-19T18:00:00+00:00",
-    "raw": "METAR SBCC 191800Z 06010KT 320V120 9999 SCT040 FEW045TCU SCT100 35/15 Q1012"
+    "temperature": 11.2,
+    "dewpoint": 4.8,
+    "windSpeed": 26.0,
+    "windDirection": 320.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-19T19:00:00.000Z",
+    "observationTimestamp": "2026-09-19T19:00:00+00:00",
+    "raw": "METAR CWGR 191900Z AUTO 32026G34KT 11/05 RMK AO1 PK WND 32034/1819 SLP144 T01120048 53009"
   },
   "randomPlace": {
-    "name": "K21D",
-    "station": "K21D",
-    "lat": 45.0002,
-    "lon": -92.8549,
+    "name": "LIBR",
+    "station": "LIBR",
+    "lat": 40.658,
+    "lon": 17.951,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 15.0,
-    "windSpeed": 6.0,
-    "windDirection": 50.0,
-    "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-19T18:55:00.000Z",
-    "observationTimestamp": "2026-09-19T18:55:00+00:00",
-    "raw": "METAR K21D 191855Z AUTO 05006KT 10SM OVC007 15/15 A3000 RMK AO2"
+    "temperature": 22.0,
+    "dewpoint": 21.0,
+    "windSpeed": 4.0,
+    "windDirection": 290.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T18:50:00.000Z",
+    "observationTimestamp": "2026-09-19T18:50:00+00:00",
+    "raw": "METAR LIBR 191850Z 29004KT CAVOK 22/21 Q1020"
   },
   "globalPulse": {
     "population": {
-      "value": 8211881007,
-      "display": "8,211,881,007",
+      "value": 8211882382,
+      "display": "8,211,882,382",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T19:02:00Z",
-      "speed": 410.0
+      "time": "2026-09-19T19:13:00Z",
+      "speed": 422.0
     },
     "magneticField": {
-      "time": "2026-09-19T19:02:00Z",
+      "time": "2026-09-19T19:10:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-19T15:00:00",
@@ -113,8 +113,8 @@
       "value": 20.0,
       "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T18:59:00Z",
-      "forecastTime": "2026-09-19T20:05:00Z"
+      "observationTime": "2026-09-19T19:10:00Z",
+      "forecastTime": "2026-09-19T20:15:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
