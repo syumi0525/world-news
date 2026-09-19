@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T17:27:12.550095+00:00",
+  "generatedAt": "2026-09-19T17:37:39.684764+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Au bonheur des tags (Démolition avant reconversion) (37932924806).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/110273693@N04\">Sylvie burr</a>",
-    "license": "CC0",
+    "title": "File:Brume matinale (44974906495).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Au_bonheur_des_tags_%28D%C3%A9molition_avant_reconversion%29_%2837932924806%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brume_matinale_%2844974906495%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYET",
-    "station": "CYET",
-    "lat": 53.58,
-    "lon": -116.455,
-    "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 6.0,
-    "windSpeed": 4.0,
-    "windDirection": 200.0,
-    "visibility": "9",
+    "name": "EGTE",
+    "station": "EGTE",
+    "lat": 50.737,
+    "lon": -3.406,
+    "weather": "-RA",
+    "temperature": 19.0,
+    "dewpoint": 17.0,
+    "windSpeed": 5.0,
+    "windDirection": 270.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T17:00:00.000Z",
-    "observationTimestamp": "2026-09-19T17:00:00+00:00",
-    "raw": "METAR CYET 191700Z AUTO 20004KT 160V250 9SM CLR 12/06 A3011 RMK SLP212 DENSITY ALT 3300FT"
+    "observationTime": "2026-09-19T17:20:00.000Z",
+    "observationTimestamp": "2026-09-19T17:20:00+00:00",
+    "raw": "METAR EGTE 191720Z 27005KT 9999 -RA FEW010 SCT030 19/17 Q1019"
   },
   "randomPlace": {
-    "name": "KMXF",
-    "station": "KMXF",
-    "lat": 32.3877,
-    "lon": -86.3724,
+    "name": "LTCD",
+    "station": "LTCD",
+    "lat": 39.71,
+    "lon": 39.527,
     "weather": "No coded weather",
-    "temperature": 34.0,
-    "dewpoint": 21.4,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 18.0,
+    "dewpoint": 11.0,
+    "windSpeed": 10.0,
+    "windDirection": 250.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T16:55:00.000Z",
-    "observationTimestamp": "2026-09-19T16:55:00+00:00",
-    "raw": "METAR KMXF 191655Z AUTO 00000KT 10SM CLR 34/21 A2999 RMK AO2 SLP156 T03400214"
+    "observationTime": "2026-09-19T16:50:00.000Z",
+    "observationTimestamp": "2026-09-19T16:50:00+00:00",
+    "raw": "METAR LTCD 191650Z 25010KT 9999 SCT040 BKN080 18/11 Q1021 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211868758,
-      "display": "8,211,868,758",
+      "value": 8211870013,
+      "display": "8,211,870,013",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T17:20:00Z",
-      "speed": 404.0
+      "time": "2026-09-19T17:29:00Z",
+      "speed": 408.0
     },
     "magneticField": {
-      "time": "2026-09-19T17:20:00Z",
+      "time": "2026-09-19T17:29:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-19T12:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T17:14:00Z",
-      "forecastTime": "2026-09-19T18:20:00Z"
+      "observationTime": "2026-09-19T17:29:00Z",
+      "forecastTime": "2026-09-19T18:35:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
