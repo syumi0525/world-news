@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T09:58:02.335831+00:00",
+  "generatedAt": "2026-09-19T10:13:53.173587+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGNA",
-    "station": "KGNA",
-    "lat": 47.745,
-    "lon": -90.346,
+    "name": "FYOA",
+    "station": "FYOA",
+    "lat": -17.878,
+    "lon": 15.953,
     "weather": "No coded weather",
-    "temperature": 10.6,
-    "dewpoint": 8.9,
-    "windSpeed": 3.0,
-    "windDirection": 70.0,
+    "temperature": 23.0,
+    "dewpoint": 2.0,
+    "windSpeed": 12.0,
+    "windDirection": 280.0,
     "visibility": "N/A",
     "flightCategory": "null",
-    "observationTime": "2026-09-19T08:56:00.000Z",
-    "observationTimestamp": "2026-09-19T08:56:00+00:00",
-    "raw": "METAR KGNA 190856Z AUTO 07003KT 11/09 A3014 RMK AO1 SLP207 T01060089 58015 $"
+    "observationTime": "2026-09-19T10:00:00.000Z",
+    "observationTimestamp": "2026-09-19T10:00:00+00:00",
+    "raw": "METAR FYOA 191000Z AUTO 28012KT //// // ////// 23/02 Q1015"
   },
   "randomPlace": {
-    "name": "KORB",
-    "station": "KORB",
-    "lat": 48.0171,
-    "lon": -92.8538,
+    "name": "NZAA",
+    "station": "NZAA",
+    "lat": -37.008,
+    "lon": 174.792,
     "weather": "No coded weather",
-    "temperature": 9.1,
-    "dewpoint": 9.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 14.0,
+    "dewpoint": 11.0,
+    "windSpeed": 12.0,
+    "windDirection": 270.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T09:35:00.000Z",
-    "observationTimestamp": "2026-09-19T09:35:00+00:00",
-    "raw": "METAR KORB 190935Z AUTO 00000KT 10SM CLR 09/09 A3011 RMK AO2 T00910091"
+    "observationTime": "2026-09-19T10:00:00.000Z",
+    "observationTimestamp": "2026-09-19T10:00:00+00:00",
+    "raw": "METAR NZAA 191000Z AUTO 27012KT 9999 SCT022/// 14/11 Q1003"
   },
   "globalPulse": {
     "population": {
-      "value": 8211814978,
-      "display": "8,211,814,978",
+      "value": 8211816888,
+      "display": "8,211,816,888",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T09:47:00Z",
-      "speed": 431.0
+      "time": "2026-09-19T10:04:00Z",
+      "speed": 432.0
     },
     "magneticField": {
-      "time": "2026-09-19T09:47:00Z",
-      "bt": 6.0,
-      "bz": 3.0
+      "time": "2026-09-19T10:04:00Z",
+      "bt": 5.0,
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-19T06:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T09:44:00Z",
-      "forecastTime": "2026-09-19T10:47:00Z"
+      "observationTime": "2026-09-19T10:04:00Z",
+      "forecastTime": "2026-09-19T11:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
