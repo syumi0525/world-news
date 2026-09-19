@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T23:57:05.807267+00:00",
+  "generatedAt": "2026-09-19T00:17:29.035266+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 04.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:AcapulcoJulio2024.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_04.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFRJ",
-    "station": "LFRJ",
-    "lat": 48.527,
-    "lon": -4.138,
+    "name": "FACT",
+    "station": "FACT",
+    "lat": -33.965,
+    "lon": 18.602,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 13.0,
-    "windSpeed": 9.0,
-    "windDirection": 220.0,
+    "temperature": 13.0,
+    "dewpoint": 10.0,
+    "windSpeed": 8.0,
+    "windDirection": 240.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-18T23:30:00.000Z",
-    "observationTimestamp": "2026-09-18T23:30:00+00:00",
-    "raw": "METAR LFRJ 182330Z AUTO 22009KT CAVOK 15/13 Q1020"
+    "observationTime": "2026-09-19T00:00:00.000Z",
+    "observationTimestamp": "2026-09-19T00:00:00+00:00",
+    "raw": "METAR FACT 190000Z 24008KT CAVOK 13/10 Q1022 NOSIG"
   },
   "randomPlace": {
-    "name": "FKKD",
-    "station": "FKKD",
-    "lat": 4.006,
-    "lon": 9.72,
+    "name": "PFYU",
+    "station": "PFYU",
+    "lat": 66.572,
+    "lon": -145.243,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 25.0,
-    "windSpeed": 1.0,
+    "temperature": 12.2,
+    "dewpoint": 5.0,
+    "windSpeed": 3.0,
     "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-18T23:00:00.000Z",
-    "observationTimestamp": "2026-09-18T23:00:00+00:00",
-    "raw": "METAR FKKD 182300Z VRB01KT 9999 BKN013 FEW016CB 25/25 Q1013 NOSIG"
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-18T23:56:00.000Z",
+    "observationTimestamp": "2026-09-18T23:56:00+00:00",
+    "raw": "METAR PFYU 182356Z VRB03KT 10SM CLR 12/05 A2973 RMK AO2 SLP076 T01220050 10128 20078 58026 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211743045,
-      "display": "8,211,743,045",
+      "value": 8211745464,
+      "display": "8,211,745,464",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-18T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.7,
-      "display": "Kp 0.7",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-18T18:00:00"
+      "time": "2026-09-18T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-18T23:47:00Z",
-      "speed": 421.0
+      "time": "2026-09-19T00:08:00Z",
+      "speed": 426.0
     },
     "magneticField": {
-      "time": "2026-09-18T23:47:00Z",
+      "time": "2026-09-19T00:08:00Z",
       "bt": 5.0,
-      "bz": -3.0
+      "bz": -2.0
     },
     "kp": {
-      "time": "2026-09-18T18:00:00",
-      "kp": 0.67
+      "time": "2026-09-18T21:00:00",
+      "kp": 1.67
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 23.0,
+      "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-18T23:44:00Z",
-      "forecastTime": "2026-09-19T00:49:00Z"
+      "observationTime": "2026-09-19T00:02:00Z",
+      "forecastTime": "2026-09-19T01:09:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
