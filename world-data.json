@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T10:41:16.804461+00:00",
+  "generatedAt": "2026-09-19T10:54:45.773917+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Alex Geerts 2015 (Unsplash).jpg",
-    "artist": "Alex Geerts <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@alexgeerts\">alexgeerts</a>",
-    "license": "CC0",
+    "title": "File:08020047.JPG",
+    "artist": "Catalina Holguin",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Alex_Geerts_2015_%28Unsplash%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:08020047.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RCQC",
-    "station": "RCQC",
-    "lat": 23.569,
-    "lon": 119.628,
+    "name": "KFOE",
+    "station": "KFOE",
+    "lat": 38.9414,
+    "lon": -95.6513,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 28.0,
-    "windSpeed": 13.0,
-    "windDirection": 20.0,
-    "visibility": "6+",
+    "temperature": 23.3,
+    "dewpoint": 17.8,
+    "windSpeed": 8.0,
+    "windDirection": 200.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T10:30:00.000Z",
-    "observationTimestamp": "2026-09-19T10:30:00+00:00",
-    "raw": "METAR RCQC 191030Z 02013KT 9999 FEW012 28/28 Q1013 NOSIG RMK A2993"
+    "observationTime": "2026-09-19T09:53:00.000Z",
+    "observationTimestamp": "2026-09-19T09:53:00+00:00",
+    "raw": "METAR KFOE 190953Z AUTO 20008KT 10SM CLR 23/18 A2991 RMK AO2 SLP115 T02330178 $"
   },
   "randomPlace": {
-    "name": "LFBX",
-    "station": "LFBX",
-    "lat": 45.196,
-    "lon": 0.815,
+    "name": "K65S",
+    "station": "K65S",
+    "lat": 48.7255,
+    "lon": -116.293,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 13.0,
-    "windSpeed": 2.0,
+    "temperature": 8.0,
+    "dewpoint": 7.0,
+    "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "6+",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T10:30:00.000Z",
-    "observationTimestamp": "2026-09-19T10:30:00+00:00",
-    "raw": "METAR LFBX 191030Z AUTO VRB02KT CAVOK 23/13 Q1024"
+    "observationTime": "2026-09-19T10:35:00.000Z",
+    "observationTimestamp": "2026-09-19T10:35:00+00:00",
+    "raw": "METAR K65S 191035Z AUTO 00000KT 10SM CLR 08/07 A3014 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211820160,
-      "display": "8,211,820,160",
+      "value": 8211821778,
+      "display": "8,211,821,778",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T10:31:00Z",
-      "speed": 439.0
+      "time": "2026-09-19T10:46:00Z",
+      "speed": 440.0
     },
     "magneticField": {
-      "time": "2026-09-19T10:31:00Z",
+      "time": "2026-09-19T10:46:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T10:28:00Z",
-      "forecastTime": "2026-09-19T11:32:00Z"
+      "observationTime": "2026-09-19T10:42:00Z",
+      "forecastTime": "2026-09-19T11:47:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
