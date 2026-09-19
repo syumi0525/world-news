@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T02:31:09.453789+00:00",
+  "generatedAt": "2026-09-19T02:46:56.251259+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ancient Meitei (Old Manipuri) & Modern Meitei (Contemporary Manipuri) terms for river (in traditional Meetei Mayek writing system).jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Haoreima\" title=\"User:Haoreima\">Haoreima</a>",
+    "title": "File:20140907 114910 Jpg (218976057).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ancient_Meitei_%28Old_Manipuri%29_%26_Modern_Meitei_%28Contemporary_Manipuri%29_terms_for_river_%28in_traditional_Meetei_Mayek_writing_system%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CZSJ",
-    "station": "CZSJ",
-    "lat": 53.063,
-    "lon": -93.344,
-    "weather": "-RA",
-    "temperature": 12.0,
-    "dewpoint": 10.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "9",
+    "name": "LFRK",
+    "station": "LFRK",
+    "lat": 49.18,
+    "lon": -0.456,
+    "weather": "No coded weather",
+    "temperature": 11.0,
+    "dewpoint": 11.0,
+    "windSpeed": 4.0,
+    "windDirection": 180.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T02:21:00.000Z",
-    "observationTimestamp": "2026-09-19T02:21:00+00:00",
-    "raw": "SPECI CZSJ 190221Z AUTO 00000KT 9SM -RA OVC034 12/10 A3005 RMK SLP187"
+    "observationTime": "2026-09-19T02:30:00.000Z",
+    "observationTimestamp": "2026-09-19T02:30:00+00:00",
+    "raw": "METAR LFRK 190230Z AUTO 18004KT CAVOK 11/11 Q1019"
   },
   "randomPlace": {
-    "name": "KDFW",
-    "station": "KDFW",
-    "lat": 32.8974,
-    "lon": -97.022,
+    "name": "K82C",
+    "station": "K82C",
+    "lat": 43.8385,
+    "lon": -90.1345,
     "weather": "No coded weather",
-    "temperature": 31.7,
-    "dewpoint": 17.8,
-    "windSpeed": 7.0,
-    "windDirection": 140.0,
+    "temperature": 13.5,
+    "dewpoint": 12.8,
+    "windSpeed": 6.0,
+    "windDirection": 110.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T01:53:00.000Z",
-    "observationTimestamp": "2026-09-19T01:53:00+00:00",
-    "raw": "METAR KDFW 190153Z 14007KT 10SM FEW250 32/18 A3000 RMK AO2 SLP149 T03170178"
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-19T02:35:00.000Z",
+    "observationTimestamp": "2026-09-19T02:35:00+00:00",
+    "raw": "METAR K82C 190235Z AUTO 11006KT 10SM OVC006 14/13 A3015 RMK AO2 P0001 T01350128"
   },
   "globalPulse": {
     "population": {
-      "value": 8211761472,
-      "display": "8,211,761,472",
+      "value": 8211763359,
+      "display": "8,211,763,359",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T02:24:00Z",
-      "speed": 424.0
+      "time": "2026-09-19T02:38:00Z",
+      "speed": 426.0
     },
     "magneticField": {
-      "time": "2026-09-19T02:24:00Z",
+      "time": "2026-09-19T02:40:00Z",
       "bt": 6.0,
-      "bz": 1.0
+      "bz": -4.0
     },
     "kp": {
       "time": "2026-09-18T21:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T02:19:00Z",
-      "forecastTime": "2026-09-19T03:24:00Z"
+      "observationTime": "2026-09-19T02:35:00Z",
+      "forecastTime": "2026-09-19T03:39:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
