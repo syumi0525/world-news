@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T01:23:07.606091+00:00",
+  "generatedAt": "2026-09-19T01:38:59.206572+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Mother Nature 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
+    "title": "File:Batiment aunsein de la Ville de Majunga 03.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_03.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K20V",
-    "station": "K20V",
-    "lat": 40.0563,
-    "lon": -106.3744,
+    "name": "KSDB",
+    "station": "KSDB",
+    "lat": 34.7433,
+    "lon": -118.7252,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 7.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 17.2,
+    "dewpoint": 6.7,
+    "windSpeed": 10.0,
+    "windDirection": 340.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T01:15:00.000Z",
-    "observationTimestamp": "2026-09-19T01:15:00+00:00",
-    "raw": "METAR K20V 190115Z AUTO 00000KT 10SM CLR 15/07 A3030 RMK AO2 LTG DSNT W"
+    "observationTime": "2026-09-19T00:51:00.000Z",
+    "observationTimestamp": "2026-09-19T00:51:00+00:00",
+    "raw": "METAR KSDB 190051Z AUTO 34010KT 10SM CLR 17/07 A3013 RMK AO2 SLP168 T01720067"
   },
   "randomPlace": {
-    "name": "KK70",
-    "station": "KK70",
-    "lat": 25.322,
-    "lon": -80.277,
+    "name": "EFTP",
+    "station": "EFTP",
+    "lat": 61.419,
+    "lon": 23.616,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 26.0,
-    "windSpeed": 5.0,
-    "windDirection": 70.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T01:10:00.000Z",
-    "observationTimestamp": "2026-09-19T01:10:00+00:00",
-    "raw": "METAR KK70 190110Z AUTO 07005KT 10SM CLR 26/26 A2997 RMK AO2"
+    "temperature": 12.0,
+    "dewpoint": 11.0,
+    "windSpeed": 6.0,
+    "windDirection": 210.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T01:20:00.000Z",
+    "observationTimestamp": "2026-09-19T01:20:00+00:00",
+    "raw": "METAR EFTP 190120Z AUTO 21006KT 9999 BKN010 BKN033 12/11 Q0999"
   },
   "globalPulse": {
     "population": {
-      "value": 8211753325,
-      "display": "8,211,753,325",
+      "value": 8211755222,
+      "display": "8,211,755,222",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T01:15:00Z",
-      "speed": 417.0
+      "time": "2026-09-19T01:30:00Z",
+      "speed": 422.0
     },
     "magneticField": {
-      "time": "2026-09-19T01:15:00Z",
+      "time": "2026-09-19T01:30:00Z",
       "bt": 5.0,
       "bz": 4.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T01:15:00Z",
-      "forecastTime": "2026-09-19T02:19:00Z"
+      "observationTime": "2026-09-19T01:30:00Z",
+      "forecastTime": "2026-09-19T02:34:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
