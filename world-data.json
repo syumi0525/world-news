@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T22:40:37.972062+00:00",
+  "generatedAt": "2026-09-19T22:55:31.847628+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
+    "title": "File:Dãy Bạch Mã.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%AA_%C4%90%C4%83ng_Kh%C3%B4i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lê Đăng Khôi (page does not exist)\">Lê Đăng Khôi</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:D%C3%A3y_B%E1%BA%A1ch_M%C3%A3.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LSME",
-    "station": "LSME",
-    "lat": 47.092,
-    "lon": 8.305,
+    "name": "SCSN",
+    "station": "SCSN",
+    "lat": -33.656,
+    "lon": -71.615,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 12.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-19T22:20:00.000Z",
-    "observationTimestamp": "2026-09-19T22:20:00+00:00",
-    "raw": "METAR LSME 192220Z AUTO 00000KT 9999NDV NCD 13/12 Q1026 RMK"
+    "temperature": 15.0,
+    "dewpoint": 11.0,
+    "windSpeed": 10.0,
+    "windDirection": 320.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T22:00:00.000Z",
+    "observationTimestamp": "2026-09-19T22:00:00+00:00",
+    "raw": "METAR SCSN 192200Z 32010KT 280V360 9999 OVC025 15/11 Q1014"
   },
   "randomPlace": {
-    "name": "KHSG",
-    "station": "KHSG",
-    "lat": 43.7178,
-    "lon": -108.3851,
-    "weather": "VCTS",
-    "temperature": 16.1,
-    "dewpoint": 8.5,
-    "windSpeed": 10.0,
-    "windDirection": 20.0,
-    "visibility": "10+",
+    "name": "CYWL",
+    "station": "CYWL",
+    "lat": 52.186,
+    "lon": -122.066,
+    "weather": "No coded weather",
+    "temperature": 22.0,
+    "dewpoint": 3.0,
+    "windSpeed": 5.0,
+    "windDirection": 140.0,
+    "visibility": "15",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T22:15:00.000Z",
-    "observationTimestamp": "2026-09-19T22:15:00+00:00",
-    "raw": "METAR KHSG 192215Z AUTO 02010KT 10SM VCTS BKN033 OVC045 16/09 A3016 RMK AO2 LTG DSNT S THRU NW T01610085"
+    "observationTime": "2026-09-19T22:00:00.000Z",
+    "observationTimestamp": "2026-09-19T22:00:00+00:00",
+    "raw": "METAR CYWL 192200Z 14005KT 15SM SCT230 22/03 A3007 RMK CI3 SLP186 DENSITY ALT 4500FT"
   },
   "globalPulse": {
     "population": {
-      "value": 8211906277,
-      "display": "8,211,906,277",
+      "value": 8211908065,
+      "display": "8,211,908,065",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T22:30:00Z",
-      "speed": 407.0
+      "time": "2026-09-19T22:49:00Z",
+      "speed": 411.0
     },
     "magneticField": {
-      "time": "2026-09-19T22:30:00Z",
+      "time": "2026-09-19T22:49:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-19T18:00:00",
@@ -113,8 +113,8 @@
       "value": 24.0,
       "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T22:30:00Z",
-      "forecastTime": "2026-09-19T23:35:00Z"
+      "observationTime": "2026-09-19T22:43:00Z",
+      "forecastTime": "2026-09-19T23:50:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
