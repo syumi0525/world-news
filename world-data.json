@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T13:28:52.040528+00:00",
+  "generatedAt": "2026-09-19T13:41:03.099830+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 12.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
-    "license": "CC0",
+    "title": "File:120917-D-FZ387-005.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_12.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:120917-D-FZ387-005.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RORK",
-    "station": "RORK",
-    "lat": 25.944,
-    "lon": 131.326,
+    "name": "KLGB",
+    "station": "KLGB",
+    "lat": 33.8118,
+    "lon": -118.1472,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 26.0,
-    "windSpeed": 13.0,
-    "windDirection": 350.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T13:00:00.000Z",
-    "observationTimestamp": "2026-09-19T13:00:00+00:00",
-    "raw": "METAR RORK 191300Z AUTO 35013KT 9999 FEW017 SCT023 28/26 Q1009"
+    "temperature": 18.9,
+    "dewpoint": 15.6,
+    "windSpeed": 4.0,
+    "windDirection": 90.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T12:53:00.000Z",
+    "observationTimestamp": "2026-09-19T12:53:00+00:00",
+    "raw": "METAR KLGB 191253Z 09004KT 10SM OVC022 19/16 A2996 RMK AO2 SLP144 T01890156"
   },
   "randomPlace": {
-    "name": "CWGL",
-    "station": "CWGL",
-    "lat": 44.55,
-    "lon": -79.218,
+    "name": "KBYY",
+    "station": "KBYY",
+    "lat": 28.9717,
+    "lon": -95.8584,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 5.3,
-    "windSpeed": 5.0,
-    "windDirection": 100.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-19T13:00:00.000Z",
-    "observationTimestamp": "2026-09-19T13:00:00+00:00",
-    "raw": "METAR CWGL 191300Z AUTO 10005KT 10/05 RMK AO1 SLP230 T01000053 51004"
+    "temperature": 25.7,
+    "dewpoint": 25.5,
+    "windSpeed": 4.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T13:35:00.000Z",
+    "observationTimestamp": "2026-09-19T13:35:00+00:00",
+    "raw": "METAR KBYY 191335Z AUTO 06004KT 10SM CLR 26/25 A2998 RMK AO2 T02570255 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211840208,
-      "display": "8,211,840,208",
+      "value": 8211841661,
+      "display": "8,211,841,661",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T13:19:00Z",
-      "speed": 430.0
+      "time": "2026-09-19T13:32:00Z",
+      "speed": 434.0
     },
     "magneticField": {
-      "time": "2026-09-19T13:22:00Z",
+      "time": "2026-09-19T13:32:00Z",
       "bt": 5.0,
-      "bz": -2.0
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-19T09:00:00",
@@ -113,8 +113,8 @@
       "value": 21.0,
       "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T13:19:00Z",
-      "forecastTime": "2026-09-19T14:22:00Z"
+      "observationTime": "2026-09-19T13:28:00Z",
+      "forecastTime": "2026-09-19T14:32:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
