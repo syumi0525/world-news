@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T22:28:51.138417+00:00",
+  "generatedAt": "2026-09-19T22:40:37.972062+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRHV",
-    "station": "KRHV",
-    "lat": 37.3331,
-    "lon": -121.82,
+    "name": "LSME",
+    "station": "LSME",
+    "lat": 47.092,
+    "lon": 8.305,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 13.0,
-    "windSpeed": 9.0,
-    "windDirection": 300.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T21:47:00.000Z",
-    "observationTimestamp": "2026-09-19T21:47:00+00:00",
-    "raw": "METAR KRHV 192147Z 30009KT 10SM SKC 25/13 A2996"
+    "temperature": 13.0,
+    "dewpoint": 12.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-19T22:20:00.000Z",
+    "observationTimestamp": "2026-09-19T22:20:00+00:00",
+    "raw": "METAR LSME 192220Z AUTO 00000KT 9999NDV NCD 13/12 Q1026 RMK"
   },
   "randomPlace": {
-    "name": "ROMY",
-    "station": "ROMY",
-    "lat": 24.782,
-    "lon": 125.295,
-    "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 24.0,
+    "name": "KHSG",
+    "station": "KHSG",
+    "lat": 43.7178,
+    "lon": -108.3851,
+    "weather": "VCTS",
+    "temperature": 16.1,
+    "dewpoint": 8.5,
     "windSpeed": 10.0,
-    "windDirection": 350.0,
-    "visibility": "6+",
+    "windDirection": 20.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T22:00:00.000Z",
-    "observationTimestamp": "2026-09-19T22:00:00+00:00",
-    "raw": "METAR ROMY 192200Z AUTO 35010KT 9999 FEW017 27/24 Q1012"
+    "observationTime": "2026-09-19T22:15:00.000Z",
+    "observationTimestamp": "2026-09-19T22:15:00+00:00",
+    "raw": "METAR KHSG 192215Z AUTO 02010KT 10SM VCTS BKN033 OVC045 16/09 A3016 RMK AO2 LTG DSNT S THRU NW T01610085"
   },
   "globalPulse": {
     "population": {
-      "value": 8211904870,
-      "display": "8,211,904,870",
+      "value": 8211906277,
+      "display": "8,211,906,277",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T22:19:00Z",
-      "speed": 415.0
+      "time": "2026-09-19T22:30:00Z",
+      "speed": 407.0
     },
     "magneticField": {
-      "time": "2026-09-19T22:19:00Z",
+      "time": "2026-09-19T22:30:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-19T18:00:00",
@@ -113,8 +113,8 @@
       "value": 24.0,
       "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T22:19:00Z",
-      "forecastTime": "2026-09-19T23:25:00Z"
+      "observationTime": "2026-09-19T22:30:00Z",
+      "forecastTime": "2026-09-19T23:35:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
