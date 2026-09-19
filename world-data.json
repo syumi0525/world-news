@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T16:38:20.699621+00:00",
+  "generatedAt": "2026-09-19T16:48:58.970631+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Balcones (8677680208).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
-    "license": "Public domain",
+    "title": "File:Buna,.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Buna%2C.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LEGE",
-    "station": "LEGE",
-    "lat": 41.911,
-    "lon": 2.763,
+    "name": "KFIG",
+    "station": "KFIG",
+    "lat": 41.0465,
+    "lon": -78.4112,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 12.0,
-    "windSpeed": 7.0,
-    "windDirection": 140.0,
-    "visibility": "6+",
+    "temperature": 16.7,
+    "dewpoint": 10.6,
+    "windSpeed": 5.0,
+    "windDirection": 100.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T16:30:00.000Z",
-    "observationTimestamp": "2026-09-19T16:30:00+00:00",
-    "raw": "METAR LEGE 191630Z 14007KT 100V190 CAVOK 24/12 Q1022 NOSIG"
+    "observationTime": "2026-09-19T15:54:00.000Z",
+    "observationTimestamp": "2026-09-19T15:54:00+00:00",
+    "raw": "METAR KFIG 191554Z AUTO 10005KT 10SM OVC110 17/11 A3018 RMK AO2 SLP218 T01670106"
   },
   "randomPlace": {
-    "name": "CZFS",
-    "station": "CZFS",
-    "lat": 61.76,
-    "lon": -121.23,
+    "name": "CXMY",
+    "station": "CXMY",
+    "lat": 44.984,
+    "lon": -62.484,
     "weather": "No coded weather",
-    "temperature": 7.9,
-    "dewpoint": 5.4,
-    "windSpeed": 7.0,
-    "windDirection": 120.0,
+    "temperature": 15.0,
+    "dewpoint": 5.2,
+    "windSpeed": null,
+    "windDirection": null,
     "visibility": "N/A",
     "flightCategory": "null",
     "observationTime": "2026-09-19T16:00:00.000Z",
     "observationTimestamp": "2026-09-19T16:00:00+00:00",
-    "raw": "METAR CZFS 191600Z AUTO 12007KT 08/05 RMK AO1 SLP083 T00790054 58023"
+    "raw": "METAR CXMY 191600Z AUTO 15/05 RMK AO1 SLP152 T01500052 51011"
   },
   "globalPulse": {
     "population": {
-      "value": 8211862912,
-      "display": "8,211,862,912",
+      "value": 8211864179,
+      "display": "8,211,864,179",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T16:29:00Z",
-      "speed": 421.0
+      "time": "2026-09-19T16:41:00Z",
+      "speed": 431.0
     },
     "magneticField": {
-      "time": "2026-09-19T16:29:00Z",
+      "time": "2026-09-19T16:41:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-19T12:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 27.0,
-      "display": "MAX 27.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T16:29:00Z",
-      "forecastTime": "2026-09-19T17:34:00Z"
+      "observationTime": "2026-09-19T16:38:00Z",
+      "forecastTime": "2026-09-19T17:44:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
