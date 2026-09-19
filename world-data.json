@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T06:49:31.328550+00:00",
+  "generatedAt": "2026-09-19T06:59:33.577253+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:\"Unconquered\" marker at the Oklahoma History Center in Oklahoma City, Oklahoma (ad557c9d-d395-4f2e-a928-aeb306f8bfe3).JPG",
-    "artist": "National Trails Office (<i>US National Park Service</i>)",
-    "license": "Public domain",
+    "title": "File:Dãy Bạch Mã.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%AA_%C4%90%C4%83ng_Kh%C3%B4i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lê Đăng Khôi (page does not exist)\">Lê Đăng Khôi</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:%22Unconquered%22_marker_at_the_Oklahoma_History_Center_in_Oklahoma_City%2C_Oklahoma_%28ad557c9d-d395-4f2e-a928-aeb306f8bfe3%29.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:D%C3%A3y_B%E1%BA%A1ch_M%C3%A3.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RPMR",
-    "station": "RPMR",
-    "lat": 6.058,
-    "lon": 125.096,
+    "name": "KMNE",
+    "station": "KMNE",
+    "lat": 32.6433,
+    "lon": -93.2972,
     "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 25.0,
-    "windSpeed": 13.0,
-    "windDirection": 140.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T06:00:00.000Z",
-    "observationTimestamp": "2026-09-19T06:00:00+00:00",
-    "raw": "METAR RPMR 190600Z 14013KT 9999 FEW018 BKN250 32/25 Q1012 RMK A2988"
-  },
-  "randomPlace": {
-    "name": "KTEW",
-    "station": "KTEW",
-    "lat": 42.5636,
-    "lon": -84.4223,
-    "weather": "-RA",
-    "temperature": 13.5,
-    "dewpoint": 10.7,
-    "windSpeed": 4.0,
-    "windDirection": 50.0,
+    "temperature": 22.0,
+    "dewpoint": 16.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-19T06:35:00.000Z",
     "observationTimestamp": "2026-09-19T06:35:00+00:00",
-    "raw": "METAR KTEW 190635Z AUTO 05004KT 10SM -RA OVC080 14/11 A3017 RMK AO2 T01350107"
+    "raw": "METAR KMNE 190635Z AUTO 00000KT 10SM CLR 22/16 A3004 RMK AO2"
+  },
+  "randomPlace": {
+    "name": "ZGSZ",
+    "station": "ZGSZ",
+    "lat": 22.639,
+    "lon": 113.803,
+    "weather": "No coded weather",
+    "temperature": 32.0,
+    "dewpoint": 24.0,
+    "windSpeed": 8.0,
+    "windDirection": 220.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T06:00:00.000Z",
+    "observationTimestamp": "2026-09-19T06:00:00+00:00",
+    "raw": "METAR ZGSZ 190600Z 22004MPS 9999 FEW020 32/24 Q1014 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211792402,
-      "display": "8,211,792,402",
+      "value": 8211793597,
+      "display": "8,211,793,597",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T06:40:00Z",
-      "speed": 430.0
+      "time": "2026-09-19T06:50:00Z",
+      "speed": 440.0
     },
     "magneticField": {
-      "time": "2026-09-19T06:42:00Z",
-      "bt": 7.0,
+      "time": "2026-09-19T06:50:00Z",
+      "bt": 6.0,
       "bz": 3.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 2.67
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T06:40:00Z",
-      "forecastTime": "2026-09-19T07:43:00Z"
+      "observationTime": "2026-09-19T06:50:00Z",
+      "forecastTime": "2026-09-19T07:53:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
