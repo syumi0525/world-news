@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T13:55:16.462290+00:00",
+  "generatedAt": "2026-09-19T14:09:09.523854+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bishopsteignton in 2006.jpg",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
-    "license": "Public domain",
+    "title": "File:AcapulcoJulio2024.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1BW",
-    "station": "K1BW",
-    "lat": 41.511,
-    "lon": -103.995,
+    "name": "KPNT",
+    "station": "KPNT",
+    "lat": 40.9233,
+    "lon": -88.6213,
     "weather": "No coded weather",
-    "temperature": 12.2,
-    "dewpoint": 11.1,
-    "windSpeed": 7.0,
-    "windDirection": 210.0,
+    "temperature": 20.5,
+    "dewpoint": 20.3,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T12:55:00.000Z",
-    "observationTimestamp": "2026-09-19T12:55:00+00:00",
-    "raw": "METAR K1BW 191255Z AUTO 21007KT 10SM SCT140 12/11 A3014 RMK AO2 SLP159 T01220111 $"
+    "observationTime": "2026-09-19T13:55:00.000Z",
+    "observationTimestamp": "2026-09-19T13:55:00+00:00",
+    "raw": "METAR KPNT 191355Z AUTO 00000KT 10SM SCT026 SCT065 BKN080 21/20 A3000 RMK AO2 T02050203"
   },
   "randomPlace": {
-    "name": "KDIK",
-    "station": "KDIK",
-    "lat": 46.7997,
-    "lon": -102.7971,
-    "weather": "BR",
-    "temperature": 13.9,
-    "dewpoint": 13.9,
-    "windSpeed": 8.0,
-    "windDirection": 80.0,
-    "visibility": "1.5",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-19T13:40:00.000Z",
-    "observationTimestamp": "2026-09-19T13:40:00+00:00",
-    "raw": "SPECI KDIK 191340Z AUTO 08008KT 1 1/2SM BR OVC004 14/14 A3008 RMK AO2 T01390139"
+    "name": "CYCG",
+    "station": "CYCG",
+    "lat": 49.295,
+    "lon": -117.634,
+    "weather": "No coded weather",
+    "temperature": 7.0,
+    "dewpoint": 7.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "15",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T14:00:00.000Z",
+    "observationTimestamp": "2026-09-19T14:00:00+00:00",
+    "raw": "METAR CYCG 191400Z 00000KT 15SM FEW001 FEW003 FEW240 07/07 A3018 RMK ST1SF1CI1 ST TR SF TR SLP226"
   },
   "globalPulse": {
     "population": {
-      "value": 8211843363,
-      "display": "8,211,843,363",
+      "value": 8211845021,
+      "display": "8,211,845,021",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T13:43:00Z",
-      "speed": 435.0
+      "time": "2026-09-19T13:59:00Z",
+      "speed": 433.0
     },
     "magneticField": {
-      "time": "2026-09-19T13:47:00Z",
+      "time": "2026-09-19T13:59:00Z",
       "bt": 5.0,
-      "bz": -3.0
+      "bz": -4.0
     },
     "kp": {
       "time": "2026-09-19T09:00:00",
       "kp": 1.33
     },
     "aurora": {
-      "value": 23.0,
-      "display": "MAX 23.0%",
+      "value": 25.0,
+      "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T13:43:00Z",
-      "forecastTime": "2026-09-19T14:47:00Z"
+      "observationTime": "2026-09-19T13:53:00Z",
+      "forecastTime": "2026-09-19T14:57:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
