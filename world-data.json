@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T09:23:44.311126+00:00",
+  "generatedAt": "2026-09-19T09:38:16.625877+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Apple Garden Shergaon.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pulaksaikia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pulaksaikia (page does not exist)\">Pulaksaikia</a>",
+    "title": "File:Mother Nature 2026.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Apple_Garden_Shergaon.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KO86",
-    "station": "KO86",
-    "lat": 40.9845,
-    "lon": -122.6935,
+    "name": "K2P2",
+    "station": "K2P2",
+    "lat": 45.388,
+    "lon": -86.924,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 6.0,
+    "temperature": 14.8,
+    "dewpoint": 13.0,
     "windSpeed": 5.0,
-    "windDirection": 270.0,
+    "windDirection": 120.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-19T09:15:00.000Z",
     "observationTimestamp": "2026-09-19T09:15:00+00:00",
-    "raw": "METAR KO86 190915Z AUTO 27005KT 10SM CLR 11/06 A3014 RMK A01"
+    "raw": "METAR K2P2 190915Z AUTO 12005KT 10SM SCT110 15/13 A3014 RMK AO2 T01480130"
   },
   "randomPlace": {
-    "name": "KSLR",
-    "station": "KSLR",
-    "lat": 33.1615,
-    "lon": -95.6189,
+    "name": "KDLN",
+    "station": "KDLN",
+    "lat": 45.2584,
+    "lon": -112.5546,
     "weather": "No coded weather",
-    "temperature": 23.7,
-    "dewpoint": 17.8,
-    "windSpeed": 4.0,
-    "windDirection": 180.0,
+    "temperature": 11.1,
+    "dewpoint": 10.0,
+    "windSpeed": 6.0,
+    "windDirection": 300.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T09:15:00.000Z",
-    "observationTimestamp": "2026-09-19T09:15:00+00:00",
-    "raw": "METAR KSLR 190915Z AUTO 18004KT 10SM CLR 24/18 A3004 RMK AO2 T02370178 PWINO"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T09:01:00.000Z",
+    "observationTimestamp": "2026-09-19T09:01:00+00:00",
+    "raw": "SPECI KDLN 190901Z AUTO 30006KT 10SM SCT008 BKN013 OVC027 11/10 A3017 RMK AO2 RAE0856 P0000 T01110100 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211810854,
-      "display": "8,211,810,854",
+      "value": 8211812622,
+      "display": "8,211,812,622",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.2,
-      "display": "61.2%",
+      "value": 61.8,
+      "display": "61.8%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-19T00:00:00Z"
+      "time": "2026-09-19T06:00:00Z"
     },
     "geomagnetic": {
       "value": 1.7,
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T09:14:00Z",
-      "speed": 441.0
+      "time": "2026-09-19T09:29:00Z",
+      "speed": 434.0
     },
     "magneticField": {
-      "time": "2026-09-19T09:14:00Z",
+      "time": "2026-09-19T09:29:00Z",
       "bt": 6.0,
-      "bz": 2.0
+      "bz": 4.0
     },
     "kp": {
       "time": "2026-09-19T06:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T09:14:00Z",
-      "forecastTime": "2026-09-19T10:17:00Z"
+      "observationTime": "2026-09-19T09:23:00Z",
+      "forecastTime": "2026-09-19T10:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
