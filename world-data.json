@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T09:38:16.625877+00:00",
+  "generatedAt": "2026-09-19T09:48:28.894358+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Mother Nature 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
+    "title": "File:Nilüfer kanak köprüsü.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K2P2",
-    "station": "K2P2",
-    "lat": 45.388,
-    "lon": -86.924,
+    "name": "KGMU",
+    "station": "KGMU",
+    "lat": 34.8487,
+    "lon": -82.35,
     "weather": "No coded weather",
-    "temperature": 14.8,
-    "dewpoint": 13.0,
-    "windSpeed": 5.0,
-    "windDirection": 120.0,
+    "temperature": 23.9,
+    "dewpoint": 20.6,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T09:15:00.000Z",
-    "observationTimestamp": "2026-09-19T09:15:00+00:00",
-    "raw": "METAR K2P2 190915Z AUTO 12005KT 10SM SCT110 15/13 A3014 RMK AO2 T01480130"
+    "observationTime": "2026-09-19T08:53:00.000Z",
+    "observationTimestamp": "2026-09-19T08:53:00+00:00",
+    "raw": "METAR KGMU 190853Z AUTO 00000KT 10SM CLR 24/21 A3006 RMK AO2 SLP166 T02390206 56016"
   },
   "randomPlace": {
-    "name": "KDLN",
-    "station": "KDLN",
-    "lat": 45.2584,
-    "lon": -112.5546,
+    "name": "KSJT",
+    "station": "KSJT",
+    "lat": 31.3517,
+    "lon": -100.4948,
     "weather": "No coded weather",
-    "temperature": 11.1,
-    "dewpoint": 10.0,
-    "windSpeed": 6.0,
-    "windDirection": 300.0,
+    "temperature": 25.0,
+    "dewpoint": 19.4,
+    "windSpeed": 11.0,
+    "windDirection": 190.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-19T09:01:00.000Z",
-    "observationTimestamp": "2026-09-19T09:01:00+00:00",
-    "raw": "SPECI KDLN 190901Z AUTO 30006KT 10SM SCT008 BKN013 OVC027 11/10 A3017 RMK AO2 RAE0856 P0000 T01110100 $"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T08:51:00.000Z",
+    "observationTimestamp": "2026-09-19T08:51:00+00:00",
+    "raw": "METAR KSJT 190851Z AUTO 19011KT 10SM CLR 25/19 A3004 RMK AO2 SLP143 T02500194 58005 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211812622,
-      "display": "8,211,812,622",
+      "value": 8211813843,
+      "display": "8,211,813,843",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T09:29:00Z",
-      "speed": 434.0
+      "time": "2026-09-19T09:41:00Z",
+      "speed": 431.0
     },
     "magneticField": {
-      "time": "2026-09-19T09:29:00Z",
+      "time": "2026-09-19T09:41:00Z",
       "bt": 6.0,
       "bz": 4.0
     },
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T09:23:00Z",
-      "forecastTime": "2026-09-19T10:27:00Z"
+      "observationTime": "2026-09-19T09:38:00Z",
+      "forecastTime": "2026-09-19T10:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
