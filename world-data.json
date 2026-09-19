@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T09:09:02.063638+00:00",
+  "generatedAt": "2026-09-19T09:23:44.311126+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cambridge South Station August 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Bellowhead678\" title=\"User:Bellowhead678\">Bellowhead678</a>",
+    "title": "File:Apple Garden Shergaon.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pulaksaikia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pulaksaikia (page does not exist)\">Pulaksaikia</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cambridge_South_Station_August_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Apple_Garden_Shergaon.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "GCLA",
-    "station": "GCLA",
-    "lat": 28.633,
-    "lon": -17.755,
+    "name": "KO86",
+    "station": "KO86",
+    "lat": 40.9845,
+    "lon": -122.6935,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 18.0,
-    "windSpeed": 11.0,
-    "windDirection": 10.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T09:00:00.000Z",
-    "observationTimestamp": "2026-09-19T09:00:00+00:00",
-    "raw": "METAR GCLA 190900Z 01011KT 330V040 9999 BKN050 25/18 Q1016"
-  },
-  "randomPlace": {
-    "name": "KMIV",
-    "station": "KMIV",
-    "lat": 39.3662,
-    "lon": -75.0778,
-    "weather": "No coded weather",
-    "temperature": 18.3,
-    "dewpoint": 12.8,
-    "windSpeed": 7.0,
-    "windDirection": 40.0,
+    "temperature": 11.0,
+    "dewpoint": 6.0,
+    "windSpeed": 5.0,
+    "windDirection": 270.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T08:54:00.000Z",
-    "observationTimestamp": "2026-09-19T08:54:00+00:00",
-    "raw": "METAR KMIV 190854Z AUTO 04007KT 10SM SCT065 18/13 A3010 RMK AO2 SLP193 T01830128 53002 $"
+    "observationTime": "2026-09-19T09:15:00.000Z",
+    "observationTimestamp": "2026-09-19T09:15:00+00:00",
+    "raw": "METAR KO86 190915Z AUTO 27005KT 10SM CLR 11/06 A3014 RMK A01"
+  },
+  "randomPlace": {
+    "name": "KSLR",
+    "station": "KSLR",
+    "lat": 33.1615,
+    "lon": -95.6189,
+    "weather": "No coded weather",
+    "temperature": 23.7,
+    "dewpoint": 17.8,
+    "windSpeed": 4.0,
+    "windDirection": 180.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T09:15:00.000Z",
+    "observationTimestamp": "2026-09-19T09:15:00+00:00",
+    "raw": "METAR KSLR 190915Z AUTO 18004KT 10SM CLR 24/18 A3004 RMK AO2 T02370178 PWINO"
   },
   "globalPulse": {
     "population": {
-      "value": 8211809104,
-      "display": "8,211,809,104",
+      "value": 8211810854,
+      "display": "8,211,810,854",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T09:00:00Z",
-      "speed": 424.0
+      "time": "2026-09-19T09:14:00Z",
+      "speed": 441.0
     },
     "magneticField": {
-      "time": "2026-09-19T09:00:00Z",
+      "time": "2026-09-19T09:14:00Z",
       "bt": 6.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T09:00:00Z",
-      "forecastTime": "2026-09-19T10:02:00Z"
+      "observationTime": "2026-09-19T09:14:00Z",
+      "forecastTime": "2026-09-19T10:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
