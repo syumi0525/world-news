@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T04:38:29.260723+00:00",
+  "generatedAt": "2026-09-19T04:49:28.951729+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A creek meanders through the maritime forest.jpg",
-    "artist": "Hillebrand Steve, U.S. Fish and Wildlife Service",
-    "license": "Public domain",
+    "title": "File:500px photo (179745421).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_creek_meanders_through_the_maritime_forest.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28179745421%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KOGB",
-    "station": "KOGB",
-    "lat": 33.4637,
-    "lon": -80.8534,
-    "weather": "No coded weather",
-    "temperature": 25.6,
+    "name": "NFNS",
+    "station": "NFNS",
+    "lat": -16.803,
+    "lon": 179.341,
+    "weather": "-RA",
+    "temperature": 22.0,
     "dewpoint": 20.0,
-    "windSpeed": 5.0,
-    "windDirection": 310.0,
-    "visibility": "10+",
+    "windSpeed": 7.0,
+    "windDirection": 200.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T03:53:00.000Z",
-    "observationTimestamp": "2026-09-19T03:53:00+00:00",
-    "raw": "METAR KOGB 190353Z AUTO 31005KT 10SM FEW100 SCT110 26/20 A3008 RMK AO2 SLP181 T02560200"
-  },
-  "randomPlace": {
-    "name": "ZGHA",
-    "station": "ZGHA",
-    "lat": 28.18,
-    "lon": 113.219,
-    "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 21.0,
-    "windSpeed": 4.0,
-    "windDirection": 320.0,
-    "visibility": "3.73",
-    "flightCategory": "MVFR",
     "observationTime": "2026-09-19T04:00:00.000Z",
     "observationTimestamp": "2026-09-19T04:00:00+00:00",
-    "raw": "METAR ZGHA 190400Z 32002MPS 270V020 6000 SCT014 OVC050 25/21 Q1020 NOSIG"
+    "raw": "METAR NFNS 190400Z 20007KT 9999 -RA FEW005 SCT018 BKN042 22/20 Q1016"
+  },
+  "randomPlace": {
+    "name": "CZMJ",
+    "station": "CZMJ",
+    "lat": 50.332,
+    "lon": -105.538,
+    "weather": "No coded weather",
+    "temperature": 9.9,
+    "dewpoint": 7.7,
+    "windSpeed": 4.0,
+    "windDirection": 290.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-19T04:00:00.000Z",
+    "observationTimestamp": "2026-09-19T04:00:00+00:00",
+    "raw": "METAR CZMJ 190400Z AUTO 29004KT 10/08 RMK AO1 SLP219 T00990077 53011"
   },
   "globalPulse": {
     "population": {
-      "value": 8211776729,
-      "display": "8,211,776,729",
+      "value": 8211778048,
+      "display": "8,211,778,048",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T04:28:00Z",
-      "speed": 436.0
+      "time": "2026-09-19T04:41:00Z",
+      "speed": 432.0
     },
     "magneticField": {
-      "time": "2026-09-19T04:28:00Z",
-      "bt": 5.0,
-      "bz": 3.0
+      "time": "2026-09-19T04:41:00Z",
+      "bt": 4.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-19T00:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 24.0,
-      "display": "MAX 24.0%",
+      "value": 23.0,
+      "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T04:30:00Z",
-      "forecastTime": "2026-09-19T05:32:00Z"
+      "observationTime": "2026-09-19T04:38:00Z",
+      "forecastTime": "2026-09-19T05:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
