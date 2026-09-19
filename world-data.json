@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T00:37:31.927861+00:00",
+  "generatedAt": "2026-09-19T00:50:55.450288+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 05.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:Brake Through Of kpongu Dam AWC Africa Wiki Challenge 307.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mayor_555&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mayor 555 (page does not exist)\">Mayor 555</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_05.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brake_Through_Of_kpongu_Dam_AWC_Africa_Wiki_Challenge_307.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K4I3",
-    "station": "K4I3",
-    "lat": 40.3268,
-    "lon": -82.5201,
+    "name": "KNRA",
+    "station": "KNRA",
+    "lat": 48.18,
+    "lon": -122.63,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 16.0,
-    "windSpeed": 4.0,
-    "windDirection": 40.0,
+    "temperature": 17.8,
+    "dewpoint": 11.1,
+    "windSpeed": 6.0,
+    "windDirection": 250.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T00:15:00.000Z",
-    "observationTimestamp": "2026-09-19T00:15:00+00:00",
-    "raw": "METAR K4I3 190015Z AUTO 04004KT 10SM CLR 18/16 A3019 RMK AO2"
+    "observationTime": "2026-09-19T00:46:00.000Z",
+    "observationTimestamp": "2026-09-19T00:46:00+00:00",
+    "raw": "METAR KNRA 190046Z AUTO 25006KT 10SM CLR 18/11 A3017 RMK AO2 SLP159 T01780111 TSNO PNO $"
   },
   "randomPlace": {
-    "name": "KNLC",
-    "station": "KNLC",
-    "lat": 36.3024,
-    "lon": -119.9397,
+    "name": "EGPL",
+    "station": "EGPL",
+    "lat": 57.475,
+    "lon": -7.364,
     "weather": "No coded weather",
-    "temperature": 28.9,
-    "dewpoint": 6.7,
-    "windSpeed": 9.0,
-    "windDirection": 350.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-18T23:56:00.000Z",
-    "observationTimestamp": "2026-09-18T23:56:00+00:00",
-    "raw": "METAR KNLC 182356Z 35009KT 10SM CLR 29/07 A2999 RMK AO2 SLP155 RH/25 T02890067 10300 20233 56018 $"
+    "temperature": 13.0,
+    "dewpoint": 11.0,
+    "windSpeed": 22.0,
+    "windDirection": 230.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T00:20:00.000Z",
+    "observationTimestamp": "2026-09-19T00:20:00+00:00",
+    "raw": "METAR EGPL 190020Z AUTO 23022KT 9999 SCT007/// OVC018/// 13/11 Q0994 RERA"
   },
   "globalPulse": {
     "population": {
-      "value": 8211747866,
-      "display": "8,211,747,866",
+      "value": 8211749470,
+      "display": "8,211,749,470",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T00:29:00Z",
-      "speed": 420.0
+      "time": "2026-09-19T00:42:00Z",
+      "speed": 431.0
     },
     "magneticField": {
-      "time": "2026-09-19T00:27:00Z",
-      "bt": 5.0,
-      "bz": 2.0
+      "time": "2026-09-19T00:42:00Z",
+      "bt": 4.0,
+      "bz": 4.0
     },
     "kp": {
       "time": "2026-09-18T21:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T00:29:00Z",
-      "forecastTime": "2026-09-19T01:34:00Z"
+      "observationTime": "2026-09-19T00:39:00Z",
+      "forecastTime": "2026-09-19T01:44:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
