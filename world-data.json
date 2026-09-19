@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T03:29:38.973355+00:00",
+  "generatedAt": "2026-09-19T03:43:08.583070+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Mother Nature 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
+    "title": "File:Doubtful Sound - Patea - DoubtfulSound9081.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/199350666@N08\">lumoplank</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Doubtful_Sound_-_Patea_-_DoubtfulSound9081.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "NZHN",
-    "station": "NZHN",
-    "lat": -37.867,
-    "lon": 175.332,
+    "name": "CWGB",
+    "station": "CWGB",
+    "lat": 49.336,
+    "lon": -124.149,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 10.0,
-    "windSpeed": 17.0,
-    "windDirection": 260.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
+    "temperature": 15.7,
+    "dewpoint": 12.8,
+    "windSpeed": 4.0,
+    "windDirection": 120.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-19T03:00:00.000Z",
     "observationTimestamp": "2026-09-19T03:00:00+00:00",
-    "raw": "METAR NZHN 190300Z AUTO 26017KT 9999 BKN024/// 14/10 Q1003"
+    "raw": "METAR CWGB 190300Z AUTO 12004KT 16/13 RMK AO1 SLP199 T01570128 56002"
   },
   "randomPlace": {
-    "name": "KWDR",
-    "station": "KWDR",
-    "lat": 33.981,
-    "lon": -83.667,
+    "name": "CYYB",
+    "station": "CYYB",
+    "lat": 46.365,
+    "lon": -79.423,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 20.0,
-    "windSpeed": null,
-    "windDirection": null,
-    "visibility": "10+",
+    "temperature": 7.0,
+    "dewpoint": 4.0,
+    "windSpeed": 5.0,
+    "windDirection": 30.0,
+    "visibility": "9",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T03:15:00.000Z",
-    "observationTimestamp": "2026-09-19T03:15:00+00:00",
-    "raw": "METAR KWDR 190315Z 10SM BKN120 25/20 A3011 RMK AO2"
+    "observationTime": "2026-09-19T03:00:00.000Z",
+    "observationTimestamp": "2026-09-19T03:00:00+00:00",
+    "raw": "METAR CYYB 190300Z AUTO 03005KT 9SM CLR 07/04 A3030 RMK SLP272"
   },
   "globalPulse": {
     "population": {
-      "value": 8211768473,
-      "display": "8,211,768,473",
+      "value": 8211770101,
+      "display": "8,211,770,101",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.1,
-      "display": "62.1%",
+      "value": 61.2,
+      "display": "61.2%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-18T12:00:00Z"
+      "time": "2026-09-19T00:00:00Z"
     },
     "geomagnetic": {
       "value": 2.3,
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T03:21:00Z",
-      "speed": 431.0
+      "time": "2026-09-19T03:35:00Z",
+      "speed": 433.0
     },
     "magneticField": {
-      "time": "2026-09-19T03:21:00Z",
+      "time": "2026-09-19T03:35:00Z",
       "bt": 6.0,
       "bz": -5.0
     },
@@ -110,11 +110,11 @@
       "kp": 2.33
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T03:19:00Z",
-      "forecastTime": "2026-09-19T04:23:00Z"
+      "observationTime": "2026-09-19T03:35:00Z",
+      "forecastTime": "2026-09-19T04:38:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
