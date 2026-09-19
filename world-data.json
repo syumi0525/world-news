@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T16:48:58.970631+00:00",
+  "generatedAt": "2026-09-19T16:58:41.254426+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Buna,.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
+    "title": "File:Apple Garden Shergaon.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pulaksaikia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pulaksaikia (page does not exist)\">Pulaksaikia</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Buna%2C.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Apple_Garden_Shergaon.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFIG",
-    "station": "KFIG",
-    "lat": 41.0465,
-    "lon": -78.4112,
+    "name": "SBMT",
+    "station": "SBMT",
+    "lat": -23.509,
+    "lon": -46.638,
     "weather": "No coded weather",
-    "temperature": 16.7,
-    "dewpoint": 10.6,
-    "windSpeed": 5.0,
-    "windDirection": 100.0,
-    "visibility": "10+",
+    "temperature": 24.0,
+    "dewpoint": 17.0,
+    "windSpeed": 6.0,
+    "windDirection": 80.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T15:54:00.000Z",
-    "observationTimestamp": "2026-09-19T15:54:00+00:00",
-    "raw": "METAR KFIG 191554Z AUTO 10005KT 10SM OVC110 17/11 A3018 RMK AO2 SLP218 T01670106"
-  },
-  "randomPlace": {
-    "name": "CXMY",
-    "station": "CXMY",
-    "lat": 44.984,
-    "lon": -62.484,
-    "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 5.2,
-    "windSpeed": null,
-    "windDirection": null,
-    "visibility": "N/A",
-    "flightCategory": "null",
     "observationTime": "2026-09-19T16:00:00.000Z",
     "observationTimestamp": "2026-09-19T16:00:00+00:00",
-    "raw": "METAR CXMY 191600Z AUTO 15/05 RMK AO1 SLP152 T01500052 51011"
+    "raw": "METAR SBMT 191600Z 08006KT 9999 FEW020 24/17 Q1019"
+  },
+  "randomPlace": {
+    "name": "SBMG",
+    "station": "SBMG",
+    "lat": -23.476,
+    "lon": -52.017,
+    "weather": "VCSH",
+    "temperature": 20.0,
+    "dewpoint": 18.0,
+    "windSpeed": 11.0,
+    "windDirection": 150.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T16:00:00.000Z",
+    "observationTimestamp": "2026-09-19T16:00:00+00:00",
+    "raw": "METAR SBMG 191600Z 15011KT 9999 VCSH SCT025 FEW030TCU BKN100 20/18 Q1016"
   },
   "globalPulse": {
     "population": {
-      "value": 8211864179,
-      "display": "8,211,864,179",
+      "value": 8211865345,
+      "display": "8,211,865,345",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T16:41:00Z",
-      "speed": 431.0
+      "time": "2026-09-19T16:50:00Z",
+      "speed": 408.0
     },
     "magneticField": {
-      "time": "2026-09-19T16:41:00Z",
+      "time": "2026-09-19T16:50:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-19T12:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 25.0,
+      "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T16:38:00Z",
-      "forecastTime": "2026-09-19T17:44:00Z"
+      "observationTime": "2026-09-19T16:44:00Z",
+      "forecastTime": "2026-09-19T17:49:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
