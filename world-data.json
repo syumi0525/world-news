@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T13:15:39.151003+00:00",
+  "generatedAt": "2026-09-19T13:28:52.040528+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Active Wave At Popham Beach, Popham, Maine.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FlaggSwagg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FlaggSwagg (page does not exist)\">FlaggSwagg</a>",
+    "title": "File:Borehole project 12.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Active_Wave_At_Popham_Beach%2C_Popham%2C_Maine.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_12.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDSM",
-    "station": "KDSM",
-    "lat": 41.5339,
-    "lon": -93.6531,
-    "weather": "TS",
-    "temperature": 22.2,
-    "dewpoint": 21.1,
-    "windSpeed": 5.0,
-    "windDirection": 110.0,
-    "visibility": "7",
+    "name": "RORK",
+    "station": "RORK",
+    "lat": 25.944,
+    "lon": 131.326,
+    "weather": "No coded weather",
+    "temperature": 28.0,
+    "dewpoint": 26.0,
+    "windSpeed": 13.0,
+    "windDirection": 350.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T12:54:00.000Z",
-    "observationTimestamp": "2026-09-19T12:54:00+00:00",
-    "raw": "METAR KDSM 191254Z 11005KT 7SM TS FEW050CB BKN090 BKN110 22/21 A2988 RMK AO2 RAE42 SLP112 OCNL LTGIC VC NE AND SE-S TS VC NE AND SE-S VCSH P0003 T02220211"
+    "observationTime": "2026-09-19T13:00:00.000Z",
+    "observationTimestamp": "2026-09-19T13:00:00+00:00",
+    "raw": "METAR RORK 191300Z AUTO 35013KT 9999 FEW017 SCT023 28/26 Q1009"
   },
   "randomPlace": {
-    "name": "PAKW",
-    "station": "PAKW",
-    "lat": 55.582,
-    "lon": -133.075,
-    "weather": "-RA",
-    "temperature": 15.0,
-    "dewpoint": 11.1,
-    "windSpeed": 6.0,
-    "windDirection": 170.0,
-    "visibility": "8",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T12:53:00.000Z",
-    "observationTimestamp": "2026-09-19T12:53:00+00:00",
-    "raw": "METAR PAKW 191253Z AUTO 17006KT 8SM -RA FEW022 FEW031 OVC043 15/11 A2994 RMK AO2 SLP136 T01500111 TSNO PNO $"
+    "name": "CWGL",
+    "station": "CWGL",
+    "lat": 44.55,
+    "lon": -79.218,
+    "weather": "No coded weather",
+    "temperature": 10.0,
+    "dewpoint": 5.3,
+    "windSpeed": 5.0,
+    "windDirection": 100.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-19T13:00:00.000Z",
+    "observationTimestamp": "2026-09-19T13:00:00+00:00",
+    "raw": "METAR CWGL 191300Z AUTO 10005KT 10/05 RMK AO1 SLP230 T01000053 51004"
   },
   "globalPulse": {
     "population": {
-      "value": 8211838612,
-      "display": "8,211,838,612",
+      "value": 8211840208,
+      "display": "8,211,840,208",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T13:04:00Z",
-      "speed": 439.0
+      "time": "2026-09-19T13:19:00Z",
+      "speed": 430.0
     },
     "magneticField": {
-      "time": "2026-09-19T13:07:00Z",
-      "bt": 4.0,
-      "bz": 0.0
+      "time": "2026-09-19T13:22:00Z",
+      "bt": 5.0,
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-19T09:00:00",
       "kp": 1.33
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T13:04:00Z",
-      "forecastTime": "2026-09-19T14:07:00Z"
+      "observationTime": "2026-09-19T13:19:00Z",
+      "forecastTime": "2026-09-19T14:22:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
