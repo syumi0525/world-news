@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T04:59:16.007953+00:00",
+  "generatedAt": "2026-09-19T05:15:19.132521+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Boulder in snowy mountains.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AdvaitaMakaranda&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AdvaitaMakaranda (page does not exist)\">AdvaitaMakaranda</a>",
+    "title": "File:20260803 184506 Schätzl-Villa mit Garten.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Boulder_in_snowy_mountains.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_184506_Sch%C3%A4tzl-Villa_mit_Garten.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KSUO",
-    "station": "KSUO",
-    "lat": 43.259,
-    "lon": -100.862,
-    "weather": "FG",
-    "temperature": 15.0,
-    "dewpoint": 15.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "0.25",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-19T04:35:00.000Z",
-    "observationTimestamp": "2026-09-19T04:35:00+00:00",
-    "raw": "METAR KSUO 190435Z AUTO 00000KT 1/4SM FG SCT006 BKN017 15/15 A3000 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "KCVH",
-    "station": "KCVH",
-    "lat": 36.892,
-    "lon": -121.4105,
+    "name": "KSUN",
+    "station": "KSUN",
+    "lat": 43.4969,
+    "lon": -114.2923,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 12.0,
-    "windSpeed": 4.0,
-    "windDirection": 210.0,
+    "temperature": 8.0,
+    "dewpoint": 7.0,
+    "windSpeed": 7.0,
+    "windDirection": 280.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T04:55:00.000Z",
-    "observationTimestamp": "2026-09-19T04:55:00+00:00",
-    "raw": "METAR KCVH 190455Z AUTO 21004KT 10SM CLR 17/12 A3007 RMK A01"
+    "observationTime": "2026-09-19T04:50:00.000Z",
+    "observationTimestamp": "2026-09-19T04:50:00+00:00",
+    "raw": "METAR KSUN 190450Z 28007KT 10SM CLR 08/07 A3020"
+  },
+  "randomPlace": {
+    "name": "CTNK",
+    "station": "CTNK",
+    "lat": 45.533,
+    "lon": -78.266,
+    "weather": "No coded weather",
+    "temperature": 2.0,
+    "dewpoint": 1.5,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-19T05:00:00.000Z",
+    "observationTimestamp": "2026-09-19T05:00:00+00:00",
+    "raw": "METAR CTNK 190500Z AUTO 00000KT 02/02 RMK AO1 SLP266 T00200015 50003"
   },
   "globalPulse": {
     "population": {
-      "value": 8211779215,
-      "display": "8,211,779,215",
+      "value": 8211781145,
+      "display": "8,211,781,145",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T04:49:00Z",
-      "speed": 432.0
+      "time": "2026-09-19T05:05:00Z",
+      "speed": 434.0
     },
     "magneticField": {
-      "time": "2026-09-19T04:49:00Z",
+      "time": "2026-09-19T05:05:00Z",
       "bt": 5.0,
-      "bz": -3.0
+      "bz": 4.0
     },
     "kp": {
       "time": "2026-09-19T00:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 23.0,
-      "display": "MAX 23.0%",
+      "value": 22.0,
+      "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T04:49:00Z",
-      "forecastTime": "2026-09-19T05:52:00Z"
+      "observationTime": "2026-09-19T05:05:00Z",
+      "forecastTime": "2026-09-19T06:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
