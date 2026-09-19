@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T23:45:03.721044+00:00",
+  "generatedAt": "2026-09-19T23:55:02.643923+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Alisher Navoiy garden.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Behruznurullayevv\" title=\"User:Behruznurullayevv\">Behruznurullayevv</a>",
-    "license": "CC0",
+    "title": "File:E2119 - DPLA - 13f523e746d9f6af02859e4f3afe5877.jpg",
+    "artist": "Department of Energy. Bonneville Power Administration. 10/1/1977",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Alisher_Navoiy_garden.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:E2119_-_DPLA_-_13f523e746d9f6af02859e4f3afe5877.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMQJ",
-    "station": "KMQJ",
-    "lat": 39.8402,
-    "lon": -85.894,
-    "weather": "BR",
-    "temperature": 25.4,
-    "dewpoint": 24.9,
-    "windSpeed": 3.0,
-    "windDirection": 10.0,
-    "visibility": "5",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-19T23:35:00.000Z",
-    "observationTimestamp": "2026-09-19T23:35:00+00:00",
-    "raw": "METAR KMQJ 192335Z AUTO 01003KT 5SM BR SCT120 25/25 A2994 RMK AO2 T02540249 $"
+    "name": "ETIK",
+    "station": "ETIK",
+    "lat": 49.472,
+    "lon": 10.39,
+    "weather": "No coded weather",
+    "temperature": 12.4,
+    "dewpoint": 8.1,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T22:55:00.000Z",
+    "observationTimestamp": "2026-09-19T22:55:00+00:00",
+    "raw": "METAR ETIK 192255Z AUTO 00000KT 9999 CLR 12/08 A3022 RMK AO2 SLP234 T01240081 402400059"
   },
   "randomPlace": {
-    "name": "CWYL",
-    "station": "CWYL",
-    "lat": 51.443,
-    "lon": -116.345,
+    "name": "KCCY",
+    "station": "KCCY",
+    "lat": 43.073,
+    "lon": -92.6132,
     "weather": "No coded weather",
-    "temperature": 21.9,
-    "dewpoint": 3.3,
-    "windSpeed": 10.0,
-    "windDirection": 250.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-19T23:00:00.000Z",
-    "observationTimestamp": "2026-09-19T23:00:00+00:00",
-    "raw": "METAR CWYL 192300Z AUTO 25010KT 22/03 RMK AO1 PK WND 25017/2217 SLP201 T02190033 56009"
+    "temperature": 19.0,
+    "dewpoint": 19.0,
+    "windSpeed": 8.0,
+    "windDirection": 10.0,
+    "visibility": "7",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-19T23:35:00.000Z",
+    "observationTimestamp": "2026-09-19T23:35:00+00:00",
+    "raw": "METAR KCCY 192335Z AUTO 01008KT 7SM OVC004 19/19 A2991 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211913997,
-      "display": "8,211,913,997",
+      "value": 8211915178,
+      "display": "8,211,915,178",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T23:38:00Z",
+      "time": "2026-09-19T23:46:00Z",
       "speed": 410.0
     },
     "magneticField": {
-      "time": "2026-09-19T23:35:00Z",
+      "time": "2026-09-19T23:46:00Z",
       "bt": 4.0,
       "bz": -1.0
     },
@@ -113,8 +113,8 @@
       "value": 24.0,
       "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T23:35:00Z",
-      "forecastTime": "2026-09-20T00:40:00Z"
+      "observationTime": "2026-09-19T23:43:00Z",
+      "forecastTime": "2026-09-20T00:50:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
