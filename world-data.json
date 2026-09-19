@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T20:23:21.848192+00:00",
+  "generatedAt": "2026-09-19T20:37:55.330480+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Dãy Bạch Mã.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%AA_%C4%90%C4%83ng_Kh%C3%B4i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lê Đăng Khôi (page does not exist)\">Lê Đăng Khôi</a>",
+    "title": "File:20260822 092805 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:D%C3%A3y_B%E1%BA%A1ch_M%C3%A3.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_092805_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SBSJ",
-    "station": "SBSJ",
-    "lat": -23.229,
-    "lon": -45.861,
+    "name": "KMYL",
+    "station": "KMYL",
+    "lat": 44.8943,
+    "lon": -116.0998,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 18.0,
-    "windSpeed": 7.0,
-    "windDirection": 130.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T20:00:00.000Z",
-    "observationTimestamp": "2026-09-19T20:00:00+00:00",
-    "raw": "METAR SBSJ 192000Z 13007KT 060V150 9999 SCT045 26/18 Q1018"
-  },
-  "randomPlace": {
-    "name": "KXNX",
-    "station": "KXNX",
-    "lat": 36.3745,
-    "lon": -86.41,
-    "weather": "No coded weather",
-    "temperature": 36.0,
-    "dewpoint": 15.0,
+    "temperature": 15.6,
+    "dewpoint": 8.9,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T19:55:00.000Z",
-    "observationTimestamp": "2026-09-19T19:55:00+00:00",
-    "raw": "METAR KXNX 191955Z AUTO 00000KT 10SM FEW085 36/15 A2998 RMK A01"
+    "observationTime": "2026-09-19T19:51:00.000Z",
+    "observationTimestamp": "2026-09-19T19:51:00+00:00",
+    "raw": "METAR KMYL 191951Z AUTO 00000KT 10SM FEW038 BKN046 OVC055 16/09 A3020 RMK AO2 SLP203 T01560089"
+  },
+  "randomPlace": {
+    "name": "SEMC",
+    "station": "SEMC",
+    "lat": -2.299,
+    "lon": -78.121,
+    "weather": "No coded weather",
+    "temperature": 26.0,
+    "dewpoint": 18.0,
+    "windSpeed": 6.0,
+    "windDirection": 250.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T20:00:00.000Z",
+    "observationTimestamp": "2026-09-19T20:00:00+00:00",
+    "raw": "METAR SEMC 192000Z 25006KT 9999 SCT030 BKN120 26/18 Q1018 RMK A3008"
   },
   "globalPulse": {
     "population": {
-      "value": 8211889846,
-      "display": "8,211,889,846",
+      "value": 8211891594,
+      "display": "8,211,891,594",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T20:15:00Z",
-      "speed": 407.0
+      "time": "2026-09-19T20:30:00Z",
+      "speed": 405.0
     },
     "magneticField": {
-      "time": "2026-09-19T20:15:00Z",
+      "time": "2026-09-19T20:30:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-19T15:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T20:15:00Z",
-      "forecastTime": "2026-09-19T21:20:00Z"
+      "observationTime": "2026-09-19T20:25:00Z",
+      "forecastTime": "2026-09-19T21:30:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
