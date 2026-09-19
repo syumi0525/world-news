@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T11:21:30.021416+00:00",
+  "generatedAt": "2026-09-19T11:36:42.605358+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Boulder in snowy mountains.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AdvaitaMakaranda&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AdvaitaMakaranda (page does not exist)\">AdvaitaMakaranda</a>",
+    "title": "File:Brûlé Lake from Mount Solomon Lookout.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Boulder_in_snowy_mountains.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Br%C3%BBl%C3%A9_Lake_from_Mount_Solomon_Lookout.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KONA",
-    "station": "KONA",
-    "lat": 44.076,
-    "lon": -91.707,
+    "name": "KOLZ",
+    "station": "KOLZ",
+    "lat": 42.6831,
+    "lon": -91.976,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 13.0,
-    "windSpeed": 7.0,
-    "windDirection": 90.0,
+    "temperature": 18.0,
+    "dewpoint": 18.0,
+    "windSpeed": 14.0,
+    "windDirection": 130.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-19T10:55:00.000Z",
-    "observationTimestamp": "2026-09-19T10:55:00+00:00",
-    "raw": "METAR KONA 191055Z AUTO 09007KT 10SM OVC010 14/13 A2996 RMK AO2 LTG DSNT S AND SW"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T11:15:00.000Z",
+    "observationTimestamp": "2026-09-19T11:15:00+00:00",
+    "raw": "METAR KOLZ 191115Z AUTO 13014G19KT 10SM FEW009 SCT023 BKN032 18/18 A2993 RMK A01"
   },
   "randomPlace": {
-    "name": "NTTB",
-    "station": "NTTB",
-    "lat": -16.445,
-    "lon": -151.752,
-    "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 15.0,
-    "windSpeed": 10.0,
-    "windDirection": 150.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "name": "VTPH",
+    "station": "VTPH",
+    "lat": 12.633,
+    "lon": 99.951,
+    "weather": "-SHRA",
+    "temperature": 26.0,
+    "dewpoint": 26.0,
+    "windSpeed": 3.0,
+    "windDirection": 250.0,
+    "visibility": "4.97",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-19T11:00:00.000Z",
     "observationTimestamp": "2026-09-19T11:00:00+00:00",
-    "raw": "METAR NTTB 191100Z AUTO 15010KT //// R29///// // OVC046/// 24/15 Q1014"
+    "raw": "METAR VTPH 191100Z 25003KT 180V290 8000 -SHRA BKN030 26/26 Q1009 RERA NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211824983,
-      "display": "8,211,824,983",
+      "value": 8211826804,
+      "display": "8,211,826,804",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T11:12:00Z",
-      "speed": 433.0
+      "time": "2026-09-19T11:27:00Z",
+      "speed": 437.0
     },
     "magneticField": {
-      "time": "2026-09-19T11:12:00Z",
-      "bt": 4.0,
+      "time": "2026-09-19T11:27:00Z",
+      "bt": 5.0,
       "bz": 1.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T11:09:00Z",
-      "forecastTime": "2026-09-19T12:12:00Z"
+      "observationTime": "2026-09-19T11:24:00Z",
+      "forecastTime": "2026-09-19T12:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
