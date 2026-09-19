@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T03:11:01.947239+00:00",
+  "generatedAt": "2026-09-19T03:29:38.973355+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Doubtful Sound - Patea - DoubtfulSound9081.jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/199350666@N08\">lumoplank</a>",
+    "title": "File:Mother Nature 2026.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bhubhu03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bhubhu03 (page does not exist)\">Bhubhu03</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Doubtful_Sound_-_Patea_-_DoubtfulSound9081.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mother_Nature_2026.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAHQ",
-    "station": "KAHQ",
-    "lat": 41.241,
-    "lon": -96.594,
+    "name": "NZHN",
+    "station": "NZHN",
+    "lat": -37.867,
+    "lon": 175.332,
     "weather": "No coded weather",
-    "temperature": 24.6,
-    "dewpoint": 23.6,
-    "windSpeed": 3.0,
-    "windDirection": 180.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T02:55:00.000Z",
-    "observationTimestamp": "2026-09-19T02:55:00+00:00",
-    "raw": "METAR KAHQ 190255Z AUTO 18003KT 10SM SCT100 SCT120 25/24 A2992 RMK AO2 60022 T02460236"
-  },
-  "randomPlace": {
-    "name": "EGBB",
-    "station": "EGBB",
-    "lat": 52.46,
-    "lon": -1.758,
-    "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 12.0,
-    "windSpeed": 6.0,
-    "windDirection": 200.0,
+    "temperature": 14.0,
+    "dewpoint": 10.0,
+    "windSpeed": 17.0,
+    "windDirection": 260.0,
     "visibility": "6+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-19T02:50:00.000Z",
-    "observationTimestamp": "2026-09-19T02:50:00+00:00",
-    "raw": "METAR EGBB 190250Z 20006KT 150V230 9999 BKN024 16/12 Q1010"
+    "observationTime": "2026-09-19T03:00:00.000Z",
+    "observationTimestamp": "2026-09-19T03:00:00+00:00",
+    "raw": "METAR NZHN 190300Z AUTO 26017KT 9999 BKN024/// 14/10 Q1003"
+  },
+  "randomPlace": {
+    "name": "KWDR",
+    "station": "KWDR",
+    "lat": 33.981,
+    "lon": -83.667,
+    "weather": "No coded weather",
+    "temperature": 25.0,
+    "dewpoint": 20.0,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T03:15:00.000Z",
+    "observationTimestamp": "2026-09-19T03:15:00+00:00",
+    "raw": "METAR KWDR 190315Z 10SM BKN120 25/20 A3011 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211766244,
-      "display": "8,211,766,244",
+      "value": 8211768473,
+      "display": "8,211,768,473",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T03:04:00Z",
-      "speed": 426.0
+      "time": "2026-09-19T03:21:00Z",
+      "speed": 431.0
     },
     "magneticField": {
-      "time": "2026-09-19T03:04:00Z",
+      "time": "2026-09-19T03:21:00Z",
       "bt": 6.0,
-      "bz": -4.0
+      "bz": -5.0
     },
     "kp": {
       "time": "2026-09-19T00:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 20.0,
-      "display": "MAX 20.0%",
+      "value": 25.0,
+      "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T02:59:00Z",
-      "forecastTime": "2026-09-19T04:03:00Z"
+      "observationTime": "2026-09-19T03:19:00Z",
+      "forecastTime": "2026-09-19T04:23:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
