@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T12:34:05.032286+00:00",
+  "generatedAt": "2026-09-19T12:49:22.585922+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:30BY35 home plan by ER. AYUSH TOMAR 9997233546.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Erayushtomar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Erayushtomar (page does not exist)\">Erayushtomar</a>",
+    "title": "File:Batiment aunsein de la Ville de Majunga 16.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:30BY35_home_plan_by_ER._AYUSH_TOMAR_9997233546.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_16.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBPT",
-    "station": "KBPT",
-    "lat": 29.9521,
-    "lon": -94.0262,
+    "name": "LIBD",
+    "station": "LIBD",
+    "lat": 41.138,
+    "lon": 16.765,
     "weather": "No coded weather",
-    "temperature": 23.3,
-    "dewpoint": 22.2,
-    "windSpeed": 5.0,
-    "windDirection": 20.0,
-    "visibility": "10+",
+    "temperature": 26.0,
+    "dewpoint": 21.0,
+    "windSpeed": 8.0,
+    "windDirection": 30.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T11:53:00.000Z",
-    "observationTimestamp": "2026-09-19T11:53:00+00:00",
-    "raw": "METAR KBPT 191153Z 02005KT 10SM CLR 23/22 A3000 RMK AO2 SLP159 T02330222 10256 20228 52004"
+    "observationTime": "2026-09-19T12:20:00.000Z",
+    "observationTimestamp": "2026-09-19T12:20:00+00:00",
+    "raw": "METAR LIBD 191220Z 03008KT 340V070 9999 SCT020 26/21 Q1019"
   },
   "randomPlace": {
-    "name": "KSTS",
-    "station": "KSTS",
-    "lat": 38.5037,
-    "lon": -122.811,
-    "weather": "FG",
-    "temperature": 10.0,
-    "dewpoint": 10.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "0.25",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-19T12:18:00.000Z",
-    "observationTimestamp": "2026-09-19T12:18:00+00:00",
-    "raw": "SPECI KSTS 191218Z AUTO 00000KT 1/4SM FG VV002 10/10 A3001 RMK AO2 T01000100"
+    "name": "FYKM",
+    "station": "FYKM",
+    "lat": -17.634,
+    "lon": 24.177,
+    "weather": "No coded weather",
+    "temperature": 35.0,
+    "dewpoint": 8.0,
+    "windSpeed": 12.0,
+    "windDirection": 40.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-19T12:00:00.000Z",
+    "observationTimestamp": "2026-09-19T12:00:00+00:00",
+    "raw": "METAR FYKM 191200Z AUTO 04012G23KT //// // ////// 35/08 Q1014"
   },
   "globalPulse": {
     "population": {
-      "value": 8211833650,
-      "display": "8,211,833,650",
+      "value": 8211835480,
+      "display": "8,211,835,480",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T12:25:00Z",
-      "speed": 433.0
+      "time": "2026-09-19T12:40:00Z",
+      "speed": 438.0
     },
     "magneticField": {
-      "time": "2026-09-19T12:25:00Z",
+      "time": "2026-09-19T12:40:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-19T09:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T12:25:00Z",
-      "forecastTime": "2026-09-19T13:27:00Z"
+      "observationTime": "2026-09-19T12:40:00Z",
+      "forecastTime": "2026-09-19T13:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
