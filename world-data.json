@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:31:00.187041+00:00",
+  "generatedAt": "2026-09-19T18:47:21.768651+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Comapedrosa with snow.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:FrameOverdose\" title=\"User:FrameOverdose\">FrameOverdose</a>",
+    "title": "File:500px photo (168208635).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Comapedrosa_with_snow.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28168208635%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "FKYS",
-    "station": "FKYS",
-    "lat": 3.833,
-    "lon": 11.521,
-    "weather": "TS",
-    "temperature": 23.0,
-    "dewpoint": 21.0,
-    "windSpeed": 8.0,
-    "windDirection": 280.0,
-    "visibility": "4.97",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-19T18:00:00.000Z",
-    "observationTimestamp": "2026-09-19T18:00:00+00:00",
-    "raw": "METAR FKYS 191800Z 28008KT 8000 TS SCT010 FEW020CB 23/21 Q1015 TEMPO 4000 TSRA"
-  },
-  "randomPlace": {
-    "name": "OIZH",
-    "station": "OIZH",
-    "lat": 29.472,
-    "lon": 60.901,
+    "name": "ENSB",
+    "station": "ENSB",
+    "lat": 78.246,
+    "lon": 15.466,
     "weather": "No coded weather",
-    "temperature": null,
-    "dewpoint": null,
-    "windSpeed": 4.0,
-    "windDirection": 300.0,
+    "temperature": 4.0,
+    "dewpoint": 2.0,
+    "windSpeed": 3.0,
+    "windDirection": 260.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T18:00:00.000Z",
-    "observationTimestamp": "2026-09-19T18:00:00+00:00",
-    "raw": "METAR OIZH 191800Z 30004KT CAVOK 23/M09Z Q1021 A3017"
+    "observationTime": "2026-09-19T18:20:00.000Z",
+    "observationTimestamp": "2026-09-19T18:20:00+00:00",
+    "raw": "METAR ENSB 191820Z 26003KT 9999 FEW010 04/02 Q1000 RMK WIND 1400FT 08004KT"
+  },
+  "randomPlace": {
+    "name": "KDEW",
+    "station": "KDEW",
+    "lat": 47.9742,
+    "lon": -117.4292,
+    "weather": "No coded weather",
+    "temperature": 18.9,
+    "dewpoint": 9.4,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T17:53:00.000Z",
+    "observationTimestamp": "2026-09-19T17:53:00+00:00",
+    "raw": "METAR KDEW 191753Z AUTO 00000KT 10SM CLR 19/09 A3016 RMK AO2 SLP209 T01890094 10189 20039 58000"
   },
   "globalPulse": {
     "population": {
-      "value": 8211876400,
-      "display": "8,211,876,400",
+      "value": 8211878350,
+      "display": "8,211,878,350",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T18:22:00Z",
-      "speed": 410.0
+      "time": "2026-09-19T18:38:00Z",
+      "speed": 413.0
     },
     "magneticField": {
-      "time": "2026-09-19T18:22:00Z",
+      "time": "2026-09-19T18:38:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-19T15:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T18:19:00Z",
-      "forecastTime": "2026-09-19T19:25:00Z"
+      "observationTime": "2026-09-19T18:35:00Z",
+      "forecastTime": "2026-09-19T19:40:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
