@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T02:46:56.251259+00:00",
+  "generatedAt": "2026-09-19T02:56:19.750345+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20140907 114910 Jpg (218976057).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
+    "title": "File:Alverstone Garden Village.2.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Shlumble&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Shlumble (page does not exist)\">Shlumble</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alverstone_Garden_Village.2.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFRK",
-    "station": "LFRK",
-    "lat": 49.18,
-    "lon": -0.456,
+    "name": "SBIP",
+    "station": "SBIP",
+    "lat": -19.471,
+    "lon": -42.488,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 11.0,
-    "windSpeed": 4.0,
-    "windDirection": 180.0,
+    "temperature": 21.0,
+    "dewpoint": 20.0,
+    "windSpeed": 3.0,
+    "windDirection": 50.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T02:30:00.000Z",
-    "observationTimestamp": "2026-09-19T02:30:00+00:00",
-    "raw": "METAR LFRK 190230Z AUTO 18004KT CAVOK 11/11 Q1019"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T02:00:00.000Z",
+    "observationTimestamp": "2026-09-19T02:00:00+00:00",
+    "raw": "METAR SBIP 190200Z AUTO 05003KT 9999 BKN028 21/20 Q1024"
   },
   "randomPlace": {
-    "name": "K82C",
-    "station": "K82C",
-    "lat": 43.8385,
-    "lon": -90.1345,
+    "name": "KOWI",
+    "station": "KOWI",
+    "lat": 38.5409,
+    "lon": -95.2542,
     "weather": "No coded weather",
-    "temperature": 13.5,
-    "dewpoint": 12.8,
-    "windSpeed": 6.0,
-    "windDirection": 110.0,
+    "temperature": 26.0,
+    "dewpoint": 21.0,
+    "windSpeed": 7.0,
+    "windDirection": 170.0,
     "visibility": "10+",
-    "flightCategory": "IFR",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-19T02:35:00.000Z",
     "observationTimestamp": "2026-09-19T02:35:00+00:00",
-    "raw": "METAR K82C 190235Z AUTO 11006KT 10SM OVC006 14/13 A3015 RMK AO2 P0001 T01350128"
+    "raw": "METAR KOWI 190235Z AUTO 17007KT 10SM CLR 26/21 A2997 RMK A01"
   },
   "globalPulse": {
     "population": {
-      "value": 8211763359,
-      "display": "8,211,763,359",
+      "value": 8211764478,
+      "display": "8,211,764,478",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T02:38:00Z",
-      "speed": 426.0
+      "time": "2026-09-19T02:48:00Z",
+      "speed": 432.0
     },
     "magneticField": {
-      "time": "2026-09-19T02:40:00Z",
+      "time": "2026-09-19T02:48:00Z",
       "bt": 6.0,
       "bz": -4.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T02:35:00Z",
-      "forecastTime": "2026-09-19T03:39:00Z"
+      "observationTime": "2026-09-19T02:46:00Z",
+      "forecastTime": "2026-09-19T03:49:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
