@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T05:28:15.632421+00:00",
+  "generatedAt": "2026-09-19T05:40:57.510578+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Balcones (8677680208).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
-    "license": "Public domain",
+    "title": "File:Au bonheur des tags (Démolition avant reconversion) (37932924806).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/110273693@N04\">Sylvie burr</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Au_bonheur_des_tags_%28D%C3%A9molition_avant_reconversion%29_%2837932924806%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ZSQD",
-    "station": "ZSQD",
-    "lat": 36.362,
-    "lon": 120.087,
+    "name": "KGEG",
+    "station": "KGEG",
+    "lat": 47.6217,
+    "lon": -117.528,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 18.0,
-    "windSpeed": 2.0,
+    "temperature": 15.6,
+    "dewpoint": 6.7,
+    "windSpeed": 5.0,
+    "windDirection": 240.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T04:53:00.000Z",
+    "observationTimestamp": "2026-09-19T04:53:00+00:00",
+    "raw": "METAR KGEG 190453Z 24005KT 10SM CLR 16/07 A3010 RMK AO2 SLPNO T01560067"
+  },
+  "randomPlace": {
+    "name": "LEBA",
+    "station": "LEBA",
+    "lat": 37.842,
+    "lon": -4.849,
+    "weather": "No coded weather",
+    "temperature": 18.0,
+    "dewpoint": 14.0,
+    "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T05:00:00.000Z",
-    "observationTimestamp": "2026-09-19T05:00:00+00:00",
-    "raw": "METAR ZSQD 190500Z VRB01MPS 9999 BKN040 29/18 Q1019 BECMG TL0630 16005MPS"
-  },
-  "randomPlace": {
-    "name": "KGCD",
-    "station": "KGCD",
-    "lat": 44.4029,
-    "lon": -118.9672,
-    "weather": "No coded weather",
-    "temperature": 11.9,
-    "dewpoint": 7.7,
-    "windSpeed": 8.0,
-    "windDirection": 90.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T05:15:00.000Z",
-    "observationTimestamp": "2026-09-19T05:15:00+00:00",
-    "raw": "METAR KGCD 190515Z AUTO 09008KT 10SM CLR 12/08 A3019 RMK AO2 T01190077"
+    "observationTime": "2026-09-19T05:30:00.000Z",
+    "observationTimestamp": "2026-09-19T05:30:00+00:00",
+    "raw": "METAR LEBA 190530Z AUTO 00000KT CAVOK 18/14 Q1017"
   },
   "globalPulse": {
     "population": {
-      "value": 8211782695,
-      "display": "8,211,782,695",
+      "value": 8211784213,
+      "display": "8,211,784,213",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T05:21:00Z",
-      "speed": 426.0
+      "time": "2026-09-19T05:31:00Z",
+      "speed": 425.0
     },
     "magneticField": {
-      "time": "2026-09-19T05:18:00Z",
-      "bt": 5.0,
+      "time": "2026-09-19T05:31:00Z",
+      "bt": 4.0,
       "bz": 0.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 2.33
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T05:18:00Z",
-      "forecastTime": "2026-09-19T06:22:00Z"
+      "observationTime": "2026-09-19T05:29:00Z",
+      "forecastTime": "2026-09-19T06:33:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
