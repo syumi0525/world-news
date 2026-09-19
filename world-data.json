@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T12:58:58.092436+00:00",
+  "generatedAt": "2026-09-19T13:15:39.151003+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:500px photo (168208635).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
+    "title": "File:Active Wave At Popham Beach, Popham, Maine.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FlaggSwagg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FlaggSwagg (page does not exist)\">FlaggSwagg</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28168208635%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Active_Wave_At_Popham_Beach%2C_Popham%2C_Maine.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPUW",
-    "station": "KPUW",
-    "lat": 46.7438,
-    "lon": -117.1158,
-    "weather": "No coded weather",
-    "temperature": 6.7,
-    "dewpoint": 5.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "name": "KDSM",
+    "station": "KDSM",
+    "lat": 41.5339,
+    "lon": -93.6531,
+    "weather": "TS",
+    "temperature": 22.2,
+    "dewpoint": 21.1,
+    "windSpeed": 5.0,
+    "windDirection": 110.0,
+    "visibility": "7",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T12:54:00.000Z",
+    "observationTimestamp": "2026-09-19T12:54:00+00:00",
+    "raw": "METAR KDSM 191254Z 11005KT 7SM TS FEW050CB BKN090 BKN110 22/21 A2988 RMK AO2 RAE42 SLP112 OCNL LTGIC VC NE AND SE-S TS VC NE AND SE-S VCSH P0003 T02220211"
+  },
+  "randomPlace": {
+    "name": "PAKW",
+    "station": "PAKW",
+    "lat": 55.582,
+    "lon": -133.075,
+    "weather": "-RA",
+    "temperature": 15.0,
+    "dewpoint": 11.1,
+    "windSpeed": 6.0,
+    "windDirection": 170.0,
+    "visibility": "8",
     "flightCategory": "VFR",
     "observationTime": "2026-09-19T12:53:00.000Z",
     "observationTimestamp": "2026-09-19T12:53:00+00:00",
-    "raw": "METAR KPUW 191253Z AUTO 00000KT 10SM CLR 07/05 A3014 RMK AO2 SLP203 T00670050"
-  },
-  "randomPlace": {
-    "name": "KU68",
-    "station": "KU68",
-    "lat": 44.9113,
-    "lon": -108.4469,
-    "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 13.0,
-    "windSpeed": 8.0,
-    "windDirection": 290.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T12:55:00.000Z",
-    "observationTimestamp": "2026-09-19T12:55:00+00:00",
-    "raw": "METAR KU68 191255Z AUTO 29008KT 10SM SCT022 OVC050 13/13 A3009 RMK AO2"
+    "raw": "METAR PAKW 191253Z AUTO 17006KT 8SM -RA FEW022 FEW031 OVC043 15/11 A2994 RMK AO2 SLP136 T01500111 TSNO PNO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211836619,
-      "display": "8,211,836,619",
+      "value": 8211838612,
+      "display": "8,211,838,612",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T12:52:00Z",
-      "speed": 438.0
+      "time": "2026-09-19T13:04:00Z",
+      "speed": 439.0
     },
     "magneticField": {
-      "time": "2026-09-19T12:49:00Z",
+      "time": "2026-09-19T13:07:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-19T09:00:00",
       "kp": 1.33
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T12:43:00Z",
-      "forecastTime": "2026-09-19T13:47:00Z"
+      "observationTime": "2026-09-19T13:04:00Z",
+      "forecastTime": "2026-09-19T14:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
