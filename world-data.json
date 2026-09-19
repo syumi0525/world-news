@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T06:59:33.577253+00:00",
+  "generatedAt": "2026-09-19T07:15:57.130405+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Dãy Bạch Mã.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%AA_%C4%90%C4%83ng_Kh%C3%B4i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lê Đăng Khôi (page does not exist)\">Lê Đăng Khôi</a>",
+    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:D%C3%A3y_B%E1%BA%A1ch_M%C3%A3.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMNE",
-    "station": "KMNE",
-    "lat": 32.6433,
-    "lon": -93.2972,
+    "name": "KDLZ",
+    "station": "KDLZ",
+    "lat": 40.281,
+    "lon": -83.114,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 16.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 17.0,
+    "dewpoint": 17.0,
+    "windSpeed": 4.0,
+    "windDirection": 120.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T06:35:00.000Z",
-    "observationTimestamp": "2026-09-19T06:35:00+00:00",
-    "raw": "METAR KMNE 190635Z AUTO 00000KT 10SM CLR 22/16 A3004 RMK AO2"
+    "observationTime": "2026-09-19T06:55:00.000Z",
+    "observationTimestamp": "2026-09-19T06:55:00+00:00",
+    "raw": "METAR KDLZ 190655Z AUTO 12004KT 10SM FEW095 17/17 A3012 RMK AO2"
   },
   "randomPlace": {
-    "name": "ZGSZ",
-    "station": "ZGSZ",
-    "lat": 22.639,
-    "lon": 113.803,
+    "name": "K1HN",
+    "station": "K1HN",
+    "lat": 47.97,
+    "lon": -102.22,
     "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 24.0,
-    "windSpeed": 8.0,
-    "windDirection": 220.0,
-    "visibility": "6+",
+    "temperature": 15.8,
+    "dewpoint": 14.3,
+    "windSpeed": 3.0,
+    "windDirection": 150.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T06:00:00.000Z",
-    "observationTimestamp": "2026-09-19T06:00:00+00:00",
-    "raw": "METAR ZGSZ 190600Z 22004MPS 9999 FEW020 32/24 Q1014 NOSIG"
+    "observationTime": "2026-09-19T06:55:00.000Z",
+    "observationTimestamp": "2026-09-19T06:55:00+00:00",
+    "raw": "METAR K1HN 190655Z AUTO 15003KT 10SM CLR 16/14 A3004 RMK AO2 SLP173 T01580143 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211793597,
-      "display": "8,211,793,597",
+      "value": 8211795564,
+      "display": "8,211,795,564",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T06:50:00Z",
-      "speed": 440.0
+      "time": "2026-09-19T07:09:00Z",
+      "speed": 435.0
     },
     "magneticField": {
-      "time": "2026-09-19T06:50:00Z",
-      "bt": 6.0,
+      "time": "2026-09-19T07:09:00Z",
+      "bt": 7.0,
       "bz": 3.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 2.67
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T06:50:00Z",
-      "forecastTime": "2026-09-19T07:53:00Z"
+      "observationTime": "2026-09-19T07:04:00Z",
+      "forecastTime": "2026-09-19T08:08:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
