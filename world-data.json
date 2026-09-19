@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:47:21.768651+00:00",
+  "generatedAt": "2026-09-19T18:56:38.396303+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:500px photo (168208635).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
+    "title": "File:Aga Khan Peak.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Xonoo\" title=\"User:Xonoo\">Xonoo</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28168208635%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aga_Khan_Peak.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ENSB",
-    "station": "ENSB",
-    "lat": 78.246,
-    "lon": 15.466,
+    "name": "KBKD",
+    "station": "KBKD",
+    "lat": 32.7206,
+    "lon": -98.8931,
     "weather": "No coded weather",
-    "temperature": 4.0,
-    "dewpoint": 2.0,
-    "windSpeed": 3.0,
-    "windDirection": 260.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T18:20:00.000Z",
-    "observationTimestamp": "2026-09-19T18:20:00+00:00",
-    "raw": "METAR ENSB 191820Z 26003KT 9999 FEW010 04/02 Q1000 RMK WIND 1400FT 08004KT"
+    "temperature": 34.9,
+    "dewpoint": 17.9,
+    "windSpeed": 9.0,
+    "windDirection": 180.0,
+    "visibility": "5",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T18:35:00.000Z",
+    "observationTimestamp": "2026-09-19T18:35:00+00:00",
+    "raw": "METAR KBKD 191835Z AUTO 18009G15KT 5SM SCT065 35/18 A2997 RMK AO2 T03490179"
   },
   "randomPlace": {
-    "name": "KDEW",
-    "station": "KDEW",
-    "lat": 47.9742,
-    "lon": -117.4292,
+    "name": "KOGA",
+    "station": "KOGA",
+    "lat": 41.1164,
+    "lon": -101.7679,
     "weather": "No coded weather",
-    "temperature": 18.9,
-    "dewpoint": 9.4,
+    "temperature": 24.9,
+    "dewpoint": 17.9,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T17:53:00.000Z",
-    "observationTimestamp": "2026-09-19T17:53:00+00:00",
-    "raw": "METAR KDEW 191753Z AUTO 00000KT 10SM CLR 19/09 A3016 RMK AO2 SLP209 T01890094 10189 20039 58000"
+    "observationTime": "2026-09-19T18:35:00.000Z",
+    "observationTimestamp": "2026-09-19T18:35:00+00:00",
+    "raw": "METAR KOGA 191835Z AUTO 00000KT 10SM BKN040 25/18 A3004 RMK AO2 T02490179"
   },
   "globalPulse": {
     "population": {
-      "value": 8211878350,
-      "display": "8,211,878,350",
+      "value": 8211879469,
+      "display": "8,211,879,469",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T18:38:00Z",
-      "speed": 413.0
+      "time": "2026-09-19T18:49:00Z",
+      "speed": 407.0
     },
     "magneticField": {
-      "time": "2026-09-19T18:38:00Z",
+      "time": "2026-09-19T18:49:00Z",
       "bt": 4.0,
       "bz": -1.0
     },
@@ -113,8 +113,8 @@
       "value": 19.0,
       "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T18:35:00Z",
-      "forecastTime": "2026-09-19T19:40:00Z"
+      "observationTime": "2026-09-19T18:43:00Z",
+      "forecastTime": "2026-09-19T19:50:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
