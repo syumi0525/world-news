@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T10:13:53.173587+00:00",
+  "generatedAt": "2026-09-19T10:28:45.086888+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 13.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:A river is a natural.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:J.Doniyorovich&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:J.Doniyorovich (page does not exist)\">J.Doniyorovich</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_13.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_river_is_a_natural.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "FYOA",
-    "station": "FYOA",
-    "lat": -17.878,
-    "lon": 15.953,
+    "name": "KJFX",
+    "station": "KJFX",
+    "lat": 33.9008,
+    "lon": -87.3092,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 2.0,
-    "windSpeed": 12.0,
-    "windDirection": 280.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-19T10:00:00.000Z",
-    "observationTimestamp": "2026-09-19T10:00:00+00:00",
-    "raw": "METAR FYOA 191000Z AUTO 28012KT //// // ////// 23/02 Q1015"
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "6",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T10:15:00.000Z",
+    "observationTimestamp": "2026-09-19T10:15:00+00:00",
+    "raw": "METAR KJFX 191015Z AUTO 00000KT 6SM CLR A3002 RMK AO2"
   },
   "randomPlace": {
-    "name": "NZAA",
-    "station": "NZAA",
-    "lat": -37.008,
-    "lon": 174.792,
+    "name": "LTBQ",
+    "station": "LTBQ",
+    "lat": 40.735,
+    "lon": 30.083,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 11.0,
-    "windSpeed": 12.0,
-    "windDirection": 270.0,
+    "temperature": 25.0,
+    "dewpoint": 15.0,
+    "windSpeed": 4.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T10:00:00.000Z",
-    "observationTimestamp": "2026-09-19T10:00:00+00:00",
-    "raw": "METAR NZAA 191000Z AUTO 27012KT 9999 SCT022/// 14/11 Q1003"
+    "observationTime": "2026-09-19T09:50:00.000Z",
+    "observationTimestamp": "2026-09-19T09:50:00+00:00",
+    "raw": "METAR LTBQ 190950Z VRB04KT 9999 BKN032 25/15 Q1021 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211816888,
-      "display": "8,211,816,888",
+      "value": 8211818664,
+      "display": "8,211,818,664",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T10:04:00Z",
-      "speed": 432.0
+      "time": "2026-09-19T10:19:00Z",
+      "speed": 442.0
     },
     "magneticField": {
-      "time": "2026-09-19T10:04:00Z",
+      "time": "2026-09-19T10:19:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T10:04:00Z",
-      "forecastTime": "2026-09-19T11:07:00Z"
+      "observationTime": "2026-09-19T10:13:00Z",
+      "forecastTime": "2026-09-19T11:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
