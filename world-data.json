@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T10:28:45.086888+00:00",
+  "generatedAt": "2026-09-19T10:41:16.804461+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A river is a natural.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:J.Doniyorovich&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:J.Doniyorovich (page does not exist)\">J.Doniyorovich</a>",
+    "title": "File:Alex Geerts 2015 (Unsplash).jpg",
+    "artist": "Alex Geerts <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@alexgeerts\">alexgeerts</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_river_is_a_natural.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alex_Geerts_2015_%28Unsplash%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KJFX",
-    "station": "KJFX",
-    "lat": 33.9008,
-    "lon": -87.3092,
+    "name": "RCQC",
+    "station": "RCQC",
+    "lat": 23.569,
+    "lon": 119.628,
     "weather": "No coded weather",
-    "temperature": null,
-    "dewpoint": null,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6",
+    "temperature": 28.0,
+    "dewpoint": 28.0,
+    "windSpeed": 13.0,
+    "windDirection": 20.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T10:15:00.000Z",
-    "observationTimestamp": "2026-09-19T10:15:00+00:00",
-    "raw": "METAR KJFX 191015Z AUTO 00000KT 6SM CLR A3002 RMK AO2"
+    "observationTime": "2026-09-19T10:30:00.000Z",
+    "observationTimestamp": "2026-09-19T10:30:00+00:00",
+    "raw": "METAR RCQC 191030Z 02013KT 9999 FEW012 28/28 Q1013 NOSIG RMK A2993"
   },
   "randomPlace": {
-    "name": "LTBQ",
-    "station": "LTBQ",
-    "lat": 40.735,
-    "lon": 30.083,
+    "name": "LFBX",
+    "station": "LFBX",
+    "lat": 45.196,
+    "lon": 0.815,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 15.0,
-    "windSpeed": 4.0,
+    "temperature": 23.0,
+    "dewpoint": 13.0,
+    "windSpeed": 2.0,
     "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T09:50:00.000Z",
-    "observationTimestamp": "2026-09-19T09:50:00+00:00",
-    "raw": "METAR LTBQ 190950Z VRB04KT 9999 BKN032 25/15 Q1021 NOSIG"
+    "observationTime": "2026-09-19T10:30:00.000Z",
+    "observationTimestamp": "2026-09-19T10:30:00+00:00",
+    "raw": "METAR LFBX 191030Z AUTO VRB02KT CAVOK 23/13 Q1024"
   },
   "globalPulse": {
     "population": {
-      "value": 8211818664,
-      "display": "8,211,818,664",
+      "value": 8211820160,
+      "display": "8,211,820,160",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T10:19:00Z",
-      "speed": 442.0
+      "time": "2026-09-19T10:31:00Z",
+      "speed": 439.0
     },
     "magneticField": {
-      "time": "2026-09-19T10:19:00Z",
-      "bt": 5.0,
-      "bz": 2.0
+      "time": "2026-09-19T10:31:00Z",
+      "bt": 4.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-19T06:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T10:13:00Z",
-      "forecastTime": "2026-09-19T11:17:00Z"
+      "observationTime": "2026-09-19T10:28:00Z",
+      "forecastTime": "2026-09-19T11:32:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
