@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T22:55:31.847628+00:00",
+  "generatedAt": "2026-09-19T23:08:21.828404+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Dãy Bạch Mã.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%AA_%C4%90%C4%83ng_Kh%C3%B4i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lê Đăng Khôi (page does not exist)\">Lê Đăng Khôi</a>",
+    "title": "File:Architect Dudok.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stopperspil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stopperspil (page does not exist)\">Stopperspil</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:D%C3%A3y_B%E1%BA%A1ch_M%C3%A3.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Architect_Dudok.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SCSN",
-    "station": "SCSN",
-    "lat": -33.656,
-    "lon": -71.615,
+    "name": "DFOO",
+    "station": "DFOO",
+    "lat": 11.163,
+    "lon": -4.322,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 11.0,
-    "windSpeed": 10.0,
-    "windDirection": 320.0,
+    "temperature": 26.0,
+    "dewpoint": 21.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
     "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-19T22:00:00.000Z",
-    "observationTimestamp": "2026-09-19T22:00:00+00:00",
-    "raw": "METAR SCSN 192200Z 32010KT 280V360 9999 OVC025 15/11 Q1014"
-  },
-  "randomPlace": {
-    "name": "CYWL",
-    "station": "CYWL",
-    "lat": 52.186,
-    "lon": -122.066,
-    "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 3.0,
-    "windSpeed": 5.0,
-    "windDirection": 140.0,
-    "visibility": "15",
     "flightCategory": "VFR",
     "observationTime": "2026-09-19T22:00:00.000Z",
     "observationTimestamp": "2026-09-19T22:00:00+00:00",
-    "raw": "METAR CYWL 192200Z 14005KT 15SM SCT230 22/03 A3007 RMK CI3 SLP186 DENSITY ALT 4500FT"
+    "raw": "METAR DFOO 192200Z VRB02KT 9999 FEW016 26/21 Q1016"
+  },
+  "randomPlace": {
+    "name": "GMMN",
+    "station": "GMMN",
+    "lat": 33.367,
+    "lon": -7.59,
+    "weather": "No coded weather",
+    "temperature": 22.0,
+    "dewpoint": 16.0,
+    "windSpeed": 3.0,
+    "windDirection": 270.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T23:00:00.000Z",
+    "observationTimestamp": "2026-09-19T23:00:00+00:00",
+    "raw": "METAR GMMN 192300Z 27003KT CAVOK 22/16 Q1015 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211908065,
-      "display": "8,211,908,065",
+      "value": 8211909601,
+      "display": "8,211,909,601",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T22:49:00Z",
-      "speed": 411.0
+      "time": "2026-09-19T23:02:00Z",
+      "speed": 419.0
     },
     "magneticField": {
-      "time": "2026-09-19T22:49:00Z",
+      "time": "2026-09-19T23:02:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-19T18:00:00",
@@ -113,8 +113,8 @@
       "value": 24.0,
       "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T22:43:00Z",
-      "forecastTime": "2026-09-19T23:50:00Z"
+      "observationTime": "2026-09-19T22:59:00Z",
+      "forecastTime": "2026-09-20T00:05:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
