@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T08:40:00.416053+00:00",
+  "generatedAt": "2026-09-19T08:51:18.074577+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Active Wave At Popham Beach, Popham, Maine.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FlaggSwagg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FlaggSwagg (page does not exist)\">FlaggSwagg</a>",
+    "title": "File:Borehole project 05.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Active_Wave_At_Popham_Beach%2C_Popham%2C_Maine.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_05.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KTOB",
-    "station": "KTOB",
-    "lat": 44.0202,
-    "lon": -92.8295,
+    "name": "CYBU",
+    "station": "CYBU",
+    "lat": 53.333,
+    "lon": -104.005,
     "weather": "No coded weather",
-    "temperature": 13.6,
-    "dewpoint": 13.6,
-    "windSpeed": 11.0,
-    "windDirection": 100.0,
+    "temperature": 9.0,
+    "dewpoint": 6.0,
+    "windSpeed": 4.0,
+    "windDirection": 320.0,
     "visibility": "9",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-19T08:35:00.000Z",
-    "observationTimestamp": "2026-09-19T08:35:00+00:00",
-    "raw": "METAR KTOB 190835Z AUTO 10011KT 9SM OVC003 14/14 A2995 RMK AO2 LTG DSNT E AND SE T01360136"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T08:00:00.000Z",
+    "observationTimestamp": "2026-09-19T08:00:00+00:00",
+    "raw": "METAR CYBU 190800Z AUTO 32004KT 9SM CLR 09/06 A3016 RMK SLP223"
   },
   "randomPlace": {
-    "name": "VAOZ",
-    "station": "VAOZ",
-    "lat": 20.119,
-    "lon": 73.914,
+    "name": "KMWO",
+    "station": "KMWO",
+    "lat": 39.5324,
+    "lon": -84.3974,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 19.0,
-    "windSpeed": 8.0,
-    "windDirection": 330.0,
-    "visibility": "3.73",
+    "temperature": 21.0,
+    "dewpoint": 20.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-19T08:30:00.000Z",
-    "observationTimestamp": "2026-09-19T08:30:00+00:00",
-    "raw": "METAR VAOZ 190830Z 33008KT 6000 SCT020 SCT030 29/19 Q1013 NOSIG"
+    "observationTime": "2026-09-19T08:35:00.000Z",
+    "observationTimestamp": "2026-09-19T08:35:00+00:00",
+    "raw": "METAR KMWO 190835Z AUTO 00000KT 10SM OVC024 21/20 A3007 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211805605,
-      "display": "8,211,805,605",
+      "value": 8211806975,
+      "display": "8,211,806,975",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T08:30:00Z",
-      "speed": 433.0
+      "time": "2026-09-19T08:42:00Z",
+      "speed": 437.0
     },
     "magneticField": {
-      "time": "2026-09-19T08:30:00Z",
+      "time": "2026-09-19T08:42:00Z",
       "bt": 6.0,
-      "bz": 4.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-19T03:00:00",
       "kp": 2.67
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T08:30:00Z",
-      "forecastTime": "2026-09-19T09:32:00Z"
+      "observationTime": "2026-09-19T08:39:00Z",
+      "forecastTime": "2026-09-19T09:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
