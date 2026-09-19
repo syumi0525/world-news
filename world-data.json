@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T08:09:59.083120+00:00",
+  "generatedAt": "2026-09-19T08:25:56.410830+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AuditorioITA.JPG",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Berpasan\" class=\"extiw\" title=\"w:User:Berpasan\">Berpasan</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Berpasan\" class=\"extiw\" title=\"w:User talk:Berpasan\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Berpasan\" class=\"extiw\" title=\"w:Special:ListFiles/Berpasan\">Uploads</a>)",
+    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
+    "artist": "Ferrovia Mesolcinese",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AuditorioITA.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRVS",
-    "station": "KRVS",
-    "lat": 36.0424,
-    "lon": -95.9901,
+    "name": "KTOP",
+    "station": "KTOP",
+    "lat": 39.0725,
+    "lon": -95.626,
     "weather": "No coded weather",
-    "temperature": 22.8,
-    "dewpoint": 18.9,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 26.1,
+    "dewpoint": 18.3,
+    "windSpeed": 4.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-19T07:53:00.000Z",
     "observationTimestamp": "2026-09-19T07:53:00+00:00",
-    "raw": "METAR KRVS 190753Z AUTO 00000KT 10SM CLR 23/19 A2998 RMK AO2 SLP153 T02280189"
+    "raw": "METAR KTOP 190753Z AUTO 20004KT 10SM CLR 26/18 A2991 RMK AO2 SLP116 T02610183"
   },
   "randomPlace": {
-    "name": "KSFB",
-    "station": "KSFB",
-    "lat": 28.7795,
-    "lon": -81.2435,
+    "name": "LTAC",
+    "station": "LTAC",
+    "lat": 40.128,
+    "lon": 32.995,
     "weather": "No coded weather",
-    "temperature": 23.9,
-    "dewpoint": 22.8,
-    "windSpeed": 0.0,
+    "temperature": 20.0,
+    "dewpoint": 13.0,
+    "windSpeed": 2.0,
     "windDirection": 0.0,
-    "visibility": "10+",
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T07:53:00.000Z",
-    "observationTimestamp": "2026-09-19T07:53:00+00:00",
-    "raw": "METAR KSFB 190753Z AUTO 00000KT 10SM CLR 24/23 A2999 RMK AO2 SLP154 T02390228"
+    "observationTime": "2026-09-19T07:50:00.000Z",
+    "observationTimestamp": "2026-09-19T07:50:00+00:00",
+    "raw": "METAR LTAC 190750Z VRB02KT 9999 SCT040 SCT100 20/13 Q1022 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211802029,
-      "display": "8,211,802,029",
+      "value": 8211803945,
+      "display": "8,211,803,945",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T08:01:00Z",
-      "speed": 429.0
+      "time": "2026-09-19T08:18:00Z",
+      "speed": 436.0
     },
     "magneticField": {
-      "time": "2026-09-19T08:01:00Z",
+      "time": "2026-09-19T08:18:00Z",
       "bt": 7.0,
       "bz": 3.0
     },
@@ -110,11 +110,11 @@
       "kp": 2.67
     },
     "aurora": {
-      "value": 11.0,
-      "display": "MAX 11.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T07:58:00Z",
-      "forecastTime": "2026-09-19T09:02:00Z"
+      "observationTime": "2026-09-19T08:13:00Z",
+      "forecastTime": "2026-09-19T09:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
