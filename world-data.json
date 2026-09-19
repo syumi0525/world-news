@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T16:08:50.696349+00:00",
+  "generatedAt": "2026-09-19T16:23:41.156428+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A simple image of bottle of water.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Crispengari&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Crispengari (page does not exist)\">Crispengari</a>",
+    "title": "File:Abandoned Boat on Tranquil Lakeshore.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Romijac67&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Romijac67 (page does not exist)\">Romijac67</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_simple_image_of_bottle_of_water.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Abandoned_Boat_on_Tranquil_Lakeshore.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ZBAA",
-    "station": "ZBAA",
-    "lat": 40.082,
-    "lon": 116.603,
+    "name": "ETAD",
+    "station": "ETAD",
+    "lat": 49.979,
+    "lon": 6.698,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 18.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
+    "temperature": 21.3,
+    "dewpoint": 5.6,
+    "windSpeed": 13.0,
+    "windDirection": 230.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T16:00:00.000Z",
-    "observationTimestamp": "2026-09-19T16:00:00+00:00",
-    "raw": "METAR ZBAA 191600Z VRB01MPS CAVOK 21/18 Q1019 NOSIG"
-  },
-  "randomPlace": {
-    "name": "KONL",
-    "station": "KONL",
-    "lat": 42.4691,
-    "lon": -98.6903,
-    "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 17.7,
-    "windSpeed": 5.0,
-    "windDirection": 40.0,
-    "visibility": "10+",
-    "flightCategory": "IFR",
     "observationTime": "2026-09-19T15:55:00.000Z",
     "observationTimestamp": "2026-09-19T15:55:00+00:00",
-    "raw": "METAR KONL 191555Z AUTO 04005KT 10SM BKN009 OVC014 19/18 A3000 RMK AO2 T01900177"
+    "raw": "METAR ETAD 191555Z AUTO 23013KT 9999 FEW200 21/06 A3015 RMK AO2 SLP200 T02130056"
+  },
+  "randomPlace": {
+    "name": "PAGH",
+    "station": "PAGH",
+    "lat": 66.886,
+    "lon": -157.159,
+    "weather": "-RA FG",
+    "temperature": 6.0,
+    "dewpoint": 6.0,
+    "windSpeed": 3.0,
+    "windDirection": 280.0,
+    "visibility": "0.5",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-19T16:20:00.000Z",
+    "observationTimestamp": "2026-09-19T16:20:00+00:00",
+    "raw": "SPECI PAGH 191620Z AUTO 28003KT 1/2SM -RA FG SCT005 OVC015 06/06 A2949 RMK AO2 P0001"
   },
   "globalPulse": {
     "population": {
-      "value": 8211859371,
-      "display": "8,211,859,371",
+      "value": 8211861158,
+      "display": "8,211,861,158",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T16:00:00Z",
-      "speed": 431.0
+      "time": "2026-09-19T16:14:00Z",
+      "speed": 416.0
     },
     "magneticField": {
-      "time": "2026-09-19T16:00:00Z",
+      "time": "2026-09-19T16:14:00Z",
       "bt": 5.0,
-      "bz": -3.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-19T12:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 27.0,
+      "display": "MAX 27.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T16:00:00Z",
-      "forecastTime": "2026-09-19T17:03:00Z"
+      "observationTime": "2026-09-19T16:09:00Z",
+      "forecastTime": "2026-09-19T17:13:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
