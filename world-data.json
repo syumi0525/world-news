@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T17:47:41.019828+00:00",
+  "generatedAt": "2026-09-19T17:57:09.465083+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:I will meet you at the depot A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Nilüfer kanak köprüsü.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAWM",
-    "station": "KAWM",
-    "lat": 35.1401,
-    "lon": -90.2359,
+    "name": "KBAB",
+    "station": "KBAB",
+    "lat": 39.145,
+    "lon": -121.436,
     "weather": "No coded weather",
-    "temperature": 36.1,
-    "dewpoint": 17.2,
-    "windSpeed": null,
-    "windDirection": null,
+    "temperature": 21.9,
+    "dewpoint": 11.3,
+    "windSpeed": 3.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T16:53:00.000Z",
-    "observationTimestamp": "2026-09-19T16:53:00+00:00",
-    "raw": "METAR KAWM 191653Z AUTO 10SM CLR 36/17 A3002 RMK AO2 SLP158 T03610172 $"
+    "observationTime": "2026-09-19T16:55:00.000Z",
+    "observationTimestamp": "2026-09-19T16:55:00+00:00",
+    "raw": "METAR KBAB 191655Z AUTO 20003KT 10SM CLR 22/11 A2998 RMK AO2 SLP155 T02190113 CHINO RWY33 $"
   },
   "randomPlace": {
-    "name": "ESMV",
-    "station": "ESMV",
-    "lat": 57.29,
-    "lon": 14.134,
+    "name": "LSZB",
+    "station": "LSZB",
+    "lat": 46.914,
+    "lon": 7.497,
     "weather": "No coded weather",
     "temperature": 16.0,
-    "dewpoint": 15.0,
-    "windSpeed": 12.0,
-    "windDirection": 210.0,
+    "dewpoint": 10.0,
+    "windSpeed": 1.0,
+    "windDirection": 0.0,
     "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-19T17:20:00.000Z",
-    "observationTimestamp": "2026-09-19T17:20:00+00:00",
-    "raw": "METAR ESMV 191720Z AUTO 21012KT 9999 SCT011/// BKN019/// 16/15 Q1004"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T17:50:00.000Z",
+    "observationTimestamp": "2026-09-19T17:50:00+00:00",
+    "raw": "METAR LSZB 191750Z VRB01KT CAVOK 16/10 Q1024"
   },
   "globalPulse": {
     "population": {
-      "value": 8211871213,
-      "display": "8,211,871,213",
+      "value": 8211872336,
+      "display": "8,211,872,336",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T17:38:00Z",
-      "speed": 407.0
+      "time": "2026-09-19T17:50:00Z",
+      "speed": 411.0
     },
     "magneticField": {
-      "time": "2026-09-19T17:38:00Z",
+      "time": "2026-09-19T17:50:00Z",
       "bt": 4.0,
-      "bz": 2.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-19T12:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 20.0,
-      "display": "MAX 20.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T17:41:00Z",
-      "forecastTime": "2026-09-19T18:46:00Z"
+      "observationTime": "2026-09-19T17:43:00Z",
+      "forecastTime": "2026-09-19T18:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
