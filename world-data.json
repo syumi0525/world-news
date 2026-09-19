@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T05:55:05.143728+00:00",
+  "generatedAt": "2026-09-19T06:11:41.627819+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:American Craftsman home.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Onthehilltop&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Onthehilltop (page does not exist)\">Onthehilltop</a>",
+    "title": "File:Agliè Castle.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pittw&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pittw (page does not exist)\">Pittw</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:American_Craftsman_home.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Agli%C3%A8_Castle.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPIH",
-    "station": "KPIH",
-    "lat": 42.9197,
-    "lon": -112.5723,
+    "name": "CXZV",
+    "station": "CXZV",
+    "lat": 50.217,
+    "lon": -66.26,
     "weather": "No coded weather",
-    "temperature": 11.1,
-    "dewpoint": 7.2,
-    "windSpeed": 7.0,
-    "windDirection": 190.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T04:53:00.000Z",
-    "observationTimestamp": "2026-09-19T04:53:00+00:00",
-    "raw": "METAR KPIH 190453Z AUTO 19007KT 10SM CLR 11/07 A3015 RMK AO2 SLP186 T01110072"
+    "temperature": 7.2,
+    "dewpoint": 1.5,
+    "windSpeed": 8.0,
+    "windDirection": 320.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-19T06:00:00.000Z",
+    "observationTimestamp": "2026-09-19T06:00:00+00:00",
+    "raw": "METAR CXZV 190600Z AUTO 32008KT 07/02 RMK AO1 T00720015 53021"
   },
   "randomPlace": {
-    "name": "KGDA",
-    "station": "KGDA",
-    "lat": 37.3344,
-    "lon": -88.1095,
+    "name": "CXLB",
+    "station": "CXLB",
+    "lat": 44.36,
+    "lon": -64.296,
     "weather": "No coded weather",
-    "temperature": 24.1,
-    "dewpoint": 20.5,
-    "windSpeed": 3.0,
-    "windDirection": 130.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T05:35:00.000Z",
-    "observationTimestamp": "2026-09-19T05:35:00+00:00",
-    "raw": "METAR KGDA 190535Z AUTO 13003KT 10SM CLR 24/21 A3006 RMK AO2 T02410205"
+    "temperature": 11.8,
+    "dewpoint": 5.5,
+    "windSpeed": 10.0,
+    "windDirection": 290.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-19T06:00:00.000Z",
+    "observationTimestamp": "2026-09-19T06:00:00+00:00",
+    "raw": "METAR CXLB 190600Z AUTO 29010KT 12/06 RMK AO1 SLP135 T01180055 51004"
   },
   "globalPulse": {
     "population": {
-      "value": 8211785891,
-      "display": "8,211,785,891",
+      "value": 8211787869,
+      "display": "8,211,787,869",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-19T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.3,
-      "display": "Kp 2.3",
+      "value": 2.7,
+      "display": "Kp 2.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-19T00:00:00"
+      "time": "2026-09-19T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T05:44:00Z",
+      "time": "2026-09-19T06:03:00Z",
       "speed": 426.0
     },
     "magneticField": {
-      "time": "2026-09-19T05:44:00Z",
+      "time": "2026-09-19T06:03:00Z",
       "bt": 7.0,
       "bz": 2.0
     },
     "kp": {
-      "time": "2026-09-19T00:00:00",
-      "kp": 2.33
+      "time": "2026-09-19T03:00:00",
+      "kp": 2.67
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T05:44:00Z",
-      "forecastTime": "2026-09-19T06:48:00Z"
+      "observationTime": "2026-09-19T06:00:00Z",
+      "forecastTime": "2026-09-19T07:03:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
