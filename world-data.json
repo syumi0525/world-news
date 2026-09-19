@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T14:47:46.556437+00:00",
+  "generatedAt": "2026-09-19T14:57:15.984920+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Architect Dudok.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stopperspil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stopperspil (page does not exist)\">Stopperspil</a>",
+    "title": "File:Cloudpeak.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Akashpandey91\" title=\"User:Akashpandey91\">Akashpandey91</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Architect_Dudok.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cloudpeak.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "TLPL",
-    "station": "TLPL",
-    "lat": 13.743,
-    "lon": -60.948,
+    "name": "KTWT",
+    "station": "KTWT",
+    "lat": 37.5432,
+    "lon": -87.9568,
     "weather": "No coded weather",
     "temperature": 30.0,
-    "dewpoint": 25.0,
-    "windSpeed": 10.0,
-    "windDirection": 120.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T14:00:00.000Z",
-    "observationTimestamp": "2026-09-19T14:00:00+00:00",
-    "raw": "METAR TLPL 191400Z 12010KT 9999 FEW027 30/25 Q1015 NOSIG"
-  },
-  "randomPlace": {
-    "name": "KN03",
-    "station": "KN03",
-    "lat": 42.5929,
-    "lon": -76.2174,
-    "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 7.0,
-    "windSpeed": 5.0,
-    "windDirection": 80.0,
-    "visibility": "10+",
+    "dewpoint": 21.7,
+    "windSpeed": 6.0,
+    "windDirection": 230.0,
+    "visibility": "9",
     "flightCategory": "VFR",
     "observationTime": "2026-09-19T14:35:00.000Z",
     "observationTimestamp": "2026-09-19T14:35:00+00:00",
-    "raw": "METAR KN03 191435Z AUTO 08005KT 10SM CLR 14/07 A3022 RMK AO2"
+    "raw": "METAR KTWT 191435Z AUTO 23006KT 9SM CLR 30/22 A3001 RMK AO2 T03000217"
+  },
+  "randomPlace": {
+    "name": "KDFW",
+    "station": "KDFW",
+    "lat": 32.8974,
+    "lon": -97.022,
+    "weather": "No coded weather",
+    "temperature": 29.4,
+    "dewpoint": 21.7,
+    "windSpeed": 11.0,
+    "windDirection": 210.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T14:53:00.000Z",
+    "observationTimestamp": "2026-09-19T14:53:00+00:00",
+    "raw": "METAR KDFW 191453Z 21011KT 10SM FEW070 FEW250 29/22 A3002 RMK AO2 SLP157 T02940217 51006 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211849654,
-      "display": "8,211,849,654",
+      "value": 8211850789,
+      "display": "8,211,850,789",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T14:37:00Z",
-      "speed": 434.0
+      "time": "2026-09-19T14:50:00Z",
+      "speed": 422.0
     },
     "magneticField": {
-      "time": "2026-09-19T14:37:00Z",
+      "time": "2026-09-19T14:47:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-19T09:00:00",
       "kp": 1.33
     },
     "aurora": {
-      "value": 28.0,
-      "display": "MAX 28.0%",
+      "value": 27.0,
+      "display": "MAX 27.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T14:35:00Z",
-      "forecastTime": "2026-09-19T15:38:00Z"
+      "observationTime": "2026-09-19T14:43:00Z",
+      "forecastTime": "2026-09-19T15:47:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
