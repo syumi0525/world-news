@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T11:36:42.605358+00:00",
+  "generatedAt": "2026-09-19T11:46:19.587653+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brûlé Lake from Mount Solomon Lookout.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
+    "title": "File:20260803 183933 Gartenanlage Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Br%C3%BBl%C3%A9_Lake_from_Mount_Solomon_Lookout.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_183933_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KOLZ",
-    "station": "KOLZ",
-    "lat": 42.6831,
-    "lon": -91.976,
-    "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 18.0,
-    "windSpeed": 14.0,
-    "windDirection": 130.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T11:15:00.000Z",
-    "observationTimestamp": "2026-09-19T11:15:00+00:00",
-    "raw": "METAR KOLZ 191115Z AUTO 13014G19KT 10SM FEW009 SCT023 BKN032 18/18 A2993 RMK A01"
+    "name": "VEBS",
+    "station": "VEBS",
+    "lat": 20.244,
+    "lon": 85.818,
+    "weather": "-TSRA",
+    "temperature": 28.0,
+    "dewpoint": 26.0,
+    "windSpeed": 2.0,
+    "windDirection": 250.0,
+    "visibility": "1.55",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-19T11:30:00.000Z",
+    "observationTimestamp": "2026-09-19T11:30:00+00:00",
+    "raw": "METAR VEBS 191130Z 25002KT 2500 -TSRA BKN016 FEW030CB BKN100 28/26 Q1007 NOSIG"
   },
   "randomPlace": {
-    "name": "VTPH",
-    "station": "VTPH",
-    "lat": 12.633,
-    "lon": 99.951,
-    "weather": "-SHRA",
-    "temperature": 26.0,
-    "dewpoint": 26.0,
-    "windSpeed": 3.0,
-    "windDirection": 250.0,
-    "visibility": "4.97",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-19T11:00:00.000Z",
-    "observationTimestamp": "2026-09-19T11:00:00+00:00",
-    "raw": "METAR VTPH 191100Z 25003KT 180V290 8000 -SHRA BKN030 26/26 Q1009 RERA NOSIG"
+    "name": "KLLR",
+    "station": "KLLR",
+    "lat": 39.2621,
+    "lon": -123.7525,
+    "weather": "BR",
+    "temperature": 12.0,
+    "dewpoint": 12.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "1.75",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-19T11:35:00.000Z",
+    "observationTimestamp": "2026-09-19T11:35:00+00:00",
+    "raw": "METAR KLLR 191135Z AUTO 00000KT 1 3/4SM BR OVC003 12/12 A3005 RMK A01"
   },
   "globalPulse": {
     "population": {
-      "value": 8211826804,
-      "display": "8,211,826,804",
+      "value": 8211827949,
+      "display": "8,211,827,949",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T11:27:00Z",
-      "speed": 437.0
+      "time": "2026-09-19T11:36:00Z",
+      "speed": 438.0
     },
     "magneticField": {
-      "time": "2026-09-19T11:27:00Z",
-      "bt": 5.0,
-      "bz": 1.0
+      "time": "2026-09-19T11:39:00Z",
+      "bt": 4.0,
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-19T06:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T11:24:00Z",
-      "forecastTime": "2026-09-19T12:27:00Z"
+      "observationTime": "2026-09-19T11:33:00Z",
+      "forecastTime": "2026-09-19T12:37:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
