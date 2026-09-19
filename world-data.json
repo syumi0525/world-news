@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:56:38.396303+00:00",
+  "generatedAt": "2026-09-19T19:09:28.722109+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Aga Khan Peak.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Xonoo\" title=\"User:Xonoo\">Xonoo</a>",
-    "license": "CC0",
+    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
+    "artist": "Gardner, Alexander, 1821-1882",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Aga_Khan_Peak.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBKD",
-    "station": "KBKD",
-    "lat": 32.7206,
-    "lon": -98.8931,
+    "name": "SBCC",
+    "station": "SBCC",
+    "lat": -9.334,
+    "lon": -54.965,
     "weather": "No coded weather",
-    "temperature": 34.9,
-    "dewpoint": 17.9,
-    "windSpeed": 9.0,
-    "windDirection": 180.0,
-    "visibility": "5",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-19T18:35:00.000Z",
-    "observationTimestamp": "2026-09-19T18:35:00+00:00",
-    "raw": "METAR KBKD 191835Z AUTO 18009G15KT 5SM SCT065 35/18 A2997 RMK AO2 T03490179"
+    "temperature": 35.0,
+    "dewpoint": 15.0,
+    "windSpeed": 10.0,
+    "windDirection": 60.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T18:00:00.000Z",
+    "observationTimestamp": "2026-09-19T18:00:00+00:00",
+    "raw": "METAR SBCC 191800Z 06010KT 320V120 9999 SCT040 FEW045TCU SCT100 35/15 Q1012"
   },
   "randomPlace": {
-    "name": "KOGA",
-    "station": "KOGA",
-    "lat": 41.1164,
-    "lon": -101.7679,
+    "name": "K21D",
+    "station": "K21D",
+    "lat": 45.0002,
+    "lon": -92.8549,
     "weather": "No coded weather",
-    "temperature": 24.9,
-    "dewpoint": 17.9,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 15.0,
+    "dewpoint": 15.0,
+    "windSpeed": 6.0,
+    "windDirection": 50.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T18:35:00.000Z",
-    "observationTimestamp": "2026-09-19T18:35:00+00:00",
-    "raw": "METAR KOGA 191835Z AUTO 00000KT 10SM BKN040 25/18 A3004 RMK AO2 T02490179"
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-19T18:55:00.000Z",
+    "observationTimestamp": "2026-09-19T18:55:00+00:00",
+    "raw": "METAR K21D 191855Z AUTO 05006KT 10SM OVC007 15/15 A3000 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211879469,
-      "display": "8,211,879,469",
+      "value": 8211881007,
+      "display": "8,211,881,007",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T18:49:00Z",
-      "speed": 407.0
+      "time": "2026-09-19T19:02:00Z",
+      "speed": 410.0
     },
     "magneticField": {
-      "time": "2026-09-19T18:49:00Z",
+      "time": "2026-09-19T19:02:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-19T15:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T18:43:00Z",
-      "forecastTime": "2026-09-19T19:50:00Z"
+      "observationTime": "2026-09-19T18:59:00Z",
+      "forecastTime": "2026-09-19T20:05:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
