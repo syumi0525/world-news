@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T14:09:09.523854+00:00",
+  "generatedAt": "2026-09-19T14:23:22.033795+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AcapulcoJulio2024.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
+    "title": "File:Cerro tindirica.jpg",
+    "artist": "Matías Cordero",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_tindirica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPNT",
-    "station": "KPNT",
-    "lat": 40.9233,
-    "lon": -88.6213,
-    "weather": "No coded weather",
-    "temperature": 20.5,
-    "dewpoint": 20.3,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T13:55:00.000Z",
-    "observationTimestamp": "2026-09-19T13:55:00+00:00",
-    "raw": "METAR KPNT 191355Z AUTO 00000KT 10SM SCT026 SCT065 BKN080 21/20 A3000 RMK AO2 T02050203"
-  },
-  "randomPlace": {
-    "name": "CYCG",
-    "station": "CYCG",
-    "lat": 49.295,
-    "lon": -117.634,
-    "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": 7.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "15",
-    "flightCategory": "VFR",
+    "name": "OPPS",
+    "station": "OPPS",
+    "lat": 33.996,
+    "lon": 71.515,
+    "weather": "HZ",
+    "temperature": 31.0,
+    "dewpoint": 20.0,
+    "windSpeed": 10.0,
+    "windDirection": 50.0,
+    "visibility": "3.73",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-19T14:00:00.000Z",
     "observationTimestamp": "2026-09-19T14:00:00+00:00",
-    "raw": "METAR CYCG 191400Z 00000KT 15SM FEW001 FEW003 FEW240 07/07 A3018 RMK ST1SF1CI1 ST TR SF TR SLP226"
+    "raw": "METAR OPPS 191400Z 05010KT 6000 HZ FEW100 31/20 Q1011"
+  },
+  "randomPlace": {
+    "name": "LTAW",
+    "station": "LTAW",
+    "lat": 40.308,
+    "lon": 36.368,
+    "weather": "No coded weather",
+    "temperature": 22.0,
+    "dewpoint": 12.0,
+    "windSpeed": 3.0,
+    "windDirection": 180.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T13:50:00.000Z",
+    "observationTimestamp": "2026-09-19T13:50:00+00:00",
+    "raw": "METAR LTAW 191350Z 18003KT 130V230 9999 SCT035 BKN090 22/12 Q1021"
   },
   "globalPulse": {
     "population": {
-      "value": 8211845021,
-      "display": "8,211,845,021",
+      "value": 8211846733,
+      "display": "8,211,846,733",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T13:59:00Z",
-      "speed": 433.0
+      "time": "2026-09-19T14:11:00Z",
+      "speed": 430.0
     },
     "magneticField": {
-      "time": "2026-09-19T13:59:00Z",
+      "time": "2026-09-19T14:11:00Z",
       "bt": 5.0,
       "bz": -4.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.33
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 28.0,
+      "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T13:53:00Z",
-      "forecastTime": "2026-09-19T14:57:00Z"
+      "observationTime": "2026-09-19T14:14:00Z",
+      "forecastTime": "2026-09-19T15:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
