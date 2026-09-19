@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T12:49:22.585922+00:00",
+  "generatedAt": "2026-09-19T12:58:58.092436+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 16.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:500px photo (168208635).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_16.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28168208635%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LIBD",
-    "station": "LIBD",
-    "lat": 41.138,
-    "lon": 16.765,
+    "name": "KPUW",
+    "station": "KPUW",
+    "lat": 46.7438,
+    "lon": -117.1158,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 21.0,
-    "windSpeed": 8.0,
-    "windDirection": 30.0,
-    "visibility": "6+",
+    "temperature": 6.7,
+    "dewpoint": 5.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T12:20:00.000Z",
-    "observationTimestamp": "2026-09-19T12:20:00+00:00",
-    "raw": "METAR LIBD 191220Z 03008KT 340V070 9999 SCT020 26/21 Q1019"
+    "observationTime": "2026-09-19T12:53:00.000Z",
+    "observationTimestamp": "2026-09-19T12:53:00+00:00",
+    "raw": "METAR KPUW 191253Z AUTO 00000KT 10SM CLR 07/05 A3014 RMK AO2 SLP203 T00670050"
   },
   "randomPlace": {
-    "name": "FYKM",
-    "station": "FYKM",
-    "lat": -17.634,
-    "lon": 24.177,
+    "name": "KU68",
+    "station": "KU68",
+    "lat": 44.9113,
+    "lon": -108.4469,
     "weather": "No coded weather",
-    "temperature": 35.0,
-    "dewpoint": 8.0,
-    "windSpeed": 12.0,
-    "windDirection": 40.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-19T12:00:00.000Z",
-    "observationTimestamp": "2026-09-19T12:00:00+00:00",
-    "raw": "METAR FYKM 191200Z AUTO 04012G23KT //// // ////// 35/08 Q1014"
+    "temperature": 13.0,
+    "dewpoint": 13.0,
+    "windSpeed": 8.0,
+    "windDirection": 290.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T12:55:00.000Z",
+    "observationTimestamp": "2026-09-19T12:55:00+00:00",
+    "raw": "METAR KU68 191255Z AUTO 29008KT 10SM SCT022 OVC050 13/13 A3009 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211835480,
-      "display": "8,211,835,480",
+      "value": 8211836619,
+      "display": "8,211,836,619",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T12:40:00Z",
+      "time": "2026-09-19T12:52:00Z",
       "speed": 438.0
     },
     "magneticField": {
-      "time": "2026-09-19T12:40:00Z",
+      "time": "2026-09-19T12:49:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-19T09:00:00",
       "kp": 1.33
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T12:40:00Z",
-      "forecastTime": "2026-09-19T13:42:00Z"
+      "observationTime": "2026-09-19T12:43:00Z",
+      "forecastTime": "2026-09-19T13:47:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
