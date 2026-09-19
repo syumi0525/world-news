@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T11:56:07.872843+00:00",
+  "generatedAt": "2026-09-19T12:13:44.367849+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Basilique de Fourvière à Lyon, vue d'en bas.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PerrineSCDUM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PerrineSCDUM (page does not exist)\">PerrineSCDUM</a>",
+    "title": "File:Acesso principal ao edifício JMM 01.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rqltst&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rqltst (page does not exist)\">Rqltst</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_%C3%A0_Lyon%2C_vue_d%27en_bas.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Acesso_principal_ao_edif%C3%ADcio_JMM_01.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDYS",
-    "station": "KDYS",
-    "lat": 32.406,
-    "lon": -99.85,
+    "name": "KFRR",
+    "station": "KFRR",
+    "lat": 38.9169,
+    "lon": -78.2487,
     "weather": "No coded weather",
-    "temperature": 25.3,
-    "dewpoint": 18.7,
-    "windSpeed": 6.0,
-    "windDirection": 200.0,
+    "temperature": 17.8,
+    "dewpoint": 16.6,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T10:55:00.000Z",
-    "observationTimestamp": "2026-09-19T10:55:00+00:00",
-    "raw": "METAR KDYS 191055Z AUTO 20006KT 10SM CLR 25/19 A3001 RMK AO2 SLP132 T02530187 $"
+    "observationTime": "2026-09-19T11:55:00.000Z",
+    "observationTimestamp": "2026-09-19T11:55:00+00:00",
+    "raw": "METAR KFRR 191155Z AUTO 00000KT 10SM BKN050 OVC060 18/17 A3015 RMK AO2 70019 T01780166 10192 20176"
   },
   "randomPlace": {
-    "name": "UUOB",
-    "station": "UUOB",
-    "lat": 50.644,
-    "lon": 36.59,
+    "name": "CYOW",
+    "station": "CYOW",
+    "lat": 45.307,
+    "lon": -75.66,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 11.0,
-    "windSpeed": 8.0,
-    "windDirection": 230.0,
-    "visibility": "6+",
+    "temperature": 8.0,
+    "dewpoint": 5.0,
+    "windSpeed": 7.0,
+    "windDirection": 30.0,
+    "visibility": "15",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T11:30:00.000Z",
-    "observationTimestamp": "2026-09-19T11:30:00+00:00",
-    "raw": "METAR UUOB 191130Z 23004MPS CAVOK 24/11 Q1021 R29/010070 NOSIG RMK QNH766 QFE747/0996"
+    "observationTime": "2026-09-19T12:00:00.000Z",
+    "observationTimestamp": "2026-09-19T12:00:00+00:00",
+    "raw": "METAR CYOW 191200Z 03007KT 15SM FEW120 SCT250 08/05 A3028 RMK AC2CI2 SLP259"
   },
   "globalPulse": {
     "population": {
-      "value": 8211829127,
-      "display": "8,211,829,127",
+      "value": 8211831216,
+      "display": "8,211,831,216",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-19T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.7,
-      "display": "Kp 1.7",
+      "value": 1.3,
+      "display": "Kp 1.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-19T06:00:00"
+      "time": "2026-09-19T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T11:45:00Z",
-      "speed": 439.0
+      "time": "2026-09-19T12:06:00Z",
+      "speed": 434.0
     },
     "magneticField": {
-      "time": "2026-09-19T11:45:00Z",
+      "time": "2026-09-19T12:06:00Z",
       "bt": 5.0,
-      "bz": 1.0
+      "bz": -1.0
     },
     "kp": {
-      "time": "2026-09-19T06:00:00",
-      "kp": 1.67
+      "time": "2026-09-19T09:00:00",
+      "kp": 1.33
     },
     "aurora": {
-      "value": 11.0,
-      "display": "MAX 11.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T11:45:00Z",
-      "forecastTime": "2026-09-19T12:47:00Z"
+      "observationTime": "2026-09-19T12:03:00Z",
+      "forecastTime": "2026-09-19T13:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
