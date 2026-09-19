@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T22:15:54.292356+00:00",
+  "generatedAt": "2026-09-19T22:28:51.138417+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:DSC 9881 (49995148081).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94157272@N06\">Scott Willoughby</a>",
-    "license": "Public domain",
+    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:DSC_9881_%2849995148081%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KEBA",
-    "station": "KEBA",
-    "lat": 34.0957,
-    "lon": -82.8121,
+    "name": "KRHV",
+    "station": "KRHV",
+    "lat": 37.3331,
+    "lon": -121.82,
     "weather": "No coded weather",
-    "temperature": 28.5,
-    "dewpoint": 23.2,
-    "windSpeed": 5.0,
-    "windDirection": 10.0,
+    "temperature": 25.0,
+    "dewpoint": 13.0,
+    "windSpeed": 9.0,
+    "windDirection": 300.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T21:55:00.000Z",
-    "observationTimestamp": "2026-09-19T21:55:00+00:00",
-    "raw": "METAR KEBA 192155Z AUTO 01005KT 10SM SCT050 SCT070 BKN100 29/23 A2999 RMK AO2 T02850232"
+    "observationTime": "2026-09-19T21:47:00.000Z",
+    "observationTimestamp": "2026-09-19T21:47:00+00:00",
+    "raw": "METAR KRHV 192147Z 30009KT 10SM SKC 25/13 A2996"
   },
   "randomPlace": {
-    "name": "GMMC",
-    "station": "GMMC",
-    "lat": 33.557,
-    "lon": -7.66,
+    "name": "ROMY",
+    "station": "ROMY",
+    "lat": 24.782,
+    "lon": 125.295,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 19.0,
-    "windSpeed": 3.0,
-    "windDirection": 300.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "temperature": 27.0,
+    "dewpoint": 24.0,
+    "windSpeed": 10.0,
+    "windDirection": 350.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-19T22:00:00.000Z",
     "observationTimestamp": "2026-09-19T22:00:00+00:00",
-    "raw": "METAR GMMC 192200Z AUTO 30003KT // 24/19 Q1014"
+    "raw": "METAR ROMY 192200Z AUTO 35010KT 9999 FEW017 27/24 Q1012"
   },
   "globalPulse": {
     "population": {
-      "value": 8211903324,
-      "display": "8,211,903,324",
+      "value": 8211904870,
+      "display": "8,211,904,870",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T22:06:00Z",
-      "speed": 408.0
+      "time": "2026-09-19T22:19:00Z",
+      "speed": 415.0
     },
     "magneticField": {
-      "time": "2026-09-19T22:06:00Z",
+      "time": "2026-09-19T22:19:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-19T18:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 24.0,
+      "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T22:04:00Z",
-      "forecastTime": "2026-09-19T23:10:00Z"
+      "observationTime": "2026-09-19T22:19:00Z",
+      "forecastTime": "2026-09-19T23:25:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
