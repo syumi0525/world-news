@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:13:51.593626+00:00",
+  "generatedAt": "2026-09-19T18:31:00.187041+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 02.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:Comapedrosa with snow.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:FrameOverdose\" title=\"User:FrameOverdose\">FrameOverdose</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_02.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Comapedrosa_with_snow.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLPC",
-    "station": "KLPC",
-    "lat": 34.6647,
-    "lon": -120.4642,
-    "weather": "No coded weather",
-    "temperature": 18.9,
-    "dewpoint": 14.4,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T17:51:00.000Z",
-    "observationTimestamp": "2026-09-19T17:51:00+00:00",
-    "raw": "METAR KLPC 191751Z AUTO 00000KT 10SM FEW011 19/14 A3003 RMK AO2 SLP167 T01890144 10189 20150 51005"
-  },
-  "randomPlace": {
-    "name": "SARE",
-    "station": "SARE",
-    "lat": -27.45,
-    "lon": -59.056,
-    "weather": "No coded weather",
+    "name": "FKYS",
+    "station": "FKYS",
+    "lat": 3.833,
+    "lon": 11.521,
+    "weather": "TS",
     "temperature": 23.0,
     "dewpoint": 21.0,
-    "windSpeed": 5.0,
-    "windDirection": 30.0,
-    "visibility": "6+",
+    "windSpeed": 8.0,
+    "windDirection": 280.0,
+    "visibility": "4.97",
     "flightCategory": "MVFR",
     "observationTime": "2026-09-19T18:00:00.000Z",
     "observationTimestamp": "2026-09-19T18:00:00+00:00",
-    "raw": "METAR SARE 191800Z 03005KT 9999 SCT009 BKN013 OVC025 23/21 Q1008"
+    "raw": "METAR FKYS 191800Z 28008KT 8000 TS SCT010 FEW020CB 23/21 Q1015 TEMPO 4000 TSRA"
+  },
+  "randomPlace": {
+    "name": "OIZH",
+    "station": "OIZH",
+    "lat": 29.472,
+    "lon": 60.901,
+    "weather": "No coded weather",
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 4.0,
+    "windDirection": 300.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T18:00:00.000Z",
+    "observationTimestamp": "2026-09-19T18:00:00+00:00",
+    "raw": "METAR OIZH 191800Z 30004KT CAVOK 23/M09Z Q1021 A3017"
   },
   "globalPulse": {
     "population": {
-      "value": 8211874343,
-      "display": "8,211,874,343",
+      "value": 8211876400,
+      "display": "8,211,876,400",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T18:05:00Z",
-      "speed": 414.0
+      "time": "2026-09-19T18:22:00Z",
+      "speed": 410.0
     },
     "magneticField": {
-      "time": "2026-09-19T18:05:00Z",
+      "time": "2026-09-19T18:22:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-19T15:00:00",
@@ -113,8 +113,8 @@
       "value": 18.0,
       "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T18:05:00Z",
-      "forecastTime": "2026-09-19T19:11:00Z"
+      "observationTime": "2026-09-19T18:19:00Z",
+      "forecastTime": "2026-09-19T19:25:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
