@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T23:08:21.828404+00:00",
+  "generatedAt": "2026-09-19T23:20:38.173548+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Architect Dudok.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stopperspil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stopperspil (page does not exist)\">Stopperspil</a>",
+    "title": "File:Panneau-B0-ZTL Paris-Place-Hôtel-de-Ville 2026-05-15.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Britzz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Britzz (page does not exist)\">Britzz</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Architect_Dudok.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Panneau-B0-ZTL_Paris-Place-H%C3%B4tel-de-Ville_2026-05-15.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "DFOO",
-    "station": "DFOO",
-    "lat": 11.163,
-    "lon": -4.322,
+    "name": "KBIS",
+    "station": "KBIS",
+    "lat": 46.7823,
+    "lon": -100.7575,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 21.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 18.3,
+    "dewpoint": 13.9,
+    "windSpeed": 11.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T22:00:00.000Z",
-    "observationTimestamp": "2026-09-19T22:00:00+00:00",
-    "raw": "METAR DFOO 192200Z VRB02KT 9999 FEW016 26/21 Q1016"
+    "observationTime": "2026-09-19T22:52:00.000Z",
+    "observationTimestamp": "2026-09-19T22:52:00+00:00",
+    "raw": "METAR KBIS 192252Z AUTO 06011KT 10SM SCT024 OVC033 18/14 A3011 RMK AO2 SLP196 T01830139 $"
   },
   "randomPlace": {
-    "name": "GMMN",
-    "station": "GMMN",
-    "lat": 33.367,
-    "lon": -7.59,
+    "name": "PAGY",
+    "station": "PAGY",
+    "lat": 59.457,
+    "lon": -135.322,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 16.0,
+    "temperature": 14.4,
+    "dewpoint": 10.0,
     "windSpeed": 3.0,
-    "windDirection": 270.0,
-    "visibility": "6+",
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T23:00:00.000Z",
-    "observationTimestamp": "2026-09-19T23:00:00+00:00",
-    "raw": "METAR GMMN 192300Z 27003KT CAVOK 22/16 Q1015 NOSIG"
+    "observationTime": "2026-09-19T22:53:00.000Z",
+    "observationTimestamp": "2026-09-19T22:53:00+00:00",
+    "raw": "METAR PAGY 192253Z AUTO VRB03G26KT 10SM OVC050 14/10 A2970 RMK AO2 PK WND 20029/2224 RAB2154E16B38E51 SLP059 P0001 T01440100 TSNO"
   },
   "globalPulse": {
     "population": {
-      "value": 8211909601,
-      "display": "8,211,909,601",
+      "value": 8211911074,
+      "display": "8,211,911,074",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T23:02:00Z",
-      "speed": 419.0
+      "time": "2026-09-19T23:09:00Z",
+      "speed": 423.0
     },
     "magneticField": {
-      "time": "2026-09-19T23:02:00Z",
-      "bt": 4.0,
-      "bz": 0.0
+      "time": "2026-09-19T23:09:00Z",
+      "bt": 3.0,
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-19T18:00:00",
@@ -113,8 +113,8 @@
       "value": 24.0,
       "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T22:59:00Z",
-      "forecastTime": "2026-09-20T00:05:00Z"
+      "observationTime": "2026-09-19T23:09:00Z",
+      "forecastTime": "2026-09-20T00:15:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
