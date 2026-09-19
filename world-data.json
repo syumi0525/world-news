@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T15:28:50.000880+00:00",
+  "generatedAt": "2026-09-19T15:40:20.700289+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 102129 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "title": "File:3D Point Cloud Overview of Milton S. Eisenhower Library, Johns Hopkins University.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Matthewadams66&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Matthewadams66 (page does not exist)\">Matthewadams66</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_102129_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:3D_Point_Cloud_Overview_of_Milton_S._Eisenhower_Library%2C_Johns_Hopkins_University.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "DAON",
-    "station": "DAON",
-    "lat": 35.013,
-    "lon": -1.457,
+    "name": "KLUK",
+    "station": "KLUK",
+    "lat": 39.106,
+    "lon": -84.4161,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 16.0,
-    "windSpeed": 14.0,
-    "windDirection": 340.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T15:00:00.000Z",
-    "observationTimestamp": "2026-09-19T15:00:00+00:00",
-    "raw": "METAR DAON 191500Z 34014KT 9999 FEW026 FEW030TCU 28/16 Q1016"
+    "temperature": 23.9,
+    "dewpoint": 21.1,
+    "windSpeed": 5.0,
+    "windDirection": 180.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T14:53:00.000Z",
+    "observationTimestamp": "2026-09-19T14:53:00+00:00",
+    "raw": "METAR KLUK 191453Z 18005KT 10SM OVC013 24/21 A3006 RMK AO2 SLP175 T02390211 53001"
   },
   "randomPlace": {
-    "name": "PAAD",
-    "station": "PAAD",
-    "lat": 70.136,
-    "lon": -146.29,
-    "weather": "BR",
-    "temperature": -1.6,
-    "dewpoint": -1.6,
-    "windSpeed": 6.0,
+    "name": "KAUM",
+    "station": "KAUM",
+    "lat": 43.6688,
+    "lon": -92.9321,
+    "weather": "No coded weather",
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 7.0,
     "windDirection": 70.0,
-    "visibility": "0.75",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-19T15:15:00.000Z",
-    "observationTimestamp": "2026-09-19T15:15:00+00:00",
-    "raw": "METAR PAAD 191515Z AUTO 07006KT 3/4SM BR OVC003 M02/M02 A2962 RMK AO2 T10161016 FZRANO"
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-19T15:35:00.000Z",
+    "observationTimestamp": "2026-09-19T15:35:00+00:00",
+    "raw": "METAR KAUM 191535Z AUTO 07007KT OVC003 A2992 RMK AO2 CIG 002V004 PWINO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211854564,
-      "display": "8,211,854,564",
+      "value": 8211855965,
+      "display": "8,211,855,965",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.8,
-      "display": "61.8%",
+      "value": 62.0,
+      "display": "62.0%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-19T06:00:00Z"
+      "time": "2026-09-19T12:00:00Z"
     },
     "geomagnetic": {
       "value": 1.7,
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T15:21:00Z",
+      "time": "2026-09-19T15:33:00Z",
       "speed": 423.0
     },
     "magneticField": {
-      "time": "2026-09-19T15:21:00Z",
+      "time": "2026-09-19T15:33:00Z",
       "bt": 5.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-19T12:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 27.0,
-      "display": "MAX 27.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T15:18:00Z",
-      "forecastTime": "2026-09-19T16:23:00Z"
+      "observationTime": "2026-09-19T15:30:00Z",
+      "forecastTime": "2026-09-19T16:33:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
