@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T06:11:41.627819+00:00",
+  "generatedAt": "2026-09-19T06:34:27.417168+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Agliè Castle.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pittw&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pittw (page does not exist)\">Pittw</a>",
+    "title": "File:Borehole project 11.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Agli%C3%A8_Castle.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_11.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CXZV",
-    "station": "CXZV",
-    "lat": 50.217,
-    "lon": -66.26,
+    "name": "OEYN",
+    "station": "OEYN",
+    "lat": 24.144,
+    "lon": 38.063,
     "weather": "No coded weather",
-    "temperature": 7.2,
-    "dewpoint": 1.5,
-    "windSpeed": 8.0,
-    "windDirection": 320.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "temperature": 33.0,
+    "dewpoint": 28.0,
+    "windSpeed": 10.0,
+    "windDirection": 130.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-19T06:00:00.000Z",
     "observationTimestamp": "2026-09-19T06:00:00+00:00",
-    "raw": "METAR CXZV 190600Z AUTO 32008KT 07/02 RMK AO1 T00720015 53021"
+    "raw": "METAR OEYN 190600Z 13010KT 9999 FEW040 33/28 Q1009 NOSIG"
   },
   "randomPlace": {
-    "name": "CXLB",
-    "station": "CXLB",
-    "lat": 44.36,
-    "lon": -64.296,
+    "name": "K49A",
+    "station": "K49A",
+    "lat": 34.6301,
+    "lon": -84.5271,
     "weather": "No coded weather",
-    "temperature": 11.8,
-    "dewpoint": 5.5,
-    "windSpeed": 10.0,
-    "windDirection": 290.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-19T06:00:00.000Z",
-    "observationTimestamp": "2026-09-19T06:00:00+00:00",
-    "raw": "METAR CXLB 190600Z AUTO 29010KT 12/06 RMK AO1 SLP135 T01180055 51004"
+    "temperature": 22.0,
+    "dewpoint": 22.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T06:15:00.000Z",
+    "observationTimestamp": "2026-09-19T06:15:00+00:00",
+    "raw": "METAR K49A 190615Z AUTO 00000KT 10SM CLR 22/22 A3010 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211787869,
-      "display": "8,211,787,869",
+      "value": 8211790592,
+      "display": "8,211,790,592",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T06:03:00Z",
-      "speed": 426.0
+      "time": "2026-09-19T06:26:00Z",
+      "speed": 425.0
     },
     "magneticField": {
-      "time": "2026-09-19T06:03:00Z",
+      "time": "2026-09-19T06:26:00Z",
       "bt": 7.0,
-      "bz": 2.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-19T03:00:00",
       "kp": 2.67
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T06:00:00Z",
-      "forecastTime": "2026-09-19T07:03:00Z"
+      "observationTime": "2026-09-19T06:24:00Z",
+      "forecastTime": "2026-09-19T07:28:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
