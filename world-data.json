@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T16:23:41.156428+00:00",
+  "generatedAt": "2026-09-19T16:38:20.699621+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Abandoned Boat on Tranquil Lakeshore.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Romijac67&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Romijac67 (page does not exist)\">Romijac67</a>",
-    "license": "CC0",
+    "title": "File:Balcones (8677680208).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Abandoned_Boat_on_Tranquil_Lakeshore.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ETAD",
-    "station": "ETAD",
-    "lat": 49.979,
-    "lon": 6.698,
+    "name": "LEGE",
+    "station": "LEGE",
+    "lat": 41.911,
+    "lon": 2.763,
     "weather": "No coded weather",
-    "temperature": 21.3,
-    "dewpoint": 5.6,
-    "windSpeed": 13.0,
-    "windDirection": 230.0,
+    "temperature": 24.0,
+    "dewpoint": 12.0,
+    "windSpeed": 7.0,
+    "windDirection": 140.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T15:55:00.000Z",
-    "observationTimestamp": "2026-09-19T15:55:00+00:00",
-    "raw": "METAR ETAD 191555Z AUTO 23013KT 9999 FEW200 21/06 A3015 RMK AO2 SLP200 T02130056"
+    "observationTime": "2026-09-19T16:30:00.000Z",
+    "observationTimestamp": "2026-09-19T16:30:00+00:00",
+    "raw": "METAR LEGE 191630Z 14007KT 100V190 CAVOK 24/12 Q1022 NOSIG"
   },
   "randomPlace": {
-    "name": "PAGH",
-    "station": "PAGH",
-    "lat": 66.886,
-    "lon": -157.159,
-    "weather": "-RA FG",
-    "temperature": 6.0,
-    "dewpoint": 6.0,
-    "windSpeed": 3.0,
-    "windDirection": 280.0,
-    "visibility": "0.5",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-19T16:20:00.000Z",
-    "observationTimestamp": "2026-09-19T16:20:00+00:00",
-    "raw": "SPECI PAGH 191620Z AUTO 28003KT 1/2SM -RA FG SCT005 OVC015 06/06 A2949 RMK AO2 P0001"
+    "name": "CZFS",
+    "station": "CZFS",
+    "lat": 61.76,
+    "lon": -121.23,
+    "weather": "No coded weather",
+    "temperature": 7.9,
+    "dewpoint": 5.4,
+    "windSpeed": 7.0,
+    "windDirection": 120.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-19T16:00:00.000Z",
+    "observationTimestamp": "2026-09-19T16:00:00+00:00",
+    "raw": "METAR CZFS 191600Z AUTO 12007KT 08/05 RMK AO1 SLP083 T00790054 58023"
   },
   "globalPulse": {
     "population": {
-      "value": 8211861158,
-      "display": "8,211,861,158",
+      "value": 8211862912,
+      "display": "8,211,862,912",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T16:14:00Z",
-      "speed": 416.0
+      "time": "2026-09-19T16:29:00Z",
+      "speed": 421.0
     },
     "magneticField": {
-      "time": "2026-09-19T16:14:00Z",
-      "bt": 5.0,
-      "bz": -1.0
+      "time": "2026-09-19T16:29:00Z",
+      "bt": 4.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-19T12:00:00",
@@ -113,8 +113,8 @@
       "value": 27.0,
       "display": "MAX 27.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T16:09:00Z",
-      "forecastTime": "2026-09-19T17:13:00Z"
+      "observationTime": "2026-09-19T16:29:00Z",
+      "forecastTime": "2026-09-19T17:34:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
