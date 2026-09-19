@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T21:12:36.507275+00:00",
+  "generatedAt": "2026-09-19T21:28:26.675881+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 06.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:Au bonheur des tags (Démolition avant reconversion) (37932924806).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/110273693@N04\">Sylvie burr</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_06.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Au_bonheur_des_tags_%28D%C3%A9molition_avant_reconversion%29_%2837932924806%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFLD",
-    "station": "KFLD",
-    "lat": 43.7695,
-    "lon": -88.4907,
+    "name": "KBPG",
+    "station": "KBPG",
+    "lat": 32.2097,
+    "lon": -101.5247,
     "weather": "No coded weather",
-    "temperature": 16.7,
-    "dewpoint": 15.6,
-    "windSpeed": 6.0,
-    "windDirection": 90.0,
+    "temperature": 35.4,
+    "dewpoint": 15.9,
+    "windSpeed": 5.0,
+    "windDirection": 200.0,
     "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-19T20:53:00.000Z",
-    "observationTimestamp": "2026-09-19T20:53:00+00:00",
-    "raw": "METAR KFLD 192053Z AUTO 09006KT 10SM OVC006 17/16 A2998 RMK AO2 RAB07E45 SLP150 P0001 60001 T01670156 55003"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-19T21:15:00.000Z",
+    "observationTimestamp": "2026-09-19T21:15:00+00:00",
+    "raw": "METAR KBPG 192115Z AUTO 20005KT 10SM BKN070 BKN090 35/16 A2995 RMK AO2 T03540159"
   },
   "randomPlace": {
-    "name": "LELL",
-    "station": "LELL",
-    "lat": 41.521,
-    "lon": 2.105,
+    "name": "KSFZ",
+    "station": "KSFZ",
+    "lat": 41.9168,
+    "lon": -71.4924,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 17.0,
-    "windSpeed": 4.0,
-    "windDirection": 280.0,
-    "visibility": "6+",
+    "temperature": 16.7,
+    "dewpoint": 10.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T21:00:00.000Z",
-    "observationTimestamp": "2026-09-19T21:00:00+00:00",
-    "raw": "METAR LELL 192100Z AUTO 28004KT 9999 BKN033 20/17 Q1024"
+    "observationTime": "2026-09-19T20:56:00.000Z",
+    "observationTimestamp": "2026-09-19T20:56:00+00:00",
+    "raw": "METAR KSFZ 192056Z AUTO 00000KT 10SM CLR 17/10 A3019 RMK AO2 SLP220 T01670100 56006 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211895742,
-      "display": "8,211,895,742",
+      "value": 8211897636,
+      "display": "8,211,897,636",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T21:01:00Z",
+      "time": "2026-09-19T21:20:00Z",
       "speed": 408.0
     },
     "magneticField": {
-      "time": "2026-09-19T21:01:00Z",
+      "time": "2026-09-19T21:20:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-19T18:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T20:59:00Z",
-      "forecastTime": "2026-09-19T22:06:00Z"
+      "observationTime": "2026-09-19T21:20:00Z",
+      "forecastTime": "2026-09-19T22:26:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
