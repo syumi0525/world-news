@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T16:58:41.254426+00:00",
+  "generatedAt": "2026-09-19T17:13:55.558319+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Apple Garden Shergaon.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pulaksaikia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pulaksaikia (page does not exist)\">Pulaksaikia</a>",
+    "title": "File:A good view of the beach cliffs.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Apple_Garden_Shergaon.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SBMT",
-    "station": "SBMT",
-    "lat": -23.509,
-    "lon": -46.638,
+    "name": "VVTS",
+    "station": "VVTS",
+    "lat": 10.817,
+    "lon": 106.667,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 17.0,
-    "windSpeed": 6.0,
-    "windDirection": 80.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T16:00:00.000Z",
-    "observationTimestamp": "2026-09-19T16:00:00+00:00",
-    "raw": "METAR SBMT 191600Z 08006KT 9999 FEW020 24/17 Q1019"
+    "temperature": 27.0,
+    "dewpoint": 27.0,
+    "windSpeed": 2.0,
+    "windDirection": 10.0,
+    "visibility": "4.97",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T17:00:00.000Z",
+    "observationTimestamp": "2026-09-19T17:00:00+00:00",
+    "raw": "METAR VVTS 191700Z 01002KT 8000 FEW019 BKN035 27/27 Q1012 NOSIG"
   },
   "randomPlace": {
-    "name": "SBMG",
-    "station": "SBMG",
-    "lat": -23.476,
-    "lon": -52.017,
-    "weather": "VCSH",
-    "temperature": 20.0,
-    "dewpoint": 18.0,
-    "windSpeed": 11.0,
-    "windDirection": 150.0,
+    "name": "SCVD",
+    "station": "SCVD",
+    "lat": -39.65,
+    "lon": -73.086,
+    "weather": "-SHRA",
+    "temperature": 14.0,
+    "dewpoint": 10.0,
+    "windSpeed": 8.0,
+    "windDirection": 360.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T16:00:00.000Z",
-    "observationTimestamp": "2026-09-19T16:00:00+00:00",
-    "raw": "METAR SBMG 191600Z 15011KT 9999 VCSH SCT025 FEW030TCU BKN100 20/18 Q1016"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T17:00:00.000Z",
+    "observationTimestamp": "2026-09-19T17:00:00+00:00",
+    "raw": "METAR SCVD 191700Z 36008KT 9999 -SHRA BKN025 OVC042 14/10 Q1006"
   },
   "globalPulse": {
     "population": {
-      "value": 8211865345,
-      "display": "8,211,865,345",
+      "value": 8211867170,
+      "display": "8,211,867,170",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T16:50:00Z",
-      "speed": 408.0
+      "time": "2026-09-19T17:05:00Z",
+      "speed": 410.0
     },
     "magneticField": {
-      "time": "2026-09-19T16:50:00Z",
+      "time": "2026-09-19T17:05:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 23.0,
+      "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T16:44:00Z",
-      "forecastTime": "2026-09-19T17:49:00Z"
+      "observationTime": "2026-09-19T17:05:00Z",
+      "forecastTime": "2026-09-19T18:10:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
