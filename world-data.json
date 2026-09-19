@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T17:37:39.684764+00:00",
+  "generatedAt": "2026-09-19T17:47:41.019828+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brume matinale (44974906495).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
+    "title": "File:I will meet you at the depot A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Brume_matinale_%2844974906495%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EGTE",
-    "station": "EGTE",
-    "lat": 50.737,
-    "lon": -3.406,
-    "weather": "-RA",
-    "temperature": 19.0,
-    "dewpoint": 17.0,
-    "windSpeed": 5.0,
-    "windDirection": 270.0,
-    "visibility": "6+",
+    "name": "KAWM",
+    "station": "KAWM",
+    "lat": 35.1401,
+    "lon": -90.2359,
+    "weather": "No coded weather",
+    "temperature": 36.1,
+    "dewpoint": 17.2,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T17:20:00.000Z",
-    "observationTimestamp": "2026-09-19T17:20:00+00:00",
-    "raw": "METAR EGTE 191720Z 27005KT 9999 -RA FEW010 SCT030 19/17 Q1019"
+    "observationTime": "2026-09-19T16:53:00.000Z",
+    "observationTimestamp": "2026-09-19T16:53:00+00:00",
+    "raw": "METAR KAWM 191653Z AUTO 10SM CLR 36/17 A3002 RMK AO2 SLP158 T03610172 $"
   },
   "randomPlace": {
-    "name": "LTCD",
-    "station": "LTCD",
-    "lat": 39.71,
-    "lon": 39.527,
+    "name": "ESMV",
+    "station": "ESMV",
+    "lat": 57.29,
+    "lon": 14.134,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 11.0,
-    "windSpeed": 10.0,
-    "windDirection": 250.0,
+    "temperature": 16.0,
+    "dewpoint": 15.0,
+    "windSpeed": 12.0,
+    "windDirection": 210.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-19T16:50:00.000Z",
-    "observationTimestamp": "2026-09-19T16:50:00+00:00",
-    "raw": "METAR LTCD 191650Z 25010KT 9999 SCT040 BKN080 18/11 Q1021 NOSIG"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-19T17:20:00.000Z",
+    "observationTimestamp": "2026-09-19T17:20:00+00:00",
+    "raw": "METAR ESMV 191720Z AUTO 21012KT 9999 SCT011/// BKN019/// 16/15 Q1004"
   },
   "globalPulse": {
     "population": {
-      "value": 8211870013,
-      "display": "8,211,870,013",
+      "value": 8211871213,
+      "display": "8,211,871,213",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T17:29:00Z",
-      "speed": 408.0
+      "time": "2026-09-19T17:38:00Z",
+      "speed": 407.0
     },
     "magneticField": {
-      "time": "2026-09-19T17:29:00Z",
+      "time": "2026-09-19T17:38:00Z",
       "bt": 4.0,
       "bz": 2.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 21.0,
-      "display": "MAX 21.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T17:29:00Z",
-      "forecastTime": "2026-09-19T18:35:00Z"
+      "observationTime": "2026-09-19T17:41:00Z",
+      "forecastTime": "2026-09-19T18:46:00Z"
     },
     "flux10cm": {
       "time": "2026-09-18T20:00:00",
