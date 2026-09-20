@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T09:23:17.628292+00:00",
+  "generatedAt": "2026-09-20T09:38:01.500066+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Dãy Bạch Mã.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%AA_%C4%90%C4%83ng_Kh%C3%B4i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lê Đăng Khôi (page does not exist)\">Lê Đăng Khôi</a>",
+    "title": "File:Fusagasugá 2026.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wilferpc&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wilferpc (page does not exist)\">Wilferpc</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:D%C3%A3y_B%E1%BA%A1ch_M%C3%A3.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fusagasug%C3%A1_2026.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RODE",
-    "station": "RODE",
-    "lat": 26.718,
-    "lon": 127.783,
-    "weather": "-RA",
-    "temperature": 27.8,
-    "dewpoint": 23.9,
-    "windSpeed": null,
-    "windDirection": null,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-20T08:59:00.000Z",
-    "observationTimestamp": "2026-09-20T08:59:00+00:00",
-    "raw": "METAR RODE 200859Z AUTO -RA CLR 28/24 A2981 RMK AO2 SLP136 P0000 60000 T02780239 55000 $"
+    "name": "KASH",
+    "station": "KASH",
+    "lat": 42.7798,
+    "lon": -71.5141,
+    "weather": "No coded weather",
+    "temperature": 7.8,
+    "dewpoint": 7.2,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T08:56:00.000Z",
+    "observationTimestamp": "2026-09-20T08:56:00+00:00",
+    "raw": "METAR KASH 200856Z AUTO 00000KT 10SM CLR 08/07 A3015 RMK AO2 SLP210 6//// T00780072 58017 PNO $"
   },
   "randomPlace": {
-    "name": "LRAR",
-    "station": "LRAR",
-    "lat": 46.176,
-    "lon": 21.264,
+    "name": "KSCR",
+    "station": "KSCR",
+    "lat": 35.7058,
+    "lon": -79.5051,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 9.0,
-    "windSpeed": 3.0,
+    "temperature": 18.8,
+    "dewpoint": 18.4,
+    "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "6+",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T09:00:00.000Z",
-    "observationTimestamp": "2026-09-20T09:00:00+00:00",
-    "raw": "METAR LRAR 200900Z VRB03KT CAVOK 26/09 Q1025"
+    "observationTime": "2026-09-20T09:15:00.000Z",
+    "observationTimestamp": "2026-09-20T09:15:00+00:00",
+    "raw": "METAR KSCR 200915Z AUTO 00000KT 10SM CLR 19/18 A3003 RMK AO2 T01880184"
   },
   "globalPulse": {
     "population": {
-      "value": 8211983200,
-      "display": "8,211,983,200",
+      "value": 8211984974,
+      "display": "8,211,984,974",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.1,
-      "display": "61.1%",
+      "value": 61.5,
+      "display": "61.5%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-20T00:00:00Z"
+      "time": "2026-09-20T06:00:00Z"
     },
     "geomagnetic": {
       "value": 2.0,
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T09:15:00Z",
+      "time": "2026-09-20T09:28:00Z",
       "speed": 386.0
     },
     "magneticField": {
-      "time": "2026-09-20T09:15:00Z",
+      "time": "2026-09-20T09:28:00Z",
       "bt": 5.0,
       "bz": 1.0
     },
@@ -110,11 +110,11 @@
       "kp": 2.0
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T09:15:00Z",
-      "forecastTime": "2026-09-20T10:22:00Z"
+      "observationTime": "2026-09-20T09:26:00Z",
+      "forecastTime": "2026-09-20T10:32:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
