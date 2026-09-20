@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T02:55:53.961986+00:00",
+  "generatedAt": "2026-09-20T03:10:21.271931+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 085138 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "title": "File:A misty forest road in Coonoor.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_085138_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ESNS",
-    "station": "ESNS",
-    "lat": 64.625,
-    "lon": 21.077,
-    "weather": "DZ",
-    "temperature": 11.0,
-    "dewpoint": 10.0,
-    "windSpeed": 12.0,
-    "windDirection": 290.0,
-    "visibility": "3.73",
-    "flightCategory": "IFR",
+    "name": "LICD",
+    "station": "LICD",
+    "lat": 35.498,
+    "lon": 12.618,
+    "weather": "No coded weather",
+    "temperature": 26.0,
+    "dewpoint": 21.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-20T02:50:00.000Z",
     "observationTimestamp": "2026-09-20T02:50:00+00:00",
-    "raw": "METAR ESNS 200250Z AUTO 29012KT 6000 DZ OVC007/// 11/10 Q0980"
+    "raw": "METAR LICD 200250Z AUTO VRB02KT 9999 BKN026/// 26/21 Q1021"
   },
   "randomPlace": {
-    "name": "KHAF",
-    "station": "KHAF",
-    "lat": 37.5136,
-    "lon": -122.4996,
-    "weather": "BR",
-    "temperature": 14.0,
-    "dewpoint": 14.0,
-    "windSpeed": 9.0,
-    "windDirection": 320.0,
-    "visibility": "5",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-20T02:35:00.000Z",
-    "observationTimestamp": "2026-09-20T02:35:00+00:00",
-    "raw": "METAR KHAF 200235Z AUTO 32009KT 5SM BR OVC007 14/14 A2999 RMK AO2"
+    "name": "KLUF",
+    "station": "KLUF",
+    "lat": 33.538,
+    "lon": -112.38,
+    "weather": "No coded weather",
+    "temperature": 34.7,
+    "dewpoint": 5.2,
+    "windSpeed": 4.0,
+    "windDirection": 270.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T02:55:00.000Z",
+    "observationTimestamp": "2026-09-20T02:55:00+00:00",
+    "raw": "METAR KLUF 200255Z AUTO 27004KT 10SM CLR 35/05 A2980 RMK AO2 SLP075 T03470052 53002 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211936822,
-      "display": "8,211,936,822",
+      "value": 8211938552,
+      "display": "8,211,938,552",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-19T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.7,
-      "display": "Kp 1.7",
+      "value": 2.3,
+      "display": "Kp 2.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-19T21:00:00"
+      "time": "2026-09-20T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T02:45:00Z",
-      "speed": 416.0
+      "time": "2026-09-20T03:02:00Z",
+      "speed": 419.0
     },
     "magneticField": {
-      "time": "2026-09-20T02:45:00Z",
+      "time": "2026-09-20T03:02:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": -4.0
     },
     "kp": {
-      "time": "2026-09-19T21:00:00",
-      "kp": 1.67
+      "time": "2026-09-20T00:00:00",
+      "kp": 2.33
     },
     "aurora": {
-      "value": 24.0,
-      "display": "MAX 24.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T02:42:00Z",
-      "forecastTime": "2026-09-20T03:49:00Z"
+      "observationTime": "2026-09-20T02:59:00Z",
+      "forecastTime": "2026-09-20T04:04:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
