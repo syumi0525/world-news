@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T04:10:36.485616+00:00",
+  "generatedAt": "2026-09-20T04:30:14.071953+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20140907 114910 Jpg (218976057).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
+    "title": "File:A nude man poses in the formal garden of a privately owned chateau near Paris.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:The_Naked_Gentleman\" title=\"User:The Naked Gentleman\">The Naked Gentleman</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_nude_man_poses_in_the_formal_garden_of_a_privately_owned_chateau_near_Paris.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ENHV",
-    "station": "ENHV",
-    "lat": 71.009,
-    "lon": 25.982,
+    "name": "LFMP",
+    "station": "LFMP",
+    "lat": 42.737,
+    "lon": 2.873,
     "weather": "No coded weather",
-    "temperature": 4.0,
-    "dewpoint": 2.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 17.0,
+    "dewpoint": 8.0,
+    "windSpeed": 5.0,
+    "windDirection": 250.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T03:50:00.000Z",
-    "observationTimestamp": "2026-09-20T03:50:00+00:00",
-    "raw": "METAR ENHV 200350Z AUTO 00000KT 9999 NCD 04/02 Q0990"
+    "observationTime": "2026-09-20T04:00:00.000Z",
+    "observationTimestamp": "2026-09-20T04:00:00+00:00",
+    "raw": "METAR LFMP 200400Z AUTO 25005KT CAVOK 17/08 Q1024 NOSIG"
   },
   "randomPlace": {
-    "name": "KMSN",
-    "station": "KMSN",
-    "lat": 43.1407,
-    "lon": -89.3452,
-    "weather": "-RA",
-    "temperature": 17.2,
-    "dewpoint": 16.7,
-    "windSpeed": 6.0,
-    "windDirection": 60.0,
-    "visibility": "8",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-20T03:53:00.000Z",
-    "observationTimestamp": "2026-09-20T03:53:00+00:00",
-    "raw": "METAR KMSN 200353Z 06006KT 8SM -RA BKN006 OVC016 17/17 A2995 RMK AO2 SLP141 LAST P0014 T01720167"
+    "name": "FASI",
+    "station": "FASI",
+    "lat": -26.248,
+    "lon": 28.398,
+    "weather": "No coded weather",
+    "temperature": 11.0,
+    "dewpoint": 10.0,
+    "windSpeed": 2.0,
+    "windDirection": 10.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-20T04:00:00.000Z",
+    "observationTimestamp": "2026-09-20T04:00:00+00:00",
+    "raw": "METAR FASI 200400Z AUTO 01002KT //// // ////// 11/10 Q1030"
   },
   "globalPulse": {
     "population": {
-      "value": 8211945783,
-      "display": "8,211,945,783",
+      "value": 8211948138,
+      "display": "8,211,948,138",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T04:00:00Z",
-      "speed": 398.0
+      "time": "2026-09-20T04:20:00Z",
+      "speed": 402.0
     },
     "magneticField": {
-      "time": "2026-09-20T04:00:00Z",
-      "bt": 4.0,
+      "time": "2026-09-20T04:20:00Z",
+      "bt": 5.0,
       "bz": -2.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 31.0,
       "display": "MAX 31.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T03:57:00Z",
-      "forecastTime": "2026-09-20T05:06:00Z"
+      "observationTime": "2026-09-20T04:17:00Z",
+      "forecastTime": "2026-09-20T05:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
