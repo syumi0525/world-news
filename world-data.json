@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T07:38:03.265812+00:00",
+  "generatedAt": "2026-09-20T07:48:05.445693+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bishopsteignton in 2006.jpg",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
-    "license": "Public domain",
+    "title": "File:Chief Inspector Albert Macintosh - Flickr - trebble.chris.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/129172152@N02\">Chris Trebble</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chief_Inspector_Albert_Macintosh_-_Flickr_-_trebble.chris.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBOK",
-    "station": "KBOK",
-    "lat": 42.0754,
-    "lon": -124.2902,
-    "weather": "BR",
-    "temperature": 12.0,
-    "dewpoint": 12.0,
+    "name": "KKNB",
+    "station": "KKNB",
+    "lat": 37.0078,
+    "lon": -112.5303,
+    "weather": "No coded weather",
+    "temperature": 10.0,
+    "dewpoint": -1.0,
     "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "3",
-    "flightCategory": "LIFR",
+    "windDirection": 80.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-20T07:35:00.000Z",
     "observationTimestamp": "2026-09-20T07:35:00+00:00",
-    "raw": "SPECI KBOK 200735Z AUTO 00000KT 3SM BR OVC002 12/12 A3006 RMK AO2"
+    "raw": "METAR KKNB 200735Z AUTO 08000KT 10SM MM 10/M01 A3018 RMK A01"
   },
   "randomPlace": {
-    "name": "PAKP",
-    "station": "PAKP",
-    "lat": 68.136,
-    "lon": -151.74,
-    "weather": "-SN",
-    "temperature": -3.0,
-    "dewpoint": -3.0,
-    "windSpeed": 6.0,
-    "windDirection": 30.0,
-    "visibility": "9",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-20T07:26:00.000Z",
-    "observationTimestamp": "2026-09-20T07:26:00+00:00",
-    "raw": "SPECI PAKP 200726Z AUTO 03006KT 9SM -SN BKN002 OVC034 M03/M03 A2944 RMK AO2 P0000 FZRANO $"
+    "name": "SBNT",
+    "station": "SBNT",
+    "lat": -5.911,
+    "lon": -35.248,
+    "weather": "No coded weather",
+    "temperature": 22.0,
+    "dewpoint": 21.0,
+    "windSpeed": 5.0,
+    "windDirection": 180.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T07:00:00.000Z",
+    "observationTimestamp": "2026-09-20T07:00:00+00:00",
+    "raw": "METAR SBNT 200700Z 18005KT 9999 FEW025 SCT040 22/21 Q1015"
   },
   "globalPulse": {
     "population": {
-      "value": 8211970602,
-      "display": "8,211,970,602",
+      "value": 8211971797,
+      "display": "8,211,971,797",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T07:27:00Z",
-      "speed": 406.0
+      "time": "2026-09-20T07:38:00Z",
+      "speed": 404.0
     },
     "magneticField": {
-      "time": "2026-09-20T07:27:00Z",
-      "bt": 4.0,
-      "bz": -1.0
+      "time": "2026-09-20T07:38:00Z",
+      "bt": 5.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-20T03:00:00",
@@ -113,8 +113,8 @@
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T07:25:00Z",
-      "forecastTime": "2026-09-20T08:32:00Z"
+      "observationTime": "2026-09-20T07:38:00Z",
+      "forecastTime": "2026-09-20T08:46:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
