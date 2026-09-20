@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T23:39:44.224025+00:00",
+  "generatedAt": "2026-09-20T23:49:25.050026+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo carrefour 04.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:30BY35 home plan by ER. AYUSH TOMAR 9997233546.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Erayushtomar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Erayushtomar (page does not exist)\">Erayushtomar</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_carrefour_04.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:30BY35_home_plan_by_ER._AYUSH_TOMAR_9997233546.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "PAMR",
-    "station": "PAMR",
-    "lat": 61.215,
-    "lon": -149.85,
+    "name": "KMVE",
+    "station": "KMVE",
+    "lat": 44.9675,
+    "lon": -95.7116,
     "weather": "No coded weather",
-    "temperature": 11.7,
-    "dewpoint": 6.7,
-    "windSpeed": 4.0,
-    "windDirection": 40.0,
+    "temperature": 16.0,
+    "dewpoint": 12.0,
+    "windSpeed": 9.0,
+    "windDirection": 80.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T22:53:00.000Z",
-    "observationTimestamp": "2026-09-20T22:53:00+00:00",
-    "raw": "METAR PAMR 202253Z 04004KT 10SM SCT080 BKN120 12/07 A2914 RMK AO2 SLP867 T01170067"
+    "observationTime": "2026-09-20T23:35:00.000Z",
+    "observationTimestamp": "2026-09-20T23:35:00+00:00",
+    "raw": "METAR KMVE 202335Z AUTO 08009G14KT 10SM OVC033 16/12 A3019 RMK AO2"
   },
   "randomPlace": {
-    "name": "MMPN",
-    "station": "MMPN",
-    "lat": 19.396,
-    "lon": -102.041,
+    "name": "KFOM",
+    "station": "KFOM",
+    "lat": 38.9618,
+    "lon": -112.36,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 17.0,
-    "windSpeed": 0.0,
+    "temperature": 25.0,
+    "dewpoint": -3.0,
+    "windSpeed": 5.0,
     "windDirection": 0.0,
-    "visibility": "6",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T22:40:00.000Z",
-    "observationTimestamp": "2026-09-20T22:40:00+00:00",
-    "raw": "METAR MMPN 202240Z 00000KT 6SM BKN100 OVC140 20/17 A3014 RMK 8/07/ HZY SC"
+    "observationTime": "2026-09-20T23:35:00.000Z",
+    "observationTimestamp": "2026-09-20T23:35:00+00:00",
+    "raw": "METAR KFOM 202335Z AUTO VRB05KT 10SM CLR 25/M03 A3015 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212085740,
-      "display": "8,212,085,740",
+      "value": 8212086910,
+      "display": "8,212,086,910",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T23:30:00Z",
-      "speed": 356.0
+      "time": "2026-09-20T23:43:00Z",
+      "speed": 362.0
     },
     "magneticField": {
-      "time": "2026-09-20T23:30:00Z",
+      "time": "2026-09-20T23:43:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T23:30:00Z",
-      "forecastTime": "2026-09-21T00:44:00Z"
+      "observationTime": "2026-09-20T23:40:00Z",
+      "forecastTime": "2026-09-21T00:54:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
