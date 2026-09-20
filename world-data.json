@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T17:28:06.910796+00:00",
+  "generatedAt": "2026-09-20T17:40:05.111743+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
-    "artist": "Gardner, Alexander, 1821-1882",
+    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
+    "artist": "Ferrovia Mesolcinese",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LTCF",
-    "station": "LTCF",
-    "lat": 40.562,
-    "lon": 43.115,
+    "name": "MMZH",
+    "station": "MMZH",
+    "lat": 17.605,
+    "lon": -101.464,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 8.0,
-    "windSpeed": 8.0,
-    "windDirection": 100.0,
-    "visibility": "6+",
+    "temperature": 31.0,
+    "dewpoint": 24.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "7",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T16:50:00.000Z",
-    "observationTimestamp": "2026-09-20T16:50:00+00:00",
-    "raw": "METAR LTCF 201650Z 10008KT 9999 SCT035 14/08 Q1026 NOSIG"
+    "observationTime": "2026-09-20T16:44:00.000Z",
+    "observationTimestamp": "2026-09-20T16:44:00+00:00",
+    "raw": "METAR MMZH 201644Z 00000KT 7SM BKN250 31/24 A2991 RMK 8/008 HZY ISOL AC"
   },
   "randomPlace": {
-    "name": "EGGD",
-    "station": "EGGD",
-    "lat": 51.383,
-    "lon": -2.719,
+    "name": "PAPE",
+    "station": "PAPE",
+    "lat": 55.9096,
+    "lon": -159.1595,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 11.0,
-    "windSpeed": 6.0,
-    "windDirection": 260.0,
-    "visibility": "6+",
+    "temperature": 5.6,
+    "dewpoint": 0.0,
+    "windSpeed": 9.0,
+    "windDirection": 250.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T17:20:00.000Z",
-    "observationTimestamp": "2026-09-20T17:20:00+00:00",
-    "raw": "METAR EGGD 201720Z AUTO 26006KT 9999 NCD 16/11 Q1030"
+    "observationTime": "2026-09-20T16:56:00.000Z",
+    "observationTimestamp": "2026-09-20T16:56:00+00:00",
+    "raw": "METAR PAPE 201656Z AUTO 25009KT 10SM FEW033 SCT048 06/00 A2945 RMK AO2 RAB28E41 SLP972 P0000 T00560000"
   },
   "globalPulse": {
     "population": {
-      "value": 8212041262,
-      "display": "8,212,041,262",
+      "value": 8212042693,
+      "display": "8,212,042,693",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T17:19:00Z",
-      "speed": 377.0
+      "time": "2026-09-20T17:29:00Z",
+      "speed": 379.0
     },
     "magneticField": {
-      "time": "2026-09-20T17:19:00Z",
+      "time": "2026-09-20T17:29:00Z",
       "bt": 4.0,
-      "bz": 2.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-20T12:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T17:19:00Z",
-      "forecastTime": "2026-09-20T18:29:00Z"
+      "observationTime": "2026-09-20T17:29:00Z",
+      "forecastTime": "2026-09-20T18:40:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
