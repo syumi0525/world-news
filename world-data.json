@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T04:55:06.360227+00:00",
+  "generatedAt": "2026-09-20T05:08:52.776886+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Panneau-B0-ZTL Paris-Place-Hôtel-de-Ville 2026-05-15.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Britzz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Britzz (page does not exist)\">Britzz</a>",
+    "title": "File:Borehole project 14.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Panneau-B0-ZTL_Paris-Place-H%C3%B4tel-de-Ville_2026-05-15.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_14.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFOE",
-    "station": "KFOE",
-    "lat": 38.9414,
-    "lon": -95.6513,
-    "weather": "-RA",
-    "temperature": 22.2,
-    "dewpoint": 21.1,
-    "windSpeed": 6.0,
-    "windDirection": 50.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T04:18:00.000Z",
-    "observationTimestamp": "2026-09-20T04:18:00+00:00",
-    "raw": "SPECI KFOE 200418Z AUTO 05006KT 10SM -RA FEW100 FEW120 22/21 A2986 RMK AO2 LTG DSNT NE AND SW AND W TSE0359 P0000 T02220211"
-  },
-  "randomPlace": {
-    "name": "EKVD",
-    "station": "EKVD",
-    "lat": 55.436,
-    "lon": 9.329,
+    "name": "EDGS",
+    "station": "EDGS",
+    "lat": 50.708,
+    "lon": 8.083,
     "weather": "No coded weather",
-    "temperature": 13.0,
+    "temperature": 14.0,
     "dewpoint": 11.0,
-    "windSpeed": 9.0,
+    "windSpeed": 12.0,
     "windDirection": 240.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "visibility": "6+",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-20T04:50:00.000Z",
     "observationTimestamp": "2026-09-20T04:50:00+00:00",
-    "raw": "METAR EKVD 200450Z AUTO 24009KT //// ///////// 13/11 Q1010"
+    "raw": "METAR EDGS 200450Z AUTO 24012KT 9999 // BKN012/// BKN023/// BKN033/// 14/11 Q1022"
+  },
+  "randomPlace": {
+    "name": "PAMY",
+    "station": "PAMY",
+    "lat": 60.376,
+    "lon": -166.262,
+    "weather": "No coded weather",
+    "temperature": 4.4,
+    "dewpoint": 1.7,
+    "windSpeed": 21.0,
+    "windDirection": 310.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-20T04:56:00.000Z",
+    "observationTimestamp": "2026-09-20T04:56:00+00:00",
+    "raw": "METAR PAMY 200456Z AUTO 31021G27KT 10SM SCT018 BKN024 OVC070 04/02 A2965 RMK AO2 PK WND 34030/0417 SLP040 T00440017"
   },
   "globalPulse": {
     "population": {
-      "value": 8211951113,
-      "display": "8,211,951,113",
+      "value": 8211952745,
+      "display": "8,211,952,745",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T04:46:00Z",
-      "speed": 393.0
+      "time": "2026-09-20T04:59:00Z",
+      "speed": 394.0
     },
     "magneticField": {
-      "time": "2026-09-20T04:46:00Z",
+      "time": "2026-09-20T04:59:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-20T00:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 30.0,
-      "display": "MAX 30.0%",
+      "value": 29.0,
+      "display": "MAX 29.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T04:43:00Z",
-      "forecastTime": "2026-09-20T05:52:00Z"
+      "observationTime": "2026-09-20T04:59:00Z",
+      "forecastTime": "2026-09-20T06:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
