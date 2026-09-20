@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:58:09.676735+00:00",
+  "generatedAt": "2026-09-20T23:14:07.852119+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:Architect Dudok.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stopperspil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stopperspil (page does not exist)\">Stopperspil</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Architect_Dudok.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1LN",
-    "station": "K1LN",
-    "lat": 48.79,
-    "lon": -102.27,
+    "name": "SCTN",
+    "station": "SCTN",
+    "lat": -42.933,
+    "lon": -72.699,
     "weather": "No coded weather",
-    "temperature": 15.6,
-    "dewpoint": 7.9,
-    "windSpeed": 8.0,
-    "windDirection": 130.0,
-    "visibility": "10+",
+    "temperature": 8.0,
+    "dewpoint": 3.0,
+    "windSpeed": 5.0,
+    "windDirection": 290.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T21:55:00.000Z",
-    "observationTimestamp": "2026-09-20T21:55:00+00:00",
-    "raw": "METAR K1LN 202155Z AUTO 13008KT 10SM FEW036 OVC080 16/08 A3024 RMK AO2 SLP250 T01560079 $"
+    "observationTime": "2026-09-20T23:00:00.000Z",
+    "observationTimestamp": "2026-09-20T23:00:00+00:00",
+    "raw": "METAR SCTN 202300Z AUTO 29005KT 250V330 9999 FEW025 BKN045 08/03 Q1013"
   },
   "randomPlace": {
-    "name": "CWPF",
-    "station": "CWPF",
-    "lat": 48.432,
-    "lon": -123.439,
+    "name": "HEAR",
+    "station": "HEAR",
+    "lat": 31.041,
+    "lon": 33.817,
     "weather": "No coded weather",
-    "temperature": 14.3,
-    "dewpoint": 11.1,
-    "windSpeed": 5.0,
-    "windDirection": 160.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-20T22:45:00.000Z",
-    "observationTimestamp": "2026-09-20T22:45:00+00:00",
-    "raw": "METAR CWPF 202245Z AUTO 16005KT 14/11 RMK AO1 SLP180 T01430111 58012"
+    "temperature": 21.0,
+    "dewpoint": 18.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T23:00:00.000Z",
+    "observationTimestamp": "2026-09-20T23:00:00+00:00",
+    "raw": "METAR HEAR 202300Z 00000KT CAVOK 21/18 Q1015 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212080774,
-      "display": "8,212,080,774",
+      "value": 8212082680,
+      "display": "8,212,082,680",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T22:48:00Z",
-      "speed": 357.0
+      "time": "2026-09-20T23:06:00Z",
+      "speed": 359.0
     },
     "magneticField": {
-      "time": "2026-09-20T22:48:00Z",
+      "time": "2026-09-20T23:03:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 19.0,
       "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T22:51:00Z",
-      "forecastTime": "2026-09-21T00:04:00Z"
+      "observationTime": "2026-09-20T23:02:00Z",
+      "forecastTime": "2026-09-21T00:19:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
