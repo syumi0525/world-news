@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T20:22:43.310402+00:00",
+  "generatedAt": "2026-09-20T20:38:01.414190+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Buna River.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
+    "title": "File:Foto Oaxaca.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%ADvia_Maria_Rocha&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lívia Maria Rocha (page does not exist)\">Lívia Maria Rocha</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Buna_River.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Foto_Oaxaca.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRBD",
-    "station": "KRBD",
-    "lat": 32.6782,
-    "lon": -96.8677,
+    "name": "OIBK",
+    "station": "OIBK",
+    "lat": 26.526,
+    "lon": 53.98,
     "weather": "No coded weather",
-    "temperature": 35.6,
-    "dewpoint": 20.0,
-    "windSpeed": 5.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T19:53:00.000Z",
-    "observationTimestamp": "2026-09-20T19:53:00+00:00",
-    "raw": "METAR KRBD 201953Z 20005KT 10SM CLR 36/20 A2986 RMK AO2 SLP100 T03560200"
+    "temperature": 30.0,
+    "dewpoint": 26.0,
+    "windSpeed": 3.0,
+    "windDirection": 300.0,
+    "visibility": "4.35",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-20T20:00:00.000Z",
+    "observationTimestamp": "2026-09-20T20:00:00+00:00",
+    "raw": "METAR OIBK 202000Z 30003KT 7000 NSC 30/26 Q1008"
   },
   "randomPlace": {
-    "name": "LFTW",
-    "station": "LFTW",
-    "lat": 43.757,
-    "lon": 4.416,
+    "name": "SCTB",
+    "station": "SCTB",
+    "lat": -33.456,
+    "lon": -70.547,
     "weather": "No coded weather",
-    "temperature": 26.0,
+    "temperature": 17.0,
     "dewpoint": 6.0,
-    "windSpeed": 7.0,
-    "windDirection": 350.0,
+    "windSpeed": 8.0,
+    "windDirection": 240.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-20T20:00:00.000Z",
     "observationTimestamp": "2026-09-20T20:00:00+00:00",
-    "raw": "METAR LFTW 202000Z AUTO 35007KT 320V030 CAVOK 26/06 Q1024"
+    "raw": "METAR SCTB 202000Z 24008KT 9999 BKN100 17/06 Q1018"
   },
   "globalPulse": {
     "population": {
-      "value": 8212062162,
-      "display": "8,212,062,162",
+      "value": 8212063996,
+      "display": "8,212,063,996",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T20:14:00Z",
-      "speed": 388.0
+      "time": "2026-09-20T20:30:00Z",
+      "speed": 363.0
     },
     "magneticField": {
-      "time": "2026-09-20T20:14:00Z",
+      "time": "2026-09-20T20:30:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T20:14:00Z",
-      "forecastTime": "2026-09-20T21:26:00Z"
+      "observationTime": "2026-09-20T20:25:00Z",
+      "forecastTime": "2026-09-20T21:36:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
