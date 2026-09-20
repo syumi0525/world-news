@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T18:47:34.267661+00:00",
+  "generatedAt": "2026-09-20T18:56:47.061733+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:08020047.JPG",
-    "artist": "Catalina Holguin",
+    "title": "File:Balcones (8677680208).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:08020047.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RJCH",
-    "station": "RJCH",
-    "lat": 41.77,
-    "lon": 140.822,
+    "name": "EGKB",
+    "station": "EGKB",
+    "lat": 51.33,
+    "lon": 0.033,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 18.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T18:00:00.000Z",
-    "observationTimestamp": "2026-09-20T18:00:00+00:00",
-    "raw": "METAR RJCH 201800Z AUTO VRB02KT 9999 OVC019 19/18 Q1010"
-  },
-  "randomPlace": {
-    "name": "LTCC",
-    "station": "LTCC",
-    "lat": 37.894,
-    "lon": 40.201,
-    "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 8.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
+    "temperature": 14.0,
+    "dewpoint": 7.0,
+    "windSpeed": 3.0,
+    "windDirection": 240.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T18:20:00.000Z",
-    "observationTimestamp": "2026-09-20T18:20:00+00:00",
-    "raw": "METAR LTCC 201820Z VRB02KT CAVOK 24/08 Q1016 NOSIG"
+    "observationTime": "2026-09-20T18:50:00.000Z",
+    "observationTimestamp": "2026-09-20T18:50:00+00:00",
+    "raw": "METAR EGKB 201850Z 24003KT 210V280 CAVOK 14/07 Q1030"
+  },
+  "randomPlace": {
+    "name": "KCPC",
+    "station": "KCPC",
+    "lat": 34.2753,
+    "lon": -78.7146,
+    "weather": "No coded weather",
+    "temperature": 30.0,
+    "dewpoint": 20.0,
+    "windSpeed": 5.0,
+    "windDirection": 90.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T18:35:00.000Z",
+    "observationTimestamp": "2026-09-20T18:35:00+00:00",
+    "raw": "METAR KCPC 201835Z AUTO 09005KT 10SM FEW042 30/20 A3000 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212050775,
-      "display": "8,212,050,775",
+      "value": 8212051873,
+      "display": "8,212,051,873",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T18:37:00Z",
-      "speed": 374.0
+      "time": "2026-09-20T18:50:00Z",
+      "speed": 377.0
     },
     "magneticField": {
-      "time": "2026-09-20T18:37:00Z",
+      "time": "2026-09-20T18:50:00Z",
       "bt": 4.0,
-      "bz": 3.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-20T15:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T18:35:00Z",
-      "forecastTime": "2026-09-20T19:45:00Z"
+      "observationTime": "2026-09-20T18:45:00Z",
+      "forecastTime": "2026-09-20T19:55:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
