@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:37:37.919220+00:00",
+  "generatedAt": "2026-09-20T22:48:43.577965+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cordillera del Aramo (13736818533).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
+    "title": "File:Viper Mine elevator county line.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Visviva\" title=\"User:Visviva\">Visviva</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_del_Aramo_%2813736818533%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Viper_Mine_elevator_county_line.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDEC",
-    "station": "KDEC",
-    "lat": 39.8308,
-    "lon": -88.8719,
-    "weather": "No coded weather",
-    "temperature": 27.2,
-    "dewpoint": 20.0,
-    "windSpeed": 9.0,
-    "windDirection": 350.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T21:54:00.000Z",
-    "observationTimestamp": "2026-09-20T21:54:00+00:00",
-    "raw": "METAR KDEC 202154Z 35009KT 10SM CLR 27/20 A2989 RMK AO2 LTG DSNT S SLP116 T02720200"
+    "name": "CYSC",
+    "station": "CYSC",
+    "lat": 45.44,
+    "lon": -71.692,
+    "weather": "-RA BR",
+    "temperature": 11.0,
+    "dewpoint": 10.0,
+    "windSpeed": 3.0,
+    "windDirection": 170.0,
+    "visibility": "5",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-20T22:08:00.000Z",
+    "observationTimestamp": "2026-09-20T22:08:00+00:00",
+    "raw": "SPECI CYSC 202208Z AUTO 17003KT 5SM -RA BR OVC023 11/10 A3001 RMK SLP170"
   },
   "randomPlace": {
-    "name": "KMPZ",
-    "station": "KMPZ",
-    "lat": 40.9453,
-    "lon": -91.5122,
-    "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 17.0,
-    "windSpeed": 7.0,
-    "windDirection": 60.0,
-    "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-20T22:10:00.000Z",
-    "observationTimestamp": "2026-09-20T22:10:00+00:00",
-    "raw": "METAR KMPZ 202210Z AUTO 06007G14KT 10SM OVC009 18/17 A2998 RMK AO2"
+    "name": "KTOL",
+    "station": "KTOL",
+    "lat": 41.587,
+    "lon": -83.8054,
+    "weather": "RA BR",
+    "temperature": 13.9,
+    "dewpoint": 13.3,
+    "windSpeed": 9.0,
+    "windDirection": 50.0,
+    "visibility": "4",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-20T22:06:00.000Z",
+    "observationTimestamp": "2026-09-20T22:06:00+00:00",
+    "raw": "SPECI KTOL 202206Z 05009KT 4SM RA BR FEW007 OVC032 14/13 A3001 RMK AO2 P0003 T01390133 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212078316,
-      "display": "8,212,078,316",
+      "value": 8212079625,
+      "display": "8,212,079,625",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T22:29:00Z",
-      "speed": 357.0
+      "time": "2026-09-20T22:40:00Z",
+      "speed": 350.0
     },
     "magneticField": {
-      "time": "2026-09-20T22:29:00Z",
+      "time": "2026-09-20T22:40:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 20.0,
       "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T22:29:00Z",
-      "forecastTime": "2026-09-20T23:44:00Z"
+      "observationTime": "2026-09-20T22:40:00Z",
+      "forecastTime": "2026-09-20T23:54:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
