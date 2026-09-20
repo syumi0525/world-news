@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T17:59:20.747170+00:00",
+  "generatedAt": "2026-09-20T18:18:43.717666+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Panneau-B0-ZTL Paris-Place-Hôtel-de-Ville 2026-05-15.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Britzz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Britzz (page does not exist)\">Britzz</a>",
+    "title": "File:Chief Inspector Albert Macintosh - Flickr - trebble.chris.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/129172152@N02\">Chris Trebble</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Panneau-B0-ZTL_Paris-Place-H%C3%B4tel-de-Ville_2026-05-15.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chief_Inspector_Albert_Macintosh_-_Flickr_-_trebble.chris.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCFS",
-    "station": "KCFS",
-    "lat": 43.4624,
-    "lon": -83.4428,
+    "name": "KSAA",
+    "station": "KSAA",
+    "lat": 41.447,
+    "lon": -106.815,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 13.0,
-    "windSpeed": 7.0,
-    "windDirection": 40.0,
+    "temperature": 12.0,
+    "dewpoint": 3.0,
+    "windSpeed": 11.0,
+    "windDirection": 250.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T17:55:00.000Z",
-    "observationTimestamp": "2026-09-20T17:55:00+00:00",
-    "raw": "METAR KCFS 201755Z AUTO 04007KT 010V070 10SM SCT030 OVC040 19/13 A3005 RMK AO2 10199 20151"
+    "observationTime": "2026-09-20T17:50:00.000Z",
+    "observationTimestamp": "2026-09-20T17:50:00+00:00",
+    "raw": "METAR KSAA 201750Z AUTO 25011G20KT 10SM 12/03 A3030 RMK AO2"
   },
   "randomPlace": {
-    "name": "KHRF",
-    "station": "KHRF",
-    "lat": 46.2576,
-    "lon": -114.1274,
+    "name": "UMIO",
+    "station": "UMIO",
+    "lat": 54.44,
+    "lon": 30.297,
     "weather": "No coded weather",
     "temperature": 16.0,
-    "dewpoint": 10.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "dewpoint": 12.0,
+    "windSpeed": 8.0,
+    "windDirection": 200.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T17:55:00.000Z",
-    "observationTimestamp": "2026-09-20T17:55:00+00:00",
-    "raw": "METAR KHRF 201755Z AUTO 00000KT 10SM CLR 16/10 A3022 RMK AO2"
+    "observationTime": "2026-09-20T18:00:00.000Z",
+    "observationTimestamp": "2026-09-20T18:00:00+00:00",
+    "raw": "METAR UMIO 201800Z 20004MPS CAVOK 16/12 Q1014 NOSIG RMK QFE743/0991"
   },
   "globalPulse": {
     "population": {
-      "value": 8212044993,
-      "display": "8,212,044,993",
+      "value": 8212047316,
+      "display": "8,212,047,316",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-20T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.0,
-      "display": "Kp 1.0",
+      "value": 0.3,
+      "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-20T12:00:00"
+      "time": "2026-09-20T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T17:50:00Z",
-      "speed": 385.0
+      "time": "2026-09-20T18:09:00Z",
+      "speed": 380.0
     },
     "magneticField": {
-      "time": "2026-09-20T17:50:00Z",
-      "bt": 5.0,
-      "bz": 3.0
+      "time": "2026-09-20T18:09:00Z",
+      "bt": 4.0,
+      "bz": 2.0
     },
     "kp": {
-      "time": "2026-09-20T12:00:00",
-      "kp": 1.0
+      "time": "2026-09-20T15:00:00",
+      "kp": 0.33
     },
     "aurora": {
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T17:48:00Z",
-      "forecastTime": "2026-09-20T19:00:00Z"
+      "observationTime": "2026-09-20T18:03:00Z",
+      "forecastTime": "2026-09-20T19:15:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
