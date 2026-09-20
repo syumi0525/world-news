@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:48:43.577965+00:00",
+  "generatedAt": "2026-09-20T22:58:09.676735+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Viper Mine elevator county line.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Visviva\" title=\"User:Visviva\">Visviva</a>",
+    "title": "File:Ndongo bridge road.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Viper_Mine_elevator_county_line.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYSC",
-    "station": "CYSC",
-    "lat": 45.44,
-    "lon": -71.692,
-    "weather": "-RA BR",
-    "temperature": 11.0,
-    "dewpoint": 10.0,
-    "windSpeed": 3.0,
-    "windDirection": 170.0,
-    "visibility": "5",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T22:08:00.000Z",
-    "observationTimestamp": "2026-09-20T22:08:00+00:00",
-    "raw": "SPECI CYSC 202208Z AUTO 17003KT 5SM -RA BR OVC023 11/10 A3001 RMK SLP170"
+    "name": "K1LN",
+    "station": "K1LN",
+    "lat": 48.79,
+    "lon": -102.27,
+    "weather": "No coded weather",
+    "temperature": 15.6,
+    "dewpoint": 7.9,
+    "windSpeed": 8.0,
+    "windDirection": 130.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T21:55:00.000Z",
+    "observationTimestamp": "2026-09-20T21:55:00+00:00",
+    "raw": "METAR K1LN 202155Z AUTO 13008KT 10SM FEW036 OVC080 16/08 A3024 RMK AO2 SLP250 T01560079 $"
   },
   "randomPlace": {
-    "name": "KTOL",
-    "station": "KTOL",
-    "lat": 41.587,
-    "lon": -83.8054,
-    "weather": "RA BR",
-    "temperature": 13.9,
-    "dewpoint": 13.3,
-    "windSpeed": 9.0,
-    "windDirection": 50.0,
-    "visibility": "4",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T22:06:00.000Z",
-    "observationTimestamp": "2026-09-20T22:06:00+00:00",
-    "raw": "SPECI KTOL 202206Z 05009KT 4SM RA BR FEW007 OVC032 14/13 A3001 RMK AO2 P0003 T01390133 $"
+    "name": "CWPF",
+    "station": "CWPF",
+    "lat": 48.432,
+    "lon": -123.439,
+    "weather": "No coded weather",
+    "temperature": 14.3,
+    "dewpoint": 11.1,
+    "windSpeed": 5.0,
+    "windDirection": 160.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-20T22:45:00.000Z",
+    "observationTimestamp": "2026-09-20T22:45:00+00:00",
+    "raw": "METAR CWPF 202245Z AUTO 16005KT 14/11 RMK AO1 SLP180 T01430111 58012"
   },
   "globalPulse": {
     "population": {
-      "value": 8212079625,
-      "display": "8,212,079,625",
+      "value": 8212080774,
+      "display": "8,212,080,774",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T22:40:00Z",
-      "speed": 350.0
+      "time": "2026-09-20T22:48:00Z",
+      "speed": 357.0
     },
     "magneticField": {
-      "time": "2026-09-20T22:40:00Z",
+      "time": "2026-09-20T22:48:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 20.0,
-      "display": "MAX 20.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T22:40:00Z",
-      "forecastTime": "2026-09-20T23:54:00Z"
+      "observationTime": "2026-09-20T22:51:00Z",
+      "forecastTime": "2026-09-21T00:04:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
