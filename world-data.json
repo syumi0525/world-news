@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:49:25.994920+00:00",
+  "generatedAt": "2026-09-20T16:59:29.679098+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 092805 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "title": "File:Alverstone Garden Village.2.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Shlumble&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Shlumble (page does not exist)\">Shlumble</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_092805_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alverstone_Garden_Village.2.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VAHS",
-    "station": "VAHS",
-    "lat": 22.3772,
-    "lon": 71.0374,
-    "weather": "BR",
-    "temperature": 25.0,
-    "dewpoint": 23.0,
-    "windSpeed": 3.0,
-    "windDirection": 180.0,
-    "visibility": "2.49",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-20T16:00:00.000Z",
-    "observationTimestamp": "2026-09-20T16:00:00+00:00",
-    "raw": "METAR VAHS 201600Z 18003KT 4000 BR SCT020 FEW025TCU BKN080 25/23 Q1012 NOSIG"
-  },
-  "randomPlace": {
-    "name": "KDAL",
-    "station": "KDAL",
-    "lat": 32.8384,
-    "lon": -96.8358,
+    "name": "MMEP",
+    "station": "MMEP",
+    "lat": 21.418,
+    "lon": -104.842,
     "weather": "No coded weather",
-    "temperature": 31.7,
-    "dewpoint": 20.0,
-    "windSpeed": 8.0,
-    "windDirection": 180.0,
+    "temperature": 25.0,
+    "dewpoint": 22.0,
+    "windSpeed": 2.0,
+    "windDirection": 300.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T15:53:00.000Z",
-    "observationTimestamp": "2026-09-20T15:53:00+00:00",
-    "raw": "METAR KDAL 201553Z 18008KT 10SM FEW200 BKN250 32/20 A2993 RMK AO2 SLP126 T03170200"
+    "observationTime": "2026-09-20T15:40:00.000Z",
+    "observationTimestamp": "2026-09-20T15:40:00+00:00",
+    "raw": "METAR MMEP 201540Z 30002KT 10SM FEW025 SCT250 25/22 A3013 RMK 8/108"
+  },
+  "randomPlace": {
+    "name": "KDNS",
+    "station": "KDNS",
+    "lat": 41.9842,
+    "lon": -95.38,
+    "weather": "No coded weather",
+    "temperature": 17.0,
+    "dewpoint": 16.0,
+    "windSpeed": 11.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-20T16:55:00.000Z",
+    "observationTimestamp": "2026-09-20T16:55:00+00:00",
+    "raw": "METAR KDNS 201655Z AUTO 03011G17KT 10SM BKN013 17/16 A3004 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212036631,
-      "display": "8,212,036,631",
+      "value": 8212037832,
+      "display": "8,212,037,832",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T16:40:00Z",
-      "speed": 393.0
+      "time": "2026-09-20T16:51:00Z",
+      "speed": 387.0
     },
     "magneticField": {
-      "time": "2026-09-20T16:40:00Z",
+      "time": "2026-09-20T16:51:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 10.0,
       "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T16:38:00Z",
-      "forecastTime": "2026-09-20T17:48:00Z"
+      "observationTime": "2026-09-20T16:48:00Z",
+      "forecastTime": "2026-09-20T17:58:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
