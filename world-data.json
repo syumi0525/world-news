@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T09:57:50.256939+00:00",
+  "generatedAt": "2026-09-20T10:13:38.270855+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
-    "artist": "Gardner, Alexander, 1821-1882",
-    "license": "Public domain",
+    "title": "File:500px photo (179745421).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28179745421%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "FMCZ",
-    "station": "FMCZ",
-    "lat": -12.805,
-    "lon": 45.281,
-    "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 21.0,
-    "windSpeed": 8.0,
-    "windDirection": 130.0,
-    "visibility": "6+",
+    "name": "KXWA",
+    "station": "KXWA",
+    "lat": 48.2542,
+    "lon": -103.7469,
+    "weather": "-RA",
+    "temperature": 11.7,
+    "dewpoint": 10.0,
+    "windSpeed": 14.0,
+    "windDirection": 90.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T09:30:00.000Z",
-    "observationTimestamp": "2026-09-20T09:30:00+00:00",
-    "raw": "METAR FMCZ 200930Z AUTO 13008KT 100V160 9999 SCT025 28/21 Q1018 NOSIG"
+    "observationTime": "2026-09-20T09:51:00.000Z",
+    "observationTimestamp": "2026-09-20T09:51:00+00:00",
+    "raw": "METAR KXWA 200951Z AUTO 09014KT 10SM -RA OVC080 12/10 A3022 RMK AO2 RAB02E05B32 SLP241 P0000 T01170100"
   },
   "randomPlace": {
-    "name": "EHLW",
-    "station": "EHLW",
-    "lat": 53.223,
-    "lon": 5.752,
+    "name": "EGQL",
+    "station": "EGQL",
+    "lat": 56.377,
+    "lon": -2.862,
     "weather": "No coded weather",
     "temperature": 17.0,
-    "dewpoint": 10.0,
-    "windSpeed": 17.0,
-    "windDirection": 280.0,
+    "dewpoint": 7.0,
+    "windSpeed": 21.0,
+    "windDirection": 260.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T09:25:00.000Z",
-    "observationTimestamp": "2026-09-20T09:25:00+00:00",
-    "raw": "METAR EHLW 200925Z AUTO 28017KT 250V310 9999 FEW054 SCT059 17/10 Q1018 BLU"
+    "observationTime": "2026-09-20T09:50:00.000Z",
+    "observationTimestamp": "2026-09-20T09:50:00+00:00",
+    "raw": "METAR EGQL 200950Z 26021KT 9999 BKN046 17/07 Q1017 RMK BLU"
   },
   "globalPulse": {
     "population": {
-      "value": 8211987358,
-      "display": "8,211,987,358",
+      "value": 8211989248,
+      "display": "8,211,989,248",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T09:50:00Z",
-      "speed": 387.0
+      "time": "2026-09-20T10:06:00Z",
+      "speed": 400.0
     },
     "magneticField": {
-      "time": "2026-09-20T09:50:00Z",
-      "bt": 5.0,
+      "time": "2026-09-20T10:06:00Z",
+      "bt": 4.0,
       "bz": 2.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 2.0
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T09:44:00Z",
-      "forecastTime": "2026-09-20T10:53:00Z"
+      "observationTime": "2026-09-20T10:03:00Z",
+      "forecastTime": "2026-09-20T11:14:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
