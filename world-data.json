@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T13:55:13.724333+00:00",
+  "generatedAt": "2026-09-20T14:09:05.918804+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:3D Point Cloud Overview of Milton S. Eisenhower Library, Johns Hopkins University.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Matthewadams66&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Matthewadams66 (page does not exist)\">Matthewadams66</a>",
+    "title": "File:Ndongo bridge road.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:3D_Point_Cloud_Overview_of_Milton_S._Eisenhower_Library%2C_Johns_Hopkins_University.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EKRN",
-    "station": "EKRN",
-    "lat": 55.068,
-    "lon": 14.749,
+    "name": "KVUO",
+    "station": "KVUO",
+    "lat": 45.621,
+    "lon": -122.6542,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 12.0,
-    "windSpeed": 18.0,
-    "windDirection": 250.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T13:50:00.000Z",
-    "observationTimestamp": "2026-09-20T13:50:00+00:00",
-    "raw": "METAR EKRN 201350Z AUTO 25018KT 9999 FEW044/// SCT084/// 16/12 Q1010"
+    "temperature": 13.3,
+    "dewpoint": 12.2,
+    "windSpeed": 3.0,
+    "windDirection": 330.0,
+    "visibility": "9",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-20T13:53:00.000Z",
+    "observationTimestamp": "2026-09-20T13:53:00+00:00",
+    "raw": "METAR KVUO 201353Z AUTO 33003KT 9SM OVC005 13/12 A3009 RMK AO2 SLP190 T01330122 $"
   },
   "randomPlace": {
-    "name": "HKNI",
-    "station": "HKNI",
-    "lat": -0.343,
-    "lon": 36.915,
-    "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 15.0,
-    "windSpeed": 5.0,
-    "windDirection": 70.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T13:00:00.000Z",
-    "observationTimestamp": "2026-09-20T13:00:00+00:00",
-    "raw": "METAR HKNI 201300Z 07005KT 9999 BKN025 24/15"
+    "name": "K1DW",
+    "station": "K1DW",
+    "lat": 41.361,
+    "lon": -103.794,
+    "weather": "-RA",
+    "temperature": 12.0,
+    "dewpoint": 11.0,
+    "windSpeed": 14.0,
+    "windDirection": 10.0,
+    "visibility": "8",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T13:58:00.000Z",
+    "observationTimestamp": "2026-09-20T13:58:00+00:00",
+    "raw": "SPECI K1DW 201358Z AUTO 01014KT 8SM -RA BKN048 BKN060 OVC080 12/11 A3014 RMK AO2 WSHFT 50 LTG DSNT SW SLP171 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212015751,
-      "display": "8,212,015,751",
+      "value": 8212017409,
+      "display": "8,212,017,409",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T13:47:00Z",
-      "speed": 398.0
+      "time": "2026-09-20T13:58:00Z",
+      "speed": 411.0
     },
     "magneticField": {
-      "time": "2026-09-20T13:47:00Z",
+      "time": "2026-09-20T13:58:00Z",
       "bt": 5.0,
-      "bz": 3.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-20T09:00:00",
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T13:45:00Z",
-      "forecastTime": "2026-09-20T14:52:00Z"
+      "observationTime": "2026-09-20T13:58:00Z",
+      "forecastTime": "2026-09-20T15:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
