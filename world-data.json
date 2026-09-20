@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T14:48:28.606523+00:00",
+  "generatedAt": "2026-09-20T14:57:50.867620+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 12.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
-    "license": "CC0",
+    "title": "File:Heading of \"Verslag van de Staatsspoorwegen over het jaar 1928\".jpg",
+    "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q64041032\" class=\"extiw\" title=\"d:Q64041032\">Willem Fredrik Staargaard</a></bdi>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_12.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Heading_of_%22Verslag_van_de_Staatsspoorwegen_over_het_jaar_1928%22.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ESUP",
-    "station": "ESUP",
-    "lat": 67.246,
-    "lon": 23.069,
+    "name": "CWZQ",
+    "station": "CWZQ",
+    "lat": 46.547,
+    "lon": -61.049,
     "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 4.0,
-    "windSpeed": 5.0,
-    "windDirection": 320.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T14:20:00.000Z",
-    "observationTimestamp": "2026-09-20T14:20:00+00:00",
-    "raw": "METAR ESUP 201420Z AUTO 32005KT 9999 BKN057/// BKN098/// OVC110/// 09/04 Q0989"
-  },
-  "randomPlace": {
-    "name": "CYKJ",
-    "station": "CYKJ",
-    "lat": 57.256,
-    "lon": -105.618,
-    "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 7.0,
-    "windSpeed": 14.0,
-    "windDirection": 210.0,
-    "visibility": "9",
-    "flightCategory": "VFR",
+    "temperature": 11.7,
+    "dewpoint": 2.9,
+    "windSpeed": 4.0,
+    "windDirection": 300.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-20T14:00:00.000Z",
     "observationTimestamp": "2026-09-20T14:00:00+00:00",
-    "raw": "METAR CYKJ 201400Z AUTO 21014G20KT 9SM BKN091 BKN110 13/07 A2996 RMK SLP161"
+    "raw": "METAR CWZQ 201400Z AUTO 30004KT 12/03 RMK AO1 SLP241 T01170029 53008"
+  },
+  "randomPlace": {
+    "name": "KBWP",
+    "station": "KBWP",
+    "lat": 46.2444,
+    "lon": -96.6046,
+    "weather": "No coded weather",
+    "temperature": 15.0,
+    "dewpoint": 15.0,
+    "windSpeed": 10.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T14:35:00.000Z",
+    "observationTimestamp": "2026-09-20T14:35:00+00:00",
+    "raw": "METAR KBWP 201435Z AUTO 06010KT 10SM CLR 15/15 A3020 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212022130,
-      "display": "8,212,022,130",
+      "value": 8212023253,
+      "display": "8,212,023,253",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T14:37:00Z",
-      "speed": 408.0
+      "time": "2026-09-20T14:48:00Z",
+      "speed": 406.0
     },
     "magneticField": {
-      "time": "2026-09-20T14:37:00Z",
+      "time": "2026-09-20T14:48:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T14:40:00Z",
-      "forecastTime": "2026-09-20T15:46:00Z"
+      "observationTime": "2026-09-20T14:48:00Z",
+      "forecastTime": "2026-09-20T15:56:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
