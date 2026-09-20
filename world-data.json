@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T19:54:48.768354+00:00",
+  "generatedAt": "2026-09-20T20:08:36.052739+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Early Fall Stream (50345907818).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/158934835@N04\">Mark Steele</a>",
-    "license": "Public domain",
+    "title": "File:Borehole project 09.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Early_Fall_Stream_%2850345907818%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_09.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EPWR",
-    "station": "EPWR",
-    "lat": 51.1032,
-    "lon": 16.8998,
+    "name": "SPJC",
+    "station": "SPJC",
+    "lat": -12.024,
+    "lon": -77.113,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 13.0,
-    "windSpeed": 14.0,
-    "windDirection": 270.0,
+    "temperature": 23.0,
+    "dewpoint": 18.0,
+    "windSpeed": 12.0,
+    "windDirection": 180.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T19:30:00.000Z",
-    "observationTimestamp": "2026-09-20T19:30:00+00:00",
-    "raw": "METAR EPWR 201930Z 27014KT 9999 FEW019 SCT048 16/13 Q1018"
+    "observationTime": "2026-09-20T20:00:00.000Z",
+    "observationTimestamp": "2026-09-20T20:00:00+00:00",
+    "raw": "METAR SPJC 202000Z 18012KT 9999 FEW010 OVC035 23/18 Q1013 NOSIG RMK BIRD HAZARD RWY 16L/16R PP000"
   },
   "randomPlace": {
-    "name": "KTPH",
-    "station": "KTPH",
-    "lat": 38.0505,
-    "lon": -117.0906,
+    "name": "DAAG",
+    "station": "DAAG",
+    "lat": 36.691,
+    "lon": 3.215,
     "weather": "No coded weather",
-    "temperature": 23.9,
-    "dewpoint": -6.1,
-    "windSpeed": 6.0,
-    "windDirection": 170.0,
-    "visibility": "10+",
+    "temperature": 25.0,
+    "dewpoint": 19.0,
+    "windSpeed": 5.0,
+    "windDirection": 60.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T18:56:00.000Z",
-    "observationTimestamp": "2026-09-20T18:56:00+00:00",
-    "raw": "METAR KTPH 201856Z AUTO 17006G14KT 10SM CLR 24/M06 A3018 RMK AO2 SLP162 T02391061"
+    "observationTime": "2026-09-20T20:00:00.000Z",
+    "observationTimestamp": "2026-09-20T20:00:00+00:00",
+    "raw": "METAR DAAG 202000Z 06005KT 9999 FEW023 FEW026CB 25/19 Q1024"
   },
   "globalPulse": {
     "population": {
-      "value": 8212058824,
-      "display": "8,212,058,824",
+      "value": 8212060476,
+      "display": "8,212,060,476",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T19:46:00Z",
-      "speed": 373.0
+      "time": "2026-09-20T19:58:00Z",
+      "speed": 375.0
     },
     "magneticField": {
-      "time": "2026-09-20T19:46:00Z",
+      "time": "2026-09-20T19:58:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T19:46:00Z",
-      "forecastTime": "2026-09-20T20:56:00Z"
+      "observationTime": "2026-09-20T19:53:00Z",
+      "forecastTime": "2026-09-20T21:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
