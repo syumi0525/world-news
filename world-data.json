@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T03:55:43.388928+00:00",
+  "generatedAt": "2026-09-20T04:10:36.485616+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:500px photo (179745421).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
+    "title": "File:20140907 114910 Jpg (218976057).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28179745421%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KM19",
-    "station": "KM19",
-    "lat": 35.643,
-    "lon": -91.1735,
+    "name": "ENHV",
+    "station": "ENHV",
+    "lat": 71.009,
+    "lon": 25.982,
     "weather": "No coded weather",
-    "temperature": 26.7,
-    "dewpoint": 17.8,
-    "windSpeed": 4.0,
-    "windDirection": 190.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T02:56:00.000Z",
-    "observationTimestamp": "2026-09-20T02:56:00+00:00",
-    "raw": "METAR KM19 200256Z AUTO 19004KT 10SM CLR 27/18 A2993 RMK AO2 SLP145 T02670178 53008 $"
-  },
-  "randomPlace": {
-    "name": "KMMV",
-    "station": "KMMV",
-    "lat": 45.1957,
-    "lon": -123.1338,
-    "weather": "No coded weather",
-    "temperature": 16.7,
-    "dewpoint": 12.8,
+    "temperature": 4.0,
+    "dewpoint": 2.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "8",
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T02:53:00.000Z",
-    "observationTimestamp": "2026-09-20T02:53:00+00:00",
-    "raw": "METAR KMMV 200253Z AUTO 00000KT 8SM CLR 17/13 A3003 RMK AO2 SLP169 T01670128 56004 $"
+    "observationTime": "2026-09-20T03:50:00.000Z",
+    "observationTimestamp": "2026-09-20T03:50:00+00:00",
+    "raw": "METAR ENHV 200350Z AUTO 00000KT 9999 NCD 04/02 Q0990"
+  },
+  "randomPlace": {
+    "name": "KMSN",
+    "station": "KMSN",
+    "lat": 43.1407,
+    "lon": -89.3452,
+    "weather": "-RA",
+    "temperature": 17.2,
+    "dewpoint": 16.7,
+    "windSpeed": 6.0,
+    "windDirection": 60.0,
+    "visibility": "8",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-20T03:53:00.000Z",
+    "observationTimestamp": "2026-09-20T03:53:00+00:00",
+    "raw": "METAR KMSN 200353Z 06006KT 8SM -RA BKN006 OVC016 17/17 A2995 RMK AO2 SLP141 LAST P0014 T01720167"
   },
   "globalPulse": {
     "population": {
-      "value": 8211944005,
-      "display": "8,211,944,005",
+      "value": 8211945783,
+      "display": "8,211,945,783",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T03:48:00Z",
-      "speed": 405.0
+      "time": "2026-09-20T04:00:00Z",
+      "speed": 398.0
     },
     "magneticField": {
-      "time": "2026-09-20T03:48:00Z",
+      "time": "2026-09-20T04:00:00Z",
       "bt": 4.0,
       "bz": -2.0
     },
@@ -113,8 +113,8 @@
       "value": 31.0,
       "display": "MAX 31.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T03:42:00Z",
-      "forecastTime": "2026-09-20T04:51:00Z"
+      "observationTime": "2026-09-20T03:57:00Z",
+      "forecastTime": "2026-09-20T05:06:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
