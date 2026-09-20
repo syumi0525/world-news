@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T08:55:02.147467+00:00",
+  "generatedAt": "2026-09-20T09:09:05.891391+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A creek meanders through the maritime forest.jpg",
-    "artist": "Hillebrand Steve, U.S. Fish and Wildlife Service",
-    "license": "Public domain",
+    "title": "File:20190415 Yehliu geopark beach-2.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_creek_meanders_through_the_maritime_forest.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OEGS",
-    "station": "OEGS",
-    "lat": 26.303,
-    "lon": 43.774,
+    "name": "LFBL",
+    "station": "LFBL",
+    "lat": 45.863,
+    "lon": 1.179,
     "weather": "No coded weather",
-    "temperature": 36.0,
-    "dewpoint": 8.0,
-    "windSpeed": 13.0,
-    "windDirection": 60.0,
+    "temperature": 21.0,
+    "dewpoint": 13.0,
+    "windSpeed": 3.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T08:00:00.000Z",
-    "observationTimestamp": "2026-09-20T08:00:00+00:00",
-    "raw": "METAR OEGS 200800Z 06013KT CAVOK 36/08 Q1016 NOSIG"
+    "observationTime": "2026-09-20T09:00:00.000Z",
+    "observationTimestamp": "2026-09-20T09:00:00+00:00",
+    "raw": "METAR LFBL 200900Z AUTO VRB03KT CAVOK 21/13 Q1028 NOSIG"
   },
   "randomPlace": {
-    "name": "RJAF",
-    "station": "RJAF",
-    "lat": 36.167,
-    "lon": 137.923,
+    "name": "CWQP",
+    "station": "CWQP",
+    "lat": 43.84,
+    "lon": -77.153,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 18.0,
-    "windSpeed": 11.0,
-    "windDirection": 340.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
+    "temperature": 18.2,
+    "dewpoint": 15.2,
+    "windSpeed": 9.0,
+    "windDirection": 150.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-20T08:00:00.000Z",
     "observationTimestamp": "2026-09-20T08:00:00+00:00",
-    "raw": "METAR RJAF 200800Z 34011KT 9999 FEW020 SCT030 BKN100 23/18 Q1011"
+    "raw": "METAR CWQP 200800Z AUTO 15009KT 18/15 RMK AO1 SLP148 T01820152 58020"
   },
   "globalPulse": {
     "population": {
-      "value": 8211979814,
-      "display": "8,211,979,814",
+      "value": 8211981500,
+      "display": "8,211,981,500",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-20T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.0,
-      "display": "Kp 3.0",
+      "value": 2.0,
+      "display": "Kp 2.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-20T03:00:00"
+      "time": "2026-09-20T06:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T08:46:00Z",
-      "speed": 406.0
+      "time": "2026-09-20T09:02:00Z",
+      "speed": 392.0
     },
     "magneticField": {
-      "time": "2026-09-20T08:46:00Z",
-      "bt": 4.0,
-      "bz": 1.0
+      "time": "2026-09-20T09:02:00Z",
+      "bt": 5.0,
+      "bz": -1.0
     },
     "kp": {
-      "time": "2026-09-20T03:00:00",
-      "kp": 3.0
+      "time": "2026-09-20T06:00:00",
+      "kp": 2.0
     },
     "aurora": {
       "value": 19.0,
       "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T08:43:00Z",
-      "forecastTime": "2026-09-20T09:52:00Z"
+      "observationTime": "2026-09-20T08:59:00Z",
+      "forecastTime": "2026-09-20T10:06:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
