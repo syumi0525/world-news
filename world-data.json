@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:09:08.549879+00:00",
+  "generatedAt": "2026-09-20T16:24:32.093986+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Foto Oaxaca.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%ADvia_Maria_Rocha&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lívia Maria Rocha (page does not exist)\">Lívia Maria Rocha</a>",
+    "title": "File:Ndongo bridge road.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Foto_Oaxaca.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SGCO",
-    "station": "SGCO",
-    "lat": -23.438,
-    "lon": -57.43,
+    "name": "KJSY",
+    "station": "KJSY",
+    "lat": 45.3556,
+    "lon": -117.2541,
     "weather": "No coded weather",
-    "temperature": null,
-    "dewpoint": null,
-    "windSpeed": 12.0,
-    "windDirection": 340.0,
-    "visibility": "6+",
+    "temperature": 16.0,
+    "dewpoint": 7.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T15:00:00.000Z",
-    "observationTimestamp": "2026-09-20T15:00:00+00:00",
-    "raw": "METAR SGCO 201500Z COR 34012KT 300V040 CAVOK 33/21Q1004"
+    "observationTime": "2026-09-20T15:55:00.000Z",
+    "observationTimestamp": "2026-09-20T15:55:00+00:00",
+    "raw": "METAR KJSY 201555Z AUTO 00000KT 10SM CLR 16/07 A3021 RMK AO2 T01600070"
   },
   "randomPlace": {
-    "name": "OIIE",
-    "station": "OIIE",
-    "lat": 35.416,
-    "lon": 51.152,
-    "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": -3.0,
-    "windSpeed": 4.0,
-    "windDirection": 80.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T16:00:00.000Z",
-    "observationTimestamp": "2026-09-20T16:00:00+00:00",
-    "raw": "METAR OIIE 201600Z 08004KT 9999 FEW040 30/M03 Q1014 A2996"
+    "name": "KMMV",
+    "station": "KMMV",
+    "lat": 45.1957,
+    "lon": -123.1338,
+    "weather": "FG",
+    "temperature": 11.1,
+    "dewpoint": 10.6,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "0.25",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-20T15:53:00.000Z",
+    "observationTimestamp": "2026-09-20T15:53:00+00:00",
+    "raw": "METAR KMMV 201553Z AUTO 00000KT 1/4SM FG VV002 11/11 A3008 RMK AO2 SLP185 T01110106 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212031809,
-      "display": "8,212,031,809",
+      "value": 8212033646,
+      "display": "8,212,033,646",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T15:59:00Z",
-      "speed": 391.0
+      "time": "2026-09-20T16:14:00Z",
+      "speed": 396.0
     },
     "magneticField": {
-      "time": "2026-09-20T15:59:00Z",
-      "bt": 4.0,
+      "time": "2026-09-20T16:17:00Z",
+      "bt": 5.0,
       "bz": 3.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T15:59:00Z",
-      "forecastTime": "2026-09-20T17:06:00Z"
+      "observationTime": "2026-09-20T16:14:00Z",
+      "forecastTime": "2026-09-20T17:22:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
