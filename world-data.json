@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T05:22:40.674302+00:00",
+  "generatedAt": "2026-09-20T05:38:02.438472+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bamnera River.jpg",
-    "artist": "",
-    "license": "Public domain",
+    "title": "File:Brake Through Of kpongu Dam AWC Africa Wiki Challenge 308.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mayor_555&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mayor 555 (page does not exist)\">Mayor 555</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bamnera_River.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brake_Through_Of_kpongu_Dam_AWC_Africa_Wiki_Challenge_308.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBDU",
-    "station": "KBDU",
-    "lat": 40.0377,
-    "lon": -105.2274,
-    "weather": "HZ",
-    "temperature": 14.0,
-    "dewpoint": 10.0,
-    "windSpeed": 3.0,
-    "windDirection": 200.0,
-    "visibility": "5",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T05:15:00.000Z",
-    "observationTimestamp": "2026-09-20T05:15:00+00:00",
-    "raw": "METAR KBDU 200515Z AUTO 20003KT 5SM HZ SCT100 14/10 A3015 RMK AO2"
+    "name": "KCNY",
+    "station": "KCNY",
+    "lat": 38.7501,
+    "lon": -109.7627,
+    "weather": "No coded weather",
+    "temperature": 17.8,
+    "dewpoint": 5.6,
+    "windSpeed": 5.0,
+    "windDirection": 310.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T04:53:00.000Z",
+    "observationTimestamp": "2026-09-20T04:53:00+00:00",
+    "raw": "METAR KCNY 200453Z AUTO 31005KT 10SM CLR 18/06 A3007 RMK AO2 SLP136 T01780056"
   },
   "randomPlace": {
-    "name": "SBCG",
-    "station": "SBCG",
-    "lat": -20.469,
-    "lon": -54.672,
+    "name": "KCOS",
+    "station": "KCOS",
+    "lat": 38.8095,
+    "lon": -104.6887,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 20.0,
-    "windSpeed": 7.0,
-    "windDirection": 60.0,
-    "visibility": "6+",
+    "temperature": 14.4,
+    "dewpoint": 6.1,
+    "windSpeed": 8.0,
+    "windDirection": 350.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T05:00:00.000Z",
-    "observationTimestamp": "2026-09-20T05:00:00+00:00",
-    "raw": "METAR SBCG 200500Z 06007KT CAVOK 23/20 Q1013"
+    "observationTime": "2026-09-20T04:54:00.000Z",
+    "observationTimestamp": "2026-09-20T04:54:00+00:00",
+    "raw": "METAR KCOS 200454Z 35008KT 10SM SCT120 14/06 A3021 RMK AO2 SLP163 T01440061 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211954415,
-      "display": "8,211,954,415",
+      "value": 8211956240,
+      "display": "8,211,956,240",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T05:15:00Z",
-      "speed": 396.0
+      "time": "2026-09-20T05:29:00Z",
+      "speed": 403.0
     },
     "magneticField": {
-      "time": "2026-09-20T05:15:00Z",
-      "bt": 5.0,
+      "time": "2026-09-20T05:29:00Z",
+      "bt": 4.0,
       "bz": -2.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 28.0,
       "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T05:12:00Z",
-      "forecastTime": "2026-09-20T06:23:00Z"
+      "observationTime": "2026-09-20T05:29:00Z",
+      "forecastTime": "2026-09-20T06:38:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
