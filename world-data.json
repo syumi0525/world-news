@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T02:30:30.633354+00:00",
+  "generatedAt": "2026-09-20T02:43:52.054924+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:-i---i- (31387900023).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/62300657@N05\">Papa Pic</a> from Eldorado, Argentina",
-    "license": "CC0",
+    "title": "File:1907 Hold on! Half time! A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:-i---i-_%2831387900023%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1907_Hold_on%21_Half_time%21_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLCI",
-    "station": "KLCI",
-    "lat": 43.5718,
-    "lon": -71.4254,
+    "name": "MMPR",
+    "station": "MMPR",
+    "lat": 20.68,
+    "lon": -105.25,
     "weather": "No coded weather",
-    "temperature": 11.1,
-    "dewpoint": 6.7,
+    "temperature": 27.0,
+    "dewpoint": 25.0,
     "windSpeed": 4.0,
-    "windDirection": 250.0,
-    "visibility": "10+",
+    "windDirection": 80.0,
+    "visibility": "8",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T01:56:00.000Z",
-    "observationTimestamp": "2026-09-20T01:56:00+00:00",
-    "raw": "METAR KLCI 200156Z AUTO 25004KT 10SM CLR 11/07 A3020 RMK AO2 SLP230 T01110067"
+    "observationTime": "2026-09-20T02:24:00.000Z",
+    "observationTimestamp": "2026-09-20T02:24:00+00:00",
+    "raw": "METAR MMPR 200224Z 08004KT 8SM SCT030 BKN150 27/25 A2991 RMK 8/460 HZY -RAE20"
   },
   "randomPlace": {
-    "name": "K3K3",
-    "station": "K3K3",
-    "lat": 37.9988,
-    "lon": -101.7502,
-    "weather": "-RA HZ",
-    "temperature": 20.0,
-    "dewpoint": 15.0,
-    "windSpeed": 13.0,
-    "windDirection": 120.0,
-    "visibility": "4",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T02:15:00.000Z",
-    "observationTimestamp": "2026-09-20T02:15:00+00:00",
-    "raw": "METAR K3K3 200215Z AUTO 12013G28KT 4SM -RA HZ SCT048 BKN065 BKN110 20/15 A2995 RMK AO2 PK WND 20032/35 LTG DSNT N AND E"
+    "name": "CYBC",
+    "station": "CYBC",
+    "lat": 49.135,
+    "lon": -68.202,
+    "weather": "No coded weather",
+    "temperature": 6.0,
+    "dewpoint": 1.0,
+    "windSpeed": 2.0,
+    "windDirection": 320.0,
+    "visibility": "9",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T02:00:00.000Z",
+    "observationTimestamp": "2026-09-20T02:00:00+00:00",
+    "raw": "METAR CYBC 200200Z AUTO 32002KT 9SM BKN140 06/01 A3020 RMK SLP231"
   },
   "globalPulse": {
     "population": {
-      "value": 8211933778,
-      "display": "8,211,933,778",
+      "value": 8211935378,
+      "display": "8,211,935,378",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T02:20:00Z",
-      "speed": 425.0
+      "time": "2026-09-20T02:34:00Z",
+      "speed": 423.0
     },
     "magneticField": {
-      "time": "2026-09-20T02:20:00Z",
+      "time": "2026-09-20T02:34:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-19T21:00:00",
@@ -113,8 +113,8 @@
       "value": 24.0,
       "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T02:20:00Z",
-      "forecastTime": "2026-09-20T03:24:00Z"
+      "observationTime": "2026-09-20T02:34:00Z",
+      "forecastTime": "2026-09-20T03:39:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
