@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:59:29.679098+00:00",
+  "generatedAt": "2026-09-20T17:14:54.520072+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Alverstone Garden Village.2.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Shlumble&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Shlumble (page does not exist)\">Shlumble</a>",
+    "title": "File:-i---i- (31387900023).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/62300657@N05\">Papa Pic</a> from Eldorado, Argentina",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Alverstone_Garden_Village.2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:-i---i-_%2831387900023%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MMEP",
-    "station": "MMEP",
-    "lat": 21.418,
-    "lon": -104.842,
+    "name": "KRVF",
+    "station": "KRVF",
+    "lat": 45.534,
+    "lon": -112.303,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 22.0,
-    "windSpeed": 2.0,
-    "windDirection": 300.0,
+    "temperature": 15.0,
+    "dewpoint": 9.0,
+    "windSpeed": 7.0,
+    "windDirection": 150.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T15:40:00.000Z",
-    "observationTimestamp": "2026-09-20T15:40:00+00:00",
-    "raw": "METAR MMEP 201540Z 30002KT 10SM FEW025 SCT250 25/22 A3013 RMK 8/108"
+    "observationTime": "2026-09-20T16:50:00.000Z",
+    "observationTimestamp": "2026-09-20T16:50:00+00:00",
+    "raw": "METAR KRVF 201650Z AUTO 15007KT 10SM FEW020 15/09 A3027 RMK A01"
   },
   "randomPlace": {
-    "name": "KDNS",
-    "station": "KDNS",
-    "lat": 41.9842,
-    "lon": -95.38,
+    "name": "KAUO",
+    "station": "KAUO",
+    "lat": 32.617,
+    "lon": -85.4342,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 16.0,
-    "windSpeed": 11.0,
-    "windDirection": 30.0,
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 3.0,
+    "windDirection": 0.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T16:55:00.000Z",
-    "observationTimestamp": "2026-09-20T16:55:00+00:00",
-    "raw": "METAR KDNS 201655Z AUTO 03011G17KT 10SM BKN013 17/16 A3004 RMK AO2"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T16:56:00.000Z",
+    "observationTimestamp": "2026-09-20T16:56:00+00:00",
+    "raw": "METAR KAUO 201656Z AUTO VRB03KT 10SM CLR A3002 RMK AO2 SLPNO FZRANO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212037832,
-      "display": "8,212,037,832",
+      "value": 8212039678,
+      "display": "8,212,039,678",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T16:51:00Z",
-      "speed": 387.0
+      "time": "2026-09-20T17:06:00Z",
+      "speed": 381.0
     },
     "magneticField": {
-      "time": "2026-09-20T16:51:00Z",
-      "bt": 5.0,
-      "bz": 2.0
+      "time": "2026-09-20T17:06:00Z",
+      "bt": 4.0,
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-20T12:00:00",
       "kp": 1.0
     },
     "aurora": {
-      "value": 10.0,
-      "display": "MAX 10.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T16:48:00Z",
-      "forecastTime": "2026-09-20T17:58:00Z"
+      "observationTime": "2026-09-20T17:04:00Z",
+      "forecastTime": "2026-09-20T18:13:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
