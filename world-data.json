@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T10:54:48.927123+00:00",
+  "generatedAt": "2026-09-20T11:08:12.149311+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ballard locks fish ladder east entrance.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ursacascadia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ursacascadia (page does not exist)\">Ursacascadia</a>",
+    "title": "File:Buna River.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ballard_locks_fish_ladder_east_entrance.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Buna_River.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFRT",
-    "station": "LFRT",
-    "lat": 48.536,
-    "lon": -2.853,
+    "name": "KHOB",
+    "station": "KHOB",
+    "lat": 32.6797,
+    "lon": -103.2222,
     "weather": "No coded weather",
     "temperature": 20.0,
-    "dewpoint": 15.0,
+    "dewpoint": 16.0,
     "windSpeed": 6.0,
-    "windDirection": 270.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T10:30:00.000Z",
-    "observationTimestamp": "2026-09-20T10:30:00+00:00",
-    "raw": "METAR LFRT 201030Z AUTO 27006KT 240V300 9999 OVC024 20/15 Q1029"
+    "windDirection": 150.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T10:15:00.000Z",
+    "observationTimestamp": "2026-09-20T10:15:00+00:00",
+    "raw": "METAR KHOB 201015Z AUTO 15006KT 10SM CLR 20/16 A3007 RMK AO2"
   },
   "randomPlace": {
-    "name": "DAUB",
-    "station": "DAUB",
-    "lat": 34.793,
-    "lon": 5.738,
+    "name": "KACJ",
+    "station": "KACJ",
+    "lat": 32.1106,
+    "lon": -84.1841,
     "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 16.0,
-    "windSpeed": 4.0,
-    "windDirection": 120.0,
-    "visibility": "6+",
+    "temperature": 21.3,
+    "dewpoint": 21.3,
+    "windSpeed": 3.0,
+    "windDirection": 20.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T10:00:00.000Z",
-    "observationTimestamp": "2026-09-20T10:00:00+00:00",
-    "raw": "METAR DAUB 201000Z 12004KT 9999 FEW040 30/16 Q1023"
+    "observationTime": "2026-09-20T10:55:00.000Z",
+    "observationTimestamp": "2026-09-20T10:55:00+00:00",
+    "raw": "METAR KACJ 201055Z AUTO 02003KT 10SM CLR 21/21 A2995 RMK AO2 T02130213 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211994176,
-      "display": "8,211,994,176",
+      "value": 8211995778,
+      "display": "8,211,995,778",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T10:47:00Z",
-      "speed": 402.0
+      "time": "2026-09-20T10:57:00Z",
+      "speed": 388.0
     },
     "magneticField": {
-      "time": "2026-09-20T10:47:00Z",
-      "bt": 5.0,
-      "bz": 3.0
+      "time": "2026-09-20T10:57:00Z",
+      "bt": 4.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-20T06:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T10:44:00Z",
-      "forecastTime": "2026-09-20T11:53:00Z"
+      "observationTime": "2026-09-20T11:00:00Z",
+      "forecastTime": "2026-09-20T12:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
