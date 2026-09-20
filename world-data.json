@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T23:55:02.643923+00:00",
+  "generatedAt": "2026-09-20T01:58:48.948904+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:E2119 - DPLA - 13f523e746d9f6af02859e4f3afe5877.jpg",
-    "artist": "Department of Energy. Bonneville Power Administration. 10/1/1977",
+    "title": "File:Created for the National Natural landmarks Program by Dennis Caldwell, caldwell-design.com (b824c582-b833-40d1-ba54-ea580db40bbb).jpg",
+    "artist": "National Park Service",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:E2119_-_DPLA_-_13f523e746d9f6af02859e4f3afe5877.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Created_for_the_National_Natural_landmarks_Program_by_Dennis_Caldwell%2C_caldwell-design.com_%28b824c582-b833-40d1-ba54-ea580db40bbb%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ETIK",
-    "station": "ETIK",
-    "lat": 49.472,
-    "lon": 10.39,
+    "name": "K9A4",
+    "station": "K9A4",
+    "lat": 34.66,
+    "lon": -87.349,
     "weather": "No coded weather",
-    "temperature": 12.4,
-    "dewpoint": 8.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 26.0,
+    "dewpoint": 19.0,
+    "windSpeed": 5.0,
+    "windDirection": 260.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-19T22:55:00.000Z",
-    "observationTimestamp": "2026-09-19T22:55:00+00:00",
-    "raw": "METAR ETIK 192255Z AUTO 00000KT 9999 CLR 12/08 A3022 RMK AO2 SLP234 T01240081 402400059"
+    "observationTime": "2026-09-20T01:35:00.000Z",
+    "observationTimestamp": "2026-09-20T01:35:00+00:00",
+    "raw": "METAR K9A4 200135Z AUTO 26005KT 10SM SCT080 26/19 A3000 RMK AO2"
   },
   "randomPlace": {
-    "name": "KCCY",
-    "station": "KCCY",
-    "lat": 43.073,
-    "lon": -92.6132,
+    "name": "OEPA",
+    "station": "OEPA",
+    "lat": 28.335,
+    "lon": 46.125,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 19.0,
-    "windSpeed": 8.0,
-    "windDirection": 10.0,
-    "visibility": "7",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-19T23:35:00.000Z",
-    "observationTimestamp": "2026-09-19T23:35:00+00:00",
-    "raw": "METAR KCCY 192335Z AUTO 01008KT 7SM OVC004 19/19 A2991 RMK AO2"
+    "temperature": 29.0,
+    "dewpoint": 3.0,
+    "windSpeed": 6.0,
+    "windDirection": 360.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T01:00:00.000Z",
+    "observationTimestamp": "2026-09-20T01:00:00+00:00",
+    "raw": "METAR OEPA 200100Z 36006KT CAVOK 29/03 Q1012 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211915178,
-      "display": "8,211,915,178",
+      "value": 8211929987,
+      "display": "8,211,929,987",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 1.7,
       "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-19T18:00:00"
+      "time": "2026-09-19T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-19T23:46:00Z",
-      "speed": 410.0
+      "time": "2026-09-20T01:51:00Z",
+      "speed": 423.0
     },
     "magneticField": {
-      "time": "2026-09-19T23:46:00Z",
+      "time": "2026-09-20T01:51:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-09-19T18:00:00",
+      "time": "2026-09-19T21:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 24.0,
-      "display": "MAX 24.0%",
+      "value": 25.0,
+      "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-19T23:43:00Z",
-      "forecastTime": "2026-09-20T00:50:00Z"
+      "observationTime": "2026-09-20T01:48:00Z",
+      "forecastTime": "2026-09-20T02:54:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
