@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T12:15:05.543975+00:00",
+  "generatedAt": "2026-09-20T12:34:27.548585+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nilüfer kanak köprüsü.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "title": "File:Bali Island.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:ASIRICHAILORDSIN\" title=\"User:ASIRICHAILORDSIN\">ASIRICHAILORDSIN</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bali_Island.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KSMX",
-    "station": "KSMX",
-    "lat": 34.894,
-    "lon": -120.4522,
+    "name": "KLWV",
+    "station": "KLWV",
+    "lat": 38.7604,
+    "lon": -87.599,
     "weather": "No coded weather",
-    "temperature": 14.4,
-    "dewpoint": 13.3,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "7",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-20T11:51:00.000Z",
-    "observationTimestamp": "2026-09-20T11:51:00+00:00",
-    "raw": "METAR KSMX 201151Z AUTO 00000KT 7SM OVC007 14/13 A2994 RMK AO2 SLP141 T01440133 10156 20139 53006 $"
+    "temperature": 21.7,
+    "dewpoint": 18.9,
+    "windSpeed": 5.0,
+    "windDirection": 180.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T11:53:00.000Z",
+    "observationTimestamp": "2026-09-20T11:53:00+00:00",
+    "raw": "METAR KLWV 201153Z AUTO 18005KT 10SM CLR 22/19 A2990 RMK AO2 SLP120 T02170189 10244 20217 51007 $"
   },
   "randomPlace": {
-    "name": "LHPP",
-    "station": "LHPP",
-    "lat": 45.991,
-    "lon": 18.241,
+    "name": "K1M4",
+    "station": "K1M4",
+    "lat": 34.2832,
+    "lon": -87.5986,
     "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 14.0,
-    "windSpeed": 8.0,
-    "windDirection": 230.0,
-    "visibility": "6+",
+    "temperature": 22.2,
+    "dewpoint": 20.6,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T11:45:00.000Z",
-    "observationTimestamp": "2026-09-20T11:45:00+00:00",
-    "raw": "METAR LHPP 201145Z AUTO 23008KT 170V300 CAVOK 27/14 Q1024"
+    "observationTime": "2026-09-20T11:56:00.000Z",
+    "observationTimestamp": "2026-09-20T11:56:00+00:00",
+    "raw": "METAR K1M4 201156Z AUTO 00000KT 10SM CLR 22/21 A3003 RMK AO2 SLP927 T02220206 10239 20206 53011"
   },
   "globalPulse": {
     "population": {
-      "value": 8212003763,
-      "display": "8,212,003,763",
+      "value": 8212006068,
+      "display": "8,212,006,068",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T12:06:00Z",
-      "speed": 403.0
+      "time": "2026-09-20T12:24:00Z",
+      "speed": 399.0
     },
     "magneticField": {
-      "time": "2026-09-20T12:06:00Z",
+      "time": "2026-09-20T12:24:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T12:04:00Z",
-      "forecastTime": "2026-09-20T13:12:00Z"
+      "observationTime": "2026-09-20T12:24:00Z",
+      "forecastTime": "2026-09-20T13:31:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
