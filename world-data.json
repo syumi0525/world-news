@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:38:48.282300+00:00",
+  "generatedAt": "2026-09-20T16:49:25.994920+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cordillera del Aramo (13736818533).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
+    "title": "File:20260822 092805 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_del_Aramo_%2813736818533%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_092805_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWSD",
-    "station": "CWSD",
-    "lat": 46.441,
-    "lon": -63.837,
-    "weather": "No coded weather",
-    "temperature": 12.3,
-    "dewpoint": 3.1,
-    "windSpeed": 6.0,
-    "windDirection": 200.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "name": "VAHS",
+    "station": "VAHS",
+    "lat": 22.3772,
+    "lon": 71.0374,
+    "weather": "BR",
+    "temperature": 25.0,
+    "dewpoint": 23.0,
+    "windSpeed": 3.0,
+    "windDirection": 180.0,
+    "visibility": "2.49",
+    "flightCategory": "IFR",
     "observationTime": "2026-09-20T16:00:00.000Z",
     "observationTimestamp": "2026-09-20T16:00:00+00:00",
-    "raw": "METAR CWSD 201600Z AUTO 20006KT 12/03 RMK AO1 SLP235 T01230031 58013"
+    "raw": "METAR VAHS 201600Z 18003KT 4000 BR SCT020 FEW025TCU BKN080 25/23 Q1012 NOSIG"
   },
   "randomPlace": {
-    "name": "KLGD",
-    "station": "KLGD",
-    "lat": 45.2906,
-    "lon": -118.0088,
+    "name": "KDAL",
+    "station": "KDAL",
+    "lat": 32.8384,
+    "lon": -96.8358,
     "weather": "No coded weather",
-    "temperature": 13.3,
-    "dewpoint": 8.3,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 31.7,
+    "dewpoint": 20.0,
+    "windSpeed": 8.0,
+    "windDirection": 180.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T15:56:00.000Z",
-    "observationTimestamp": "2026-09-20T15:56:00+00:00",
-    "raw": "METAR KLGD 201556Z AUTO 00000KT 10SM CLR 13/08 A3019 RMK AO2 SLP219 T01330083 $"
+    "observationTime": "2026-09-20T15:53:00.000Z",
+    "observationTimestamp": "2026-09-20T15:53:00+00:00",
+    "raw": "METAR KDAL 201553Z 18008KT 10SM FEW200 BKN250 32/20 A2993 RMK AO2 SLP126 T03170200"
   },
   "globalPulse": {
     "population": {
-      "value": 8212035358,
-      "display": "8,212,035,358",
+      "value": 8212036631,
+      "display": "8,212,036,631",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T16:30:00Z",
-      "speed": 392.0
+      "time": "2026-09-20T16:40:00Z",
+      "speed": 393.0
     },
     "magneticField": {
-      "time": "2026-09-20T16:30:00Z",
+      "time": "2026-09-20T16:40:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 10.0,
       "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T16:30:00Z",
-      "forecastTime": "2026-09-20T17:37:00Z"
+      "observationTime": "2026-09-20T16:38:00Z",
+      "forecastTime": "2026-09-20T17:48:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
