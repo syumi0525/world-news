@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T11:37:41.372547+00:00",
+  "generatedAt": "2026-09-20T11:47:36.710883+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20190415 Yehliu geopark beach-1.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "title": "File:Barhakune photo by Sangharsh Acharya.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scandinaviastats&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scandinaviastats (page does not exist)\">Scandinaviastats</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Barhakune_photo_by_Sangharsh_Acharya.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KINK",
-    "station": "KINK",
-    "lat": 31.7801,
-    "lon": -103.2017,
-    "weather": "No coded weather",
-    "temperature": 23.3,
-    "dewpoint": 15.6,
-    "windSpeed": 8.0,
-    "windDirection": 110.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-20T10:53:00.000Z",
-    "observationTimestamp": "2026-09-20T10:53:00+00:00",
-    "raw": "METAR KINK 201053Z AUTO 11008KT CLR 23/16 A3001 RMK AO2 SLP116 T02330156 $"
+    "name": "PACZ",
+    "station": "PACZ",
+    "lat": 61.776,
+    "lon": -166.043,
+    "weather": "-SHSN",
+    "temperature": 1.1,
+    "dewpoint": 0.8,
+    "windSpeed": 30.0,
+    "windDirection": 330.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-20T10:55:00.000Z",
+    "observationTimestamp": "2026-09-20T10:55:00+00:00",
+    "raw": "METAR PACZ 201055Z AUTO 33030G35KT 10SM -SHSN BKN011 01/01 A2959 RMK AO2 PK WND 33038/1015 SHRAB1014E1019SHRASNB1016E1016SHSNB1019 SLP027 P0001 T00110008;"
   },
   "randomPlace": {
-    "name": "KLUG",
-    "station": "KLUG",
-    "lat": 35.5082,
-    "lon": -86.8055,
+    "name": "KE41",
+    "station": "KE41",
+    "lat": 31.1945,
+    "lon": -101.4732,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 20.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 21.6,
+    "dewpoint": 17.0,
+    "windSpeed": 7.0,
+    "windDirection": 120.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T11:15:00.000Z",
-    "observationTimestamp": "2026-09-20T11:15:00+00:00",
-    "raw": "METAR KLUG 201115Z AUTO 00000KT 10SM CLR 23/20 A2998 RMK A01"
+    "observationTime": "2026-09-20T11:35:00.000Z",
+    "observationTimestamp": "2026-09-20T11:35:00+00:00",
+    "raw": "METAR KE41 201135Z AUTO 12007KT 10SM CLR 22/17 A3004 RMK AO2 T02160170"
   },
   "globalPulse": {
     "population": {
-      "value": 8211999294,
-      "display": "8,211,999,294",
+      "value": 8212000495,
+      "display": "8,212,000,495",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T11:27:00Z",
-      "speed": 401.0
+      "time": "2026-09-20T11:40:00Z",
+      "speed": 406.0
     },
     "magneticField": {
-      "time": "2026-09-20T11:27:00Z",
+      "time": "2026-09-20T11:40:00Z",
       "bt": 4.0,
-      "bz": 3.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-20T06:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T11:24:00Z",
-      "forecastTime": "2026-09-20T12:32:00Z"
+      "observationTime": "2026-09-20T11:35:00Z",
+      "forecastTime": "2026-09-20T12:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
