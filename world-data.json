@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T21:55:12.103584+00:00",
+  "generatedAt": "2026-09-20T22:08:29.429399+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 184508 Schätzl-Villa mit Garten.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
-    "license": "CC0",
+    "title": "File:08020047.JPG",
+    "artist": "Catalina Holguin",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_184508_Sch%C3%A4tzl-Villa_mit_Garten.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:08020047.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGYB",
-    "station": "KGYB",
-    "lat": 30.1714,
-    "lon": -96.9785,
+    "name": "K9S9",
+    "station": "K9S9",
+    "lat": 45.4551,
+    "lon": -119.6859,
     "weather": "No coded weather",
-    "temperature": 35.3,
-    "dewpoint": 17.8,
-    "windSpeed": 3.0,
-    "windDirection": 180.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T21:35:00.000Z",
-    "observationTimestamp": "2026-09-20T21:35:00+00:00",
-    "raw": "METAR KGYB 202135Z AUTO 18003KT 10SM SCT070 35/18 A2987 RMK AO2 T03530178"
-  },
-  "randomPlace": {
-    "name": "KAQV",
-    "station": "KAQV",
-    "lat": 31.396,
-    "lon": -93.297,
-    "weather": "No coded weather",
-    "temperature": 35.6,
-    "dewpoint": 20.0,
-    "windSpeed": 0.0,
+    "temperature": 28.0,
+    "dewpoint": 8.0,
+    "windSpeed": 6.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T21:47:00.000Z",
-    "observationTimestamp": "2026-09-20T21:47:00+00:00",
-    "raw": "METAR KAQV 202147Z AUTO 00000KT 10SM CLR 36/20 A2985 RMK AO2 SLP106 T03560200"
+    "observationTime": "2026-09-20T21:50:00.000Z",
+    "observationTimestamp": "2026-09-20T21:50:00+00:00",
+    "raw": "METAR K9S9 202150Z AUTO VRB06KT 10SM CLR 28/08 A3005 RMK AO2"
+  },
+  "randomPlace": {
+    "name": "KPSO",
+    "station": "KPSO",
+    "lat": 37.291,
+    "lon": -107.0557,
+    "weather": "No coded weather",
+    "temperature": 21.0,
+    "dewpoint": -3.0,
+    "windSpeed": 11.0,
+    "windDirection": 200.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T21:55:00.000Z",
+    "observationTimestamp": "2026-09-20T21:55:00+00:00",
+    "raw": "METAR KPSO 202155Z AUTO 20011G22KT 10SM CLR 21/M03 A3028 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212073230,
-      "display": "8,212,073,230",
+      "value": 8212074826,
+      "display": "8,212,074,826",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T21:48:00Z",
-      "speed": 368.0
+      "time": "2026-09-20T22:01:00Z",
+      "speed": 360.0
     },
     "magneticField": {
-      "time": "2026-09-20T21:48:00Z",
+      "time": "2026-09-20T22:01:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-20T18:00:00",
@@ -113,8 +113,8 @@
       "value": 19.0,
       "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T21:45:00Z",
-      "forecastTime": "2026-09-20T22:58:00Z"
+      "observationTime": "2026-09-20T21:58:00Z",
+      "forecastTime": "2026-09-20T23:13:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
