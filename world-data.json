@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T15:28:52.774925+00:00",
+  "generatedAt": "2026-09-20T15:41:31.307797+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20140907 114910 Jpg (218976057).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
+    "title": "File:30BY35 home plan by ER. AYUSH TOMAR 9997233546.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Erayushtomar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Erayushtomar (page does not exist)\">Erayushtomar</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:30BY35_home_plan_by_ER._AYUSH_TOMAR_9997233546.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYEN",
-    "station": "CYEN",
-    "lat": 49.207,
-    "lon": -102.963,
-    "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 10.0,
-    "windSpeed": 9.0,
-    "windDirection": 120.0,
-    "visibility": "9",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-20T15:15:00.000Z",
-    "observationTimestamp": "2026-09-20T15:15:00+00:00",
-    "raw": "SPECI CYEN 201515Z AUTO 12009KT 9SM OVC008 11/10 A3029 RMK SLP274"
+    "name": "EGXV",
+    "station": "EGXV",
+    "lat": 53.876,
+    "lon": -0.435,
+    "weather": "BR",
+    "temperature": 19.0,
+    "dewpoint": 7.0,
+    "windSpeed": 12.0,
+    "windDirection": 270.0,
+    "visibility": "5.59",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T15:20:00.000Z",
+    "observationTimestamp": "2026-09-20T15:20:00+00:00",
+    "raw": "METAR EGXV 201520Z AUTO 27012KT 9000 BR FEW050/// 19/07 Q1025"
   },
   "randomPlace": {
-    "name": "KECS",
-    "station": "KECS",
-    "lat": 43.8845,
-    "lon": -104.312,
+    "name": "K10U",
+    "station": "K10U",
+    "lat": 41.953,
+    "lon": -116.182,
     "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 11.0,
+    "temperature": 10.0,
+    "dewpoint": 3.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-20T15:15:00.000Z",
-    "observationTimestamp": "2026-09-20T15:15:00+00:00",
-    "raw": "METAR KECS 201515Z AUTO 00000KT 10SM BKN007 OVC022 12/11 A3017 RMK AO2"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T15:35:00.000Z",
+    "observationTimestamp": "2026-09-20T15:35:00+00:00",
+    "raw": "METAR K10U 201535Z AUTO 00000KT 10SM CLR 10/03 A3026 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212026968,
-      "display": "8,212,026,968",
+      "value": 8212028500,
+      "display": "8,212,028,500",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.5,
-      "display": "61.5%",
+      "value": 61.7,
+      "display": "61.7%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-20T06:00:00Z"
+      "time": "2026-09-20T12:00:00Z"
     },
     "geomagnetic": {
       "value": 1.0,
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T15:20:00Z",
-      "speed": 402.0
+      "time": "2026-09-20T15:30:00Z",
+      "speed": 400.0
     },
     "magneticField": {
-      "time": "2026-09-20T15:20:00Z",
+      "time": "2026-09-20T15:33:00Z",
       "bt": 5.0,
-      "bz": 2.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-20T12:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T15:20:00Z",
-      "forecastTime": "2026-09-20T16:26:00Z"
+      "observationTime": "2026-09-20T15:30:00Z",
+      "forecastTime": "2026-09-20T16:36:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
