@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T08:43:53.638019+00:00",
+  "generatedAt": "2026-09-20T08:55:02.147467+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ausfahrsignal Freiburg Richtung Basel zeigt Fahrt Hp 1 mit Geschwindigkeitsanzeiger Kennziffer 6.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fabi_B%C3%BCKa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fabi BüKa (page does not exist)\">Fabi BüKa</a>",
-    "license": "CC0",
+    "title": "File:A creek meanders through the maritime forest.jpg",
+    "artist": "Hillebrand Steve, U.S. Fish and Wildlife Service",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ausfahrsignal_Freiburg_Richtung_Basel_zeigt_Fahrt_Hp_1_mit_Geschwindigkeitsanzeiger_Kennziffer_6.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_creek_meanders_through_the_maritime_forest.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "NCMR",
-    "station": "NCMR",
-    "lat": -19.842,
-    "lon": -157.703,
+    "name": "OEGS",
+    "station": "OEGS",
+    "lat": 26.303,
+    "lon": 43.774,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 16.0,
-    "windSpeed": 2.0,
-    "windDirection": 70.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "temperature": 36.0,
+    "dewpoint": 8.0,
+    "windSpeed": 13.0,
+    "windDirection": 60.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-20T08:00:00.000Z",
     "observationTimestamp": "2026-09-20T08:00:00+00:00",
-    "raw": "METAR NCMR 200800Z 07002KT //// ////// 21/16 Q1016"
+    "raw": "METAR OEGS 200800Z 06013KT CAVOK 36/08 Q1016 NOSIG"
   },
   "randomPlace": {
-    "name": "KCVX",
-    "station": "KCVX",
-    "lat": 45.304,
-    "lon": -85.2689,
+    "name": "RJAF",
+    "station": "RJAF",
+    "lat": 36.167,
+    "lon": 137.923,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 14.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 23.0,
+    "dewpoint": 18.0,
+    "windSpeed": 11.0,
+    "windDirection": 340.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T08:35:00.000Z",
-    "observationTimestamp": "2026-09-20T08:35:00+00:00",
-    "raw": "METAR KCVX 200835Z AUTO 00000KT 10SM SCT120 14/14 A3001 RMK AO2"
+    "observationTime": "2026-09-20T08:00:00.000Z",
+    "observationTimestamp": "2026-09-20T08:00:00+00:00",
+    "raw": "METAR RJAF 200800Z 34011KT 9999 FEW020 SCT030 BKN100 23/18 Q1011"
   },
   "globalPulse": {
     "population": {
-      "value": 8211978479,
-      "display": "8,211,978,479",
+      "value": 8211979814,
+      "display": "8,211,979,814",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T08:35:00Z",
+      "time": "2026-09-20T08:46:00Z",
       "speed": 406.0
     },
     "magneticField": {
-      "time": "2026-09-20T08:35:00Z",
+      "time": "2026-09-20T08:46:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 19.0,
       "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T08:35:00Z",
-      "forecastTime": "2026-09-20T09:41:00Z"
+      "observationTime": "2026-09-20T08:43:00Z",
+      "forecastTime": "2026-09-20T09:52:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
