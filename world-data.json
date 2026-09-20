@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T02:43:52.054924+00:00",
+  "generatedAt": "2026-09-20T02:55:53.961986+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:1907 Hold on! Half time! A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:20260822 085138 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:1907_Hold_on%21_Half_time%21_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_085138_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MMPR",
-    "station": "MMPR",
-    "lat": 20.68,
-    "lon": -105.25,
-    "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 25.0,
-    "windSpeed": 4.0,
-    "windDirection": 80.0,
-    "visibility": "8",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T02:24:00.000Z",
-    "observationTimestamp": "2026-09-20T02:24:00+00:00",
-    "raw": "METAR MMPR 200224Z 08004KT 8SM SCT030 BKN150 27/25 A2991 RMK 8/460 HZY -RAE20"
+    "name": "ESNS",
+    "station": "ESNS",
+    "lat": 64.625,
+    "lon": 21.077,
+    "weather": "DZ",
+    "temperature": 11.0,
+    "dewpoint": 10.0,
+    "windSpeed": 12.0,
+    "windDirection": 290.0,
+    "visibility": "3.73",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-20T02:50:00.000Z",
+    "observationTimestamp": "2026-09-20T02:50:00+00:00",
+    "raw": "METAR ESNS 200250Z AUTO 29012KT 6000 DZ OVC007/// 11/10 Q0980"
   },
   "randomPlace": {
-    "name": "CYBC",
-    "station": "CYBC",
-    "lat": 49.135,
-    "lon": -68.202,
-    "weather": "No coded weather",
-    "temperature": 6.0,
-    "dewpoint": 1.0,
-    "windSpeed": 2.0,
+    "name": "KHAF",
+    "station": "KHAF",
+    "lat": 37.5136,
+    "lon": -122.4996,
+    "weather": "BR",
+    "temperature": 14.0,
+    "dewpoint": 14.0,
+    "windSpeed": 9.0,
     "windDirection": 320.0,
-    "visibility": "9",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T02:00:00.000Z",
-    "observationTimestamp": "2026-09-20T02:00:00+00:00",
-    "raw": "METAR CYBC 200200Z AUTO 32002KT 9SM BKN140 06/01 A3020 RMK SLP231"
+    "visibility": "5",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-20T02:35:00.000Z",
+    "observationTimestamp": "2026-09-20T02:35:00+00:00",
+    "raw": "METAR KHAF 200235Z AUTO 32009KT 5SM BR OVC007 14/14 A2999 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211935378,
-      "display": "8,211,935,378",
+      "value": 8211936822,
+      "display": "8,211,936,822",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T02:34:00Z",
-      "speed": 423.0
+      "time": "2026-09-20T02:45:00Z",
+      "speed": 416.0
     },
     "magneticField": {
-      "time": "2026-09-20T02:34:00Z",
+      "time": "2026-09-20T02:45:00Z",
       "bt": 4.0,
       "bz": -2.0
     },
@@ -113,8 +113,8 @@
       "value": 24.0,
       "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T02:34:00Z",
-      "forecastTime": "2026-09-20T03:39:00Z"
+      "observationTime": "2026-09-20T02:42:00Z",
+      "forecastTime": "2026-09-20T03:49:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
