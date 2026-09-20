@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T09:09:05.891391+00:00",
+  "generatedAt": "2026-09-20T09:23:17.628292+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20190415 Yehliu geopark beach-2.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "title": "File:Dãy Bạch Mã.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%AA_%C4%90%C4%83ng_Kh%C3%B4i&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lê Đăng Khôi (page does not exist)\">Lê Đăng Khôi</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:D%C3%A3y_B%E1%BA%A1ch_M%C3%A3.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFBL",
-    "station": "LFBL",
-    "lat": 45.863,
-    "lon": 1.179,
+    "name": "RODE",
+    "station": "RODE",
+    "lat": 26.718,
+    "lon": 127.783,
+    "weather": "-RA",
+    "temperature": 27.8,
+    "dewpoint": 23.9,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-20T08:59:00.000Z",
+    "observationTimestamp": "2026-09-20T08:59:00+00:00",
+    "raw": "METAR RODE 200859Z AUTO -RA CLR 28/24 A2981 RMK AO2 SLP136 P0000 60000 T02780239 55000 $"
+  },
+  "randomPlace": {
+    "name": "LRAR",
+    "station": "LRAR",
+    "lat": 46.176,
+    "lon": 21.264,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 13.0,
+    "temperature": 26.0,
+    "dewpoint": 9.0,
     "windSpeed": 3.0,
     "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-20T09:00:00.000Z",
     "observationTimestamp": "2026-09-20T09:00:00+00:00",
-    "raw": "METAR LFBL 200900Z AUTO VRB03KT CAVOK 21/13 Q1028 NOSIG"
-  },
-  "randomPlace": {
-    "name": "CWQP",
-    "station": "CWQP",
-    "lat": 43.84,
-    "lon": -77.153,
-    "weather": "No coded weather",
-    "temperature": 18.2,
-    "dewpoint": 15.2,
-    "windSpeed": 9.0,
-    "windDirection": 150.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-20T08:00:00.000Z",
-    "observationTimestamp": "2026-09-20T08:00:00+00:00",
-    "raw": "METAR CWQP 200800Z AUTO 15009KT 18/15 RMK AO1 SLP148 T01820152 58020"
+    "raw": "METAR LRAR 200900Z VRB03KT CAVOK 26/09 Q1025"
   },
   "globalPulse": {
     "population": {
-      "value": 8211981500,
-      "display": "8,211,981,500",
+      "value": 8211983200,
+      "display": "8,211,983,200",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T09:02:00Z",
-      "speed": 392.0
+      "time": "2026-09-20T09:15:00Z",
+      "speed": 386.0
     },
     "magneticField": {
-      "time": "2026-09-20T09:02:00Z",
+      "time": "2026-09-20T09:15:00Z",
       "bt": 5.0,
-      "bz": -1.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-20T06:00:00",
@@ -113,8 +113,8 @@
       "value": 19.0,
       "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T08:59:00Z",
-      "forecastTime": "2026-09-20T10:06:00Z"
+      "observationTime": "2026-09-20T09:15:00Z",
+      "forecastTime": "2026-09-20T10:22:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
