@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T20:08:36.052739+00:00",
+  "generatedAt": "2026-09-20T20:22:43.310402+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 09.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:Buna River.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_09.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Buna_River.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SPJC",
-    "station": "SPJC",
-    "lat": -12.024,
-    "lon": -77.113,
+    "name": "KRBD",
+    "station": "KRBD",
+    "lat": 32.6782,
+    "lon": -96.8677,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 18.0,
-    "windSpeed": 12.0,
-    "windDirection": 180.0,
-    "visibility": "6+",
+    "temperature": 35.6,
+    "dewpoint": 20.0,
+    "windSpeed": 5.0,
+    "windDirection": 200.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T20:00:00.000Z",
-    "observationTimestamp": "2026-09-20T20:00:00+00:00",
-    "raw": "METAR SPJC 202000Z 18012KT 9999 FEW010 OVC035 23/18 Q1013 NOSIG RMK BIRD HAZARD RWY 16L/16R PP000"
+    "observationTime": "2026-09-20T19:53:00.000Z",
+    "observationTimestamp": "2026-09-20T19:53:00+00:00",
+    "raw": "METAR KRBD 201953Z 20005KT 10SM CLR 36/20 A2986 RMK AO2 SLP100 T03560200"
   },
   "randomPlace": {
-    "name": "DAAG",
-    "station": "DAAG",
-    "lat": 36.691,
-    "lon": 3.215,
+    "name": "LFTW",
+    "station": "LFTW",
+    "lat": 43.757,
+    "lon": 4.416,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 19.0,
-    "windSpeed": 5.0,
-    "windDirection": 60.0,
+    "temperature": 26.0,
+    "dewpoint": 6.0,
+    "windSpeed": 7.0,
+    "windDirection": 350.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-20T20:00:00.000Z",
     "observationTimestamp": "2026-09-20T20:00:00+00:00",
-    "raw": "METAR DAAG 202000Z 06005KT 9999 FEW023 FEW026CB 25/19 Q1024"
+    "raw": "METAR LFTW 202000Z AUTO 35007KT 320V030 CAVOK 26/06 Q1024"
   },
   "globalPulse": {
     "population": {
-      "value": 8212060476,
-      "display": "8,212,060,476",
+      "value": 8212062162,
+      "display": "8,212,062,162",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T19:58:00Z",
-      "speed": 375.0
+      "time": "2026-09-20T20:14:00Z",
+      "speed": 388.0
     },
     "magneticField": {
-      "time": "2026-09-20T19:58:00Z",
+      "time": "2026-09-20T20:14:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 11.0,
-      "display": "MAX 11.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T19:53:00Z",
-      "forecastTime": "2026-09-20T21:07:00Z"
+      "observationTime": "2026-09-20T20:14:00Z",
+      "forecastTime": "2026-09-20T21:26:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
