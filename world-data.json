@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T11:21:39.965271+00:00",
+  "generatedAt": "2026-09-20T11:37:41.372547+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A good view of the beach cliffs.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
+    "title": "File:20190415 Yehliu geopark beach-1.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-1.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LEMH",
-    "station": "LEMH",
-    "lat": 39.855,
-    "lon": 4.216,
+    "name": "KINK",
+    "station": "KINK",
+    "lat": 31.7801,
+    "lon": -103.2017,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 19.0,
-    "windSpeed": 9.0,
-    "windDirection": 30.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T11:00:00.000Z",
-    "observationTimestamp": "2026-09-20T11:00:00+00:00",
-    "raw": "METAR LEMH 201100Z 03009KT 350V070 9999 FEW027 SCT030 BKN036 28/19 Q1025"
+    "temperature": 23.3,
+    "dewpoint": 15.6,
+    "windSpeed": 8.0,
+    "windDirection": 110.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-20T10:53:00.000Z",
+    "observationTimestamp": "2026-09-20T10:53:00+00:00",
+    "raw": "METAR KINK 201053Z AUTO 11008KT CLR 23/16 A3001 RMK AO2 SLP116 T02330156 $"
   },
   "randomPlace": {
-    "name": "LFMD",
-    "station": "LFMD",
-    "lat": 43.544,
-    "lon": 6.953,
+    "name": "KLUG",
+    "station": "KLUG",
+    "lat": 35.5082,
+    "lon": -86.8055,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 17.0,
-    "windSpeed": 8.0,
-    "windDirection": 160.0,
-    "visibility": "6+",
+    "temperature": 23.0,
+    "dewpoint": 20.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T11:00:00.000Z",
-    "observationTimestamp": "2026-09-20T11:00:00+00:00",
-    "raw": "METAR LFMD 201100Z AUTO 16008KT 110V190 CAVOK 28/17 Q1024 NOSIG"
+    "observationTime": "2026-09-20T11:15:00.000Z",
+    "observationTimestamp": "2026-09-20T11:15:00+00:00",
+    "raw": "METAR KLUG 201115Z AUTO 00000KT 10SM CLR 23/20 A2998 RMK A01"
   },
   "globalPulse": {
     "population": {
-      "value": 8211997392,
-      "display": "8,211,997,392",
+      "value": 8211999294,
+      "display": "8,211,999,294",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T11:13:00Z",
-      "speed": 390.0
+      "time": "2026-09-20T11:27:00Z",
+      "speed": 401.0
     },
     "magneticField": {
-      "time": "2026-09-20T11:13:00Z",
+      "time": "2026-09-20T11:27:00Z",
       "bt": 4.0,
-      "bz": 2.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-20T06:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T11:13:00Z",
-      "forecastTime": "2026-09-20T12:23:00Z"
+      "observationTime": "2026-09-20T11:24:00Z",
+      "forecastTime": "2026-09-20T12:32:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
