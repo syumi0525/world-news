@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T19:45:09.299751+00:00",
+  "generatedAt": "2026-09-20T19:54:48.768354+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chief Inspector Albert Macintosh - Flickr - trebble.chris.jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/129172152@N02\">Chris Trebble</a>",
-    "license": "CC0",
+    "title": "File:Early Fall Stream (50345907818).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/158934835@N04\">Mark Steele</a>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chief_Inspector_Albert_Macintosh_-_Flickr_-_trebble.chris.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Early_Fall_Stream_%2850345907818%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPMD",
-    "station": "KPMD",
-    "lat": 34.6294,
-    "lon": -118.0831,
+    "name": "EPWR",
+    "station": "EPWR",
+    "lat": 51.1032,
+    "lon": 16.8998,
     "weather": "No coded weather",
-    "temperature": 27.2,
-    "dewpoint": 5.0,
-    "windSpeed": 4.0,
-    "windDirection": 300.0,
-    "visibility": "10+",
+    "temperature": 16.0,
+    "dewpoint": 13.0,
+    "windSpeed": 14.0,
+    "windDirection": 270.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T18:53:00.000Z",
-    "observationTimestamp": "2026-09-20T18:53:00+00:00",
-    "raw": "METAR KPMD 201853Z 30004KT 10SM CLR 27/05 A3000 RMK AO2 SLP132 T02720050"
+    "observationTime": "2026-09-20T19:30:00.000Z",
+    "observationTimestamp": "2026-09-20T19:30:00+00:00",
+    "raw": "METAR EPWR 201930Z 27014KT 9999 FEW019 SCT048 16/13 Q1018"
   },
   "randomPlace": {
-    "name": "KBOI",
-    "station": "KBOI",
-    "lat": 43.567,
-    "lon": -116.2406,
+    "name": "KTPH",
+    "station": "KTPH",
+    "lat": 38.0505,
+    "lon": -117.0906,
     "weather": "No coded weather",
     "temperature": 23.9,
-    "dewpoint": 7.8,
-    "windSpeed": 5.0,
-    "windDirection": 110.0,
+    "dewpoint": -6.1,
+    "windSpeed": 6.0,
+    "windDirection": 170.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T18:53:00.000Z",
-    "observationTimestamp": "2026-09-20T18:53:00+00:00",
-    "raw": "METAR KBOI 201853Z AUTO 11005KT 10SM CLR 24/08 A3015 RMK AO2 SLP189 T02390078 $"
+    "observationTime": "2026-09-20T18:56:00.000Z",
+    "observationTimestamp": "2026-09-20T18:56:00+00:00",
+    "raw": "METAR KTPH 201856Z AUTO 17006G14KT 10SM CLR 24/M06 A3018 RMK AO2 SLP162 T02391061"
   },
   "globalPulse": {
     "population": {
-      "value": 8212057667,
-      "display": "8,212,057,667",
+      "value": 8212058824,
+      "display": "8,212,058,824",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T19:35:00Z",
-      "speed": 372.0
+      "time": "2026-09-20T19:46:00Z",
+      "speed": 373.0
     },
     "magneticField": {
-      "time": "2026-09-20T19:35:00Z",
+      "time": "2026-09-20T19:46:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T19:35:00Z",
-      "forecastTime": "2026-09-20T20:46:00Z"
+      "observationTime": "2026-09-20T19:46:00Z",
+      "forecastTime": "2026-09-20T20:56:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
