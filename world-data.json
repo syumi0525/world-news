@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T13:15:40.178520+00:00",
+  "generatedAt": "2026-09-20T13:29:03.936679+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:3D Point Cloud Overview of Milton S. Eisenhower Library, Johns Hopkins University.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Matthewadams66&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Matthewadams66 (page does not exist)\">Matthewadams66</a>",
+    "title": "File:Ndongo carrefour 05.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:3D_Point_Cloud_Overview_of_Milton_S._Eisenhower_Library%2C_Johns_Hopkins_University.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_carrefour_05.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OIAH",
-    "station": "OIAH",
-    "lat": 30.336,
-    "lon": 50.83,
+    "name": "KETN",
+    "station": "KETN",
+    "lat": 32.4164,
+    "lon": -98.8113,
     "weather": "No coded weather",
-    "temperature": 38.0,
-    "dewpoint": 15.0,
-    "windSpeed": 10.0,
-    "windDirection": 280.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T13:00:00.000Z",
-    "observationTimestamp": "2026-09-20T13:00:00+00:00",
-    "raw": "METAR OIAH 201300Z 28010KT 230V320 CAVOK 38/15 Q1014"
-  },
-  "randomPlace": {
-    "name": "KBKS",
-    "station": "KBKS",
-    "lat": 27.2064,
-    "lon": -98.1216,
-    "weather": "No coded weather",
-    "temperature": 22.5,
-    "dewpoint": 21.2,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 22.9,
+    "dewpoint": 16.8,
+    "windSpeed": 4.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-20T12:55:00.000Z",
     "observationTimestamp": "2026-09-20T12:55:00+00:00",
-    "raw": "METAR KBKS 201255Z AUTO 00000KT 10SM CLR 23/21 A2991 RMK AO2 T02250212 $"
+    "raw": "METAR KETN 201255Z AUTO 20004KT 10SM CLR 23/17 A2996 RMK AO2 T02290168"
+  },
+  "randomPlace": {
+    "name": "KXSA",
+    "station": "KXSA",
+    "lat": 37.8606,
+    "lon": -76.9016,
+    "weather": "No coded weather",
+    "temperature": 23.7,
+    "dewpoint": 19.9,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-20T13:15:00.000Z",
+    "observationTimestamp": "2026-09-20T13:15:00+00:00",
+    "raw": "METAR KXSA 201315Z AUTO SCT041 BKN048 24/20 A3004 RMK AO2 T02370199 PWINO"
   },
   "globalPulse": {
     "population": {
-      "value": 8212011016,
-      "display": "8,212,011,016",
+      "value": 8212012620,
+      "display": "8,212,012,620",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T13:08:00Z",
-      "speed": 400.0
+      "time": "2026-09-20T13:21:00Z",
+      "speed": 399.0
     },
     "magneticField": {
-      "time": "2026-09-20T13:08:00Z",
+      "time": "2026-09-20T13:21:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T13:03:00Z",
-      "forecastTime": "2026-09-20T14:12:00Z"
+      "observationTime": "2026-09-20T13:19:00Z",
+      "forecastTime": "2026-09-20T14:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
