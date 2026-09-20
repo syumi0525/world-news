@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T18:56:47.061733+00:00",
+  "generatedAt": "2026-09-20T19:09:42.289702+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Balcones (8677680208).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
-    "license": "Public domain",
+    "title": "File:Foto Oaxaca.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%ADvia_Maria_Rocha&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lívia Maria Rocha (page does not exist)\">Lívia Maria Rocha</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Foto_Oaxaca.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EGKB",
-    "station": "EGKB",
-    "lat": 51.33,
-    "lon": 0.033,
+    "name": "HKWJ",
+    "station": "HKWJ",
+    "lat": 1.74,
+    "lon": 40.087,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 7.0,
-    "windSpeed": 3.0,
-    "windDirection": 240.0,
+    "temperature": 25.0,
+    "dewpoint": 21.0,
+    "windSpeed": 5.0,
+    "windDirection": 170.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T18:50:00.000Z",
-    "observationTimestamp": "2026-09-20T18:50:00+00:00",
-    "raw": "METAR EGKB 201850Z 24003KT 210V280 CAVOK 14/07 Q1030"
+    "observationTime": "2026-09-20T18:00:00.000Z",
+    "observationTimestamp": "2026-09-20T18:00:00+00:00",
+    "raw": "METAR HKWJ 201800Z 17005KT 9999 FEW024 BKN090 25/21 Q1014"
   },
   "randomPlace": {
-    "name": "KCPC",
-    "station": "KCPC",
-    "lat": 34.2753,
-    "lon": -78.7146,
+    "name": "K3L4",
+    "station": "K3L4",
+    "lat": 29.8,
+    "lon": -92.804,
     "weather": "No coded weather",
-    "temperature": 30.0,
+    "temperature": 33.0,
     "dewpoint": 20.0,
-    "windSpeed": 5.0,
-    "windDirection": 90.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T18:35:00.000Z",
-    "observationTimestamp": "2026-09-20T18:35:00+00:00",
-    "raw": "METAR KCPC 201835Z AUTO 09005KT 10SM FEW042 30/20 A3000 RMK AO2"
+    "observationTime": "2026-09-20T18:55:00.000Z",
+    "observationTimestamp": "2026-09-20T18:55:00+00:00",
+    "raw": "METAR K3L4 201855Z AUTO 00000KT 10SM CLR 33/20 A2992 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212051873,
-      "display": "8,212,051,873",
+      "value": 8212053423,
+      "display": "8,212,053,423",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T18:50:00Z",
-      "speed": 377.0
+      "time": "2026-09-20T19:00:00Z",
+      "speed": 384.0
     },
     "magneticField": {
-      "time": "2026-09-20T18:50:00Z",
+      "time": "2026-09-20T19:00:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T18:45:00Z",
-      "forecastTime": "2026-09-20T19:55:00Z"
+      "observationTime": "2026-09-20T19:00:00Z",
+      "forecastTime": "2026-09-20T20:11:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
