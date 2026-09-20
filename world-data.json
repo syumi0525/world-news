@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T17:40:05.111743+00:00",
+  "generatedAt": "2026-09-20T17:49:38.987722+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
-    "artist": "Ferrovia Mesolcinese",
-    "license": "Public domain",
+    "title": "File:American Craftsman home.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Onthehilltop&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Onthehilltop (page does not exist)\">Onthehilltop</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:American_Craftsman_home.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MMZH",
-    "station": "MMZH",
-    "lat": 17.605,
-    "lon": -101.464,
-    "weather": "No coded weather",
-    "temperature": 31.0,
-    "dewpoint": 24.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "7",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T16:44:00.000Z",
-    "observationTimestamp": "2026-09-20T16:44:00+00:00",
-    "raw": "METAR MMZH 201644Z 00000KT 7SM BKN250 31/24 A2991 RMK 8/008 HZY ISOL AC"
-  },
-  "randomPlace": {
-    "name": "PAPE",
-    "station": "PAPE",
-    "lat": 55.9096,
-    "lon": -159.1595,
-    "weather": "No coded weather",
-    "temperature": 5.6,
-    "dewpoint": 0.0,
-    "windSpeed": 9.0,
-    "windDirection": 250.0,
+    "name": "KIWI",
+    "station": "KIWI",
+    "lat": 43.9639,
+    "lon": -69.7114,
+    "weather": "-RA",
+    "temperature": 15.0,
+    "dewpoint": 10.0,
+    "windSpeed": 3.0,
+    "windDirection": 140.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T16:56:00.000Z",
-    "observationTimestamp": "2026-09-20T16:56:00+00:00",
-    "raw": "METAR PAPE 201656Z AUTO 25009KT 10SM FEW033 SCT048 06/00 A2945 RMK AO2 RAB28E41 SLP972 P0000 T00560000"
+    "observationTime": "2026-09-20T16:53:00.000Z",
+    "observationTimestamp": "2026-09-20T16:53:00+00:00",
+    "raw": "METAR KIWI 201653Z AUTO 14003KT 10SM -RA OVC100 15/10 A3014 RMK AO2 RAB25 SLP208 P0000 T01500100 $"
+  },
+  "randomPlace": {
+    "name": "K28J",
+    "station": "K28J",
+    "lat": 29.6602,
+    "lon": -81.6918,
+    "weather": "VCTS RA BR",
+    "temperature": 24.0,
+    "dewpoint": 23.0,
+    "windSpeed": 14.0,
+    "windDirection": 80.0,
+    "visibility": "1",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-20T17:35:00.000Z",
+    "observationTimestamp": "2026-09-20T17:35:00+00:00",
+    "raw": "METAR K28J 201735Z AUTO 08014KT 1SM VCTS RA BR SCT008 OVC034 24/23 A2998 RMK AO2 LTG DSNT ALQDS"
   },
   "globalPulse": {
     "population": {
-      "value": 8212042693,
-      "display": "8,212,042,693",
+      "value": 8212043840,
+      "display": "8,212,043,840",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T17:29:00Z",
-      "speed": 379.0
+      "time": "2026-09-20T17:40:00Z",
+      "speed": 384.0
     },
     "magneticField": {
-      "time": "2026-09-20T17:29:00Z",
-      "bt": 4.0,
+      "time": "2026-09-20T17:40:00Z",
+      "bt": 5.0,
       "bz": 3.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T17:29:00Z",
-      "forecastTime": "2026-09-20T18:40:00Z"
+      "observationTime": "2026-09-20T17:40:00Z",
+      "forecastTime": "2026-09-20T18:50:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
