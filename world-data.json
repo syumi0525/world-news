@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T10:41:51.630323+00:00",
+  "generatedAt": "2026-09-20T10:54:48.927123+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AuditorioITA.JPG",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Berpasan\" class=\"extiw\" title=\"w:User:Berpasan\">Berpasan</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Berpasan\" class=\"extiw\" title=\"w:User talk:Berpasan\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Berpasan\" class=\"extiw\" title=\"w:Special:ListFiles/Berpasan\">Uploads</a>)",
-    "license": "Public domain",
+    "title": "File:Ballard locks fish ladder east entrance.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ursacascadia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ursacascadia (page does not exist)\">Ursacascadia</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AuditorioITA.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Ballard_locks_fish_ladder_east_entrance.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "YBBN",
-    "station": "YBBN",
-    "lat": -27.391,
-    "lon": 153.13,
+    "name": "LFRT",
+    "station": "LFRT",
+    "lat": 48.536,
+    "lon": -2.853,
     "weather": "No coded weather",
     "temperature": 20.0,
-    "dewpoint": 19.0,
-    "windSpeed": 8.0,
-    "windDirection": 360.0,
+    "dewpoint": 15.0,
+    "windSpeed": 6.0,
+    "windDirection": 270.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-20T10:30:00.000Z",
     "observationTimestamp": "2026-09-20T10:30:00+00:00",
-    "raw": "METAR YBBN 201030Z AUTO 36008KT 9999 // ////// 20/19 Q1021"
+    "raw": "METAR LFRT 201030Z AUTO 27006KT 240V300 9999 OVC024 20/15 Q1029"
   },
   "randomPlace": {
-    "name": "SBAF",
-    "station": "SBAF",
-    "lat": -22.875,
-    "lon": -43.385,
+    "name": "DAUB",
+    "station": "DAUB",
+    "lat": 34.793,
+    "lon": 5.738,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 19.0,
-    "windSpeed": 2.0,
-    "windDirection": 250.0,
+    "temperature": 30.0,
+    "dewpoint": 16.0,
+    "windSpeed": 4.0,
+    "windDirection": 120.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-20T10:00:00.000Z",
     "observationTimestamp": "2026-09-20T10:00:00+00:00",
-    "raw": "METAR SBAF 201000Z 25002KT 9999 FEW040 19/19 Q1017"
+    "raw": "METAR DAUB 201000Z 12004KT 9999 FEW040 30/16 Q1023"
   },
   "globalPulse": {
     "population": {
-      "value": 8211992624,
-      "display": "8,211,992,624",
+      "value": 8211994176,
+      "display": "8,211,994,176",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T10:33:00Z",
+      "time": "2026-09-20T10:47:00Z",
       "speed": 402.0
     },
     "magneticField": {
-      "time": "2026-09-20T10:33:00Z",
-      "bt": 4.0,
-      "bz": 2.0
+      "time": "2026-09-20T10:47:00Z",
+      "bt": 5.0,
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-20T06:00:00",
@@ -113,8 +113,8 @@
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T10:33:00Z",
-      "forecastTime": "2026-09-20T11:43:00Z"
+      "observationTime": "2026-09-20T10:44:00Z",
+      "forecastTime": "2026-09-20T11:53:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
