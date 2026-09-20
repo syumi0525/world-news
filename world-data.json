@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T14:38:03.245013+00:00",
+  "generatedAt": "2026-09-20T14:48:28.606523+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:-i---i- (31387900023).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/62300657@N05\">Papa Pic</a> from Eldorado, Argentina",
+    "title": "File:Batiment aunsein de la Ville de Majunga 12.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:-i---i-_%2831387900023%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_12.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LSGG",
-    "station": "LSGG",
-    "lat": 46.248,
-    "lon": 6.128,
+    "name": "ESUP",
+    "station": "ESUP",
+    "lat": 67.246,
+    "lon": 23.069,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 9.0,
-    "windSpeed": 4.0,
-    "windDirection": 80.0,
+    "temperature": 9.0,
+    "dewpoint": 4.0,
+    "windSpeed": 5.0,
+    "windDirection": 320.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-20T14:20:00.000Z",
     "observationTimestamp": "2026-09-20T14:20:00+00:00",
-    "raw": "METAR LSGG 201420Z AUTO 08004KT CAVOK 26/09 Q1026 NOSIG"
+    "raw": "METAR ESUP 201420Z AUTO 32005KT 9999 BKN057/// BKN098/// OVC110/// 09/04 Q0989"
   },
   "randomPlace": {
-    "name": "RJCC",
-    "station": "RJCC",
-    "lat": 42.774,
-    "lon": 141.693,
+    "name": "CYKJ",
+    "station": "CYKJ",
+    "lat": 57.256,
+    "lon": -105.618,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 17.0,
-    "windSpeed": 3.0,
-    "windDirection": 10.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
+    "temperature": 13.0,
+    "dewpoint": 7.0,
+    "windSpeed": 14.0,
+    "windDirection": 210.0,
+    "visibility": "9",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-20T14:00:00.000Z",
     "observationTimestamp": "2026-09-20T14:00:00+00:00",
-    "raw": "METAR RJCC 201400Z 01003KT 350V070 9999 FEW010 BKN025 18/17 Q1012"
+    "raw": "METAR CYKJ 201400Z AUTO 21014G20KT 9SM BKN091 BKN110 13/07 A2996 RMK SLP161"
   },
   "globalPulse": {
     "population": {
-      "value": 8212020883,
-      "display": "8,212,020,883",
+      "value": 8212022130,
+      "display": "8,212,022,130",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T14:26:00Z",
+      "time": "2026-09-20T14:37:00Z",
       "speed": 408.0
     },
     "magneticField": {
-      "time": "2026-09-20T14:26:00Z",
+      "time": "2026-09-20T14:37:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T14:29:00Z",
-      "forecastTime": "2026-09-20T15:36:00Z"
+      "observationTime": "2026-09-20T14:40:00Z",
+      "forecastTime": "2026-09-20T15:46:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
