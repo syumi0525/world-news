@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T20:47:41.295271+00:00",
+  "generatedAt": "2026-09-20T20:57:07.261659+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Au bonheur des tags (Démolition avant reconversion) (37932924806).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/110273693@N04\">Sylvie burr</a>",
+    "title": "File:Borehole project 18.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Au_bonheur_des_tags_%28D%C3%A9molition_avant_reconversion%29_%2837932924806%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_18.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ESNX",
-    "station": "ESNX",
-    "lat": 65.592,
-    "lon": 19.283,
+    "name": "K54J",
+    "station": "K54J",
+    "lat": 30.7312,
+    "lon": -86.1542,
     "weather": "No coded weather",
-    "temperature": 6.0,
-    "dewpoint": 6.0,
-    "windSpeed": 1.0,
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "6+",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T20:20:00.000Z",
-    "observationTimestamp": "2026-09-20T20:20:00+00:00",
-    "raw": "METAR ESNX 202020Z VRB01KT CAVOK 06/06 Q0995"
+    "observationTime": "2026-09-20T20:35:00.000Z",
+    "observationTimestamp": "2026-09-20T20:35:00+00:00",
+    "raw": "METAR K54J 202035Z AUTO 00000KT 10SM CLR A2990 RMK AO2"
   },
   "randomPlace": {
-    "name": "KMPO",
-    "station": "KMPO",
-    "lat": 41.1368,
-    "lon": -75.3771,
-    "weather": "BR",
-    "temperature": 17.8,
-    "dewpoint": 17.2,
-    "windSpeed": 6.0,
-    "windDirection": 240.0,
-    "visibility": "1.5",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-20T20:07:00.000Z",
-    "observationTimestamp": "2026-09-20T20:07:00+00:00",
-    "raw": "SPECI KMPO 202007Z AUTO 24006KT 1 1/2SM BR OVC002 18/17 A2994 RMK AO2 T01780172 $"
+    "name": "LELN",
+    "station": "LELN",
+    "lat": 42.588,
+    "lon": -5.651,
+    "weather": "No coded weather",
+    "temperature": 19.0,
+    "dewpoint": 5.0,
+    "windSpeed": 4.0,
+    "windDirection": 350.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T20:30:00.000Z",
+    "observationTimestamp": "2026-09-20T20:30:00+00:00",
+    "raw": "METAR LELN 202030Z AUTO 35004KT 330V030 CAVOK 19/05 Q1030"
   },
   "globalPulse": {
     "population": {
-      "value": 8212065153,
-      "display": "8,212,065,153",
+      "value": 8212066285,
+      "display": "8,212,066,285",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T20:40:00Z",
-      "speed": 366.0
+      "time": "2026-09-20T20:48:00Z",
+      "speed": 364.0
     },
     "magneticField": {
-      "time": "2026-09-20T20:40:00Z",
+      "time": "2026-09-20T20:48:00Z",
       "bt": 4.0,
       "bz": -1.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T20:35:00Z",
-      "forecastTime": "2026-09-20T21:46:00Z"
+      "observationTime": "2026-09-20T20:46:00Z",
+      "forecastTime": "2026-09-20T21:57:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
