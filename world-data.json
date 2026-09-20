@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T11:56:45.762472+00:00",
+  "generatedAt": "2026-09-20T12:15:05.543975+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Heading of \"Verslag van de Staatsspoorwegen over het jaar 1928\".jpg",
-    "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q64041032\" class=\"extiw\" title=\"d:Q64041032\">Willem Fredrik Staargaard</a></bdi>",
-    "license": "Public domain",
+    "title": "File:Nilüfer kanak köprüsü.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Heading_of_%22Verslag_van_de_Staatsspoorwegen_over_het_jaar_1928%22.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYAT",
-    "station": "CYAT",
-    "lat": 52.927,
-    "lon": -82.432,
+    "name": "KSMX",
+    "station": "KSMX",
+    "lat": 34.894,
+    "lon": -120.4522,
     "weather": "No coded weather",
-    "temperature": 5.0,
-    "dewpoint": 5.0,
-    "windSpeed": 7.0,
-    "windDirection": 310.0,
-    "visibility": "9",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T11:26:00.000Z",
-    "observationTimestamp": "2026-09-20T11:26:00+00:00",
-    "raw": "SPECI CYAT 201126Z AUTO 31007KT 9SM BKN023 OVC028 05/05 A3012 RMK SLP202"
+    "temperature": 14.4,
+    "dewpoint": 13.3,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "7",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-20T11:51:00.000Z",
+    "observationTimestamp": "2026-09-20T11:51:00+00:00",
+    "raw": "METAR KSMX 201151Z AUTO 00000KT 7SM OVC007 14/13 A2994 RMK AO2 SLP141 T01440133 10156 20139 53006 $"
   },
   "randomPlace": {
-    "name": "KFFX",
-    "station": "KFFX",
-    "lat": 43.4417,
-    "lon": -85.9936,
+    "name": "LHPP",
+    "station": "LHPP",
+    "lat": 45.991,
+    "lon": 18.241,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 15.0,
-    "windSpeed": 5.0,
-    "windDirection": 50.0,
-    "visibility": "10+",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-20T11:35:00.000Z",
-    "observationTimestamp": "2026-09-20T11:35:00+00:00",
-    "raw": "METAR KFFX 201135Z AUTO 05005KT 10SM OVC004 16/15 A3000 RMK AO2"
+    "temperature": 27.0,
+    "dewpoint": 14.0,
+    "windSpeed": 8.0,
+    "windDirection": 230.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T11:45:00.000Z",
+    "observationTimestamp": "2026-09-20T11:45:00+00:00",
+    "raw": "METAR LHPP 201145Z AUTO 23008KT 170V300 CAVOK 27/14 Q1024"
   },
   "globalPulse": {
     "population": {
-      "value": 8212001592,
-      "display": "8,212,001,592",
+      "value": 8212003763,
+      "display": "8,212,003,763",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-20T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-20T06:00:00"
+      "time": "2026-09-20T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T11:48:00Z",
-      "speed": 409.0
+      "time": "2026-09-20T12:06:00Z",
+      "speed": 403.0
     },
     "magneticField": {
-      "time": "2026-09-20T11:48:00Z",
+      "time": "2026-09-20T12:06:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": 1.0
     },
     "kp": {
-      "time": "2026-09-20T06:00:00",
-      "kp": 2.0
+      "time": "2026-09-20T09:00:00",
+      "kp": 0.67
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T11:45:00Z",
-      "forecastTime": "2026-09-20T12:52:00Z"
+      "observationTime": "2026-09-20T12:04:00Z",
+      "forecastTime": "2026-09-20T13:12:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
