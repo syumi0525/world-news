@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T06:18:27.768643+00:00",
+  "generatedAt": "2026-09-20T06:36:54.999267+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A picturesque view of Canterbury Cathedral with surrounding gardens.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fejoy58342&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fejoy58342 (page does not exist)\">Fejoy58342</a>",
-    "license": "CC0",
+    "title": "File:I will meet you at the depot A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_picturesque_view_of_Canterbury_Cathedral_with_surrounding_gardens.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPNM",
-    "station": "KPNM",
-    "lat": 45.556,
-    "lon": -93.608,
+    "name": "BGQO",
+    "station": "BGQO",
+    "lat": 60.7638,
+    "lon": -46.065,
     "weather": "No coded weather",
-    "temperature": 11.9,
-    "dewpoint": 11.9,
-    "windSpeed": 6.0,
-    "windDirection": 10.0,
-    "visibility": "10+",
+    "temperature": 0.0,
+    "dewpoint": -4.0,
+    "windSpeed": 3.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T05:55:00.000Z",
-    "observationTimestamp": "2026-09-20T05:55:00+00:00",
-    "raw": "METAR KPNM 200555Z AUTO 01006KT 10SM CLR 12/12 A3009 RMK AO2 T01190119 10156 20118 401610118 52009"
+    "observationTime": "2026-09-20T06:20:00.000Z",
+    "observationTimestamp": "2026-09-20T06:20:00+00:00",
+    "raw": "METAR BGQO 200620Z AUTO VRB03KT 9999 NCD 00/M04 Q1000"
   },
   "randomPlace": {
-    "name": "KHDO",
-    "station": "KHDO",
-    "lat": 29.3601,
-    "lon": -99.1742,
+    "name": "SBJU",
+    "station": "SBJU",
+    "lat": -7.219,
+    "lon": -39.27,
     "weather": "No coded weather",
-    "temperature": 26.1,
-    "dewpoint": 21.7,
-    "windSpeed": null,
-    "windDirection": null,
-    "visibility": "10+",
+    "temperature": 23.0,
+    "dewpoint": 16.0,
+    "windSpeed": 4.0,
+    "windDirection": 140.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T05:51:00.000Z",
-    "observationTimestamp": "2026-09-20T05:51:00+00:00",
-    "raw": "METAR KHDO 200551Z AUTO 10SM CLR 26/22 A2997 RMK AO2 SLP131 T02610217 10328 20261 403390228 51014"
+    "observationTime": "2026-09-20T06:00:00.000Z",
+    "observationTimestamp": "2026-09-20T06:00:00+00:00",
+    "raw": "METAR SBJU 200600Z 14004KT 9999 FEW020 23/16 Q1017"
   },
   "globalPulse": {
     "population": {
-      "value": 8211961069,
-      "display": "8,211,961,069",
+      "value": 8211963276,
+      "display": "8,211,963,276",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T06:11:00Z",
-      "speed": 394.0
+      "time": "2026-09-20T06:31:00Z",
+      "speed": 396.0
     },
     "magneticField": {
-      "time": "2026-09-20T06:09:00Z",
+      "time": "2026-09-20T06:31:00Z",
       "bt": 5.0,
-      "bz": -3.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-20T03:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 31.0,
-      "display": "MAX 31.0%",
+      "value": 28.0,
+      "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T06:09:00Z",
-      "forecastTime": "2026-09-20T07:17:00Z"
+      "observationTime": "2026-09-20T06:25:00Z",
+      "forecastTime": "2026-09-20T07:32:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
