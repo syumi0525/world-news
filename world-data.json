@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T10:13:38.270855+00:00",
+  "generatedAt": "2026-09-20T10:29:00.834774+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:500px photo (179745421).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
+    "title": "File:Borehole project 18.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28179745421%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_18.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KXWA",
-    "station": "KXWA",
-    "lat": 48.2542,
-    "lon": -103.7469,
-    "weather": "-RA",
-    "temperature": 11.7,
-    "dewpoint": 10.0,
-    "windSpeed": 14.0,
-    "windDirection": 90.0,
-    "visibility": "10+",
+    "name": "DAOB",
+    "station": "DAOB",
+    "lat": 35.345,
+    "lon": 1.476,
+    "weather": "No coded weather",
+    "temperature": 25.0,
+    "dewpoint": 11.0,
+    "windSpeed": 3.0,
+    "windDirection": 140.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T09:51:00.000Z",
-    "observationTimestamp": "2026-09-20T09:51:00+00:00",
-    "raw": "METAR KXWA 200951Z AUTO 09014KT 10SM -RA OVC080 12/10 A3022 RMK AO2 RAB02E05B32 SLP241 P0000 T01170100"
+    "observationTime": "2026-09-20T10:00:00.000Z",
+    "observationTimestamp": "2026-09-20T10:00:00+00:00",
+    "raw": "METAR DAOB 201000Z 14003KT 9999 SCT030 25/11 Q1028"
   },
   "randomPlace": {
-    "name": "EGQL",
-    "station": "EGQL",
-    "lat": 56.377,
-    "lon": -2.862,
+    "name": "OOMS",
+    "station": "OOMS",
+    "lat": 23.595,
+    "lon": 58.298,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 7.0,
-    "windSpeed": 21.0,
-    "windDirection": 260.0,
+    "temperature": 32.0,
+    "dewpoint": 28.0,
+    "windSpeed": 14.0,
+    "windDirection": 60.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-20T09:50:00.000Z",
     "observationTimestamp": "2026-09-20T09:50:00+00:00",
-    "raw": "METAR EGQL 200950Z 26021KT 9999 BKN046 17/07 Q1017 RMK BLU"
+    "raw": "METAR OOMS 200950Z 06014KT CAVOK 32/28 Q1010 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211989248,
-      "display": "8,211,989,248",
+      "value": 8211991089,
+      "display": "8,211,991,089",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T10:06:00Z",
-      "speed": 400.0
+      "time": "2026-09-20T10:22:00Z",
+      "speed": 393.0
     },
     "magneticField": {
-      "time": "2026-09-20T10:06:00Z",
-      "bt": 4.0,
+      "time": "2026-09-20T10:22:00Z",
+      "bt": 5.0,
       "bz": 2.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T10:03:00Z",
-      "forecastTime": "2026-09-20T11:14:00Z"
+      "observationTime": "2026-09-20T10:20:00Z",
+      "forecastTime": "2026-09-20T11:29:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
