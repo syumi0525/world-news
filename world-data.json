@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T15:41:31.307797+00:00",
+  "generatedAt": "2026-09-20T15:54:49.537633+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:30BY35 home plan by ER. AYUSH TOMAR 9997233546.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Erayushtomar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Erayushtomar (page does not exist)\">Erayushtomar</a>",
-    "license": "CC0",
+    "title": "File:170602-G-XX000-104.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:30BY35_home_plan_by_ER._AYUSH_TOMAR_9997233546.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:170602-G-XX000-104.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EGXV",
-    "station": "EGXV",
-    "lat": 53.876,
-    "lon": -0.435,
-    "weather": "BR",
-    "temperature": 19.0,
-    "dewpoint": 7.0,
-    "windSpeed": 12.0,
-    "windDirection": 270.0,
-    "visibility": "5.59",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T15:20:00.000Z",
-    "observationTimestamp": "2026-09-20T15:20:00+00:00",
-    "raw": "METAR EGXV 201520Z AUTO 27012KT 9000 BR FEW050/// 19/07 Q1025"
+    "name": "WAAA",
+    "station": "WAAA",
+    "lat": -5.062,
+    "lon": 119.554,
+    "weather": "No coded weather",
+    "temperature": 24.0,
+    "dewpoint": 21.0,
+    "windSpeed": 3.0,
+    "windDirection": 180.0,
+    "visibility": "4.97",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-20T15:30:00.000Z",
+    "observationTimestamp": "2026-09-20T15:30:00+00:00",
+    "raw": "METAR WAAA 201530Z 18003KT 140V220 8000 FEW020 24/21 Q1014 NOSIG"
   },
   "randomPlace": {
-    "name": "K10U",
-    "station": "K10U",
-    "lat": 41.953,
-    "lon": -116.182,
+    "name": "KF05",
+    "station": "KF05",
+    "lat": 34.2283,
+    "lon": -99.2834,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 3.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 31.0,
+    "dewpoint": 13.4,
+    "windSpeed": 7.0,
+    "windDirection": 250.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-20T15:35:00.000Z",
     "observationTimestamp": "2026-09-20T15:35:00+00:00",
-    "raw": "METAR K10U 201535Z AUTO 00000KT 10SM CLR 10/03 A3026 RMK AO2"
+    "raw": "METAR KF05 201535Z AUTO 25007KT 10SM SCT110 31/13 A2995 RMK AO2 LTG DSNT E T03100134"
   },
   "globalPulse": {
     "population": {
-      "value": 8212028500,
-      "display": "8,212,028,500",
+      "value": 8212030089,
+      "display": "8,212,030,089",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T15:30:00Z",
-      "speed": 400.0
+      "time": "2026-09-20T15:43:00Z",
+      "speed": 407.0
     },
     "magneticField": {
-      "time": "2026-09-20T15:33:00Z",
+      "time": "2026-09-20T15:47:00Z",
       "bt": 5.0,
-      "bz": 3.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-20T12:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T15:30:00Z",
-      "forecastTime": "2026-09-20T16:36:00Z"
+      "observationTime": "2026-09-20T15:43:00Z",
+      "forecastTime": "2026-09-20T16:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
