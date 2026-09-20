@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T09:38:01.500066+00:00",
+  "generatedAt": "2026-09-20T09:48:03.412414+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Fusagasugá 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wilferpc&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wilferpc (page does not exist)\">Wilferpc</a>",
+    "title": "File:DamanJodi Walkway.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Akashpandey91\" title=\"User:Akashpandey91\">Akashpandey91</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Fusagasug%C3%A1_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:DamanJodi_Walkway.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KASH",
-    "station": "KASH",
-    "lat": 42.7798,
-    "lon": -71.5141,
+    "name": "FMCH",
+    "station": "FMCH",
+    "lat": -11.534,
+    "lon": 43.272,
     "weather": "No coded weather",
-    "temperature": 7.8,
-    "dewpoint": 7.2,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 28.0,
+    "dewpoint": 22.0,
+    "windSpeed": 8.0,
+    "windDirection": 330.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T08:56:00.000Z",
-    "observationTimestamp": "2026-09-20T08:56:00+00:00",
-    "raw": "METAR KASH 200856Z AUTO 00000KT 10SM CLR 08/07 A3015 RMK AO2 SLP210 6//// T00780072 58017 PNO $"
+    "observationTime": "2026-09-20T09:00:00.000Z",
+    "observationTimestamp": "2026-09-20T09:00:00+00:00",
+    "raw": "METAR FMCH 200900Z 33008KT 300V360 9999 SCT028 28/22 Q1019 NOSIG"
   },
   "randomPlace": {
-    "name": "KSCR",
-    "station": "KSCR",
-    "lat": 35.7058,
-    "lon": -79.5051,
+    "name": "WIHH",
+    "station": "WIHH",
+    "lat": -6.267,
+    "lon": 106.891,
     "weather": "No coded weather",
-    "temperature": 18.8,
-    "dewpoint": 18.4,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T09:15:00.000Z",
-    "observationTimestamp": "2026-09-20T09:15:00+00:00",
-    "raw": "METAR KSCR 200915Z AUTO 00000KT 10SM CLR 19/18 A3003 RMK AO2 T01880184"
+    "temperature": 33.0,
+    "dewpoint": 23.0,
+    "windSpeed": 13.0,
+    "windDirection": 20.0,
+    "visibility": "3.73",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-20T09:30:00.000Z",
+    "observationTimestamp": "2026-09-20T09:30:00+00:00",
+    "raw": "METAR WIHH 200930Z 02013KT 6000 SCT018 33/23 Q1009 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211984974,
-      "display": "8,211,984,974",
+      "value": 8211986187,
+      "display": "8,211,986,187",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T09:28:00Z",
-      "speed": 386.0
+      "time": "2026-09-20T09:39:00Z",
+      "speed": 388.0
     },
     "magneticField": {
-      "time": "2026-09-20T09:28:00Z",
-      "bt": 5.0,
-      "bz": 1.0
+      "time": "2026-09-20T09:39:00Z",
+      "bt": 4.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-20T06:00:00",
@@ -113,8 +113,8 @@
       "value": 18.0,
       "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T09:26:00Z",
-      "forecastTime": "2026-09-20T10:32:00Z"
+      "observationTime": "2026-09-20T09:39:00Z",
+      "forecastTime": "2026-09-20T10:48:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
