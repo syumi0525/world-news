@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T12:34:27.548585+00:00",
+  "generatedAt": "2026-09-20T12:49:39.837734+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bali Island.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:ASIRICHAILORDSIN\" title=\"User:ASIRICHAILORDSIN\">ASIRICHAILORDSIN</a>",
+    "title": "File:Barhakune photo by Sangharsh Acharya.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scandinaviastats&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scandinaviastats (page does not exist)\">Scandinaviastats</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bali_Island.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Barhakune_photo_by_Sangharsh_Acharya.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLWV",
-    "station": "KLWV",
-    "lat": 38.7604,
-    "lon": -87.599,
+    "name": "CYQB",
+    "station": "CYQB",
+    "lat": 46.791,
+    "lon": -71.396,
     "weather": "No coded weather",
-    "temperature": 21.7,
-    "dewpoint": 18.9,
-    "windSpeed": 5.0,
-    "windDirection": 180.0,
-    "visibility": "10+",
+    "temperature": 9.0,
+    "dewpoint": 6.0,
+    "windSpeed": 4.0,
+    "windDirection": 10.0,
+    "visibility": "30",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T11:53:00.000Z",
-    "observationTimestamp": "2026-09-20T11:53:00+00:00",
-    "raw": "METAR KLWV 201153Z AUTO 18005KT 10SM CLR 22/19 A2990 RMK AO2 SLP120 T02170189 10244 20217 51007 $"
+    "observationTime": "2026-09-20T12:00:00.000Z",
+    "observationTimestamp": "2026-09-20T12:00:00+00:00",
+    "raw": "METAR CYQB 201200Z 01004KT 30SM FEW050 BKN150 BKN210 BKN250 09/06 A3007 RMK SC1AC6CI1CI1 SC TR CI TR ACC ASOCTD VIRGA SLP188"
   },
   "randomPlace": {
-    "name": "K1M4",
-    "station": "K1M4",
-    "lat": 34.2832,
-    "lon": -87.5986,
+    "name": "LICA",
+    "station": "LICA",
+    "lat": 38.908,
+    "lon": 16.242,
     "weather": "No coded weather",
-    "temperature": 22.2,
-    "dewpoint": 20.6,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 29.0,
+    "dewpoint": 21.0,
+    "windSpeed": 15.0,
+    "windDirection": 270.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T11:56:00.000Z",
-    "observationTimestamp": "2026-09-20T11:56:00+00:00",
-    "raw": "METAR K1M4 201156Z AUTO 00000KT 10SM CLR 22/21 A3003 RMK AO2 SLP927 T02220206 10239 20206 53011"
+    "observationTime": "2026-09-20T12:20:00.000Z",
+    "observationTimestamp": "2026-09-20T12:20:00+00:00",
+    "raw": "METAR LICA 201220Z AUTO 27015KT 9999 NCD 29/21 Q1021"
   },
   "globalPulse": {
     "population": {
-      "value": 8212006068,
-      "display": "8,212,006,068",
+      "value": 8212007901,
+      "display": "8,212,007,901",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T12:24:00Z",
-      "speed": 399.0
+      "time": "2026-09-20T12:40:00Z",
+      "speed": 405.0
     },
     "magneticField": {
-      "time": "2026-09-20T12:24:00Z",
-      "bt": 4.0,
-      "bz": 1.0
+      "time": "2026-09-20T12:40:00Z",
+      "bt": 5.0,
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-20T09:00:00",
@@ -113,8 +113,8 @@
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T12:24:00Z",
-      "forecastTime": "2026-09-20T13:31:00Z"
+      "observationTime": "2026-09-20T12:40:00Z",
+      "forecastTime": "2026-09-20T13:46:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
