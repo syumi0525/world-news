@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T05:48:18.368695+00:00",
+  "generatedAt": "2026-09-20T05:57:59.649047+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A misty forest road in Coonoor.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
+    "title": "File:Alwin-Muncak.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Unaaa3003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Unaaa3003 (page does not exist)\">Unaaa3003</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alwin-Muncak.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K2G9",
-    "station": "K2G9",
-    "lat": 40.0401,
-    "lon": -79.0158,
+    "name": "K2M8",
+    "station": "K2M8",
+    "lat": 35.276,
+    "lon": -89.931,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 16.0,
-    "windSpeed": 6.0,
-    "windDirection": 180.0,
+    "temperature": 22.9,
+    "dewpoint": 22.9,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-20T05:35:00.000Z",
     "observationTimestamp": "2026-09-20T05:35:00+00:00",
-    "raw": "METAR K2G9 200535Z AUTO 18006KT 10SM SCT009 SCT019 BKN034 17/16 A3002 RMK AO2"
+    "raw": "METAR K2M8 200535Z AUTO 00000KT 10SM 23/23 A2993 RMK AO2 T02290229 $"
   },
   "randomPlace": {
-    "name": "KSHR",
-    "station": "KSHR",
-    "lat": 44.7603,
-    "lon": -106.9741,
+    "name": "VIGR",
+    "station": "VIGR",
+    "lat": 26.293,
+    "lon": 78.228,
     "weather": "No coded weather",
-    "temperature": 12.2,
-    "dewpoint": 10.6,
-    "windSpeed": 4.0,
-    "windDirection": 300.0,
-    "visibility": "10+",
+    "temperature": 34.0,
+    "dewpoint": 24.0,
+    "windSpeed": 3.0,
+    "windDirection": 70.0,
+    "visibility": "3.73",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T05:25:00.000Z",
-    "observationTimestamp": "2026-09-20T05:25:00+00:00",
-    "raw": "SPECI KSHR 200525Z AUTO 30004KT 10SM BKN026 OVC035 12/11 A3014 RMK AO2 T01220106 $"
+    "observationTime": "2026-09-20T05:30:00.000Z",
+    "observationTimestamp": "2026-09-20T05:30:00+00:00",
+    "raw": "METAR VIGR 200530Z 07003KT 6000 FEW030 34/24 Q1015 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211957485,
-      "display": "8,211,957,485",
+      "value": 8211958645,
+      "display": "8,211,958,645",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T05:40:00Z",
-      "speed": 399.0
+      "time": "2026-09-20T05:50:00Z",
+      "speed": 403.0
     },
     "magneticField": {
-      "time": "2026-09-20T05:40:00Z",
+      "time": "2026-09-20T05:50:00Z",
       "bt": 5.0,
       "bz": -3.0
     },
@@ -110,11 +110,11 @@
       "kp": 2.33
     },
     "aurora": {
-      "value": 28.0,
-      "display": "MAX 28.0%",
+      "value": 30.0,
+      "display": "MAX 30.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T05:34:00Z",
-      "forecastTime": "2026-09-20T06:43:00Z"
+      "observationTime": "2026-09-20T05:50:00Z",
+      "forecastTime": "2026-09-20T06:57:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
