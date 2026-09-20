@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T05:08:52.776886+00:00",
+  "generatedAt": "2026-09-20T05:22:40.674302+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 14.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
-    "license": "CC0",
+    "title": "File:Bamnera River.jpg",
+    "artist": "",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_14.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bamnera_River.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EDGS",
-    "station": "EDGS",
-    "lat": 50.708,
-    "lon": 8.083,
-    "weather": "No coded weather",
+    "name": "KBDU",
+    "station": "KBDU",
+    "lat": 40.0377,
+    "lon": -105.2274,
+    "weather": "HZ",
     "temperature": 14.0,
-    "dewpoint": 11.0,
-    "windSpeed": 12.0,
-    "windDirection": 240.0,
-    "visibility": "6+",
+    "dewpoint": 10.0,
+    "windSpeed": 3.0,
+    "windDirection": 200.0,
+    "visibility": "5",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T04:50:00.000Z",
-    "observationTimestamp": "2026-09-20T04:50:00+00:00",
-    "raw": "METAR EDGS 200450Z AUTO 24012KT 9999 // BKN012/// BKN023/// BKN033/// 14/11 Q1022"
+    "observationTime": "2026-09-20T05:15:00.000Z",
+    "observationTimestamp": "2026-09-20T05:15:00+00:00",
+    "raw": "METAR KBDU 200515Z AUTO 20003KT 5SM HZ SCT100 14/10 A3015 RMK AO2"
   },
   "randomPlace": {
-    "name": "PAMY",
-    "station": "PAMY",
-    "lat": 60.376,
-    "lon": -166.262,
+    "name": "SBCG",
+    "station": "SBCG",
+    "lat": -20.469,
+    "lon": -54.672,
     "weather": "No coded weather",
-    "temperature": 4.4,
-    "dewpoint": 1.7,
-    "windSpeed": 21.0,
-    "windDirection": 310.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T04:56:00.000Z",
-    "observationTimestamp": "2026-09-20T04:56:00+00:00",
-    "raw": "METAR PAMY 200456Z AUTO 31021G27KT 10SM SCT018 BKN024 OVC070 04/02 A2965 RMK AO2 PK WND 34030/0417 SLP040 T00440017"
+    "temperature": 23.0,
+    "dewpoint": 20.0,
+    "windSpeed": 7.0,
+    "windDirection": 60.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T05:00:00.000Z",
+    "observationTimestamp": "2026-09-20T05:00:00+00:00",
+    "raw": "METAR SBCG 200500Z 06007KT CAVOK 23/20 Q1013"
   },
   "globalPulse": {
     "population": {
-      "value": 8211952745,
-      "display": "8,211,952,745",
+      "value": 8211954415,
+      "display": "8,211,954,415",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T04:59:00Z",
-      "speed": 394.0
+      "time": "2026-09-20T05:15:00Z",
+      "speed": 396.0
     },
     "magneticField": {
-      "time": "2026-09-20T04:59:00Z",
-      "bt": 4.0,
-      "bz": -1.0
+      "time": "2026-09-20T05:15:00Z",
+      "bt": 5.0,
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-20T00:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 29.0,
-      "display": "MAX 29.0%",
+      "value": 28.0,
+      "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T04:59:00Z",
-      "forecastTime": "2026-09-20T06:07:00Z"
+      "observationTime": "2026-09-20T05:12:00Z",
+      "forecastTime": "2026-09-20T06:23:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
