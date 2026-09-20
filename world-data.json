@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T07:22:43.254234+00:00",
+  "generatedAt": "2026-09-20T07:38:03.265812+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AcapulcoJulio2024.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
-    "license": "CC0",
+    "title": "File:Bishopsteignton in 2006.jpg",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "DAAY",
-    "station": "DAAY",
-    "lat": 33.532,
-    "lon": -0.248,
-    "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 14.0,
-    "windSpeed": 2.0,
+    "name": "KBOK",
+    "station": "KBOK",
+    "lat": 42.0754,
+    "lon": -124.2902,
+    "weather": "BR",
+    "temperature": 12.0,
+    "dewpoint": 12.0,
+    "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T07:00:00.000Z",
-    "observationTimestamp": "2026-09-20T07:00:00+00:00",
-    "raw": "METAR DAAY 200700Z VRB02KT 9999 FEW033 SCT100 17/14 Q1027"
+    "visibility": "3",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-20T07:35:00.000Z",
+    "observationTimestamp": "2026-09-20T07:35:00+00:00",
+    "raw": "SPECI KBOK 200735Z AUTO 00000KT 3SM BR OVC002 12/12 A3006 RMK AO2"
   },
   "randomPlace": {
-    "name": "SKFL",
-    "station": "SKFL",
-    "lat": 1.589,
-    "lon": -75.564,
-    "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 22.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-20T07:00:00.000Z",
-    "observationTimestamp": "2026-09-20T07:00:00+00:00",
-    "raw": "METAR SKFL 200700Z AUTO VRB02KT //// ////// 23/22 Q1015"
+    "name": "PAKP",
+    "station": "PAKP",
+    "lat": 68.136,
+    "lon": -151.74,
+    "weather": "-SN",
+    "temperature": -3.0,
+    "dewpoint": -3.0,
+    "windSpeed": 6.0,
+    "windDirection": 30.0,
+    "visibility": "9",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-20T07:26:00.000Z",
+    "observationTimestamp": "2026-09-20T07:26:00+00:00",
+    "raw": "SPECI PAKP 200726Z AUTO 03006KT 9SM -SN BKN002 OVC034 M03/M03 A2944 RMK AO2 P0000 FZRANO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211968757,
-      "display": "8,211,968,757",
+      "value": 8211970602,
+      "display": "8,211,970,602",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T07:16:00Z",
-      "speed": 412.0
+      "time": "2026-09-20T07:27:00Z",
+      "speed": 406.0
     },
     "magneticField": {
-      "time": "2026-09-20T07:14:00Z",
+      "time": "2026-09-20T07:27:00Z",
       "bt": 4.0,
       "bz": -1.0
     },
@@ -113,8 +113,8 @@
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T07:08:00Z",
-      "forecastTime": "2026-09-20T08:17:00Z"
+      "observationTime": "2026-09-20T07:25:00Z",
+      "forecastTime": "2026-09-20T08:32:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
