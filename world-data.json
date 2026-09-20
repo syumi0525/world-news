@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T12:49:39.837734+00:00",
+  "generatedAt": "2026-09-20T12:59:10.661713+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Barhakune photo by Sangharsh Acharya.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scandinaviastats&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scandinaviastats (page does not exist)\">Scandinaviastats</a>",
-    "license": "CC0",
+    "title": "File:A creek meanders through the maritime forest.jpg",
+    "artist": "Hillebrand Steve, U.S. Fish and Wildlife Service",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Barhakune_photo_by_Sangharsh_Acharya.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_creek_meanders_through_the_maritime_forest.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYQB",
-    "station": "CYQB",
-    "lat": 46.791,
-    "lon": -71.396,
-    "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 6.0,
-    "windSpeed": 4.0,
-    "windDirection": 10.0,
-    "visibility": "30",
+    "name": "PANC",
+    "station": "PANC",
+    "lat": 61.1691,
+    "lon": -150.0277,
+    "weather": "-RA",
+    "temperature": 7.2,
+    "dewpoint": 6.1,
+    "windSpeed": 5.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T12:00:00.000Z",
-    "observationTimestamp": "2026-09-20T12:00:00+00:00",
-    "raw": "METAR CYQB 201200Z 01004KT 30SM FEW050 BKN150 BKN210 BKN250 09/06 A3007 RMK SC1AC6CI1CI1 SC TR CI TR ACC ASOCTD VIRGA SLP188"
+    "observationTime": "2026-09-20T12:53:00.000Z",
+    "observationTimestamp": "2026-09-20T12:53:00+00:00",
+    "raw": "METAR PANC 201253Z VRB05KT 10SM -RA FEW009 SCT060 BKN100 07/06 A2914 RMK AO2 RAE13B38 SLP869 P0001 T00720061"
   },
   "randomPlace": {
-    "name": "LICA",
-    "station": "LICA",
-    "lat": 38.908,
-    "lon": 16.242,
-    "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 21.0,
-    "windSpeed": 15.0,
-    "windDirection": 270.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T12:20:00.000Z",
-    "observationTimestamp": "2026-09-20T12:20:00+00:00",
-    "raw": "METAR LICA 201220Z AUTO 27015KT 9999 NCD 29/21 Q1021"
+    "name": "KVWU",
+    "station": "KVWU",
+    "lat": 48.1502,
+    "lon": -94.5121,
+    "weather": "FG",
+    "temperature": 9.0,
+    "dewpoint": null,
+    "windSpeed": 4.0,
+    "windDirection": 60.0,
+    "visibility": "0.25",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-20T12:35:00.000Z",
+    "observationTimestamp": "2026-09-20T12:35:00+00:00",
+    "raw": "METAR KVWU 201235Z AUTO 06004KT 1/4SM FG OVC001 09/ A3027 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212007901,
-      "display": "8,212,007,901",
+      "value": 8212009045,
+      "display": "8,212,009,045",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T12:40:00Z",
-      "speed": 405.0
+      "time": "2026-09-20T12:51:00Z",
+      "speed": 398.0
     },
     "magneticField": {
-      "time": "2026-09-20T12:40:00Z",
+      "time": "2026-09-20T12:51:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T12:40:00Z",
-      "forecastTime": "2026-09-20T13:46:00Z"
+      "observationTime": "2026-09-20T12:50:00Z",
+      "forecastTime": "2026-09-20T13:57:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
