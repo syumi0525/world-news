@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T03:40:32.594242+00:00",
+  "generatedAt": "2026-09-20T03:55:43.388928+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:I will meet you at the depot A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:500px photo (179745421).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28179745421%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KT70",
-    "station": "KT70",
-    "lat": 29.117,
-    "lon": -100.473,
+    "name": "KM19",
+    "station": "KM19",
+    "lat": 35.643,
+    "lon": -91.1735,
     "weather": "No coded weather",
-    "temperature": 31.8,
-    "dewpoint": 19.1,
-    "windSpeed": 10.0,
-    "windDirection": 130.0,
-    "visibility": "9",
+    "temperature": 26.7,
+    "dewpoint": 17.8,
+    "windSpeed": 4.0,
+    "windDirection": 190.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T02:55:00.000Z",
-    "observationTimestamp": "2026-09-20T02:55:00+00:00",
-    "raw": "METAR KT70 200255Z AUTO 13010KT 9SM CLR 32/19 A2989 RMK AO2 SLP106 T03180191 52014 $"
+    "observationTime": "2026-09-20T02:56:00.000Z",
+    "observationTimestamp": "2026-09-20T02:56:00+00:00",
+    "raw": "METAR KM19 200256Z AUTO 19004KT 10SM CLR 27/18 A2993 RMK AO2 SLP145 T02670178 53008 $"
   },
   "randomPlace": {
-    "name": "VOND",
-    "station": "VOND",
-    "lat": 19.181,
-    "lon": 77.333,
+    "name": "KMMV",
+    "station": "KMMV",
+    "lat": 45.1957,
+    "lon": -123.1338,
     "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 21.0,
-    "windSpeed": 1.0,
-    "windDirection": 200.0,
-    "visibility": "3.73",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T03:30:00.000Z",
-    "observationTimestamp": "2026-09-20T03:30:00+00:00",
-    "raw": "METAR VOND 200330Z 20001KT 6000 NSC 27/21 Q1014 NOSIG"
+    "temperature": 16.7,
+    "dewpoint": 12.8,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "8",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T02:53:00.000Z",
+    "observationTimestamp": "2026-09-20T02:53:00+00:00",
+    "raw": "METAR KMMV 200253Z AUTO 00000KT 8SM CLR 17/13 A3003 RMK AO2 SLP169 T01670128 56004 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211942188,
-      "display": "8,211,942,188",
+      "value": 8211944005,
+      "display": "8,211,944,005",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T03:32:00Z",
-      "speed": 402.0
+      "time": "2026-09-20T03:48:00Z",
+      "speed": 405.0
     },
     "magneticField": {
-      "time": "2026-09-20T03:32:00Z",
+      "time": "2026-09-20T03:48:00Z",
       "bt": 4.0,
-      "bz": -3.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-20T00:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 30.0,
-      "display": "MAX 30.0%",
+      "value": 31.0,
+      "display": "MAX 31.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T03:29:00Z",
-      "forecastTime": "2026-09-20T04:35:00Z"
+      "observationTime": "2026-09-20T03:42:00Z",
+      "forecastTime": "2026-09-20T04:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
