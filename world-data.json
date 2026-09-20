@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T12:59:10.661713+00:00",
+  "generatedAt": "2026-09-20T13:15:40.178520+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A creek meanders through the maritime forest.jpg",
-    "artist": "Hillebrand Steve, U.S. Fish and Wildlife Service",
-    "license": "Public domain",
+    "title": "File:3D Point Cloud Overview of Milton S. Eisenhower Library, Johns Hopkins University.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Matthewadams66&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Matthewadams66 (page does not exist)\">Matthewadams66</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_creek_meanders_through_the_maritime_forest.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:3D_Point_Cloud_Overview_of_Milton_S._Eisenhower_Library%2C_Johns_Hopkins_University.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "PANC",
-    "station": "PANC",
-    "lat": 61.1691,
-    "lon": -150.0277,
-    "weather": "-RA",
-    "temperature": 7.2,
-    "dewpoint": 6.1,
-    "windSpeed": 5.0,
+    "name": "OIAH",
+    "station": "OIAH",
+    "lat": 30.336,
+    "lon": 50.83,
+    "weather": "No coded weather",
+    "temperature": 38.0,
+    "dewpoint": 15.0,
+    "windSpeed": 10.0,
+    "windDirection": 280.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-20T13:00:00.000Z",
+    "observationTimestamp": "2026-09-20T13:00:00+00:00",
+    "raw": "METAR OIAH 201300Z 28010KT 230V320 CAVOK 38/15 Q1014"
+  },
+  "randomPlace": {
+    "name": "KBKS",
+    "station": "KBKS",
+    "lat": 27.2064,
+    "lon": -98.1216,
+    "weather": "No coded weather",
+    "temperature": 22.5,
+    "dewpoint": 21.2,
+    "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T12:53:00.000Z",
-    "observationTimestamp": "2026-09-20T12:53:00+00:00",
-    "raw": "METAR PANC 201253Z VRB05KT 10SM -RA FEW009 SCT060 BKN100 07/06 A2914 RMK AO2 RAE13B38 SLP869 P0001 T00720061"
-  },
-  "randomPlace": {
-    "name": "KVWU",
-    "station": "KVWU",
-    "lat": 48.1502,
-    "lon": -94.5121,
-    "weather": "FG",
-    "temperature": 9.0,
-    "dewpoint": null,
-    "windSpeed": 4.0,
-    "windDirection": 60.0,
-    "visibility": "0.25",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-20T12:35:00.000Z",
-    "observationTimestamp": "2026-09-20T12:35:00+00:00",
-    "raw": "METAR KVWU 201235Z AUTO 06004KT 1/4SM FG OVC001 09/ A3027 RMK AO2"
+    "observationTime": "2026-09-20T12:55:00.000Z",
+    "observationTimestamp": "2026-09-20T12:55:00+00:00",
+    "raw": "METAR KBKS 201255Z AUTO 00000KT 10SM CLR 23/21 A2991 RMK AO2 T02250212 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212009045,
-      "display": "8,212,009,045",
+      "value": 8212011016,
+      "display": "8,212,011,016",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T12:51:00Z",
-      "speed": 398.0
+      "time": "2026-09-20T13:08:00Z",
+      "speed": 400.0
     },
     "magneticField": {
-      "time": "2026-09-20T12:51:00Z",
+      "time": "2026-09-20T13:08:00Z",
       "bt": 5.0,
       "bz": 2.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T12:50:00Z",
-      "forecastTime": "2026-09-20T13:57:00Z"
+      "observationTime": "2026-09-20T13:03:00Z",
+      "forecastTime": "2026-09-20T14:12:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
