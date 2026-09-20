@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:22:31.765131+00:00",
+  "generatedAt": "2026-09-20T22:37:37.919220+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A river is a natural.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:J.Doniyorovich&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:J.Doniyorovich (page does not exist)\">J.Doniyorovich</a>",
+    "title": "File:Cordillera del Aramo (13736818533).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_river_is_a_natural.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_del_Aramo_%2813736818533%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VTCT",
-    "station": "VTCT",
-    "lat": 19.961,
-    "lon": 99.881,
+    "name": "KDEC",
+    "station": "KDEC",
+    "lat": 39.8308,
+    "lon": -88.8719,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 22.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 27.2,
+    "dewpoint": 20.0,
+    "windSpeed": 9.0,
+    "windDirection": 350.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T22:00:00.000Z",
-    "observationTimestamp": "2026-09-20T22:00:00+00:00",
-    "raw": "METAR VTCT 202200Z 00000KT 9999 FEW005 BKN040 22/22 Q1015 NOSIG"
+    "observationTime": "2026-09-20T21:54:00.000Z",
+    "observationTimestamp": "2026-09-20T21:54:00+00:00",
+    "raw": "METAR KDEC 202154Z 35009KT 10SM CLR 27/20 A2989 RMK AO2 LTG DSNT S SLP116 T02720200"
   },
   "randomPlace": {
-    "name": "LJPZ",
-    "station": "LJPZ",
-    "lat": 45.473,
-    "lon": 13.615,
+    "name": "KMPZ",
+    "station": "KMPZ",
+    "lat": 40.9453,
+    "lon": -91.5122,
     "weather": "No coded weather",
     "temperature": 18.0,
     "dewpoint": 17.0,
-    "windSpeed": 6.0,
-    "windDirection": 120.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-20T22:00:00.000Z",
-    "observationTimestamp": "2026-09-20T22:00:00+00:00",
-    "raw": "METAR LJPZ 202200Z AUTO 12006KT 9999 NCD 18/17 Q1022"
+    "windSpeed": 7.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-20T22:10:00.000Z",
+    "observationTimestamp": "2026-09-20T22:10:00+00:00",
+    "raw": "METAR KMPZ 202210Z AUTO 06007G14KT 10SM OVC009 18/17 A2998 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212076506,
-      "display": "8,212,076,506",
+      "value": 8212078316,
+      "display": "8,212,078,316",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T22:14:00Z",
-      "speed": 360.0
+      "time": "2026-09-20T22:29:00Z",
+      "speed": 357.0
     },
     "magneticField": {
-      "time": "2026-09-20T22:14:00Z",
+      "time": "2026-09-20T22:29:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 20.0,
       "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T22:09:00Z",
-      "forecastTime": "2026-09-20T23:23:00Z"
+      "observationTime": "2026-09-20T22:29:00Z",
+      "forecastTime": "2026-09-20T23:44:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
