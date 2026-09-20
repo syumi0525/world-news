@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T20:38:01.414190+00:00",
+  "generatedAt": "2026-09-20T20:47:41.295271+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Foto Oaxaca.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%ADvia_Maria_Rocha&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lívia Maria Rocha (page does not exist)\">Lívia Maria Rocha</a>",
+    "title": "File:Au bonheur des tags (Démolition avant reconversion) (37932924806).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/110273693@N04\">Sylvie burr</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Foto_Oaxaca.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Au_bonheur_des_tags_%28D%C3%A9molition_avant_reconversion%29_%2837932924806%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OIBK",
-    "station": "OIBK",
-    "lat": 26.526,
-    "lon": 53.98,
+    "name": "ESNX",
+    "station": "ESNX",
+    "lat": 65.592,
+    "lon": 19.283,
     "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 26.0,
-    "windSpeed": 3.0,
-    "windDirection": 300.0,
-    "visibility": "4.35",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-20T20:00:00.000Z",
-    "observationTimestamp": "2026-09-20T20:00:00+00:00",
-    "raw": "METAR OIBK 202000Z 30003KT 7000 NSC 30/26 Q1008"
-  },
-  "randomPlace": {
-    "name": "SCTB",
-    "station": "SCTB",
-    "lat": -33.456,
-    "lon": -70.547,
-    "weather": "No coded weather",
-    "temperature": 17.0,
+    "temperature": 6.0,
     "dewpoint": 6.0,
-    "windSpeed": 8.0,
-    "windDirection": 240.0,
+    "windSpeed": 1.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T20:00:00.000Z",
-    "observationTimestamp": "2026-09-20T20:00:00+00:00",
-    "raw": "METAR SCTB 202000Z 24008KT 9999 BKN100 17/06 Q1018"
+    "observationTime": "2026-09-20T20:20:00.000Z",
+    "observationTimestamp": "2026-09-20T20:20:00+00:00",
+    "raw": "METAR ESNX 202020Z VRB01KT CAVOK 06/06 Q0995"
+  },
+  "randomPlace": {
+    "name": "KMPO",
+    "station": "KMPO",
+    "lat": 41.1368,
+    "lon": -75.3771,
+    "weather": "BR",
+    "temperature": 17.8,
+    "dewpoint": 17.2,
+    "windSpeed": 6.0,
+    "windDirection": 240.0,
+    "visibility": "1.5",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-20T20:07:00.000Z",
+    "observationTimestamp": "2026-09-20T20:07:00+00:00",
+    "raw": "SPECI KMPO 202007Z AUTO 24006KT 1 1/2SM BR OVC002 18/17 A2994 RMK AO2 T01780172 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212063996,
-      "display": "8,212,063,996",
+      "value": 8212065153,
+      "display": "8,212,065,153",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T20:30:00Z",
-      "speed": 363.0
+      "time": "2026-09-20T20:40:00Z",
+      "speed": 366.0
     },
     "magneticField": {
-      "time": "2026-09-20T20:30:00Z",
+      "time": "2026-09-20T20:40:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-20T15:00:00",
@@ -113,12 +113,12 @@
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T20:25:00Z",
-      "forecastTime": "2026-09-20T21:36:00Z"
+      "observationTime": "2026-09-20T20:35:00Z",
+      "forecastTime": "2026-09-20T21:46:00Z"
     },
     "flux10cm": {
-      "time": "2026-09-19T20:00:00",
-      "flux": 97.0
+      "time": "2026-09-20T20:00:00",
+      "flux": 101.0
     }
   }
 }
