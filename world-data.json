@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T11:08:12.149311+00:00",
+  "generatedAt": "2026-09-20T11:21:39.965271+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Buna River.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
+    "title": "File:A good view of the beach cliffs.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Buna_River.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHOB",
-    "station": "KHOB",
-    "lat": 32.6797,
-    "lon": -103.2222,
+    "name": "LEMH",
+    "station": "LEMH",
+    "lat": 39.855,
+    "lon": 4.216,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 16.0,
-    "windSpeed": 6.0,
-    "windDirection": 150.0,
-    "visibility": "10+",
+    "temperature": 28.0,
+    "dewpoint": 19.0,
+    "windSpeed": 9.0,
+    "windDirection": 30.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T10:15:00.000Z",
-    "observationTimestamp": "2026-09-20T10:15:00+00:00",
-    "raw": "METAR KHOB 201015Z AUTO 15006KT 10SM CLR 20/16 A3007 RMK AO2"
+    "observationTime": "2026-09-20T11:00:00.000Z",
+    "observationTimestamp": "2026-09-20T11:00:00+00:00",
+    "raw": "METAR LEMH 201100Z 03009KT 350V070 9999 FEW027 SCT030 BKN036 28/19 Q1025"
   },
   "randomPlace": {
-    "name": "KACJ",
-    "station": "KACJ",
-    "lat": 32.1106,
-    "lon": -84.1841,
+    "name": "LFMD",
+    "station": "LFMD",
+    "lat": 43.544,
+    "lon": 6.953,
     "weather": "No coded weather",
-    "temperature": 21.3,
-    "dewpoint": 21.3,
-    "windSpeed": 3.0,
-    "windDirection": 20.0,
-    "visibility": "10+",
+    "temperature": 28.0,
+    "dewpoint": 17.0,
+    "windSpeed": 8.0,
+    "windDirection": 160.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T10:55:00.000Z",
-    "observationTimestamp": "2026-09-20T10:55:00+00:00",
-    "raw": "METAR KACJ 201055Z AUTO 02003KT 10SM CLR 21/21 A2995 RMK AO2 T02130213 $"
+    "observationTime": "2026-09-20T11:00:00.000Z",
+    "observationTimestamp": "2026-09-20T11:00:00+00:00",
+    "raw": "METAR LFMD 201100Z AUTO 16008KT 110V190 CAVOK 28/17 Q1024 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211995778,
-      "display": "8,211,995,778",
+      "value": 8211997392,
+      "display": "8,211,997,392",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-20T10:57:00Z",
-      "speed": 388.0
+      "time": "2026-09-20T11:13:00Z",
+      "speed": 390.0
     },
     "magneticField": {
-      "time": "2026-09-20T10:57:00Z",
+      "time": "2026-09-20T11:13:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-20T06:00:00",
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-20T11:00:00Z",
-      "forecastTime": "2026-09-20T12:07:00Z"
+      "observationTime": "2026-09-20T11:13:00Z",
+      "forecastTime": "2026-09-20T12:23:00Z"
     },
     "flux10cm": {
       "time": "2026-09-19T20:00:00",
