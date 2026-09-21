@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T21:57:36.933666+00:00",
+  "generatedAt": "2026-09-21T22:13:30.286157+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Driving in the village (49286320817).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
-    "license": "Public domain",
+    "title": "File:Batiment aunsein de la Ville de Majunga 03.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Driving_in_the_village_%2849286320817%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_03.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBKE",
-    "station": "KBKE",
-    "lat": 44.843,
-    "lon": -117.8099,
+    "name": "EHRD",
+    "station": "EHRD",
+    "lat": 51.954,
+    "lon": 4.444,
     "weather": "No coded weather",
-    "temperature": 26.7,
+    "temperature": 11.0,
+    "dewpoint": 11.0,
+    "windSpeed": 1.0,
+    "windDirection": 250.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T21:55:00.000Z",
+    "observationTimestamp": "2026-09-21T21:55:00+00:00",
+    "raw": "METAR EHRD 212155Z AUTO 25001KT 9999 NCD 11/11 Q1030 NOSIG"
+  },
+  "randomPlace": {
+    "name": "KGRB",
+    "station": "KGRB",
+    "lat": 44.4796,
+    "lon": -88.137,
+    "weather": "No coded weather",
+    "temperature": 15.0,
     "dewpoint": 6.1,
-    "windSpeed": 6.0,
-    "windDirection": 140.0,
+    "windSpeed": 14.0,
+    "windDirection": 30.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-21T21:53:00.000Z",
     "observationTimestamp": "2026-09-21T21:53:00+00:00",
-    "raw": "METAR KBKE 212153Z AUTO 14006KT 10SM CLR 27/06 A3001 RMK AO2 SLP144 T02670061"
-  },
-  "randomPlace": {
-    "name": "EKKA",
-    "station": "EKKA",
-    "lat": 56.293,
-    "lon": 9.114,
-    "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 8.0,
-    "windSpeed": 6.0,
-    "windDirection": 260.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T21:50:00.000Z",
-    "observationTimestamp": "2026-09-21T21:50:00+00:00",
-    "raw": "METAR EKKA 212150Z AUTO 26006KT 9999 NCD 09/08 Q1027"
+    "raw": "METAR KGRB 212153Z 03014G23KT 10SM CLR 15/06 A3026 RMK AO2 SLP250 T01500061"
   },
   "globalPulse": {
     "population": {
-      "value": 8212245911,
-      "display": "8,212,245,911",
+      "value": 8212247817,
+      "display": "8,212,247,817",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T21:26:00Z",
-      "speed": 333.0
+      "time": "2026-09-21T21:29:00Z",
+      "speed": 335.0
     },
     "magneticField": {
-      "time": "2026-09-21T21:26:00Z",
+      "time": "2026-09-21T21:29:00Z",
       "bt": 4.0,
       "bz": -3.0
     },
@@ -113,8 +113,8 @@
       "value": 26.0,
       "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T21:24:00Z",
-      "forecastTime": "2026-09-21T22:45:00Z"
+      "observationTime": "2026-09-21T21:29:00Z",
+      "forecastTime": "2026-09-21T22:50:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
