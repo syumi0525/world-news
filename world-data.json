@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T20:42:21.885756+00:00",
+  "generatedAt": "2026-09-21T20:54:59.241539+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 12.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:20140907 114910 Jpg (218976057).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_12.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWPF",
-    "station": "CWPF",
-    "lat": 48.432,
-    "lon": -123.439,
+    "name": "LSZH",
+    "station": "LSZH",
+    "lat": 47.48,
+    "lon": 8.536,
     "weather": "No coded weather",
-    "temperature": 18.4,
-    "dewpoint": 11.9,
-    "windSpeed": 3.0,
-    "windDirection": 160.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-21T20:30:00.000Z",
-    "observationTimestamp": "2026-09-21T20:30:00+00:00",
-    "raw": "METAR CWPF 212030Z AUTO 16003KT 18/12 RMK AO1 SLP151 T01840119 58008"
+    "temperature": 14.0,
+    "dewpoint": 7.0,
+    "windSpeed": 6.0,
+    "windDirection": 50.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T20:50:00.000Z",
+    "observationTimestamp": "2026-09-21T20:50:00+00:00",
+    "raw": "METAR LSZH 212050Z 05006KT CAVOK 14/07 Q1029 NOSIG"
   },
   "randomPlace": {
-    "name": "RJTY",
-    "station": "RJTY",
-    "lat": 35.749,
-    "lon": 139.349,
+    "name": "LFCK",
+    "station": "LFCK",
+    "lat": 43.556,
+    "lon": 2.289,
     "weather": "No coded weather",
-    "temperature": 23.1,
-    "dewpoint": 20.0,
+    "temperature": 22.0,
+    "dewpoint": 11.0,
     "windSpeed": 4.0,
-    "windDirection": 320.0,
-    "visibility": "10+",
+    "windDirection": 300.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T19:55:00.000Z",
-    "observationTimestamp": "2026-09-21T19:55:00+00:00",
-    "raw": "METAR RJTY 211955Z 32004KT 10SM OVC100 23/20 A2969 RMK AO2A SLP054 T02310200 $"
+    "observationTime": "2026-09-21T20:30:00.000Z",
+    "observationTimestamp": "2026-09-21T20:30:00+00:00",
+    "raw": "METAR LFCK 212030Z AUTO 30004KT 230V340 CAVOK 22/11 Q1025 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212236901,
-      "display": "8,212,236,901",
+      "value": 8212238417,
+      "display": "8,212,238,417",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T20:34:00Z",
-      "speed": 331.0
+      "time": "2026-09-21T20:47:00Z",
+      "speed": 328.0
     },
     "magneticField": {
-      "time": "2026-09-21T20:34:00Z",
+      "time": "2026-09-21T20:47:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-21T15:00:00",
@@ -113,8 +113,8 @@
       "value": 25.0,
       "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T20:28:00Z",
-      "forecastTime": "2026-09-21T21:50:00Z"
+      "observationTime": "2026-09-21T20:44:00Z",
+      "forecastTime": "2026-09-21T22:05:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
