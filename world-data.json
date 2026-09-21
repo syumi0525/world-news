@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T17:40:37.230951+00:00",
+  "generatedAt": "2026-09-21T17:54:56.173739+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bali Island.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:ASIRICHAILORDSIN\" title=\"User:ASIRICHAILORDSIN\">ASIRICHAILORDSIN</a>",
+    "title": "File:Ndongo bridge road.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bali_Island.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLSB",
-    "station": "KLSB",
-    "lat": 32.334,
-    "lon": -108.6955,
+    "name": "SKBO",
+    "station": "SKBO",
+    "lat": 4.706,
+    "lon": -74.151,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 7.0,
+    "temperature": 19.0,
+    "dewpoint": 9.0,
     "windSpeed": 4.0,
-    "windDirection": 310.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T17:35:00.000Z",
-    "observationTimestamp": "2026-09-21T17:35:00+00:00",
-    "raw": "METAR KLSB 211735Z AUTO 31004KT 10SM CLR 28/07 A3014 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "YBRK",
-    "station": "YBRK",
-    "lat": -23.375,
-    "lon": 150.477,
-    "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 14.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "windDirection": 40.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T17:30:00.000Z",
-    "observationTimestamp": "2026-09-21T17:30:00+00:00",
-    "raw": "METAR YBRK 211730Z AUTO 00000KT 9999 // NCD 15/14 Q1020"
+    "observationTime": "2026-09-21T17:00:00.000Z",
+    "observationTimestamp": "2026-09-21T17:00:00+00:00",
+    "raw": "METAR SKBO 211700Z 04004KT 330V080 9999 BKN040 BKN065 19/09 Q1029 NOSIG"
+  },
+  "randomPlace": {
+    "name": "CZFS",
+    "station": "CZFS",
+    "lat": 61.76,
+    "lon": -121.23,
+    "weather": "No coded weather",
+    "temperature": 16.1,
+    "dewpoint": -0.4,
+    "windSpeed": 8.0,
+    "windDirection": 230.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-21T17:00:00.000Z",
+    "observationTimestamp": "2026-09-21T17:00:00+00:00",
+    "raw": "METAR CZFS 211700Z AUTO 23008KT 16/M00 RMK AO1 SLP002 T01611004 56002"
   },
   "globalPulse": {
     "population": {
-      "value": 8212215147,
-      "display": "8,212,215,147",
+      "value": 8212216860,
+      "display": "8,212,216,860",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T17:33:00Z",
-      "speed": 330.0
+      "time": "2026-09-21T17:44:00Z",
+      "speed": 332.0
     },
     "magneticField": {
-      "time": "2026-09-21T17:33:00Z",
+      "time": "2026-09-21T17:44:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-21T12:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T17:28:00Z",
-      "forecastTime": "2026-09-21T18:52:00Z"
+      "observationTime": "2026-09-21T17:44:00Z",
+      "forecastTime": "2026-09-21T19:06:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
