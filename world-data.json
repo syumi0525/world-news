@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T10:47:26.700182+00:00",
+  "generatedAt": "2026-09-21T10:56:52.469803+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Barhakune photo by Sangharsh Acharya.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scandinaviastats&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scandinaviastats (page does not exist)\">Scandinaviastats</a>",
+    "title": "File:500px photo (179745421).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Barhakune_photo_by_Sangharsh_Acharya.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28179745421%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRNP",
-    "station": "KRNP",
-    "lat": 42.9937,
-    "lon": -84.1347,
-    "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 9.0,
-    "windSpeed": 6.0,
-    "windDirection": 50.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
+    "name": "KBIE",
+    "station": "KBIE",
+    "lat": 40.3005,
+    "lon": -96.7517,
+    "weather": "BR",
+    "temperature": 17.0,
+    "dewpoint": 17.0,
+    "windSpeed": 5.0,
+    "windDirection": 340.0,
+    "visibility": "4",
+    "flightCategory": "IFR",
     "observationTime": "2026-09-21T10:35:00.000Z",
     "observationTimestamp": "2026-09-21T10:35:00+00:00",
-    "raw": "METAR KRNP 211035Z AUTO 05006KT 10SM CLR 12/09 A3018 RMK AO2"
+    "raw": "METAR KBIE 211035Z AUTO 34005KT 4SM BR BKN006 OVC013 17/17 A3006 RMK AO2 T01700170"
   },
   "randomPlace": {
-    "name": "KBPT",
-    "station": "KBPT",
-    "lat": 29.9521,
-    "lon": -94.0262,
+    "name": "KDAY",
+    "station": "KDAY",
+    "lat": 39.9064,
+    "lon": -84.2185,
     "weather": "No coded weather",
-    "temperature": 24.4,
-    "dewpoint": 23.9,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 14.4,
+    "dewpoint": 12.2,
+    "windSpeed": 11.0,
+    "windDirection": 50.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T09:53:00.000Z",
-    "observationTimestamp": "2026-09-21T09:53:00+00:00",
-    "raw": "METAR KBPT 210953Z AUTO 00000KT 10SM CLR 24/24 A2990 RMK AO2 SLP124 T02440239"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-21T09:56:00.000Z",
+    "observationTimestamp": "2026-09-21T09:56:00+00:00",
+    "raw": "METAR KDAY 210956Z 05011KT 10SM OVC016 14/12 A3001 RMK AO2 SLP154 T01440122 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212165686,
-      "display": "8,212,165,686",
+      "value": 8212166813,
+      "display": "8,212,166,813",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T10:40:00Z",
+      "time": "2026-09-21T10:48:00Z",
       "speed": 332.0
     },
     "magneticField": {
-      "time": "2026-09-21T10:38:00Z",
+      "time": "2026-09-21T10:48:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T10:40:00Z",
-      "forecastTime": "2026-09-21T12:00:00Z"
+      "observationTime": "2026-09-21T10:46:00Z",
+      "forecastTime": "2026-09-21T12:05:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
