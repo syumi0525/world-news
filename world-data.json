@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T06:13:18.952503+00:00",
+  "generatedAt": "2026-09-21T06:39:37.114993+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -23,45 +23,45 @@
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCMI",
-    "station": "KCMI",
-    "lat": 40.0324,
-    "lon": -88.2755,
-    "weather": "RA BR",
-    "temperature": 18.3,
-    "dewpoint": 17.8,
-    "windSpeed": 12.0,
-    "windDirection": 60.0,
-    "visibility": "5",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-21T05:53:00.000Z",
-    "observationTimestamp": "2026-09-21T05:53:00+00:00",
-    "raw": "METAR KCMI 210553Z AUTO 06012KT 5SM RA BR BKN007 OVC032 18/18 A2998 RMK AO2 SLP148 P0047 60102 T01830178 10217 20183 402830183 50002"
-  },
-  "randomPlace": {
-    "name": "SLCB",
-    "station": "SLCB",
-    "lat": -17.421,
-    "lon": -66.179,
+    "name": "CWHT",
+    "station": "CWHT",
+    "lat": 60.773,
+    "lon": -137.581,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 5.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
+    "temperature": 5.1,
+    "dewpoint": 2.3,
+    "windSpeed": 6.0,
+    "windDirection": 360.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-21T06:00:00.000Z",
     "observationTimestamp": "2026-09-21T06:00:00+00:00",
-    "raw": "METAR SLCB 210600Z 00000KT 9999 NSC 13/05 Q1024 NOSIG"
+    "raw": "METAR CWHT 210600Z AUTO 36006KT 05/02 RMK AO1 SLP004 T00510023 51003"
+  },
+  "randomPlace": {
+    "name": "KPVF",
+    "station": "KPVF",
+    "lat": 38.7222,
+    "lon": -120.757,
+    "weather": "No coded weather",
+    "temperature": 19.0,
+    "dewpoint": 8.0,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T06:15:00.000Z",
+    "observationTimestamp": "2026-09-21T06:15:00+00:00",
+    "raw": "METAR KPVF 210615Z AUTO 10SM CLR 19/08 A2999 RMK AO1"
   },
   "globalPulse": {
     "population": {
-      "value": 8212132844,
-      "display": "8,212,132,844",
+      "value": 8212135991,
+      "display": "8,212,135,991",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T06:05:00Z",
+      "time": "2026-09-21T06:31:00Z",
       "speed": 342.0
     },
     "magneticField": {
-      "time": "2026-09-21T06:05:00Z",
+      "time": "2026-09-21T06:31:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-21T03:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T06:03:00Z",
-      "forecastTime": "2026-09-21T07:21:00Z"
+      "observationTime": "2026-09-21T06:28:00Z",
+      "forecastTime": "2026-09-21T07:47:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
