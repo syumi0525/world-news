@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T08:48:43.178179+00:00",
+  "generatedAt": "2026-09-21T08:59:13.805083+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Am Ludwigskanal bei Schwarzenbruck.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peukerthomas1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peukerthomas1 (page does not exist)\">Peukerthomas1</a>",
+    "title": "File:A misty forest road in Coonoor.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Am_Ludwigskanal_bei_Schwarzenbruck.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LEAB",
-    "station": "LEAB",
-    "lat": 38.952,
-    "lon": -1.863,
+    "name": "KHFD",
+    "station": "KHFD",
+    "lat": 41.7352,
+    "lon": -72.6512,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 11.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T08:30:00.000Z",
-    "observationTimestamp": "2026-09-21T08:30:00+00:00",
-    "raw": "METAR LEAB 210830Z VRB02KT CAVOK 17/11 Q1029 NOSIG"
+    "temperature": 13.3,
+    "dewpoint": 12.2,
+    "windSpeed": 8.0,
+    "windDirection": 360.0,
+    "visibility": "10+",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-21T08:53:00.000Z",
+    "observationTimestamp": "2026-09-21T08:53:00+00:00",
+    "raw": "METAR KHFD 210853Z AUTO 36008KT 10SM OVC008 13/12 A3001 RMK AO2 SLP162 T01330122 53009"
   },
   "randomPlace": {
-    "name": "SBNT",
-    "station": "SBNT",
-    "lat": -5.911,
-    "lon": -35.248,
+    "name": "CXKE",
+    "station": "CXKE",
+    "lat": 45.005,
+    "lon": -75.637,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 20.0,
-    "windSpeed": 6.0,
-    "windDirection": 200.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
+    "temperature": 9.0,
+    "dewpoint": 7.4,
+    "windSpeed": 4.0,
+    "windDirection": 320.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-21T08:00:00.000Z",
     "observationTimestamp": "2026-09-21T08:00:00+00:00",
-    "raw": "METAR SBNT 210800Z 20006KT 9999 SCT025 22/20 Q1016"
+    "raw": "METAR CXKE 210800Z AUTO 32004KT 09/07 RMK AO1 SLP217 T00900074 51013"
   },
   "globalPulse": {
     "population": {
-      "value": 8212151452,
-      "display": "8,212,151,452",
+      "value": 8212152699,
+      "display": "8,212,152,699",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T08:38:00Z",
-      "speed": 347.0
+      "time": "2026-09-21T08:51:00Z",
+      "speed": 344.0
     },
     "magneticField": {
-      "time": "2026-09-21T08:38:00Z",
+      "time": "2026-09-21T08:51:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-21T03:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T08:33:00Z",
-      "forecastTime": "2026-09-21T09:52:00Z"
+      "observationTime": "2026-09-21T08:49:00Z",
+      "forecastTime": "2026-09-21T10:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
