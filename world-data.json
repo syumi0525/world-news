@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T08:00:05.193536+00:00",
+  "generatedAt": "2026-09-21T08:20:11.369113+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bird nests.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
+    "title": "File:Ndongo carrefour 05.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_carrefour_05.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OMDW",
-    "station": "OMDW",
-    "lat": 24.897,
-    "lon": 55.161,
+    "name": "KELA",
+    "station": "KELA",
+    "lat": 29.602,
+    "lon": -96.3239,
     "weather": "No coded weather",
-    "temperature": 38.0,
-    "dewpoint": 17.0,
-    "windSpeed": 6.0,
+    "temperature": 24.7,
+    "dewpoint": 24.1,
+    "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "6+",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T07:30:00.000Z",
-    "observationTimestamp": "2026-09-21T07:30:00+00:00",
-    "raw": "METAR OMDW 210730Z VRB06KT CAVOK 38/17 Q1011 NOSIG"
+    "observationTime": "2026-09-21T07:55:00.000Z",
+    "observationTimestamp": "2026-09-21T07:55:00+00:00",
+    "raw": "METAR KELA 210755Z AUTO 00000KT 10SM CLR 25/24 A2992 RMK AO2 T02470241"
   },
   "randomPlace": {
-    "name": "KIKK",
-    "station": "KIKK",
-    "lat": 41.0687,
-    "lon": -87.8537,
+    "name": "KMRY",
+    "station": "KMRY",
+    "lat": 36.5904,
+    "lon": -121.8488,
     "weather": "No coded weather",
-    "temperature": 15.7,
-    "dewpoint": 14.9,
+    "temperature": 15.0,
+    "dewpoint": 12.2,
     "windSpeed": 6.0,
-    "windDirection": 50.0,
+    "windDirection": 250.0,
     "visibility": "10+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-21T07:35:00.000Z",
-    "observationTimestamp": "2026-09-21T07:35:00+00:00",
-    "raw": "METAR KIKK 210735Z AUTO 05006KT 10SM SCT009 OVC023 16/15 A3006 RMK AO2 LTG DSNT SE T01570149"
+    "observationTime": "2026-09-21T07:54:00.000Z",
+    "observationTimestamp": "2026-09-21T07:54:00+00:00",
+    "raw": "METAR KMRY 210754Z AUTO 25006KT 10SM OVC012 15/12 A2998 RMK AO2 SLP162 T01500122 401670139"
   },
   "globalPulse": {
     "population": {
-      "value": 8212145630,
-      "display": "8,212,145,630",
+      "value": 8212148032,
+      "display": "8,212,148,032",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T07:49:00Z",
-      "speed": 346.0
+      "time": "2026-09-21T08:12:00Z",
+      "speed": 343.0
     },
     "magneticField": {
-      "time": "2026-09-21T07:49:00Z",
+      "time": "2026-09-21T08:12:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-21T03:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T07:49:00Z",
-      "forecastTime": "2026-09-21T09:07:00Z"
+      "observationTime": "2026-09-21T08:10:00Z",
+      "forecastTime": "2026-09-21T09:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
