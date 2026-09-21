@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T13:17:57.288990+00:00",
+  "generatedAt": "2026-09-21T13:32:14.093704+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nilüfer kanak köprüsü.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "title": "File:Aalsmeer, Westeinderplas en watertoren.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Manifestas&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Manifestas (page does not exist)\">Manifestas</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aalsmeer%2C_Westeinderplas_en_watertoren.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SULS",
-    "station": "SULS",
-    "lat": -34.855,
-    "lon": -55.094,
+    "name": "KCWI",
+    "station": "KCWI",
+    "lat": 41.8295,
+    "lon": -90.3328,
+    "weather": "BR",
+    "temperature": 15.0,
+    "dewpoint": 14.0,
+    "windSpeed": 8.0,
+    "windDirection": 70.0,
+    "visibility": "4",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-21T13:17:00.000Z",
+    "observationTimestamp": "2026-09-21T13:17:00+00:00",
+    "raw": "SPECI KCWI 211317Z AUTO 07008KT 4SM BR SCT013 OVC030 15/14 A3013 RMK AO2"
+  },
+  "randomPlace": {
+    "name": "SARF",
+    "station": "SARF",
+    "lat": -26.213,
+    "lon": -58.228,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 9.0,
-    "windSpeed": 14.0,
-    "windDirection": 290.0,
-    "visibility": "6+",
+    "temperature": 31.0,
+    "dewpoint": 22.0,
+    "windSpeed": 5.0,
+    "windDirection": 360.0,
+    "visibility": "5.59",
     "flightCategory": "VFR",
     "observationTime": "2026-09-21T13:00:00.000Z",
     "observationTimestamp": "2026-09-21T13:00:00+00:00",
-    "raw": "METAR SULS 211300Z 29014G25KT CAVOK 16/09 Q1004"
-  },
-  "randomPlace": {
-    "name": "HUKS",
-    "station": "HUKS",
-    "lat": 0.183,
-    "lon": 30.1,
-    "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 16.0,
-    "windSpeed": 8.0,
-    "windDirection": 90.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T12:00:00.000Z",
-    "observationTimestamp": "2026-09-21T12:00:00+00:00",
-    "raw": "METAR HUKS 211200Z 09008KT 9999 SCT030 FEW033CB 33/16 Q1012"
+    "raw": "METAR SARF 211300Z 36005KT 9000 NSC 31/22 Q1004"
   },
   "globalPulse": {
     "population": {
-      "value": 8212183667,
-      "display": "8,212,183,667",
+      "value": 8212185387,
+      "display": "8,212,185,387",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T13:10:00Z",
-      "speed": 325.0
+      "time": "2026-09-21T13:26:00Z",
+      "speed": 328.0
     },
     "magneticField": {
-      "time": "2026-09-21T13:10:00Z",
+      "time": "2026-09-21T13:26:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-21T09:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T13:10:00Z",
-      "forecastTime": "2026-09-21T14:31:00Z"
+      "observationTime": "2026-09-21T13:21:00Z",
+      "forecastTime": "2026-09-21T14:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
