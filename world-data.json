@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T02:12:29.715802+00:00",
+  "generatedAt": "2026-09-21T02:31:19.597651+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Hüdavendigar Kent Parkı.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "title": "File:Cordillera del Aramo (13736818533).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:H%C3%BCdavendigar_Kent_Park%C4%B1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_del_Aramo_%2813736818533%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MMCN",
-    "station": "MMCN",
-    "lat": 27.395,
-    "lon": -109.837,
-    "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 23.0,
-    "windSpeed": 5.0,
-    "windDirection": 210.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T01:40:00.000Z",
-    "observationTimestamp": "2026-09-21T01:40:00+00:00",
-    "raw": "METAR MMCN 210140Z E21005KT 10SM FEW200 30/23 A2985 RMK 8/003 FULYR NW DSNT CB 1ST QUAD"
+    "name": "VIGR",
+    "station": "VIGR",
+    "lat": 26.293,
+    "lon": 78.228,
+    "weather": "BR",
+    "temperature": 29.0,
+    "dewpoint": 29.0,
+    "windSpeed": 1.0,
+    "windDirection": 0.0,
+    "visibility": "1.86",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-21T01:30:00.000Z",
+    "observationTimestamp": "2026-09-21T01:30:00+00:00",
+    "raw": "METAR VIGR 210130Z VRB01KT 3000 BR FEW090 29/29 Q1012 NOSIG"
   },
   "randomPlace": {
-    "name": "KGPM",
-    "station": "KGPM",
-    "lat": 32.6928,
-    "lon": -97.0485,
+    "name": "RJFS",
+    "station": "RJFS",
+    "lat": 33.15,
+    "lon": 130.302,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 21.3,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 27.0,
+    "dewpoint": 19.0,
+    "windSpeed": 12.0,
+    "windDirection": 350.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T01:55:00.000Z",
-    "observationTimestamp": "2026-09-21T01:55:00+00:00",
-    "raw": "METAR KGPM 210155Z AUTO 00000KT 10SM CLR 26/21 A2990 RMK AO2 T02600213"
+    "observationTime": "2026-09-21T02:00:00.000Z",
+    "observationTimestamp": "2026-09-21T02:00:00+00:00",
+    "raw": "METAR RJFS 210200Z 35012KT 9999 FEW030 SCT045 27/19 Q1007"
   },
   "globalPulse": {
     "population": {
-      "value": 8212104011,
-      "display": "8,212,104,011",
+      "value": 8212106263,
+      "display": "8,212,106,263",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T02:05:00Z",
-      "speed": 363.0
+      "time": "2026-09-21T02:24:00Z",
+      "speed": 355.0
     },
     "magneticField": {
-      "time": "2026-09-21T02:05:00Z",
+      "time": "2026-09-21T02:24:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-20T21:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T02:03:00Z",
-      "forecastTime": "2026-09-21T03:20:00Z"
+      "observationTime": "2026-09-21T02:19:00Z",
+      "forecastTime": "2026-09-21T03:35:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
