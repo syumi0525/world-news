@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T00:43:22.820508+00:00",
+  "generatedAt": "2026-09-21T00:58:35.689429+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo 08.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:A good view of the beach cliffs.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_08.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBEA",
-    "station": "KBEA",
-    "lat": 28.3692,
-    "lon": -97.7953,
-    "weather": "No coded weather",
-    "temperature": 30.1,
-    "dewpoint": 21.5,
-    "windSpeed": 9.0,
-    "windDirection": 140.0,
-    "visibility": "10+",
+    "name": "KATP",
+    "station": "KATP",
+    "lat": 27.1956,
+    "lon": -90.0269,
+    "weather": "HZ",
+    "temperature": 29.0,
+    "dewpoint": 23.0,
+    "windSpeed": 10.0,
+    "windDirection": 110.0,
+    "visibility": "6",
     "flightCategory": "VFR",
     "observationTime": "2026-09-21T00:35:00.000Z",
     "observationTimestamp": "2026-09-21T00:35:00+00:00",
-    "raw": "METAR KBEA 210035Z AUTO 14009KT 10SM CLR 30/22 A2985 RMK AO2 LTG DSNT NW T03010215"
+    "raw": "METAR KATP 210035Z AUTO 11010KT 6SM HZ FEW025 29/23 A2989 RMK A01"
   },
   "randomPlace": {
-    "name": "KEOD",
-    "station": "KEOD",
-    "lat": 36.5682,
-    "lon": -87.4808,
+    "name": "LROD",
+    "station": "LROD",
+    "lat": 47.036,
+    "lon": 21.896,
     "weather": "No coded weather",
-    "temperature": 28.7,
-    "dewpoint": 20.4,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 19.0,
+    "dewpoint": 10.0,
+    "windSpeed": 6.0,
+    "windDirection": 180.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-20T23:55:00.000Z",
-    "observationTimestamp": "2026-09-20T23:55:00+00:00",
-    "raw": "METAR KEOD 202355Z AUTO 00000KT 10SM CLR 29/20 A2989 RMK AO2 SLP118 T02870204 10368 20287 53001 $"
+    "observationTime": "2026-09-21T00:30:00.000Z",
+    "observationTimestamp": "2026-09-21T00:30:00+00:00",
+    "raw": "METAR LROD 210030Z 18006KT CAVOK 19/10 Q1018"
   },
   "globalPulse": {
     "population": {
-      "value": 8212093338,
-      "display": "8,212,093,338",
+      "value": 8212095168,
+      "display": "8,212,095,168",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T00:35:00Z",
-      "speed": 360.0
+      "time": "2026-09-21T00:50:00Z",
+      "speed": 348.0
     },
     "magneticField": {
-      "time": "2026-09-21T00:35:00Z",
-      "bt": 4.0,
+      "time": "2026-09-21T00:50:00Z",
+      "bt": 5.0,
       "bz": 1.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 1.0
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T00:35:00Z",
-      "forecastTime": "2026-09-21T01:50:00Z"
+      "observationTime": "2026-09-21T00:50:00Z",
+      "forecastTime": "2026-09-21T02:05:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
