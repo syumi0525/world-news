@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T08:35:09.938727+00:00",
+  "generatedAt": "2026-09-21T08:48:43.178179+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo Baptist Church.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:Am Ludwigskanal bei Schwarzenbruck.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peukerthomas1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peukerthomas1 (page does not exist)\">Peukerthomas1</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_Baptist_Church.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Am_Ludwigskanal_bei_Schwarzenbruck.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGFA",
-    "station": "KGFA",
-    "lat": 47.505,
-    "lon": -111.187,
+    "name": "LEAB",
+    "station": "LEAB",
+    "lat": 38.952,
+    "lon": -1.863,
     "weather": "No coded weather",
-    "temperature": 11.6,
-    "dewpoint": 6.3,
-    "windSpeed": 7.0,
-    "windDirection": 180.0,
-    "visibility": "10+",
+    "temperature": 17.0,
+    "dewpoint": 11.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T07:55:00.000Z",
-    "observationTimestamp": "2026-09-21T07:55:00+00:00",
-    "raw": "METAR KGFA 210755Z 18007KT 10SM FEW220 12/06 A3011 RMK AO2A SLP189 T01160063 $"
+    "observationTime": "2026-09-21T08:30:00.000Z",
+    "observationTimestamp": "2026-09-21T08:30:00+00:00",
+    "raw": "METAR LEAB 210830Z VRB02KT CAVOK 17/11 Q1029 NOSIG"
   },
   "randomPlace": {
-    "name": "FAPE",
-    "station": "FAPE",
-    "lat": -33.985,
-    "lon": 25.617,
+    "name": "SBNT",
+    "station": "SBNT",
+    "lat": -5.911,
+    "lon": -35.248,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 18.0,
+    "temperature": 22.0,
+    "dewpoint": 20.0,
     "windSpeed": 6.0,
-    "windDirection": 190.0,
+    "windDirection": 200.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-21T08:00:00.000Z",
     "observationTimestamp": "2026-09-21T08:00:00+00:00",
-    "raw": "METAR FAPE 210800Z 19006KT 160V220 9999 SCT009 BKN035 20/18 Q1023 NOSIG"
+    "raw": "METAR SBNT 210800Z 20006KT 9999 SCT025 22/20 Q1016"
   },
   "globalPulse": {
     "population": {
-      "value": 8212149824,
-      "display": "8,212,149,824",
+      "value": 8212151452,
+      "display": "8,212,151,452",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T08:25:00Z",
-      "speed": 340.0
+      "time": "2026-09-21T08:38:00Z",
+      "speed": 347.0
     },
     "magneticField": {
-      "time": "2026-09-21T08:25:00Z",
+      "time": "2026-09-21T08:38:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T08:23:00Z",
-      "forecastTime": "2026-09-21T09:42:00Z"
+      "observationTime": "2026-09-21T08:33:00Z",
+      "forecastTime": "2026-09-21T09:52:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
