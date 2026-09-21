@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T05:21:41.541079+00:00",
+  "generatedAt": "2026-09-21T05:39:51.030621+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:PS shpala do propitki.jpg",
-    "artist": "Тарас Светлана Сергеевна",
+    "title": "File:20260822 092805 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:PS_shpala_do_propitki.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_092805_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K6A1",
-    "station": "K6A1",
-    "lat": 32.5733,
-    "lon": -84.247,
+    "name": "OISL",
+    "station": "OISL",
+    "lat": 27.67,
+    "lon": 54.375,
     "weather": "No coded weather",
-    "temperature": 22.6,
-    "dewpoint": 20.8,
-    "windSpeed": 4.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T04:55:00.000Z",
-    "observationTimestamp": "2026-09-21T04:55:00+00:00",
-    "raw": "METAR K6A1 210455Z AUTO 20004KT 10SM CLR 23/21 A2999 RMK AO2 T02260208"
-  },
-  "randomPlace": {
-    "name": "EGLC",
-    "station": "EGLC",
-    "lat": 51.505,
-    "lon": 0.055,
-    "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 8.0,
+    "temperature": 31.0,
+    "dewpoint": 18.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T04:50:00.000Z",
-    "observationTimestamp": "2026-09-21T04:50:00+00:00",
-    "raw": "METAR EGLC 210450Z AUTO 00000KT 9999 NCD 12/08 Q1032"
+    "observationTime": "2026-09-21T05:00:00.000Z",
+    "observationTimestamp": "2026-09-21T05:00:00+00:00",
+    "raw": "METAR OISL 210500Z 00000KT CAVOK 31/18 Q1015 A3000 NOSIG"
+  },
+  "randomPlace": {
+    "name": "CYXX",
+    "station": "CYXX",
+    "lat": 49.027,
+    "lon": -122.377,
+    "weather": "No coded weather",
+    "temperature": 12.0,
+    "dewpoint": 11.0,
+    "windSpeed": 2.0,
+    "windDirection": 160.0,
+    "visibility": "15",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T05:00:00.000Z",
+    "observationTimestamp": "2026-09-21T05:00:00+00:00",
+    "raw": "METAR CYXX 210500Z 16002KT 15SM SCT240 12/11 A3000 RMK CI3 SLP163"
   },
   "globalPulse": {
     "population": {
-      "value": 8212126687,
-      "display": "8,212,126,687",
+      "value": 8212128860,
+      "display": "8,212,128,860",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T05:11:00Z",
-      "speed": 349.0
+      "time": "2026-09-21T05:29:00Z",
+      "speed": 356.0
     },
     "magneticField": {
-      "time": "2026-09-21T05:11:00Z",
+      "time": "2026-09-21T05:29:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T05:13:00Z",
-      "forecastTime": "2026-09-21T06:31:00Z"
+      "observationTime": "2026-09-21T05:29:00Z",
+      "forecastTime": "2026-09-21T06:45:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
