@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T12:49:41.788058+00:00",
+  "generatedAt": "2026-09-21T13:00:04.285369+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Redflower Ragtrail.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Saosukham\" title=\"User:Saosukham\">Saosukham</a>",
-    "license": "CC0",
+    "title": "File:I will meet you at the depot A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Redflower_Ragtrail.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MMMM",
-    "station": "MMMM",
-    "lat": 19.844,
-    "lon": -101.037,
+    "name": "CWCJ",
+    "station": "CWCJ",
+    "lat": 48.588,
+    "lon": -86.295,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 16.0,
-    "windSpeed": 6.0,
-    "windDirection": 350.0,
-    "visibility": "7",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T11:45:00.000Z",
-    "observationTimestamp": "2026-09-21T11:45:00+00:00",
-    "raw": "METAR MMMM 211145Z 35006KT 7SM FEW030 SCT080 SCT250 17/16 A3022 RMK SLP077 57004 964 8/578 HZY"
-  },
-  "randomPlace": {
-    "name": "CWBZ",
-    "station": "CWBZ",
-    "lat": 45.121,
-    "lon": -74.289,
-    "weather": "No coded weather",
-    "temperature": 11.1,
-    "dewpoint": 6.8,
-    "windSpeed": 6.0,
-    "windDirection": 40.0,
+    "temperature": -0.2,
+    "dewpoint": 0.0,
+    "windSpeed": 5.0,
+    "windDirection": 50.0,
     "visibility": "N/A",
     "flightCategory": "null",
     "observationTime": "2026-09-21T12:00:00.000Z",
     "observationTimestamp": "2026-09-21T12:00:00+00:00",
-    "raw": "METAR CWBZ 211200Z AUTO 04006KT 11/07 RMK AO1 SLP235 T01110068 53026"
+    "raw": "METAR CWCJ 211200Z AUTO 05005KT M00/00 RMK AO1 SLP304 T10020000 53010"
+  },
+  "randomPlace": {
+    "name": "ZGSZ",
+    "station": "ZGSZ",
+    "lat": 22.639,
+    "lon": 113.803,
+    "weather": "No coded weather",
+    "temperature": 30.0,
+    "dewpoint": 26.0,
+    "windSpeed": 6.0,
+    "windDirection": 200.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T12:00:00.000Z",
+    "observationTimestamp": "2026-09-21T12:00:00+00:00",
+    "raw": "METAR ZGSZ 211200Z 20003MPS CAVOK 30/26 Q1012 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212180299,
-      "display": "8,212,180,299",
+      "value": 8212181532,
+      "display": "8,212,181,532",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T12:42:00Z",
-      "speed": 325.0
+      "time": "2026-09-21T12:52:00Z",
+      "speed": 326.0
     },
     "magneticField": {
-      "time": "2026-09-21T12:42:00Z",
+      "time": "2026-09-21T12:50:00Z",
       "bt": 4.0,
-      "bz": 2.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-21T09:00:00",
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T12:39:00Z",
-      "forecastTime": "2026-09-21T14:00:00Z"
+      "observationTime": "2026-09-21T12:50:00Z",
+      "forecastTime": "2026-09-21T14:11:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
