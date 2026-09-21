@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T18:51:02.474105+00:00",
+  "generatedAt": "2026-09-21T19:08:12.494619+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
-    "artist": "Ferrovia Mesolcinese",
-    "license": "Public domain",
+    "title": "File:Bhimtal IMG 2025 05 18 09 37 25.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pushkar2016&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pushkar2016 (page does not exist)\">Pushkar2016</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bhimtal_IMG_2025_05_18_09_37_25.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KSAW",
-    "station": "KSAW",
-    "lat": 46.341,
-    "lon": -87.395,
+    "name": "UASK",
+    "station": "UASK",
+    "lat": 50.027,
+    "lon": 82.5,
     "weather": "No coded weather",
-    "temperature": 13.0,
+    "temperature": 7.0,
     "dewpoint": 5.0,
-    "windSpeed": 14.0,
-    "windDirection": 20.0,
-    "visibility": "10+",
+    "windSpeed": 4.0,
+    "windDirection": 120.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T18:48:00.000Z",
-    "observationTimestamp": "2026-09-21T18:48:00+00:00",
-    "raw": "METAR KSAW 211848Z 02014KT 10SM CLR 13/05 A3035"
+    "observationTime": "2026-09-21T19:00:00.000Z",
+    "observationTimestamp": "2026-09-21T19:00:00+00:00",
+    "raw": "METAR UASK 211900Z 12002MPS 9999 NSC 07/05 Q1020 NOSIG RMK QFE740/0987"
   },
   "randomPlace": {
-    "name": "CYGK",
-    "station": "CYGK",
-    "lat": 44.223,
-    "lon": -76.599,
+    "name": "KFTY",
+    "station": "KFTY",
+    "lat": 33.7776,
+    "lon": -84.5246,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 4.0,
-    "windSpeed": 12.0,
-    "windDirection": 20.0,
-    "visibility": "15",
+    "temperature": 32.8,
+    "dewpoint": 21.1,
+    "windSpeed": 4.0,
+    "windDirection": 10.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T18:00:00.000Z",
-    "observationTimestamp": "2026-09-21T18:00:00+00:00",
-    "raw": "METAR CYGK 211800Z 02012KT 15SM SCT040 BKN250 14/04 A3026 RMK SC4CI2 SLP251"
+    "observationTime": "2026-09-21T18:53:00.000Z",
+    "observationTimestamp": "2026-09-21T18:53:00+00:00",
+    "raw": "METAR KFTY 211853Z 01004KT 10SM CLR 33/21 A2995 RMK AO2 SLP131 T03280211"
   },
   "globalPulse": {
     "population": {
-      "value": 8212223578,
-      "display": "8,212,223,578",
+      "value": 8212225634,
+      "display": "8,212,225,634",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T18:41:00Z",
-      "speed": 327.0
+      "time": "2026-09-21T18:54:00Z",
+      "speed": 318.0
     },
     "magneticField": {
-      "time": "2026-09-21T18:41:00Z",
-      "bt": 4.0,
-      "bz": -3.0
+      "time": "2026-09-21T19:02:00Z",
+      "bt": 3.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-21T15:00:00",
       "kp": 0.33
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T18:39:00Z",
-      "forecastTime": "2026-09-21T20:01:00Z"
+      "observationTime": "2026-09-21T18:54:00Z",
+      "forecastTime": "2026-09-21T20:16:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
