@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T10:30:30.599984+00:00",
+  "generatedAt": "2026-09-21T10:47:26.700182+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:08020047.JPG",
-    "artist": "Catalina Holguin",
-    "license": "Public domain",
+    "title": "File:Barhakune photo by Sangharsh Acharya.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scandinaviastats&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scandinaviastats (page does not exist)\">Scandinaviastats</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:08020047.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Barhakune_photo_by_Sangharsh_Acharya.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EDJA",
-    "station": "EDJA",
-    "lat": 47.989,
-    "lon": 10.239,
+    "name": "KRNP",
+    "station": "KRNP",
+    "lat": 42.9937,
+    "lon": -84.1347,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 8.0,
+    "temperature": 12.0,
+    "dewpoint": 9.0,
     "windSpeed": 6.0,
-    "windDirection": 30.0,
-    "visibility": "6+",
+    "windDirection": 50.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T10:20:00.000Z",
-    "observationTimestamp": "2026-09-21T10:20:00+00:00",
-    "raw": "METAR EDJA 211020Z 03006KT 350V070 9999 SCT025 14/08 Q1031"
+    "observationTime": "2026-09-21T10:35:00.000Z",
+    "observationTimestamp": "2026-09-21T10:35:00+00:00",
+    "raw": "METAR KRNP 211035Z AUTO 05006KT 10SM CLR 12/09 A3018 RMK AO2"
   },
   "randomPlace": {
-    "name": "OICC",
-    "station": "OICC",
-    "lat": 34.346,
-    "lon": 47.158,
+    "name": "KBPT",
+    "station": "KBPT",
+    "lat": 29.9521,
+    "lon": -94.0262,
     "weather": "No coded weather",
-    "temperature": 31.0,
-    "dewpoint": -7.0,
-    "windSpeed": 8.0,
-    "windDirection": 300.0,
-    "visibility": "6+",
+    "temperature": 24.4,
+    "dewpoint": 23.9,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T10:00:00.000Z",
-    "observationTimestamp": "2026-09-21T10:00:00+00:00",
-    "raw": "METAR OICC 211000Z 30008KT CAVOK 31/M07 Q1020 A3013"
+    "observationTime": "2026-09-21T09:53:00.000Z",
+    "observationTimestamp": "2026-09-21T09:53:00+00:00",
+    "raw": "METAR KBPT 210953Z AUTO 00000KT 10SM CLR 24/24 A2990 RMK AO2 SLP124 T02440239"
   },
   "globalPulse": {
     "population": {
-      "value": 8212163655,
-      "display": "8,212,163,655",
+      "value": 8212165686,
+      "display": "8,212,165,686",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T10:22:00Z",
+      "time": "2026-09-21T10:40:00Z",
       "speed": 332.0
     },
     "magneticField": {
-      "time": "2026-09-21T10:20:00Z",
+      "time": "2026-09-21T10:38:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T10:20:00Z",
-      "forecastTime": "2026-09-21T11:39:00Z"
+      "observationTime": "2026-09-21T10:40:00Z",
+      "forecastTime": "2026-09-21T12:00:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
