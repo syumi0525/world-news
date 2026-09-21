@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T21:48:11.090667+00:00",
+  "generatedAt": "2026-09-21T21:57:36.933666+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Urban Gabriela Mistral.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Barruntada&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Barruntada (page does not exist)\">Barruntada</a>",
-    "license": "CC0",
+    "title": "File:Driving in the village (49286320817).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Urban_Gabriela_Mistral.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Driving_in_the_village_%2849286320817%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHEG",
-    "station": "KHEG",
-    "lat": 30.2771,
-    "lon": -81.8087,
+    "name": "KBKE",
+    "station": "KBKE",
+    "lat": 44.843,
+    "lon": -117.8099,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 22.0,
+    "temperature": 26.7,
+    "dewpoint": 6.1,
     "windSpeed": 6.0,
-    "windDirection": 80.0,
+    "windDirection": 140.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T21:35:00.000Z",
-    "observationTimestamp": "2026-09-21T21:35:00+00:00",
-    "raw": "METAR KHEG 212135Z AUTO 08006KT 10SM BKN031 29/22 A2990 RMK AO2 TSNO"
+    "observationTime": "2026-09-21T21:53:00.000Z",
+    "observationTimestamp": "2026-09-21T21:53:00+00:00",
+    "raw": "METAR KBKE 212153Z AUTO 14006KT 10SM CLR 27/06 A3001 RMK AO2 SLP144 T02670061"
   },
   "randomPlace": {
-    "name": "VVPQ",
-    "station": "VVPQ",
-    "lat": 10.169,
-    "lon": 103.995,
+    "name": "EKKA",
+    "station": "EKKA",
+    "lat": 56.293,
+    "lon": 9.114,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 25.0,
-    "windSpeed": 5.0,
-    "windDirection": 330.0,
-    "visibility": "5.59",
+    "temperature": 9.0,
+    "dewpoint": 8.0,
+    "windSpeed": 6.0,
+    "windDirection": 260.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T21:30:00.000Z",
-    "observationTimestamp": "2026-09-21T21:30:00+00:00",
-    "raw": "METAR VVPQ 212130Z 33005KT 9000 SCT015 SCT040 26/25 Q1009 NOSIG"
+    "observationTime": "2026-09-21T21:50:00.000Z",
+    "observationTimestamp": "2026-09-21T21:50:00+00:00",
+    "raw": "METAR EKKA 212150Z AUTO 26006KT 9999 NCD 09/08 Q1027"
   },
   "globalPulse": {
     "population": {
-      "value": 8212244776,
-      "display": "8,212,244,776",
+      "value": 8212245911,
+      "display": "8,212,245,911",
       "source": "U.S. Census Bureau"
     },
     "co2": {
