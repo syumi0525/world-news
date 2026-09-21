@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T19:38:46.444787+00:00",
+  "generatedAt": "2026-09-21T19:48:35.058461+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
-    "artist": "Gardner, Alexander, 1821-1882",
-    "license": "Public domain",
+    "title": "File:Ndongo bridge road.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGMU",
-    "station": "KGMU",
-    "lat": 34.8487,
-    "lon": -82.35,
+    "name": "K2R9",
+    "station": "K2R9",
+    "lat": 28.8267,
+    "lon": -97.8676,
     "weather": "No coded weather",
-    "temperature": 32.2,
+    "temperature": 36.0,
     "dewpoint": 20.0,
-    "windSpeed": null,
-    "windDirection": null,
+    "windSpeed": 8.0,
+    "windDirection": 80.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T19:25:00.000Z",
-    "observationTimestamp": "2026-09-21T19:25:00+00:00",
-    "raw": "SPECI KGMU 211925Z 10SM FEW048 SCT090 32/20 A2996 RMK AO2 LTG DSNT NW T03220200"
+    "observationTime": "2026-09-21T19:35:00.000Z",
+    "observationTimestamp": "2026-09-21T19:35:00+00:00",
+    "raw": "METAR K2R9 211935Z AUTO 08008KT 10SM CLR 36/20 A2989 RMK AO2"
   },
   "randomPlace": {
-    "name": "KO05",
-    "station": "KO05",
-    "lat": 40.2865,
-    "lon": -121.2427,
+    "name": "KLKU",
+    "station": "KLKU",
+    "lat": 38.0085,
+    "lon": -77.9681,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 6.0,
-    "windSpeed": 4.0,
-    "windDirection": 130.0,
+    "temperature": 22.7,
+    "dewpoint": 19.3,
+    "windSpeed": 6.0,
+    "windDirection": 30.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T19:10:00.000Z",
-    "observationTimestamp": "2026-09-21T19:10:00+00:00",
-    "raw": "METAR KO05 211910Z AUTO 13004KT 10SM CLR 22/06 A3005 RMK A01"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-21T19:35:00.000Z",
+    "observationTimestamp": "2026-09-21T19:35:00+00:00",
+    "raw": "METAR KLKU 211935Z AUTO 03006KT 10SM OVC018 23/19 A3004 RMK AO2 T02270193"
   },
   "globalPulse": {
     "population": {
-      "value": 8212229295,
-      "display": "8,212,229,295",
+      "value": 8212230468,
+      "display": "8,212,230,468",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T19:31:00Z",
-      "speed": 333.0
+      "time": "2026-09-21T19:41:00Z",
+      "speed": 330.0
     },
     "magneticField": {
-      "time": "2026-09-21T19:28:00Z",
+      "time": "2026-09-21T19:41:00Z",
       "bt": 4.0,
-      "bz": -3.0
+      "bz": -4.0
     },
     "kp": {
       "time": "2026-09-21T15:00:00",
@@ -113,8 +113,8 @@
       "value": 22.0,
       "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T19:28:00Z",
-      "forecastTime": "2026-09-21T20:50:00Z"
+      "observationTime": "2026-09-21T19:34:00Z",
+      "forecastTime": "2026-09-21T20:55:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
