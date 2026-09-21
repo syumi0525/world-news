@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T09:18:16.923435+00:00",
+  "generatedAt": "2026-09-21T09:33:04.055228+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:08020047.JPG",
-    "artist": "Catalina Holguin",
-    "license": "Public domain",
+    "title": "File:Ndongo carrefour 03.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:08020047.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_carrefour_03.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "BIKF",
-    "station": "BIKF",
-    "lat": 63.987,
-    "lon": -22.614,
-    "weather": "RA DZ BR",
-    "temperature": 10.0,
-    "dewpoint": 10.0,
-    "windSpeed": 31.0,
-    "windDirection": 130.0,
-    "visibility": "1.86",
-    "flightCategory": "IFR",
+    "name": "LQBK",
+    "station": "LQBK",
+    "lat": 44.937,
+    "lon": 17.299,
+    "weather": "No coded weather",
+    "temperature": 20.0,
+    "dewpoint": 12.0,
+    "windSpeed": 1.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-21T09:00:00.000Z",
     "observationTimestamp": "2026-09-21T09:00:00+00:00",
-    "raw": "METAR BIKF 210900Z 13031G43KT 3000 R10/P1500U DZRA BR BKN008 10/10 Q0991"
+    "raw": "METAR LQBK 210900Z VRB01KT 9999 FEW025 SCT045 20/12 Q1025 NOSIG"
   },
   "randomPlace": {
-    "name": "KO61",
-    "station": "KO61",
-    "lat": 38.684,
-    "lon": -120.988,
-    "weather": "No coded weather",
-    "temperature": 16.4,
-    "dewpoint": 10.2,
-    "windSpeed": 3.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T08:55:00.000Z",
-    "observationTimestamp": "2026-09-21T08:55:00+00:00",
-    "raw": "METAR KO61 210855Z AUTO 03003KT 10SM OVC170 16/10 A2990 RMK AO2 T01640102 58004 $"
+    "name": "SAZB",
+    "station": "SAZB",
+    "lat": -38.725,
+    "lon": -62.169,
+    "weather": "-DZ",
+    "temperature": 8.0,
+    "dewpoint": 6.0,
+    "windSpeed": 22.0,
+    "windDirection": 240.0,
+    "visibility": "6+",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-21T09:18:00.000Z",
+    "observationTimestamp": "2026-09-21T09:18:00+00:00",
+    "raw": "SPECI SAZB 210918Z 24022KT 9999 -DZ BKN008 OVC016 08/06 Q1004"
   },
   "globalPulse": {
     "population": {
-      "value": 8212154988,
-      "display": "8,212,154,988",
+      "value": 8212156777,
+      "display": "8,212,156,777",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -86,7 +86,7 @@
       "value": 62.0,
       "display": "62.0%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-21T00:00:00Z"
+      "time": "2026-09-21T06:00:00Z"
     },
     "geomagnetic": {
       "value": 0.3,
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T09:09:00Z",
-      "speed": 345.0
+      "time": "2026-09-21T09:25:00Z",
+      "speed": 341.0
     },
     "magneticField": {
-      "time": "2026-09-21T09:09:00Z",
-      "bt": 3.0,
-      "bz": -1.0
+      "time": "2026-09-21T09:22:00Z",
+      "bt": 4.0,
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-21T06:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T09:09:00Z",
-      "forecastTime": "2026-09-21T10:27:00Z"
+      "observationTime": "2026-09-21T09:25:00Z",
+      "forecastTime": "2026-09-21T10:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
