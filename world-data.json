@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T01:57:02.931420+00:00",
+  "generatedAt": "2026-09-21T02:12:29.715802+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:I will meet you at the depot A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Hüdavendigar Kent Parkı.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%BCdavendigar_Kent_Park%C4%B1.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KONM",
-    "station": "KONM",
-    "lat": 34.0263,
-    "lon": -106.9037,
+    "name": "MMCN",
+    "station": "MMCN",
+    "lat": 27.395,
+    "lon": -109.837,
     "weather": "No coded weather",
-    "temperature": 25.1,
-    "dewpoint": 5.2,
-    "windSpeed": 4.0,
-    "windDirection": 310.0,
+    "temperature": 30.0,
+    "dewpoint": 23.0,
+    "windSpeed": 5.0,
+    "windDirection": 210.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T01:35:00.000Z",
-    "observationTimestamp": "2026-09-21T01:35:00+00:00",
-    "raw": "METAR KONM 210135Z AUTO 31004KT 10SM CLR 25/05 A3011 RMK AO2 T02510052"
+    "observationTime": "2026-09-21T01:40:00.000Z",
+    "observationTimestamp": "2026-09-21T01:40:00+00:00",
+    "raw": "METAR MMCN 210140Z E21005KT 10SM FEW200 30/23 A2985 RMK 8/003 FULYR NW DSNT CB 1ST QUAD"
   },
   "randomPlace": {
-    "name": "ESST",
-    "station": "ESST",
-    "lat": 60.158,
-    "lon": 12.992,
+    "name": "KGPM",
+    "station": "KGPM",
+    "lat": 32.6928,
+    "lon": -97.0485,
     "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 4.0,
-    "windSpeed": 5.0,
-    "windDirection": 290.0,
-    "visibility": "6+",
+    "temperature": 26.0,
+    "dewpoint": 21.3,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T01:50:00.000Z",
-    "observationTimestamp": "2026-09-21T01:50:00+00:00",
-    "raw": "METAR ESST 210150Z AUTO 29005KT 9999 FEW150/// 09/04 Q1006"
+    "observationTime": "2026-09-21T01:55:00.000Z",
+    "observationTimestamp": "2026-09-21T01:55:00+00:00",
+    "raw": "METAR KGPM 210155Z AUTO 00000KT 10SM CLR 26/21 A2990 RMK AO2 T02600213"
   },
   "globalPulse": {
     "population": {
-      "value": 8212102167,
-      "display": "8,212,102,167",
+      "value": 8212104011,
+      "display": "8,212,104,011",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T01:49:00Z",
-      "speed": 348.0
+      "time": "2026-09-21T02:05:00Z",
+      "speed": 363.0
     },
     "magneticField": {
-      "time": "2026-09-21T01:49:00Z",
+      "time": "2026-09-21T02:05:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T01:44:00Z",
-      "forecastTime": "2026-09-21T03:00:00Z"
+      "observationTime": "2026-09-21T02:03:00Z",
+      "forecastTime": "2026-09-21T03:20:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
