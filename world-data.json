@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T05:39:51.030621+00:00",
+  "generatedAt": "2026-09-21T05:52:32.906367+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 092805 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "title": "File:Beaver Boardwalk and Maxwell Lake in Hinton, Alberta.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_092805_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Beaver_Boardwalk_and_Maxwell_Lake_in_Hinton%2C_Alberta.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OISL",
-    "station": "OISL",
-    "lat": 27.67,
-    "lon": 54.375,
+    "name": "KHOU",
+    "station": "KHOU",
+    "lat": 29.6458,
+    "lon": -95.2821,
     "weather": "No coded weather",
-    "temperature": 31.0,
-    "dewpoint": 18.0,
+    "temperature": 27.8,
+    "dewpoint": 24.4,
     "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "6+",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T05:00:00.000Z",
-    "observationTimestamp": "2026-09-21T05:00:00+00:00",
-    "raw": "METAR OISL 210500Z 00000KT CAVOK 31/18 Q1015 A3000 NOSIG"
+    "observationTime": "2026-09-21T04:53:00.000Z",
+    "observationTimestamp": "2026-09-21T04:53:00+00:00",
+    "raw": "METAR KHOU 210453Z 00000KT 10SM FEW020 BKN270 28/24 A2993 RMK AO2 SLP137 T02780244 $"
   },
   "randomPlace": {
-    "name": "CYXX",
-    "station": "CYXX",
-    "lat": 49.027,
-    "lon": -122.377,
-    "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 11.0,
-    "windSpeed": 2.0,
-    "windDirection": 160.0,
-    "visibility": "15",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T05:00:00.000Z",
-    "observationTimestamp": "2026-09-21T05:00:00+00:00",
-    "raw": "METAR CYXX 210500Z 16002KT 15SM SCT240 12/11 A3000 RMK CI3 SLP163"
+    "name": "KSHM",
+    "station": "KSHM",
+    "lat": 38.8,
+    "lon": -104.52,
+    "weather": "VCTS",
+    "temperature": 14.4,
+    "dewpoint": 12.8,
+    "windSpeed": 9.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-21T04:55:00.000Z",
+    "observationTimestamp": "2026-09-21T04:55:00+00:00",
+    "raw": "METAR KSHM 210455Z AUTO 06009KT 10SM VCTS OVC008 14/13 A3024 RMK AO2 PRESRR SLP176 T01440128 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212128860,
-      "display": "8,212,128,860",
+      "value": 8212130382,
+      "display": "8,212,130,382",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T05:29:00Z",
-      "speed": 356.0
+      "time": "2026-09-21T05:44:00Z",
+      "speed": 345.0
     },
     "magneticField": {
-      "time": "2026-09-21T05:29:00Z",
+      "time": "2026-09-21T05:44:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-21T00:00:00",
@@ -113,8 +113,8 @@
       "value": 18.0,
       "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T05:29:00Z",
-      "forecastTime": "2026-09-21T06:45:00Z"
+      "observationTime": "2026-09-21T05:39:00Z",
+      "forecastTime": "2026-09-21T06:55:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
