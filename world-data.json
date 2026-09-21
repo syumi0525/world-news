@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T07:49:39.847207+00:00",
+  "generatedAt": "2026-09-21T08:00:05.193536+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AcapulcoJulio2024.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
+    "title": "File:Bird nests.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OEGS",
-    "station": "OEGS",
-    "lat": 26.303,
-    "lon": 43.774,
+    "name": "OMDW",
+    "station": "OMDW",
+    "lat": 24.897,
+    "lon": 55.161,
     "weather": "No coded weather",
-    "temperature": 35.0,
-    "dewpoint": 6.0,
-    "windSpeed": 7.0,
-    "windDirection": 150.0,
+    "temperature": 38.0,
+    "dewpoint": 17.0,
+    "windSpeed": 6.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T07:00:00.000Z",
-    "observationTimestamp": "2026-09-21T07:00:00+00:00",
-    "raw": "METAR OEGS 210700Z 15007KT CAVOK 35/06 Q1016 NOSIG"
+    "observationTime": "2026-09-21T07:30:00.000Z",
+    "observationTimestamp": "2026-09-21T07:30:00+00:00",
+    "raw": "METAR OMDW 210730Z VRB06KT CAVOK 38/17 Q1011 NOSIG"
   },
   "randomPlace": {
-    "name": "KORF",
-    "station": "KORF",
-    "lat": 36.9037,
-    "lon": -76.1927,
+    "name": "KIKK",
+    "station": "KIKK",
+    "lat": 41.0687,
+    "lon": -87.8537,
     "weather": "No coded weather",
-    "temperature": 23.3,
-    "dewpoint": 21.7,
-    "windSpeed": 8.0,
-    "windDirection": 220.0,
+    "temperature": 15.7,
+    "dewpoint": 14.9,
+    "windSpeed": 6.0,
+    "windDirection": 50.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T06:51:00.000Z",
-    "observationTimestamp": "2026-09-21T06:51:00+00:00",
-    "raw": "METAR KORF 210651Z 22008KT 10SM CLR 23/22 A2993 RMK AO2 SLP133 T02330217 $"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-21T07:35:00.000Z",
+    "observationTimestamp": "2026-09-21T07:35:00+00:00",
+    "raw": "METAR KIKK 210735Z AUTO 05006KT 10SM SCT009 OVC023 16/15 A3006 RMK AO2 LTG DSNT SE T01570149"
   },
   "globalPulse": {
     "population": {
-      "value": 8212144381,
-      "display": "8,212,144,381",
+      "value": 8212145630,
+      "display": "8,212,145,630",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T07:39:00Z",
+      "time": "2026-09-21T07:49:00Z",
       "speed": 346.0
     },
     "magneticField": {
-      "time": "2026-09-21T07:39:00Z",
+      "time": "2026-09-21T07:49:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T07:39:00Z",
-      "forecastTime": "2026-09-21T08:57:00Z"
+      "observationTime": "2026-09-21T07:49:00Z",
+      "forecastTime": "2026-09-21T09:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
