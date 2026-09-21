@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T22:43:02.955193+00:00",
+  "generatedAt": "2026-09-21T22:54:53.905704+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Am Ludwigskanal bei Schwarzenbruck.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peukerthomas1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peukerthomas1 (page does not exist)\">Peukerthomas1</a>",
+    "title": "File:30BY35 home plan by ER. AYUSH TOMAR 9997233546.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Erayushtomar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Erayushtomar (page does not exist)\">Erayushtomar</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Am_Ludwigskanal_bei_Schwarzenbruck.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:30BY35_home_plan_by_ER._AYUSH_TOMAR_9997233546.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KUES",
-    "station": "KUES",
-    "lat": 43.0425,
-    "lon": -88.2465,
+    "name": "CXEG",
+    "station": "CXEG",
+    "lat": 53.307,
+    "lon": -113.606,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 9.0,
+    "temperature": 27.8,
+    "dewpoint": 1.2,
     "windSpeed": 9.0,
-    "windDirection": 60.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T21:45:00.000Z",
-    "observationTimestamp": "2026-09-21T21:45:00+00:00",
-    "raw": "METAR KUES 212145Z 06009G14KT 10SM FEW025 SCT031 BKN120 15/09 A3020"
+    "windDirection": 220.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-21T22:00:00.000Z",
+    "observationTimestamp": "2026-09-21T22:00:00+00:00",
+    "raw": "METAR CXEG 212200Z AUTO 22009KT 28/01 RMK AO1 SLP074 T02780012 56018"
   },
   "randomPlace": {
-    "name": "KHFD",
-    "station": "KHFD",
-    "lat": 41.7352,
-    "lon": -72.6512,
-    "weather": "No coded weather",
-    "temperature": 19.4,
-    "dewpoint": 10.6,
-    "windSpeed": 11.0,
-    "windDirection": 10.0,
+    "name": "KDED",
+    "station": "KDED",
+    "lat": 29.075,
+    "lon": -81.286,
+    "weather": "VCTS",
+    "temperature": 27.9,
+    "dewpoint": 23.5,
+    "windSpeed": 8.0,
+    "windDirection": 80.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T21:53:00.000Z",
-    "observationTimestamp": "2026-09-21T21:53:00+00:00",
-    "raw": "METAR KHFD 212153Z 01011KT 10SM SCT055 19/11 A3012 RMK AO2 SLP198 T01940106"
+    "observationTime": "2026-09-21T22:30:00.000Z",
+    "observationTimestamp": "2026-09-21T22:30:00+00:00",
+    "raw": "METAR KDED 212230Z AUTO 08008KT 10SM VCTS CLR 28/24 A2989 RMK AO2 LTG DSNT E SE AND NW T02790235"
   },
   "globalPulse": {
     "population": {
-      "value": 8212251352,
-      "display": "8,212,251,352",
+      "value": 8212252771,
+      "display": "8,212,252,771",
       "source": "U.S. Census Bureau"
     },
     "co2": {
