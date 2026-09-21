@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T15:42:34.693228+00:00",
+  "generatedAt": "2026-09-21T15:55:59.204635+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 102129 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
-    "license": "CC0",
+    "title": "File:DSC 9881 (49995148081).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94157272@N06\">Scott Willoughby</a>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_102129_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:DSC_9881_%2849995148081%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBQP",
-    "station": "KBQP",
-    "lat": 32.7583,
-    "lon": -91.8793,
+    "name": "KHDE",
+    "station": "KHDE",
+    "lat": 40.4496,
+    "lon": -99.3363,
     "weather": "No coded weather",
-    "temperature": 32.6,
-    "dewpoint": 21.8,
-    "windSpeed": 6.0,
-    "windDirection": 300.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-21T15:10:00.000Z",
-    "observationTimestamp": "2026-09-21T15:10:00+00:00",
-    "raw": "METAR KBQP 211510Z AUTO 30006KT OVC004 33/22 A2999 RMK AO2 T03260218 PWINO"
-  },
-  "randomPlace": {
-    "name": "KEZS",
-    "station": "KEZS",
-    "lat": 44.7871,
-    "lon": -88.564,
-    "weather": "No coded weather",
-    "temperature": 15.7,
-    "dewpoint": 8.9,
-    "windSpeed": 10.0,
-    "windDirection": 60.0,
+    "temperature": 18.4,
+    "dewpoint": 15.2,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-21T15:35:00.000Z",
     "observationTimestamp": "2026-09-21T15:35:00+00:00",
-    "raw": "METAR KEZS 211535Z AUTO 06010G14KT 10SM CLR 16/09 A3033 RMK AO2 T01570089"
+    "raw": "METAR KHDE 211535Z AUTO 00000KT 10SM BKN011 BKN016 OVC023 18/15 A3016 RMK AO2 T01840152"
+  },
+  "randomPlace": {
+    "name": "KELK",
+    "station": "KELK",
+    "lat": 35.4261,
+    "lon": -99.3926,
+    "weather": "No coded weather",
+    "temperature": 19.4,
+    "dewpoint": 19.4,
+    "windSpeed": 13.0,
+    "windDirection": 10.0,
+    "visibility": "9",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-21T15:35:00.000Z",
+    "observationTimestamp": "2026-09-21T15:35:00+00:00",
+    "raw": "METAR KELK 211535Z AUTO 01013KT 9SM OVC006 19/19 A3010 RMK AO2 T01940194 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212201016,
-      "display": "8,212,201,016",
+      "value": 8212202622,
+      "display": "8,212,202,622",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T15:30:00Z",
-      "speed": 323.0
+      "time": "2026-09-21T15:46:00Z",
+      "speed": 326.0
     },
     "magneticField": {
-      "time": "2026-09-21T15:33:00Z",
+      "time": "2026-09-21T15:46:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-21T12:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T15:28:00Z",
-      "forecastTime": "2026-09-21T16:51:00Z"
+      "observationTime": "2026-09-21T15:44:00Z",
+      "forecastTime": "2026-09-21T17:06:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
