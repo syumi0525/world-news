@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T13:32:14.093704+00:00",
+  "generatedAt": "2026-09-21T13:48:39.880834+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Aalsmeer, Westeinderplas en watertoren.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Manifestas&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Manifestas (page does not exist)\">Manifestas</a>",
-    "license": "CC0",
+    "title": "File:Danau Tigi - Deiyai.jpg",
+    "artist": "Government of Deiyai, Indonesia",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Aalsmeer%2C_Westeinderplas_en_watertoren.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCWI",
-    "station": "KCWI",
-    "lat": 41.8295,
-    "lon": -90.3328,
-    "weather": "BR",
-    "temperature": 15.0,
-    "dewpoint": 14.0,
-    "windSpeed": 8.0,
-    "windDirection": 70.0,
-    "visibility": "4",
+    "name": "K2W6",
+    "station": "K2W6",
+    "lat": 38.315,
+    "lon": -76.55,
+    "weather": "No coded weather",
+    "temperature": 21.2,
+    "dewpoint": 19.5,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-21T13:17:00.000Z",
-    "observationTimestamp": "2026-09-21T13:17:00+00:00",
-    "raw": "SPECI KCWI 211317Z AUTO 07008KT 4SM BR SCT013 OVC030 15/14 A3013 RMK AO2"
+    "observationTime": "2026-09-21T13:35:00.000Z",
+    "observationTimestamp": "2026-09-21T13:35:00+00:00",
+    "raw": "METAR K2W6 211335Z AUTO 00000KT 10SM OVC015 21/20 A3004 RMK AO2 CIG 014V019 T02120195 $"
   },
   "randomPlace": {
-    "name": "SARF",
-    "station": "SARF",
-    "lat": -26.213,
-    "lon": -58.228,
+    "name": "KGUL",
+    "station": "KGUL",
+    "lat": 27.3039,
+    "lon": -93.5383,
     "weather": "No coded weather",
-    "temperature": 31.0,
-    "dewpoint": 22.0,
-    "windSpeed": 5.0,
-    "windDirection": 360.0,
-    "visibility": "5.59",
+    "temperature": 30.0,
+    "dewpoint": 24.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T13:00:00.000Z",
-    "observationTimestamp": "2026-09-21T13:00:00+00:00",
-    "raw": "METAR SARF 211300Z 36005KT 9000 NSC 31/22 Q1004"
+    "observationTime": "2026-09-21T13:40:00.000Z",
+    "observationTimestamp": "2026-09-21T13:40:00+00:00",
+    "raw": "METAR KGUL 211340Z AUTO 00000KT 10SM CLR 30/24 A2991 RMK A01"
   },
   "globalPulse": {
     "population": {
-      "value": 8212185387,
-      "display": "8,212,185,387",
+      "value": 8212187355,
+      "display": "8,212,187,355",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T13:26:00Z",
-      "speed": 328.0
+      "time": "2026-09-21T13:41:00Z",
+      "speed": 326.0
     },
     "magneticField": {
-      "time": "2026-09-21T13:26:00Z",
+      "time": "2026-09-21T13:41:00Z",
       "bt": 4.0,
       "bz": -1.0
     },
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T13:21:00Z",
-      "forecastTime": "2026-09-21T14:41:00Z"
+      "observationTime": "2026-09-21T13:39:00Z",
+      "forecastTime": "2026-09-21T15:01:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
