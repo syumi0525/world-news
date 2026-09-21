@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T05:52:32.906367+00:00",
+  "generatedAt": "2026-09-21T06:13:18.952503+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Beaver Boardwalk and Maxwell Lake in Hinton, Alberta.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
+    "title": "File:Ndongo carrefour 05.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Beaver_Boardwalk_and_Maxwell_Lake_in_Hinton%2C_Alberta.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_carrefour_05.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHOU",
-    "station": "KHOU",
-    "lat": 29.6458,
-    "lon": -95.2821,
-    "weather": "No coded weather",
-    "temperature": 27.8,
-    "dewpoint": 24.4,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T04:53:00.000Z",
-    "observationTimestamp": "2026-09-21T04:53:00+00:00",
-    "raw": "METAR KHOU 210453Z 00000KT 10SM FEW020 BKN270 28/24 A2993 RMK AO2 SLP137 T02780244 $"
+    "name": "KCMI",
+    "station": "KCMI",
+    "lat": 40.0324,
+    "lon": -88.2755,
+    "weather": "RA BR",
+    "temperature": 18.3,
+    "dewpoint": 17.8,
+    "windSpeed": 12.0,
+    "windDirection": 60.0,
+    "visibility": "5",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-21T05:53:00.000Z",
+    "observationTimestamp": "2026-09-21T05:53:00+00:00",
+    "raw": "METAR KCMI 210553Z AUTO 06012KT 5SM RA BR BKN007 OVC032 18/18 A2998 RMK AO2 SLP148 P0047 60102 T01830178 10217 20183 402830183 50002"
   },
   "randomPlace": {
-    "name": "KSHM",
-    "station": "KSHM",
-    "lat": 38.8,
-    "lon": -104.52,
-    "weather": "VCTS",
-    "temperature": 14.4,
-    "dewpoint": 12.8,
-    "windSpeed": 9.0,
-    "windDirection": 60.0,
-    "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-21T04:55:00.000Z",
-    "observationTimestamp": "2026-09-21T04:55:00+00:00",
-    "raw": "METAR KSHM 210455Z AUTO 06009KT 10SM VCTS OVC008 14/13 A3024 RMK AO2 PRESRR SLP176 T01440128 $"
+    "name": "SLCB",
+    "station": "SLCB",
+    "lat": -17.421,
+    "lon": -66.179,
+    "weather": "No coded weather",
+    "temperature": 13.0,
+    "dewpoint": 5.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T06:00:00.000Z",
+    "observationTimestamp": "2026-09-21T06:00:00+00:00",
+    "raw": "METAR SLCB 210600Z 00000KT 9999 NSC 13/05 Q1024 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212130382,
-      "display": "8,212,130,382",
+      "value": 8212132844,
+      "display": "8,212,132,844",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-21T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.7,
-      "display": "Kp 1.7",
+      "value": 1.0,
+      "display": "Kp 1.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-21T00:00:00"
+      "time": "2026-09-21T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T05:44:00Z",
-      "speed": 345.0
+      "time": "2026-09-21T06:05:00Z",
+      "speed": 342.0
     },
     "magneticField": {
-      "time": "2026-09-21T05:44:00Z",
+      "time": "2026-09-21T06:05:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
     "kp": {
-      "time": "2026-09-21T00:00:00",
-      "kp": 1.67
+      "time": "2026-09-21T03:00:00",
+      "kp": 1.0
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T05:39:00Z",
-      "forecastTime": "2026-09-21T06:55:00Z"
+      "observationTime": "2026-09-21T06:03:00Z",
+      "forecastTime": "2026-09-21T07:21:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
