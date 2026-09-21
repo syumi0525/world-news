@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T19:48:35.058461+00:00",
+  "generatedAt": "2026-09-21T19:58:16.444028+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:20260803 183933 Gartenanlage Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_183933_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K2R9",
-    "station": "K2R9",
-    "lat": 28.8267,
-    "lon": -97.8676,
+    "name": "KMKE",
+    "station": "KMKE",
+    "lat": 42.9549,
+    "lon": -87.9045,
     "weather": "No coded weather",
-    "temperature": 36.0,
-    "dewpoint": 20.0,
-    "windSpeed": 8.0,
-    "windDirection": 80.0,
+    "temperature": 16.7,
+    "dewpoint": 11.7,
+    "windSpeed": 14.0,
+    "windDirection": 50.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T19:35:00.000Z",
-    "observationTimestamp": "2026-09-21T19:35:00+00:00",
-    "raw": "METAR K2R9 211935Z AUTO 08008KT 10SM CLR 36/20 A2989 RMK AO2"
+    "observationTime": "2026-09-21T19:52:00.000Z",
+    "observationTimestamp": "2026-09-21T19:52:00+00:00",
+    "raw": "METAR KMKE 211952Z 05014G21KT 10SM FEW023 BKN035 BKN120 17/12 A3018 RMK AO2 SLP220 T01670117"
   },
   "randomPlace": {
-    "name": "KLKU",
-    "station": "KLKU",
-    "lat": 38.0085,
-    "lon": -77.9681,
+    "name": "K1P1",
+    "station": "K1P1",
+    "lat": 43.7771,
+    "lon": -71.756,
     "weather": "No coded weather",
-    "temperature": 22.7,
-    "dewpoint": 19.3,
-    "windSpeed": 6.0,
-    "windDirection": 30.0,
+    "temperature": 17.0,
+    "dewpoint": 7.5,
+    "windSpeed": 9.0,
+    "windDirection": 280.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-21T19:35:00.000Z",
-    "observationTimestamp": "2026-09-21T19:35:00+00:00",
-    "raw": "METAR KLKU 211935Z AUTO 03006KT 10SM OVC018 23/19 A3004 RMK AO2 T02270193"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T19:55:00.000Z",
+    "observationTimestamp": "2026-09-21T19:55:00+00:00",
+    "raw": "METAR K1P1 211955Z AUTO 28009G15KT 10SM SCT044 17/08 A3015 RMK AO2 T01700075"
   },
   "globalPulse": {
     "population": {
-      "value": 8212230468,
-      "display": "8,212,230,468",
+      "value": 8212231627,
+      "display": "8,212,231,627",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T19:41:00Z",
-      "speed": 330.0
+      "time": "2026-09-21T19:49:00Z",
+      "speed": 336.0
     },
     "magneticField": {
-      "time": "2026-09-21T19:41:00Z",
+      "time": "2026-09-21T19:49:00Z",
       "bt": 4.0,
       "bz": -4.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 23.0,
+      "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T19:34:00Z",
-      "forecastTime": "2026-09-21T20:55:00Z"
+      "observationTime": "2026-09-21T19:49:00Z",
+      "forecastTime": "2026-09-21T21:10:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
