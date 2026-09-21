@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T17:54:56.173739+00:00",
+  "generatedAt": "2026-09-21T18:11:12.105850+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:Redflower Ragtrail.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Saosukham\" title=\"User:Saosukham\">Saosukham</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Redflower_Ragtrail.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SKBO",
-    "station": "SKBO",
-    "lat": 4.706,
-    "lon": -74.151,
+    "name": "ENOL",
+    "station": "ENOL",
+    "lat": 63.703,
+    "lon": 9.609,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 9.0,
-    "windSpeed": 4.0,
-    "windDirection": 40.0,
+    "temperature": 10.0,
+    "dewpoint": 6.0,
+    "windSpeed": 6.0,
+    "windDirection": 310.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T17:00:00.000Z",
-    "observationTimestamp": "2026-09-21T17:00:00+00:00",
-    "raw": "METAR SKBO 211700Z 04004KT 330V080 9999 BKN040 BKN065 19/09 Q1029 NOSIG"
+    "observationTime": "2026-09-21T17:50:00.000Z",
+    "observationTimestamp": "2026-09-21T17:50:00+00:00",
+    "raw": "METAR ENOL 211750Z 31006KT 9999 FEW025 10/06 Q1024 NOSIG"
   },
   "randomPlace": {
-    "name": "CZFS",
-    "station": "CZFS",
-    "lat": 61.76,
-    "lon": -121.23,
+    "name": "SCCI",
+    "station": "SCCI",
+    "lat": -53.003,
+    "lon": -70.855,
     "weather": "No coded weather",
-    "temperature": 16.1,
-    "dewpoint": -0.4,
-    "windSpeed": 8.0,
-    "windDirection": 230.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-21T17:00:00.000Z",
-    "observationTimestamp": "2026-09-21T17:00:00+00:00",
-    "raw": "METAR CZFS 211700Z AUTO 23008KT 16/M00 RMK AO1 SLP002 T01611004 56002"
+    "temperature": 5.0,
+    "dewpoint": -5.0,
+    "windSpeed": 13.0,
+    "windDirection": 280.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T18:00:00.000Z",
+    "observationTimestamp": "2026-09-21T18:00:00+00:00",
+    "raw": "METAR SCCI 211800Z 28013KT 9999 BKN045 05/M05 Q1019 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212216860,
-      "display": "8,212,216,860",
+      "value": 8212218810,
+      "display": "8,212,218,810",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-21T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.7,
-      "display": "Kp 0.7",
+      "value": 0.3,
+      "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-21T12:00:00"
+      "time": "2026-09-21T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T17:44:00Z",
-      "speed": 332.0
+      "time": "2026-09-21T18:02:00Z",
+      "speed": 322.0
     },
     "magneticField": {
-      "time": "2026-09-21T17:44:00Z",
+      "time": "2026-09-21T18:02:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
-      "time": "2026-09-21T12:00:00",
-      "kp": 0.67
+      "time": "2026-09-21T15:00:00",
+      "kp": 0.33
     },
     "aurora": {
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T17:44:00Z",
-      "forecastTime": "2026-09-21T19:06:00Z"
+      "observationTime": "2026-09-21T18:00:00Z",
+      "forecastTime": "2026-09-21T19:21:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
