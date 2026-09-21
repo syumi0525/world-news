@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T22:54:53.905704+00:00",
+  "generatedAt": "2026-09-21T23:08:52.885550+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:30BY35 home plan by ER. AYUSH TOMAR 9997233546.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Erayushtomar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Erayushtomar (page does not exist)\">Erayushtomar</a>",
-    "license": "CC0",
+    "title": "File:Danau Tigi - Deiyai.jpg",
+    "artist": "Government of Deiyai, Indonesia",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:30BY35_home_plan_by_ER._AYUSH_TOMAR_9997233546.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CXEG",
-    "station": "CXEG",
-    "lat": 53.307,
-    "lon": -113.606,
+    "name": "CWRY",
+    "station": "CWRY",
+    "lat": 49.133,
+    "lon": -112.051,
     "weather": "No coded weather",
-    "temperature": 27.8,
-    "dewpoint": 1.2,
-    "windSpeed": 9.0,
-    "windDirection": 220.0,
+    "temperature": 23.7,
+    "dewpoint": 7.5,
+    "windSpeed": 13.0,
+    "windDirection": 180.0,
     "visibility": "N/A",
     "flightCategory": "null",
     "observationTime": "2026-09-21T22:00:00.000Z",
     "observationTimestamp": "2026-09-21T22:00:00+00:00",
-    "raw": "METAR CXEG 212200Z AUTO 22009KT 28/01 RMK AO1 SLP074 T02780012 56018"
+    "raw": "METAR CWRY 212200Z AUTO 18013G18KT 24/08 RMK AO1 PK WND 17019/2119 SLP141 T02370075 56019"
   },
   "randomPlace": {
-    "name": "KDED",
-    "station": "KDED",
-    "lat": 29.075,
-    "lon": -81.286,
-    "weather": "VCTS",
-    "temperature": 27.9,
-    "dewpoint": 23.5,
-    "windSpeed": 8.0,
-    "windDirection": 80.0,
+    "name": "KFVX",
+    "station": "KFVX",
+    "lat": 37.363,
+    "lon": -78.4372,
+    "weather": "No coded weather",
+    "temperature": 24.7,
+    "dewpoint": 22.4,
+    "windSpeed": 3.0,
+    "windDirection": 350.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T22:30:00.000Z",
-    "observationTimestamp": "2026-09-21T22:30:00+00:00",
-    "raw": "METAR KDED 212230Z AUTO 08008KT 10SM VCTS CLR 28/24 A2989 RMK AO2 LTG DSNT E SE AND NW T02790235"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-21T22:55:00.000Z",
+    "observationTimestamp": "2026-09-21T22:55:00+00:00",
+    "raw": "METAR KFVX 212255Z AUTO 35003KT 10SM BKN018 OVC023 25/22 A3000 RMK AO2 T02470224"
   },
   "globalPulse": {
     "population": {
-      "value": 8212252771,
-      "display": "8,212,252,771",
+      "value": 8212254445,
+      "display": "8,212,254,445",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T22:23:00Z",
-      "speed": 335.0
+      "time": "2026-09-21T22:59:00Z",
+      "speed": 336.0
     },
     "magneticField": {
-      "time": "2026-09-21T22:23:00Z",
+      "time": "2026-09-21T22:59:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": -4.0
     },
     "kp": {
       "time": "2026-09-21T18:00:00",
       "kp": 0.0
     },
     "aurora": {
-      "value": 30.0,
-      "display": "MAX 30.0%",
+      "value": 31.0,
+      "display": "MAX 31.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T22:18:00Z",
-      "forecastTime": "2026-09-21T23:39:00Z"
+      "observationTime": "2026-09-21T22:59:00Z",
+      "forecastTime": "2026-09-22T00:19:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
