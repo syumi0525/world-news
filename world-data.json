@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T08:20:11.369113+00:00",
+  "generatedAt": "2026-09-21T08:35:09.938727+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo carrefour 05.jpg",
+    "title": "File:Ndongo Baptist Church.jpg",
     "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_carrefour_05.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_Baptist_Church.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KELA",
-    "station": "KELA",
-    "lat": 29.602,
-    "lon": -96.3239,
+    "name": "KGFA",
+    "station": "KGFA",
+    "lat": 47.505,
+    "lon": -111.187,
     "weather": "No coded weather",
-    "temperature": 24.7,
-    "dewpoint": 24.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 11.6,
+    "dewpoint": 6.3,
+    "windSpeed": 7.0,
+    "windDirection": 180.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-21T07:55:00.000Z",
     "observationTimestamp": "2026-09-21T07:55:00+00:00",
-    "raw": "METAR KELA 210755Z AUTO 00000KT 10SM CLR 25/24 A2992 RMK AO2 T02470241"
+    "raw": "METAR KGFA 210755Z 18007KT 10SM FEW220 12/06 A3011 RMK AO2A SLP189 T01160063 $"
   },
   "randomPlace": {
-    "name": "KMRY",
-    "station": "KMRY",
-    "lat": 36.5904,
-    "lon": -121.8488,
+    "name": "FAPE",
+    "station": "FAPE",
+    "lat": -33.985,
+    "lon": 25.617,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 12.2,
+    "temperature": 20.0,
+    "dewpoint": 18.0,
     "windSpeed": 6.0,
-    "windDirection": 250.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-21T07:54:00.000Z",
-    "observationTimestamp": "2026-09-21T07:54:00+00:00",
-    "raw": "METAR KMRY 210754Z AUTO 25006KT 10SM OVC012 15/12 A2998 RMK AO2 SLP162 T01500122 401670139"
+    "windDirection": 190.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T08:00:00.000Z",
+    "observationTimestamp": "2026-09-21T08:00:00+00:00",
+    "raw": "METAR FAPE 210800Z 19006KT 160V220 9999 SCT009 BKN035 20/18 Q1023 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212148032,
-      "display": "8,212,148,032",
+      "value": 8212149824,
+      "display": "8,212,149,824",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T08:12:00Z",
-      "speed": 343.0
+      "time": "2026-09-21T08:25:00Z",
+      "speed": 340.0
     },
     "magneticField": {
-      "time": "2026-09-21T08:12:00Z",
+      "time": "2026-09-21T08:25:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T08:10:00Z",
-      "forecastTime": "2026-09-21T09:27:00Z"
+      "observationTime": "2026-09-21T08:23:00Z",
+      "forecastTime": "2026-09-21T09:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
