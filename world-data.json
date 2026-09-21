@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T03:59:36.863110+00:00",
+  "generatedAt": "2026-09-21T04:18:22.056353+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bishopsteignton in 2006.jpg",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
+    "title": "File:120917-D-FZ387-005.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:120917-D-FZ387-005.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1V6",
-    "station": "K1V6",
-    "lat": 38.4256,
-    "lon": -105.1048,
+    "name": "KARG",
+    "station": "KARG",
+    "lat": 36.1256,
+    "lon": -90.9216,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 12.0,
+    "temperature": 26.1,
+    "dewpoint": 20.0,
     "windSpeed": 11.0,
-    "windDirection": 80.0,
+    "windDirection": 310.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T03:35:00.000Z",
-    "observationTimestamp": "2026-09-21T03:35:00+00:00",
-    "raw": "METAR K1V6 210335Z AUTO 08011KT 10SM BKN042 BKN047 OVC055 19/12 A3022 RMK AO1 LTG DSNT E"
+    "observationTime": "2026-09-21T03:56:00.000Z",
+    "observationTimestamp": "2026-09-21T03:56:00+00:00",
+    "raw": "METAR KARG 210356Z AUTO 31011G14KT 10SM FEW080 26/20 A2991 RMK AO2 SLP127 T02610200 $"
   },
   "randomPlace": {
-    "name": "URMM",
-    "station": "URMM",
-    "lat": 44.225,
-    "lon": 43.082,
+    "name": "KGRF",
+    "station": "KGRF",
+    "lat": 47.079,
+    "lon": -122.58,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 16.0,
-    "windSpeed": 6.0,
-    "windDirection": 90.0,
-    "visibility": "5.59",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-21T03:30:00.000Z",
-    "observationTimestamp": "2026-09-21T03:30:00+00:00",
-    "raw": "METAR URMM 210330Z 09003MPS 9000 OVC007 16/16 Q1020 R11/010070 NOSIG RMK MT OBSC OBST OBSC QFE736/0982"
+    "temperature": 15.6,
+    "dewpoint": 11.2,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T03:55:00.000Z",
+    "observationTimestamp": "2026-09-21T03:55:00+00:00",
+    "raw": "METAR KGRF 210355Z AUTO 00000KT 10SM CLR 16/11 A2997 RMK AO2 SLP152 T01560112 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212116862,
-      "display": "8,212,116,862",
+      "value": 8212119107,
+      "display": "8,212,119,107",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T03:50:00Z",
-      "speed": 343.0
+      "time": "2026-09-21T04:10:00Z",
+      "speed": 347.0
     },
     "magneticField": {
-      "time": "2026-09-21T03:50:00Z",
+      "time": "2026-09-21T04:10:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-21T00:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T03:50:00Z",
-      "forecastTime": "2026-09-21T05:07:00Z"
+      "observationTime": "2026-09-21T04:04:00Z",
+      "forecastTime": "2026-09-21T05:22:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
