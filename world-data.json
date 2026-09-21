@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T16:58:38.645049+00:00",
+  "generatedAt": "2026-09-21T17:13:24.836795+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:PKP PLK SWDR nastawnia CS.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cody3223&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cody3223 (page does not exist)\">Cody3223</a>",
+    "title": "File:500px photo (191024875).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/GennadySurmach\">Gennady Surmach</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:PKP_PLK_SWDR_nastawnia_CS.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28191024875%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KI74",
-    "station": "KI74",
-    "lat": 40.1314,
-    "lon": -83.757,
+    "name": "K1CM",
+    "station": "K1CM",
+    "lat": 47.096,
+    "lon": -110.164,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 15.0,
-    "windSpeed": 12.0,
+    "temperature": 20.6,
+    "dewpoint": 7.6,
+    "windSpeed": 6.0,
     "windDirection": 70.0,
     "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-21T16:35:00.000Z",
-    "observationTimestamp": "2026-09-21T16:35:00+00:00",
-    "raw": "METAR KI74 211635Z AUTO 07012G20KT 10SM OVC006 15/15 A2999 RMK AO2 P0001"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T16:55:00.000Z",
+    "observationTimestamp": "2026-09-21T16:55:00+00:00",
+    "raw": "METAR K1CM 211655Z AUTO 07006KT 10SM CLR 21/08 A3011 RMK AO2 SLP183 T02060076 $"
   },
   "randomPlace": {
-    "name": "PAKF",
-    "station": "PAKF",
-    "lat": 54.85,
-    "lon": -163.409,
-    "weather": "-RA",
-    "temperature": 6.0,
-    "dewpoint": 3.0,
-    "windSpeed": 11.0,
-    "windDirection": 310.0,
+    "name": "K9S9",
+    "station": "K9S9",
+    "lat": 45.4551,
+    "lon": -119.6859,
+    "weather": "No coded weather",
+    "temperature": 22.0,
+    "dewpoint": 8.0,
+    "windSpeed": 6.0,
+    "windDirection": 320.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T16:06:00.000Z",
-    "observationTimestamp": "2026-09-21T16:06:00+00:00",
-    "raw": "SPECI PAKF 211606Z AUTO 31011G21KT 10SM -RA FEW020 SCT024 OVC033 06/03 A2987 RMK AO2 P0060"
+    "observationTime": "2026-09-21T16:55:00.000Z",
+    "observationTimestamp": "2026-09-21T16:55:00+00:00",
+    "raw": "METAR K9S9 211655Z AUTO 32006KT 10SM CLR 22/08 A3001 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212210122,
-      "display": "8,212,210,122",
+      "value": 8212211888,
+      "display": "8,212,211,888",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T16:49:00Z",
-      "speed": 319.0
+      "time": "2026-09-21T17:05:00Z",
+      "speed": 325.0
     },
     "magneticField": {
-      "time": "2026-09-21T16:49:00Z",
+      "time": "2026-09-21T17:05:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-21T12:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T16:44:00Z",
-      "forecastTime": "2026-09-21T18:06:00Z"
+      "observationTime": "2026-09-21T17:05:00Z",
+      "forecastTime": "2026-09-21T18:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
