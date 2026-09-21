@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T12:16:28.322264+00:00",
+  "generatedAt": "2026-09-21T12:34:49.446444+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
-    "license": "CC0",
+    "title": "File:Benue River (early 1900s).jpg",
+    "artist": "Hans Dominik",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Benue_River_%28early_1900s%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EISG",
-    "station": "EISG",
-    "lat": 54.28,
-    "lon": -8.599,
+    "name": "KINW",
+    "station": "KINW",
+    "lat": 35.0279,
+    "lon": -110.7221,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 16.0,
-    "windSpeed": 3.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 13.9,
+    "dewpoint": 10.0,
+    "windSpeed": 5.0,
+    "windDirection": 120.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T11:30:00.000Z",
-    "observationTimestamp": "2026-09-21T11:30:00+00:00",
-    "raw": "METAR EISG 211130Z VRB03KT 9999 FEW012 SCT016 20/16 Q1029"
+    "observationTime": "2026-09-21T11:56:00.000Z",
+    "observationTimestamp": "2026-09-21T11:56:00+00:00",
+    "raw": "METAR KINW 211156Z AUTO 12005KT 10SM CLR 14/10 A3016 RMK AO2 SLP147 T01390100 10183 20139 53000"
   },
   "randomPlace": {
-    "name": "KFPY",
-    "station": "KFPY",
-    "lat": 30.0719,
-    "lon": -83.5731,
-    "weather": "BR",
-    "temperature": 21.6,
-    "dewpoint": 21.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "3",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-21T11:55:00.000Z",
-    "observationTimestamp": "2026-09-21T11:55:00+00:00",
-    "raw": "METAR KFPY 211155Z AUTO 00000KT 3SM BR OVC002 22/21 A2996 RMK AO2 70066 T02160211 10221 20210"
+    "name": "OERK",
+    "station": "OERK",
+    "lat": 24.945,
+    "lon": 46.702,
+    "weather": "No coded weather",
+    "temperature": 40.0,
+    "dewpoint": 4.0,
+    "windSpeed": 10.0,
+    "windDirection": 70.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T12:00:00.000Z",
+    "observationTimestamp": "2026-09-21T12:00:00+00:00",
+    "raw": "METAR OERK 211200Z 07010KT CAVOK 40/04 Q1013 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212176323,
-      "display": "8,212,176,323",
+      "value": 8212178518,
+      "display": "8,212,178,518",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T12:09:00Z",
+      "time": "2026-09-21T12:24:00Z",
       "speed": 328.0
     },
     "magneticField": {
-      "time": "2026-09-21T12:09:00Z",
+      "time": "2026-09-21T12:24:00Z",
       "bt": 4.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T12:03:00Z",
-      "forecastTime": "2026-09-21T13:25:00Z"
+      "observationTime": "2026-09-21T12:24:00Z",
+      "forecastTime": "2026-09-21T13:45:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
