@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T18:11:12.105850+00:00",
+  "generatedAt": "2026-09-21T18:51:02.474105+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Redflower Ragtrail.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Saosukham\" title=\"User:Saosukham\">Saosukham</a>",
-    "license": "CC0",
+    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
+    "artist": "Ferrovia Mesolcinese",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Redflower_Ragtrail.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ENOL",
-    "station": "ENOL",
-    "lat": 63.703,
-    "lon": 9.609,
+    "name": "KSAW",
+    "station": "KSAW",
+    "lat": 46.341,
+    "lon": -87.395,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 6.0,
-    "windSpeed": 6.0,
-    "windDirection": 310.0,
-    "visibility": "6+",
+    "temperature": 13.0,
+    "dewpoint": 5.0,
+    "windSpeed": 14.0,
+    "windDirection": 20.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T17:50:00.000Z",
-    "observationTimestamp": "2026-09-21T17:50:00+00:00",
-    "raw": "METAR ENOL 211750Z 31006KT 9999 FEW025 10/06 Q1024 NOSIG"
+    "observationTime": "2026-09-21T18:48:00.000Z",
+    "observationTimestamp": "2026-09-21T18:48:00+00:00",
+    "raw": "METAR KSAW 211848Z 02014KT 10SM CLR 13/05 A3035"
   },
   "randomPlace": {
-    "name": "SCCI",
-    "station": "SCCI",
-    "lat": -53.003,
-    "lon": -70.855,
+    "name": "CYGK",
+    "station": "CYGK",
+    "lat": 44.223,
+    "lon": -76.599,
     "weather": "No coded weather",
-    "temperature": 5.0,
-    "dewpoint": -5.0,
-    "windSpeed": 13.0,
-    "windDirection": 280.0,
-    "visibility": "6+",
+    "temperature": 14.0,
+    "dewpoint": 4.0,
+    "windSpeed": 12.0,
+    "windDirection": 20.0,
+    "visibility": "15",
     "flightCategory": "VFR",
     "observationTime": "2026-09-21T18:00:00.000Z",
     "observationTimestamp": "2026-09-21T18:00:00+00:00",
-    "raw": "METAR SCCI 211800Z 28013KT 9999 BKN045 05/M05 Q1019 NOSIG"
+    "raw": "METAR CYGK 211800Z 02012KT 15SM SCT040 BKN250 14/04 A3026 RMK SC4CI2 SLP251"
   },
   "globalPulse": {
     "population": {
-      "value": 8212218810,
-      "display": "8,212,218,810",
+      "value": 8212223578,
+      "display": "8,212,223,578",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T18:02:00Z",
-      "speed": 322.0
+      "time": "2026-09-21T18:41:00Z",
+      "speed": 327.0
     },
     "magneticField": {
-      "time": "2026-09-21T18:02:00Z",
+      "time": "2026-09-21T18:41:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-21T15:00:00",
       "kp": 0.33
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T18:00:00Z",
-      "forecastTime": "2026-09-21T19:21:00Z"
+      "observationTime": "2026-09-21T18:39:00Z",
+      "forecastTime": "2026-09-21T20:01:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
