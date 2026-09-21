@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T09:48:05.117729+00:00",
+  "generatedAt": "2026-09-21T09:58:17.679591+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 01.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:Redflower Ragtrail.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Saosukham\" title=\"User:Saosukham\">Saosukham</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Redflower_Ragtrail.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "DAOL",
-    "station": "DAOL",
-    "lat": 35.542,
-    "lon": -0.532,
+    "name": "CYYQ",
+    "station": "CYYQ",
+    "lat": 58.745,
+    "lon": -94.074,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 23.0,
-    "windSpeed": 10.0,
-    "windDirection": 50.0,
-    "visibility": "4.35",
-    "flightCategory": "MVFR",
+    "temperature": 8.0,
+    "dewpoint": 8.0,
+    "windSpeed": 7.0,
+    "windDirection": 220.0,
+    "visibility": "15",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-21T09:00:00.000Z",
     "observationTimestamp": "2026-09-21T09:00:00+00:00",
-    "raw": "METAR DAOL 210900Z 05010KT 7000 SCT013 SCT026 24/23 Q1024"
+    "raw": "METAR CYYQ 210900Z 22007KT 15SM FEW035 08/08 A2991 RMK SC2 SLP133"
   },
   "randomPlace": {
-    "name": "LGRP",
-    "station": "LGRP",
-    "lat": 36.405,
-    "lon": 28.086,
-    "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 20.0,
-    "windSpeed": 12.0,
-    "windDirection": 260.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T08:50:00.000Z",
-    "observationTimestamp": "2026-09-21T08:50:00+00:00",
-    "raw": "METAR LGRP 210850Z 26012KT 9999 FEW018 28/20 Q1013 NOSIG"
+    "name": "VGHS",
+    "station": "VGHS",
+    "lat": 23.846,
+    "lon": 90.4,
+    "weather": "HZ",
+    "temperature": 35.0,
+    "dewpoint": 24.0,
+    "windSpeed": 2.0,
+    "windDirection": 360.0,
+    "visibility": "3.11",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-21T09:30:00.000Z",
+    "observationTimestamp": "2026-09-21T09:30:00+00:00",
+    "raw": "METAR VGHS 210930Z 36002KT 5000 HZ FEW015 35/24 Q1005 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212158579,
-      "display": "8,212,158,579",
+      "value": 8212159798,
+      "display": "8,212,159,798",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T09:40:00Z",
-      "speed": 334.0
+      "time": "2026-09-21T09:49:00Z",
+      "speed": 333.0
     },
     "magneticField": {
-      "time": "2026-09-21T09:40:00Z",
+      "time": "2026-09-21T09:49:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-21T06:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T09:37:00Z",
-      "forecastTime": "2026-09-21T10:58:00Z"
+      "observationTime": "2026-09-21T09:49:00Z",
+      "forecastTime": "2026-09-21T11:08:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
