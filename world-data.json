@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T03:16:56.639213+00:00",
+  "generatedAt": "2026-09-21T03:33:38.507866+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:Au bonheur des tags (Démolition avant reconversion) (37932924806).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/110273693@N04\">Sylvie burr</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Au_bonheur_des_tags_%28D%C3%A9molition_avant_reconversion%29_%2837932924806%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGYF",
-    "station": "KGYF",
-    "lat": 26.1292,
-    "lon": -94.8981,
+    "name": "KSYN",
+    "station": "KSYN",
+    "lat": 44.474,
+    "lon": -93.014,
     "weather": "No coded weather",
-    "temperature": 29.5,
-    "dewpoint": 24.7,
-    "windSpeed": 5.0,
-    "windDirection": 120.0,
+    "temperature": 15.1,
+    "dewpoint": 9.9,
+    "windSpeed": 8.0,
+    "windDirection": 70.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T02:55:00.000Z",
-    "observationTimestamp": "2026-09-21T02:55:00+00:00",
-    "raw": "METAR KGYF 210255Z AUTO 12005KT 10SM SCT024 29/25 A2988 RMK AO2 T02950247"
+    "observationTime": "2026-09-21T03:15:00.000Z",
+    "observationTimestamp": "2026-09-21T03:15:00+00:00",
+    "raw": "METAR KSYN 210315Z AUTO 07008KT 10SM OVC040 15/10 A3019 RMK AO2 T01510099"
   },
   "randomPlace": {
-    "name": "KEDC",
-    "station": "KEDC",
-    "lat": 30.3926,
-    "lon": -97.5622,
+    "name": "FMNA",
+    "station": "FMNA",
+    "lat": -12.35,
+    "lon": 49.293,
     "weather": "No coded weather",
-    "temperature": 31.0,
-    "dewpoint": 19.6,
-    "windSpeed": 7.0,
-    "windDirection": 230.0,
-    "visibility": "10+",
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 8.0,
+    "windDirection": 140.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T02:55:00.000Z",
-    "observationTimestamp": "2026-09-21T02:55:00+00:00",
-    "raw": "METAR KEDC 210255Z AUTO 23007KT 10SM FEW100 31/20 A2994 RMK AO2 T03100196 53030 $"
+    "observationTime": "2026-09-21T03:00:00.000Z",
+    "observationTimestamp": "2026-09-21T03:00:00+00:00",
+    "raw": "METAR FMNA 210300Z 14008KT 9999 FEW020 //// Q1017"
   },
   "globalPulse": {
     "population": {
-      "value": 8212111732,
-      "display": "8,212,111,732",
+      "value": 8212113732,
+      "display": "8,212,113,732",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T03:07:00Z",
-      "speed": 348.0
+      "time": "2026-09-21T03:26:00Z",
+      "speed": 342.0
     },
     "magneticField": {
-      "time": "2026-09-21T03:07:00Z",
+      "time": "2026-09-21T03:26:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-21T00:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T03:05:00Z",
-      "forecastTime": "2026-09-21T04:21:00Z"
+      "observationTime": "2026-09-21T03:23:00Z",
+      "forecastTime": "2026-09-21T04:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
