@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T14:17:37.370067+00:00",
+  "generatedAt": "2026-09-21T14:33:08.739833+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Apple Garden Shergaon.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pulaksaikia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pulaksaikia (page does not exist)\">Pulaksaikia</a>",
+    "title": "File:American Craftsman home.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Onthehilltop&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Onthehilltop (page does not exist)\">Onthehilltop</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Apple_Garden_Shergaon.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:American_Craftsman_home.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAIA",
-    "station": "KAIA",
-    "lat": 42.0573,
-    "lon": -102.8017,
+    "name": "KEZP",
+    "station": "KEZP",
+    "lat": 28.2198,
+    "lon": -92.7944,
     "weather": "No coded weather",
-    "temperature": 11.7,
-    "dewpoint": 10.6,
-    "windSpeed": 4.0,
-    "windDirection": 280.0,
+    "temperature": 31.0,
+    "dewpoint": 24.0,
+    "windSpeed": 8.0,
+    "windDirection": 130.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T13:53:00.000Z",
-    "observationTimestamp": "2026-09-21T13:53:00+00:00",
-    "raw": "METAR KAIA 211353Z AUTO 28004KT 10SM SCT027 OVC031 12/11 A3021 RMK AO2 SLP216 T01170106"
+    "observationTime": "2026-09-21T14:10:00.000Z",
+    "observationTimestamp": "2026-09-21T14:10:00+00:00",
+    "raw": "METAR KEZP 211410Z AUTO 13008KT 10SM SCT025 SCT030 31/24 A2995 RMK A01"
   },
   "randomPlace": {
-    "name": "KAVP",
-    "station": "KAVP",
-    "lat": 41.3335,
-    "lon": -75.7227,
+    "name": "EKSB",
+    "station": "EKSB",
+    "lat": 54.962,
+    "lon": 9.787,
     "weather": "No coded weather",
-    "temperature": 17.2,
-    "dewpoint": 11.1,
-    "windSpeed": 6.0,
-    "windDirection": 50.0,
-    "visibility": "10+",
+    "temperature": 15.0,
+    "dewpoint": 7.0,
+    "windSpeed": 17.0,
+    "windDirection": 280.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T13:54:00.000Z",
-    "observationTimestamp": "2026-09-21T13:54:00+00:00",
-    "raw": "METAR KAVP 211354Z 05006KT 10SM CLR 17/11 A3013 RMK AO2 SLP197 T01720111"
+    "observationTime": "2026-09-21T14:20:00.000Z",
+    "observationTimestamp": "2026-09-21T14:20:00+00:00",
+    "raw": "METAR EKSB 211420Z 28017KT 9999 SCT042 15/07 Q1024"
   },
   "globalPulse": {
     "population": {
-      "value": 8212190818,
-      "display": "8,212,190,818",
+      "value": 8212192686,
+      "display": "8,212,192,686",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T14:10:00Z",
-      "speed": 329.0
+      "time": "2026-09-21T14:25:00Z",
+      "speed": 330.0
     },
     "magneticField": {
-      "time": "2026-09-21T14:10:00Z",
+      "time": "2026-09-21T14:25:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-21T09:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T14:05:00Z",
-      "forecastTime": "2026-09-21T15:26:00Z"
+      "observationTime": "2026-09-21T14:20:00Z",
+      "forecastTime": "2026-09-21T15:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
