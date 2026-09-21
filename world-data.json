@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T12:34:49.446444+00:00",
+  "generatedAt": "2026-09-21T12:49:41.788058+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Benue River (early 1900s).jpg",
-    "artist": "Hans Dominik",
-    "license": "Public domain",
+    "title": "File:Redflower Ragtrail.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Saosukham\" title=\"User:Saosukham\">Saosukham</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Benue_River_%28early_1900s%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Redflower_Ragtrail.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KINW",
-    "station": "KINW",
-    "lat": 35.0279,
-    "lon": -110.7221,
+    "name": "MMMM",
+    "station": "MMMM",
+    "lat": 19.844,
+    "lon": -101.037,
     "weather": "No coded weather",
-    "temperature": 13.9,
-    "dewpoint": 10.0,
-    "windSpeed": 5.0,
-    "windDirection": 120.0,
-    "visibility": "10+",
+    "temperature": 17.0,
+    "dewpoint": 16.0,
+    "windSpeed": 6.0,
+    "windDirection": 350.0,
+    "visibility": "7",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T11:56:00.000Z",
-    "observationTimestamp": "2026-09-21T11:56:00+00:00",
-    "raw": "METAR KINW 211156Z AUTO 12005KT 10SM CLR 14/10 A3016 RMK AO2 SLP147 T01390100 10183 20139 53000"
+    "observationTime": "2026-09-21T11:45:00.000Z",
+    "observationTimestamp": "2026-09-21T11:45:00+00:00",
+    "raw": "METAR MMMM 211145Z 35006KT 7SM FEW030 SCT080 SCT250 17/16 A3022 RMK SLP077 57004 964 8/578 HZY"
   },
   "randomPlace": {
-    "name": "OERK",
-    "station": "OERK",
-    "lat": 24.945,
-    "lon": 46.702,
+    "name": "CWBZ",
+    "station": "CWBZ",
+    "lat": 45.121,
+    "lon": -74.289,
     "weather": "No coded weather",
-    "temperature": 40.0,
-    "dewpoint": 4.0,
-    "windSpeed": 10.0,
-    "windDirection": 70.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
+    "temperature": 11.1,
+    "dewpoint": 6.8,
+    "windSpeed": 6.0,
+    "windDirection": 40.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-21T12:00:00.000Z",
     "observationTimestamp": "2026-09-21T12:00:00+00:00",
-    "raw": "METAR OERK 211200Z 07010KT CAVOK 40/04 Q1013 NOSIG"
+    "raw": "METAR CWBZ 211200Z AUTO 04006KT 11/07 RMK AO1 SLP235 T01110068 53026"
   },
   "globalPulse": {
     "population": {
-      "value": 8212178518,
-      "display": "8,212,178,518",
+      "value": 8212180299,
+      "display": "8,212,180,299",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T12:24:00Z",
-      "speed": 328.0
+      "time": "2026-09-21T12:42:00Z",
+      "speed": 325.0
     },
     "magneticField": {
-      "time": "2026-09-21T12:24:00Z",
+      "time": "2026-09-21T12:42:00Z",
       "bt": 4.0,
       "bz": 2.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T12:24:00Z",
-      "forecastTime": "2026-09-21T13:45:00Z"
+      "observationTime": "2026-09-21T12:39:00Z",
+      "forecastTime": "2026-09-21T14:00:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
