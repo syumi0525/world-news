@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T07:32:30.834548+00:00",
+  "generatedAt": "2026-09-21T07:49:39.847207+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
-    "artist": "Gardner, Alexander, 1821-1882",
-    "license": "Public domain",
+    "title": "File:AcapulcoJulio2024.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SBNT",
-    "station": "SBNT",
-    "lat": -5.911,
-    "lon": -35.248,
+    "name": "OEGS",
+    "station": "OEGS",
+    "lat": 26.303,
+    "lon": 43.774,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 21.0,
-    "windSpeed": 20.0,
-    "windDirection": 170.0,
+    "temperature": 35.0,
+    "dewpoint": 6.0,
+    "windSpeed": 7.0,
+    "windDirection": 150.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-21T07:00:00.000Z",
     "observationTimestamp": "2026-09-21T07:00:00+00:00",
-    "raw": "METAR SBNT 210700Z 17020KT 9999 SCT025 22/21 Q1016"
+    "raw": "METAR OEGS 210700Z 15007KT CAVOK 35/06 Q1016 NOSIG"
   },
   "randomPlace": {
-    "name": "KCBG",
-    "station": "KCBG",
-    "lat": 45.557,
-    "lon": -93.264,
+    "name": "KORF",
+    "station": "KORF",
+    "lat": 36.9037,
+    "lon": -76.1927,
     "weather": "No coded weather",
-    "temperature": 9.2,
-    "dewpoint": 7.3,
-    "windSpeed": 4.0,
-    "windDirection": 50.0,
+    "temperature": 23.3,
+    "dewpoint": 21.7,
+    "windSpeed": 8.0,
+    "windDirection": 220.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T07:15:00.000Z",
-    "observationTimestamp": "2026-09-21T07:15:00+00:00",
-    "raw": "METAR KCBG 210715Z AUTO 05004KT 10SM OVC190 09/07 A3026 RMK AO2 T00920073"
+    "observationTime": "2026-09-21T06:51:00.000Z",
+    "observationTimestamp": "2026-09-21T06:51:00+00:00",
+    "raw": "METAR KORF 210651Z 22008KT 10SM CLR 23/22 A2993 RMK AO2 SLP133 T02330217 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212142330,
-      "display": "8,212,142,330",
+      "value": 8212144381,
+      "display": "8,212,144,381",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T07:23:00Z",
-      "speed": 347.0
+      "time": "2026-09-21T07:39:00Z",
+      "speed": 346.0
     },
     "magneticField": {
-      "time": "2026-09-21T07:23:00Z",
+      "time": "2026-09-21T07:39:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T07:18:00Z",
-      "forecastTime": "2026-09-21T08:37:00Z"
+      "observationTime": "2026-09-21T07:39:00Z",
+      "forecastTime": "2026-09-21T08:57:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
