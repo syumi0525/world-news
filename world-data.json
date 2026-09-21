@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T04:18:22.056353+00:00",
+  "generatedAt": "2026-09-21T04:34:44.788878+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:120917-D-FZ387-005.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Acesso principal ao edifício JMM 01.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rqltst&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rqltst (page does not exist)\">Rqltst</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:120917-D-FZ387-005.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Acesso_principal_ao_edif%C3%ADcio_JMM_01.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KARG",
-    "station": "KARG",
-    "lat": 36.1256,
-    "lon": -90.9216,
+    "name": "CWPD",
+    "station": "CWPD",
+    "lat": 47.562,
+    "lon": -71.229,
     "weather": "No coded weather",
-    "temperature": 26.1,
-    "dewpoint": 20.0,
-    "windSpeed": 11.0,
-    "windDirection": 310.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T03:56:00.000Z",
-    "observationTimestamp": "2026-09-21T03:56:00+00:00",
-    "raw": "METAR KARG 210356Z AUTO 31011G14KT 10SM FEW080 26/20 A2991 RMK AO2 SLP127 T02610200 $"
+    "temperature": 6.7,
+    "dewpoint": 5.5,
+    "windSpeed": 2.0,
+    "windDirection": 170.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-21T04:00:00.000Z",
+    "observationTimestamp": "2026-09-21T04:00:00+00:00",
+    "raw": "METAR CWPD 210400Z AUTO 17002KT 07/06 RMK AO1 SLP151 T00670055 51002"
   },
   "randomPlace": {
-    "name": "KGRF",
-    "station": "KGRF",
-    "lat": 47.079,
-    "lon": -122.58,
+    "name": "K1AM",
+    "station": "K1AM",
+    "lat": 47.281,
+    "lon": -110.801,
     "weather": "No coded weather",
-    "temperature": 15.6,
-    "dewpoint": 11.2,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 13.2,
+    "dewpoint": 8.1,
+    "windSpeed": 10.0,
+    "windDirection": 210.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-21T03:55:00.000Z",
     "observationTimestamp": "2026-09-21T03:55:00+00:00",
-    "raw": "METAR KGRF 210355Z AUTO 00000KT 10SM CLR 16/11 A2997 RMK AO2 SLP152 T01560112 $"
+    "raw": "METAR K1AM 210355Z AUTO 21010KT 10SM CLR 13/08 A3014 RMK AO2 SLP202 T01320081 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212119107,
-      "display": "8,212,119,107",
+      "value": 8212121058,
+      "display": "8,212,121,058",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T04:10:00Z",
-      "speed": 347.0
+      "time": "2026-09-21T04:23:00Z",
+      "speed": 352.0
     },
     "magneticField": {
-      "time": "2026-09-21T04:10:00Z",
+      "time": "2026-09-21T04:23:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T04:04:00Z",
-      "forecastTime": "2026-09-21T05:22:00Z"
+      "observationTime": "2026-09-21T04:23:00Z",
+      "forecastTime": "2026-09-21T05:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
