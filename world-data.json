@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T08:59:13.805083+00:00",
+  "generatedAt": "2026-09-21T09:18:16.923435+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A misty forest road in Coonoor.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
-    "license": "CC0",
+    "title": "File:08020047.JPG",
+    "artist": "Catalina Holguin",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:08020047.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHFD",
-    "station": "KHFD",
-    "lat": 41.7352,
-    "lon": -72.6512,
-    "weather": "No coded weather",
-    "temperature": 13.3,
-    "dewpoint": 12.2,
-    "windSpeed": 8.0,
-    "windDirection": 360.0,
-    "visibility": "10+",
+    "name": "BIKF",
+    "station": "BIKF",
+    "lat": 63.987,
+    "lon": -22.614,
+    "weather": "RA DZ BR",
+    "temperature": 10.0,
+    "dewpoint": 10.0,
+    "windSpeed": 31.0,
+    "windDirection": 130.0,
+    "visibility": "1.86",
     "flightCategory": "IFR",
-    "observationTime": "2026-09-21T08:53:00.000Z",
-    "observationTimestamp": "2026-09-21T08:53:00+00:00",
-    "raw": "METAR KHFD 210853Z AUTO 36008KT 10SM OVC008 13/12 A3001 RMK AO2 SLP162 T01330122 53009"
+    "observationTime": "2026-09-21T09:00:00.000Z",
+    "observationTimestamp": "2026-09-21T09:00:00+00:00",
+    "raw": "METAR BIKF 210900Z 13031G43KT 3000 R10/P1500U DZRA BR BKN008 10/10 Q0991"
   },
   "randomPlace": {
-    "name": "CXKE",
-    "station": "CXKE",
-    "lat": 45.005,
-    "lon": -75.637,
+    "name": "KO61",
+    "station": "KO61",
+    "lat": 38.684,
+    "lon": -120.988,
     "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 7.4,
-    "windSpeed": 4.0,
-    "windDirection": 320.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-21T08:00:00.000Z",
-    "observationTimestamp": "2026-09-21T08:00:00+00:00",
-    "raw": "METAR CXKE 210800Z AUTO 32004KT 09/07 RMK AO1 SLP217 T00900074 51013"
+    "temperature": 16.4,
+    "dewpoint": 10.2,
+    "windSpeed": 3.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T08:55:00.000Z",
+    "observationTimestamp": "2026-09-21T08:55:00+00:00",
+    "raw": "METAR KO61 210855Z AUTO 03003KT 10SM OVC170 16/10 A2990 RMK AO2 T01640102 58004 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212152699,
-      "display": "8,212,152,699",
+      "value": 8212154988,
+      "display": "8,212,154,988",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-21T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.0,
-      "display": "Kp 1.0",
+      "value": 0.3,
+      "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-21T03:00:00"
+      "time": "2026-09-21T06:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T08:51:00Z",
-      "speed": 344.0
+      "time": "2026-09-21T09:09:00Z",
+      "speed": 345.0
     },
     "magneticField": {
-      "time": "2026-09-21T08:51:00Z",
-      "bt": 4.0,
-      "bz": 1.0
+      "time": "2026-09-21T09:09:00Z",
+      "bt": 3.0,
+      "bz": -1.0
     },
     "kp": {
-      "time": "2026-09-21T03:00:00",
-      "kp": 1.0
+      "time": "2026-09-21T06:00:00",
+      "kp": 0.33
     },
     "aurora": {
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T08:49:00Z",
-      "forecastTime": "2026-09-21T10:07:00Z"
+      "observationTime": "2026-09-21T09:09:00Z",
+      "forecastTime": "2026-09-21T10:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
