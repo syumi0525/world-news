@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T11:12:21.028242+00:00",
+  "generatedAt": "2026-09-21T11:31:06.689868+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Redflower Ragtrail.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Saosukham\" title=\"User:Saosukham\">Saosukham</a>",
+    "title": "File:Borehole project 17.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Redflower_Ragtrail.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_17.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLTS",
-    "station": "KLTS",
-    "lat": 34.666,
-    "lon": -99.27,
+    "name": "HTDA",
+    "station": "HTDA",
+    "lat": -6.881,
+    "lon": 39.201,
     "weather": "No coded weather",
-    "temperature": 22.1,
-    "dewpoint": 18.3,
+    "temperature": 30.0,
+    "dewpoint": 21.0,
     "windSpeed": 11.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
+    "windDirection": 130.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T10:55:00.000Z",
-    "observationTimestamp": "2026-09-21T10:55:00+00:00",
-    "raw": "METAR KLTS 211055Z AUTO 03011KT 10SM CLR 22/18 A2993 RMK AO2 SLP115 T02210183 TSNO $"
+    "observationTime": "2026-09-21T11:00:00.000Z",
+    "observationTimestamp": "2026-09-21T11:00:00+00:00",
+    "raw": "METAR HTDA 211100Z 13011KT 9999 FEW031 BKN033 30/21 Q1015 NOSIG"
   },
   "randomPlace": {
-    "name": "HKNK",
-    "station": "HKNK",
-    "lat": -0.298,
-    "lon": 36.159,
+    "name": "KMKY",
+    "station": "KMKY",
+    "lat": 25.999,
+    "lon": -81.674,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 12.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-21T10:00:00.000Z",
-    "observationTimestamp": "2026-09-21T10:00:00+00:00",
-    "raw": "METAR HKNK 211000Z 000000KT 9999 BKN027 26/12"
+    "temperature": 22.8,
+    "dewpoint": 22.8,
+    "windSpeed": 4.0,
+    "windDirection": 20.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T10:56:00.000Z",
+    "observationTimestamp": "2026-09-21T10:56:00+00:00",
+    "raw": "METAR KMKY 211056Z AUTO 02004KT 10SM SCT023 BKN039 23/23 A2989 RMK AO2 LTG DSNT SW SLP123 T02280228 PNO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212168665,
-      "display": "8,212,168,665",
+      "value": 8212170910,
+      "display": "8,212,170,910",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T11:04:00Z",
-      "speed": 330.0
+      "time": "2026-09-21T11:22:00Z",
+      "speed": 334.0
     },
     "magneticField": {
-      "time": "2026-09-21T11:04:00Z",
+      "time": "2026-09-21T11:22:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T11:04:00Z",
-      "forecastTime": "2026-09-21T12:25:00Z"
+      "observationTime": "2026-09-21T11:19:00Z",
+      "forecastTime": "2026-09-21T12:40:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
