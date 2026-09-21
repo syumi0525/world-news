@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T02:58:59.822419+00:00",
+  "generatedAt": "2026-09-21T03:16:56.639213+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Barhakune photo by Sangharsh Acharya.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scandinaviastats&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scandinaviastats (page does not exist)\">Scandinaviastats</a>",
+    "title": "File:Ndongo bridge road.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Barhakune_photo_by_Sangharsh_Acharya.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCVG",
-    "station": "KCVG",
-    "lat": 39.0444,
-    "lon": -84.6724,
+    "name": "KGYF",
+    "station": "KGYF",
+    "lat": 26.1292,
+    "lon": -94.8981,
     "weather": "No coded weather",
-    "temperature": 23.3,
-    "dewpoint": 19.4,
-    "windSpeed": 10.0,
-    "windDirection": 360.0,
+    "temperature": 29.5,
+    "dewpoint": 24.7,
+    "windSpeed": 5.0,
+    "windDirection": 120.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T02:52:00.000Z",
-    "observationTimestamp": "2026-09-21T02:52:00+00:00",
-    "raw": "METAR KCVG 210252Z 36010G21KT 10SM OVC110 23/19 A2993 RMK AO2 SLP124 T02330194 53026 $"
+    "observationTime": "2026-09-21T02:55:00.000Z",
+    "observationTimestamp": "2026-09-21T02:55:00+00:00",
+    "raw": "METAR KGYF 210255Z AUTO 12005KT 10SM SCT024 29/25 A2988 RMK AO2 T02950247"
   },
   "randomPlace": {
-    "name": "HTKJ",
-    "station": "HTKJ",
-    "lat": -3.427,
-    "lon": 37.058,
+    "name": "KEDC",
+    "station": "KEDC",
+    "lat": 30.3926,
+    "lon": -97.5622,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 19.0,
-    "windSpeed": 2.0,
-    "windDirection": 300.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-21T02:30:00.000Z",
-    "observationTimestamp": "2026-09-21T02:30:00+00:00",
-    "raw": "METAR HTKJ 210230Z 30002KT 9999 BKN020 19/19 Q1020 NOSIG"
+    "temperature": 31.0,
+    "dewpoint": 19.6,
+    "windSpeed": 7.0,
+    "windDirection": 230.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T02:55:00.000Z",
+    "observationTimestamp": "2026-09-21T02:55:00+00:00",
+    "raw": "METAR KEDC 210255Z AUTO 23007KT 10SM FEW100 31/20 A2994 RMK AO2 T03100196 53030 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212109580,
-      "display": "8,212,109,580",
+      "value": 8212111732,
+      "display": "8,212,111,732",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-20T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.0,
-      "display": "Kp 1.0",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-20T21:00:00"
+      "time": "2026-09-21T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T02:51:00Z",
-      "speed": 343.0
+      "time": "2026-09-21T03:07:00Z",
+      "speed": 348.0
     },
     "magneticField": {
-      "time": "2026-09-21T02:51:00Z",
+      "time": "2026-09-21T03:07:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-09-20T21:00:00",
-      "kp": 1.0
+      "time": "2026-09-21T00:00:00",
+      "kp": 1.67
     },
     "aurora": {
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T02:49:00Z",
-      "forecastTime": "2026-09-21T04:06:00Z"
+      "observationTime": "2026-09-21T03:05:00Z",
+      "forecastTime": "2026-09-21T04:21:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
