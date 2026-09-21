@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T16:10:50.548505+00:00",
+  "generatedAt": "2026-09-21T16:30:55.179469+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo carrefour 04.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:A simple image of bottle of water.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Crispengari&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Crispengari (page does not exist)\">Crispengari</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_carrefour_04.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_simple_image_of_bottle_of_water.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EDMO",
-    "station": "EDMO",
-    "lat": 48.081,
-    "lon": 11.283,
+    "name": "CWQO",
+    "station": "CWQO",
+    "lat": 48.416,
+    "lon": -68.893,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 5.0,
-    "windSpeed": 7.0,
-    "windDirection": 310.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T15:50:00.000Z",
-    "observationTimestamp": "2026-09-21T15:50:00+00:00",
-    "raw": "METAR EDMO 211550Z AUTO 31007KT 270V340 CAVOK 16/05 Q1029"
+    "temperature": 11.6,
+    "dewpoint": 7.1,
+    "windSpeed": 3.0,
+    "windDirection": 200.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-21T16:00:00.000Z",
+    "observationTimestamp": "2026-09-21T16:00:00+00:00",
+    "raw": "METAR CWQO 211600Z AUTO 20003KT 12/07 RMK AO1 T01160071"
   },
   "randomPlace": {
-    "name": "KIWD",
-    "station": "KIWD",
-    "lat": 46.5321,
-    "lon": -90.126,
-    "weather": "No coded weather",
-    "temperature": 11.7,
-    "dewpoint": 3.9,
-    "windSpeed": 12.0,
-    "windDirection": 100.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T15:56:00.000Z",
-    "observationTimestamp": "2026-09-21T15:56:00+00:00",
-    "raw": "METAR KIWD 211556Z AUTO 10012KT 10SM CLR 12/04 A3037 RMK AO2 SLP292 T01170039"
+    "name": "VABP",
+    "station": "VABP",
+    "lat": 23.288,
+    "lon": 77.337,
+    "weather": "HZ",
+    "temperature": 24.0,
+    "dewpoint": 22.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "3.11",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-21T16:00:00.000Z",
+    "observationTimestamp": "2026-09-21T16:00:00+00:00",
+    "raw": "METAR VABP 211600Z 00000KT 5000 HZ FEW020 SCT100 24/22 Q1012 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212204398,
-      "display": "8,212,204,398",
+      "value": 8212206804,
+      "display": "8,212,206,804",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T16:02:00Z",
-      "speed": 323.0
+      "time": "2026-09-21T16:20:00Z",
+      "speed": 327.0
     },
     "magneticField": {
-      "time": "2026-09-21T16:02:00Z",
+      "time": "2026-09-21T16:20:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-21T12:00:00",
@@ -113,8 +113,8 @@
       "value": 16.0,
       "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T15:59:00Z",
-      "forecastTime": "2026-09-21T17:21:00Z"
+      "observationTime": "2026-09-21T16:20:00Z",
+      "forecastTime": "2026-09-21T17:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
