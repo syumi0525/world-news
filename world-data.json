@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T02:48:42.911145+00:00",
+  "generatedAt": "2026-09-21T02:58:59.822419+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20190415 Yehliu geopark beach-2.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "title": "File:Barhakune photo by Sangharsh Acharya.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scandinaviastats&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scandinaviastats (page does not exist)\">Scandinaviastats</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Barhakune_photo_by_Sangharsh_Acharya.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EGSS",
-    "station": "EGSS",
-    "lat": 51.881,
-    "lon": 0.223,
+    "name": "KCVG",
+    "station": "KCVG",
+    "lat": 39.0444,
+    "lon": -84.6724,
     "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": 6.0,
-    "windSpeed": 1.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 23.3,
+    "dewpoint": 19.4,
+    "windSpeed": 10.0,
+    "windDirection": 360.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T02:20:00.000Z",
-    "observationTimestamp": "2026-09-21T02:20:00+00:00",
-    "raw": "METAR EGSS 210220Z AUTO VRB01KT 9999 NCD 07/06 Q1031"
+    "observationTime": "2026-09-21T02:52:00.000Z",
+    "observationTimestamp": "2026-09-21T02:52:00+00:00",
+    "raw": "METAR KCVG 210252Z 36010G21KT 10SM OVC110 23/19 A2993 RMK AO2 SLP124 T02330194 53026 $"
   },
   "randomPlace": {
-    "name": "VLPS",
-    "station": "VLPS",
-    "lat": 15.132,
-    "lon": 105.781,
+    "name": "HTKJ",
+    "station": "HTKJ",
+    "lat": -3.427,
+    "lon": 37.058,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 24.0,
+    "temperature": 19.0,
+    "dewpoint": 19.0,
     "windSpeed": 2.0,
-    "windDirection": 140.0,
-    "visibility": "4.97",
+    "windDirection": 300.0,
+    "visibility": "6+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-21T02:00:00.000Z",
-    "observationTimestamp": "2026-09-21T02:00:00+00:00",
-    "raw": "METAR VLPS 210200Z 14002KT 8000 SCT017 BKN040 26/24 Q1013 NOSIG"
+    "observationTime": "2026-09-21T02:30:00.000Z",
+    "observationTimestamp": "2026-09-21T02:30:00+00:00",
+    "raw": "METAR HTKJ 210230Z 30002KT 9999 BKN020 19/19 Q1020 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212108349,
-      "display": "8,212,108,349",
+      "value": 8212109580,
+      "display": "8,212,109,580",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T02:38:00Z",
-      "speed": 347.0
+      "time": "2026-09-21T02:51:00Z",
+      "speed": 343.0
     },
     "magneticField": {
-      "time": "2026-09-21T02:38:00Z",
+      "time": "2026-09-21T02:51:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T02:38:00Z",
-      "forecastTime": "2026-09-21T03:56:00Z"
+      "observationTime": "2026-09-21T02:49:00Z",
+      "forecastTime": "2026-09-21T04:06:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
