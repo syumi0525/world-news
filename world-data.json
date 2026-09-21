@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T21:38:11.942801+00:00",
+  "generatedAt": "2026-09-21T21:48:11.090667+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nilüfer kanak köprüsü.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "title": "File:Urban Gabriela Mistral.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Barruntada&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Barruntada (page does not exist)\">Barruntada</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Urban_Gabriela_Mistral.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KI95",
-    "station": "KI95",
-    "lat": 40.6142,
-    "lon": -83.6374,
+    "name": "KHEG",
+    "station": "KHEG",
+    "lat": 30.2771,
+    "lon": -81.8087,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 14.0,
-    "windSpeed": 11.0,
-    "windDirection": 60.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-21T21:15:00.000Z",
-    "observationTimestamp": "2026-09-21T21:15:00+00:00",
-    "raw": "METAR KI95 212115Z AUTO 06011KT 10SM OVC029 14/14 A3007 RMK A01"
-  },
-  "randomPlace": {
-    "name": "KRMG",
-    "station": "KRMG",
-    "lat": 34.3483,
-    "lon": -85.1616,
-    "weather": "TS",
-    "temperature": 30.6,
-    "dewpoint": 20.0,
+    "temperature": 29.0,
+    "dewpoint": 22.0,
     "windSpeed": 6.0,
-    "windDirection": 330.0,
+    "windDirection": 80.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T21:23:00.000Z",
-    "observationTimestamp": "2026-09-21T21:23:00+00:00",
-    "raw": "SPECI KRMG 212123Z AUTO 33006KT 10SM TS CLR 31/20 A2990 RMK AO2 LTG DSNT SE AND S TSE02B17 T03060200"
+    "observationTime": "2026-09-21T21:35:00.000Z",
+    "observationTimestamp": "2026-09-21T21:35:00+00:00",
+    "raw": "METAR KHEG 212135Z AUTO 08006KT 10SM BKN031 29/22 A2990 RMK AO2 TSNO"
+  },
+  "randomPlace": {
+    "name": "VVPQ",
+    "station": "VVPQ",
+    "lat": 10.169,
+    "lon": 103.995,
+    "weather": "No coded weather",
+    "temperature": 26.0,
+    "dewpoint": 25.0,
+    "windSpeed": 5.0,
+    "windDirection": 330.0,
+    "visibility": "5.59",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T21:30:00.000Z",
+    "observationTimestamp": "2026-09-21T21:30:00+00:00",
+    "raw": "METAR VVPQ 212130Z 33005KT 9000 SCT015 SCT040 26/25 Q1009 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212243591,
-      "display": "8,212,243,591",
+      "value": 8212244776,
+      "display": "8,212,244,776",
       "source": "U.S. Census Bureau"
     },
     "co2": {
