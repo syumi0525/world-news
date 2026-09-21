@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T07:12:12.155180+00:00",
+  "generatedAt": "2026-09-21T07:32:30.834548+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
-    "license": "CC0",
+    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
+    "artist": "Gardner, Alexander, 1821-1882",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LIML",
-    "station": "LIML",
-    "lat": 45.461,
-    "lon": 9.263,
+    "name": "SBNT",
+    "station": "SBNT",
+    "lat": -5.911,
+    "lon": -35.248,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 19.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
+    "temperature": 22.0,
+    "dewpoint": 21.0,
+    "windSpeed": 20.0,
+    "windDirection": 170.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T06:50:00.000Z",
-    "observationTimestamp": "2026-09-21T06:50:00+00:00",
-    "raw": "METAR LIML 210650Z VRB02KT CAVOK 19/19 Q1021 NOSIG"
-  },
-  "randomPlace": {
-    "name": "VOMD",
-    "station": "VOMD",
-    "lat": 9.835,
-    "lon": 78.093,
-    "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 24.0,
-    "windSpeed": 4.0,
-    "windDirection": 150.0,
-    "visibility": "3.73",
-    "flightCategory": "MVFR",
     "observationTime": "2026-09-21T07:00:00.000Z",
     "observationTimestamp": "2026-09-21T07:00:00+00:00",
-    "raw": "METAR VOMD 210700Z 15004KT 6000 SCT020 SCT100 33/24 Q1009 NOSIG"
+    "raw": "METAR SBNT 210700Z 17020KT 9999 SCT025 22/21 Q1016"
+  },
+  "randomPlace": {
+    "name": "KCBG",
+    "station": "KCBG",
+    "lat": 45.557,
+    "lon": -93.264,
+    "weather": "No coded weather",
+    "temperature": 9.2,
+    "dewpoint": 7.3,
+    "windSpeed": 4.0,
+    "windDirection": 50.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T07:15:00.000Z",
+    "observationTimestamp": "2026-09-21T07:15:00+00:00",
+    "raw": "METAR KCBG 210715Z AUTO 05004KT 10SM OVC190 09/07 A3026 RMK AO2 T00920073"
   },
   "globalPulse": {
     "population": {
-      "value": 8212139895,
-      "display": "8,212,139,895",
+      "value": 8212142330,
+      "display": "8,212,142,330",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T07:05:00Z",
-      "speed": 343.0
+      "time": "2026-09-21T07:23:00Z",
+      "speed": 347.0
     },
     "magneticField": {
-      "time": "2026-09-21T07:05:00Z",
+      "time": "2026-09-21T07:23:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-21T03:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T07:00:00Z",
-      "forecastTime": "2026-09-21T08:17:00Z"
+      "observationTime": "2026-09-21T07:18:00Z",
+      "forecastTime": "2026-09-21T08:37:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
