@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T01:44:43.076775+00:00",
+  "generatedAt": "2026-09-21T01:57:02.931420+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
-    "license": "CC0",
+    "title": "File:I will meet you at the depot A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ZSQD",
-    "station": "ZSQD",
-    "lat": 36.362,
-    "lon": 120.087,
+    "name": "KONM",
+    "station": "KONM",
+    "lat": 34.0263,
+    "lon": -106.9037,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 14.0,
-    "windSpeed": 10.0,
-    "windDirection": 20.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T01:00:00.000Z",
-    "observationTimestamp": "2026-09-21T01:00:00+00:00",
-    "raw": "METAR ZSQD 210100Z 02005MPS CAVOK 23/14 Q1017 NOSIG"
-  },
-  "randomPlace": {
-    "name": "K33V",
-    "station": "K33V",
-    "lat": 40.7454,
-    "lon": -106.2754,
-    "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 0.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 25.1,
+    "dewpoint": 5.2,
+    "windSpeed": 4.0,
+    "windDirection": 310.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-21T01:35:00.000Z",
     "observationTimestamp": "2026-09-21T01:35:00+00:00",
-    "raw": "METAR K33V 210135Z AUTO 00000KT 10SM CLR 09/00 A3036 RMK AO1"
+    "raw": "METAR KONM 210135Z AUTO 31004KT 10SM CLR 25/05 A3011 RMK AO2 T02510052"
+  },
+  "randomPlace": {
+    "name": "ESST",
+    "station": "ESST",
+    "lat": 60.158,
+    "lon": 12.992,
+    "weather": "No coded weather",
+    "temperature": 9.0,
+    "dewpoint": 4.0,
+    "windSpeed": 5.0,
+    "windDirection": 290.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-21T01:50:00.000Z",
+    "observationTimestamp": "2026-09-21T01:50:00+00:00",
+    "raw": "METAR ESST 210150Z AUTO 29005KT 9999 FEW150/// 09/04 Q1006"
   },
   "globalPulse": {
     "population": {
-      "value": 8212100683,
-      "display": "8,212,100,683",
+      "value": 8212102167,
+      "display": "8,212,102,167",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T01:37:00Z",
-      "speed": 358.0
+      "time": "2026-09-21T01:49:00Z",
+      "speed": 348.0
     },
     "magneticField": {
-      "time": "2026-09-21T01:37:00Z",
+      "time": "2026-09-21T01:49:00Z",
       "bt": 4.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T01:34:00Z",
-      "forecastTime": "2026-09-21T02:50:00Z"
+      "observationTime": "2026-09-21T01:44:00Z",
+      "forecastTime": "2026-09-21T03:00:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
