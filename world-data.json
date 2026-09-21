@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T15:15:10.285701+00:00",
+  "generatedAt": "2026-09-21T15:29:23.079543+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Redflower Ragtrail.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Saosukham\" title=\"User:Saosukham\">Saosukham</a>",
+    "title": "File:Batiment aunsein de la Ville de Majunga 06.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Redflower_Ragtrail.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_06.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EKVD",
-    "station": "EKVD",
-    "lat": 55.436,
-    "lon": 9.329,
+    "name": "LTBD",
+    "station": "LTBD",
+    "lat": 37.816,
+    "lon": 27.886,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 8.0,
+    "temperature": 29.0,
+    "dewpoint": 16.0,
     "windSpeed": 16.0,
-    "windDirection": 300.0,
+    "windDirection": 260.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-21T14:50:00.000Z",
     "observationTimestamp": "2026-09-21T14:50:00+00:00",
-    "raw": "METAR EKVD 211450Z 30016G27KT 9999 SCT030 15/08 Q1024"
+    "raw": "METAR LTBD 211450Z 26016KT 9999 FEW035 29/16 Q1009"
   },
   "randomPlace": {
-    "name": "KFRH",
-    "station": "KFRH",
-    "lat": 38.5034,
-    "lon": -86.6442,
+    "name": "OIZH",
+    "station": "OIZH",
+    "lat": 29.472,
+    "lon": 60.901,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 19.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 5.0,
+    "windDirection": 50.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T14:55:00.000Z",
-    "observationTimestamp": "2026-09-21T14:55:00+00:00",
-    "raw": "METAR KFRH 211455Z AUTO 00000KT 10SM SCT010 22/19 A2999 RMK AO1"
+    "observationTime": "2026-09-21T15:00:00.000Z",
+    "observationTimestamp": "2026-09-21T15:00:00+00:00",
+    "raw": "METAR OIZH 211500Z 05005KT 010V080 CAVOK 30/M05Z Q1019 A3009 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212197716,
-      "display": "8,212,197,716",
+      "value": 8212199414,
+      "display": "8,212,199,414",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T15:05:00Z",
-      "speed": 326.0
+      "time": "2026-09-21T15:20:00Z",
+      "speed": 328.0
     },
     "magneticField": {
-      "time": "2026-09-21T15:05:00Z",
+      "time": "2026-09-21T15:20:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T15:04:00Z",
-      "forecastTime": "2026-09-21T16:26:00Z"
+      "observationTime": "2026-09-21T15:20:00Z",
+      "forecastTime": "2026-09-21T16:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
