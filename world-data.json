@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T02:31:19.597651+00:00",
+  "generatedAt": "2026-09-21T02:48:42.911145+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cordillera del Aramo (13736818533).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
+    "title": "File:20190415 Yehliu geopark beach-2.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_del_Aramo_%2813736818533%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VIGR",
-    "station": "VIGR",
-    "lat": 26.293,
-    "lon": 78.228,
-    "weather": "BR",
-    "temperature": 29.0,
-    "dewpoint": 29.0,
+    "name": "EGSS",
+    "station": "EGSS",
+    "lat": 51.881,
+    "lon": 0.223,
+    "weather": "No coded weather",
+    "temperature": 7.0,
+    "dewpoint": 6.0,
     "windSpeed": 1.0,
     "windDirection": 0.0,
-    "visibility": "1.86",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-21T01:30:00.000Z",
-    "observationTimestamp": "2026-09-21T01:30:00+00:00",
-    "raw": "METAR VIGR 210130Z VRB01KT 3000 BR FEW090 29/29 Q1012 NOSIG"
-  },
-  "randomPlace": {
-    "name": "RJFS",
-    "station": "RJFS",
-    "lat": 33.15,
-    "lon": 130.302,
-    "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 19.0,
-    "windSpeed": 12.0,
-    "windDirection": 350.0,
     "visibility": "6+",
     "flightCategory": "VFR",
+    "observationTime": "2026-09-21T02:20:00.000Z",
+    "observationTimestamp": "2026-09-21T02:20:00+00:00",
+    "raw": "METAR EGSS 210220Z AUTO VRB01KT 9999 NCD 07/06 Q1031"
+  },
+  "randomPlace": {
+    "name": "VLPS",
+    "station": "VLPS",
+    "lat": 15.132,
+    "lon": 105.781,
+    "weather": "No coded weather",
+    "temperature": 26.0,
+    "dewpoint": 24.0,
+    "windSpeed": 2.0,
+    "windDirection": 140.0,
+    "visibility": "4.97",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-21T02:00:00.000Z",
     "observationTimestamp": "2026-09-21T02:00:00+00:00",
-    "raw": "METAR RJFS 210200Z 35012KT 9999 FEW030 SCT045 27/19 Q1007"
+    "raw": "METAR VLPS 210200Z 14002KT 8000 SCT017 BKN040 26/24 Q1013 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212106263,
-      "display": "8,212,106,263",
+      "value": 8212108349,
+      "display": "8,212,108,349",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-21T02:24:00Z",
-      "speed": 355.0
+      "time": "2026-09-21T02:38:00Z",
+      "speed": 347.0
     },
     "magneticField": {
-      "time": "2026-09-21T02:24:00Z",
+      "time": "2026-09-21T02:38:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-20T21:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-21T02:19:00Z",
-      "forecastTime": "2026-09-21T03:35:00Z"
+      "observationTime": "2026-09-21T02:38:00Z",
+      "forecastTime": "2026-09-21T03:56:00Z"
     },
     "flux10cm": {
       "time": "2026-09-20T20:00:00",
