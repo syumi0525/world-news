@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T20:09:07.820530+00:00",
+  "generatedAt": "2026-09-22T20:23:47.874814+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 102058 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "title": "File:Ballard locks fish ladder east entrance.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ursacascadia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ursacascadia (page does not exist)\">Ursacascadia</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_102058_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ballard_locks_fish_ladder_east_entrance.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLFK",
-    "station": "KLFK",
-    "lat": 31.2359,
-    "lon": -94.7546,
+    "name": "KPTN",
+    "station": "KPTN",
+    "lat": 29.71,
+    "lon": -91.3381,
     "weather": "No coded weather",
-    "temperature": 35.0,
-    "dewpoint": 21.1,
-    "windSpeed": 5.0,
-    "windDirection": 0.0,
+    "temperature": 32.8,
+    "dewpoint": 24.4,
+    "windSpeed": 4.0,
+    "windDirection": 50.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T19:53:00.000Z",
-    "observationTimestamp": "2026-09-22T19:53:00+00:00",
-    "raw": "METAR KLFK 221953Z AUTO VRB05KT 10SM CLR 35/21 A2994 RMK AO2 SLP134 T03500211 $"
+    "observationTime": "2026-09-22T19:56:00.000Z",
+    "observationTimestamp": "2026-09-22T19:56:00+00:00",
+    "raw": "METAR KPTN 221956Z AUTO 05004KT 10SM SCT040 BKN049 33/24 A2993 RMK AO2 SLP134 T03280244 $"
   },
   "randomPlace": {
-    "name": "EBBR",
-    "station": "EBBR",
-    "lat": 50.896,
-    "lon": 4.526,
+    "name": "KFSI",
+    "station": "KFSI",
+    "lat": 34.6457,
+    "lon": -98.404,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 13.0,
-    "windSpeed": 3.0,
-    "windDirection": 80.0,
-    "visibility": "6+",
+    "temperature": 30.9,
+    "dewpoint": 17.2,
+    "windSpeed": 11.0,
+    "windDirection": 40.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T19:50:00.000Z",
-    "observationTimestamp": "2026-09-22T19:50:00+00:00",
-    "raw": "METAR EBBR 221950Z 08003KT 9999 BKN035 17/13 Q1028 NOSIG"
+    "observationTime": "2026-09-22T19:55:00.000Z",
+    "observationTimestamp": "2026-09-22T19:55:00+00:00",
+    "raw": "METAR KFSI 221955Z AUTO 04011G15KT 10SM CLR 31/17 A3003 RMK AO2 SLP158 T03090172 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8208176391,
-      "display": "8,208,176,391",
+      "value": 8208178306,
+      "display": "8,208,178,306",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T20:01:00Z",
-      "speed": 300.0
+      "time": "2026-09-22T20:16:00Z",
+      "speed": 290.0
     },
     "magneticField": {
-      "time": "2026-09-22T20:01:00Z",
-      "bt": 3.0,
-      "bz": -3.0
+      "time": "2026-09-22T20:16:00Z",
+      "bt": 4.0,
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-22T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T19:59:00Z",
-      "forecastTime": "2026-09-22T21:27:00Z"
+      "observationTime": "2026-09-22T20:16:00Z",
+      "forecastTime": "2026-09-22T21:43:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
