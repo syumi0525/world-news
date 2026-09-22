@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T19:15:55.615361+00:00",
+  "generatedAt": "2026-09-22T19:28:36.712169+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Danau Tigi - Deiyai.jpg",
-    "artist": "Government of Deiyai, Indonesia",
+    "title": "File:Heading of \"Verslag van de Staatsspoorwegen over het jaar 1928\".jpg",
+    "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q64041032\" class=\"extiw\" title=\"d:Q64041032\">Willem Fredrik Staargaard</a></bdi>",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Heading_of_%22Verslag_van_de_Staatsspoorwegen_over_het_jaar_1928%22.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EHSA",
-    "station": "EHSA",
-    "lat": 51.998,
-    "lon": 3.275,
+    "name": "BGQO",
+    "station": "BGQO",
+    "lat": 60.7638,
+    "lon": -46.065,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 16.0,
-    "windSpeed": 2.0,
-    "windDirection": 10.0,
+    "temperature": 6.0,
+    "dewpoint": -6.0,
+    "windSpeed": 12.0,
+    "windDirection": 270.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T18:55:00.000Z",
-    "observationTimestamp": "2026-09-22T18:55:00+00:00",
-    "raw": "METAR EHSA 221855Z AUTO 01002KT 9999 ///////// 19/16 Q1029 W20/H7"
+    "observationTime": "2026-09-22T19:20:00.000Z",
+    "observationTimestamp": "2026-09-22T19:20:00+00:00",
+    "raw": "METAR BGQO 221920Z 27012KT 9999 FEW050 06/M06 Q1002"
   },
   "randomPlace": {
-    "name": "KOLZ",
-    "station": "KOLZ",
-    "lat": 42.6831,
-    "lon": -91.976,
+    "name": "DATM",
+    "station": "DATM",
+    "lat": 21.375,
+    "lon": 0.924,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 12.0,
-    "windSpeed": 10.0,
-    "windDirection": 90.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T18:55:00.000Z",
-    "observationTimestamp": "2026-09-22T18:55:00+00:00",
-    "raw": "METAR KOLZ 221855Z AUTO 09010KT 10SM FEW018 BKN023 OVC045 15/12 A3032 RMK A01"
+    "temperature": 37.0,
+    "dewpoint": 9.0,
+    "windSpeed": 4.0,
+    "windDirection": 30.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T19:00:00.000Z",
+    "observationTimestamp": "2026-09-22T19:00:00+00:00",
+    "raw": "METAR DATM 221900Z 03004KT 9999 FEW040TCU SCT046 37/09 Q1011"
   },
   "globalPulse": {
     "population": {
-      "value": 8208169471,
-      "display": "8,208,169,471",
+      "value": 8208171121,
+      "display": "8,208,171,121",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T19:08:00Z",
-      "speed": 305.0
+      "time": "2026-09-22T19:18:00Z",
+      "speed": 303.0
     },
     "magneticField": {
-      "time": "2026-09-22T19:08:00Z",
+      "time": "2026-09-22T19:18:00Z",
       "bt": 3.0,
       "bz": -1.0
     },
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T19:04:00Z",
-      "forecastTime": "2026-09-22T20:34:00Z"
+      "observationTime": "2026-09-22T19:21:00Z",
+      "forecastTime": "2026-09-22T20:48:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
