@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T01:21:51.271666+00:00",
+  "generatedAt": "2026-09-22T01:38:54.491021+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:30BY35 home plan by ER. AYUSH TOMAR 9997233546.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Erayushtomar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Erayushtomar (page does not exist)\">Erayushtomar</a>",
+    "title": "File:Hüdavendigar Kent Parkı.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:30BY35_home_plan_by_ER._AYUSH_TOMAR_9997233546.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%BCdavendigar_Kent_Park%C4%B1.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCHK",
-    "station": "KCHK",
-    "lat": 35.0927,
-    "lon": -97.9709,
+    "name": "RJNS",
+    "station": "RJNS",
+    "lat": 34.796,
+    "lon": 138.189,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 19.0,
-    "windSpeed": 14.0,
-    "windDirection": 350.0,
-    "visibility": "10+",
+    "temperature": 30.0,
+    "dewpoint": 23.0,
+    "windSpeed": 4.0,
+    "windDirection": 130.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T00:55:00.000Z",
-    "observationTimestamp": "2026-09-22T00:55:00+00:00",
-    "raw": "METAR KCHK 220055Z AUTO 35014KT 10SM CLR 23/19 A3002 RMK AO2 LTG DSNT SE P0001"
+    "observationTime": "2026-09-22T01:00:00.000Z",
+    "observationTimestamp": "2026-09-22T01:00:00+00:00",
+    "raw": "METAR RJNS 220100Z 13004KT 080V190 9999 FEW030 30/23 Q1008"
   },
   "randomPlace": {
-    "name": "KMCZ",
-    "station": "KMCZ",
-    "lat": 35.862,
-    "lon": -77.178,
+    "name": "KPIM",
+    "station": "KPIM",
+    "lat": 32.8421,
+    "lon": -84.8766,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 21.7,
-    "windSpeed": 6.0,
-    "windDirection": 350.0,
+    "temperature": 25.0,
+    "dewpoint": 21.0,
+    "windSpeed": null,
+    "windDirection": null,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-22T01:15:00.000Z",
     "observationTimestamp": "2026-09-22T01:15:00+00:00",
-    "raw": "METAR KMCZ 220115Z AUTO 35006KT 10SM SCT046 22/22 A3003 RMK AO2 T02200217"
+    "raw": "METAR KPIM 220115Z AUTO 10SM CLR 25/21 A2997 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212270339,
-      "display": "8,212,270,339",
+      "value": 8212272386,
+      "display": "8,212,272,386",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T01:14:00Z",
-      "speed": 326.0
+      "time": "2026-09-22T01:32:00Z",
+      "speed": 322.0
     },
     "magneticField": {
-      "time": "2026-09-22T01:14:00Z",
+      "time": "2026-09-22T01:32:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-21T21:00:00",
       "kp": 1.33
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 25.0,
+      "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T01:09:00Z",
-      "forecastTime": "2026-09-22T02:31:00Z"
+      "observationTime": "2026-09-22T01:29:00Z",
+      "forecastTime": "2026-09-22T02:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
