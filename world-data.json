@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T18:50:18.381956+00:00",
+  "generatedAt": "2026-09-22T19:00:18.400480+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Belem - Consulate Office Building - 1972 - DPLA - ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg",
-    "artist": "Department of State. Office of the Undersecretary for Management. Bureau of Overseas Buildings Operations. (2001)",
+    "title": "File:Bishopsteignton in 2006.jpg",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Belem_-_Consulate_Office_Building_-_1972_-_DPLA_-_ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ZSAM",
-    "station": "ZSAM",
-    "lat": 24.546,
-    "lon": 118.131,
+    "name": "KMWN",
+    "station": "KMWN",
+    "lat": 44.271,
+    "lon": -71.304,
     "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 23.0,
-    "windSpeed": 8.0,
-    "windDirection": 50.0,
-    "visibility": "6+",
+    "temperature": 4.0,
+    "dewpoint": 0.0,
+    "windSpeed": 4.0,
+    "windDirection": 270.0,
+    "visibility": "99",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T18:50:00.000Z",
+    "observationTimestamp": "2026-09-22T18:50:00+00:00",
+    "raw": "METAR KMWN 221850Z 27004KT 100SM BKN010 BKN120 BKN180 04/00 RMK"
+  },
+  "randomPlace": {
+    "name": "CYSJ",
+    "station": "CYSJ",
+    "lat": 45.309,
+    "lon": -65.886,
+    "weather": "No coded weather",
+    "temperature": 17.0,
+    "dewpoint": 5.0,
+    "windSpeed": 11.0,
+    "windDirection": 10.0,
+    "visibility": "15",
     "flightCategory": "VFR",
     "observationTime": "2026-09-22T18:00:00.000Z",
     "observationTimestamp": "2026-09-22T18:00:00+00:00",
-    "raw": "METAR ZSAM 221800Z 05004MPS CAVOK 27/23 Q1014 NOSIG"
-  },
-  "randomPlace": {
-    "name": "EFJY",
-    "station": "EFJY",
-    "lat": 62.404,
-    "lon": 25.675,
-    "weather": "No coded weather",
-    "temperature": 4.0,
-    "dewpoint": 4.0,
-    "windSpeed": 2.0,
-    "windDirection": 320.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T18:20:00.000Z",
-    "observationTimestamp": "2026-09-22T18:20:00+00:00",
-    "raw": "METAR EFJY 221820Z AUTO 32002KT CAVOK 04/04 Q1025"
+    "raw": "METAR CYSJ 221800Z 01011G16KT 320V030 15SM FEW038 SCT240 17/05 A3037 RMK CF1CI2 CF TR SLP289"
   },
   "globalPulse": {
     "population": {
-      "value": 8208166132,
-      "display": "8,208,166,132",
+      "value": 8208167418,
+      "display": "8,208,167,418",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T18:37:00Z",
+      "time": "2026-09-22T18:54:00Z",
       "speed": 294.0
     },
     "magneticField": {
-      "time": "2026-09-22T18:37:00Z",
+      "time": "2026-09-22T18:54:00Z",
       "bt": 3.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T18:35:00Z",
-      "forecastTime": "2026-09-22T20:05:00Z"
+      "observationTime": "2026-09-22T18:49:00Z",
+      "forecastTime": "2026-09-22T20:19:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
