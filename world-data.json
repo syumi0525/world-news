@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T03:49:06.150722+00:00",
+  "generatedAt": "2026-09-22T03:57:48.295059+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Alwin-Muncak.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Unaaa3003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Unaaa3003 (page does not exist)\">Unaaa3003</a>",
-    "license": "CC0",
+    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
+    "artist": "Gardner, Alexander, 1821-1882",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Alwin-Muncak.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LPLA",
-    "station": "LPLA",
-    "lat": 38.762,
-    "lon": -27.091,
+    "name": "OIYY",
+    "station": "OIYY",
+    "lat": 31.905,
+    "lon": 54.276,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 17.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
+    "temperature": 24.0,
+    "dewpoint": -7.0,
+    "windSpeed": 6.0,
+    "windDirection": 240.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-22T03:00:00.000Z",
     "observationTimestamp": "2026-09-22T03:00:00+00:00",
-    "raw": "METAR LPLA 220300Z VRB02KT 9999 FEW025 SCT040 22/17 Q1026"
+    "raw": "METAR OIYY 220300Z 24006KT CAVOK 24/M07 Q1020 NOSIG"
   },
   "randomPlace": {
-    "name": "CXMI",
-    "station": "CXMI",
-    "lat": 44.602,
-    "lon": -63.534,
+    "name": "DAOL",
+    "station": "DAOL",
+    "lat": 35.542,
+    "lon": -0.532,
     "weather": "No coded weather",
-    "temperature": 12.5,
-    "dewpoint": 11.4,
-    "windSpeed": 8.0,
-    "windDirection": 340.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "temperature": 20.0,
+    "dewpoint": 20.0,
+    "windSpeed": 4.0,
+    "windDirection": 260.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-22T03:00:00.000Z",
     "observationTimestamp": "2026-09-22T03:00:00+00:00",
-    "raw": "METAR CXMI 220300Z AUTO 34008KT 13/11 RMK AO1 SLP206 T01250114 51019"
+    "raw": "METAR DAOL 220300Z 26004KT 9999 SCT026 20/20 Q1020"
   },
   "globalPulse": {
     "population": {
-      "value": 8212287987,
-      "display": "8,212,287,987",
+      "value": 8212289033,
+      "display": "8,212,289,033",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T03:15:00Z",
-      "speed": 312.0
+      "time": "2026-09-22T03:48:00Z",
+      "speed": 319.0
     },
     "magneticField": {
-      "time": "2026-09-22T03:15:00Z",
-      "bt": 5.0,
-      "bz": 1.0
+      "time": "2026-09-22T03:48:00Z",
+      "bt": 4.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-22T00:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 18.0,
+      "display": "MAX 18.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T03:15:00Z",
-      "forecastTime": "2026-09-22T04:38:00Z"
+      "observationTime": "2026-09-22T03:21:00Z",
+      "forecastTime": "2026-09-22T04:44:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
