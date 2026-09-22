@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T09:29:51.300065+00:00",
+  "generatedAt": "2026-09-22T09:43:45.944070+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
-    "artist": "Gardner, Alexander, 1821-1882",
-    "license": "Public domain",
+    "title": "File:Basilique de Fourvière à Lyon, vue d'en bas.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PerrineSCDUM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PerrineSCDUM (page does not exist)\">PerrineSCDUM</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_%C3%A0_Lyon%2C_vue_d%27en_bas.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KO69",
-    "station": "KO69",
-    "lat": 38.2601,
-    "lon": -122.607,
+    "name": "KMZM",
+    "station": "KMZM",
+    "lat": 26.9608,
+    "lon": -89.0303,
     "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 12.0,
+    "temperature": 29.0,
+    "dewpoint": 24.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "9",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-22T09:15:00.000Z",
-    "observationTimestamp": "2026-09-22T09:15:00+00:00",
-    "raw": "METAR KO69 220915Z AUTO 00000KT 9SM OVC004 12/12 A2995 RMK A01"
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T09:35:00.000Z",
+    "observationTimestamp": "2026-09-22T09:35:00+00:00",
+    "raw": "METAR KMZM 220935Z AUTO 00000KT 10SM 29/24 A2990 RMK A01"
   },
   "randomPlace": {
-    "name": "KOLE",
-    "station": "KOLE",
-    "lat": 42.2429,
-    "lon": -78.3721,
+    "name": "KFAY",
+    "station": "KFAY",
+    "lat": 34.9895,
+    "lon": -78.88,
     "weather": "No coded weather",
-    "temperature": null,
-    "dewpoint": null,
-    "windSpeed": 9.0,
-    "windDirection": 70.0,
-    "visibility": "7",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-22T08:55:00.000Z",
-    "observationTimestamp": "2026-09-22T08:55:00+00:00",
-    "raw": "METAR KOLE 220855Z AUTO 07009KT 7SM OVC002 A3024 RMK AO2"
+    "temperature": 21.7,
+    "dewpoint": 21.1,
+    "windSpeed": 6.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T08:53:00.000Z",
+    "observationTimestamp": "2026-09-22T08:53:00+00:00",
+    "raw": "METAR KFAY 220853Z 03006KT 10SM BKN016 22/21 A2999 RMK AO2 SLP148 T02170211 55000"
   },
   "globalPulse": {
     "population": {
-      "value": 8212328758,
-      "display": "8,212,328,758",
+      "value": 8212330448,
+      "display": "8,212,330,448",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 60.6,
-      "display": "60.6%",
+      "value": 60.7,
+      "display": "60.7%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-22T00:00:00Z"
+      "time": "2026-09-22T06:00:00Z"
     },
     "geomagnetic": {
       "value": 0.3,
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T09:22:00Z",
-      "speed": 304.0
+      "time": "2026-09-22T09:35:00Z",
+      "speed": 303.0
     },
     "magneticField": {
-      "time": "2026-09-22T09:22:00Z",
+      "time": "2026-09-22T09:35:00Z",
       "bt": 4.0,
-      "bz": 3.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-22T06:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T09:20:00Z",
-      "forecastTime": "2026-09-22T10:47:00Z"
+      "observationTime": "2026-09-22T09:35:00Z",
+      "forecastTime": "2026-09-22T11:02:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
