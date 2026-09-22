@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T01:59:09.080611+00:00",
+  "generatedAt": "2026-09-22T02:16:19.567725+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Balcones (8677680208).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
-    "license": "Public domain",
+    "title": "File:Ndongo bridge road.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "GMMN",
-    "station": "GMMN",
-    "lat": 33.367,
-    "lon": -7.59,
+    "name": "K2DP",
+    "station": "K2DP",
+    "lat": 35.672,
+    "lon": -75.892,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 15.0,
+    "temperature": 24.0,
+    "dewpoint": 23.0,
     "windSpeed": 3.0,
-    "windDirection": 230.0,
-    "visibility": "6+",
+    "windDirection": 80.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T01:30:00.000Z",
-    "observationTimestamp": "2026-09-22T01:30:00+00:00",
-    "raw": "METAR GMMN 220130Z 23003KT CAVOK 20/15 Q1018 NOSIG"
+    "observationTime": "2026-09-22T02:00:00.000Z",
+    "observationTimestamp": "2026-09-22T02:00:00+00:00",
+    "raw": "SPECI K2DP 220200Z AUTO 08003KT 10SM SCT015 SCT024 24/23 A3000 RMK AO2 SLP166 $"
   },
   "randomPlace": {
-    "name": "KP59",
-    "station": "KP59",
-    "lat": 47.467,
-    "lon": -87.875,
+    "name": "KCOS",
+    "station": "KCOS",
+    "lat": 38.8095,
+    "lon": -104.6887,
     "weather": "No coded weather",
-    "temperature": 6.1,
-    "dewpoint": 4.4,
-    "windSpeed": 3.0,
-    "windDirection": 240.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-22T01:51:00.000Z",
-    "observationTimestamp": "2026-09-22T01:51:00+00:00",
-    "raw": "METAR KP59 220151Z AUTO 24003KT 06/04 A3038 RMK AO1 SLP293 T00610044"
+    "temperature": 16.7,
+    "dewpoint": 10.0,
+    "windSpeed": 9.0,
+    "windDirection": 140.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T01:54:00.000Z",
+    "observationTimestamp": "2026-09-22T01:54:00+00:00",
+    "raw": "METAR KCOS 220154Z 14009KT 10SM FEW080 BKN240 17/10 A3027 RMK AO2 SLP194 T01670100"
   },
   "globalPulse": {
     "population": {
-      "value": 8212274799,
-      "display": "8,212,274,799",
+      "value": 8212276862,
+      "display": "8,212,276,862",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T01:50:00Z",
-      "speed": 319.0
+      "time": "2026-09-22T02:09:00Z",
+      "speed": 320.0
     },
     "magneticField": {
-      "time": "2026-09-22T01:50:00Z",
+      "time": "2026-09-22T02:09:00Z",
       "bt": 4.0,
       "bz": 0.0
     },
@@ -113,8 +113,8 @@
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T01:50:00Z",
-      "forecastTime": "2026-09-22T03:11:00Z"
+      "observationTime": "2026-09-22T02:03:00Z",
+      "forecastTime": "2026-09-22T03:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
