@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T05:43:32.185750+00:00",
+  "generatedAt": "2026-09-22T05:55:34.557140+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bird nests.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
+    "title": "File:Borehole project 13.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_13.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KECU",
-    "station": "KECU",
-    "lat": 29.948,
-    "lon": -100.1736,
+    "name": "KAEX",
+    "station": "KAEX",
+    "lat": 31.3346,
+    "lon": -92.5585,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 18.0,
-    "windSpeed": 4.0,
-    "windDirection": 90.0,
+    "temperature": 25.6,
+    "dewpoint": 20.6,
+    "windSpeed": 3.0,
+    "windDirection": 340.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T05:35:00.000Z",
-    "observationTimestamp": "2026-09-22T05:35:00+00:00",
-    "raw": "METAR KECU 220535Z AUTO 09004KT 10SM CLR 23/18 A3007 RMK AO2"
+    "observationTime": "2026-09-22T04:53:00.000Z",
+    "observationTimestamp": "2026-09-22T04:53:00+00:00",
+    "raw": "METAR KAEX 220453Z 34003KT 10SM CLR 26/21 A2993 RMK AO2 SLP136 T02560206"
   },
   "randomPlace": {
-    "name": "UMKK",
-    "station": "UMKK",
-    "lat": 54.885,
-    "lon": 20.583,
-    "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 11.0,
-    "windSpeed": 8.0,
-    "windDirection": 30.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T05:30:00.000Z",
-    "observationTimestamp": "2026-09-22T05:30:00+00:00",
-    "raw": "METAR UMKK 220530Z 03004MPS 9999 SCT020CB 13/11 Q1018 R24/290063 NOSIG RMK QFE762/1016"
+    "name": "KDMO",
+    "station": "KDMO",
+    "lat": 38.712,
+    "lon": -93.1747,
+    "weather": "BR",
+    "temperature": 18.3,
+    "dewpoint": 17.8,
+    "windSpeed": 4.0,
+    "windDirection": 40.0,
+    "visibility": "2.5",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-22T05:45:00.000Z",
+    "observationTimestamp": "2026-09-22T05:45:00+00:00",
+    "raw": "SPECI KDMO 220545Z AUTO 04004KT 2 1/2SM BR OVC004 18/18 A3012 RMK AO2 CIG 002V007 T01830178"
   },
   "globalPulse": {
     "population": {
-      "value": 8212301689,
-      "display": "8,212,301,689",
+      "value": 8212303129,
+      "display": "8,212,303,129",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T05:33:00Z",
-      "speed": 314.0
+      "time": "2026-09-22T05:47:00Z",
+      "speed": 318.0
     },
     "magneticField": {
-      "time": "2026-09-22T05:33:00Z",
+      "time": "2026-09-22T05:47:00Z",
       "bt": 4.0,
-      "bz": 3.0
+      "bz": 4.0
     },
     "kp": {
       "time": "2026-09-22T00:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T05:30:00Z",
-      "forecastTime": "2026-09-22T06:54:00Z"
+      "observationTime": "2026-09-22T05:44:00Z",
+      "forecastTime": "2026-09-22T07:09:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
