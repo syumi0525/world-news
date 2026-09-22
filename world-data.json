@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T06:12:41.966579+00:00",
+  "generatedAt": "2026-09-22T06:36:42.482470+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20190415 Yehliu geopark beach-1.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
-    "license": "CC0",
+    "title": "File:A Journey to Lhasa and Central Tibet p219.jpg",
+    "artist": "Sarat Chandra Das",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_Journey_to_Lhasa_and_Central_Tibet_p219.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KNPA",
-    "station": "KNPA",
-    "lat": 30.356,
-    "lon": -87.323,
-    "weather": "TS",
-    "temperature": 23.9,
-    "dewpoint": 22.2,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "name": "EDVK",
+    "station": "EDVK",
+    "lat": 51.421,
+    "lon": 9.388,
+    "weather": "No coded weather",
+    "temperature": 9.0,
+    "dewpoint": 8.0,
+    "windSpeed": 1.0,
+    "windDirection": 300.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T05:56:00.000Z",
-    "observationTimestamp": "2026-09-22T05:56:00+00:00",
-    "raw": "METAR KNPA 220556Z AUTO 00000KT 10SM TS FEW022 SCT046 24/22 A2993 RMK AO2 SLP136 T02390222 10278 20239 56005 $"
+    "observationTime": "2026-09-22T06:20:00.000Z",
+    "observationTimestamp": "2026-09-22T06:20:00+00:00",
+    "raw": "METAR EDVK 220620Z 30001KT 9999 FEW015 BKN035 09/08 Q1029"
   },
   "randomPlace": {
-    "name": "CWGM",
-    "station": "CWGM",
-    "lat": 49.133,
-    "lon": -113.806,
+    "name": "KSVE",
+    "station": "KSVE",
+    "lat": 40.376,
+    "lon": -120.5742,
     "weather": "No coded weather",
-    "temperature": 15.8,
-    "dewpoint": 5.9,
-    "windSpeed": 11.0,
-    "windDirection": 230.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-22T06:00:00.000Z",
-    "observationTimestamp": "2026-09-22T06:00:00+00:00",
-    "raw": "METAR CWGM 220600Z AUTO 23011G16KT 16/06 RMK AO1 PK WND 23017/0509 SLP113 T01580059 58006"
+    "temperature": 18.0,
+    "dewpoint": 1.0,
+    "windSpeed": 6.0,
+    "windDirection": 250.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T06:15:00.000Z",
+    "observationTimestamp": "2026-09-22T06:15:00+00:00",
+    "raw": "METAR KSVE 220615Z AUTO 25006KT 10SM CLR 18/01 A3001 RMK A01 P000"
   },
   "globalPulse": {
     "population": {
-      "value": 8212305162,
-      "display": "8,212,305,162",
+      "value": 8212308038,
+      "display": "8,212,308,038",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-22T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-22T00:00:00"
+      "time": "2026-09-22T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T06:03:00Z",
-      "speed": 314.0
+      "time": "2026-09-22T06:27:00Z",
+      "speed": 321.0
     },
     "magneticField": {
-      "time": "2026-09-22T06:03:00Z",
+      "time": "2026-09-22T06:27:00Z",
       "bt": 4.0,
-      "bz": 3.0
+      "bz": 4.0
     },
     "kp": {
-      "time": "2026-09-22T00:00:00",
-      "kp": 2.0
+      "time": "2026-09-22T03:00:00",
+      "kp": 0.67
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T06:00:00Z",
-      "forecastTime": "2026-09-22T07:24:00Z"
+      "observationTime": "2026-09-22T06:25:00Z",
+      "forecastTime": "2026-09-22T07:49:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
