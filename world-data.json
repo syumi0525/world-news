@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T16:26:11.627834+00:00",
+  "generatedAt": "2026-09-22T16:41:14.264388+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nilüfer kanak köprüsü.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "title": "File:500px photo (212154965).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/pascalestrand\">Pascal Estrand</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28212154965%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHKS",
-    "station": "KHKS",
-    "lat": 32.3376,
-    "lon": -90.2214,
+    "name": "KSPS",
+    "station": "KSPS",
+    "lat": 33.9785,
+    "lon": -98.493,
     "weather": "No coded weather",
-    "temperature": 31.1,
-    "dewpoint": 21.7,
-    "windSpeed": 3.0,
-    "windDirection": 0.0,
+    "temperature": 28.3,
+    "dewpoint": 17.2,
+    "windSpeed": 16.0,
+    "windDirection": 40.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T15:53:00.000Z",
-    "observationTimestamp": "2026-09-22T15:53:00+00:00",
-    "raw": "METAR KHKS 221553Z VRB03KT 10SM CLR 31/22 A3002 RMK AO2 SLP157 T03110217"
+    "observationTime": "2026-09-22T15:52:00.000Z",
+    "observationTimestamp": "2026-09-22T15:52:00+00:00",
+    "raw": "METAR KSPS 221552Z 04016KT 10SM CLR 28/17 A3012 RMK AO2 SLP186 T02830172"
   },
   "randomPlace": {
-    "name": "KECS",
-    "station": "KECS",
-    "lat": 43.8845,
-    "lon": -104.312,
+    "name": "KFYJ",
+    "station": "KFYJ",
+    "lat": 37.5224,
+    "lon": -76.7663,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 10.0,
-    "windSpeed": 14.0,
-    "windDirection": 130.0,
-    "visibility": "10+",
+    "temperature": 21.1,
+    "dewpoint": 20.4,
+    "windSpeed": 7.0,
+    "windDirection": 40.0,
+    "visibility": "5",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T16:15:00.000Z",
-    "observationTimestamp": "2026-09-22T16:15:00+00:00",
-    "raw": "METAR KECS 221615Z AUTO 13014G18KT 10SM OVC019 13/10 A3016 RMK AO2"
+    "observationTime": "2026-09-22T16:35:00.000Z",
+    "observationTimestamp": "2026-09-22T16:35:00+00:00",
+    "raw": "METAR KFYJ 221635Z AUTO 04007KT 5SM SCT009 BKN027 OVC035 21/20 A3011 RMK AO1 P0002 T02110204"
   },
   "globalPulse": {
     "population": {
-      "value": 8208147378,
-      "display": "8,208,147,378",
+      "value": 8208149330,
+      "display": "8,208,149,330",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T16:18:00Z",
-      "speed": 292.0
+      "time": "2026-09-22T16:35:00Z",
+      "speed": 294.0
     },
     "magneticField": {
-      "time": "2026-09-22T16:18:00Z",
+      "time": "2026-09-22T16:35:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-22T12:00:00",
       "kp": 0.33
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T16:16:00Z",
-      "forecastTime": "2026-09-22T17:42:00Z"
+      "observationTime": "2026-09-22T16:30:00Z",
+      "forecastTime": "2026-09-22T17:57:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
