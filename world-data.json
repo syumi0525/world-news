@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T12:36:16.843472+00:00",
+  "generatedAt": "2026-09-22T12:52:21.238362+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20190415 Yehliu geopark beach-1.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "title": "File:Ndongo 09.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_09.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LIMS",
-    "station": "LIMS",
-    "lat": 44.913,
-    "lon": 9.723,
+    "name": "KGNC",
+    "station": "KGNC",
+    "lat": 32.678,
+    "lon": -102.65,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 17.0,
-    "windSpeed": null,
-    "windDirection": null,
-    "visibility": "6+",
+    "temperature": 19.1,
+    "dewpoint": 18.1,
+    "windSpeed": 7.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T11:55:00.000Z",
-    "observationTimestamp": "2026-09-22T11:55:00+00:00",
-    "raw": "METAR LIMS 221155Z /////KT 9999 FEW040 24/17 Q1020 RMK FEW VIS MIN 9999 WIND THR30 /////KT BLU"
+    "observationTime": "2026-09-22T12:30:00.000Z",
+    "observationTimestamp": "2026-09-22T12:30:00+00:00",
+    "raw": "METAR KGNC 221230Z AUTO 06007KT 10SM CLR 19/18 A3019 RMK AO2 T01910181"
   },
   "randomPlace": {
-    "name": "KFBG",
-    "station": "KFBG",
-    "lat": 35.131,
-    "lon": -78.932,
+    "name": "KPWM",
+    "station": "KPWM",
+    "lat": 43.6424,
+    "lon": -70.3044,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 21.0,
-    "windSpeed": 3.0,
-    "windDirection": 20.0,
+    "temperature": 10.6,
+    "dewpoint": 5.6,
+    "windSpeed": 7.0,
+    "windDirection": 360.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T12:15:00.000Z",
-    "observationTimestamp": "2026-09-22T12:15:00+00:00",
-    "raw": "SPECI KFBG 221215Z AUTO 02003KT 10SM FEW010 OVC016 23/21 A3001 RMK AO2 SLP163 $"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T11:51:00.000Z",
+    "observationTimestamp": "2026-09-22T11:51:00+00:00",
+    "raw": "METAR KPWM 221151Z 36007KT 10SM FEW060 SCT200 BKN250 11/06 A3040 RMK AO2 SLP295 T01060056 10122 20100 53025 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8208117426,
-      "display": "8,208,117,426",
+      "value": 8208119511,
+      "display": "8,208,119,511",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -114,7 +114,7 @@
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
       "observationTime": "2026-09-22T11:34:00Z",
-      "forecastTime": "2026-09-22T13:50:00Z"
+      "forecastTime": "2026-09-22T13:58:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
