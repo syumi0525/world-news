@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T20:23:47.874814+00:00",
+  "generatedAt": "2026-09-22T20:39:36.284321+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ballard locks fish ladder east entrance.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ursacascadia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ursacascadia (page does not exist)\">Ursacascadia</a>",
+    "title": "File:Batiment aunsein de la Ville de Majunga 13.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ballard_locks_fish_ladder_east_entrance.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_13.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPTN",
-    "station": "KPTN",
-    "lat": 29.71,
-    "lon": -91.3381,
+    "name": "LEMG",
+    "station": "LEMG",
+    "lat": 36.666,
+    "lon": -4.482,
     "weather": "No coded weather",
-    "temperature": 32.8,
-    "dewpoint": 24.4,
-    "windSpeed": 4.0,
-    "windDirection": 50.0,
-    "visibility": "10+",
+    "temperature": 21.0,
+    "dewpoint": 18.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T19:56:00.000Z",
-    "observationTimestamp": "2026-09-22T19:56:00+00:00",
-    "raw": "METAR KPTN 221956Z AUTO 05004KT 10SM SCT040 BKN049 33/24 A2993 RMK AO2 SLP134 T03280244 $"
+    "observationTime": "2026-09-22T20:30:00.000Z",
+    "observationTimestamp": "2026-09-22T20:30:00+00:00",
+    "raw": "METAR LEMG 222030Z VRB02KT CAVOK 21/18 Q1019 NOSIG"
   },
   "randomPlace": {
-    "name": "KFSI",
-    "station": "KFSI",
-    "lat": 34.6457,
-    "lon": -98.404,
+    "name": "LIEA",
+    "station": "LIEA",
+    "lat": 40.631,
+    "lon": 8.289,
     "weather": "No coded weather",
-    "temperature": 30.9,
-    "dewpoint": 17.2,
-    "windSpeed": 11.0,
-    "windDirection": 40.0,
-    "visibility": "10+",
+    "temperature": 23.0,
+    "dewpoint": 17.0,
+    "windSpeed": 7.0,
+    "windDirection": 30.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T19:55:00.000Z",
-    "observationTimestamp": "2026-09-22T19:55:00+00:00",
-    "raw": "METAR KFSI 221955Z AUTO 04011G15KT 10SM CLR 31/17 A3003 RMK AO2 SLP158 T03090172 $"
+    "observationTime": "2026-09-22T20:20:00.000Z",
+    "observationTimestamp": "2026-09-22T20:20:00+00:00",
+    "raw": "METAR LIEA 222020Z 03007KT CAVOK 23/17 Q1018"
   },
   "globalPulse": {
     "population": {
-      "value": 8208178306,
-      "display": "8,208,178,306",
+      "value": 8208180363,
+      "display": "8,208,180,363",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T20:16:00Z",
-      "speed": 290.0
+      "time": "2026-09-22T20:30:00Z",
+      "speed": 294.0
     },
     "magneticField": {
-      "time": "2026-09-22T20:16:00Z",
-      "bt": 4.0,
-      "bz": -1.0
+      "time": "2026-09-22T20:30:00Z",
+      "bt": 3.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-22T15:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T20:16:00Z",
-      "forecastTime": "2026-09-22T21:43:00Z"
+      "observationTime": "2026-09-22T20:30:00Z",
+      "forecastTime": "2026-09-22T21:59:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
