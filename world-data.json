@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T07:26:26.043292+00:00",
+  "generatedAt": "2026-09-22T07:40:23.471446+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Created for the National Natural landmarks Program by Dennis Caldwell, caldwell-design.com (b824c582-b833-40d1-ba54-ea580db40bbb).jpg",
-    "artist": "National Park Service",
-    "license": "Public domain",
+    "title": "File:Alverstone Garden Village.2.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Shlumble&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Shlumble (page does not exist)\">Shlumble</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Created_for_the_National_Natural_landmarks_Program_by_Dennis_Caldwell%2C_caldwell-design.com_%28b824c582-b833-40d1-ba54-ea580db40bbb%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alverstone_Garden_Village.2.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCHT",
-    "station": "KCHT",
-    "lat": 39.782,
-    "lon": -93.496,
-    "weather": "BR",
-    "temperature": 18.0,
-    "dewpoint": 18.0,
-    "windSpeed": 4.0,
-    "windDirection": 30.0,
-    "visibility": "3",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T07:15:00.000Z",
-    "observationTimestamp": "2026-09-22T07:15:00+00:00",
-    "raw": "METAR KCHT 220715Z AUTO 03004KT 3SM BR 18/18 A3012 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "LFSI",
-    "station": "LFSI",
-    "lat": 48.631,
-    "lon": 4.904,
+    "name": "KUSE",
+    "station": "KUSE",
+    "lat": 41.6118,
+    "lon": -84.1275,
     "weather": "No coded weather",
     "temperature": 11.0,
-    "dewpoint": 8.0,
+    "dewpoint": 9.0,
+    "windSpeed": 10.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T07:35:00.000Z",
+    "observationTimestamp": "2026-09-22T07:35:00+00:00",
+    "raw": "METAR KUSE 220735Z AUTO 03010G16KT 10SM OVC028 11/09 A3019 RMK AO2"
+  },
+  "randomPlace": {
+    "name": "KXMR",
+    "station": "KXMR",
+    "lat": 28.4674,
+    "lon": -80.5589,
+    "weather": "No coded weather",
+    "temperature": 24.0,
+    "dewpoint": 22.2,
     "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "6+",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T07:00:00.000Z",
-    "observationTimestamp": "2026-09-22T07:00:00+00:00",
-    "raw": "METAR LFSI 220700Z AUTO 00000KT CAVOK 11/08 Q1029"
+    "observationTime": "2026-09-22T06:55:00.000Z",
+    "observationTimestamp": "2026-09-22T06:55:00+00:00",
+    "raw": "METAR KXMR 220655Z AUTO 00000KT 10SM CLR 24/22 A2985 RMK AO2 LTG DSNT N SLP111 T02400222 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212313987,
-      "display": "8,212,313,987",
+      "value": 8212315647,
+      "display": "8,212,315,647",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T07:17:00Z",
-      "speed": 309.0
+      "time": "2026-09-22T07:31:00Z",
+      "speed": 308.0
     },
     "magneticField": {
-      "time": "2026-09-22T07:17:00Z",
+      "time": "2026-09-22T07:31:00Z",
       "bt": 4.0,
       "bz": 3.0
     },
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T07:15:00Z",
-      "forecastTime": "2026-09-22T08:39:00Z"
+      "observationTime": "2026-09-22T07:28:00Z",
+      "forecastTime": "2026-09-22T08:55:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
