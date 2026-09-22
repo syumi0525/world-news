@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T09:55:33.915975+00:00",
+  "generatedAt": "2026-09-22T10:10:51.682917+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AuditorioITA.JPG",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Berpasan\" class=\"extiw\" title=\"w:User:Berpasan\">Berpasan</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Berpasan\" class=\"extiw\" title=\"w:User talk:Berpasan\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Berpasan\" class=\"extiw\" title=\"w:Special:ListFiles/Berpasan\">Uploads</a>)",
-    "license": "Public domain",
+    "title": "File:PS shpala do propitki.jpg",
+    "artist": "Тарас Светлана Сергеевна",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AuditorioITA.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:PS_shpala_do_propitki.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LIRL",
-    "station": "LIRL",
-    "lat": 41.545,
-    "lon": 12.91,
-    "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 16.0,
-    "windSpeed": 3.0,
-    "windDirection": 180.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T08:55:00.000Z",
-    "observationTimestamp": "2026-09-22T08:55:00+00:00",
-    "raw": "METAR LIRL 220855Z 18003KT 9999 FEW040 28/16 Q1017"
-  },
-  "randomPlace": {
-    "name": "KEND",
-    "station": "KEND",
-    "lat": 36.338,
-    "lon": -97.919,
+    "name": "KCGE",
+    "station": "KCGE",
+    "lat": 38.5371,
+    "lon": -76.0309,
     "weather": "BR",
     "temperature": 18.0,
-    "dewpoint": 16.0,
+    "dewpoint": 18.0,
+    "windSpeed": 6.0,
+    "windDirection": 0.0,
+    "visibility": "5",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-22T09:55:00.000Z",
+    "observationTimestamp": "2026-09-22T09:55:00+00:00",
+    "raw": "METAR KCGE 220955Z AUTO VRB06G17KT 5SM BR OVC008 18/18 A3010 RMK A01 P0001"
+  },
+  "randomPlace": {
+    "name": "KLKR",
+    "station": "KLKR",
+    "lat": 34.7266,
+    "lon": -80.8532,
+    "weather": "No coded weather",
+    "temperature": 22.0,
+    "dewpoint": 21.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "2.25",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-22T09:40:00.000Z",
-    "observationTimestamp": "2026-09-22T09:40:00+00:00",
-    "raw": "SPECI KEND 220940Z AUTO 00000KT 2 1/4SM BR FEW100 18/16 A3008 RMK AO2 SLP179 $"
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T09:55:00.000Z",
+    "observationTimestamp": "2026-09-22T09:55:00+00:00",
+    "raw": "METAR KLKR 220955Z AUTO 00000KT 10SM SCT046 22/21 A3000 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212331865,
-      "display": "8,212,331,865",
+      "value": 8212333697,
+      "display": "8,212,333,697",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T09:46:00Z",
+      "time": "2026-09-22T09:56:00Z",
       "speed": 308.0
     },
     "magneticField": {
-      "time": "2026-09-22T09:46:00Z",
-      "bt": 3.0,
-      "bz": 2.0
+      "time": "2026-09-22T09:56:00Z",
+      "bt": 4.0,
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-22T06:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T09:43:00Z",
-      "forecastTime": "2026-09-22T11:12:00Z"
+      "observationTime": "2026-09-22T09:56:00Z",
+      "forecastTime": "2026-09-22T11:26:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
