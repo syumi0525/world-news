@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T05:14:01.601217+00:00",
+  "generatedAt": "2026-09-22T05:29:48.969960+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cascada en Guasca.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Estudiante0001&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Estudiante0001 (page does not exist)\">Estudiante0001</a>",
+    "title": "File:Calle de Lolita Parra.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Barruntada&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Barruntada (page does not exist)\">Barruntada</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cascada_en_Guasca.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Calle_de_Lolita_Parra.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EGDY",
-    "station": "EGDY",
-    "lat": 51.006,
-    "lon": -2.643,
+    "name": "OICI",
+    "station": "OICI",
+    "lat": 33.588,
+    "lon": 46.397,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 16.0,
-    "windSpeed": 2.0,
-    "windDirection": 330.0,
+    "temperature": 25.0,
+    "dewpoint": 0.0,
+    "windSpeed": 5.0,
+    "windDirection": 120.0,
     "visibility": "6+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-22T04:50:00.000Z",
-    "observationTimestamp": "2026-09-22T04:50:00+00:00",
-    "raw": "METAR EGDY 220450Z 33002KT 9999 OVC005 16/16 Q1030 RMK YLO1"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T05:00:00.000Z",
+    "observationTimestamp": "2026-09-22T05:00:00+00:00",
+    "raw": "METAR OICI 220500Z 12005KT 090V150 CAVOK 25/M00 Q1022"
   },
   "randomPlace": {
-    "name": "KTAD",
-    "station": "KTAD",
-    "lat": 37.2618,
-    "lon": -104.3319,
+    "name": "EIDW",
+    "station": "EIDW",
+    "lat": 53.422,
+    "lon": -6.298,
     "weather": "No coded weather",
-    "temperature": 17.8,
-    "dewpoint": 10.6,
-    "windSpeed": 15.0,
-    "windDirection": 140.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T04:54:00.000Z",
-    "observationTimestamp": "2026-09-22T04:54:00+00:00",
-    "raw": "METAR KTAD 220454Z AUTO 14015KT 10SM CLR 18/11 A3024 RMK AO2 PK WND 14026/0414 SLP170 T01780106"
+    "temperature": 15.0,
+    "dewpoint": 14.0,
+    "windSpeed": 6.0,
+    "windDirection": 260.0,
+    "visibility": "6+",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-22T05:00:00.000Z",
+    "observationTimestamp": "2026-09-22T05:00:00+00:00",
+    "raw": "METAR EIDW 220500Z 26006KT 190V300 9999 SCT003 BKN005 15/14 Q1028 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212298157,
-      "display": "8,212,298,157",
+      "value": 8212300049,
+      "display": "8,212,300,049",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T05:03:00Z",
-      "speed": 311.0
+      "time": "2026-09-22T05:20:00Z",
+      "speed": 313.0
     },
     "magneticField": {
-      "time": "2026-09-22T05:06:00Z",
-      "bt": 5.0,
-      "bz": 1.0
+      "time": "2026-09-22T05:20:00Z",
+      "bt": 4.0,
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-22T00:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T05:03:00Z",
-      "forecastTime": "2026-09-22T06:29:00Z"
+      "observationTime": "2026-09-22T05:20:00Z",
+      "forecastTime": "2026-09-22T06:44:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
