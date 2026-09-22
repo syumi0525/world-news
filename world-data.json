@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T09:43:45.944070+00:00",
+  "generatedAt": "2026-09-22T09:55:33.915975+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Basilique de Fourvière à Lyon, vue d'en bas.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PerrineSCDUM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PerrineSCDUM (page does not exist)\">PerrineSCDUM</a>",
-    "license": "CC0",
+    "title": "File:AuditorioITA.JPG",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Berpasan\" class=\"extiw\" title=\"w:User:Berpasan\">Berpasan</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Berpasan\" class=\"extiw\" title=\"w:User talk:Berpasan\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Berpasan\" class=\"extiw\" title=\"w:Special:ListFiles/Berpasan\">Uploads</a>)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_%C3%A0_Lyon%2C_vue_d%27en_bas.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AuditorioITA.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMZM",
-    "station": "KMZM",
-    "lat": 26.9608,
-    "lon": -89.0303,
+    "name": "LIRL",
+    "station": "LIRL",
+    "lat": 41.545,
+    "lon": 12.91,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 24.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "temperature": 28.0,
+    "dewpoint": 16.0,
+    "windSpeed": 3.0,
+    "windDirection": 180.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T09:35:00.000Z",
-    "observationTimestamp": "2026-09-22T09:35:00+00:00",
-    "raw": "METAR KMZM 220935Z AUTO 00000KT 10SM 29/24 A2990 RMK A01"
+    "observationTime": "2026-09-22T08:55:00.000Z",
+    "observationTimestamp": "2026-09-22T08:55:00+00:00",
+    "raw": "METAR LIRL 220855Z 18003KT 9999 FEW040 28/16 Q1017"
   },
   "randomPlace": {
-    "name": "KFAY",
-    "station": "KFAY",
-    "lat": 34.9895,
-    "lon": -78.88,
-    "weather": "No coded weather",
-    "temperature": 21.7,
-    "dewpoint": 21.1,
-    "windSpeed": 6.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T08:53:00.000Z",
-    "observationTimestamp": "2026-09-22T08:53:00+00:00",
-    "raw": "METAR KFAY 220853Z 03006KT 10SM BKN016 22/21 A2999 RMK AO2 SLP148 T02170211 55000"
+    "name": "KEND",
+    "station": "KEND",
+    "lat": 36.338,
+    "lon": -97.919,
+    "weather": "BR",
+    "temperature": 18.0,
+    "dewpoint": 16.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "2.25",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-22T09:40:00.000Z",
+    "observationTimestamp": "2026-09-22T09:40:00+00:00",
+    "raw": "SPECI KEND 220940Z AUTO 00000KT 2 1/4SM BR FEW100 18/16 A3008 RMK AO2 SLP179 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212330448,
-      "display": "8,212,330,448",
+      "value": 8212331865,
+      "display": "8,212,331,865",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T09:35:00Z",
-      "speed": 303.0
+      "time": "2026-09-22T09:46:00Z",
+      "speed": 308.0
     },
     "magneticField": {
-      "time": "2026-09-22T09:35:00Z",
-      "bt": 4.0,
-      "bz": -1.0
+      "time": "2026-09-22T09:46:00Z",
+      "bt": 3.0,
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-22T06:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T09:35:00Z",
-      "forecastTime": "2026-09-22T11:02:00Z"
+      "observationTime": "2026-09-22T09:43:00Z",
+      "forecastTime": "2026-09-22T11:12:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
