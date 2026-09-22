@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T11:55:27.866180+00:00",
+  "generatedAt": "2026-09-22T12:11:47.065563+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:PS shpala do propitki.jpg",
-    "artist": "Тарас Светлана Сергеевна",
+    "title": "File:Ballard locks fish ladder east entrance.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ursacascadia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ursacascadia (page does not exist)\">Ursacascadia</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:PS_shpala_do_propitki.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ballard_locks_fish_ladder_east_entrance.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPJC",
-    "station": "KPJC",
-    "lat": 40.8009,
-    "lon": -80.1624,
-    "weather": "-RA",
-    "temperature": 13.0,
-    "dewpoint": 13.0,
-    "windSpeed": 5.0,
-    "windDirection": 60.0,
-    "visibility": "5",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T11:35:00.000Z",
-    "observationTimestamp": "2026-09-22T11:35:00+00:00",
-    "raw": "METAR KPJC 221135Z AUTO 06005KT 5SM -RA OVC013 13/13 A3015 RMK AO2"
+    "name": "KFSW",
+    "station": "KFSW",
+    "lat": 40.6615,
+    "lon": -91.3267,
+    "weather": "-DZ BR",
+    "temperature": 14.0,
+    "dewpoint": 14.0,
+    "windSpeed": 8.0,
+    "windDirection": 50.0,
+    "visibility": "4",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-22T11:55:00.000Z",
+    "observationTimestamp": "2026-09-22T11:55:00+00:00",
+    "raw": "METAR KFSW 221155Z AUTO 05008KT 4SM -DZ BR OVC003 14/14 A3018 RMK AO2 10158 20139 70000"
   },
   "randomPlace": {
-    "name": "KMSO",
-    "station": "KMSO",
-    "lat": 46.9208,
-    "lon": -114.0938,
+    "name": "KADM",
+    "station": "KADM",
+    "lat": 34.3007,
+    "lon": -97.0089,
     "weather": "No coded weather",
-    "temperature": 8.3,
-    "dewpoint": 6.1,
+    "temperature": 21.0,
+    "dewpoint": 19.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T10:53:00.000Z",
-    "observationTimestamp": "2026-09-22T10:53:00+00:00",
-    "raw": "METAR KMSO 221053Z AUTO 00000KT 10SM CLR 08/06 A3000 RMK AO2 SLP149 T00830061"
+    "observationTime": "2026-09-22T11:35:00.000Z",
+    "observationTimestamp": "2026-09-22T11:35:00+00:00",
+    "raw": "METAR KADM 221135Z AUTO 00000KT 10SM BKN050 BKN060 OVC095 21/19 A3005 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8208112141,
-      "display": "8,208,112,141",
+      "value": 8208114241,
+      "display": "8,208,114,241",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,7 +92,7 @@
       "value": 0.3,
       "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-22T06:00:00"
+      "time": "2026-09-22T09:00:00"
     }
   },
   "space": {
@@ -106,7 +106,7 @@
       "bz": 2.0
     },
     "kp": {
-      "time": "2026-09-22T06:00:00",
+      "time": "2026-09-22T09:00:00",
       "kp": 0.33
     },
     "aurora": {
@@ -114,7 +114,7 @@
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
       "observationTime": "2026-09-22T11:34:00Z",
-      "forecastTime": "2026-09-22T13:03:00Z"
+      "forecastTime": "2026-09-22T13:26:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
