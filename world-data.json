@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T11:44:05.063455+00:00",
+  "generatedAt": "2026-09-22T11:55:27.866180+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Abandoned power station (41186569745).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/136665246@N05\">Dmitriy Protsenko</a> from Dubna, Russia",
-    "license": "Public domain",
+    "title": "File:PS shpala do propitki.jpg",
+    "artist": "Тарас Светлана Сергеевна",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Abandoned_power_station_%2841186569745%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:PS_shpala_do_propitki.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EKEB",
-    "station": "EKEB",
-    "lat": 55.528,
-    "lon": 8.563,
-    "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 10.0,
-    "windSpeed": 6.0,
-    "windDirection": 240.0,
-    "visibility": "6+",
+    "name": "KPJC",
+    "station": "KPJC",
+    "lat": 40.8009,
+    "lon": -80.1624,
+    "weather": "-RA",
+    "temperature": 13.0,
+    "dewpoint": 13.0,
+    "windSpeed": 5.0,
+    "windDirection": 60.0,
+    "visibility": "5",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T11:20:00.000Z",
-    "observationTimestamp": "2026-09-22T11:20:00+00:00",
-    "raw": "METAR EKEB 221120Z AUTO 24006KT 210V290 9999 BKN024/// BKN089/// 16/10 Q1029"
+    "observationTime": "2026-09-22T11:35:00.000Z",
+    "observationTimestamp": "2026-09-22T11:35:00+00:00",
+    "raw": "METAR KPJC 221135Z AUTO 06005KT 5SM -RA OVC013 13/13 A3015 RMK AO2"
   },
   "randomPlace": {
-    "name": "KIAH",
-    "station": "KIAH",
-    "lat": 29.9844,
-    "lon": -95.3607,
+    "name": "KMSO",
+    "station": "KMSO",
+    "lat": 46.9208,
+    "lon": -114.0938,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 23.9,
-    "windSpeed": 3.0,
-    "windDirection": 10.0,
+    "temperature": 8.3,
+    "dewpoint": 6.1,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-22T10:53:00.000Z",
     "observationTimestamp": "2026-09-22T10:53:00+00:00",
-    "raw": "METAR KIAH 221053Z 01003KT 10SM FEW020 25/24 A2996 RMK AO2 SLP145 T02500239"
+    "raw": "METAR KMSO 221053Z AUTO 00000KT 10SM CLR 08/06 A3000 RMK AO2 SLP149 T00830061"
   },
   "globalPulse": {
     "population": {
-      "value": 8212344856,
-      "display": "8,212,344,856",
+      "value": 8208112141,
+      "display": "8,208,112,141",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T11:33:00Z",
-      "speed": 313.0
+      "time": "2026-09-22T11:34:00Z",
+      "speed": 310.0
     },
     "magneticField": {
-      "time": "2026-09-22T11:33:00Z",
+      "time": "2026-09-22T11:34:00Z",
       "bt": 3.0,
       "bz": 2.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T11:31:00Z",
-      "forecastTime": "2026-09-22T12:44:00Z"
+      "observationTime": "2026-09-22T11:34:00Z",
+      "forecastTime": "2026-09-22T13:03:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
