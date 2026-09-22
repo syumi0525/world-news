@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T04:58:04.637382+00:00",
+  "generatedAt": "2026-09-22T05:14:01.601217+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:Cascada en Guasca.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Estudiante0001&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Estudiante0001 (page does not exist)\">Estudiante0001</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cascada_en_Guasca.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SBAX",
-    "station": "SBAX",
-    "lat": -19.563,
-    "lon": -46.96,
+    "name": "EGDY",
+    "station": "EGDY",
+    "lat": 51.006,
+    "lon": -2.643,
     "weather": "No coded weather",
-    "temperature": 21.0,
+    "temperature": 16.0,
     "dewpoint": 16.0,
-    "windSpeed": 6.0,
-    "windDirection": 110.0,
+    "windSpeed": 2.0,
+    "windDirection": 330.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T04:00:00.000Z",
-    "observationTimestamp": "2026-09-22T04:00:00+00:00",
-    "raw": "METAR SBAX 220400Z AUTO 11006KT CAVOK 21/16 Q1017"
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-22T04:50:00.000Z",
+    "observationTimestamp": "2026-09-22T04:50:00+00:00",
+    "raw": "METAR EGDY 220450Z 33002KT 9999 OVC005 16/16 Q1030 RMK YLO1"
   },
   "randomPlace": {
-    "name": "KRKW",
-    "station": "KRKW",
-    "lat": 35.922,
-    "lon": -84.689,
+    "name": "KTAD",
+    "station": "KTAD",
+    "lat": 37.2618,
+    "lon": -104.3319,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 18.0,
-    "windSpeed": 7.0,
-    "windDirection": 320.0,
+    "temperature": 17.8,
+    "dewpoint": 10.6,
+    "windSpeed": 15.0,
+    "windDirection": 140.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T04:35:00.000Z",
-    "observationTimestamp": "2026-09-22T04:35:00+00:00",
-    "raw": "METAR KRKW 220435Z AUTO 32007KT 270V030 10SM FEW047 SCT055 BKN085 22/18 A3004 RMK A01"
+    "observationTime": "2026-09-22T04:54:00.000Z",
+    "observationTimestamp": "2026-09-22T04:54:00+00:00",
+    "raw": "METAR KTAD 220454Z AUTO 14015KT 10SM CLR 18/11 A3024 RMK AO2 PK WND 14026/0414 SLP170 T01780106"
   },
   "globalPulse": {
     "population": {
-      "value": 8212296250,
-      "display": "8,212,296,250",
+      "value": 8212298157,
+      "display": "8,212,298,157",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T04:47:00Z",
-      "speed": 315.0
+      "time": "2026-09-22T05:03:00Z",
+      "speed": 311.0
     },
     "magneticField": {
-      "time": "2026-09-22T04:47:00Z",
-      "bt": 4.0,
-      "bz": 3.0
+      "time": "2026-09-22T05:06:00Z",
+      "bt": 5.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-22T00:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T04:45:00Z",
-      "forecastTime": "2026-09-22T06:09:00Z"
+      "observationTime": "2026-09-22T05:03:00Z",
+      "forecastTime": "2026-09-22T06:29:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
