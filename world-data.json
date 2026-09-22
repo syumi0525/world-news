@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T19:28:36.712169+00:00",
+  "generatedAt": "2026-09-22T19:41:55.847990+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Heading of \"Verslag van de Staatsspoorwegen over het jaar 1928\".jpg",
-    "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q64041032\" class=\"extiw\" title=\"d:Q64041032\">Willem Fredrik Staargaard</a></bdi>",
-    "license": "Public domain",
+    "title": "File:Nilüfer kanak köprüsü.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Heading_of_%22Verslag_van_de_Staatsspoorwegen_over_het_jaar_1928%22.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "BGQO",
-    "station": "BGQO",
-    "lat": 60.7638,
-    "lon": -46.065,
+    "name": "KFCI",
+    "station": "KFCI",
+    "lat": 37.407,
+    "lon": -77.522,
     "weather": "No coded weather",
-    "temperature": 6.0,
-    "dewpoint": -6.0,
-    "windSpeed": 12.0,
-    "windDirection": 270.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T19:20:00.000Z",
-    "observationTimestamp": "2026-09-22T19:20:00+00:00",
-    "raw": "METAR BGQO 221920Z 27012KT 9999 FEW050 06/M06 Q1002"
+    "temperature": 20.0,
+    "dewpoint": 18.0,
+    "windSpeed": 7.0,
+    "windDirection": 20.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T19:05:00.000Z",
+    "observationTimestamp": "2026-09-22T19:05:00+00:00",
+    "raw": "SPECI KFCI 221905Z AUTO 02007G15KT 10SM OVC011 20/18 A3014 RMK AO2 $"
   },
   "randomPlace": {
-    "name": "DATM",
-    "station": "DATM",
-    "lat": 21.375,
-    "lon": 0.924,
+    "name": "KPAE",
+    "station": "KPAE",
+    "lat": 47.9232,
+    "lon": -122.2831,
     "weather": "No coded weather",
-    "temperature": 37.0,
-    "dewpoint": 9.0,
-    "windSpeed": 4.0,
-    "windDirection": 30.0,
-    "visibility": "6+",
+    "temperature": 16.7,
+    "dewpoint": 11.1,
+    "windSpeed": 6.0,
+    "windDirection": 260.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T19:00:00.000Z",
-    "observationTimestamp": "2026-09-22T19:00:00+00:00",
-    "raw": "METAR DATM 221900Z 03004KT 9999 FEW040TCU SCT046 37/09 Q1011"
+    "observationTime": "2026-09-22T18:53:00.000Z",
+    "observationTimestamp": "2026-09-22T18:53:00+00:00",
+    "raw": "METAR KPAE 221853Z 26006KT 10SM CLR 17/11 A3008 RMK AO2 SLP185 T01670111"
   },
   "globalPulse": {
     "population": {
-      "value": 8208171121,
-      "display": "8,208,171,121",
+      "value": 8208172846,
+      "display": "8,208,172,846",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T19:18:00Z",
-      "speed": 303.0
+      "time": "2026-09-22T19:35:00Z",
+      "speed": 305.0
     },
     "magneticField": {
-      "time": "2026-09-22T19:18:00Z",
+      "time": "2026-09-22T19:35:00Z",
       "bt": 3.0,
-      "bz": -1.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-22T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T19:21:00Z",
-      "forecastTime": "2026-09-22T20:48:00Z"
+      "observationTime": "2026-09-22T19:35:00Z",
+      "forecastTime": "2026-09-22T21:03:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
