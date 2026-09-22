@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T20:51:03.890086+00:00",
+  "generatedAt": "2026-09-22T21:08:27.733195+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Alex Geerts 2015 (Unsplash).jpg",
-    "artist": "Alex Geerts <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@alexgeerts\">alexgeerts</a>",
+    "title": "File:A misty forest road in Coonoor.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Alex_Geerts_2015_%28Unsplash%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHUF",
-    "station": "KHUF",
-    "lat": 39.4429,
-    "lon": -87.3221,
+    "name": "KPO1",
+    "station": "KPO1",
+    "lat": 48.134,
+    "lon": -105.162,
     "weather": "No coded weather",
-    "temperature": 18.9,
-    "dewpoint": 13.9,
-    "windSpeed": 10.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T20:29:00.000Z",
-    "observationTimestamp": "2026-09-22T20:29:00+00:00",
-    "raw": "SPECI KHUF 222029Z 03010KT 10SM OVC028 19/14 A3017 RMK AO2 T01890139"
-  },
-  "randomPlace": {
-    "name": "KC83",
-    "station": "KC83",
-    "lat": 37.8276,
-    "lon": -121.6244,
-    "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 11.0,
-    "windSpeed": 8.0,
-    "windDirection": 210.0,
+    "temperature": 25.0,
+    "dewpoint": 14.0,
+    "windSpeed": 13.0,
+    "windDirection": 170.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T20:35:00.000Z",
-    "observationTimestamp": "2026-09-22T20:35:00+00:00",
-    "raw": "METAR KC83 222035Z AUTO 21008KT 10SM CLR 27/11 A2992 RMK AO2"
+    "observationTime": "2026-09-22T20:50:00.000Z",
+    "observationTimestamp": "2026-09-22T20:50:00+00:00",
+    "raw": "METAR KPO1 222050Z AUTO 17013KT 10SM CLR 25/14 A2996 RMK AO2 TSNO"
+  },
+  "randomPlace": {
+    "name": "KHEG",
+    "station": "KHEG",
+    "lat": 30.2771,
+    "lon": -81.8087,
+    "weather": "No coded weather",
+    "temperature": 30.0,
+    "dewpoint": 23.0,
+    "windSpeed": 8.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T20:55:00.000Z",
+    "observationTimestamp": "2026-09-22T20:55:00+00:00",
+    "raw": "METAR KHEG 222055Z AUTO 06008G13KT 10SM FEW033 FEW043 FEW060 30/23 A2993 RMK AO2 TSNO"
   },
   "globalPulse": {
     "population": {
-      "value": 8208181855,
-      "display": "8,208,181,855",
+      "value": 8208184118,
+      "display": "8,208,184,118",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,33 +92,33 @@
       "value": 0.7,
       "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-22T15:00:00"
+      "time": "2026-09-22T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T20:42:00Z",
-      "speed": 288.0
+      "time": "2026-09-22T20:59:00Z",
+      "speed": 297.0
     },
     "magneticField": {
-      "time": "2026-09-22T20:44:00Z",
+      "time": "2026-09-22T20:59:00Z",
       "bt": 3.0,
       "bz": 2.0
     },
     "kp": {
-      "time": "2026-09-22T15:00:00",
+      "time": "2026-09-22T18:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T20:40:00Z",
-      "forecastTime": "2026-09-22T22:09:00Z"
+      "observationTime": "2026-09-22T20:59:00Z",
+      "forecastTime": "2026-09-22T22:30:00Z"
     },
     "flux10cm": {
-      "time": "2026-09-21T20:00:00",
-      "flux": 104.0
+      "time": "2026-09-22T20:00:00",
+      "flux": 118.0
     }
   }
 }
