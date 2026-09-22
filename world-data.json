@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T04:30:32.825176+00:00",
+  "generatedAt": "2026-09-22T04:47:43.083328+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Viper Mine elevator county line.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Visviva\" title=\"User:Visviva\">Visviva</a>",
+    "title": "File:52 sin título 20260920130547.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aqanauta88&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aqanauta88 (page does not exist)\">Aqanauta88</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Viper_Mine_elevator_county_line.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:52_sin_t%C3%ADtulo_20260920130547.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCYD",
-    "station": "KCYD",
-    "lat": 28.1694,
-    "lon": -89.2228,
-    "weather": "VCTS",
-    "temperature": 29.0,
-    "dewpoint": 24.0,
-    "windSpeed": 7.0,
-    "windDirection": 60.0,
+    "name": "KMNM",
+    "station": "KMNM",
+    "lat": 45.126,
+    "lon": -87.639,
+    "weather": "No coded weather",
+    "temperature": 14.0,
+    "dewpoint": 6.0,
+    "windSpeed": 13.0,
+    "windDirection": 100.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T04:15:00.000Z",
-    "observationTimestamp": "2026-09-22T04:15:00+00:00",
-    "raw": "METAR KCYD 220415Z AUTO 06007KT 10SM VCTS SCT024 SCT028 SCT042 29/24 A2993 RMK AO2 LTG DSNT E"
+    "observationTime": "2026-09-22T04:31:00.000Z",
+    "observationTimestamp": "2026-09-22T04:31:00+00:00",
+    "raw": "SPECI KMNM 220431Z AUTO 10013G17KT 10SM CLR 14/06 A3035 RMK AO2 WSHFT 0410 $"
   },
   "randomPlace": {
-    "name": "KJAN",
-    "station": "KJAN",
-    "lat": 32.3198,
-    "lon": -90.0778,
-    "weather": "No coded weather",
-    "temperature": 25.6,
-    "dewpoint": 22.2,
-    "windSpeed": 5.0,
-    "windDirection": 120.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T03:54:00.000Z",
-    "observationTimestamp": "2026-09-22T03:54:00+00:00",
-    "raw": "METAR KJAN 220354Z 12005KT 10SM FEW070 FEW100 SCT220 26/22 A2997 RMK AO2 SLP145 FRQ LTGIC DSNT NW-NE CB DSNT NW-NE T02560222"
+    "name": "WSAP",
+    "station": "WSAP",
+    "lat": 1.36,
+    "lon": 103.909,
+    "weather": "-SHRA",
+    "temperature": 31.0,
+    "dewpoint": 26.0,
+    "windSpeed": 1.0,
+    "windDirection": 140.0,
+    "visibility": "4.97",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T04:00:00.000Z",
+    "observationTimestamp": "2026-09-22T04:00:00+00:00",
+    "raw": "METAR WSAP 220400Z 14001KT 8000 -SHRA FEW016 FEW018TCU BKN150 31/26 Q1012"
   },
   "globalPulse": {
     "population": {
-      "value": 8212292955,
-      "display": "8,212,292,955",
+      "value": 8212295001,
+      "display": "8,212,295,001",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T04:21:00Z",
-      "speed": 316.0
+      "time": "2026-09-22T04:37:00Z",
+      "speed": 312.0
     },
     "magneticField": {
-      "time": "2026-09-22T04:21:00Z",
-      "bt": 5.0,
-      "bz": 0.0
+      "time": "2026-09-22T04:37:00Z",
+      "bt": 4.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-22T00:00:00",
@@ -113,8 +113,8 @@
       "value": 17.0,
       "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T03:54:00Z",
-      "forecastTime": "2026-09-22T05:18:00Z"
+      "observationTime": "2026-09-22T04:39:00Z",
+      "forecastTime": "2026-09-22T06:04:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
