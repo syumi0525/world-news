@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T03:14:51.877321+00:00",
+  "generatedAt": "2026-09-22T03:31:07.400628+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 04.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:3D Point Cloud Overview of Milton S. Eisenhower Library, Johns Hopkins University.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Matthewadams66&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Matthewadams66 (page does not exist)\">Matthewadams66</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_04.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:3D_Point_Cloud_Overview_of_Milton_S._Eisenhower_Library%2C_Johns_Hopkins_University.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYQY",
-    "station": "CYQY",
-    "lat": 46.166,
-    "lon": -60.049,
+    "name": "KDWU",
+    "station": "KDWU",
+    "lat": 38.556,
+    "lon": -82.7375,
     "weather": "No coded weather",
-    "temperature": 8.0,
-    "dewpoint": 8.0,
-    "windSpeed": 7.0,
-    "windDirection": 320.0,
-    "visibility": "15",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T03:00:00.000Z",
-    "observationTimestamp": "2026-09-22T03:00:00+00:00",
-    "raw": "METAR CYQY 220300Z 32007KT 15SM FEW020 SCT048 08/08 A3007 RMK SC2SC1 SLP186"
-  },
-  "randomPlace": {
-    "name": "KSRQ",
-    "station": "KSRQ",
-    "lat": 27.4015,
-    "lon": -82.5597,
-    "weather": "No coded weather",
-    "temperature": 25.6,
-    "dewpoint": 23.9,
-    "windSpeed": 0.0,
+    "temperature": 19.4,
+    "dewpoint": 18.3,
+    "windSpeed": 3.0,
     "windDirection": 0.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T02:53:00.000Z",
-    "observationTimestamp": "2026-09-22T02:53:00+00:00",
-    "raw": "METAR KSRQ 220253Z AUTO 00000KT 10SM CLR 26/24 A2993 RMK AO2 SLP133 60001 T02560239 51015"
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-22T02:56:00.000Z",
+    "observationTimestamp": "2026-09-22T02:56:00+00:00",
+    "raw": "METAR KDWU 220256Z AUTO VRB03KT 10SM OVC008 19/18 A3005 RMK AO2 SLP174 T01940183 51024 $"
+  },
+  "randomPlace": {
+    "name": "CWHT",
+    "station": "CWHT",
+    "lat": 60.773,
+    "lon": -137.581,
+    "weather": "No coded weather",
+    "temperature": 7.6,
+    "dewpoint": -0.3,
+    "windSpeed": 7.0,
+    "windDirection": 320.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-22T03:00:00.000Z",
+    "observationTimestamp": "2026-09-22T03:00:00+00:00",
+    "raw": "METAR CWHT 220300Z AUTO 32007KT 08/M00 RMK AO1 SLP040 T00761003 53008"
   },
   "globalPulse": {
     "population": {
-      "value": 8212283867,
-      "display": "8,212,283,867",
+      "value": 8212285814,
+      "display": "8,212,285,814",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T03:05:00Z",
-      "speed": 314.0
+      "time": "2026-09-22T03:15:00Z",
+      "speed": 312.0
     },
     "magneticField": {
-      "time": "2026-09-22T03:05:00Z",
+      "time": "2026-09-22T03:15:00Z",
       "bt": 5.0,
-      "bz": 0.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-22T00:00:00",
@@ -113,8 +113,8 @@
       "value": 19.0,
       "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T03:05:00Z",
-      "forecastTime": "2026-09-22T04:28:00Z"
+      "observationTime": "2026-09-22T03:15:00Z",
+      "forecastTime": "2026-09-22T04:38:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
