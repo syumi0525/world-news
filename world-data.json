@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T00:20:11.009087+00:00",
+  "generatedAt": "2026-09-22T00:39:00.028153+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Urban Gabriela Mistral.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Barruntada&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Barruntada (page does not exist)\">Barruntada</a>",
-    "license": "CC0",
+    "title": "File:A park bench and waysides with a view at Lake Dardanelle State Park in Russellville, Arkansas (cf773068-fe65-4a9c-8b59-8a95ddf9d70e).JPG",
+    "artist": "National Trails Office (<i>US National Park Service</i>)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Urban_Gabriela_Mistral.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_park_bench_and_waysides_with_a_view_at_Lake_Dardanelle_State_Park_in_Russellville%2C_Arkansas_%28cf773068-fe65-4a9c-8b59-8a95ddf9d70e%29.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "HTTB",
-    "station": "HTTB",
-    "lat": -5.074,
-    "lon": 32.833,
-    "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 12.0,
-    "windSpeed": 8.0,
-    "windDirection": 70.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-21T23:00:00.000Z",
-    "observationTimestamp": "2026-09-21T23:00:00+00:00",
-    "raw": "METAR HTTB 212300Z 07008KT CAVOK 23/12 Q1018 NOSIG"
-  },
-  "randomPlace": {
-    "name": "KFEP",
-    "station": "KFEP",
-    "lat": 42.2475,
-    "lon": -89.581,
-    "weather": "No coded weather",
-    "temperature": 13.6,
-    "dewpoint": 12.8,
-    "windSpeed": 7.0,
-    "windDirection": 70.0,
+    "name": "KF00",
+    "station": "KF00",
+    "lat": 33.6158,
+    "lon": -96.1809,
+    "weather": "VCTS",
+    "temperature": 29.0,
+    "dewpoint": 18.0,
+    "windSpeed": 5.0,
+    "windDirection": 10.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-21T23:55:00.000Z",
-    "observationTimestamp": "2026-09-21T23:55:00+00:00",
-    "raw": "METAR KFEP 212355Z AUTO 07007KT 10SM SCT040 OVC060 14/13 A3020 RMK AO2 P0001 60002 T01360128 10175 20135"
+    "observationTime": "2026-09-22T00:15:00.000Z",
+    "observationTimestamp": "2026-09-22T00:15:00+00:00",
+    "raw": "METAR KF00 220015Z AUTO 01005KT 10SM VCTS SCT075 29/18 A2991 RMK AO2 LTG DSNT NE"
+  },
+  "randomPlace": {
+    "name": "KSBX",
+    "station": "KSBX",
+    "lat": 48.541,
+    "lon": -111.871,
+    "weather": "No coded weather",
+    "temperature": 25.0,
+    "dewpoint": 7.0,
+    "windSpeed": 7.0,
+    "windDirection": 150.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T00:15:00.000Z",
+    "observationTimestamp": "2026-09-22T00:15:00+00:00",
+    "raw": "METAR KSBX 220015Z AUTO 15007KT 10SM CLR 25/07 A2998 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212262963,
-      "display": "8,212,262,963",
+      "value": 8212265209,
+      "display": "8,212,265,209",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T00:13:00Z",
-      "speed": 325.0
+      "time": "2026-09-22T00:31:00Z",
+      "speed": 330.0
     },
     "magneticField": {
-      "time": "2026-09-22T00:13:00Z",
+      "time": "2026-09-22T00:31:00Z",
       "bt": 4.0,
-      "bz": -1.0
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-21T21:00:00",
       "kp": 1.33
     },
     "aurora": {
-      "value": 28.0,
-      "display": "MAX 28.0%",
+      "value": 27.0,
+      "display": "MAX 27.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T00:10:00Z",
-      "forecastTime": "2026-09-22T01:31:00Z"
+      "observationTime": "2026-09-22T00:31:00Z",
+      "forecastTime": "2026-09-22T01:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
