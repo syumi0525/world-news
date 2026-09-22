@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T08:57:41.916316+00:00",
+  "generatedAt": "2026-09-22T09:13:52.180279+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bhimtal IMG 2025 05 18 00 32 59.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pushkar2016&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pushkar2016 (page does not exist)\">Pushkar2016</a>",
+    "title": "File:Ndongo carrefour 03.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bhimtal_IMG_2025_05_18_00_32_59.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_carrefour_03.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KNDZ",
-    "station": "KNDZ",
-    "lat": 30.6973,
-    "lon": -87.0207,
+    "name": "KPEZ",
+    "station": "KPEZ",
+    "lat": 28.9561,
+    "lon": -98.5184,
     "weather": "No coded weather",
-    "temperature": 23.3,
-    "dewpoint": 21.7,
-    "windSpeed": 3.0,
-    "windDirection": 320.0,
+    "temperature": 23.5,
+    "dewpoint": 21.6,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T07:56:00.000Z",
-    "observationTimestamp": "2026-09-22T07:56:00+00:00",
-    "raw": "METAR KNDZ 220756Z AUTO 32003KT 10SM CLR 23/22 A2991 RMK AO2 SLP114 T02330217 $"
+    "observationTime": "2026-09-22T08:55:00.000Z",
+    "observationTimestamp": "2026-09-22T08:55:00+00:00",
+    "raw": "METAR KPEZ 220855Z AUTO 00000KT 10SM CLR 24/22 A2996 RMK AO2 T02350216"
   },
   "randomPlace": {
-    "name": "K1DW",
-    "station": "K1DW",
-    "lat": 41.361,
-    "lon": -103.794,
+    "name": "K2R2",
+    "station": "K2R2",
+    "lat": 39.7511,
+    "lon": -86.4732,
     "weather": "No coded weather",
-    "temperature": 11.6,
-    "dewpoint": 11.1,
-    "windSpeed": 9.0,
-    "windDirection": 150.0,
-    "visibility": "9",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-22T07:55:00.000Z",
-    "observationTimestamp": "2026-09-22T07:55:00+00:00",
-    "raw": "METAR K1DW 220755Z AUTO 15009KT 9SM OVC004 12/11 A3024 RMK AO2 SLP202 T01160111 $"
+    "temperature": 14.5,
+    "dewpoint": 14.2,
+    "windSpeed": 8.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T08:55:00.000Z",
+    "observationTimestamp": "2026-09-22T08:55:00+00:00",
+    "raw": "METAR K2R2 220855Z AUTO 03008KT 10SM OVC017 15/14 A3014 RMK AO2 CIG 014V021 T01450142 51009 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212324913,
-      "display": "8,212,324,913",
+      "value": 8212326849,
+      "display": "8,212,326,849",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-22T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.7,
-      "display": "Kp 0.7",
+      "value": 0.3,
+      "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-22T03:00:00"
+      "time": "2026-09-22T06:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T08:48:00Z",
-      "speed": 303.0
+      "time": "2026-09-22T09:06:00Z",
+      "speed": 304.0
     },
     "magneticField": {
-      "time": "2026-09-22T08:48:00Z",
+      "time": "2026-09-22T09:06:00Z",
       "bt": 4.0,
       "bz": 3.0
     },
     "kp": {
-      "time": "2026-09-22T03:00:00",
-      "kp": 0.67
+      "time": "2026-09-22T06:00:00",
+      "kp": 0.33
     },
     "aurora": {
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T08:45:00Z",
-      "forecastTime": "2026-09-22T10:11:00Z"
+      "observationTime": "2026-09-22T09:04:00Z",
+      "forecastTime": "2026-09-22T10:32:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
