@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T21:38:27.755947+00:00",
+  "generatedAt": "2026-09-22T21:49:35.043000+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bishopsteignton in 2006.jpg",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
+    "title": "File:CDF Alais Beaucaire carte.jpg",
+    "artist": "Talabot frères (1833)",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CDF_Alais_Beaucaire_carte.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLMO",
-    "station": "KLMO",
-    "lat": 40.1612,
-    "lon": -105.1605,
-    "weather": "No coded weather",
-    "temperature": 25.7,
-    "dewpoint": 6.5,
-    "windSpeed": 6.0,
-    "windDirection": 70.0,
-    "visibility": "7",
+    "name": "BIRK",
+    "station": "BIRK",
+    "lat": 64.129,
+    "lon": -21.941,
+    "weather": "VCSH",
+    "temperature": 8.0,
+    "dewpoint": 3.0,
+    "windSpeed": 12.0,
+    "windDirection": 190.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T21:15:00.000Z",
-    "observationTimestamp": "2026-09-22T21:15:00+00:00",
-    "raw": "METAR KLMO 222115Z AUTO 07006KT 7SM SCT120 26/07 A3008 RMK AO2 T02570065"
+    "observationTime": "2026-09-22T21:00:00.000Z",
+    "observationTimestamp": "2026-09-22T21:00:00+00:00",
+    "raw": "METAR BIRK 222100Z 19012KT 9999 VCSH FEW026CB SCT050 08/03 Q1003"
   },
   "randomPlace": {
-    "name": "KSRE",
-    "station": "KSRE",
-    "lat": 35.271,
-    "lon": -96.675,
+    "name": "PADL",
+    "station": "PADL",
+    "lat": 59.04,
+    "lon": -158.507,
     "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 12.0,
-    "windSpeed": 9.0,
-    "windDirection": 40.0,
+    "temperature": 7.8,
+    "dewpoint": -2.8,
+    "windSpeed": 11.0,
+    "windDirection": 340.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T21:15:00.000Z",
-    "observationTimestamp": "2026-09-22T21:15:00+00:00",
-    "raw": "METAR KSRE 222115Z AUTO 04009G15KT 10SM CLR 32/12 A3004 RMK AO2"
+    "observationTime": "2026-09-22T20:56:00.000Z",
+    "observationTimestamp": "2026-09-22T20:56:00+00:00",
+    "raw": "METAR PADL 222056Z 34011G16KT 10SM CLR 08/M03 A2988 RMK AO2 SLP122 T00781028 51003"
   },
   "globalPulse": {
     "population": {
-      "value": 8208188023,
-      "display": "8,208,188,023",
+      "value": 8208189472,
+      "display": "8,208,189,472",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T21:30:00Z",
-      "speed": 294.0
+      "time": "2026-09-22T21:42:00Z",
+      "speed": 291.0
     },
     "magneticField": {
-      "time": "2026-09-22T21:30:00Z",
+      "time": "2026-09-22T21:42:00Z",
       "bt": 3.0,
       "bz": 2.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T21:30:00Z",
-      "forecastTime": "2026-09-22T22:59:00Z"
+      "observationTime": "2026-09-22T21:39:00Z",
+      "forecastTime": "2026-09-22T23:09:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
