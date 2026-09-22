@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T21:08:27.733195+00:00",
+  "generatedAt": "2026-09-22T21:22:15.497221+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A misty forest road in Coonoor.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
+    "title": "File:Am Ludwigskanal bei Schwarzenbruck.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peukerthomas1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peukerthomas1 (page does not exist)\">Peukerthomas1</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Am_Ludwigskanal_bei_Schwarzenbruck.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPO1",
-    "station": "KPO1",
-    "lat": 48.134,
-    "lon": -105.162,
-    "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 14.0,
-    "windSpeed": 13.0,
-    "windDirection": 170.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T20:50:00.000Z",
-    "observationTimestamp": "2026-09-22T20:50:00+00:00",
-    "raw": "METAR KPO1 222050Z AUTO 17013KT 10SM CLR 25/14 A2996 RMK AO2 TSNO"
-  },
-  "randomPlace": {
-    "name": "KHEG",
-    "station": "KHEG",
-    "lat": 30.2771,
-    "lon": -81.8087,
-    "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 23.0,
-    "windSpeed": 8.0,
+    "name": "K4A9",
+    "station": "K4A9",
+    "lat": 34.4759,
+    "lon": -85.717,
+    "weather": "-RA",
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 9.0,
     "windDirection": 60.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T20:55:00.000Z",
-    "observationTimestamp": "2026-09-22T20:55:00+00:00",
-    "raw": "METAR KHEG 222055Z AUTO 06008G13KT 10SM FEW033 FEW043 FEW060 30/23 A2993 RMK AO2 TSNO"
+    "observationTime": "2026-09-22T21:15:00.000Z",
+    "observationTimestamp": "2026-09-22T21:15:00+00:00",
+    "raw": "METAR K4A9 222115Z AUTO 06009G16KT 10SM -RA BKN070 BKN085 A3002 RMK AO2 LTG DSNT NE AND E"
+  },
+  "randomPlace": {
+    "name": "CYPR",
+    "station": "CYPR",
+    "lat": 54.291,
+    "lon": -130.451,
+    "weather": "-RA",
+    "temperature": 11.0,
+    "dewpoint": 9.0,
+    "windSpeed": 14.0,
+    "windDirection": 140.0,
+    "visibility": "9",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T21:00:00.000Z",
+    "observationTimestamp": "2026-09-22T21:00:00+00:00",
+    "raw": "METAR CYPR 222100Z AUTO 14014G23KT 9SM -RA SCT045 OVC055 11/09 A2981 RMK PCPN 1.5MM PAST HR SLP096"
   },
   "globalPulse": {
     "population": {
-      "value": 8208184118,
-      "display": "8,208,184,118",
+      "value": 8208185914,
+      "display": "8,208,185,914",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T20:59:00Z",
-      "speed": 297.0
+      "time": "2026-09-22T21:13:00Z",
+      "speed": 295.0
     },
     "magneticField": {
-      "time": "2026-09-22T20:59:00Z",
+      "time": "2026-09-22T21:13:00Z",
       "bt": 3.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T20:59:00Z",
-      "forecastTime": "2026-09-22T22:30:00Z"
+      "observationTime": "2026-09-22T21:11:00Z",
+      "forecastTime": "2026-09-22T22:40:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
