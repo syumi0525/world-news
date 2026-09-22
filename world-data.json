@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T10:48:23.476313+00:00",
+  "generatedAt": "2026-09-22T10:58:01.500957+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A bottle of water 💦.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Adabre_Samuel\" title=\"User:Adabre Samuel\">Adabre Samuel</a>",
-    "license": "CC0",
+    "title": "File:A historic rock wall at Tuscumbia Landing near Sheffield, Alabama (5aba2828-9ff6-4f3e-93f4-d47847700321).JPG",
+    "artist": "National Trails Office (<i>US National Park Service</i>)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_bottle_of_water_%F0%9F%92%A6.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_historic_rock_wall_at_Tuscumbia_Landing_near_Sheffield%2C_Alabama_%285aba2828-9ff6-4f3e-93f4-d47847700321%29.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VRMM",
-    "station": "VRMM",
-    "lat": 4.192,
-    "lon": 73.529,
+    "name": "LYBT",
+    "station": "LYBT",
+    "lat": 44.935,
+    "lon": 20.258,
     "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 28.0,
-    "windSpeed": 14.0,
-    "windDirection": 270.0,
+    "temperature": 19.0,
+    "dewpoint": 6.0,
+    "windSpeed": 12.0,
+    "windDirection": 300.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T10:00:00.000Z",
-    "observationTimestamp": "2026-09-22T10:00:00+00:00",
-    "raw": "METAR VRMM 221000Z 27014KT 9999 SCT018TCU 32/28 Q1009 NOSIG"
+    "observationTime": "2026-09-22T10:30:00.000Z",
+    "observationTimestamp": "2026-09-22T10:30:00+00:00",
+    "raw": "METAR LYBT 221030Z 30012KT 260V010 9999 SCT040 19/06 Q1021 NOSIG"
   },
   "randomPlace": {
-    "name": "PFKO",
-    "station": "PFKO",
-    "lat": 63.0334,
-    "lon": -163.5323,
+    "name": "LEPA",
+    "station": "LEPA",
+    "lat": 39.561,
+    "lon": 2.737,
     "weather": "No coded weather",
-    "temperature": 4.4,
-    "dewpoint": 2.2,
-    "windSpeed": 4.0,
-    "windDirection": 300.0,
-    "visibility": "10+",
+    "temperature": 28.0,
+    "dewpoint": 20.0,
+    "windSpeed": 7.0,
+    "windDirection": 220.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T09:56:00.000Z",
-    "observationTimestamp": "2026-09-22T09:56:00+00:00",
-    "raw": "METAR PFKO 220956Z AUTO 30004KT 10SM BKN038 OVC045 04/02 A2984 RMK AO2 SLP107 T00440022 $"
+    "observationTime": "2026-09-22T10:30:00.000Z",
+    "observationTimestamp": "2026-09-22T10:30:00+00:00",
+    "raw": "METAR LEPA 221030Z 22007KT 190V250 9999 FEW022 28/20 Q1020 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212338174,
-      "display": "8,212,338,174",
+      "value": 8212339335,
+      "display": "8,212,339,335",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -114,7 +114,7 @@
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
       "observationTime": "2026-09-22T10:34:00Z",
-      "forecastTime": "2026-09-22T12:04:00Z"
+      "forecastTime": "2026-09-22T12:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
