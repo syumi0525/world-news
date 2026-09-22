@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T13:57:08.084548+00:00",
+  "generatedAt": "2026-09-22T14:12:58.551313+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo 11.jpg",
+    "title": "File:Ndongo carrefour 04.jpg",
     "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_11.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_carrefour_04.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "USPP",
-    "station": "USPP",
-    "lat": 57.914,
-    "lon": 56.021,
+    "name": "GMMW",
+    "station": "GMMW",
+    "lat": 34.993,
+    "lon": -3.025,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 13.0,
-    "windSpeed": 4.0,
-    "windDirection": 270.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T13:30:00.000Z",
-    "observationTimestamp": "2026-09-22T13:30:00+00:00",
-    "raw": "METAR USPP 221330Z 27002MPS 9999 SCT047 20/13 Q1024 R21/090070 NOSIG RMK R21/28001MPS QFE757/1009"
+    "temperature": 26.0,
+    "dewpoint": 15.0,
+    "windSpeed": 12.0,
+    "windDirection": 50.0,
+    "visibility": "4.97",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T14:00:00.000Z",
+    "observationTimestamp": "2026-09-22T14:00:00+00:00",
+    "raw": "METAR GMMW 221400Z 05012KT 8000 NSC 26/15 Q1018 NOSIG"
   },
   "randomPlace": {
-    "name": "KESN",
-    "station": "KESN",
-    "lat": 38.804,
-    "lon": -76.069,
+    "name": "MGPB",
+    "station": "MGPB",
+    "lat": 15.737,
+    "lon": -88.589,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 16.0,
-    "windSpeed": 13.0,
-    "windDirection": 60.0,
-    "visibility": "9",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-22T13:45:00.000Z",
-    "observationTimestamp": "2026-09-22T13:45:00+00:00",
-    "raw": "METAR KESN 221345Z 06013KT 9SM BKN008 BKN035 16/16 A3016"
+    "temperature": 27.0,
+    "dewpoint": 25.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T14:00:00.000Z",
+    "observationTimestamp": "2026-09-22T14:00:00+00:00",
+    "raw": "METAR MGPB 221400Z 00000KT 9999 FEW018 SCT200 27/25 Q1009 A2980 RMK FEW090"
   },
   "globalPulse": {
     "population": {
-      "value": 8208127947,
-      "display": "8,208,127,947",
+      "value": 8208130008,
+      "display": "8,208,130,008",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 10.0,
-      "display": "MAX 10.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
       "observationTime": "2026-09-22T13:34:00Z",
-      "forecastTime": "2026-09-22T15:07:00Z"
+      "forecastTime": "2026-09-22T15:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
