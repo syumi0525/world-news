@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T22:29:44.945989+00:00",
+  "generatedAt": "2026-09-22T22:42:48.544026+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Balcones (8677680208).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
-    "license": "Public domain",
+    "title": "File:Bird nests.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "FNUB",
-    "station": "FNUB",
-    "lat": -14.925,
-    "lon": 13.575,
+    "name": "FCOD",
+    "station": "FCOD",
+    "lat": -1.226,
+    "lon": 15.91,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 8.0,
-    "windSpeed": 4.0,
-    "windDirection": 50.0,
+    "temperature": 24.0,
+    "dewpoint": 23.0,
+    "windSpeed": 2.0,
+    "windDirection": 350.0,
+    "visibility": "3.73",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T22:00:00.000Z",
+    "observationTimestamp": "2026-09-22T22:00:00+00:00",
+    "raw": "METAR FCOD 222200Z 35002KT 6000 NSC 24/23 Q1014"
+  },
+  "randomPlace": {
+    "name": "CWNQ",
+    "station": "CWNQ",
+    "lat": 46.226,
+    "lon": -72.657,
+    "weather": "No coded weather",
+    "temperature": 15.2,
+    "dewpoint": 5.5,
+    "windSpeed": 2.0,
+    "windDirection": 350.0,
     "visibility": "N/A",
     "flightCategory": "null",
     "observationTime": "2026-09-22T22:00:00.000Z",
     "observationTimestamp": "2026-09-22T22:00:00+00:00",
-    "raw": "METAR FNUB 222200Z AUTO 05004KT 010V080 //// ////// 19/08 Q1025"
-  },
-  "randomPlace": {
-    "name": "SKGO",
-    "station": "SKGO",
-    "lat": 4.758,
-    "lon": -75.956,
-    "weather": "No coded weather",
-    "temperature": 31.0,
-    "dewpoint": 19.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T22:00:00.000Z",
-    "observationTimestamp": "2026-09-22T22:00:00+00:00",
-    "raw": "METAR SKGO 222200Z VRB02KT 9999 FEW050 31/19 Q1012"
+    "raw": "METAR CWNQ 222200Z AUTO 35002KT 15/06 RMK AO1 SLP315 T01520055 53003"
   },
   "globalPulse": {
     "population": {
-      "value": 8208194700,
-      "display": "8,208,194,700",
+      "value": 8208196399,
+      "display": "8,208,196,399",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T22:21:00Z",
-      "speed": 289.0
+      "time": "2026-09-22T22:35:00Z",
+      "speed": 291.0
     },
     "magneticField": {
-      "time": "2026-09-22T22:21:00Z",
+      "time": "2026-09-22T22:35:00Z",
       "bt": 3.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-22T18:00:00",
@@ -113,8 +113,8 @@
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T22:18:00Z",
-      "forecastTime": "2026-09-22T23:50:00Z"
+      "observationTime": "2026-09-22T22:35:00Z",
+      "forecastTime": "2026-09-23T00:05:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
