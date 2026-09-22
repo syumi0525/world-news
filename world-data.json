@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T07:40:23.471446+00:00",
+  "generatedAt": "2026-09-22T07:52:43.482028+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Alverstone Garden Village.2.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Shlumble&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Shlumble (page does not exist)\">Shlumble</a>",
-    "license": "CC0",
+    "title": "File:Ditches, Dust, and Distance - DPLA - 62b7f33dfac43e4f5d60db1effaae5eb.jpg",
+    "artist": "Department of the Interior. Bureau of Indian Affairs. Pierre Agency. 1954-1972",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Alverstone_Garden_Village.2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ditches%2C_Dust%2C_and_Distance_-_DPLA_-_62b7f33dfac43e4f5d60db1effaae5eb.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KUSE",
-    "station": "KUSE",
-    "lat": 41.6118,
-    "lon": -84.1275,
+    "name": "SCPQ",
+    "station": "SCPQ",
+    "lat": -42.347,
+    "lon": -73.718,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 9.0,
-    "windSpeed": 10.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T07:35:00.000Z",
-    "observationTimestamp": "2026-09-22T07:35:00+00:00",
-    "raw": "METAR KUSE 220735Z AUTO 03010G16KT 10SM OVC028 11/09 A3019 RMK AO2"
+    "temperature": 5.0,
+    "dewpoint": 4.0,
+    "windSpeed": 4.0,
+    "windDirection": 360.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-22T07:00:00.000Z",
+    "observationTimestamp": "2026-09-22T07:00:00+00:00",
+    "raw": "METAR SCPQ 220700Z AUTO 36004KT //// R35///// FEW020 05/04 Q1020"
   },
   "randomPlace": {
-    "name": "KXMR",
-    "station": "KXMR",
-    "lat": 28.4674,
-    "lon": -80.5589,
+    "name": "KNOG",
+    "station": "KNOG",
+    "lat": 27.895,
+    "lon": -98.043,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 22.2,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T06:55:00.000Z",
-    "observationTimestamp": "2026-09-22T06:55:00+00:00",
-    "raw": "METAR KXMR 220655Z AUTO 00000KT 10SM CLR 24/22 A2985 RMK AO2 LTG DSNT N SLP111 T02400222 $"
+    "temperature": 25.6,
+    "dewpoint": 23.9,
+    "windSpeed": 3.0,
+    "windDirection": 100.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-22T06:56:00.000Z",
+    "observationTimestamp": "2026-09-22T06:56:00+00:00",
+    "raw": "METAR KNOG 220656Z AUTO 10003KT CLR 26/24 A2993 RMK AO2 SLP115 T02560239 PNO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212315647,
-      "display": "8,212,315,647",
+      "value": 8212317128,
+      "display": "8,212,317,128",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T07:31:00Z",
-      "speed": 308.0
+      "time": "2026-09-22T07:45:00Z",
+      "speed": 306.0
     },
     "magneticField": {
-      "time": "2026-09-22T07:31:00Z",
+      "time": "2026-09-22T07:45:00Z",
       "bt": 4.0,
       "bz": 3.0
     },
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T07:28:00Z",
-      "forecastTime": "2026-09-22T08:55:00Z"
+      "observationTime": "2026-09-22T07:40:00Z",
+      "forecastTime": "2026-09-22T09:05:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
