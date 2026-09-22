@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T01:49:10.820015+00:00",
+  "generatedAt": "2026-09-22T01:59:09.080611+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AcapulcoJulio2024.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
-    "license": "CC0",
+    "title": "File:Balcones (8677680208).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAQX",
-    "station": "KAQX",
-    "lat": 32.9941,
-    "lon": -81.271,
+    "name": "GMMN",
+    "station": "GMMN",
+    "lat": 33.367,
+    "lon": -7.59,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 23.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T01:35:00.000Z",
-    "observationTimestamp": "2026-09-22T01:35:00+00:00",
-    "raw": "METAR KAQX 220135Z AUTO 00000KT 10SM CLR 26/23 A2995 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "LFRL",
-    "station": "LFRL",
-    "lat": 48.279,
-    "lon": -4.439,
-    "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 14.0,
-    "windSpeed": 4.0,
-    "windDirection": 80.0,
+    "temperature": 20.0,
+    "dewpoint": 15.0,
+    "windSpeed": 3.0,
+    "windDirection": 230.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-22T01:30:00.000Z",
     "observationTimestamp": "2026-09-22T01:30:00+00:00",
-    "raw": "METAR LFRL 220130Z AUTO 08004KT CAVOK 15/14 Q1029 NOSIG"
+    "raw": "METAR GMMN 220130Z 23003KT CAVOK 20/15 Q1018 NOSIG"
+  },
+  "randomPlace": {
+    "name": "KP59",
+    "station": "KP59",
+    "lat": 47.467,
+    "lon": -87.875,
+    "weather": "No coded weather",
+    "temperature": 6.1,
+    "dewpoint": 4.4,
+    "windSpeed": 3.0,
+    "windDirection": 240.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-22T01:51:00.000Z",
+    "observationTimestamp": "2026-09-22T01:51:00+00:00",
+    "raw": "METAR KP59 220151Z AUTO 24003KT 06/04 A3038 RMK AO1 SLP293 T00610044"
   },
   "globalPulse": {
     "population": {
-      "value": 8212273615,
-      "display": "8,212,273,615",
+      "value": 8212274799,
+      "display": "8,212,274,799",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T01:40:00Z",
-      "speed": 325.0
+      "time": "2026-09-22T01:50:00Z",
+      "speed": 319.0
     },
     "magneticField": {
-      "time": "2026-09-22T01:40:00Z",
+      "time": "2026-09-22T01:50:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-21T21:00:00",
       "kp": 1.33
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 23.0,
+      "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T01:40:00Z",
-      "forecastTime": "2026-09-22T03:01:00Z"
+      "observationTime": "2026-09-22T01:50:00Z",
+      "forecastTime": "2026-09-22T03:11:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
