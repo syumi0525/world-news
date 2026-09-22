@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T12:52:21.238362+00:00",
+  "generatedAt": "2026-09-22T13:10:05.652281+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo 09.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:Chief Inspector Albert Macintosh - Flickr - trebble.chris.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/129172152@N02\">Chris Trebble</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_09.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chief_Inspector_Albert_Macintosh_-_Flickr_-_trebble.chris.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGNC",
-    "station": "KGNC",
-    "lat": 32.678,
-    "lon": -102.65,
+    "name": "KHFF",
+    "station": "KHFF",
+    "lat": 35.0424,
+    "lon": -79.4973,
     "weather": "No coded weather",
-    "temperature": 19.1,
-    "dewpoint": 18.1,
-    "windSpeed": 7.0,
-    "windDirection": 60.0,
+    "temperature": 23.5,
+    "dewpoint": 20.8,
+    "windSpeed": 6.0,
+    "windDirection": 50.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T12:30:00.000Z",
-    "observationTimestamp": "2026-09-22T12:30:00+00:00",
-    "raw": "METAR KGNC 221230Z AUTO 06007KT 10SM CLR 19/18 A3019 RMK AO2 T01910181"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T12:55:00.000Z",
+    "observationTimestamp": "2026-09-22T12:55:00+00:00",
+    "raw": "METAR KHFF 221255Z AUTO 05006KT 10SM BKN027 24/21 A3001 RMK AO2 BKN V OVC SLP161 T02350208 $"
   },
   "randomPlace": {
-    "name": "KPWM",
-    "station": "KPWM",
-    "lat": 43.6424,
-    "lon": -70.3044,
+    "name": "UAII",
+    "station": "UAII",
+    "lat": 42.366,
+    "lon": 69.476,
     "weather": "No coded weather",
-    "temperature": 10.6,
-    "dewpoint": 5.6,
-    "windSpeed": 7.0,
-    "windDirection": 360.0,
-    "visibility": "10+",
+    "temperature": 29.0,
+    "dewpoint": 0.0,
+    "windSpeed": 4.0,
+    "windDirection": 270.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T11:51:00.000Z",
-    "observationTimestamp": "2026-09-22T11:51:00+00:00",
-    "raw": "METAR KPWM 221151Z 36007KT 10SM FEW060 SCT200 BKN250 11/06 A3040 RMK AO2 SLP295 T01060056 10122 20100 53025 $"
+    "observationTime": "2026-09-22T13:00:00.000Z",
+    "observationTimestamp": "2026-09-22T13:00:00+00:00",
+    "raw": "METAR UAII 221300Z 27002MPS CAVOK 29/M00 Q1015 NOSIG RMK QFE726/0968"
   },
   "globalPulse": {
     "population": {
-      "value": 8208119511,
-      "display": "8,208,119,511",
+      "value": 8208121817,
+      "display": "8,208,121,817",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -114,7 +114,7 @@
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
       "observationTime": "2026-09-22T11:34:00Z",
-      "forecastTime": "2026-09-22T13:58:00Z"
+      "forecastTime": "2026-09-22T14:26:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
