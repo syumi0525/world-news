@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T15:39:01.903442+00:00",
+  "generatedAt": "2026-09-22T15:50:28.786629+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo Baptist Church.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:20260803 183933 Gartenanlage Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_Baptist_Church.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_183933_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "HEPS",
-    "station": "HEPS",
-    "lat": 31.279,
-    "lon": 32.238,
+    "name": "KPWT",
+    "station": "KPWT",
+    "lat": 47.4942,
+    "lon": -122.7594,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 20.0,
-    "windSpeed": 10.0,
-    "windDirection": 330.0,
-    "visibility": "6+",
+    "temperature": 12.8,
+    "dewpoint": 12.8,
+    "windSpeed": 3.0,
+    "windDirection": 130.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T15:00:00.000Z",
-    "observationTimestamp": "2026-09-22T15:00:00+00:00",
-    "raw": "METAR HEPS 221500Z 33010KT CAVOK 28/20 Q1013 NOSIG"
+    "observationTime": "2026-09-22T14:56:00.000Z",
+    "observationTimestamp": "2026-09-22T14:56:00+00:00",
+    "raw": "METAR KPWT 221456Z AUTO 13003KT 10SM SCT022 13/13 A3006 RMK AO2 SLP183 T01280128 51007 $"
   },
   "randomPlace": {
-    "name": "SBES",
-    "station": "SBES",
-    "lat": -22.813,
-    "lon": -42.093,
+    "name": "KSYN",
+    "station": "KSYN",
+    "lat": 44.474,
+    "lon": -93.014,
     "weather": "No coded weather",
-    "temperature": null,
-    "dewpoint": null,
+    "temperature": 14.5,
+    "dewpoint": 9.4,
     "windSpeed": 8.0,
-    "windDirection": 230.0,
-    "visibility": "6+",
+    "windDirection": 80.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T15:00:00.000Z",
-    "observationTimestamp": "2026-09-22T15:00:00+00:00",
-    "raw": "METAR SBES 221500Z 23008KT 190V260 9999 FEW020 SCT080 25/// Q1013"
+    "observationTime": "2026-09-22T15:35:00.000Z",
+    "observationTimestamp": "2026-09-22T15:35:00+00:00",
+    "raw": "METAR KSYN 221535Z AUTO 08008KT 10SM SCT037 BKN043 OVC100 15/09 A3037 RMK AO2 T01450094"
   },
   "globalPulse": {
     "population": {
-      "value": 8208141234,
-      "display": "8,208,141,234",
+      "value": 8208142727,
+      "display": "8,208,142,727",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T15:30:00Z",
-      "speed": 308.0
+      "time": "2026-09-22T15:42:00Z",
+      "speed": 306.0
     },
     "magneticField": {
-      "time": "2026-09-22T15:30:00Z",
-      "bt": 3.0,
+      "time": "2026-09-22T15:42:00Z",
+      "bt": 4.0,
       "bz": -2.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T15:30:00Z",
-      "forecastTime": "2026-09-22T16:56:00Z"
+      "observationTime": "2026-09-22T15:40:00Z",
+      "forecastTime": "2026-09-22T17:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
