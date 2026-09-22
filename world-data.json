@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T17:57:59.971408+00:00",
+  "generatedAt": "2026-09-22T18:17:54.278971+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 12.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:20260822 101728 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_12.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_101728_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SBML",
-    "station": "SBML",
-    "lat": -22.197,
-    "lon": -49.926,
+    "name": "KLWM",
+    "station": "KLWM",
+    "lat": 42.7125,
+    "lon": -71.1256,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 19.0,
-    "windSpeed": 12.0,
-    "windDirection": 50.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T17:00:00.000Z",
-    "observationTimestamp": "2026-09-22T17:00:00+00:00",
-    "raw": "METAR SBML 221700Z 05012KT 9999 BKN020 OVC060 22/19 Q1015"
+    "temperature": 17.2,
+    "dewpoint": 5.6,
+    "windSpeed": 11.0,
+    "windDirection": 90.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T17:54:00.000Z",
+    "observationTimestamp": "2026-09-22T17:54:00+00:00",
+    "raw": "METAR KLWM 221754Z 09011G16KT 10SM SCT050 17/06 A3042 RMK AO2 SLP301 T01720056 10172 20117 51004"
   },
   "randomPlace": {
-    "name": "K1R7",
-    "station": "K1R7",
-    "lat": 31.6057,
-    "lon": -90.4072,
+    "name": "KGZN",
+    "station": "KGZN",
+    "lat": 32.3682,
+    "lon": -99.026,
     "weather": "No coded weather",
-    "temperature": null,
-    "dewpoint": null,
-    "windSpeed": 4.0,
+    "temperature": 32.0,
+    "dewpoint": 19.0,
+    "windSpeed": 3.0,
     "windDirection": 0.0,
-    "visibility": "8",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T17:35:00.000Z",
-    "observationTimestamp": "2026-09-22T17:35:00+00:00",
-    "raw": "METAR K1R7 221735Z AUTO VRB04KT 8SM FEW110 A3002 RMK A01 TSNO"
+    "observationTime": "2026-09-22T17:55:00.000Z",
+    "observationTimestamp": "2026-09-22T17:55:00+00:00",
+    "raw": "METAR KGZN 221755Z AUTO VRB03KT 10SM FEW043 SCT065 32/19 A3007 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8208159322,
-      "display": "8,208,159,322",
+      "value": 8208161908,
+      "display": "8,208,161,908",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-22T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.3,
-      "display": "Kp 0.3",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-22T12:00:00"
+      "time": "2026-09-22T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T17:47:00Z",
-      "speed": 291.0
+      "time": "2026-09-22T18:11:00Z",
+      "speed": 294.0
     },
     "magneticField": {
-      "time": "2026-09-22T17:52:00Z",
+      "time": "2026-09-22T18:11:00Z",
       "bt": 4.0,
       "bz": 2.0
     },
     "kp": {
-      "time": "2026-09-22T12:00:00",
-      "kp": 0.33
+      "time": "2026-09-22T15:00:00",
+      "kp": 0.67
     },
     "aurora": {
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T17:44:00Z",
-      "forecastTime": "2026-09-22T19:15:00Z"
+      "observationTime": "2026-09-22T18:04:00Z",
+      "forecastTime": "2026-09-22T19:35:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
