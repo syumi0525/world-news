@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T07:09:47.728863+00:00",
+  "generatedAt": "2026-09-22T07:26:26.043292+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Fusagasugá 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wilferpc&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wilferpc (page does not exist)\">Wilferpc</a>",
-    "license": "CC0",
+    "title": "File:Created for the National Natural landmarks Program by Dennis Caldwell, caldwell-design.com (b824c582-b833-40d1-ba54-ea580db40bbb).jpg",
+    "artist": "National Park Service",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Fusagasug%C3%A1_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Created_for_the_National_Natural_landmarks_Program_by_Dennis_Caldwell%2C_caldwell-design.com_%28b824c582-b833-40d1-ba54-ea580db40bbb%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1CM",
-    "station": "K1CM",
-    "lat": 47.096,
-    "lon": -110.164,
-    "weather": "No coded weather",
-    "temperature": 13.9,
-    "dewpoint": 5.5,
-    "windSpeed": 6.0,
-    "windDirection": 130.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T06:55:00.000Z",
-    "observationTimestamp": "2026-09-22T06:55:00+00:00",
-    "raw": "METAR K1CM 220655Z AUTO 13006KT 10SM CLR 14/06 A3000 RMK AO2 SLP133 T01390055 402430060 $"
+    "name": "KCHT",
+    "station": "KCHT",
+    "lat": 39.782,
+    "lon": -93.496,
+    "weather": "BR",
+    "temperature": 18.0,
+    "dewpoint": 18.0,
+    "windSpeed": 4.0,
+    "windDirection": 30.0,
+    "visibility": "3",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T07:15:00.000Z",
+    "observationTimestamp": "2026-09-22T07:15:00+00:00",
+    "raw": "METAR KCHT 220715Z AUTO 03004KT 3SM BR 18/18 A3012 RMK AO2"
   },
   "randomPlace": {
-    "name": "EGYE",
-    "station": "EGYE",
-    "lat": 52.962,
-    "lon": -0.562,
-    "weather": "BR VCFG",
-    "temperature": 16.0,
-    "dewpoint": 16.0,
-    "windSpeed": 2.0,
-    "windDirection": 230.0,
-    "visibility": "4.35",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T06:50:00.000Z",
-    "observationTimestamp": "2026-09-22T06:50:00+00:00",
-    "raw": "METAR EGYE 220650Z 23002KT 7000 BR VCFG SCT065 16/16 Q1029 RMK WHT"
+    "name": "LFSI",
+    "station": "LFSI",
+    "lat": 48.631,
+    "lon": 4.904,
+    "weather": "No coded weather",
+    "temperature": 11.0,
+    "dewpoint": 8.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T07:00:00.000Z",
+    "observationTimestamp": "2026-09-22T07:00:00+00:00",
+    "raw": "METAR LFSI 220700Z AUTO 00000KT CAVOK 11/08 Q1029"
   },
   "globalPulse": {
     "population": {
-      "value": 8212311994,
-      "display": "8,212,311,994",
+      "value": 8212313987,
+      "display": "8,212,313,987",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T07:01:00Z",
-      "speed": 306.0
+      "time": "2026-09-22T07:17:00Z",
+      "speed": 309.0
     },
     "magneticField": {
-      "time": "2026-09-22T07:01:00Z",
+      "time": "2026-09-22T07:17:00Z",
       "bt": 4.0,
       "bz": 3.0
     },
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T06:58:00Z",
-      "forecastTime": "2026-09-22T08:24:00Z"
+      "observationTime": "2026-09-22T07:15:00Z",
+      "forecastTime": "2026-09-22T08:39:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
