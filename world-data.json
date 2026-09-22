@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T17:24:50.795693+00:00",
+  "generatedAt": "2026-09-22T17:38:04.543362+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 13.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:Bhimtal IMG 2025 05 18 09 37 25.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pushkar2016&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pushkar2016 (page does not exist)\">Pushkar2016</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_13.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bhimtal_IMG_2025_05_18_09_37_25.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SADL",
-    "station": "SADL",
-    "lat": -34.972,
-    "lon": -57.895,
+    "name": "CYUA",
+    "station": "CYUA",
+    "lat": 68.932,
+    "lon": -137.242,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 2.0,
-    "windSpeed": 5.0,
+    "temperature": 0.3,
+    "dewpoint": -0.2,
+    "windSpeed": 4.0,
     "windDirection": 230.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-22T17:00:00.000Z",
     "observationTimestamp": "2026-09-22T17:00:00+00:00",
-    "raw": "METAR SADL 221700Z 23005KT 9999 SCT025TCU BKN030 11/02 Q1023"
+    "raw": "METAR CYUA 221700Z AUTO 23004KT ////SM ////// 00/M00 A2965 RMK VIS MISG CLD MISG T00031002 SLP044"
   },
   "randomPlace": {
-    "name": "ESND",
-    "station": "ESND",
-    "lat": 62.047,
-    "lon": 14.416,
+    "name": "KHEG",
+    "station": "KHEG",
+    "lat": 30.2771,
+    "lon": -81.8087,
     "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 6.0,
-    "windSpeed": 2.0,
-    "windDirection": 110.0,
-    "visibility": "6+",
+    "temperature": 30.0,
+    "dewpoint": 21.0,
+    "windSpeed": 3.0,
+    "windDirection": 80.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T16:50:00.000Z",
-    "observationTimestamp": "2026-09-22T16:50:00+00:00",
-    "raw": "METAR ESND 221650Z AUTO 11002KT 9999 FEW048/// SCT092/// 09/06 Q1024"
+    "observationTime": "2026-09-22T17:15:00.000Z",
+    "observationTimestamp": "2026-09-22T17:15:00+00:00",
+    "raw": "METAR KHEG 221715Z AUTO 08003KT 10SM FEW040 30/21 A2999 RMK AO2 TSNO"
   },
   "globalPulse": {
     "population": {
-      "value": 8208155012,
-      "display": "8,208,155,012",
+      "value": 8208156730,
+      "display": "8,208,156,730",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T17:16:00Z",
-      "speed": 290.0
+      "time": "2026-09-22T17:30:00Z",
+      "speed": 292.0
     },
     "magneticField": {
-      "time": "2026-09-22T17:16:00Z",
+      "time": "2026-09-22T17:30:00Z",
       "bt": 4.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T17:16:00Z",
-      "forecastTime": "2026-09-22T18:45:00Z"
+      "observationTime": "2026-09-22T17:30:00Z",
+      "forecastTime": "2026-09-22T19:00:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
