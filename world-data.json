@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T19:54:59.050886+00:00",
+  "generatedAt": "2026-09-22T20:09:07.820530+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nastawnia CS Czestochowa Stradom.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cody3223&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cody3223 (page does not exist)\">Cody3223</a>",
+    "title": "File:20260822 102058 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nastawnia_CS_Czestochowa_Stradom.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_102058_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CXHM",
-    "station": "CXHM",
-    "lat": 43.286,
-    "lon": -79.905,
+    "name": "KLFK",
+    "station": "KLFK",
+    "lat": 31.2359,
+    "lon": -94.7546,
     "weather": "No coded weather",
-    "temperature": 16.4,
-    "dewpoint": 7.7,
-    "windSpeed": 9.0,
-    "windDirection": 70.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-22T19:00:00.000Z",
-    "observationTimestamp": "2026-09-22T19:00:00+00:00",
-    "raw": "METAR CXHM 221900Z AUTO 07009G18KT 16/08 RMK AO1 PK WND 04023/1845 SLP287 T01640077 50000"
+    "temperature": 35.0,
+    "dewpoint": 21.1,
+    "windSpeed": 5.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T19:53:00.000Z",
+    "observationTimestamp": "2026-09-22T19:53:00+00:00",
+    "raw": "METAR KLFK 221953Z AUTO VRB05KT 10SM CLR 35/21 A2994 RMK AO2 SLP134 T03500211 $"
   },
   "randomPlace": {
-    "name": "CWUX",
-    "station": "CWUX",
-    "lat": 48.298,
-    "lon": -70.92,
+    "name": "EBBR",
+    "station": "EBBR",
+    "lat": 50.896,
+    "lon": 4.526,
     "weather": "No coded weather",
-    "temperature": 13.8,
-    "dewpoint": 4.6,
-    "windSpeed": 6.0,
-    "windDirection": 290.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-22T19:00:00.000Z",
-    "observationTimestamp": "2026-09-22T19:00:00+00:00",
-    "raw": "METAR CWUX 221900Z AUTO 29006KT 14/05 RMK AO1 SLP343 T01380046 58008"
+    "temperature": 17.0,
+    "dewpoint": 13.0,
+    "windSpeed": 3.0,
+    "windDirection": 80.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T19:50:00.000Z",
+    "observationTimestamp": "2026-09-22T19:50:00+00:00",
+    "raw": "METAR EBBR 221950Z 08003KT 9999 BKN035 17/13 Q1028 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208174547,
-      "display": "8,208,174,547",
+      "value": 8208176391,
+      "display": "8,208,176,391",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T19:47:00Z",
-      "speed": 298.0
+      "time": "2026-09-22T20:01:00Z",
+      "speed": 300.0
     },
     "magneticField": {
-      "time": "2026-09-22T19:47:00Z",
+      "time": "2026-09-22T20:01:00Z",
       "bt": 3.0,
-      "bz": -2.0
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-22T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T19:44:00Z",
-      "forecastTime": "2026-09-22T21:13:00Z"
+      "observationTime": "2026-09-22T19:59:00Z",
+      "forecastTime": "2026-09-22T21:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
