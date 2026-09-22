@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T18:17:54.278971+00:00",
+  "generatedAt": "2026-09-22T18:35:54.435158+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 101728 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "title": "File:Chirchiq kanali 01.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sevindikovna_Feruza&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sevindikovna Feruza (page does not exist)\">Sevindikovna Feruza</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_101728_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chirchiq_kanali_01.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLWM",
-    "station": "KLWM",
-    "lat": 42.7125,
-    "lon": -71.1256,
+    "name": "SLAS",
+    "station": "SLAS",
+    "lat": -15.93,
+    "lon": -63.157,
     "weather": "No coded weather",
-    "temperature": 17.2,
-    "dewpoint": 5.6,
-    "windSpeed": 11.0,
-    "windDirection": 90.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T17:54:00.000Z",
-    "observationTimestamp": "2026-09-22T17:54:00+00:00",
-    "raw": "METAR KLWM 221754Z 09011G16KT 10SM SCT050 17/06 A3042 RMK AO2 SLP301 T01720056 10172 20117 51004"
+    "temperature": 20.0,
+    "dewpoint": 15.0,
+    "windSpeed": 20.0,
+    "windDirection": 180.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T18:00:00.000Z",
+    "observationTimestamp": "2026-09-22T18:00:00+00:00",
+    "raw": "METAR SLAS 221800Z 18020KT 9999 BKN013 BKN070 20/15 Q1016"
   },
   "randomPlace": {
-    "name": "KGZN",
-    "station": "KGZN",
-    "lat": 32.3682,
-    "lon": -99.026,
+    "name": "CXNP",
+    "station": "CXNP",
+    "lat": 45.76,
+    "lon": -64.241,
     "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 19.0,
-    "windSpeed": 3.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T17:55:00.000Z",
-    "observationTimestamp": "2026-09-22T17:55:00+00:00",
-    "raw": "METAR KGZN 221755Z AUTO VRB03KT 10SM FEW043 SCT065 32/19 A3007 RMK AO2"
+    "temperature": 15.5,
+    "dewpoint": 7.1,
+    "windSpeed": 10.0,
+    "windDirection": 360.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-22T18:00:00.000Z",
+    "observationTimestamp": "2026-09-22T18:00:00+00:00",
+    "raw": "METAR CXNP 221800Z AUTO 36010KT 16/07 RMK AO1 SLP286 T01550071 51008"
   },
   "globalPulse": {
     "population": {
-      "value": 8208161908,
-      "display": "8,208,161,908",
+      "value": 8208164258,
+      "display": "8,208,164,258",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T18:11:00Z",
-      "speed": 294.0
+      "time": "2026-09-22T18:30:00Z",
+      "speed": 295.0
     },
     "magneticField": {
-      "time": "2026-09-22T18:11:00Z",
+      "time": "2026-09-22T18:30:00Z",
       "bt": 4.0,
       "bz": 2.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T18:04:00Z",
-      "forecastTime": "2026-09-22T19:35:00Z"
+      "observationTime": "2026-09-22T18:25:00Z",
+      "forecastTime": "2026-09-22T19:55:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
