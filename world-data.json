@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T04:14:12.499882+00:00",
+  "generatedAt": "2026-09-22T04:30:32.825176+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 183103 Gartenanlage Schätzl-Villa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "title": "File:Viper Mine elevator county line.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Visviva\" title=\"User:Visviva\">Visviva</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_183103_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Viper_Mine_elevator_county_line.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWPE",
-    "station": "CWPE",
-    "lat": 45.058,
-    "lon": -66.459,
-    "weather": "No coded weather",
-    "temperature": 10.1,
-    "dewpoint": 5.6,
+    "name": "KCYD",
+    "station": "KCYD",
+    "lat": 28.1694,
+    "lon": -89.2228,
+    "weather": "VCTS",
+    "temperature": 29.0,
+    "dewpoint": 24.0,
     "windSpeed": 7.0,
-    "windDirection": 360.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-22T04:00:00.000Z",
-    "observationTimestamp": "2026-09-22T04:00:00+00:00",
-    "raw": "METAR CWPE 220400Z AUTO 36007KT 10/06 RMK AO1 SLP237 T01010056 53013"
-  },
-  "randomPlace": {
-    "name": "KSVR",
-    "station": "KSVR",
-    "lat": 40.6196,
-    "lon": -111.9902,
-    "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 9.0,
-    "windSpeed": 2.0,
-    "windDirection": 210.0,
+    "windDirection": 60.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T03:55:00.000Z",
-    "observationTimestamp": "2026-09-22T03:55:00+00:00",
-    "raw": "METAR KSVR 220355Z AUTO 21002KT 10SM OVC110 19/09 A3007 RMK AO2"
+    "observationTime": "2026-09-22T04:15:00.000Z",
+    "observationTimestamp": "2026-09-22T04:15:00+00:00",
+    "raw": "METAR KCYD 220415Z AUTO 06007KT 10SM VCTS SCT024 SCT028 SCT042 29/24 A2993 RMK AO2 LTG DSNT E"
+  },
+  "randomPlace": {
+    "name": "KJAN",
+    "station": "KJAN",
+    "lat": 32.3198,
+    "lon": -90.0778,
+    "weather": "No coded weather",
+    "temperature": 25.6,
+    "dewpoint": 22.2,
+    "windSpeed": 5.0,
+    "windDirection": 120.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T03:54:00.000Z",
+    "observationTimestamp": "2026-09-22T03:54:00+00:00",
+    "raw": "METAR KJAN 220354Z 12005KT 10SM FEW070 FEW100 SCT220 26/22 A2997 RMK AO2 SLP145 FRQ LTGIC DSNT NW-NE CB DSNT NW-NE T02560222"
   },
   "globalPulse": {
     "population": {
-      "value": 8212290992,
-      "display": "8,212,290,992",
+      "value": 8212292955,
+      "display": "8,212,292,955",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T03:54:00Z",
-      "speed": 327.0
+      "time": "2026-09-22T04:21:00Z",
+      "speed": 316.0
     },
     "magneticField": {
-      "time": "2026-09-22T03:54:00Z",
-      "bt": 4.0,
-      "bz": -2.0
+      "time": "2026-09-22T04:21:00Z",
+      "bt": 5.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-22T00:00:00",
