@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T02:58:06.479245+00:00",
+  "generatedAt": "2026-09-22T03:14:51.877321+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Calle de Lolita Parra.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Barruntada&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Barruntada (page does not exist)\">Barruntada</a>",
+    "title": "File:Batiment aunsein de la Ville de Majunga 04.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Calle_de_Lolita_Parra.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_04.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMAN",
-    "station": "KMAN",
-    "lat": 43.582,
-    "lon": -116.5211,
+    "name": "CYQY",
+    "station": "CYQY",
+    "lat": 46.166,
+    "lon": -60.049,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 7.0,
-    "windSpeed": 4.0,
+    "temperature": 8.0,
+    "dewpoint": 8.0,
+    "windSpeed": 7.0,
     "windDirection": 320.0,
-    "visibility": "10+",
+    "visibility": "15",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T02:35:00.000Z",
-    "observationTimestamp": "2026-09-22T02:35:00+00:00",
-    "raw": "METAR KMAN 220235Z AUTO 32004KT 10SM CLR 25/07 A2990 RMK A01"
+    "observationTime": "2026-09-22T03:00:00.000Z",
+    "observationTimestamp": "2026-09-22T03:00:00+00:00",
+    "raw": "METAR CYQY 220300Z 32007KT 15SM FEW020 SCT048 08/08 A3007 RMK SC2SC1 SLP186"
   },
   "randomPlace": {
-    "name": "CYSF",
-    "station": "CYSF",
-    "lat": 59.252,
-    "lon": -105.837,
+    "name": "KSRQ",
+    "station": "KSRQ",
+    "lat": 27.4015,
+    "lon": -82.5597,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 11.0,
-    "windSpeed": 3.0,
-    "windDirection": 160.0,
-    "visibility": "9",
+    "temperature": 25.6,
+    "dewpoint": 23.9,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T02:00:00.000Z",
-    "observationTimestamp": "2026-09-22T02:00:00+00:00",
-    "raw": "METAR CYSF 220200Z AUTO 16003KT 150V250 9SM SCT210 SCT240 13/11 A2973 RMK SLP080 DENSITY ALT 1100FT"
+    "observationTime": "2026-09-22T02:53:00.000Z",
+    "observationTimestamp": "2026-09-22T02:53:00+00:00",
+    "raw": "METAR KSRQ 220253Z AUTO 00000KT 10SM CLR 26/24 A2993 RMK AO2 SLP133 60001 T02560239 51015"
   },
   "globalPulse": {
     "population": {
-      "value": 8212281860,
-      "display": "8,212,281,860",
+      "value": 8212283867,
+      "display": "8,212,283,867",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-21T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.3,
-      "display": "Kp 1.3",
+      "value": 2.0,
+      "display": "Kp 2.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-21T21:00:00"
+      "time": "2026-09-22T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T02:46:00Z",
-      "speed": 316.0
+      "time": "2026-09-22T03:05:00Z",
+      "speed": 314.0
     },
     "magneticField": {
-      "time": "2026-09-22T02:46:00Z",
+      "time": "2026-09-22T03:05:00Z",
       "bt": 5.0,
       "bz": 0.0
     },
     "kp": {
-      "time": "2026-09-21T21:00:00",
-      "kp": 1.33
+      "time": "2026-09-22T00:00:00",
+      "kp": 2.0
     },
     "aurora": {
-      "value": 20.0,
-      "display": "MAX 20.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T02:49:00Z",
-      "forecastTime": "2026-09-22T04:12:00Z"
+      "observationTime": "2026-09-22T03:05:00Z",
+      "forecastTime": "2026-09-22T04:28:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
