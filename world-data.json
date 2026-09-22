@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T17:10:00.210897+00:00",
+  "generatedAt": "2026-09-22T17:24:50.795693+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:1906-05-23 Blessed be the Tie A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Batiment aunsein de la Ville de Majunga 13.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:1906-05-23_Blessed_be_the_Tie_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_13.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1K8",
-    "station": "K1K8",
-    "lat": 36.543,
-    "lon": -95.012,
+    "name": "SADL",
+    "station": "SADL",
+    "lat": -34.972,
+    "lon": -57.895,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 19.0,
-    "windSpeed": 7.0,
-    "windDirection": 90.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T16:55:00.000Z",
-    "observationTimestamp": "2026-09-22T16:55:00+00:00",
-    "raw": "METAR K1K8 221655Z AUTO 09007KT 060V120 10SM CLR 24/19 A3017 RMK AO2"
+    "temperature": 11.0,
+    "dewpoint": 2.0,
+    "windSpeed": 5.0,
+    "windDirection": 230.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T17:00:00.000Z",
+    "observationTimestamp": "2026-09-22T17:00:00+00:00",
+    "raw": "METAR SADL 221700Z 23005KT 9999 SCT025TCU BKN030 11/02 Q1023"
   },
   "randomPlace": {
-    "name": "KMPO",
-    "station": "KMPO",
-    "lat": 41.1368,
-    "lon": -75.3771,
+    "name": "ESND",
+    "station": "ESND",
+    "lat": 62.047,
+    "lon": 14.416,
     "weather": "No coded weather",
-    "temperature": 13.9,
-    "dewpoint": 7.8,
-    "windSpeed": 9.0,
-    "windDirection": 80.0,
-    "visibility": "10+",
+    "temperature": 9.0,
+    "dewpoint": 6.0,
+    "windSpeed": 2.0,
+    "windDirection": 110.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T16:53:00.000Z",
-    "observationTimestamp": "2026-09-22T16:53:00+00:00",
-    "raw": "METAR KMPO 221653Z AUTO 08009G16KT 10SM OVC110 14/08 A3032 RMK AO2 SLP269 T01390078"
+    "observationTime": "2026-09-22T16:50:00.000Z",
+    "observationTimestamp": "2026-09-22T16:50:00+00:00",
+    "raw": "METAR ESND 221650Z AUTO 11002KT 9999 FEW048/// SCT092/// 09/06 Q1024"
   },
   "globalPulse": {
     "population": {
-      "value": 8208153079,
-      "display": "8,208,153,079",
+      "value": 8208155012,
+      "display": "8,208,155,012",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T16:59:00Z",
-      "speed": 296.0
+      "time": "2026-09-22T17:16:00Z",
+      "speed": 290.0
     },
     "magneticField": {
-      "time": "2026-09-22T17:04:00Z",
+      "time": "2026-09-22T17:16:00Z",
       "bt": 4.0,
       "bz": 2.0
     },
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T16:59:00Z",
-      "forecastTime": "2026-09-22T18:29:00Z"
+      "observationTime": "2026-09-22T17:16:00Z",
+      "forecastTime": "2026-09-22T18:45:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
