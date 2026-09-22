@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T22:55:05.237343+00:00",
+  "generatedAt": "2026-09-22T23:08:11.626699+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:Boulder in snowy mountains.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AdvaitaMakaranda&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AdvaitaMakaranda (page does not exist)\">AdvaitaMakaranda</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Boulder_in_snowy_mountains.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGEZ",
-    "station": "KGEZ",
-    "lat": 39.5855,
-    "lon": -85.7998,
+    "name": "KPMD",
+    "station": "KPMD",
+    "lat": 34.6294,
+    "lon": -118.0831,
     "weather": "No coded weather",
-    "temperature": 16.1,
-    "dewpoint": 13.3,
-    "windSpeed": 9.0,
-    "windDirection": 30.0,
+    "temperature": 30.0,
+    "dewpoint": 5.0,
+    "windSpeed": null,
+    "windDirection": null,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T22:30:00.000Z",
-    "observationTimestamp": "2026-09-22T22:30:00+00:00",
-    "raw": "SPECI KGEZ 222230Z AUTO 03009G18KT 10SM OVC014 16/13 A3016 RMK AO2 T01610133"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T22:53:00.000Z",
+    "observationTimestamp": "2026-09-22T22:53:00+00:00",
+    "raw": "METAR KPMD 222253Z 10SM CLR 30/05 A2990 RMK AO2 SLP102 T03000050"
   },
   "randomPlace": {
-    "name": "CWHV",
-    "station": "CWHV",
-    "lat": 46.205,
-    "lon": -70.785,
+    "name": "KASX",
+    "station": "KASX",
+    "lat": 46.5468,
+    "lon": -90.9184,
     "weather": "No coded weather",
-    "temperature": 14.4,
-    "dewpoint": 6.0,
-    "windSpeed": 3.0,
-    "windDirection": 300.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-22T22:00:00.000Z",
-    "observationTimestamp": "2026-09-22T22:00:00+00:00",
-    "raw": "METAR CWHV 222200Z AUTO 30003KT 14/06 RMK AO1 SLP312 T01440060 53006"
+    "temperature": 13.9,
+    "dewpoint": 8.3,
+    "windSpeed": 10.0,
+    "windDirection": 40.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T22:53:00.000Z",
+    "observationTimestamp": "2026-09-22T22:53:00+00:00",
+    "raw": "METAR KASX 222253Z AUTO 04010KT 10SM CLR 14/08 A3041 RMK AO2 SLP306 T01390083 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8208197995,
-      "display": "8,208,197,995",
+      "value": 8208199702,
+      "display": "8,208,199,702",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T22:47:00Z",
-      "speed": 289.0
+      "time": "2026-09-22T23:02:00Z",
+      "speed": 284.0
     },
     "magneticField": {
-      "time": "2026-09-22T22:45:00Z",
-      "bt": 3.0,
-      "bz": -1.0
+      "time": "2026-09-22T23:02:00Z",
+      "bt": 4.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-22T18:00:00",
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T22:45:00Z",
-      "forecastTime": "2026-09-23T00:16:00Z"
+      "observationTime": "2026-09-22T22:59:00Z",
+      "forecastTime": "2026-09-23T00:31:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
