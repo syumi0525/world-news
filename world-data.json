@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T05:29:48.969960+00:00",
+  "generatedAt": "2026-09-22T05:43:32.185750+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Calle de Lolita Parra.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Barruntada&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Barruntada (page does not exist)\">Barruntada</a>",
+    "title": "File:Bird nests.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Calle_de_Lolita_Parra.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OICI",
-    "station": "OICI",
-    "lat": 33.588,
-    "lon": 46.397,
+    "name": "KECU",
+    "station": "KECU",
+    "lat": 29.948,
+    "lon": -100.1736,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 0.0,
-    "windSpeed": 5.0,
-    "windDirection": 120.0,
-    "visibility": "6+",
+    "temperature": 23.0,
+    "dewpoint": 18.0,
+    "windSpeed": 4.0,
+    "windDirection": 90.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T05:00:00.000Z",
-    "observationTimestamp": "2026-09-22T05:00:00+00:00",
-    "raw": "METAR OICI 220500Z 12005KT 090V150 CAVOK 25/M00 Q1022"
+    "observationTime": "2026-09-22T05:35:00.000Z",
+    "observationTimestamp": "2026-09-22T05:35:00+00:00",
+    "raw": "METAR KECU 220535Z AUTO 09004KT 10SM CLR 23/18 A3007 RMK AO2"
   },
   "randomPlace": {
-    "name": "EIDW",
-    "station": "EIDW",
-    "lat": 53.422,
-    "lon": -6.298,
+    "name": "UMKK",
+    "station": "UMKK",
+    "lat": 54.885,
+    "lon": 20.583,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 14.0,
-    "windSpeed": 6.0,
-    "windDirection": 260.0,
+    "temperature": 13.0,
+    "dewpoint": 11.0,
+    "windSpeed": 8.0,
+    "windDirection": 30.0,
     "visibility": "6+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-22T05:00:00.000Z",
-    "observationTimestamp": "2026-09-22T05:00:00+00:00",
-    "raw": "METAR EIDW 220500Z 26006KT 190V300 9999 SCT003 BKN005 15/14 Q1028 NOSIG"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T05:30:00.000Z",
+    "observationTimestamp": "2026-09-22T05:30:00+00:00",
+    "raw": "METAR UMKK 220530Z 03004MPS 9999 SCT020CB 13/11 Q1018 R24/290063 NOSIG RMK QFE762/1016"
   },
   "globalPulse": {
     "population": {
-      "value": 8212300049,
-      "display": "8,212,300,049",
+      "value": 8212301689,
+      "display": "8,212,301,689",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T05:20:00Z",
-      "speed": 313.0
+      "time": "2026-09-22T05:33:00Z",
+      "speed": 314.0
     },
     "magneticField": {
-      "time": "2026-09-22T05:20:00Z",
+      "time": "2026-09-22T05:33:00Z",
       "bt": 4.0,
       "bz": 3.0
     },
@@ -113,8 +113,8 @@
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T05:20:00Z",
-      "forecastTime": "2026-09-22T06:44:00Z"
+      "observationTime": "2026-09-22T05:30:00Z",
+      "forecastTime": "2026-09-22T06:54:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
