@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T06:53:14.381561+00:00",
+  "generatedAt": "2026-09-22T07:09:47.728863+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A park bench and waysides with a view at Lake Dardanelle State Park in Russellville, Arkansas (cf773068-fe65-4a9c-8b59-8a95ddf9d70e).JPG",
-    "artist": "National Trails Office (<i>US National Park Service</i>)",
-    "license": "Public domain",
+    "title": "File:Fusagasugá 2026.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wilferpc&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wilferpc (page does not exist)\">Wilferpc</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_park_bench_and_waysides_with_a_view_at_Lake_Dardanelle_State_Park_in_Russellville%2C_Arkansas_%28cf773068-fe65-4a9c-8b59-8a95ddf9d70e%29.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Fusagasug%C3%A1_2026.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "FACT",
-    "station": "FACT",
-    "lat": -33.965,
-    "lon": 18.602,
+    "name": "K1CM",
+    "station": "K1CM",
+    "lat": 47.096,
+    "lon": -110.164,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 16.0,
-    "windSpeed": 3.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T06:31:00.000Z",
-    "observationTimestamp": "2026-09-22T06:31:00+00:00",
-    "raw": "SPECI FACT 220631Z VRB03KT CAVOK 25/16 Q1013 NOSIG"
-  },
-  "randomPlace": {
-    "name": "PAGY",
-    "station": "PAGY",
-    "lat": 59.457,
-    "lon": -135.322,
-    "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 7.2,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 13.9,
+    "dewpoint": 5.5,
+    "windSpeed": 6.0,
+    "windDirection": 130.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-22T05:53:00.000Z",
-    "observationTimestamp": "2026-09-22T05:53:00+00:00",
-    "raw": "METAR PAGY 220553Z AUTO 00000KT 10SM OVC050 10/07 A2974 RMK AO2 RAB17E26 SLP072 P0000 60000 T01000072 10133 20094 53015 TSNO $"
+    "observationTime": "2026-09-22T06:55:00.000Z",
+    "observationTimestamp": "2026-09-22T06:55:00+00:00",
+    "raw": "METAR K1CM 220655Z AUTO 13006KT 10SM CLR 14/06 A3000 RMK AO2 SLP133 T01390055 402430060 $"
+  },
+  "randomPlace": {
+    "name": "EGYE",
+    "station": "EGYE",
+    "lat": 52.962,
+    "lon": -0.562,
+    "weather": "BR VCFG",
+    "temperature": 16.0,
+    "dewpoint": 16.0,
+    "windSpeed": 2.0,
+    "windDirection": 230.0,
+    "visibility": "4.35",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-22T06:50:00.000Z",
+    "observationTimestamp": "2026-09-22T06:50:00+00:00",
+    "raw": "METAR EGYE 220650Z 23002KT 7000 BR VCFG SCT065 16/16 Q1029 RMK WHT"
   },
   "globalPulse": {
     "population": {
-      "value": 8212310013,
-      "display": "8,212,310,013",
+      "value": 8212311994,
+      "display": "8,212,311,994",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T06:44:00Z",
-      "speed": 310.0
+      "time": "2026-09-22T07:01:00Z",
+      "speed": 306.0
     },
     "magneticField": {
-      "time": "2026-09-22T06:44:00Z",
+      "time": "2026-09-22T07:01:00Z",
       "bt": 4.0,
       "bz": 3.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T06:44:00Z",
-      "forecastTime": "2026-09-22T08:09:00Z"
+      "observationTime": "2026-09-22T06:58:00Z",
+      "forecastTime": "2026-09-22T08:24:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
