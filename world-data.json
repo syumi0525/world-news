@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T13:42:40.495395+00:00",
+  "generatedAt": "2026-09-22T13:57:08.084548+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo 09.jpg",
+    "title": "File:Ndongo 11.jpg",
     "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_09.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_11.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYDF",
-    "station": "CYDF",
-    "lat": 49.212,
-    "lon": -57.394,
+    "name": "USPP",
+    "station": "USPP",
+    "lat": 57.914,
+    "lon": 56.021,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 7.0,
-    "windSpeed": 5.0,
-    "windDirection": 310.0,
-    "visibility": "15",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-22T13:00:00.000Z",
-    "observationTimestamp": "2026-09-22T13:00:00+00:00",
-    "raw": "METAR CYDF 221300Z 31005KT 250V030 15SM OVC028 10/07 A3009 RMK SC8 SLP192"
+    "temperature": 20.0,
+    "dewpoint": 13.0,
+    "windSpeed": 4.0,
+    "windDirection": 270.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T13:30:00.000Z",
+    "observationTimestamp": "2026-09-22T13:30:00+00:00",
+    "raw": "METAR USPP 221330Z 27002MPS 9999 SCT047 20/13 Q1024 R21/090070 NOSIG RMK R21/28001MPS QFE757/1009"
   },
   "randomPlace": {
-    "name": "KCFV",
-    "station": "KCFV",
-    "lat": 37.0912,
-    "lon": -95.5726,
+    "name": "KESN",
+    "station": "KESN",
+    "lat": 38.804,
+    "lon": -76.069,
     "weather": "No coded weather",
-    "temperature": 17.8,
-    "dewpoint": 17.2,
-    "windSpeed": 6.0,
-    "windDirection": 20.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-22T12:52:00.000Z",
-    "observationTimestamp": "2026-09-22T12:52:00+00:00",
-    "raw": "METAR KCFV 221252Z AUTO 02006KT 10SM CLR 18/17 A3014 RMK AO2 SLP202 T01780172"
+    "temperature": 16.0,
+    "dewpoint": 16.0,
+    "windSpeed": 13.0,
+    "windDirection": 60.0,
+    "visibility": "9",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-22T13:45:00.000Z",
+    "observationTimestamp": "2026-09-22T13:45:00+00:00",
+    "raw": "METAR KESN 221345Z 06013KT 9SM BKN008 BKN035 16/16 A3016"
   },
   "globalPulse": {
     "population": {
-      "value": 8208126073,
-      "display": "8,208,126,073",
+      "value": 8208127947,
+      "display": "8,208,127,947",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,8 +97,8 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-22T13:33:00Z",
-      "speed": 325.0
+      "time": "2026-09-22T13:34:00Z",
+      "speed": 316.0
     },
     "magneticField": {
       "time": "2026-09-22T13:34:00Z",
@@ -110,11 +110,11 @@
       "kp": 0.33
     },
     "aurora": {
-      "value": 11.0,
-      "display": "MAX 11.0%",
+      "value": 10.0,
+      "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-22T13:30:00Z",
-      "forecastTime": "2026-09-22T14:52:00Z"
+      "observationTime": "2026-09-22T13:34:00Z",
+      "forecastTime": "2026-09-22T15:07:00Z"
     },
     "flux10cm": {
       "time": "2026-09-21T20:00:00",
