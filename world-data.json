@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T03:31:07.400628+00:00",
+  "generatedAt": "2026-09-22T03:49:06.150722+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:3D Point Cloud Overview of Milton S. Eisenhower Library, Johns Hopkins University.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Matthewadams66&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Matthewadams66 (page does not exist)\">Matthewadams66</a>",
+    "title": "File:Alwin-Muncak.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Unaaa3003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Unaaa3003 (page does not exist)\">Unaaa3003</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:3D_Point_Cloud_Overview_of_Milton_S._Eisenhower_Library%2C_Johns_Hopkins_University.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alwin-Muncak.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDWU",
-    "station": "KDWU",
-    "lat": 38.556,
-    "lon": -82.7375,
+    "name": "LPLA",
+    "station": "LPLA",
+    "lat": 38.762,
+    "lon": -27.091,
     "weather": "No coded weather",
-    "temperature": 19.4,
-    "dewpoint": 18.3,
-    "windSpeed": 3.0,
+    "temperature": 22.0,
+    "dewpoint": 17.0,
+    "windSpeed": 2.0,
     "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-22T02:56:00.000Z",
-    "observationTimestamp": "2026-09-22T02:56:00+00:00",
-    "raw": "METAR KDWU 220256Z AUTO VRB03KT 10SM OVC008 19/18 A3005 RMK AO2 SLP174 T01940183 51024 $"
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-22T03:00:00.000Z",
+    "observationTimestamp": "2026-09-22T03:00:00+00:00",
+    "raw": "METAR LPLA 220300Z VRB02KT 9999 FEW025 SCT040 22/17 Q1026"
   },
   "randomPlace": {
-    "name": "CWHT",
-    "station": "CWHT",
-    "lat": 60.773,
-    "lon": -137.581,
+    "name": "CXMI",
+    "station": "CXMI",
+    "lat": 44.602,
+    "lon": -63.534,
     "weather": "No coded weather",
-    "temperature": 7.6,
-    "dewpoint": -0.3,
-    "windSpeed": 7.0,
-    "windDirection": 320.0,
+    "temperature": 12.5,
+    "dewpoint": 11.4,
+    "windSpeed": 8.0,
+    "windDirection": 340.0,
     "visibility": "N/A",
     "flightCategory": "null",
     "observationTime": "2026-09-22T03:00:00.000Z",
     "observationTimestamp": "2026-09-22T03:00:00+00:00",
-    "raw": "METAR CWHT 220300Z AUTO 32007KT 08/M00 RMK AO1 SLP040 T00761003 53008"
+    "raw": "METAR CXMI 220300Z AUTO 34008KT 13/11 RMK AO1 SLP206 T01250114 51019"
   },
   "globalPulse": {
     "population": {
-      "value": 8212285814,
-      "display": "8,212,285,814",
+      "value": 8212287987,
+      "display": "8,212,287,987",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,10 +83,10 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.7,
-      "display": "61.7%",
+      "value": 60.6,
+      "display": "60.6%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-21T12:00:00Z"
+      "time": "2026-09-22T00:00:00Z"
     },
     "geomagnetic": {
       "value": 2.0,
