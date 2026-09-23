@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:14:41.405182+00:00",
+  "generatedAt": "2026-09-23T22:28:50.792001+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AcapulcoJulio2024.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
+    "title": "File:Brule Lake from solomon hazy.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brule_Lake_from_solomon_hazy.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMWC",
-    "station": "KMWC",
-    "lat": 43.1095,
-    "lon": -88.0343,
+    "name": "KE42",
+    "station": "KE42",
+    "lat": 36.2193,
+    "lon": -101.194,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 12.0,
-    "windSpeed": 9.0,
-    "windDirection": 60.0,
+    "temperature": 23.7,
+    "dewpoint": 19.1,
+    "windSpeed": 12.0,
+    "windDirection": 120.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T21:55:00.000Z",
-    "observationTimestamp": "2026-09-23T21:55:00+00:00",
-    "raw": "METAR KMWC 232155Z AUTO 06009KT 10SM SCT043 17/12 A3041 RMK AO2"
+    "observationTime": "2026-09-23T22:15:00.000Z",
+    "observationTimestamp": "2026-09-23T22:15:00+00:00",
+    "raw": "METAR KE42 232215Z AUTO 12012KT 10SM CLR 24/19 A3017 RMK AO2 T02370191"
   },
   "randomPlace": {
-    "name": "KCFS",
-    "station": "KCFS",
-    "lat": 43.4624,
-    "lon": -83.4428,
-    "weather": "No coded weather",
-    "temperature": 19.0,
+    "name": "SAZY",
+    "station": "SAZY",
+    "lat": -40.075,
+    "lon": -71.137,
+    "weather": "-RA",
+    "temperature": 7.0,
     "dewpoint": 7.0,
-    "windSpeed": 10.0,
-    "windDirection": 70.0,
-    "visibility": "10+",
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "5.59",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T21:55:00.000Z",
-    "observationTimestamp": "2026-09-23T21:55:00+00:00",
-    "raw": "METAR KCFS 232155Z AUTO 07010G16KT 10SM CLR 19/07 A3042 RMK AO2"
+    "observationTime": "2026-09-23T22:00:00.000Z",
+    "observationTimestamp": "2026-09-23T22:00:00+00:00",
+    "raw": "METAR SAZY 232200Z 00000KT 9000 -RA FEW008 SCT020 OVC050 07/07 Q1003"
   },
   "globalPulse": {
     "population": {
-      "value": 8208380161,
-      "display": "8,208,380,161",
+      "value": 8208382009,
+      "display": "8,208,382,009",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T22:07:00Z",
-      "speed": 314.0
+      "time": "2026-09-23T22:20:00Z",
+      "speed": 306.0
     },
     "magneticField": {
-      "time": "2026-09-23T22:07:00Z",
+      "time": "2026-09-23T22:20:00Z",
       "bt": 13.0,
       "bz": 0.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 23.0,
-      "display": "MAX 23.0%",
+      "value": 24.0,
+      "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T22:04:00Z",
-      "forecastTime": "2026-09-23T23:31:00Z"
+      "observationTime": "2026-09-23T22:20:00Z",
+      "forecastTime": "2026-09-23T23:46:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
