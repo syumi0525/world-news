@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T16:48:52.632501+00:00",
+  "generatedAt": "2026-09-23T16:58:31.492410+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -23,45 +23,45 @@
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KEKM",
-    "station": "KEKM",
-    "lat": 41.7222,
-    "lon": -86.0,
+    "name": "KPSP",
+    "station": "KPSP",
+    "lat": 33.8222,
+    "lon": -116.5043,
     "weather": "No coded weather",
-    "temperature": 15.6,
-    "dewpoint": 11.9,
-    "windSpeed": 8.0,
-    "windDirection": 40.0,
+    "temperature": 33.3,
+    "dewpoint": 6.7,
+    "windSpeed": 3.0,
+    "windDirection": 240.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T16:35:00.000Z",
-    "observationTimestamp": "2026-09-23T16:35:00+00:00",
-    "raw": "METAR KEKM 231635Z AUTO 04008KT 10SM OVC017 16/12 A3034 RMK AO2 T01560119 $"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T16:53:00.000Z",
+    "observationTimestamp": "2026-09-23T16:53:00+00:00",
+    "raw": "METAR KPSP 231653Z 24003KT 10SM CLR 33/07 A2985 RMK AO2 SLP103 T03330067"
   },
   "randomPlace": {
-    "name": "KLXN",
-    "station": "KLXN",
-    "lat": 40.7915,
-    "lon": -99.775,
+    "name": "OEYN",
+    "station": "OEYN",
+    "lat": 24.144,
+    "lon": 38.063,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 14.5,
-    "windSpeed": 16.0,
-    "windDirection": 160.0,
-    "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-23T16:35:00.000Z",
-    "observationTimestamp": "2026-09-23T16:35:00+00:00",
-    "raw": "METAR KLXN 231635Z AUTO 16016G22KT 10SM OVC008 17/15 A3025 RMK AO2 T01700145"
+    "temperature": 34.0,
+    "dewpoint": 26.0,
+    "windSpeed": 10.0,
+    "windDirection": 250.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T16:00:00.000Z",
+    "observationTimestamp": "2026-09-23T16:00:00+00:00",
+    "raw": "METAR OEYN 231600Z 25010KT 9999 FEW030 34/26 Q1006 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208337761,
-      "display": "8,208,337,761",
+      "value": 8208339017,
+      "display": "8,208,339,017",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T16:40:00Z",
-      "speed": 285.0
+      "time": "2026-09-23T16:48:00Z",
+      "speed": 284.0
     },
     "magneticField": {
-      "time": "2026-09-23T16:40:00Z",
-      "bt": 7.0,
-      "bz": 6.0
+      "time": "2026-09-23T16:48:00Z",
+      "bt": 6.0,
+      "bz": 5.0
     },
     "kp": {
       "time": "2026-09-23T12:00:00",
@@ -113,8 +113,8 @@
       "value": 10.0,
       "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T16:40:00Z",
-      "forecastTime": "2026-09-23T18:12:00Z"
+      "observationTime": "2026-09-23T16:45:00Z",
+      "forecastTime": "2026-09-23T18:17:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
