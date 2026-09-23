@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T07:42:36.022393+00:00",
+  "generatedAt": "2026-09-23T07:56:56.746903+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brûlé Lake from Mount Solomon Lookout.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
+    "title": "File:AcapulcoJulio2024.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Br%C3%BBl%C3%A9_Lake_from_Mount_Solomon_Lookout.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RJDB",
-    "station": "RJDB",
-    "lat": 33.749,
-    "lon": 129.785,
+    "name": "KGLX",
+    "station": "KGLX",
+    "lat": 28.2347,
+    "lon": -88.9843,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 18.0,
+    "temperature": 28.0,
+    "dewpoint": 23.0,
     "windSpeed": 11.0,
-    "windDirection": 30.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T07:00:00.000Z",
-    "observationTimestamp": "2026-09-23T07:00:00+00:00",
-    "raw": "METAR RJDB 230700Z AUTO 03011KT 9999 NCD 25/18 Q1016"
-  },
-  "randomPlace": {
-    "name": "KMGM",
-    "station": "KMGM",
-    "lat": 32.2997,
-    "lon": -86.4074,
-    "weather": "No coded weather",
-    "temperature": 21.1,
-    "dewpoint": 20.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "windDirection": 40.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T06:53:00.000Z",
-    "observationTimestamp": "2026-09-23T06:53:00+00:00",
-    "raw": "METAR KMGM 230653Z AUTO 00000KT 10SM CLR 21/20 A3002 RMK AO2 SLP161 T02110200"
+    "observationTime": "2026-09-23T07:40:00.000Z",
+    "observationTimestamp": "2026-09-23T07:40:00+00:00",
+    "raw": "METAR KGLX 230740Z AUTO 04011KT 10SM FEW025 28/23 A2996 RMK A01"
+  },
+  "randomPlace": {
+    "name": "WIBB",
+    "station": "WIBB",
+    "lat": 0.461,
+    "lon": 101.445,
+    "weather": "No coded weather",
+    "temperature": 34.0,
+    "dewpoint": 24.0,
+    "windSpeed": 5.0,
+    "windDirection": 150.0,
+    "visibility": "5.59",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T07:30:00.000Z",
+    "observationTimestamp": "2026-09-23T07:30:00+00:00",
+    "raw": "METAR WIBB 230730Z 15005KT 9000 SCT013 34/24 Q1006 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208266629,
-      "display": "8,208,266,629",
+      "value": 8208268490,
+      "display": "8,208,268,490",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T07:36:00Z",
-      "speed": 292.0
+      "time": "2026-09-23T07:48:00Z",
+      "speed": 295.0
     },
     "magneticField": {
-      "time": "2026-09-23T07:33:00Z",
+      "time": "2026-09-23T07:48:00Z",
       "bt": 5.0,
       "bz": 3.0
     },
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T07:28:00Z",
-      "forecastTime": "2026-09-23T09:00:00Z"
+      "observationTime": "2026-09-23T07:46:00Z",
+      "forecastTime": "2026-09-23T09:15:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
