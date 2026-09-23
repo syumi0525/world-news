@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T11:15:48.640575+00:00",
+  "generatedAt": "2026-09-23T11:30:43.577562+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20190415 Yehliu geopark beach-2.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "title": "File:Nilüfer kanak köprüsü.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K6R3",
-    "station": "K6R3",
-    "lat": 30.358,
-    "lon": -95.007,
+    "name": "KDVT",
+    "station": "KDVT",
+    "lat": 33.6902,
+    "lon": -112.0662,
     "weather": "No coded weather",
-    "temperature": null,
-    "dewpoint": null,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "7",
+    "temperature": 27.2,
+    "dewpoint": 13.3,
+    "windSpeed": 4.0,
+    "windDirection": 100.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T10:55:00.000Z",
-    "observationTimestamp": "2026-09-23T10:55:00+00:00",
-    "raw": "METAR K6R3 231055Z AUTO 00000KT 7SM CLR A3001 RMK AO2"
+    "observationTime": "2026-09-23T10:53:00.000Z",
+    "observationTimestamp": "2026-09-23T10:53:00+00:00",
+    "raw": "METAR KDVT 231053Z 10004KT 10SM CLR 27/13 A2983 RMK AO2 SLP073 T02720133"
   },
   "randomPlace": {
-    "name": "GABS",
-    "station": "GABS",
-    "lat": 12.534,
-    "lon": -7.95,
+    "name": "LHPP",
+    "station": "LHPP",
+    "lat": 45.991,
+    "lon": 18.241,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 24.0,
-    "windSpeed": 7.0,
-    "windDirection": 200.0,
+    "temperature": 19.0,
+    "dewpoint": 6.0,
+    "windSpeed": 13.0,
+    "windDirection": 330.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T11:00:00.000Z",
-    "observationTimestamp": "2026-09-23T11:00:00+00:00",
-    "raw": "METAR GABS 231100Z 20007KT 150V250 9999 FEW014 29/24 Q1015 NOSIG"
+    "observationTime": "2026-09-23T10:45:00.000Z",
+    "observationTimestamp": "2026-09-23T10:45:00+00:00",
+    "raw": "METAR LHPP 231045Z AUTO 33013KT 300V010 CAVOK 19/06 Q1024"
   },
   "globalPulse": {
     "population": {
-      "value": 8208294407,
-      "display": "8,208,294,407",
+      "value": 8208296349,
+      "display": "8,208,296,349",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T11:08:00Z",
-      "speed": 286.0
+      "time": "2026-09-23T11:21:00Z",
+      "speed": 287.0
     },
     "magneticField": {
-      "time": "2026-09-23T11:08:00Z",
+      "time": "2026-09-23T11:21:00Z",
       "bt": 4.0,
-      "bz": 2.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-23T06:00:00",
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T11:03:00Z",
-      "forecastTime": "2026-09-23T12:36:00Z"
+      "observationTime": "2026-09-23T11:18:00Z",
+      "forecastTime": "2026-09-23T12:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
