@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T20:10:14.687420+00:00",
+  "generatedAt": "2026-09-23T20:26:42.114222+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Abandoned Boat on Tranquil Lakeshore.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Romijac67&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Romijac67 (page does not exist)\">Romijac67</a>",
+    "title": "File:Panneau-B0-ZTL Paris-Place-Hôtel-de-Ville 2026-05-15.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Britzz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Britzz (page does not exist)\">Britzz</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Abandoned_Boat_on_Tranquil_Lakeshore.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Panneau-B0-ZTL_Paris-Place-H%C3%B4tel-de-Ville_2026-05-15.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KELK",
-    "station": "KELK",
-    "lat": 35.4261,
-    "lon": -99.3926,
+    "name": "KUBE",
+    "station": "KUBE",
+    "lat": 45.5046,
+    "lon": -91.978,
     "weather": "No coded weather",
-    "temperature": 30.7,
-    "dewpoint": 16.5,
-    "windSpeed": 7.0,
-    "windDirection": 140.0,
-    "visibility": "9",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T19:55:00.000Z",
-    "observationTimestamp": "2026-09-23T19:55:00+00:00",
-    "raw": "METAR KELK 231955Z AUTO 14007KT 100V170 9SM FEW055 BKN130 31/16 A3012 RMK AO2 T03070165 $"
-  },
-  "randomPlace": {
-    "name": "KHCD",
-    "station": "KHCD",
-    "lat": 44.8597,
-    "lon": -94.3855,
-    "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 9.3,
-    "windSpeed": 13.0,
-    "windDirection": 140.0,
+    "temperature": 22.0,
+    "dewpoint": 8.0,
+    "windSpeed": 8.0,
+    "windDirection": 130.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T19:55:00.000Z",
-    "observationTimestamp": "2026-09-23T19:55:00+00:00",
-    "raw": "METAR KHCD 231955Z AUTO 14013KT 10SM CLR 20/09 A3035 RMK AO2 T02000093"
+    "observationTime": "2026-09-23T20:15:00.000Z",
+    "observationTimestamp": "2026-09-23T20:15:00+00:00",
+    "raw": "METAR KUBE 232015Z AUTO 13008KT 10SM CLR 22/08 A3040 RMK AO2"
+  },
+  "randomPlace": {
+    "name": "CXNM",
+    "station": "CXNM",
+    "lat": 46.818,
+    "lon": -60.673,
+    "weather": "No coded weather",
+    "temperature": 9.2,
+    "dewpoint": 5.7,
+    "windSpeed": 9.0,
+    "windDirection": 290.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-23T20:00:00.000Z",
+    "observationTimestamp": "2026-09-23T20:00:00+00:00",
+    "raw": "METAR CXNM 232000Z AUTO 29009KT 09/06 RMK AO1 PK WND 28017/1904 T00920057"
   },
   "globalPulse": {
     "population": {
-      "value": 8208363971,
-      "display": "8,208,363,971",
+      "value": 8208366115,
+      "display": "8,208,366,115",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T20:02:00Z",
-      "speed": 291.0
+      "time": "2026-09-23T20:16:00Z",
+      "speed": 294.0
     },
     "magneticField": {
-      "time": "2026-09-23T20:02:00Z",
-      "bt": 11.0,
-      "bz": 7.0
+      "time": "2026-09-23T20:16:00Z",
+      "bt": 12.0,
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-23T15:00:00",
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T19:59:00Z",
-      "forecastTime": "2026-09-23T21:30:00Z"
+      "observationTime": "2026-09-23T20:14:00Z",
+      "forecastTime": "2026-09-23T21:45:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
