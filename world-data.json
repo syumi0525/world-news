@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T16:32:37.769246+00:00",
+  "generatedAt": "2026-09-23T16:48:52.632501+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCSB",
-    "station": "KCSB",
-    "lat": 40.307,
-    "lon": -100.162,
+    "name": "KEKM",
+    "station": "KEKM",
+    "lat": 41.7222,
+    "lon": -86.0,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 15.0,
-    "windSpeed": 15.0,
-    "windDirection": 150.0,
+    "temperature": 15.6,
+    "dewpoint": 11.9,
+    "windSpeed": 8.0,
+    "windDirection": 40.0,
     "visibility": "10+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T16:15:00.000Z",
-    "observationTimestamp": "2026-09-23T16:15:00+00:00",
-    "raw": "METAR KCSB 231615Z AUTO 15015G22KT 10SM BKN017 20/15 A3022 RMK AO2"
+    "observationTime": "2026-09-23T16:35:00.000Z",
+    "observationTimestamp": "2026-09-23T16:35:00+00:00",
+    "raw": "METAR KEKM 231635Z AUTO 04008KT 10SM OVC017 16/12 A3034 RMK AO2 T01560119 $"
   },
   "randomPlace": {
-    "name": "MMSL",
-    "station": "MMSL",
-    "lat": 22.948,
-    "lon": -109.936,
+    "name": "KLXN",
+    "station": "KLXN",
+    "lat": 40.7915,
+    "lon": -99.775,
     "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 24.0,
-    "windSpeed": 9.0,
-    "windDirection": 320.0,
+    "temperature": 17.0,
+    "dewpoint": 14.5,
+    "windSpeed": 16.0,
+    "windDirection": 160.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T15:50:00.000Z",
-    "observationTimestamp": "2026-09-23T15:50:00+00:00",
-    "raw": "METAR MMSL 231550Z 32009KT 10SM FEW240 30/24 A2986 RMK 8/008 MDT CU N"
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-23T16:35:00.000Z",
+    "observationTimestamp": "2026-09-23T16:35:00+00:00",
+    "raw": "METAR KLXN 231635Z AUTO 16016G22KT 10SM OVC008 17/15 A3025 RMK AO2 T01700145"
   },
   "globalPulse": {
     "population": {
-      "value": 8208335646,
-      "display": "8,208,335,646",
+      "value": 8208337761,
+      "display": "8,208,337,761",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T16:23:00Z",
+      "time": "2026-09-23T16:40:00Z",
       "speed": 285.0
     },
     "magneticField": {
-      "time": "2026-09-23T16:23:00Z",
+      "time": "2026-09-23T16:40:00Z",
       "bt": 7.0,
       "bz": 6.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 11.0,
-      "display": "MAX 11.0%",
+      "value": 10.0,
+      "display": "MAX 10.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T16:18:00Z",
-      "forecastTime": "2026-09-23T17:52:00Z"
+      "observationTime": "2026-09-23T16:40:00Z",
+      "forecastTime": "2026-09-23T18:12:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
