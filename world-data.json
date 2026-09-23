@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:54:45.701826+00:00",
+  "generatedAt": "2026-09-23T23:07:42.867701+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:I will meet you at the depot A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Ndongo bridge road.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RJCC",
-    "station": "RJCC",
-    "lat": 42.774,
-    "lon": 141.693,
+    "name": "KSLN",
+    "station": "KSLN",
+    "lat": 38.78,
+    "lon": -97.6446,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 14.0,
-    "windSpeed": 7.0,
-    "windDirection": 170.0,
-    "visibility": "6+",
+    "temperature": 24.4,
+    "dewpoint": 15.6,
+    "windSpeed": 10.0,
+    "windDirection": 90.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T22:30:00.000Z",
-    "observationTimestamp": "2026-09-23T22:30:00+00:00",
-    "raw": "METAR RJCC 232230Z 17007KT 9999 FEW010 SCT015 BKN170 16/14 Q1013"
+    "observationTime": "2026-09-23T22:53:00.000Z",
+    "observationTimestamp": "2026-09-23T22:53:00+00:00",
+    "raw": "METAR KSLN 232253Z 09010KT 10SM CLR 24/16 A3021 RMK AO2 SLP220 T02440156"
   },
   "randomPlace": {
-    "name": "KLUA",
-    "station": "KLUA",
-    "lat": 38.667,
-    "lon": -78.501,
-    "weather": "SN",
-    "temperature": 12.0,
-    "dewpoint": 10.0,
-    "windSpeed": 5.0,
-    "windDirection": 20.0,
+    "name": "KPZZ",
+    "station": "KPZZ",
+    "lat": 28.4344,
+    "lon": -91.0344,
+    "weather": "No coded weather",
+    "temperature": 30.0,
+    "dewpoint": 23.0,
+    "windSpeed": 20.0,
+    "windDirection": 60.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T22:35:00.000Z",
-    "observationTimestamp": "2026-09-23T22:35:00+00:00",
-    "raw": "METAR KLUA 232235Z AUTO 02005KT 10SM SN OVC023 12/10 A3038 RMK AO2"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T22:50:00.000Z",
+    "observationTimestamp": "2026-09-23T22:50:00+00:00",
+    "raw": "METAR KPZZ 232250Z AUTO 06020KT 10SM CLR 30/23 A2998 RMK A01"
   },
   "globalPulse": {
     "population": {
-      "value": 8208385381,
-      "display": "8,208,385,381",
+      "value": 8208387070,
+      "display": "8,208,387,070",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T22:47:00Z",
-      "speed": 305.0
+      "time": "2026-09-23T22:57:00Z",
+      "speed": 306.0
     },
     "magneticField": {
-      "time": "2026-09-23T22:47:00Z",
+      "time": "2026-09-23T22:57:00Z",
       "bt": 12.0,
       "bz": 1.0
     },
@@ -113,8 +113,8 @@
       "value": 25.0,
       "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T22:45:00Z",
-      "forecastTime": "2026-09-24T00:10:00Z"
+      "observationTime": "2026-09-23T22:55:00Z",
+      "forecastTime": "2026-09-24T00:20:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
