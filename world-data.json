@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T02:31:40.798895+00:00",
+  "generatedAt": "2026-09-23T02:48:11.578369+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20140907 114910 Jpg (218976057).jpeg",
-    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolevanlimbeek\">Nicole Vanlimbeek</a></div>",
+    "title": "File:Cordillera del Aramo (13736818533).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20140907_114910_Jpg_%28218976057%29.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_del_Aramo_%2813736818533%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHSE",
-    "station": "KHSE",
-    "lat": 35.2324,
-    "lon": -75.6223,
+    "name": "KLOU",
+    "station": "KLOU",
+    "lat": 38.2302,
+    "lon": -85.6629,
     "weather": "No coded weather",
-    "temperature": 23.9,
-    "dewpoint": 22.8,
-    "windSpeed": 8.0,
-    "windDirection": 40.0,
+    "temperature": 17.8,
+    "dewpoint": 15.0,
+    "windSpeed": 6.0,
+    "windDirection": 30.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T01:51:00.000Z",
-    "observationTimestamp": "2026-09-23T01:51:00+00:00",
-    "raw": "METAR KHSE 230151Z AUTO 04008G20KT 10SM FEW012 24/23 A3000 RMK AO2 SLP159 T02390228"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-23T01:53:00.000Z",
+    "observationTimestamp": "2026-09-23T01:53:00+00:00",
+    "raw": "METAR KLOU 230153Z 03006KT 10SM OVC028 18/15 A3016 RMK AO2 SLP211 T01780150"
   },
   "randomPlace": {
-    "name": "CYMA",
-    "station": "CYMA",
-    "lat": 63.616,
-    "lon": -135.88,
-    "weather": "No coded weather",
-    "temperature": 8.0,
-    "dewpoint": 4.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "20",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T02:00:00.000Z",
-    "observationTimestamp": "2026-09-23T02:00:00+00:00",
-    "raw": "METAR CYMA 230200Z VRB02KT 20SM BKN080 08/04 A2969 RMK AC5 SLP080"
+    "name": "KBKF",
+    "station": "KBKF",
+    "lat": 39.713,
+    "lon": -104.758,
+    "weather": "TSRA",
+    "temperature": 14.6,
+    "dewpoint": 10.6,
+    "windSpeed": 27.0,
+    "windDirection": 160.0,
+    "visibility": "4",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-23T01:58:00.000Z",
+    "observationTimestamp": "2026-09-23T01:58:00+00:00",
+    "raw": "METAR KBKF 230158Z 16027KT 4SM TSRA SCT005 BKN025 BKN044 OVC100 15/11 A3017 RMK AO2A PK WND 15041/48 RAB19 PRESRR SLP168 P0015 T01460106"
   },
   "globalPulse": {
     "population": {
-      "value": 8208226166,
-      "display": "8,208,226,166",
+      "value": 8208228305,
+      "display": "8,208,228,305",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T02:22:00Z",
-      "speed": 283.0
+      "time": "2026-09-23T02:41:00Z",
+      "speed": 281.0
     },
     "magneticField": {
-      "time": "2026-09-23T02:22:00Z",
+      "time": "2026-09-23T02:41:00Z",
       "bt": 5.0,
       "bz": 1.0
     },
@@ -110,11 +110,11 @@
       "kp": 0.67
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T02:20:00Z",
-      "forecastTime": "2026-09-23T03:54:00Z"
+      "observationTime": "2026-09-23T02:38:00Z",
+      "forecastTime": "2026-09-23T04:14:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
