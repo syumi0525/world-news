@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T17:30:19.599687+00:00",
+  "generatedAt": "2026-09-23T17:43:26.751381+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 11.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:Nilüfer kanak köprüsü.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_11.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SLTR",
-    "station": "SLTR",
-    "lat": -14.819,
-    "lon": -64.918,
+    "name": "CYDA",
+    "station": "CYDA",
+    "lat": 64.044,
+    "lon": -139.127,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 11.0,
-    "windSpeed": 10.0,
-    "windDirection": 140.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
+    "temperature": 3.0,
+    "dewpoint": 2.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "15",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-23T17:00:00.000Z",
     "observationTimestamp": "2026-09-23T17:00:00+00:00",
-    "raw": "METAR SLTR 231700Z 14010KT 9999 BKN070 24/11 Q1015"
+    "raw": "METAR CYDA 231700Z 00000KT 15SM FEW010 OVC019 03/02 A2983 RMK ST1SC8 ST TR SLP122"
   },
   "randomPlace": {
-    "name": "KLBB",
-    "station": "KLBB",
-    "lat": 33.6658,
-    "lon": -101.8233,
+    "name": "KFOT",
+    "station": "KFOT",
+    "lat": 40.5529,
+    "lon": -124.1337,
     "weather": "No coded weather",
-    "temperature": 25.6,
-    "dewpoint": 18.9,
-    "windSpeed": 11.0,
-    "windDirection": 150.0,
+    "temperature": 14.0,
+    "dewpoint": 14.0,
+    "windSpeed": 6.0,
+    "windDirection": 290.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T16:53:00.000Z",
-    "observationTimestamp": "2026-09-23T16:53:00+00:00",
-    "raw": "METAR KLBB 231653Z 15011KT 10SM SCT023 SCT150 SCT250 26/19 A3021 RMK AO2 SLP182 T02560189"
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-23T17:30:00.000Z",
+    "observationTimestamp": "2026-09-23T17:30:00+00:00",
+    "raw": "METAR KFOT 231730Z AUTO 29006KT 10SM BKN008 OVC013 14/14 A3009 RMK AO1"
   },
   "globalPulse": {
     "population": {
-      "value": 8208343141,
-      "display": "8,208,343,141",
+      "value": 8208344862,
+      "display": "8,208,344,862",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T17:22:00Z",
-      "speed": 292.0
+      "time": "2026-09-23T17:35:00Z",
+      "speed": 290.0
     },
     "magneticField": {
-      "time": "2026-09-23T17:22:00Z",
-      "bt": 10.0,
-      "bz": 8.0
+      "time": "2026-09-23T17:35:00Z",
+      "bt": 9.0,
+      "bz": 6.0
     },
     "kp": {
       "time": "2026-09-23T12:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T17:20:00Z",
-      "forecastTime": "2026-09-23T18:52:00Z"
+      "observationTime": "2026-09-23T17:35:00Z",
+      "forecastTime": "2026-09-23T19:06:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
