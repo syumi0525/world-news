@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T19:15:57.377944+00:00",
+  "generatedAt": "2026-09-23T19:29:52.008187+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ballard locks fish ladder east entrance.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ursacascadia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ursacascadia (page does not exist)\">Ursacascadia</a>",
+    "title": "File:Active Wave At Popham Beach, Popham, Maine.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FlaggSwagg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FlaggSwagg (page does not exist)\">FlaggSwagg</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ballard_locks_fish_ladder_east_entrance.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Active_Wave_At_Popham_Beach%2C_Popham%2C_Maine.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ESNO",
-    "station": "ESNO",
-    "lat": 63.412,
-    "lon": 18.98,
+    "name": "GCLP",
+    "station": "GCLP",
+    "lat": 27.923,
+    "lon": -15.389,
     "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": 6.0,
-    "windSpeed": 3.0,
-    "windDirection": 360.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T18:50:00.000Z",
-    "observationTimestamp": "2026-09-23T18:50:00+00:00",
-    "raw": "METAR ESNO 231850Z AUTO 36003KT 9999 OVC140/// 07/06 Q1019"
-  },
-  "randomPlace": {
-    "name": "SAOS",
-    "station": "SAOS",
-    "lat": -32.3847,
-    "lon": -65.1865,
-    "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 4.0,
+    "temperature": 28.0,
+    "dewpoint": 20.0,
     "windSpeed": 10.0,
-    "windDirection": 270.0,
+    "windDirection": 10.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-23T19:00:00.000Z",
     "observationTimestamp": "2026-09-23T19:00:00+00:00",
-    "raw": "METAR SAOS 231900Z 27010KT CAVOK 25/04 Q1009"
+    "raw": "METAR GCLP 231900Z 01010KT CAVOK 28/20 Q1015 NOSIG"
+  },
+  "randomPlace": {
+    "name": "SLSA",
+    "station": "SLSA",
+    "lat": -13.762,
+    "lon": -65.435,
+    "weather": "No coded weather",
+    "temperature": 27.0,
+    "dewpoint": 15.0,
+    "windSpeed": 4.0,
+    "windDirection": 200.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T19:00:00.000Z",
+    "observationTimestamp": "2026-09-23T19:00:00+00:00",
+    "raw": "METAR SLSA 231900Z 20004KT 150V240 9999 FEW100 27/15 Q1010"
   },
   "globalPulse": {
     "population": {
-      "value": 8208356897,
-      "display": "8,208,356,897",
+      "value": 8208358708,
+      "display": "8,208,358,708",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T19:10:00Z",
-      "speed": 289.0
+      "time": "2026-09-23T19:20:00Z",
+      "speed": 290.0
     },
     "magneticField": {
-      "time": "2026-09-23T19:10:00Z",
-      "bt": 10.0,
+      "time": "2026-09-23T19:20:00Z",
+      "bt": 9.0,
       "bz": 8.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T19:05:00Z",
-      "forecastTime": "2026-09-23T20:36:00Z"
+      "observationTime": "2026-09-23T19:20:00Z",
+      "forecastTime": "2026-09-23T20:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
