@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T18:12:05.874929+00:00",
+  "generatedAt": "2026-09-23T18:34:17.749640+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ejemplares de Melocactus en el desierto de la Tatacoa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cathetovar\" title=\"User:Cathetovar\">Cathetovar</a>",
+    "title": "File:Chief Inspector Albert Macintosh - Flickr - trebble.chris.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/129172152@N02\">Chris Trebble</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ejemplares_de_Melocactus_en_el_desierto_de_la_Tatacoa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chief_Inspector_Albert_Macintosh_-_Flickr_-_trebble.chris.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KT74",
-    "station": "KT74",
-    "lat": 30.5704,
-    "lon": -97.4447,
+    "name": "MHPR",
+    "station": "MHPR",
+    "lat": 14.382,
+    "lon": -87.621,
     "weather": "No coded weather",
-    "temperature": 35.0,
+    "temperature": 29.0,
     "dewpoint": 21.0,
     "windSpeed": 8.0,
-    "windDirection": 80.0,
-    "visibility": "10+",
+    "windDirection": 180.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T17:55:00.000Z",
-    "observationTimestamp": "2026-09-23T17:55:00+00:00",
-    "raw": "METAR KT74 231755Z AUTO 08008KT 10SM SCT049 SCT065 BKN070 35/21 A3011 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "CYSF",
-    "station": "CYSF",
-    "lat": 59.252,
-    "lon": -105.837,
-    "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 10.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "9",
-    "flightCategory": "LIFR",
     "observationTime": "2026-09-23T18:00:00.000Z",
     "observationTimestamp": "2026-09-23T18:00:00+00:00",
-    "raw": "METAR CYSF 231800Z AUTO 00000KT 9SM OVC004 10/10 A3003 RMK SLP182"
+    "raw": "METAR MHPR 231800Z 18008KT 9999 SCT046 BKN080 29/21 Q1016 A3003 NOSIG"
+  },
+  "randomPlace": {
+    "name": "EKVD",
+    "station": "EKVD",
+    "lat": 55.436,
+    "lon": 9.329,
+    "weather": "No coded weather",
+    "temperature": 14.0,
+    "dewpoint": 12.0,
+    "windSpeed": 5.0,
+    "windDirection": 170.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-23T18:20:00.000Z",
+    "observationTimestamp": "2026-09-23T18:20:00+00:00",
+    "raw": "METAR EKVD 231820Z AUTO 17005KT //// ///////// 14/12 Q1017"
   },
   "globalPulse": {
     "population": {
-      "value": 8208348580,
-      "display": "8,208,348,580",
+      "value": 8208351476,
+      "display": "8,208,351,476",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T18:02:00Z",
+      "time": "2026-09-23T18:24:00Z",
       "speed": 288.0
     },
     "magneticField": {
-      "time": "2026-09-23T18:02:00Z",
-      "bt": 10.0,
-      "bz": 1.0
+      "time": "2026-09-23T18:24:00Z",
+      "bt": 8.0,
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-23T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 11.0,
-      "display": "MAX 11.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T18:00:00Z",
-      "forecastTime": "2026-09-23T19:31:00Z"
+      "observationTime": "2026-09-23T18:24:00Z",
+      "forecastTime": "2026-09-23T19:56:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
