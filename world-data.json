@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T23:42:11.084459+00:00",
+  "generatedAt": "2026-09-23T23:54:39.816827+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Felsenbirne (Amelanchier) berries.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Speakfluid&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Speakfluid (page does not exist)\">Speakfluid</a>",
+    "title": "File:Basilique de Fourvière à Lyon, vue d'en bas.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PerrineSCDUM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PerrineSCDUM (page does not exist)\">PerrineSCDUM</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Felsenbirne_%28Amelanchier%29_berries.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_%C3%A0_Lyon%2C_vue_d%27en_bas.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "FMNM",
-    "station": "FMNM",
-    "lat": -15.667,
-    "lon": 46.352,
+    "name": "KCCO",
+    "station": "KCCO",
+    "lat": 33.3107,
+    "lon": -84.7713,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 21.0,
-    "windSpeed": 1.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 24.5,
+    "dewpoint": 19.1,
+    "windSpeed": 6.0,
+    "windDirection": 80.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T23:00:00.000Z",
-    "observationTimestamp": "2026-09-23T23:00:00+00:00",
-    "raw": "METAR FMNM 232300Z VRB01KT 9999 FEW040 23/21 Q1016"
+    "observationTime": "2026-09-23T23:35:00.000Z",
+    "observationTimestamp": "2026-09-23T23:35:00+00:00",
+    "raw": "METAR KCCO 232335Z AUTO 08006KT 10SM SCT100 25/19 A3011 RMK AO2 T02450191"
   },
   "randomPlace": {
-    "name": "TQPF",
-    "station": "TQPF",
-    "lat": 18.205,
-    "lon": -63.055,
-    "weather": "VCSH",
-    "temperature": 26.0,
-    "dewpoint": 24.0,
-    "windSpeed": 5.0,
-    "windDirection": 90.0,
-    "visibility": "6+",
+    "name": "KDQH",
+    "station": "KDQH",
+    "lat": 31.4738,
+    "lon": -82.8609,
+    "weather": "No coded weather",
+    "temperature": 25.6,
+    "dewpoint": 20.1,
+    "windSpeed": 10.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T23:00:00.000Z",
-    "observationTimestamp": "2026-09-23T23:00:00+00:00",
-    "raw": "METAR TQPF 232300Z 09005KT 9999 VCSH SCT017TCU 26/24 Q1014 RMK TCU-W"
+    "observationTime": "2026-09-23T23:35:00.000Z",
+    "observationTimestamp": "2026-09-23T23:35:00+00:00",
+    "raw": "METAR KDQH 232335Z AUTO 03010KT 10SM CLR 26/20 A3007 RMK AO2 T02560201"
   },
   "globalPulse": {
     "population": {
-      "value": 8208391557,
-      "display": "8,208,391,557",
+      "value": 8208393181,
+      "display": "8,208,393,181",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T23:35:00Z",
+      "time": "2026-09-23T23:45:00Z",
       "speed": 304.0
     },
     "magneticField": {
-      "time": "2026-09-23T23:35:00Z",
+      "time": "2026-09-23T23:45:00Z",
       "bt": 11.0,
       "bz": 4.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 23.0,
-      "display": "MAX 23.0%",
+      "value": 22.0,
+      "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T23:30:00Z",
-      "forecastTime": "2026-09-24T00:57:00Z"
+      "observationTime": "2026-09-23T23:45:00Z",
+      "forecastTime": "2026-09-24T01:12:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
