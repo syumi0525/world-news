@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T01:24:05.620254+00:00",
+  "generatedAt": "2026-09-23T01:38:17.357464+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Acesso principal ao edifício JMM 02.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rqltst&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rqltst (page does not exist)\">Rqltst</a>",
-    "license": "CC0",
+    "title": "File:Belem - Consulate Office Building - 1972 - DPLA - ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg",
+    "artist": "Department of State. Office of the Undersecretary for Management. Bureau of Overseas Buildings Operations. (2001)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Acesso_principal_ao_edif%C3%ADcio_JMM_02.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Belem_-_Consulate_Office_Building_-_1972_-_DPLA_-_ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "UAIT",
-    "station": "UAIT",
-    "lat": 43.311,
-    "lon": 68.55,
+    "name": "CYLW",
+    "station": "CYLW",
+    "lat": 49.953,
+    "lon": -119.375,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 0.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 23.0,
+    "dewpoint": 3.0,
+    "windSpeed": 7.0,
+    "windDirection": 190.0,
+    "visibility": "9",
     "flightCategory": "VFR",
     "observationTime": "2026-09-23T01:00:00.000Z",
     "observationTimestamp": "2026-09-23T01:00:00+00:00",
-    "raw": "METAR UAIT 230100Z VRB01MPS CAVOK 20/M00 Q1015 NOSIG RMK QFE736/0982"
+    "raw": "METAR CYLW 230100Z AUTO 19007KT 9SM CLR 23/03 A2984 RMK SLP106 DENSITY ALT 2800FT"
   },
   "randomPlace": {
-    "name": "KM46",
-    "station": "KM46",
-    "lat": 45.8524,
-    "lon": -106.7061,
-    "weather": "HZ",
-    "temperature": 19.4,
-    "dewpoint": 9.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T01:15:00.000Z",
-    "observationTimestamp": "2026-09-23T01:15:00+00:00",
-    "raw": "METAR KM46 230115Z AUTO 00000KT 6SM HZ CLR 19/09 A2997 RMK AO2 T01940091"
+    "name": "CWIZ",
+    "station": "CWIZ",
+    "lat": 45.294,
+    "lon": -73.35,
+    "weather": "No coded weather",
+    "temperature": 9.1,
+    "dewpoint": 5.8,
+    "windSpeed": 2.0,
+    "windDirection": 30.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-23T01:00:00.000Z",
+    "observationTimestamp": "2026-09-23T01:00:00+00:00",
+    "raw": "METAR CWIZ 230100Z AUTO 03002KT 09/06 RMK AO1 T00910058"
   },
   "globalPulse": {
     "population": {
-      "value": 8208217365,
-      "display": "8,208,217,365",
+      "value": 8208219216,
+      "display": "8,208,219,216",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T01:14:00Z",
-      "speed": 291.0
+      "time": "2026-09-23T01:28:00Z",
+      "speed": 280.0
     },
     "magneticField": {
-      "time": "2026-09-23T01:14:00Z",
+      "time": "2026-09-23T01:28:00Z",
       "bt": 4.0,
-      "bz": 3.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-22T21:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T01:14:00Z",
-      "forecastTime": "2026-09-23T02:47:00Z"
+      "observationTime": "2026-09-23T01:28:00Z",
+      "forecastTime": "2026-09-23T03:02:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
