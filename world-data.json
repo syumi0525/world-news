@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T14:50:20.982848+00:00",
+  "generatedAt": "2026-09-23T15:00:41.185512+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 13.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
-    "license": "CC0",
+    "title": "File:Bishopsteignton in 2006.jpg",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_13.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ZBYN",
-    "station": "ZBYN",
-    "lat": 37.747,
-    "lon": 112.628,
+    "name": "ESGT",
+    "station": "ESGT",
+    "lat": 58.314,
+    "lon": 12.347,
     "weather": "No coded weather",
-    "temperature": 22.0,
+    "temperature": 17.0,
     "dewpoint": 14.0,
-    "windSpeed": 8.0,
-    "windDirection": 80.0,
+    "windSpeed": 7.0,
+    "windDirection": 210.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T14:30:00.000Z",
-    "observationTimestamp": "2026-09-23T14:30:00+00:00",
-    "raw": "METAR ZBYN 231430Z 08004MPS CAVOK 22/14 Q1019 NOSIG"
+    "observationTime": "2026-09-23T14:50:00.000Z",
+    "observationTimestamp": "2026-09-23T14:50:00+00:00",
+    "raw": "METAR ESGT 231450Z 21007KT 9999 FEW018 SCT027 OVC051 17/14 Q1018"
   },
   "randomPlace": {
-    "name": "RJSM",
-    "station": "RJSM",
-    "lat": 40.705,
-    "lon": 141.372,
+    "name": "NGTA",
+    "station": "NGTA",
+    "lat": 1.381,
+    "lon": 173.147,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 15.0,
-    "windSpeed": 1.0,
-    "windDirection": 0.0,
+    "temperature": 28.0,
+    "dewpoint": 26.0,
+    "windSpeed": 3.0,
+    "windDirection": 270.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-23T14:00:00.000Z",
     "observationTimestamp": "2026-09-23T14:00:00+00:00",
-    "raw": "METAR RJSM 231400Z VRB01KT 9999 FEW030 15/15 Q1016"
+    "raw": "METAR NGTA 231400Z 27003KT 9999 FEW020 BKN100 28/26 Q1011"
   },
   "globalPulse": {
     "population": {
-      "value": 8208322311,
-      "display": "8,208,322,311",
+      "value": 8208323654,
+      "display": "8,208,323,654",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T14:42:00Z",
-      "speed": 288.0
+      "time": "2026-09-23T14:52:00Z",
+      "speed": 286.0
     },
     "magneticField": {
-      "time": "2026-09-23T14:42:00Z",
+      "time": "2026-09-23T14:52:00Z",
       "bt": 7.0,
       "bz": 5.0
     },
@@ -110,11 +110,11 @@
       "kp": 1.0
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T14:40:00Z",
-      "forecastTime": "2026-09-23T16:12:00Z"
+      "observationTime": "2026-09-23T14:50:00Z",
+      "forecastTime": "2026-09-23T16:22:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
