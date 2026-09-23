@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T10:16:00.633683+00:00",
+  "generatedAt": "2026-09-23T10:31:20.275236+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:AL LADO DE LA BIBLIO.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:CristhianLV07&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:CristhianLV07 (page does not exist)\">CristhianLV07</a>",
+    "title": "File:Ndongo bridge road.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:AL_LADO_DE_LA_BIBLIO.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VTPH",
-    "station": "VTPH",
-    "lat": 12.633,
-    "lon": 99.951,
+    "name": "CYFB",
+    "station": "CYFB",
+    "lat": 63.75,
+    "lon": -68.544,
     "weather": "-RA",
-    "temperature": 28.0,
-    "dewpoint": 26.0,
-    "windSpeed": 4.0,
-    "windDirection": 270.0,
-    "visibility": "6+",
+    "temperature": 5.0,
+    "dewpoint": 4.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "20",
     "flightCategory": "MVFR",
     "observationTime": "2026-09-23T10:00:00.000Z",
     "observationTimestamp": "2026-09-23T10:00:00+00:00",
-    "raw": "METAR VTPH 231000Z 27004KT 220V330 9999 -RA BKN030 28/26 Q1007 NOSIG"
+    "raw": "METAR CYFB 231000Z 00000KT 20SM -RA BKN022 OVC082 05/04 A2967 RMK SC5AC3 SLP051"
   },
   "randomPlace": {
-    "name": "LRSV",
-    "station": "LRSV",
-    "lat": 47.686,
-    "lon": 26.354,
+    "name": "EGFF",
+    "station": "EGFF",
+    "lat": 51.397,
+    "lon": -3.343,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 7.0,
+    "temperature": 18.0,
+    "dewpoint": 15.0,
     "windSpeed": 11.0,
     "windDirection": 300.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T10:00:00.000Z",
-    "observationTimestamp": "2026-09-23T10:00:00+00:00",
-    "raw": "METAR LRSV 231000Z 30011KT 270V330 9999 FEW023TCU BKN040 13/07 Q1018"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-23T10:20:00.000Z",
+    "observationTimestamp": "2026-09-23T10:20:00+00:00",
+    "raw": "METAR EGFF 231020Z AUTO 30011KT 9999 BKN016 BKN037 18/15 Q1025"
   },
   "globalPulse": {
     "population": {
-      "value": 8208286617,
-      "display": "8,208,286,617",
+      "value": 8208288619,
+      "display": "8,208,288,619",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T10:08:00Z",
-      "speed": 288.0
+      "time": "2026-09-23T10:23:00Z",
+      "speed": 286.0
     },
     "magneticField": {
-      "time": "2026-09-23T10:08:00Z",
+      "time": "2026-09-23T10:23:00Z",
       "bt": 6.0,
-      "bz": 1.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-23T06:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T10:03:00Z",
-      "forecastTime": "2026-09-23T11:36:00Z"
+      "observationTime": "2026-09-23T10:18:00Z",
+      "forecastTime": "2026-09-23T11:51:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
