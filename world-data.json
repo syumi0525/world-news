@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T08:59:43.297529+00:00",
+  "generatedAt": "2026-09-23T09:17:50.911992+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:\"Unconquered\" marker at the Oklahoma History Center in Oklahoma City, Oklahoma (ad557c9d-d395-4f2e-a928-aeb306f8bfe3).JPG",
-    "artist": "National Trails Office (<i>US National Park Service</i>)",
-    "license": "Public domain",
+    "title": "File:Comapedrosa with snow.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:FrameOverdose\" title=\"User:FrameOverdose\">FrameOverdose</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:%22Unconquered%22_marker_at_the_Oklahoma_History_Center_in_Oklahoma_City%2C_Oklahoma_%28ad557c9d-d395-4f2e-a928-aeb306f8bfe3%29.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Comapedrosa_with_snow.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KEGE",
-    "station": "KEGE",
-    "lat": 39.6448,
-    "lon": -106.9176,
+    "name": "KAUO",
+    "station": "KAUO",
+    "lat": 32.617,
+    "lon": -85.4342,
     "weather": "No coded weather",
-    "temperature": 11.1,
-    "dewpoint": 7.8,
-    "windSpeed": 5.0,
-    "windDirection": 110.0,
-    "visibility": "10+",
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "7",
     "flightCategory": "VFR",
     "observationTime": "2026-09-23T08:56:00.000Z",
     "observationTimestamp": "2026-09-23T08:56:00+00:00",
-    "raw": "METAR KEGE 230856Z AUTO 11005KT 10SM FEW090 11/08 A3025 RMK AO2 SLP167 T01110078 51005"
+    "raw": "METAR KAUO 230856Z AUTO 00000KT 7SM CLR A3006 RMK AO2 SLPNO 52007 FZRANO $"
   },
   "randomPlace": {
-    "name": "KIRK",
-    "station": "KIRK",
-    "lat": 40.0966,
-    "lon": -92.5469,
+    "name": "HUEN",
+    "station": "HUEN",
+    "lat": 0.036,
+    "lon": 32.437,
     "weather": "No coded weather",
-    "temperature": 13.3,
-    "dewpoint": 10.0,
-    "windSpeed": 5.0,
-    "windDirection": 50.0,
-    "visibility": "10+",
+    "temperature": 24.0,
+    "dewpoint": 20.0,
+    "windSpeed": 8.0,
+    "windDirection": 190.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T08:55:00.000Z",
-    "observationTimestamp": "2026-09-23T08:55:00+00:00",
-    "raw": "METAR KIRK 230855Z AUTO 05005KT 10SM 13/10 A3030 RMK AO2 SLP263 T01330100 55000"
+    "observationTime": "2026-09-23T09:00:00.000Z",
+    "observationTimestamp": "2026-09-23T09:00:00+00:00",
+    "raw": "METAR HUEN 230900Z 19008KT 9999 SCT022 FEW024CB 24/20 Q1021"
   },
   "globalPulse": {
     "population": {
-      "value": 8208276671,
-      "display": "8,208,276,671",
+      "value": 8208279029,
+      "display": "8,208,279,029",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 0.3,
       "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-23T03:00:00"
+      "time": "2026-09-23T06:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T08:52:00Z",
-      "speed": 294.0
+      "time": "2026-09-23T09:09:00Z",
+      "speed": 295.0
     },
     "magneticField": {
-      "time": "2026-09-23T08:52:00Z",
-      "bt": 5.0,
+      "time": "2026-09-23T09:09:00Z",
+      "bt": 4.0,
       "bz": 4.0
     },
     "kp": {
-      "time": "2026-09-23T03:00:00",
+      "time": "2026-09-23T06:00:00",
       "kp": 0.33
     },
     "aurora": {
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T08:50:00Z",
-      "forecastTime": "2026-09-23T10:20:00Z"
+      "observationTime": "2026-09-23T09:04:00Z",
+      "forecastTime": "2026-09-23T10:35:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
