@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T18:59:46.470190+00:00",
+  "generatedAt": "2026-09-23T19:15:57.377944+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Doubtful Sound - Patea - DoubtfulSound9081.jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/199350666@N08\">lumoplank</a>",
+    "title": "File:Ballard locks fish ladder east entrance.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ursacascadia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ursacascadia (page does not exist)\">Ursacascadia</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Doubtful_Sound_-_Patea_-_DoubtfulSound9081.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ballard_locks_fish_ladder_east_entrance.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRVL",
-    "station": "KRVL",
-    "lat": 40.6768,
-    "lon": -77.6251,
+    "name": "ESNO",
+    "station": "ESNO",
+    "lat": 63.412,
+    "lon": 18.98,
     "weather": "No coded weather",
-    "temperature": 19.0,
+    "temperature": 7.0,
     "dewpoint": 6.0,
-    "windSpeed": 6.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "windSpeed": 3.0,
+    "windDirection": 360.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T18:55:00.000Z",
-    "observationTimestamp": "2026-09-23T18:55:00+00:00",
-    "raw": "METAR KRVL 231855Z AUTO VRB06KT 10SM CLR 19/06 A3040 RMK AO2"
+    "observationTime": "2026-09-23T18:50:00.000Z",
+    "observationTimestamp": "2026-09-23T18:50:00+00:00",
+    "raw": "METAR ESNO 231850Z AUTO 36003KT 9999 OVC140/// 07/06 Q1019"
   },
   "randomPlace": {
-    "name": "CYYN",
-    "station": "CYYN",
-    "lat": 50.292,
-    "lon": -107.691,
+    "name": "SAOS",
+    "station": "SAOS",
+    "lat": -32.3847,
+    "lon": -65.1865,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 13.0,
-    "windSpeed": 8.0,
-    "windDirection": 190.0,
-    "visibility": "9",
+    "temperature": 25.0,
+    "dewpoint": 4.0,
+    "windSpeed": 10.0,
+    "windDirection": 270.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T18:00:00.000Z",
-    "observationTimestamp": "2026-09-23T18:00:00+00:00",
-    "raw": "METAR CYYN 231800Z AUTO 19008KT 180V250 9SM CLR 24/13 A2994 RMK SLP133 DENSITY ALT 4300FT"
+    "observationTime": "2026-09-23T19:00:00.000Z",
+    "observationTimestamp": "2026-09-23T19:00:00+00:00",
+    "raw": "METAR SAOS 231900Z 27010KT CAVOK 25/04 Q1009"
   },
   "globalPulse": {
     "population": {
-      "value": 8208354797,
-      "display": "8,208,354,797",
+      "value": 8208356897,
+      "display": "8,208,356,897",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T18:52:00Z",
-      "speed": 286.0
+      "time": "2026-09-23T19:10:00Z",
+      "speed": 289.0
     },
     "magneticField": {
-      "time": "2026-09-23T18:52:00Z",
+      "time": "2026-09-23T19:10:00Z",
       "bt": 10.0,
       "bz": 8.0
     },
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T18:50:00Z",
-      "forecastTime": "2026-09-23T20:21:00Z"
+      "observationTime": "2026-09-23T19:05:00Z",
+      "forecastTime": "2026-09-23T20:36:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
