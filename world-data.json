@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T09:48:46.684623+00:00",
+  "generatedAt": "2026-09-23T09:58:32.409529+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 17.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:20190415 Yehliu geopark beach-2.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_17.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VERU",
-    "station": "VERU",
-    "lat": 26.14,
-    "lon": 89.91,
-    "weather": "BR",
-    "temperature": 28.0,
-    "dewpoint": 25.0,
+    "name": "DXNG",
+    "station": "DXNG",
+    "lat": 9.767,
+    "lon": 1.091,
+    "weather": "No coded weather",
+    "temperature": 26.0,
+    "dewpoint": 22.0,
     "windSpeed": 2.0,
-    "windDirection": 50.0,
-    "visibility": "3.11",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T09:30:00.000Z",
-    "observationTimestamp": "2026-09-23T09:30:00+00:00",
-    "raw": "METAR VERU 230930Z 05002KT 5000 BR FEW010 SCT020 BKN100 28/25 Q1007 NOSIG"
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-23T09:00:00.000Z",
+    "observationTimestamp": "2026-09-23T09:00:00+00:00",
+    "raw": "METAR DXNG 230900Z VRB02KT 9999 BKN005 26/22 Q1018"
   },
   "randomPlace": {
-    "name": "KPEO",
-    "station": "KPEO",
-    "lat": 42.6441,
-    "lon": -77.0528,
+    "name": "KOVE",
+    "station": "KOVE",
+    "lat": 39.4943,
+    "lon": -121.6225,
     "weather": "No coded weather",
-    "temperature": 5.0,
-    "dewpoint": 5.0,
+    "temperature": 17.2,
+    "dewpoint": 12.2,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T08:53:00.000Z",
-    "observationTimestamp": "2026-09-23T08:53:00+00:00",
-    "raw": "METAR KPEO 230853Z AUTO 00000KT 10SM CLR 05/05 A3047 RMK AO2 SLP321 T00500050 53009"
+    "observationTime": "2026-09-23T09:53:00.000Z",
+    "observationTimestamp": "2026-09-23T09:53:00+00:00",
+    "raw": "METAR KOVE 230953Z AUTO 00000KT 10SM CLR 17/12 A2992 RMK AO2 SLP132 T01720122"
   },
   "globalPulse": {
     "population": {
-      "value": 8208283072,
-      "display": "8,208,283,072",
+      "value": 8208284346,
+      "display": "8,208,284,346",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T09:41:00Z",
-      "speed": 293.0
+      "time": "2026-09-23T09:49:00Z",
+      "speed": 288.0
     },
     "magneticField": {
-      "time": "2026-09-23T09:41:00Z",
+      "time": "2026-09-23T09:49:00Z",
       "bt": 5.0,
-      "bz": 2.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-23T06:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T09:39:00Z",
-      "forecastTime": "2026-09-23T11:10:00Z"
+      "observationTime": "2026-09-23T09:43:00Z",
+      "forecastTime": "2026-09-23T11:15:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
