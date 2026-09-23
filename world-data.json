@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T06:12:52.495378+00:00",
+  "generatedAt": "2026-09-23T06:37:16.289529+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Alwin-Muncak.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Unaaa3003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Unaaa3003 (page does not exist)\">Unaaa3003</a>",
-    "license": "CC0",
+    "title": "File:1906-05-23 Blessed be the Tie A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Alwin-Muncak.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1906-05-23_Blessed_be_the_Tie_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1S3",
-    "station": "K1S3",
-    "lat": 46.2695,
-    "lon": -106.6196,
+    "name": "KSGT",
+    "station": "KSGT",
+    "lat": 34.5998,
+    "lon": -91.5763,
     "weather": "No coded weather",
-    "temperature": 15.7,
-    "dewpoint": 14.6,
-    "windSpeed": 7.0,
-    "windDirection": 80.0,
+    "temperature": 21.1,
+    "dewpoint": 18.9,
+    "windSpeed": 9.0,
+    "windDirection": 50.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T05:55:00.000Z",
-    "observationTimestamp": "2026-09-23T05:55:00+00:00",
-    "raw": "METAR K1S3 230555Z AUTO 08007KT 10SM BKN140 16/15 A2992 RMK AO2 T01570146 10249 20151 50001"
+    "observationTime": "2026-09-23T05:56:00.000Z",
+    "observationTimestamp": "2026-09-23T05:56:00+00:00",
+    "raw": "METAR KSGT 230556Z AUTO 05009KT 10SM CLR 21/19 A3013 RMK AO2 SLP200 T02110189 10272 20211 403330211 51013 $"
   },
   "randomPlace": {
-    "name": "KENL",
-    "station": "KENL",
-    "lat": 38.5095,
-    "lon": -89.09,
+    "name": "KAJZ",
+    "station": "KAJZ",
+    "lat": 38.7869,
+    "lon": -108.0658,
     "weather": "No coded weather",
-    "temperature": 14.7,
-    "dewpoint": 14.0,
-    "windSpeed": 3.0,
-    "windDirection": 10.0,
+    "temperature": 16.9,
+    "dewpoint": 9.0,
+    "windSpeed": 4.0,
+    "windDirection": 70.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T05:55:00.000Z",
-    "observationTimestamp": "2026-09-23T05:55:00+00:00",
-    "raw": "METAR KENL 230555Z AUTO 01003KT 10SM OVC038 15/14 A3022 RMK AO2 T01470140 10197 20137 402260137"
+    "observationTime": "2026-09-23T06:15:00.000Z",
+    "observationTimestamp": "2026-09-23T06:15:00+00:00",
+    "raw": "METAR KAJZ 230615Z AUTO 07004KT 10SM BKN100 BKN120 17/09 A3015 RMK AO2 T01690090 PWINO"
   },
   "globalPulse": {
     "population": {
-      "value": 8208254947,
-      "display": "8,208,254,947",
+      "value": 8208258131,
+      "display": "8,208,258,131",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T06:06:00Z",
-      "speed": 283.0
+      "time": "2026-09-23T06:30:00Z",
+      "speed": 287.0
     },
     "magneticField": {
-      "time": "2026-09-23T06:06:00Z",
+      "time": "2026-09-23T06:30:00Z",
       "bt": 5.0,
       "bz": 4.0
     },
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T06:06:00Z",
-      "forecastTime": "2026-09-23T07:38:00Z"
+      "observationTime": "2026-09-23T06:25:00Z",
+      "forecastTime": "2026-09-23T07:57:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
