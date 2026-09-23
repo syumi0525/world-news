@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T23:30:09.161059+00:00",
+  "generatedAt": "2026-09-23T23:42:11.084459+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 18.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:Felsenbirne (Amelanchier) berries.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Speakfluid&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Speakfluid (page does not exist)\">Speakfluid</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_18.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Felsenbirne_%28Amelanchier%29_berries.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EKVD",
-    "station": "EKVD",
-    "lat": 55.436,
-    "lon": 9.329,
+    "name": "FMNM",
+    "station": "FMNM",
+    "lat": -15.667,
+    "lon": 46.352,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 12.0,
-    "windSpeed": 11.0,
-    "windDirection": 280.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-23T23:20:00.000Z",
-    "observationTimestamp": "2026-09-23T23:20:00+00:00",
-    "raw": "METAR EKVD 232320Z AUTO 28011KT 250V320 //// ///////// 13/12 Q1013"
+    "temperature": 23.0,
+    "dewpoint": 21.0,
+    "windSpeed": 1.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T23:00:00.000Z",
+    "observationTimestamp": "2026-09-23T23:00:00+00:00",
+    "raw": "METAR FMNM 232300Z VRB01KT 9999 FEW040 23/21 Q1016"
   },
   "randomPlace": {
-    "name": "KBDG",
-    "station": "KBDG",
-    "lat": 37.587,
-    "lon": -109.481,
-    "weather": "No coded weather",
-    "temperature": 21.1,
-    "dewpoint": 7.3,
-    "windSpeed": 16.0,
-    "windDirection": 350.0,
-    "visibility": "10+",
+    "name": "TQPF",
+    "station": "TQPF",
+    "lat": 18.205,
+    "lon": -63.055,
+    "weather": "VCSH",
+    "temperature": 26.0,
+    "dewpoint": 24.0,
+    "windSpeed": 5.0,
+    "windDirection": 90.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T23:15:00.000Z",
-    "observationTimestamp": "2026-09-23T23:15:00+00:00",
-    "raw": "METAR KBDG 232315Z AUTO 35016KT 10SM SCT140 21/07 A3020 RMK AO2 T02110073"
+    "observationTime": "2026-09-23T23:00:00.000Z",
+    "observationTimestamp": "2026-09-23T23:00:00+00:00",
+    "raw": "METAR TQPF 232300Z 09005KT 9999 VCSH SCT017TCU 26/24 Q1014 RMK TCU-W"
   },
   "globalPulse": {
     "population": {
-      "value": 8208389980,
-      "display": "8,208,389,980",
+      "value": 8208391557,
+      "display": "8,208,391,557",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T23:22:00Z",
-      "speed": 302.0
+      "time": "2026-09-23T23:35:00Z",
+      "speed": 304.0
     },
     "magneticField": {
-      "time": "2026-09-23T23:20:00Z",
-      "bt": 9.0,
-      "bz": 2.0
+      "time": "2026-09-23T23:35:00Z",
+      "bt": 11.0,
+      "bz": 4.0
     },
     "kp": {
       "time": "2026-09-23T18:00:00",
@@ -113,8 +113,8 @@
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T23:20:00Z",
-      "forecastTime": "2026-09-24T00:46:00Z"
+      "observationTime": "2026-09-23T23:30:00Z",
+      "forecastTime": "2026-09-24T00:57:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
