@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T13:11:19.021178+00:00",
+  "generatedAt": "2026-09-23T13:32:01.991032+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20190415 Yehliu geopark beach-1.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "title": "File:Active Wave At Popham Beach, Popham, Maine.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FlaggSwagg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FlaggSwagg (page does not exist)\">FlaggSwagg</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Active_Wave_At_Popham_Beach%2C_Popham%2C_Maine.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ZUCK",
-    "station": "ZUCK",
-    "lat": 29.718,
-    "lon": 106.639,
+    "name": "PHLI",
+    "station": "PHLI",
+    "lat": 21.9805,
+    "lon": -159.3386,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 22.0,
-    "windSpeed": 10.0,
-    "windDirection": 20.0,
-    "visibility": "6+",
+    "temperature": 26.1,
+    "dewpoint": 23.3,
+    "windSpeed": 11.0,
+    "windDirection": 50.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T12:00:00.000Z",
-    "observationTimestamp": "2026-09-23T12:00:00+00:00",
-    "raw": "METAR ZUCK 231200Z 02005MPS 9999 BKN033 24/22 Q1013 NOSIG"
+    "observationTime": "2026-09-23T12:53:00.000Z",
+    "observationTimestamp": "2026-09-23T12:53:00+00:00",
+    "raw": "METAR PHLI 231253Z AUTO 05011KT 10SM FEW016 26/23 A2996 RMK AO2 RAB20E29 SLP141 P0000 T02610233 $"
   },
   "randomPlace": {
-    "name": "KSNH",
-    "station": "KSNH",
-    "lat": 35.1731,
-    "lon": -88.2146,
+    "name": "CTNK",
+    "station": "CTNK",
+    "lat": 45.533,
+    "lon": -78.266,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 16.0,
-    "windSpeed": 5.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-23T12:35:00.000Z",
-    "observationTimestamp": "2026-09-23T12:35:00+00:00",
-    "raw": "METAR KSNH 231235Z AUTO 03005G10KT 10SM OVC009 18/16 A3015 RMK A01"
+    "temperature": 3.7,
+    "dewpoint": 1.5,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-23T13:00:00.000Z",
+    "observationTimestamp": "2026-09-23T13:00:00+00:00",
+    "raw": "METAR CTNK 231300Z AUTO 00000KT 04/02 RMK AO1 SLP378 T00370015 51011"
   },
   "globalPulse": {
     "population": {
-      "value": 8208309417,
-      "display": "8,208,309,417",
+      "value": 8208312115,
+      "display": "8,208,312,115",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T13:00:00Z",
-      "speed": 281.0
+      "time": "2026-09-23T13:23:00Z",
+      "speed": 280.0
     },
     "magneticField": {
-      "time": "2026-09-23T13:00:00Z",
+      "time": "2026-09-23T13:23:00Z",
       "bt": 6.0,
       "bz": 3.0
     },
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T12:58:00Z",
-      "forecastTime": "2026-09-23T14:33:00Z"
+      "observationTime": "2026-09-23T13:18:00Z",
+      "forecastTime": "2026-09-23T14:54:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
