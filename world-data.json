@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T10:31:20.275236+00:00",
+  "generatedAt": "2026-09-23T10:48:50.822559+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYFB",
-    "station": "CYFB",
-    "lat": 63.75,
-    "lon": -68.544,
-    "weather": "-RA",
-    "temperature": 5.0,
-    "dewpoint": 4.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "20",
-    "flightCategory": "MVFR",
+    "name": "SKTM",
+    "station": "SKTM",
+    "lat": 6.451,
+    "lon": -71.76,
+    "weather": "No coded weather",
+    "temperature": 26.0,
+    "dewpoint": 22.0,
+    "windSpeed": 3.0,
+    "windDirection": 340.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-23T10:00:00.000Z",
     "observationTimestamp": "2026-09-23T10:00:00+00:00",
-    "raw": "METAR CYFB 231000Z 00000KT 20SM -RA BKN022 OVC082 05/04 A2967 RMK SC5AC3 SLP051"
+    "raw": "METAR SKTM 231000Z AUTO 34003KT CAVOK 26/22 Q1012"
   },
   "randomPlace": {
-    "name": "EGFF",
-    "station": "EGFF",
-    "lat": 51.397,
-    "lon": -3.343,
-    "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 15.0,
-    "windSpeed": 11.0,
+    "name": "VOMM",
+    "station": "VOMM",
+    "lat": 12.994,
+    "lon": 80.18,
+    "weather": "HZ",
+    "temperature": 33.0,
+    "dewpoint": 26.0,
+    "windSpeed": 10.0,
     "windDirection": 300.0,
-    "visibility": "6+",
+    "visibility": "3.11",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T10:20:00.000Z",
-    "observationTimestamp": "2026-09-23T10:20:00+00:00",
-    "raw": "METAR EGFF 231020Z AUTO 30011KT 9999 BKN016 BKN037 18/15 Q1025"
+    "observationTime": "2026-09-23T10:30:00.000Z",
+    "observationTimestamp": "2026-09-23T10:30:00+00:00",
+    "raw": "METAR VOMM 231030Z 30010KT 5000 HZ SCT020 BKN100 33/26 Q1002 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208288619,
-      "display": "8,208,288,619",
+      "value": 8208290897,
+      "display": "8,208,290,897",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T10:23:00Z",
-      "speed": 286.0
+      "time": "2026-09-23T10:41:00Z",
+      "speed": 288.0
     },
     "magneticField": {
-      "time": "2026-09-23T10:23:00Z",
-      "bt": 6.0,
-      "bz": 0.0
+      "time": "2026-09-23T10:41:00Z",
+      "bt": 5.0,
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-23T06:00:00",
       "kp": 0.33
     },
     "aurora": {
-      "value": 11.0,
-      "display": "MAX 11.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T10:18:00Z",
-      "forecastTime": "2026-09-23T11:51:00Z"
+      "observationTime": "2026-09-23T10:33:00Z",
+      "forecastTime": "2026-09-23T12:06:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
