@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T05:55:32.048891+00:00",
+  "generatedAt": "2026-09-23T06:12:52.495378+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bird nests.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Digitura&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Digitura (page does not exist)\">Digitura</a>",
+    "title": "File:Alwin-Muncak.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Unaaa3003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Unaaa3003 (page does not exist)\">Unaaa3003</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bird_nests.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alwin-Muncak.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ENKB",
-    "station": "ENKB",
-    "lat": 63.109,
-    "lon": 7.816,
+    "name": "K1S3",
+    "station": "K1S3",
+    "lat": 46.2695,
+    "lon": -106.6196,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 8.0,
-    "windSpeed": 2.0,
-    "windDirection": 40.0,
-    "visibility": "6+",
+    "temperature": 15.7,
+    "dewpoint": 14.6,
+    "windSpeed": 7.0,
+    "windDirection": 80.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T05:20:00.000Z",
-    "observationTimestamp": "2026-09-23T05:20:00+00:00",
-    "raw": "METAR ENKB 230520Z 04002KT 9999 FEW011 BKN048 10/08 Q1021 RMK WIND 745FT 21004KT"
+    "observationTime": "2026-09-23T05:55:00.000Z",
+    "observationTimestamp": "2026-09-23T05:55:00+00:00",
+    "raw": "METAR K1S3 230555Z AUTO 08007KT 10SM BKN140 16/15 A2992 RMK AO2 T01570146 10249 20151 50001"
   },
   "randomPlace": {
-    "name": "LFAQ",
-    "station": "LFAQ",
-    "lat": 49.972,
-    "lon": 2.704,
+    "name": "KENL",
+    "station": "KENL",
+    "lat": 38.5095,
+    "lon": -89.09,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 9.0,
-    "windSpeed": 2.0,
-    "windDirection": 90.0,
-    "visibility": "6+",
+    "temperature": 14.7,
+    "dewpoint": 14.0,
+    "windSpeed": 3.0,
+    "windDirection": 10.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T05:30:00.000Z",
-    "observationTimestamp": "2026-09-23T05:30:00+00:00",
-    "raw": "METAR LFAQ 230530Z AUTO 09002KT CAVOK 10/09 Q1025 TEMPO 4000 BR"
+    "observationTime": "2026-09-23T05:55:00.000Z",
+    "observationTimestamp": "2026-09-23T05:55:00+00:00",
+    "raw": "METAR KENL 230555Z AUTO 01003KT 10SM OVC038 15/14 A3022 RMK AO2 T01470140 10197 20137 402260137"
   },
   "globalPulse": {
     "population": {
-      "value": 8208252721,
-      "display": "8,208,252,721",
+      "value": 8208254947,
+      "display": "8,208,254,947",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 0.3,
       "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-23T00:00:00"
+      "time": "2026-09-23T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T05:46:00Z",
+      "time": "2026-09-23T06:06:00Z",
       "speed": 283.0
     },
     "magneticField": {
-      "time": "2026-09-23T05:46:00Z",
-      "bt": 6.0,
+      "time": "2026-09-23T06:06:00Z",
+      "bt": 5.0,
       "bz": 4.0
     },
     "kp": {
-      "time": "2026-09-23T00:00:00",
+      "time": "2026-09-23T03:00:00",
       "kp": 0.33
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T05:43:00Z",
-      "forecastTime": "2026-09-23T07:18:00Z"
+      "observationTime": "2026-09-23T06:06:00Z",
+      "forecastTime": "2026-09-23T07:38:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
