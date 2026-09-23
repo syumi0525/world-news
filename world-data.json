@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T20:39:57.569051+00:00",
+  "generatedAt": "2026-09-23T20:51:05.754347+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 09.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:DamanJodi Walkway.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Akashpandey91\" title=\"User:Akashpandey91\">Akashpandey91</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_09.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:DamanJodi_Walkway.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EFSI",
-    "station": "EFSI",
-    "lat": 62.693,
-    "lon": 22.83,
-    "weather": "-SHRA",
-    "temperature": 9.0,
-    "dewpoint": 9.0,
-    "windSpeed": 3.0,
-    "windDirection": 90.0,
+    "name": "KSIF",
+    "station": "KSIF",
+    "lat": 36.4408,
+    "lon": -79.8544,
+    "weather": "+RA",
+    "temperature": 15.0,
+    "dewpoint": 14.2,
+    "windSpeed": 7.0,
+    "windDirection": 40.0,
+    "visibility": "3",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-23T20:35:00.000Z",
+    "observationTimestamp": "2026-09-23T20:35:00+00:00",
+    "raw": "METAR KSIF 232035Z AUTO 04007G15KT 010V070 3SM +RA BKN008 BKN012 OVC018 15/14 A3026 RMK AO2 T01500142"
+  },
+  "randomPlace": {
+    "name": "EGLF",
+    "station": "EGLF",
+    "lat": 51.28,
+    "lon": -0.773,
+    "weather": "No coded weather",
+    "temperature": 16.0,
+    "dewpoint": 10.0,
+    "windSpeed": 4.0,
+    "windDirection": 320.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-23T20:20:00.000Z",
     "observationTimestamp": "2026-09-23T20:20:00+00:00",
-    "raw": "METAR EFSI 232020Z AUTO 09003KT 060V120 9999 -SHRA FEW020 OVC041 //////CB 09/09 Q1018"
-  },
-  "randomPlace": {
-    "name": "KOUN",
-    "station": "KOUN",
-    "lat": 35.2436,
-    "lon": -97.4713,
-    "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 18.0,
-    "windSpeed": 7.0,
-    "windDirection": 50.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T19:46:00.000Z",
-    "observationTimestamp": "2026-09-23T19:46:00+00:00",
-    "raw": "METAR KOUN 231946Z 05007KT 10SM CLR 32/18 A3010"
+    "raw": "METAR EGLF 232020Z AUTO 32004KT 280V350 9999 NCD 16/10 Q1026"
   },
   "globalPulse": {
     "population": {
-      "value": 8208367835,
-      "display": "8,208,367,835",
+      "value": 8208369286,
+      "display": "8,208,369,286",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,28 +97,28 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T20:31:00Z",
-      "speed": 303.0
+      "time": "2026-09-23T20:41:00Z",
+      "speed": 317.0
     },
     "magneticField": {
-      "time": "2026-09-23T20:31:00Z",
-      "bt": 10.0,
-      "bz": 3.0
+      "time": "2026-09-23T20:41:00Z",
+      "bt": 12.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-23T15:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T20:28:00Z",
-      "forecastTime": "2026-09-23T22:00:00Z"
+      "observationTime": "2026-09-23T20:41:00Z",
+      "forecastTime": "2026-09-23T22:09:00Z"
     },
     "flux10cm": {
-      "time": "2026-09-22T20:00:00",
-      "flux": 118.0
+      "time": "2026-09-23T20:00:00",
+      "flux": 121.0
     }
   }
 }
