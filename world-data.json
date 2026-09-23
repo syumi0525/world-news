@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T13:59:04.360540+00:00",
+  "generatedAt": "2026-09-23T14:17:22.775893+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20190415 Yehliu geopark beach-2.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
-    "license": "CC0",
+    "title": "File:Driving in the village (49286320817).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Driving_in_the_village_%2849286320817%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KIIB",
-    "station": "KIIB",
-    "lat": 42.4544,
-    "lon": -91.9504,
-    "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 10.0,
-    "windSpeed": 7.0,
-    "windDirection": 70.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T13:35:00.000Z",
-    "observationTimestamp": "2026-09-23T13:35:00+00:00",
-    "raw": "METAR KIIB 231335Z AUTO 07007KT 10SM CLR 12/10 A3041 RMK AO2"
+    "name": "VEGT",
+    "station": "VEGT",
+    "lat": 26.107,
+    "lon": 91.587,
+    "weather": "BR",
+    "temperature": 27.0,
+    "dewpoint": 26.0,
+    "windSpeed": 3.0,
+    "windDirection": 10.0,
+    "visibility": "1.86",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-23T14:00:00.000Z",
+    "observationTimestamp": "2026-09-23T14:00:00+00:00",
+    "raw": "METAR VEGT 231400Z 01003KT 3000 BR SCT018 BKN090 27/26 Q1009 NOSIG"
   },
   "randomPlace": {
-    "name": "LXGB",
-    "station": "LXGB",
-    "lat": 36.151,
-    "lon": -5.35,
+    "name": "FALW",
+    "station": "FALW",
+    "lat": -32.972,
+    "lon": 18.158,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 20.0,
-    "windSpeed": 11.0,
-    "windDirection": 100.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T13:20:00.000Z",
-    "observationTimestamp": "2026-09-23T13:20:00+00:00",
-    "raw": "METAR LXGB 231320Z 10011KT 9999 FEW012 25/20 Q1020 NOSIG"
+    "temperature": 22.0,
+    "dewpoint": 15.0,
+    "windSpeed": 2.0,
+    "windDirection": 280.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-23T13:00:00.000Z",
+    "observationTimestamp": "2026-09-23T13:00:00+00:00",
+    "raw": "METAR FALW 231300Z COR AUTO 28002KT //// // ////// 22/15 Q1018"
   },
   "globalPulse": {
     "population": {
-      "value": 8208315634,
-      "display": "8,208,315,634",
+      "value": 8208318014,
+      "display": "8,208,318,014",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T13:50:00Z",
-      "speed": 284.0
+      "time": "2026-09-23T14:07:00Z",
+      "speed": 286.0
     },
     "magneticField": {
-      "time": "2026-09-23T13:50:00Z",
-      "bt": 6.0,
+      "time": "2026-09-23T14:07:00Z",
+      "bt": 7.0,
       "bz": 4.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T13:50:00Z",
-      "forecastTime": "2026-09-23T15:23:00Z"
+      "observationTime": "2026-09-23T14:05:00Z",
+      "forecastTime": "2026-09-23T15:38:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
