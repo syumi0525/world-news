@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T17:15:46.047615+00:00",
+  "generatedAt": "2026-09-23T17:30:19.599687+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:RPPC From GS Jean Smith A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Batiment aunsein de la Ville de Majunga 11.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:RPPC_From_GS_Jean_Smith_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_11.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "DAUZ",
-    "station": "DAUZ",
-    "lat": 28.052,
-    "lon": 9.643,
+    "name": "SLTR",
+    "station": "SLTR",
+    "lat": -14.819,
+    "lon": -64.918,
     "weather": "No coded weather",
-    "temperature": 34.0,
-    "dewpoint": 10.0,
-    "windSpeed": 7.0,
-    "windDirection": 90.0,
+    "temperature": 24.0,
+    "dewpoint": 11.0,
+    "windSpeed": 10.0,
+    "windDirection": 140.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-23T17:00:00.000Z",
     "observationTimestamp": "2026-09-23T17:00:00+00:00",
-    "raw": "METAR DAUZ 231700Z 09007KT 9999 FEW033TCU SCT080 34/10 Q1014"
+    "raw": "METAR SLTR 231700Z 14010KT 9999 BKN070 24/11 Q1015"
   },
   "randomPlace": {
-    "name": "KVPC",
-    "station": "KVPC",
-    "lat": 34.1159,
-    "lon": -84.8507,
+    "name": "KLBB",
+    "station": "KLBB",
+    "lat": 33.6658,
+    "lon": -101.8233,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 20.0,
-    "windSpeed": 8.0,
+    "temperature": 25.6,
+    "dewpoint": 18.9,
+    "windSpeed": 11.0,
     "windDirection": 150.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T16:55:00.000Z",
-    "observationTimestamp": "2026-09-23T16:55:00+00:00",
-    "raw": "METAR KVPC 231655Z AUTO 15008KT 10SM 28/20 A3014 RMK AO2"
+    "observationTime": "2026-09-23T16:53:00.000Z",
+    "observationTimestamp": "2026-09-23T16:53:00+00:00",
+    "raw": "METAR KLBB 231653Z 15011KT 10SM SCT023 SCT150 SCT250 26/19 A3021 RMK AO2 SLP182 T02560189"
   },
   "globalPulse": {
     "population": {
-      "value": 8208341258,
-      "display": "8,208,341,258",
+      "value": 8208343141,
+      "display": "8,208,343,141",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T17:07:00Z",
-      "speed": 288.0
+      "time": "2026-09-23T17:22:00Z",
+      "speed": 292.0
     },
     "magneticField": {
-      "time": "2026-09-23T17:07:00Z",
+      "time": "2026-09-23T17:22:00Z",
       "bt": 10.0,
-      "bz": 9.0
+      "bz": 8.0
     },
     "kp": {
       "time": "2026-09-23T12:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T17:05:00Z",
-      "forecastTime": "2026-09-23T18:37:00Z"
+      "observationTime": "2026-09-23T17:20:00Z",
+      "forecastTime": "2026-09-23T18:52:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
