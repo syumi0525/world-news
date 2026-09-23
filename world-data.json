@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T18:49:33.367267+00:00",
+  "generatedAt": "2026-09-23T18:59:46.470190+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ndongo bridge road.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
+    "title": "File:Doubtful Sound - Patea - DoubtfulSound9081.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/199350666@N08\">lumoplank</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Doubtful_Sound_-_Patea_-_DoubtfulSound9081.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KGZN",
-    "station": "KGZN",
-    "lat": 32.3682,
-    "lon": -99.026,
+    "name": "KRVL",
+    "station": "KRVL",
+    "lat": 40.6768,
+    "lon": -77.6251,
     "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 17.0,
-    "windSpeed": 9.0,
-    "windDirection": 150.0,
+    "temperature": 19.0,
+    "dewpoint": 6.0,
+    "windSpeed": 6.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T18:35:00.000Z",
-    "observationTimestamp": "2026-09-23T18:35:00+00:00",
-    "raw": "METAR KGZN 231835Z AUTO 15009G16KT 10SM FEW060 SCT070 33/17 A3009 RMK AO2"
+    "observationTime": "2026-09-23T18:55:00.000Z",
+    "observationTimestamp": "2026-09-23T18:55:00+00:00",
+    "raw": "METAR KRVL 231855Z AUTO VRB06KT 10SM CLR 19/06 A3040 RMK AO2"
   },
   "randomPlace": {
-    "name": "KFHU",
-    "station": "KFHU",
-    "lat": 31.586,
-    "lon": -110.348,
+    "name": "CYYN",
+    "station": "CYYN",
+    "lat": 50.292,
+    "lon": -107.691,
     "weather": "No coded weather",
-    "temperature": 22.4,
-    "dewpoint": 13.7,
-    "windSpeed": 9.0,
-    "windDirection": 100.0,
-    "visibility": "10+",
+    "temperature": 24.0,
+    "dewpoint": 13.0,
+    "windSpeed": 8.0,
+    "windDirection": 190.0,
+    "visibility": "9",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T17:55:00.000Z",
-    "observationTimestamp": "2026-09-23T17:55:00+00:00",
-    "raw": "METAR KFHU 231755Z AUTO 10009KT 10SM CLR 22/14 A3016 RMK AO2 SLP153 60000 T02240137 10224 20179 51006"
+    "observationTime": "2026-09-23T18:00:00.000Z",
+    "observationTimestamp": "2026-09-23T18:00:00+00:00",
+    "raw": "METAR CYYN 231800Z AUTO 19008KT 180V250 9SM CLR 24/13 A2994 RMK SLP133 DENSITY ALT 4300FT"
   },
   "globalPulse": {
     "population": {
-      "value": 8208353465,
-      "display": "8,208,353,465",
+      "value": 8208354797,
+      "display": "8,208,354,797",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T18:40:00Z",
-      "speed": 290.0
+      "time": "2026-09-23T18:52:00Z",
+      "speed": 286.0
     },
     "magneticField": {
-      "time": "2026-09-23T18:40:00Z",
+      "time": "2026-09-23T18:52:00Z",
       "bt": 10.0,
-      "bz": 9.0
+      "bz": 8.0
     },
     "kp": {
       "time": "2026-09-23T15:00:00",
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T18:40:00Z",
-      "forecastTime": "2026-09-23T20:11:00Z"
+      "observationTime": "2026-09-23T18:50:00Z",
+      "forecastTime": "2026-09-23T20:21:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
