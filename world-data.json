@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T04:48:24.992422+00:00",
+  "generatedAt": "2026-09-23T04:58:32.079572+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chief Inspector Albert Macintosh - Flickr - trebble.chris.jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/129172152@N02\">Chris Trebble</a>",
+    "title": "File:A good view of the beach cliffs.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chief_Inspector_Albert_Macintosh_-_Flickr_-_trebble.chris.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ESSP",
-    "station": "ESSP",
-    "lat": 58.584,
-    "lon": 16.255,
+    "name": "KJAU",
+    "station": "KJAU",
+    "lat": 36.3351,
+    "lon": -84.1635,
     "weather": "No coded weather",
-    "temperature": 8.0,
-    "dewpoint": 7.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T04:20:00.000Z",
-    "observationTimestamp": "2026-09-23T04:20:00+00:00",
-    "raw": "METAR ESSP 230420Z 00000KT CAVOK 08/07 Q1023"
-  },
-  "randomPlace": {
-    "name": "KVWU",
-    "station": "KVWU",
-    "lat": 48.1502,
-    "lon": -94.5121,
-    "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": null,
+    "temperature": 20.0,
+    "dewpoint": 20.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-23T04:35:00.000Z",
     "observationTimestamp": "2026-09-23T04:35:00+00:00",
-    "raw": "METAR KVWU 230435Z AUTO 00000KT 10SM CLR 07/ A3037 RMK AO2"
+    "raw": "METAR KJAU 230435Z AUTO 00000KT 10SM CLR 20/20 A3009 RMK A01"
+  },
+  "randomPlace": {
+    "name": "RJCO",
+    "station": "RJCO",
+    "lat": 43.117,
+    "lon": 141.381,
+    "weather": "No coded weather",
+    "temperature": 23.0,
+    "dewpoint": 12.0,
+    "windSpeed": 7.0,
+    "windDirection": 110.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T04:00:00.000Z",
+    "observationTimestamp": "2026-09-23T04:00:00+00:00",
+    "raw": "METAR RJCO 230400Z 11007KT 9999 FEW030 23/12 Q1017"
   },
   "globalPulse": {
     "population": {
-      "value": 8208243981,
-      "display": "8,208,243,981",
+      "value": 8208245302,
+      "display": "8,208,245,302",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T04:42:00Z",
-      "speed": 278.0
+      "time": "2026-09-23T04:52:00Z",
+      "speed": 279.0
     },
     "magneticField": {
-      "time": "2026-09-23T04:42:00Z",
+      "time": "2026-09-23T04:52:00Z",
       "bt": 5.0,
-      "bz": 1.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-23T00:00:00",
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T04:40:00Z",
-      "forecastTime": "2026-09-23T06:14:00Z"
+      "observationTime": "2026-09-23T04:50:00Z",
+      "forecastTime": "2026-09-23T06:24:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
