@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T05:14:39.961237+00:00",
+  "generatedAt": "2026-09-23T05:30:13.010443+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Doubtful Sound - Patea - DoubtfulSound9080.jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/199350666@N08\">lumoplank</a>",
+    "title": "File:20260803 183936 Gartenanlage Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Doubtful_Sound_-_Patea_-_DoubtfulSound9080.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_183936_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KNHK",
-    "station": "KNHK",
-    "lat": 38.284,
-    "lon": -76.408,
-    "weather": "-RA",
-    "temperature": 16.1,
+    "name": "KHVC",
+    "station": "KHVC",
+    "lat": 36.8603,
+    "lon": -87.4478,
+    "weather": "No coded weather",
+    "temperature": 17.0,
     "dewpoint": 15.0,
-    "windSpeed": 14.0,
+    "windSpeed": 4.0,
     "windDirection": 20.0,
-    "visibility": "7",
+    "visibility": "10+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T04:52:00.000Z",
-    "observationTimestamp": "2026-09-23T04:52:00+00:00",
-    "raw": "METAR KNHK 230452Z AUTO 02014G21KT 7SM -RA OVC012 16/15 A3024 RMK AO2 SLP239 P0001 T01610150 402110161"
+    "observationTime": "2026-09-23T05:15:00.000Z",
+    "observationTimestamp": "2026-09-23T05:15:00+00:00",
+    "raw": "METAR KHVC 230515Z AUTO 02004KT 10SM OVC020 17/15 A3015 RMK A01"
   },
   "randomPlace": {
-    "name": "CWVF",
-    "station": "CWVF",
-    "lat": 49.106,
-    "lon": -123.303,
+    "name": "GCHI",
+    "station": "GCHI",
+    "lat": 27.819,
+    "lon": -17.889,
     "weather": "No coded weather",
-    "temperature": 17.1,
-    "dewpoint": 8.7,
-    "windSpeed": 9.0,
-    "windDirection": 210.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
+    "temperature": 24.0,
+    "dewpoint": 21.0,
+    "windSpeed": 10.0,
+    "windDirection": 360.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
     "observationTime": "2026-09-23T05:00:00.000Z",
     "observationTimestamp": "2026-09-23T05:00:00+00:00",
-    "raw": "METAR CWVF 230500Z AUTO 21009KT 17/09 RMK AO1 T01710087"
+    "raw": "METAR GCHI 230500Z AUTO 36010KT 9999 SCT013 24/21 Q1015"
   },
   "globalPulse": {
     "population": {
-      "value": 8208247402,
-      "display": "8,208,247,402",
+      "value": 8208249426,
+      "display": "8,208,249,426",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T05:07:00Z",
-      "speed": 282.0
+      "time": "2026-09-23T05:24:00Z",
+      "speed": 281.0
     },
     "magneticField": {
-      "time": "2026-09-23T05:07:00Z",
-      "bt": 5.0,
+      "time": "2026-09-23T05:24:00Z",
+      "bt": 6.0,
       "bz": 3.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T05:05:00Z",
-      "forecastTime": "2026-09-23T06:39:00Z"
+      "observationTime": "2026-09-23T05:19:00Z",
+      "forecastTime": "2026-09-23T06:54:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
