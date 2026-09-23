@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T14:17:22.775893+00:00",
+  "generatedAt": "2026-09-23T14:33:48.011947+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Driving in the village (49286320817).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
+    "title": "File:1907 Hold on! Half time! A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Driving_in_the_village_%2849286320817%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1907_Hold_on%21_Half_time%21_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VEGT",
-    "station": "VEGT",
-    "lat": 26.107,
-    "lon": 91.587,
-    "weather": "BR",
-    "temperature": 27.0,
-    "dewpoint": 26.0,
-    "windSpeed": 3.0,
-    "windDirection": 10.0,
-    "visibility": "1.86",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-23T14:00:00.000Z",
-    "observationTimestamp": "2026-09-23T14:00:00+00:00",
-    "raw": "METAR VEGT 231400Z 01003KT 3000 BR SCT018 BKN090 27/26 Q1009 NOSIG"
+    "name": "KBED",
+    "station": "KBED",
+    "lat": 42.4681,
+    "lon": -71.2946,
+    "weather": "No coded weather",
+    "temperature": 15.0,
+    "dewpoint": 10.6,
+    "windSpeed": 12.0,
+    "windDirection": 60.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-23T13:30:00.000Z",
+    "observationTimestamp": "2026-09-23T13:30:00+00:00",
+    "raw": "SPECI KBED 231330Z 06012KT 10SM BKN015 15/11 A3054 RMK AO2 T01500106 $"
   },
   "randomPlace": {
-    "name": "FALW",
-    "station": "FALW",
-    "lat": -32.972,
-    "lon": 18.158,
+    "name": "RCKH",
+    "station": "RCKH",
+    "lat": 22.577,
+    "lon": 120.35,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 15.0,
+    "temperature": 28.0,
+    "dewpoint": 23.0,
     "windSpeed": 2.0,
-    "windDirection": 280.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-23T13:00:00.000Z",
-    "observationTimestamp": "2026-09-23T13:00:00+00:00",
-    "raw": "METAR FALW 231300Z COR AUTO 28002KT //// // ////// 22/15 Q1018"
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T13:30:00.000Z",
+    "observationTimestamp": "2026-09-23T13:30:00+00:00",
+    "raw": "METAR RCKH 231330Z VRB02KT 9999 FEW014 SCT070 28/23 Q1014 NOSIG RMK A2997"
   },
   "globalPulse": {
     "population": {
-      "value": 8208318014,
-      "display": "8,208,318,014",
+      "value": 8208320155,
+      "display": "8,208,320,155",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T14:07:00Z",
-      "speed": 286.0
+      "time": "2026-09-23T14:25:00Z",
+      "speed": 287.0
     },
     "magneticField": {
-      "time": "2026-09-23T14:07:00Z",
+      "time": "2026-09-23T14:25:00Z",
       "bt": 7.0,
       "bz": 4.0
     },
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T14:05:00Z",
-      "forecastTime": "2026-09-23T15:38:00Z"
+      "observationTime": "2026-09-23T14:25:00Z",
+      "forecastTime": "2026-09-23T15:57:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
