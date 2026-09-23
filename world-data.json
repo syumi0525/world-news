@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T10:48:50.822559+00:00",
+  "generatedAt": "2026-09-23T10:58:41.492187+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
+    "title": "File:A misty forest road in Coonoor.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SKTM",
-    "station": "SKTM",
-    "lat": 6.451,
-    "lon": -71.76,
+    "name": "UHWW",
+    "station": "UHWW",
+    "lat": 43.399,
+    "lon": 132.146,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 22.0,
-    "windSpeed": 3.0,
-    "windDirection": 340.0,
+    "temperature": 21.0,
+    "dewpoint": 18.0,
+    "windSpeed": 8.0,
+    "windDirection": 190.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T10:00:00.000Z",
-    "observationTimestamp": "2026-09-23T10:00:00+00:00",
-    "raw": "METAR SKTM 231000Z AUTO 34003KT CAVOK 26/22 Q1012"
-  },
-  "randomPlace": {
-    "name": "VOMM",
-    "station": "VOMM",
-    "lat": 12.994,
-    "lon": 80.18,
-    "weather": "HZ",
-    "temperature": 33.0,
-    "dewpoint": 26.0,
-    "windSpeed": 10.0,
-    "windDirection": 300.0,
-    "visibility": "3.11",
     "flightCategory": "MVFR",
     "observationTime": "2026-09-23T10:30:00.000Z",
     "observationTimestamp": "2026-09-23T10:30:00+00:00",
-    "raw": "METAR VOMM 231030Z 30010KT 5000 HZ SCT020 BKN100 33/26 Q1002 NOSIG"
+    "raw": "METAR UHWW 231030Z 19004MPS 9999 BKN023 21/18 Q1014 R25L/0///72 NOSIG RMK QFE759"
+  },
+  "randomPlace": {
+    "name": "KCYS",
+    "station": "KCYS",
+    "lat": 41.1579,
+    "lon": -104.8081,
+    "weather": "No coded weather",
+    "temperature": 12.2,
+    "dewpoint": 10.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T10:53:00.000Z",
+    "observationTimestamp": "2026-09-23T10:53:00+00:00",
+    "raw": "METAR KCYS 231053Z 00000KT 10SM CLR 12/10 A3018 RMK AO2 SLP144 T01220100 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8208290897,
-      "display": "8,208,290,897",
+      "value": 8208292177,
+      "display": "8,208,292,177",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T10:41:00Z",
+      "time": "2026-09-23T10:48:00Z",
       "speed": 288.0
     },
     "magneticField": {
-      "time": "2026-09-23T10:41:00Z",
-      "bt": 5.0,
-      "bz": 2.0
+      "time": "2026-09-23T10:48:00Z",
+      "bt": 4.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-23T06:00:00",
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T10:33:00Z",
-      "forecastTime": "2026-09-23T12:06:00Z"
+      "observationTime": "2026-09-23T10:48:00Z",
+      "forecastTime": "2026-09-23T12:21:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
