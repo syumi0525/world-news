@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T12:18:56.531294+00:00",
+  "generatedAt": "2026-09-23T12:38:37.404084+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chirchiq kanali 01.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sevindikovna_Feruza&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sevindikovna Feruza (page does not exist)\">Sevindikovna Feruza</a>",
+    "title": "File:Active Wave At Popham Beach, Popham, Maine.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FlaggSwagg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FlaggSwagg (page does not exist)\">FlaggSwagg</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chirchiq_kanali_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Active_Wave_At_Popham_Beach%2C_Popham%2C_Maine.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCEZ",
-    "station": "KCEZ",
-    "lat": 37.3071,
-    "lon": -108.6265,
+    "name": "KNTU",
+    "station": "KNTU",
+    "lat": 36.8209,
+    "lon": -76.0277,
     "weather": "No coded weather",
-    "temperature": 15.6,
-    "dewpoint": 10.6,
-    "windSpeed": 3.0,
-    "windDirection": 290.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T11:53:00.000Z",
-    "observationTimestamp": "2026-09-23T11:53:00+00:00",
-    "raw": "METAR KCEZ 231153Z AUTO 29003KT 10SM SCT095 16/11 A3023 RMK AO2 SLP169 70002 T01560106 10167 20150 53003"
+    "temperature": 20.6,
+    "dewpoint": 18.9,
+    "windSpeed": 24.0,
+    "windDirection": 50.0,
+    "visibility": "8",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-23T11:56:00.000Z",
+    "observationTimestamp": "2026-09-23T11:56:00+00:00",
+    "raw": "METAR KNTU 231156Z 05024G38KT 8SM OVC011 21/19 A3014 RMK AO2 PK WND 04038/1148 SLP210 60002 70002 T02060189 10222 20200 53021"
   },
   "randomPlace": {
-    "name": "WIBB",
-    "station": "WIBB",
-    "lat": 0.461,
-    "lon": 101.445,
+    "name": "EGKK",
+    "station": "EGKK",
+    "lat": 51.148,
+    "lon": -0.19,
     "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 24.0,
-    "windSpeed": 4.0,
-    "windDirection": 150.0,
-    "visibility": "4.35",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T11:30:00.000Z",
-    "observationTimestamp": "2026-09-23T11:30:00+00:00",
-    "raw": "METAR WIBB 231130Z 15004KT 7000 SCT013 32/24 Q1007 NOSIG"
+    "temperature": 22.0,
+    "dewpoint": 14.0,
+    "windSpeed": 10.0,
+    "windDirection": 280.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T12:20:00.000Z",
+    "observationTimestamp": "2026-09-23T12:20:00+00:00",
+    "raw": "METAR EGKK 231220Z 28010KT 9999 SCT035 22/14 Q1023"
   },
   "globalPulse": {
     "population": {
-      "value": 8208302601,
-      "display": "8,208,302,601",
+      "value": 8208305165,
+      "display": "8,208,305,165",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T12:10:00Z",
-      "speed": 283.0
+      "time": "2026-09-23T12:28:00Z",
+      "speed": 280.0
     },
     "magneticField": {
-      "time": "2026-09-23T12:10:00Z",
-      "bt": 5.0,
-      "bz": 0.0
+      "time": "2026-09-23T12:28:00Z",
+      "bt": 6.0,
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-09-23T09:00:00",
       "kp": 1.0
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T12:10:00Z",
-      "forecastTime": "2026-09-23T13:42:00Z"
+      "observationTime": "2026-09-23T12:25:00Z",
+      "forecastTime": "2026-09-23T13:57:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
