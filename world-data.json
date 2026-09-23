@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T07:27:33.177036+00:00",
+  "generatedAt": "2026-09-23T07:42:36.022393+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 09.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:Brûlé Lake from Mount Solomon Lookout.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_09.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Br%C3%BBl%C3%A9_Lake_from_Mount_Solomon_Lookout.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KHVR",
-    "station": "KHVR",
-    "lat": 48.5425,
-    "lon": -109.7644,
+    "name": "RJDB",
+    "station": "RJDB",
+    "lat": 33.749,
+    "lon": 129.785,
     "weather": "No coded weather",
-    "temperature": 11.7,
-    "dewpoint": 8.3,
+    "temperature": 25.0,
+    "dewpoint": 18.0,
+    "windSpeed": 11.0,
+    "windDirection": 30.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T07:00:00.000Z",
+    "observationTimestamp": "2026-09-23T07:00:00+00:00",
+    "raw": "METAR RJDB 230700Z AUTO 03011KT 9999 NCD 25/18 Q1016"
+  },
+  "randomPlace": {
+    "name": "KMGM",
+    "station": "KMGM",
+    "lat": 32.2997,
+    "lon": -86.4074,
+    "weather": "No coded weather",
+    "temperature": 21.1,
+    "dewpoint": 20.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-23T06:53:00.000Z",
     "observationTimestamp": "2026-09-23T06:53:00+00:00",
-    "raw": "METAR KHVR 230653Z AUTO 00000KT 10SM CLR 12/08 A2990 RMK AO2 SLP118 T01170083 402780044"
-  },
-  "randomPlace": {
-    "name": "SBLO",
-    "station": "SBLO",
-    "lat": -23.334,
-    "lon": -51.13,
-    "weather": "-RA",
-    "temperature": 17.0,
-    "dewpoint": 16.0,
-    "windSpeed": 7.0,
-    "windDirection": 180.0,
-    "visibility": "3.73",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T07:00:00.000Z",
-    "observationTimestamp": "2026-09-23T07:00:00+00:00",
-    "raw": "METAR SBLO 230700Z 18007KT 140V210 6000 -RA SCT007 BKN014 OVC090 17/16 Q1015"
+    "raw": "METAR KMGM 230653Z AUTO 00000KT 10SM CLR 21/20 A3002 RMK AO2 SLP161 T02110200"
   },
   "globalPulse": {
     "population": {
-      "value": 8208264670,
-      "display": "8,208,264,670",
+      "value": 8208266629,
+      "display": "8,208,266,629",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T07:19:00Z",
-      "speed": 293.0
+      "time": "2026-09-23T07:36:00Z",
+      "speed": 292.0
     },
     "magneticField": {
-      "time": "2026-09-23T07:19:00Z",
+      "time": "2026-09-23T07:33:00Z",
       "bt": 5.0,
       "bz": 3.0
     },
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T07:14:00Z",
-      "forecastTime": "2026-09-23T08:46:00Z"
+      "observationTime": "2026-09-23T07:28:00Z",
+      "forecastTime": "2026-09-23T09:00:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
