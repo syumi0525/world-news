@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T09:32:49.593435+00:00",
+  "generatedAt": "2026-09-23T09:48:46.684623+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nastawnia CS Czestochowa Stradom.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cody3223&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cody3223 (page does not exist)\">Cody3223</a>",
+    "title": "File:Borehole project 17.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nastawnia_CS_Czestochowa_Stradom.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_17.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDRP",
-    "station": "KDRP",
-    "lat": 35.1213,
-    "lon": -90.8246,
-    "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 16.0,
-    "windSpeed": 11.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
+    "name": "VERU",
+    "station": "VERU",
+    "lat": 26.14,
+    "lon": 89.91,
+    "weather": "BR",
+    "temperature": 28.0,
+    "dewpoint": 25.0,
+    "windSpeed": 2.0,
+    "windDirection": 50.0,
+    "visibility": "3.11",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T09:15:00.000Z",
-    "observationTimestamp": "2026-09-23T09:15:00+00:00",
-    "raw": "METAR KDRP 230915Z AUTO 03011KT 10SM BKN013 19/16 A3013 RMK AO2"
+    "observationTime": "2026-09-23T09:30:00.000Z",
+    "observationTimestamp": "2026-09-23T09:30:00+00:00",
+    "raw": "METAR VERU 230930Z 05002KT 5000 BR FEW010 SCT020 BKN100 28/25 Q1007 NOSIG"
   },
   "randomPlace": {
-    "name": "UAOO",
-    "station": "UAOO",
-    "lat": 44.707,
-    "lon": 65.593,
+    "name": "KPEO",
+    "station": "KPEO",
+    "lat": 42.6441,
+    "lon": -77.0528,
     "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 4.0,
-    "windSpeed": 12.0,
-    "windDirection": 30.0,
-    "visibility": "6+",
+    "temperature": 5.0,
+    "dewpoint": 5.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T09:00:00.000Z",
-    "observationTimestamp": "2026-09-23T09:00:00+00:00",
-    "raw": "METAR UAOO 230900Z 03006MPS 350V070 CAVOK 27/04 Q1018 NOSIG RMK QFE752/1002"
+    "observationTime": "2026-09-23T08:53:00.000Z",
+    "observationTimestamp": "2026-09-23T08:53:00+00:00",
+    "raw": "METAR KPEO 230853Z AUTO 00000KT 10SM CLR 05/05 A3047 RMK AO2 SLP321 T00500050 53009"
   },
   "globalPulse": {
     "population": {
-      "value": 8208281001,
-      "display": "8,208,281,001",
+      "value": 8208283072,
+      "display": "8,208,283,072",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T09:24:00Z",
-      "speed": 292.0
+      "time": "2026-09-23T09:41:00Z",
+      "speed": 293.0
     },
     "magneticField": {
-      "time": "2026-09-23T09:24:00Z",
+      "time": "2026-09-23T09:41:00Z",
       "bt": 5.0,
-      "bz": 4.0
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-23T06:00:00",
@@ -113,8 +113,8 @@
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T09:24:00Z",
-      "forecastTime": "2026-09-23T10:55:00Z"
+      "observationTime": "2026-09-23T09:39:00Z",
+      "forecastTime": "2026-09-23T11:10:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
