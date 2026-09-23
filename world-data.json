@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T11:30:43.577562+00:00",
+  "generatedAt": "2026-09-23T11:48:07.046500+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nilüfer kanak köprüsü.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "title": "File:Albino snail on green moss on high angle.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hariyono_Suwardi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hariyono Suwardi (page does not exist)\">Hariyono Suwardi</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Albino_snail_on_green_moss_on_high_angle.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDVT",
-    "station": "KDVT",
-    "lat": 33.6902,
-    "lon": -112.0662,
+    "name": "RCKH",
+    "station": "RCKH",
+    "lat": 22.577,
+    "lon": 120.35,
     "weather": "No coded weather",
-    "temperature": 27.2,
-    "dewpoint": 13.3,
+    "temperature": 28.0,
+    "dewpoint": 24.0,
     "windSpeed": 4.0,
-    "windDirection": 100.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T10:53:00.000Z",
-    "observationTimestamp": "2026-09-23T10:53:00+00:00",
-    "raw": "METAR KDVT 231053Z 10004KT 10SM CLR 27/13 A2983 RMK AO2 SLP073 T02720133"
-  },
-  "randomPlace": {
-    "name": "LHPP",
-    "station": "LHPP",
-    "lat": 45.991,
-    "lon": 18.241,
-    "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 6.0,
-    "windSpeed": 13.0,
-    "windDirection": 330.0,
+    "windDirection": 270.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T10:45:00.000Z",
-    "observationTimestamp": "2026-09-23T10:45:00+00:00",
-    "raw": "METAR LHPP 231045Z AUTO 33013KT 300V010 CAVOK 19/06 Q1024"
+    "observationTime": "2026-09-23T11:30:00.000Z",
+    "observationTimestamp": "2026-09-23T11:30:00+00:00",
+    "raw": "METAR RCKH 231130Z 27004KT 240V300 9999 SCT014 SCT046 28/24 Q1013 NOSIG RMK A2993"
+  },
+  "randomPlace": {
+    "name": "UCFM",
+    "station": "UCFM",
+    "lat": 43.061,
+    "lon": 74.478,
+    "weather": "No coded weather",
+    "temperature": 28.0,
+    "dewpoint": 1.0,
+    "windSpeed": 8.0,
+    "windDirection": 310.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T11:30:00.000Z",
+    "observationTimestamp": "2026-09-23T11:30:00+00:00",
+    "raw": "METAR UCFM 231130Z 31004MPS CAVOK 28/01 Q1014 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208296349,
-      "display": "8,208,296,349",
+      "value": 8208298611,
+      "display": "8,208,298,611",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T11:21:00Z",
+      "time": "2026-09-23T11:40:00Z",
       "speed": 287.0
     },
     "magneticField": {
-      "time": "2026-09-23T11:21:00Z",
+      "time": "2026-09-23T11:40:00Z",
       "bt": 4.0,
-      "bz": 1.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-23T06:00:00",
       "kp": 0.33
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T11:18:00Z",
-      "forecastTime": "2026-09-23T12:51:00Z"
+      "observationTime": "2026-09-23T11:40:00Z",
+      "forecastTime": "2026-09-23T13:12:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
