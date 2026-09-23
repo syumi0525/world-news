@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T17:54:54.428192+00:00",
+  "generatedAt": "2026-09-23T18:12:05.874929+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:1910-07-25 RPPC Penn Yann Dea friend your letter received A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Ejemplares de Melocactus en el desierto de la Tatacoa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cathetovar\" title=\"User:Cathetovar\">Cathetovar</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:1910-07-25_RPPC_Penn_Yann_Dea_friend_your_letter_received_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ejemplares_de_Melocactus_en_el_desierto_de_la_Tatacoa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1HM",
-    "station": "K1HM",
-    "lat": 47.698,
-    "lon": -111.943,
+    "name": "KT74",
+    "station": "KT74",
+    "lat": 30.5704,
+    "lon": -97.4447,
     "weather": "No coded weather",
-    "temperature": 20.4,
-    "dewpoint": 7.7,
+    "temperature": 35.0,
+    "dewpoint": 21.0,
     "windSpeed": 8.0,
-    "windDirection": 360.0,
+    "windDirection": 80.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T16:55:00.000Z",
-    "observationTimestamp": "2026-09-23T16:55:00+00:00",
-    "raw": "METAR K1HM 231655Z AUTO 36008KT 10SM CLR 20/08 M RMK AO2 SLPNO T02040077 $"
+    "observationTime": "2026-09-23T17:55:00.000Z",
+    "observationTimestamp": "2026-09-23T17:55:00+00:00",
+    "raw": "METAR KT74 231755Z AUTO 08008KT 10SM SCT049 SCT065 BKN070 35/21 A3011 RMK AO2"
   },
   "randomPlace": {
-    "name": "UGAM",
-    "station": "UGAM",
-    "lat": 42.527,
-    "lon": 43.135,
+    "name": "CYSF",
+    "station": "CYSF",
+    "lat": 59.252,
+    "lon": -105.837,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 18.0,
-    "windSpeed": 3.0,
-    "windDirection": 80.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-23T17:30:00.000Z",
-    "observationTimestamp": "2026-09-23T17:30:00+00:00",
-    "raw": "METAR UGAM 231730Z AUTO 08003KT //// ////// 19/18 Q1016"
+    "temperature": 10.0,
+    "dewpoint": 10.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "9",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-23T18:00:00.000Z",
+    "observationTimestamp": "2026-09-23T18:00:00+00:00",
+    "raw": "METAR CYSF 231800Z AUTO 00000KT 9SM OVC004 10/10 A3003 RMK SLP182"
   },
   "globalPulse": {
     "population": {
-      "value": 8208346343,
-      "display": "8,208,346,343",
+      "value": 8208348580,
+      "display": "8,208,348,580",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 0.7,
       "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-23T12:00:00"
+      "time": "2026-09-23T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T17:47:00Z",
-      "speed": 289.0
+      "time": "2026-09-23T18:02:00Z",
+      "speed": 288.0
     },
     "magneticField": {
-      "time": "2026-09-23T17:47:00Z",
-      "bt": 9.0,
-      "bz": 5.0
+      "time": "2026-09-23T18:02:00Z",
+      "bt": 10.0,
+      "bz": 1.0
     },
     "kp": {
-      "time": "2026-09-23T12:00:00",
+      "time": "2026-09-23T15:00:00",
       "kp": 0.67
     },
     "aurora": {
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T17:45:00Z",
-      "forecastTime": "2026-09-23T19:16:00Z"
+      "observationTime": "2026-09-23T18:00:00Z",
+      "forecastTime": "2026-09-23T19:31:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
