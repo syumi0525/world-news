@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T21:25:01.563741+00:00",
+  "generatedAt": "2026-09-23T21:38:41.038810+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Am Ludwigskanal bei Schwarzenbruck.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peukerthomas1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peukerthomas1 (page does not exist)\">Peukerthomas1</a>",
-    "license": "CC0",
+    "title": "File:AuditorioITA.JPG",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Berpasan\" class=\"extiw\" title=\"w:User:Berpasan\">Berpasan</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Berpasan\" class=\"extiw\" title=\"w:User talk:Berpasan\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Berpasan\" class=\"extiw\" title=\"w:Special:ListFiles/Berpasan\">Uploads</a>)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Am_Ludwigskanal_bei_Schwarzenbruck.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AuditorioITA.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SKMR",
-    "station": "SKMR",
-    "lat": 8.826,
-    "lon": -75.825,
-    "weather": "DZ",
-    "temperature": null,
-    "dewpoint": null,
-    "windSpeed": 3.0,
-    "windDirection": 180.0,
-    "visibility": "3.73",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T20:04:00.000Z",
-    "observationTimestamp": "2026-09-23T20:04:00+00:00",
-    "raw": "SPECI SKMR 232004Z 18003KT 130V260 6000 DZ SCT010 BKN020 ///// Q////"
-  },
-  "randomPlace": {
-    "name": "LEGE",
-    "station": "LEGE",
-    "lat": 41.911,
-    "lon": 2.763,
+    "name": "UUBC",
+    "station": "UUBC",
+    "lat": 54.552,
+    "lon": 36.37,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 12.0,
-    "windSpeed": 4.0,
-    "windDirection": 340.0,
+    "temperature": 18.0,
+    "dewpoint": 14.0,
+    "windSpeed": 12.0,
+    "windDirection": 100.0,
     "visibility": "6+",
     "flightCategory": "VFR",
+    "observationTime": "2026-09-23T21:30:00.000Z",
+    "observationTimestamp": "2026-09-23T21:30:00+00:00",
+    "raw": "METAR UUBC 232130Z 10006MPS CAVOK 18/14 Q1010 R31/290151 NOSIG RMK QNH758 QFE741/0988"
+  },
+  "randomPlace": {
+    "name": "CWXA",
+    "station": "CWXA",
+    "lat": 51.083,
+    "lon": -115.066,
+    "weather": "No coded weather",
+    "temperature": 19.3,
+    "dewpoint": 0.5,
+    "windSpeed": 5.0,
+    "windDirection": 260.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-23T21:00:00.000Z",
     "observationTimestamp": "2026-09-23T21:00:00+00:00",
-    "raw": "METAR LEGE 232100Z 34004KT 300V360 CAVOK 16/12 Q1023 NOSIG"
+    "raw": "METAR CWXA 232100Z AUTO 26005KT 19/01 RMK AO1 SLP156 T01930005 56003"
   },
   "globalPulse": {
     "population": {
-      "value": 8208373703,
-      "display": "8,208,373,703",
+      "value": 8208375475,
+      "display": "8,208,375,475",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T21:16:00Z",
-      "speed": 309.0
+      "time": "2026-09-23T21:28:00Z",
+      "speed": 306.0
     },
     "magneticField": {
-      "time": "2026-09-23T21:16:00Z",
+      "time": "2026-09-23T21:28:00Z",
       "bt": 13.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-23T18:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T21:13:00Z",
-      "forecastTime": "2026-09-23T22:41:00Z"
+      "observationTime": "2026-09-23T21:23:00Z",
+      "forecastTime": "2026-09-23T22:50:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
