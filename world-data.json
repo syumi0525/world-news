@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T19:43:29.352318+00:00",
+  "generatedAt": "2026-09-23T19:55:32.076216+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bishopsteignton in 2006.jpg",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
-    "license": "Public domain",
+    "title": "File:20190415 Yehliu geopark beach-1.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-1.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDYB",
-    "station": "KDYB",
-    "lat": 33.062,
-    "lon": -80.28,
+    "name": "KFIG",
+    "station": "KFIG",
+    "lat": 41.0465,
+    "lon": -78.4112,
     "weather": "No coded weather",
-    "temperature": 23.0,
-    "dewpoint": 20.0,
-    "windSpeed": 7.0,
-    "windDirection": 20.0,
-    "visibility": "9",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-23T19:35:00.000Z",
-    "observationTimestamp": "2026-09-23T19:35:00+00:00",
-    "raw": "METAR KDYB 231935Z AUTO 02007KT 9SM OVC018 23/20 A3008 RMK AO2"
+    "temperature": 17.8,
+    "dewpoint": 4.4,
+    "windSpeed": 13.0,
+    "windDirection": 70.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T18:54:00.000Z",
+    "observationTimestamp": "2026-09-23T18:54:00+00:00",
+    "raw": "METAR KFIG 231854Z AUTO 07013G20KT 10SM CLR 18/04 A3041 RMK AO2 SLP297 T01780044"
   },
   "randomPlace": {
-    "name": "KCTH",
-    "station": "KCTH",
-    "lat": 28.196,
-    "lon": -91.667,
+    "name": "KY49",
+    "station": "KY49",
+    "lat": 47.1599,
+    "lon": -94.6433,
     "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 25.0,
-    "windSpeed": 18.0,
-    "windDirection": 90.0,
-    "visibility": "8",
+    "temperature": 18.2,
+    "dewpoint": 8.8,
+    "windSpeed": 11.0,
+    "windDirection": 140.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-23T19:35:00.000Z",
     "observationTimestamp": "2026-09-23T19:35:00+00:00",
-    "raw": "METAR KCTH 231935Z AUTO 09018KT 8SM FEW026 32/25 A2998 RMK A01"
+    "raw": "METAR KY49 231935Z AUTO 14011G15KT 10SM 18/09 A3033 RMK AO2 T01820088"
   },
   "globalPulse": {
     "population": {
-      "value": 8208360490,
-      "display": "8,208,360,490",
+      "value": 8208362054,
+      "display": "8,208,362,054",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T19:35:00Z",
-      "speed": 292.0
+      "time": "2026-09-23T19:47:00Z",
+      "speed": 290.0
     },
     "magneticField": {
-      "time": "2026-09-23T19:35:00Z",
-      "bt": 10.0,
+      "time": "2026-09-23T19:47:00Z",
+      "bt": 12.0,
       "bz": 9.0
     },
     "kp": {
@@ -113,8 +113,8 @@
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T19:35:00Z",
-      "forecastTime": "2026-09-23T21:06:00Z"
+      "observationTime": "2026-09-23T19:45:00Z",
+      "forecastTime": "2026-09-23T21:16:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
