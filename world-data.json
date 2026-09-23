@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T03:58:12.253651+00:00",
+  "generatedAt": "2026-09-23T04:15:54.965545+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 183101 Gartenanlage Schätzl-Villa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
-    "license": "CC0",
+    "title": "File:DSC 9881 (49995148081).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94157272@N06\">Scott Willoughby</a>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_183101_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:DSC_9881_%2849995148081%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBBB",
-    "station": "KBBB",
-    "lat": 45.331,
-    "lon": -95.6469,
+    "name": "SCEL",
+    "station": "SCEL",
+    "lat": -33.393,
+    "lon": -70.786,
     "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 9.0,
-    "windSpeed": 6.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T03:40:00.000Z",
-    "observationTimestamp": "2026-09-23T03:40:00+00:00",
-    "raw": "METAR KBBB 230340Z AUTO VRB06KT 10SM CLR 13/09 A3031 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "OEJN",
-    "station": "OEJN",
-    "lat": 21.685,
-    "lon": 39.166,
-    "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 27.0,
-    "windSpeed": 4.0,
-    "windDirection": 330.0,
+    "temperature": 17.0,
+    "dewpoint": 7.0,
+    "windSpeed": 3.0,
+    "windDirection": 120.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T03:00:00.000Z",
-    "observationTimestamp": "2026-09-23T03:00:00+00:00",
-    "raw": "METAR OEJN 230300Z 33004KT CAVOK 30/27 Q1010 NOSIG"
+    "observationTime": "2026-09-23T04:00:00.000Z",
+    "observationTimestamp": "2026-09-23T04:00:00+00:00",
+    "raw": "METAR SCEL 230400Z 12003KT 080V170 9999 BKN150 BKN200 17/07 Q1017 NOSIG"
+  },
+  "randomPlace": {
+    "name": "UGKO",
+    "station": "UGKO",
+    "lat": 42.177,
+    "lon": 42.483,
+    "weather": "No coded weather",
+    "temperature": 23.0,
+    "dewpoint": 15.0,
+    "windSpeed": 15.0,
+    "windDirection": 80.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-23T04:00:00.000Z",
+    "observationTimestamp": "2026-09-23T04:00:00+00:00",
+    "raw": "METAR UGKO 230400Z 08015KT CAVOK 23/15 Q1008 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208237447,
-      "display": "8,208,237,447",
+      "value": 8208239755,
+      "display": "8,208,239,755",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-23T03:50:00Z",
-      "speed": 278.0
+      "time": "2026-09-23T04:09:00Z",
+      "speed": 281.0
     },
     "magneticField": {
-      "time": "2026-09-23T03:50:00Z",
+      "time": "2026-09-23T04:09:00Z",
       "bt": 5.0,
-      "bz": 2.0
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-23T00:00:00",
@@ -113,8 +113,8 @@
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-23T03:48:00Z",
-      "forecastTime": "2026-09-23T05:24:00Z"
+      "observationTime": "2026-09-23T04:03:00Z",
+      "forecastTime": "2026-09-23T05:39:00Z"
     },
     "flux10cm": {
       "time": "2026-09-22T20:00:00",
