@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T14:23:39.902967+00:00",
+  "generatedAt": "2026-09-24T14:42:13.977840+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Danau Tigi - Deiyai.jpg",
-    "artist": "Government of Deiyai, Indonesia",
+    "title": "File:RPPC From GS Jean Smith A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:RPPC_From_GS_Jean_Smith_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RJKA",
-    "station": "RJKA",
-    "lat": 28.431,
-    "lon": 129.713,
+    "name": "KINS",
+    "station": "KINS",
+    "lat": 36.586,
+    "lon": -115.69,
     "weather": "No coded weather",
-    "temperature": 24.0,
-    "dewpoint": 22.0,
-    "windSpeed": 2.0,
-    "windDirection": 350.0,
-    "visibility": "6+",
+    "temperature": 15.5,
+    "dewpoint": 6.8,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T14:00:00.000Z",
-    "observationTimestamp": "2026-09-24T14:00:00+00:00",
-    "raw": "METAR RJKA 241400Z AUTO 35002KT 9999 BKN036 OVC039 24/22 Q1015"
+    "observationTime": "2026-09-24T13:55:00.000Z",
+    "observationTimestamp": "2026-09-24T13:55:00+00:00",
+    "raw": "METAR KINS 241355Z 00000KT 10SM CLR 16/07 A3005 RMK AO2A SLP133 T01550068 $"
   },
   "randomPlace": {
-    "name": "LTAP",
-    "station": "LTAP",
-    "lat": 40.826,
-    "lon": 35.52,
+    "name": "PHOG",
+    "station": "PHOG",
+    "lat": 20.8887,
+    "lon": -156.4345,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 10.0,
-    "windSpeed": 14.0,
-    "windDirection": 50.0,
-    "visibility": "6+",
+    "temperature": 25.0,
+    "dewpoint": 22.2,
+    "windSpeed": 15.0,
+    "windDirection": 40.0,
+    "visibility": "9",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T13:50:00.000Z",
-    "observationTimestamp": "2026-09-24T13:50:00+00:00",
-    "raw": "METAR LTAP 241350Z 05014KT 9999 BKN035 15/10 Q1021 NOSIG"
+    "observationTime": "2026-09-24T13:54:00.000Z",
+    "observationTimestamp": "2026-09-24T13:54:00+00:00",
+    "raw": "METAR PHOG 241354Z AUTO 04015G23KT 9SM BKN033 BKN042 BKN050 25/22 A2984 RMK AO2 SLP109 T02500222 TSNO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8208506269,
-      "display": "8,208,506,269",
+      "value": 8208508686,
+      "display": "8,208,508,686",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T14:14:00Z",
-      "speed": 385.0
+      "time": "2026-09-24T14:32:00Z",
+      "speed": 409.0
     },
     "magneticField": {
-      "time": "2026-09-24T14:14:00Z",
+      "time": "2026-09-24T14:32:00Z",
       "bt": 11.0,
-      "bz": -9.0
+      "bz": -6.0
     },
     "kp": {
       "time": "2026-09-24T09:00:00",
       "kp": 4.33
     },
     "aurora": {
-      "value": 33.0,
-      "display": "MAX 33.0%",
+      "value": 36.0,
+      "display": "MAX 36.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T14:09:00Z",
-      "forecastTime": "2026-09-24T15:21:00Z"
+      "observationTime": "2026-09-24T14:29:00Z",
+      "forecastTime": "2026-09-24T15:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
