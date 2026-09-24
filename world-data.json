@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T04:58:25.760123+00:00",
+  "generatedAt": "2026-09-24T05:14:48.250186+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Au bonheur des tags (Démolition avant reconversion) (37932924806).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/110273693@N04\">Sylvie burr</a>",
-    "license": "CC0",
+    "title": "File:Driving in the village (49286320817).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Au_bonheur_des_tags_%28D%C3%A9molition_avant_reconversion%29_%2837932924806%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Driving_in_the_village_%2849286320817%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLQK",
-    "station": "KLQK",
-    "lat": 34.8069,
-    "lon": -82.7047,
-    "weather": "RA",
-    "temperature": 16.2,
-    "dewpoint": 15.1,
-    "windSpeed": 7.0,
-    "windDirection": 60.0,
+    "name": "KBVU",
+    "station": "KBVU",
+    "lat": 35.9489,
+    "lon": -114.8633,
+    "weather": "No coded weather",
+    "temperature": 25.0,
+    "dewpoint": 5.0,
+    "windSpeed": 3.0,
+    "windDirection": 30.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-24T04:35:00.000Z",
-    "observationTimestamp": "2026-09-24T04:35:00+00:00",
-    "raw": "METAR KLQK 240435Z AUTO 06007KT 10SM RA BKN010 OVC018 16/15 A3022 RMK AO2 T01620151"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T04:55:00.000Z",
+    "observationTimestamp": "2026-09-24T04:55:00+00:00",
+    "raw": "METAR KBVU 240455Z AUTO 03003KT 10SM CLR 25/05 A2992 RMK AO2"
   },
   "randomPlace": {
-    "name": "LICJ",
-    "station": "LICJ",
-    "lat": 38.176,
-    "lon": 13.091,
+    "name": "KADT",
+    "station": "KADT",
+    "lat": 39.8401,
+    "lon": -101.0448,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 13.0,
-    "windSpeed": 5.0,
-    "windDirection": 140.0,
-    "visibility": "6+",
+    "temperature": 17.0,
+    "dewpoint": 16.0,
+    "windSpeed": 6.0,
+    "windDirection": 170.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T04:50:00.000Z",
-    "observationTimestamp": "2026-09-24T04:50:00+00:00",
-    "raw": "METAR LICJ 240450Z 14005KT CAVOK 19/13 Q1022"
+    "observationTime": "2026-09-24T04:55:00.000Z",
+    "observationTimestamp": "2026-09-24T04:55:00+00:00",
+    "raw": "METAR KADT 240455Z AUTO 17006KT 10SM OVC031 17/16 A3022 RMK AO2 402590151"
   },
   "globalPulse": {
     "population": {
-      "value": 8208432720,
-      "display": "8,208,432,720",
+      "value": 8208434841,
+      "display": "8,208,434,841",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T04:50:00Z",
-      "speed": 333.0
+      "time": "2026-09-24T05:05:00Z",
+      "speed": 321.0
     },
     "magneticField": {
-      "time": "2026-09-24T04:50:00Z",
+      "time": "2026-09-24T05:05:00Z",
       "bt": 13.0,
-      "bz": 0.0
+      "bz": -7.0
     },
     "kp": {
       "time": "2026-09-24T00:00:00",
@@ -113,8 +113,8 @@
       "value": 31.0,
       "display": "MAX 31.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T04:43:00Z",
-      "forecastTime": "2026-09-24T06:04:00Z"
+      "observationTime": "2026-09-24T05:05:00Z",
+      "forecastTime": "2026-09-24T06:25:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
