@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T11:15:58.422641+00:00",
+  "generatedAt": "2026-09-24T11:31:23.894508+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Felsenbirne (Amelanchier) berries.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Speakfluid&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Speakfluid (page does not exist)\">Speakfluid</a>",
+    "title": "File:A river is a natural.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:J.Doniyorovich&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:J.Doniyorovich (page does not exist)\">J.Doniyorovich</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Felsenbirne_%28Amelanchier%29_berries.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_river_is_a_natural.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KVRB",
-    "station": "KVRB",
-    "lat": 27.6553,
-    "lon": -80.4142,
+    "name": "CWJR",
+    "station": "CWJR",
+    "lat": 49.04,
+    "lon": -116.483,
     "weather": "No coded weather",
-    "temperature": 23.9,
-    "dewpoint": 23.3,
+    "temperature": 11.6,
+    "dewpoint": 4.6,
     "windSpeed": 7.0,
-    "windDirection": 320.0,
+    "windDirection": 50.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-24T11:00:00.000Z",
+    "observationTimestamp": "2026-09-24T11:00:00+00:00",
+    "raw": "METAR CWJR 241100Z AUTO 05007KT 12/05 RMK AO1 SLP181 T01160046 52001"
+  },
+  "randomPlace": {
+    "name": "KTYR",
+    "station": "KTYR",
+    "lat": 32.3587,
+    "lon": -95.404,
+    "weather": "No coded weather",
+    "temperature": 24.4,
+    "dewpoint": 16.7,
+    "windSpeed": 7.0,
+    "windDirection": 80.0,
     "visibility": "10+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-24T10:53:00.000Z",
     "observationTimestamp": "2026-09-24T10:53:00+00:00",
-    "raw": "METAR KVRB 241053Z 32007KT 10SM CLR 24/23 A2991 RMK AO2 SLP126 T02390233"
-  },
-  "randomPlace": {
-    "name": "KACB",
-    "station": "KACB",
-    "lat": 44.9867,
-    "lon": -85.2022,
-    "weather": "BR",
-    "temperature": 4.6,
-    "dewpoint": 4.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "2.5",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-24T10:55:00.000Z",
-    "observationTimestamp": "2026-09-24T10:55:00+00:00",
-    "raw": "METAR KACB 241055Z AUTO 00000KT 2 1/2SM BR SCT002 05/04 A3047 RMK AO2 VIS 3/4V5 T00460040"
+    "raw": "METAR KTYR 241053Z AUTO 08007KT 10SM FEW065 24/17 A3013 RMK AO2 SLP194 T02440167"
   },
   "globalPulse": {
     "population": {
-      "value": 8208481855,
-      "display": "8,208,481,855",
+      "value": 8208483869,
+      "display": "8,208,483,869",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T11:08:00Z",
-      "speed": 391.0
+      "time": "2026-09-24T11:23:00Z",
+      "speed": 380.0
     },
     "magneticField": {
-      "time": "2026-09-24T11:08:00Z",
-      "bt": 11.0,
-      "bz": -1.0
+      "time": "2026-09-24T11:23:00Z",
+      "bt": 10.0,
+      "bz": -7.0
     },
     "kp": {
       "time": "2026-09-24T06:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 37.0,
-      "display": "MAX 37.0%",
+      "value": 38.0,
+      "display": "MAX 38.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T11:05:00Z",
-      "forecastTime": "2026-09-24T12:13:00Z"
+      "observationTime": "2026-09-24T11:21:00Z",
+      "forecastTime": "2026-09-24T12:28:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
