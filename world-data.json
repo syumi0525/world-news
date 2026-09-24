@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T06:15:06.883696+00:00",
+  "generatedAt": "2026-09-24T06:37:17.144496+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Albino snail on green moss turn arround.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hariyono_Suwardi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hariyono Suwardi (page does not exist)\">Hariyono Suwardi</a>",
-    "license": "CC0",
+    "title": "File:Bamnera River.jpg",
+    "artist": "",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Albino_snail_on_green_moss_turn_arround.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bamnera_River.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KEDJ",
-    "station": "KEDJ",
-    "lat": 40.3714,
-    "lon": -83.8142,
+    "name": "SCPQ",
+    "station": "SCPQ",
+    "lat": -42.347,
+    "lon": -73.718,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 15.0,
-    "windSpeed": 3.0,
-    "windDirection": 100.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-24T05:55:00.000Z",
-    "observationTimestamp": "2026-09-24T05:55:00+00:00",
-    "raw": "METAR KEDJ 240555Z AUTO 10003KT 10SM BKN037 OVC043 15/15 A3030 RMK A01"
+    "temperature": 11.0,
+    "dewpoint": 11.0,
+    "windSpeed": 9.0,
+    "windDirection": 340.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-09-24T06:00:00.000Z",
+    "observationTimestamp": "2026-09-24T06:00:00+00:00",
+    "raw": "METAR SCPQ 240600Z AUTO 34009KT //// R35///// // FEW005 OVC007 11/11 Q0997"
   },
   "randomPlace": {
-    "name": "K1BW",
-    "station": "K1BW",
-    "lat": 41.511,
-    "lon": -103.995,
+    "name": "KWBF",
+    "station": "KWBF",
+    "lat": 26.9305,
+    "lon": -90.5069,
     "weather": "No coded weather",
-    "temperature": 15.4,
-    "dewpoint": 10.2,
-    "windSpeed": 11.0,
-    "windDirection": 230.0,
+    "temperature": 29.0,
+    "dewpoint": 25.0,
+    "windSpeed": 4.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T05:55:00.000Z",
-    "observationTimestamp": "2026-09-24T05:55:00+00:00",
-    "raw": "METAR K1BW 240555Z AUTO 23011KT 10SM FEW090 BKN210 15/10 A3024 RMK AO2 SLP190 60004 T01540102 10174 20149 53003 $"
+    "observationTime": "2026-09-24T06:15:00.000Z",
+    "observationTimestamp": "2026-09-24T06:15:00+00:00",
+    "raw": "METAR KWBF 240615Z AUTO VRB04KT 10SM FEW041 FEW055 SCT085 29/25 A3000 RMK A01"
   },
   "globalPulse": {
     "population": {
-      "value": 8208442679,
-      "display": "8,208,442,679",
+      "value": 8208445567,
+      "display": "8,208,445,567",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T06:07:00Z",
-      "speed": 332.0
+      "time": "2026-09-24T06:29:00Z",
+      "speed": 333.0
     },
     "magneticField": {
-      "time": "2026-09-24T06:07:00Z",
-      "bt": 15.0,
-      "bz": -1.0
+      "time": "2026-09-24T06:29:00Z",
+      "bt": 13.0,
+      "bz": -10.0
     },
     "kp": {
       "time": "2026-09-24T03:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 38.0,
-      "display": "MAX 38.0%",
+      "value": 34.0,
+      "display": "MAX 34.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T06:04:00Z",
-      "forecastTime": "2026-09-24T07:24:00Z"
+      "observationTime": "2026-09-24T06:24:00Z",
+      "forecastTime": "2026-09-24T07:45:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
