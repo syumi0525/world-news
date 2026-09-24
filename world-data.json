@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T02:56:50.769568+00:00",
+  "generatedAt": "2026-09-24T03:11:59.420162+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Early Fall Stream (50345907818).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/158934835@N04\">Mark Steele</a>",
-    "license": "Public domain",
+    "title": "File:Doubtful Sound - Patea - DoubtfulSound9081.jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/199350666@N08\">lumoplank</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Early_Fall_Stream_%2850345907818%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Doubtful_Sound_-_Patea_-_DoubtfulSound9081.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCWV",
-    "station": "KCWV",
-    "lat": 32.193,
-    "lon": -81.873,
+    "name": "GMFK",
+    "station": "GMFK",
+    "lat": 31.946,
+    "lon": -4.399,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 20.0,
-    "windSpeed": 5.0,
+    "temperature": 19.0,
+    "dewpoint": 8.0,
+    "windSpeed": 1.0,
     "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-24T02:35:00.000Z",
-    "observationTimestamp": "2026-09-24T02:35:00+00:00",
-    "raw": "METAR KCWV 240235Z AUTO VRB05KT 10SM OVC015 21/20 A3012 RMK AO2"
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T03:00:00.000Z",
+    "observationTimestamp": "2026-09-24T03:00:00+00:00",
+    "raw": "METAR GMFK 240300Z VRB01KT CAVOK 19/08 Q1025 NOSIG"
   },
   "randomPlace": {
-    "name": "OTBH",
-    "station": "OTBH",
-    "lat": 25.117,
-    "lon": 51.315,
-    "weather": "HZ",
-    "temperature": 29.7,
-    "dewpoint": 26.2,
-    "windSpeed": 3.0,
-    "windDirection": 0.0,
-    "visibility": "5.59",
+    "name": "KLUV",
+    "station": "KLUV",
+    "lat": 32.7481,
+    "lon": -101.9127,
+    "weather": "No coded weather",
+    "temperature": 25.0,
+    "dewpoint": 16.0,
+    "windSpeed": 6.0,
+    "windDirection": 140.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T01:55:00.000Z",
-    "observationTimestamp": "2026-09-24T01:55:00+00:00",
-    "raw": "METAR OTBH 240155Z VRB03KT 9000 HZ CLR 30/26 A2972 Q1006 RMK AO2A SLP064 T02970262 FZRANO $"
+    "observationTime": "2026-09-24T02:55:00.000Z",
+    "observationTimestamp": "2026-09-24T02:55:00+00:00",
+    "raw": "METAR KLUV 240255Z AUTO 14006KT 10SM CLR 25/16 A3014 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8208416871,
-      "display": "8,208,416,871",
+      "value": 8208418845,
+      "display": "8,208,418,845",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-23T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.7,
-      "display": "Kp 1.7",
+      "value": 3.0,
+      "display": "Kp 3.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-23T21:00:00"
+      "time": "2026-09-24T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T02:51:00Z",
-      "speed": 321.0
+      "time": "2026-09-24T03:03:00Z",
+      "speed": 343.0
     },
     "magneticField": {
-      "time": "2026-09-24T02:51:00Z",
-      "bt": 13.0,
-      "bz": -1.0
+      "time": "2026-09-24T03:03:00Z",
+      "bt": 14.0,
+      "bz": 1.0
     },
     "kp": {
-      "time": "2026-09-23T21:00:00",
-      "kp": 1.67
+      "time": "2026-09-24T00:00:00",
+      "kp": 3.0
     },
     "aurora": {
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T02:49:00Z",
-      "forecastTime": "2026-09-24T04:13:00Z"
+      "observationTime": "2026-09-24T03:01:00Z",
+      "forecastTime": "2026-09-24T04:22:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
