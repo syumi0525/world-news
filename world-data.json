@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T03:58:13.975633+00:00",
+  "generatedAt": "2026-09-24T04:16:08.256843+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 183103 Gartenanlage Schätzl-Villa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "title": "File:Albino snail on green moss turn arround.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hariyono_Suwardi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hariyono Suwardi (page does not exist)\">Hariyono Suwardi</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_183103_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Albino_snail_on_green_moss_turn_arround.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "UZFF",
-    "station": "UZFF",
-    "lat": 40.356,
-    "lon": 71.745,
+    "name": "PHKO",
+    "station": "PHKO",
+    "lat": 19.7378,
+    "lon": -156.048,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 10.0,
-    "windSpeed": 2.0,
-    "windDirection": 330.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-24T03:30:00.000Z",
-    "observationTimestamp": "2026-09-24T03:30:00+00:00",
-    "raw": "METAR UZFF 240330Z 33002KT 9999 SCT066CB 22/10 Q1015"
-  },
-  "randomPlace": {
-    "name": "KPSF",
-    "station": "KPSF",
-    "lat": 42.4269,
-    "lon": -73.2891,
-    "weather": "No coded weather",
-    "temperature": 5.6,
-    "dewpoint": 5.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 28.9,
+    "dewpoint": 24.4,
+    "windSpeed": 8.0,
+    "windDirection": 190.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T02:54:00.000Z",
-    "observationTimestamp": "2026-09-24T02:54:00+00:00",
-    "raw": "METAR KPSF 240254Z AUTO 00000KT 10SM CLR 06/05 A3051 RMK AO2 SLP326 T00560050 50003"
+    "observationTime": "2026-09-24T03:53:00.000Z",
+    "observationTimestamp": "2026-09-24T03:53:00+00:00",
+    "raw": "METAR PHKO 240353Z 19008KT 10SM FEW035 OVC050 29/24 A2982 RMK AO2 SLP097 T02890244"
+  },
+  "randomPlace": {
+    "name": "VERW",
+    "station": "VERW",
+    "lat": 24.5034,
+    "lon": 81.2203,
+    "weather": "BR",
+    "temperature": 25.0,
+    "dewpoint": 24.0,
+    "windSpeed": 8.0,
+    "windDirection": 50.0,
+    "visibility": "1.86",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-24T04:00:00.000Z",
+    "observationTimestamp": "2026-09-24T04:00:00+00:00",
+    "raw": "METAR VERW 240400Z 05008KT 3000 BR SCT010 BKN020 BKN100 25/24 Q1008 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208424882,
-      "display": "8,208,424,882",
+      "value": 8208427203,
+      "display": "8,208,427,203",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T03:52:00Z",
-      "speed": 333.0
+      "time": "2026-09-24T04:07:00Z",
+      "speed": 352.0
     },
     "magneticField": {
-      "time": "2026-09-24T03:52:00Z",
-      "bt": 13.0,
-      "bz": -1.0
+      "time": "2026-09-24T04:07:00Z",
+      "bt": 9.0,
+      "bz": -8.0
     },
     "kp": {
       "time": "2026-09-24T00:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T03:49:00Z",
-      "forecastTime": "2026-09-24T05:09:00Z"
+      "observationTime": "2026-09-24T04:05:00Z",
+      "forecastTime": "2026-09-24T05:23:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
