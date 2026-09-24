@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T08:14:02.288803+00:00",
+  "generatedAt": "2026-09-24T08:32:55.914952+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 183936 Gartenanlage Schätzl-Villa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
-    "license": "CC0",
+    "title": "File:Benue River (early 1900s).jpg",
+    "artist": "Hans Dominik",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_183936_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Benue_River_%28early_1900s%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ESNZ",
-    "station": "ESNZ",
-    "lat": 63.199,
-    "lon": 14.489,
-    "weather": "-DZ",
-    "temperature": 8.0,
-    "dewpoint": 7.0,
-    "windSpeed": 17.0,
-    "windDirection": 280.0,
-    "visibility": "1.86",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-24T07:50:00.000Z",
-    "observationTimestamp": "2026-09-24T07:50:00+00:00",
-    "raw": "METAR ESNZ 240750Z 28017KT 3000 -DZ OVC004 08/07 Q1015"
-  },
-  "randomPlace": {
-    "name": "CYHY",
-    "station": "CYHY",
-    "lat": 60.839,
-    "lon": -115.781,
+    "name": "ULAA",
+    "station": "ULAA",
+    "lat": 64.599,
+    "lon": 40.712,
     "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": 5.0,
+    "temperature": 15.0,
+    "dewpoint": 11.0,
     "windSpeed": 8.0,
-    "windDirection": 210.0,
-    "visibility": "15",
+    "windDirection": 120.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-24T08:00:00.000Z",
     "observationTimestamp": "2026-09-24T08:00:00+00:00",
-    "raw": "METAR CYHY 240800Z 21008KT 15SM SKC 07/05 A2979 RMK SLP095"
+    "raw": "METAR ULAA 240800Z 12004MPS 090V160 CAVOK 15/11 Q1023 R08/CLRD70 NOSIG RMK QFE766/1022"
+  },
+  "randomPlace": {
+    "name": "LSZH",
+    "station": "LSZH",
+    "lat": 47.48,
+    "lon": 8.536,
+    "weather": "No coded weather",
+    "temperature": 15.0,
+    "dewpoint": 10.0,
+    "windSpeed": 3.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T08:20:00.000Z",
+    "observationTimestamp": "2026-09-24T08:20:00+00:00",
+    "raw": "METAR LSZH 240820Z VRB03KT CAVOK 15/10 Q1025 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208458136,
-      "display": "8,208,458,136",
+      "value": 8208460618,
+      "display": "8,208,460,618",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T08:05:00Z",
-      "speed": 345.0
+      "time": "2026-09-24T08:26:00Z",
+      "speed": 370.0
     },
     "magneticField": {
-      "time": "2026-09-24T08:05:00Z",
-      "bt": 15.0,
-      "bz": -12.0
+      "time": "2026-09-24T08:26:00Z",
+      "bt": 11.0,
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-24T03:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 44.0,
-      "display": "MAX 44.0%",
+      "value": 49.0,
+      "display": "MAX 49.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T08:02:00Z",
-      "forecastTime": "2026-09-24T09:23:00Z"
+      "observationTime": "2026-09-24T08:23:00Z",
+      "forecastTime": "2026-09-24T09:42:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
