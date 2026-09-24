@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T09:40:23.503373+00:00",
+  "generatedAt": "2026-09-24T09:56:28.072197+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bishopsteignton in 2006.jpg",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
-    "license": "Public domain",
+    "title": "File:Chamba Dam AWC Water For In Africa 2026.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmakigmabi_Nakoja_Justice&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmakigmabi Nakoja Justice (page does not exist)\">Gmakigmabi Nakoja Justice</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chamba_Dam_AWC_Water_For_In_Africa_2026.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLMT",
-    "station": "KLMT",
-    "lat": 42.147,
-    "lon": -121.7255,
-    "weather": "No coded weather",
-    "temperature": 5.6,
-    "dewpoint": 2.2,
+    "name": "KK24",
+    "station": "KK24",
+    "lat": 37.009,
+    "lon": -85.103,
+    "weather": "-DZ",
+    "temperature": 18.4,
+    "dewpoint": 17.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-24T08:53:00.000Z",
-    "observationTimestamp": "2026-09-24T08:53:00+00:00",
-    "raw": "METAR KLMT 240853Z AUTO 00000KT 10SM CLR 06/02 A3008 RMK AO2 SLP159 T00560022 58003"
-  },
-  "randomPlace": {
-    "name": "KLYV",
-    "station": "KLYV",
-    "lat": 43.6217,
-    "lon": -96.2139,
-    "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 12.0,
-    "windSpeed": 7.0,
-    "windDirection": 150.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-24T09:35:00.000Z",
     "observationTimestamp": "2026-09-24T09:35:00+00:00",
-    "raw": "METAR KLYV 240935Z AUTO 15007KT 10SM CLR 15/12 A3025 RMK AO2"
+    "raw": "METAR KK24 240935Z AUTO 00000KT 10SM -DZ OVC010 18/17 A3018 RMK AO2 T01840170"
+  },
+  "randomPlace": {
+    "name": "HKLU",
+    "station": "HKLU",
+    "lat": -2.252,
+    "lon": 40.913,
+    "weather": "No coded weather",
+    "temperature": 30.0,
+    "dewpoint": 22.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T09:00:00.000Z",
+    "observationTimestamp": "2026-09-24T09:00:00+00:00",
+    "raw": "METAR HKLU 240900Z 00000KT 9999 SCT026 30/22 Q1017"
   },
   "globalPulse": {
     "population": {
-      "value": 8208469414,
-      "display": "8,208,469,414",
+      "value": 8208471508,
+      "display": "8,208,471,508",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T09:32:00Z",
-      "speed": 378.0
+      "time": "2026-09-24T09:47:00Z",
+      "speed": 384.0
     },
     "magneticField": {
-      "time": "2026-09-24T09:32:00Z",
-      "bt": 11.0,
-      "bz": 4.0
+      "time": "2026-09-24T09:47:00Z",
+      "bt": 10.0,
+      "bz": 6.0
     },
     "kp": {
       "time": "2026-09-24T06:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 41.0,
-      "display": "MAX 41.0%",
+      "value": 37.0,
+      "display": "MAX 37.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T09:29:00Z",
-      "forecastTime": "2026-09-24T10:41:00Z"
+      "observationTime": "2026-09-24T09:45:00Z",
+      "forecastTime": "2026-09-24T10:56:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
