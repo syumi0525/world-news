@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T10:49:13.519944+00:00",
+  "generatedAt": "2026-09-24T10:58:46.620138+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260822 092805 vista panorámica.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "title": "File:Slowly Albino snail on green moss.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hariyono_Suwardi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hariyono Suwardi (page does not exist)\">Hariyono Suwardi</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260822_092805_vista_panor%C3%A1mica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Slowly_Albino_snail_on_green_moss.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KVPC",
-    "station": "KVPC",
-    "lat": 34.1159,
-    "lon": -84.8507,
+    "name": "KCXU",
+    "station": "KCXU",
+    "lat": 31.2142,
+    "lon": -84.2358,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 17.0,
-    "windSpeed": 5.0,
+    "temperature": 21.0,
+    "dewpoint": 20.0,
+    "windSpeed": 6.0,
     "windDirection": 0.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-24T10:35:00.000Z",
     "observationTimestamp": "2026-09-24T10:35:00+00:00",
-    "raw": "METAR KVPC 241035Z AUTO VRB05G10KT 10SM 19/17 A3017 RMK AO2"
+    "raw": "METAR KCXU 241035Z AUTO VRB06KT 10SM SCT014 OVC023 21/20 A3008 RMK AO2"
   },
   "randomPlace": {
-    "name": "CYCA",
-    "station": "CYCA",
-    "lat": 53.683,
-    "lon": -57.042,
+    "name": "KTKI",
+    "station": "KTKI",
+    "lat": 33.1828,
+    "lon": -96.5899,
     "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 7.0,
-    "windSpeed": 7.0,
-    "windDirection": 220.0,
-    "visibility": "9",
+    "temperature": 24.4,
+    "dewpoint": 17.2,
+    "windSpeed": 6.0,
+    "windDirection": 100.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T10:00:00.000Z",
-    "observationTimestamp": "2026-09-24T10:00:00+00:00",
-    "raw": "METAR CYCA 241000Z AUTO 22007KT 9SM CLR 12/07 A3002 RMK SLP168"
+    "observationTime": "2026-09-24T10:53:00.000Z",
+    "observationTimestamp": "2026-09-24T10:53:00+00:00",
+    "raw": "METAR KTKI 241053Z 10006KT 10SM BKN060 24/17 A3012 RMK AO2 SLP193 T02440172"
   },
   "globalPulse": {
     "population": {
-      "value": 8208478361,
-      "display": "8,208,478,361",
+      "value": 8208479612,
+      "display": "8,208,479,612",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T10:42:00Z",
-      "speed": 399.0
+      "time": "2026-09-24T10:52:00Z",
+      "speed": 388.0
     },
     "magneticField": {
-      "time": "2026-09-24T10:42:00Z",
-      "bt": 11.0,
-      "bz": -7.0
+      "time": "2026-09-24T10:50:00Z",
+      "bt": 10.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-24T06:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 36.0,
-      "display": "MAX 36.0%",
+      "value": 38.0,
+      "display": "MAX 38.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T10:39:00Z",
-      "forecastTime": "2026-09-24T11:49:00Z"
+      "observationTime": "2026-09-24T10:44:00Z",
+      "forecastTime": "2026-09-24T11:54:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
