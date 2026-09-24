@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T00:38:11.586939+00:00",
+  "generatedAt": "2026-09-24T00:52:52.739347+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Aga Khan Peak.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Xonoo\" title=\"User:Xonoo\">Xonoo</a>",
+    "title": "File:Felsenbirne (Amelanchier) berries.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Speakfluid&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Speakfluid (page does not exist)\">Speakfluid</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Aga_Khan_Peak.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Felsenbirne_%28Amelanchier%29_berries.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBPT",
-    "station": "KBPT",
-    "lat": 29.9521,
-    "lon": -94.0262,
-    "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 23.3,
-    "windSpeed": 4.0,
-    "windDirection": 170.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-23T23:53:00.000Z",
-    "observationTimestamp": "2026-09-23T23:53:00+00:00",
-    "raw": "METAR KBPT 232353Z 17004KT 10SM CLR 30/23 A2998 RMK AO2 SLP152 T03000233 10350 20300 53001"
+    "name": "CYPG",
+    "station": "CYPG",
+    "lat": 49.903,
+    "lon": -98.284,
+    "weather": "-SHRA",
+    "temperature": 16.0,
+    "dewpoint": 12.0,
+    "windSpeed": 9.0,
+    "windDirection": 150.0,
+    "visibility": "15",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-24T00:16:00.000Z",
+    "observationTimestamp": "2026-09-24T00:16:00+00:00",
+    "raw": "SPECI CYPG 240016Z 15009KT 15SM -SHRA BKN028 OVC075 16/12 A3015 RMK SC7AC1 DENSITY ALT 1114FT SLP214"
   },
   "randomPlace": {
-    "name": "WARR",
-    "station": "WARR",
-    "lat": -7.38,
-    "lon": 112.787,
+    "name": "EGPD",
+    "station": "EGPD",
+    "lat": 57.205,
+    "lon": -2.205,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 25.0,
-    "windSpeed": 6.0,
-    "windDirection": 140.0,
+    "temperature": 4.0,
+    "dewpoint": 4.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T00:30:00.000Z",
-    "observationTimestamp": "2026-09-24T00:30:00+00:00",
-    "raw": "METAR WARR 240030Z 14006KT 9999 FEW020 29/25 Q1013 NOSIG"
+    "observationTime": "2026-09-24T00:20:00.000Z",
+    "observationTimestamp": "2026-09-24T00:20:00+00:00",
+    "raw": "METAR EGPD 240020Z AUTO VRB02KT 9999 NCD 04/04 Q1025"
   },
   "globalPulse": {
     "population": {
-      "value": 8208398824,
-      "display": "8,208,398,824",
+      "value": 8208400733,
+      "display": "8,208,400,733",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T00:28:00Z",
-      "speed": 312.0
+      "time": "2026-09-24T00:42:00Z",
+      "speed": 314.0
     },
     "magneticField": {
-      "time": "2026-09-24T00:28:00Z",
-      "bt": 12.0,
-      "bz": 3.0
+      "time": "2026-09-24T00:42:00Z",
+      "bt": 11.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-23T21:00:00",
@@ -113,8 +113,8 @@
       "value": 22.0,
       "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T00:25:00Z",
-      "forecastTime": "2026-09-24T01:51:00Z"
+      "observationTime": "2026-09-24T00:44:00Z",
+      "forecastTime": "2026-09-24T02:09:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
