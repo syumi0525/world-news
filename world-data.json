@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T01:52:02.685987+00:00",
+  "generatedAt": "2026-09-24T02:09:29.389194+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:E2119 - DPLA - 13f523e746d9f6af02859e4f3afe5877.jpg",
-    "artist": "Department of Energy. Bonneville Power Administration. 10/1/1977",
+    "title": "File:Ditches, Dust, and Distance - DPLA - 62b7f33dfac43e4f5d60db1effaae5eb.jpg",
+    "artist": "Department of the Interior. Bureau of Indian Affairs. Pierre Agency. 1954-1972",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:E2119_-_DPLA_-_13f523e746d9f6af02859e4f3afe5877.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ditches%2C_Dust%2C_and_Distance_-_DPLA_-_62b7f33dfac43e4f5d60db1effaae5eb.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRCV",
-    "station": "KRCV",
-    "lat": 37.7092,
-    "lon": -106.3549,
-    "weather": "-DZ",
-    "temperature": 10.6,
-    "dewpoint": 9.7,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
+    "name": "YAYE",
+    "station": "YAYE",
+    "lat": -25.173,
+    "lon": 130.975,
+    "weather": "No coded weather",
+    "temperature": 32.0,
+    "dewpoint": 2.0,
+    "windSpeed": 7.0,
+    "windDirection": 10.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T01:35:00.000Z",
-    "observationTimestamp": "2026-09-24T01:35:00+00:00",
-    "raw": "METAR KRCV 240135Z AUTO 00000KT 10SM -DZ SCT060 OVC075 11/10 A3037 RMK AO2 T01060097"
+    "observationTime": "2026-09-24T02:00:00.000Z",
+    "observationTimestamp": "2026-09-24T02:00:00+00:00",
+    "raw": "METAR YAYE 240200Z AUTO 01007KT 9999 // NCD 32/02 Q1021"
   },
   "randomPlace": {
-    "name": "KSBN",
-    "station": "KSBN",
-    "lat": 41.7072,
-    "lon": -86.3163,
+    "name": "KGYL",
+    "station": "KGYL",
+    "lat": 44.7588,
+    "lon": -94.0905,
     "weather": "No coded weather",
-    "temperature": 16.7,
-    "dewpoint": 11.1,
-    "windSpeed": 4.0,
-    "windDirection": 50.0,
+    "temperature": 14.8,
+    "dewpoint": 9.7,
+    "windSpeed": 7.0,
+    "windDirection": 110.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T00:54:00.000Z",
-    "observationTimestamp": "2026-09-24T00:54:00+00:00",
-    "raw": "METAR KSBN 240054Z 05004KT 10SM OVC045 17/11 A3035 RMK AO2 SLP279 T01670111"
+    "observationTime": "2026-09-24T01:55:00.000Z",
+    "observationTimestamp": "2026-09-24T01:55:00+00:00",
+    "raw": "METAR KGYL 240155Z AUTO 11007KT 10SM CLR 15/10 A3031 RMK AO2 T01480097"
   },
   "globalPulse": {
     "population": {
-      "value": 8208408434,
-      "display": "8,208,408,434",
+      "value": 8208410708,
+      "display": "8,208,410,708",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T01:44:00Z",
-      "speed": 316.0
+      "time": "2026-09-24T01:58:00Z",
+      "speed": 318.0
     },
     "magneticField": {
-      "time": "2026-09-24T01:44:00Z",
+      "time": "2026-09-24T01:59:00Z",
       "bt": 14.0,
       "bz": 3.0
     },
@@ -113,8 +113,8 @@
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T01:40:00Z",
-      "forecastTime": "2026-09-24T03:04:00Z"
+      "observationTime": "2026-09-24T01:58:00Z",
+      "forecastTime": "2026-09-24T03:24:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
