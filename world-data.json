@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T01:24:11.373818+00:00",
+  "generatedAt": "2026-09-24T01:39:27.120038+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A misty forest road in Coonoor.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
+    "title": "File:Chamba Dam AWC Water For In Africa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmakigmabi_Nakoja_Justice&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmakigmabi Nakoja Justice (page does not exist)\">Gmakigmabi Nakoja Justice</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chamba_Dam_AWC_Water_For_In_Africa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OISS",
-    "station": "OISS",
-    "lat": 29.539,
-    "lon": 52.59,
+    "name": "MHPR",
+    "station": "MHPR",
+    "lat": 14.382,
+    "lon": -87.621,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 5.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 25.0,
+    "dewpoint": 22.0,
+    "windSpeed": 12.0,
+    "windDirection": 210.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-24T01:00:00.000Z",
     "observationTimestamp": "2026-09-24T01:00:00+00:00",
-    "raw": "METAR OISS 240100Z 00000KT CAVOK 18/05 Q1020 A3012"
+    "raw": "METAR MHPR 240100Z 21012KT 9999 SCT046TCU FEW048CB BKN080 25/22 Q1016 A3000 NOSIG RMK CB TS,E,NW"
   },
   "randomPlace": {
-    "name": "K3AU",
-    "station": "K3AU",
-    "lat": 37.6729,
-    "lon": -97.0792,
+    "name": "LFMV",
+    "station": "LFMV",
+    "lat": 43.911,
+    "lon": 4.903,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 13.0,
-    "windSpeed": 5.0,
-    "windDirection": 90.0,
-    "visibility": "10+",
+    "temperature": 15.0,
+    "dewpoint": 14.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T01:15:00.000Z",
-    "observationTimestamp": "2026-09-24T01:15:00+00:00",
-    "raw": "METAR K3AU 240115Z AUTO 09005KT 10SM CLR 22/13 A3021 RMK AO2"
+    "observationTime": "2026-09-24T01:30:00.000Z",
+    "observationTimestamp": "2026-09-24T01:30:00+00:00",
+    "raw": "METAR LFMV 240130Z AUTO VRB02KT CAVOK 15/14 Q1022"
   },
   "globalPulse": {
     "population": {
-      "value": 8208404807,
-      "display": "8,208,404,807",
+      "value": 8208406796,
+      "display": "8,208,406,796",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T01:13:00Z",
-      "speed": 315.0
+      "time": "2026-09-24T01:30:00Z",
+      "speed": 320.0
     },
     "magneticField": {
-      "time": "2026-09-24T01:13:00Z",
-      "bt": 12.0,
-      "bz": -2.0
+      "time": "2026-09-24T01:30:00Z",
+      "bt": 13.0,
+      "bz": 2.0
     },
     "kp": {
       "time": "2026-09-23T21:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 23.0,
+      "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T01:15:00Z",
-      "forecastTime": "2026-09-24T02:39:00Z"
+      "observationTime": "2026-09-24T01:30:00Z",
+      "forecastTime": "2026-09-24T02:54:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
