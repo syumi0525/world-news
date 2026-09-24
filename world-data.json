@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T23:54:39.816827+00:00",
+  "generatedAt": "2026-09-24T00:12:18.182057+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Basilique de Fourvière à Lyon, vue d'en bas.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PerrineSCDUM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PerrineSCDUM (page does not exist)\">PerrineSCDUM</a>",
-    "license": "CC0",
+    "title": "File:Explanation of axle arrangement.jpg",
+    "artist": "Illustrierte Technik für Jedermann",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_%C3%A0_Lyon%2C_vue_d%27en_bas.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Explanation_of_axle_arrangement.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KCCO",
-    "station": "KCCO",
-    "lat": 33.3107,
-    "lon": -84.7713,
+    "name": "KMIA",
+    "station": "KMIA",
+    "lat": 25.7881,
+    "lon": -80.3169,
     "weather": "No coded weather",
-    "temperature": 24.5,
-    "dewpoint": 19.1,
-    "windSpeed": 6.0,
+    "temperature": 26.7,
+    "dewpoint": 23.3,
+    "windSpeed": 8.0,
     "windDirection": 80.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T23:35:00.000Z",
-    "observationTimestamp": "2026-09-23T23:35:00+00:00",
-    "raw": "METAR KCCO 232335Z AUTO 08006KT 10SM SCT100 25/19 A3011 RMK AO2 T02450191"
+    "observationTime": "2026-09-23T23:53:00.000Z",
+    "observationTimestamp": "2026-09-23T23:53:00+00:00",
+    "raw": "METAR KMIA 232353Z 08008KT 10SM FEW020 FEW170 BKN250 27/23 A2992 RMK AO2 SLP130 OCNL LTGIC DSNT NW CB DSNT NW T02670233 10283 20267 50007 $"
   },
   "randomPlace": {
-    "name": "KDQH",
-    "station": "KDQH",
-    "lat": 31.4738,
-    "lon": -82.8609,
+    "name": "KRIV",
+    "station": "KRIV",
+    "lat": 33.878,
+    "lon": -117.244,
     "weather": "No coded weather",
-    "temperature": 25.6,
-    "dewpoint": 20.1,
-    "windSpeed": 10.0,
-    "windDirection": 30.0,
+    "temperature": 34.1,
+    "dewpoint": 10.0,
+    "windSpeed": 12.0,
+    "windDirection": 310.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-23T23:35:00.000Z",
-    "observationTimestamp": "2026-09-23T23:35:00+00:00",
-    "raw": "METAR KDQH 232335Z AUTO 03010KT 10SM CLR 26/20 A3007 RMK AO2 T02560201"
+    "observationTime": "2026-09-23T23:55:00.000Z",
+    "observationTimestamp": "2026-09-23T23:55:00+00:00",
+    "raw": "METAR KRIV 232355Z AUTO 31012KT 10SM CLR 34/10 A2980 RMK AO2 SLP076 T03410100 10365 20312 55006"
   },
   "globalPulse": {
     "population": {
-      "value": 8208393181,
-      "display": "8,208,393,181",
+      "value": 8208395453,
+      "display": "8,208,395,453",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,7 +92,7 @@
       "value": 1.7,
       "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-23T18:00:00"
+      "time": "2026-09-23T21:00:00"
     }
   },
   "space": {
@@ -106,7 +106,7 @@
       "bz": 4.0
     },
     "kp": {
-      "time": "2026-09-23T18:00:00",
+      "time": "2026-09-23T21:00:00",
       "kp": 1.67
     },
     "aurora": {
@@ -114,7 +114,7 @@
       "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
       "observationTime": "2026-09-23T23:45:00Z",
-      "forecastTime": "2026-09-24T01:12:00Z"
+      "forecastTime": "2026-09-24T01:27:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
