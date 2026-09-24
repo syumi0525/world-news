@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T03:48:10.462341+00:00",
+  "generatedAt": "2026-09-24T03:58:13.975633+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bishopsteignton in 2006.jpg",
-    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
-    "license": "Public domain",
+    "title": "File:20260803 183103 Gartenanlage Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_183103_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RJGG",
-    "station": "RJGG",
-    "lat": 34.858,
-    "lon": 136.805,
+    "name": "UZFF",
+    "station": "UZFF",
+    "lat": 40.356,
+    "lon": 71.745,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 22.0,
-    "windSpeed": 3.0,
-    "windDirection": 290.0,
+    "temperature": 22.0,
+    "dewpoint": 10.0,
+    "windSpeed": 2.0,
+    "windDirection": 330.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-24T03:30:00.000Z",
     "observationTimestamp": "2026-09-24T03:30:00+00:00",
-    "raw": "METAR RJGG 240330Z 29003KT 9999 FEW020 28/22 Q1013 NOSIG"
+    "raw": "METAR UZFF 240330Z 33002KT 9999 SCT066CB 22/10 Q1015"
   },
   "randomPlace": {
-    "name": "KSLK",
-    "station": "KSLK",
-    "lat": 44.3928,
-    "lon": -74.2029,
+    "name": "KPSF",
+    "station": "KPSF",
+    "lat": 42.4269,
+    "lon": -73.2891,
     "weather": "No coded weather",
-    "temperature": 0.6,
-    "dewpoint": 0.0,
-    "windSpeed": 4.0,
-    "windDirection": 30.0,
+    "temperature": 5.6,
+    "dewpoint": 5.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T02:51:00.000Z",
-    "observationTimestamp": "2026-09-24T02:51:00+00:00",
-    "raw": "METAR KSLK 240251Z AUTO 03004KT 10SM CLR 01/00 A3055 RMK AO2 SLP354 T00060000 50000"
+    "observationTime": "2026-09-24T02:54:00.000Z",
+    "observationTimestamp": "2026-09-24T02:54:00+00:00",
+    "raw": "METAR KPSF 240254Z AUTO 00000KT 10SM CLR 06/05 A3051 RMK AO2 SLP326 T00560050 50003"
   },
   "globalPulse": {
     "population": {
-      "value": 8208423570,
-      "display": "8,208,423,570",
+      "value": 8208424882,
+      "display": "8,208,424,882",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T03:41:00Z",
-      "speed": 335.0
+      "time": "2026-09-24T03:52:00Z",
+      "speed": 333.0
     },
     "magneticField": {
-      "time": "2026-09-24T03:41:00Z",
+      "time": "2026-09-24T03:52:00Z",
       "bt": 13.0,
-      "bz": -3.0
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-24T00:00:00",
@@ -113,8 +113,8 @@
       "value": 25.0,
       "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T03:41:00Z",
-      "forecastTime": "2026-09-24T04:59:00Z"
+      "observationTime": "2026-09-24T03:49:00Z",
+      "forecastTime": "2026-09-24T05:09:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
