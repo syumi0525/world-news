@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T02:25:43.690355+00:00",
+  "generatedAt": "2026-09-24T02:40:35.352946+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nilüfer kanak köprüsü.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "title": "File:Batiment aunsein de la Ville de Majunga 17.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_17.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LTCJ",
-    "station": "LTCJ",
-    "lat": 37.93,
-    "lon": 41.117,
+    "name": "SADM",
+    "station": "SADM",
+    "lat": -34.676,
+    "lon": -58.643,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 12.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
+    "temperature": 15.0,
+    "dewpoint": 5.0,
+    "windSpeed": 12.0,
+    "windDirection": 360.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T01:50:00.000Z",
-    "observationTimestamp": "2026-09-24T01:50:00+00:00",
-    "raw": "METAR LTCJ 240150Z VRB02KT CAVOK 16/12 Q1015 NOSIG"
+    "observationTime": "2026-09-24T02:00:00.000Z",
+    "observationTimestamp": "2026-09-24T02:00:00+00:00",
+    "raw": "METAR SADM 240200Z 36012KT CAVOK 15/05 Q1013"
   },
   "randomPlace": {
-    "name": "K4R5",
-    "station": "K4R5",
-    "lat": 46.7887,
-    "lon": -90.7559,
-    "weather": "BR",
-    "temperature": 10.0,
-    "dewpoint": 10.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "5",
+    "name": "SBSJ",
+    "station": "SBSJ",
+    "lat": -23.229,
+    "lon": -45.861,
+    "weather": "No coded weather",
+    "temperature": 16.0,
+    "dewpoint": 13.0,
+    "windSpeed": 4.0,
+    "windDirection": 110.0,
+    "visibility": "6+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-24T02:15:00.000Z",
-    "observationTimestamp": "2026-09-24T02:15:00+00:00",
-    "raw": "METAR K4R5 240215Z AUTO 00000KT 5SM BR SCT110 10/10 A3039 RMK AO2 T01000100"
+    "observationTime": "2026-09-24T02:00:00.000Z",
+    "observationTimestamp": "2026-09-24T02:00:00+00:00",
+    "raw": "METAR SBSJ 240200Z 11004KT 060V140 9999 OVC026 16/13 Q1020"
   },
   "globalPulse": {
     "population": {
-      "value": 8208412821,
-      "display": "8,208,412,821",
+      "value": 8208414751,
+      "display": "8,208,414,751",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T02:13:00Z",
-      "speed": 315.0
+      "time": "2026-09-24T02:33:00Z",
+      "speed": 316.0
     },
     "magneticField": {
-      "time": "2026-09-24T02:13:00Z",
+      "time": "2026-09-24T02:33:00Z",
       "bt": 13.0,
-      "bz": 2.0
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-23T21:00:00",
@@ -113,8 +113,8 @@
       "value": 22.0,
       "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T02:15:00Z",
-      "forecastTime": "2026-09-24T03:39:00Z"
+      "observationTime": "2026-09-24T02:31:00Z",
+      "forecastTime": "2026-09-24T03:54:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
