@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T04:48:13.231698+00:00",
+  "generatedAt": "2026-09-24T04:58:25.760123+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Candies in water.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Gepsimos\" title=\"User:Gepsimos\">Gepsimos</a>",
+    "title": "File:Au bonheur des tags (Démolition avant reconversion) (37932924806).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/110273693@N04\">Sylvie burr</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Candies_in_water.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Au_bonheur_des_tags_%28D%C3%A9molition_avant_reconversion%29_%2837932924806%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KATP",
-    "station": "KATP",
-    "lat": 27.1956,
-    "lon": -90.0269,
-    "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 24.0,
-    "windSpeed": 15.0,
-    "windDirection": 90.0,
+    "name": "KLQK",
+    "station": "KLQK",
+    "lat": 34.8069,
+    "lon": -82.7047,
+    "weather": "RA",
+    "temperature": 16.2,
+    "dewpoint": 15.1,
+    "windSpeed": 7.0,
+    "windDirection": 60.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-24T04:35:00.000Z",
     "observationTimestamp": "2026-09-24T04:35:00+00:00",
-    "raw": "METAR KATP 240435Z AUTO 09015KT 10SM SCT028 BKN095 30/24 A3001 RMK A01"
+    "raw": "METAR KLQK 240435Z AUTO 06007KT 10SM RA BKN010 OVC018 16/15 A3022 RMK AO2 T01620151"
   },
   "randomPlace": {
-    "name": "FYKM",
-    "station": "FYKM",
-    "lat": -17.634,
-    "lon": 24.177,
+    "name": "LICJ",
+    "station": "LICJ",
+    "lat": 38.176,
+    "lon": 13.091,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 14.0,
-    "windSpeed": 2.0,
-    "windDirection": 160.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-24T04:00:00.000Z",
-    "observationTimestamp": "2026-09-24T04:00:00+00:00",
-    "raw": "METAR FYKM 240400Z AUTO 16002KT //// // ////// 17/14 Q1020"
+    "temperature": 19.0,
+    "dewpoint": 13.0,
+    "windSpeed": 5.0,
+    "windDirection": 140.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T04:50:00.000Z",
+    "observationTimestamp": "2026-09-24T04:50:00+00:00",
+    "raw": "METAR LICJ 240450Z 14005KT CAVOK 19/13 Q1022"
   },
   "globalPulse": {
     "population": {
-      "value": 8208431384,
-      "display": "8,208,431,384",
+      "value": 8208432720,
+      "display": "8,208,432,720",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T04:38:00Z",
-      "speed": 329.0
+      "time": "2026-09-24T04:50:00Z",
+      "speed": 333.0
     },
     "magneticField": {
-      "time": "2026-09-24T04:38:00Z",
-      "bt": 14.0,
-      "bz": -2.0
+      "time": "2026-09-24T04:50:00Z",
+      "bt": 13.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-09-24T00:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 30.0,
-      "display": "MAX 30.0%",
+      "value": 31.0,
+      "display": "MAX 31.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T04:40:00Z",
-      "forecastTime": "2026-09-24T05:59:00Z"
+      "observationTime": "2026-09-24T04:43:00Z",
+      "forecastTime": "2026-09-24T06:04:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
