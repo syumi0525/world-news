@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T01:39:27.120038+00:00",
+  "generatedAt": "2026-09-24T01:52:02.685987+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chamba Dam AWC Water For In Africa.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmakigmabi_Nakoja_Justice&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmakigmabi Nakoja Justice (page does not exist)\">Gmakigmabi Nakoja Justice</a>",
-    "license": "CC0",
+    "title": "File:E2119 - DPLA - 13f523e746d9f6af02859e4f3afe5877.jpg",
+    "artist": "Department of Energy. Bonneville Power Administration. 10/1/1977",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chamba_Dam_AWC_Water_For_In_Africa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:E2119_-_DPLA_-_13f523e746d9f6af02859e4f3afe5877.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MHPR",
-    "station": "MHPR",
-    "lat": 14.382,
-    "lon": -87.621,
-    "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 22.0,
-    "windSpeed": 12.0,
-    "windDirection": 210.0,
-    "visibility": "6+",
+    "name": "KRCV",
+    "station": "KRCV",
+    "lat": 37.7092,
+    "lon": -106.3549,
+    "weather": "-DZ",
+    "temperature": 10.6,
+    "dewpoint": 9.7,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T01:00:00.000Z",
-    "observationTimestamp": "2026-09-24T01:00:00+00:00",
-    "raw": "METAR MHPR 240100Z 21012KT 9999 SCT046TCU FEW048CB BKN080 25/22 Q1016 A3000 NOSIG RMK CB TS,E,NW"
+    "observationTime": "2026-09-24T01:35:00.000Z",
+    "observationTimestamp": "2026-09-24T01:35:00+00:00",
+    "raw": "METAR KRCV 240135Z AUTO 00000KT 10SM -DZ SCT060 OVC075 11/10 A3037 RMK AO2 T01060097"
   },
   "randomPlace": {
-    "name": "LFMV",
-    "station": "LFMV",
-    "lat": 43.911,
-    "lon": 4.903,
+    "name": "KSBN",
+    "station": "KSBN",
+    "lat": 41.7072,
+    "lon": -86.3163,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 14.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 16.7,
+    "dewpoint": 11.1,
+    "windSpeed": 4.0,
+    "windDirection": 50.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T01:30:00.000Z",
-    "observationTimestamp": "2026-09-24T01:30:00+00:00",
-    "raw": "METAR LFMV 240130Z AUTO VRB02KT CAVOK 15/14 Q1022"
+    "observationTime": "2026-09-24T00:54:00.000Z",
+    "observationTimestamp": "2026-09-24T00:54:00+00:00",
+    "raw": "METAR KSBN 240054Z 05004KT 10SM OVC045 17/11 A3035 RMK AO2 SLP279 T01670111"
   },
   "globalPulse": {
     "population": {
-      "value": 8208406796,
-      "display": "8,208,406,796",
+      "value": 8208408434,
+      "display": "8,208,408,434",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,13 +97,13 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T01:30:00Z",
-      "speed": 320.0
+      "time": "2026-09-24T01:44:00Z",
+      "speed": 316.0
     },
     "magneticField": {
-      "time": "2026-09-24T01:30:00Z",
-      "bt": 13.0,
-      "bz": 2.0
+      "time": "2026-09-24T01:44:00Z",
+      "bt": 14.0,
+      "bz": 3.0
     },
     "kp": {
       "time": "2026-09-23T21:00:00",
@@ -113,8 +113,8 @@
       "value": 23.0,
       "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T01:30:00Z",
-      "forecastTime": "2026-09-24T02:54:00Z"
+      "observationTime": "2026-09-24T01:40:00Z",
+      "forecastTime": "2026-09-24T03:04:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
