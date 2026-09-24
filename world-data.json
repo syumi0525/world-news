@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T05:14:48.250186+00:00",
+  "generatedAt": "2026-09-24T05:29:48.094767+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Driving in the village (49286320817).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
-    "license": "Public domain",
+    "title": "File:A misty forest road in Coonoor.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Driving_in_the_village_%2849286320817%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KBVU",
-    "station": "KBVU",
-    "lat": 35.9489,
-    "lon": -114.8633,
+    "name": "KECS",
+    "station": "KECS",
+    "lat": 43.8845,
+    "lon": -104.312,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 5.0,
-    "windSpeed": 3.0,
-    "windDirection": 30.0,
+    "temperature": 14.0,
+    "dewpoint": 9.0,
+    "windSpeed": 8.0,
+    "windDirection": 360.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T04:55:00.000Z",
-    "observationTimestamp": "2026-09-24T04:55:00+00:00",
-    "raw": "METAR KBVU 240455Z AUTO 03003KT 10SM CLR 25/05 A2992 RMK AO2"
+    "observationTime": "2026-09-24T05:15:00.000Z",
+    "observationTimestamp": "2026-09-24T05:15:00+00:00",
+    "raw": "METAR KECS 240515Z AUTO 36008KT 10SM CLR 14/09 A3017 RMK AO2"
   },
   "randomPlace": {
-    "name": "KADT",
-    "station": "KADT",
-    "lat": 39.8401,
-    "lon": -101.0448,
+    "name": "OEMA",
+    "station": "OEMA",
+    "lat": 24.553,
+    "lon": 39.705,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 16.0,
-    "windSpeed": 6.0,
-    "windDirection": 170.0,
-    "visibility": "10+",
+    "temperature": 34.0,
+    "dewpoint": 14.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T04:55:00.000Z",
-    "observationTimestamp": "2026-09-24T04:55:00+00:00",
-    "raw": "METAR KADT 240455Z AUTO 17006KT 10SM OVC031 17/16 A3022 RMK AO2 402590151"
+    "observationTime": "2026-09-24T05:00:00.000Z",
+    "observationTimestamp": "2026-09-24T05:00:00+00:00",
+    "raw": "METAR OEMA 240500Z VRB02KT 9999 FEW045 34/14 Q1015 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208434841,
-      "display": "8,208,434,841",
+      "value": 8208436807,
+      "display": "8,208,436,807",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T05:05:00Z",
-      "speed": 321.0
+      "time": "2026-09-24T05:22:00Z",
+      "speed": 336.0
     },
     "magneticField": {
-      "time": "2026-09-24T05:05:00Z",
-      "bt": 13.0,
-      "bz": -7.0
+      "time": "2026-09-24T05:22:00Z",
+      "bt": 14.0,
+      "bz": -12.0
     },
     "kp": {
       "time": "2026-09-24T00:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 31.0,
-      "display": "MAX 31.0%",
+      "value": 33.0,
+      "display": "MAX 33.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T05:05:00Z",
-      "forecastTime": "2026-09-24T06:25:00Z"
+      "observationTime": "2026-09-24T05:20:00Z",
+      "forecastTime": "2026-09-24T06:40:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
