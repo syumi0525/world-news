@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T07:57:00.594812+00:00",
+  "generatedAt": "2026-09-24T08:14:02.288803+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Buna,.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
+    "title": "File:20260803 183936 Gartenanlage Schätzl-Villa.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Buna%2C.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260803_183936_Gartenanlage_Sch%C3%A4tzl-Villa.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYGV",
-    "station": "CYGV",
-    "lat": 50.286,
-    "lon": -63.606,
-    "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": 6.0,
-    "windSpeed": 7.0,
-    "windDirection": 270.0,
-    "visibility": "7",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-24T07:00:00.000Z",
-    "observationTimestamp": "2026-09-24T07:00:00+00:00",
-    "raw": "METAR CYGV 240700Z AUTO 27007KT 7SM CLR 07/06 A3037 RMK SLP288"
+    "name": "ESNZ",
+    "station": "ESNZ",
+    "lat": 63.199,
+    "lon": 14.489,
+    "weather": "-DZ",
+    "temperature": 8.0,
+    "dewpoint": 7.0,
+    "windSpeed": 17.0,
+    "windDirection": 280.0,
+    "visibility": "1.86",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-24T07:50:00.000Z",
+    "observationTimestamp": "2026-09-24T07:50:00+00:00",
+    "raw": "METAR ESNZ 240750Z 28017KT 3000 -DZ OVC004 08/07 Q1015"
   },
   "randomPlace": {
-    "name": "KFLO",
-    "station": "KFLO",
-    "lat": 34.1877,
-    "lon": -79.7308,
+    "name": "CYHY",
+    "station": "CYHY",
+    "lat": 60.839,
+    "lon": -115.781,
     "weather": "No coded weather",
-    "temperature": 18.9,
-    "dewpoint": 16.1,
-    "windSpeed": 11.0,
-    "windDirection": 20.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-24T07:53:00.000Z",
-    "observationTimestamp": "2026-09-24T07:53:00+00:00",
-    "raw": "METAR KFLO 240753Z AUTO 02011KT 10SM OVC015 19/16 A3011 RMK AO2 SLP194 T01890161"
+    "temperature": 7.0,
+    "dewpoint": 5.0,
+    "windSpeed": 8.0,
+    "windDirection": 210.0,
+    "visibility": "15",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T08:00:00.000Z",
+    "observationTimestamp": "2026-09-24T08:00:00+00:00",
+    "raw": "METAR CYHY 240800Z 21008KT 15SM SKC 07/05 A2979 RMK SLP095"
   },
   "globalPulse": {
     "population": {
-      "value": 8208455921,
-      "display": "8,208,455,921",
+      "value": 8208458136,
+      "display": "8,208,458,136",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T07:47:00Z",
-      "speed": 337.0
+      "time": "2026-09-24T08:05:00Z",
+      "speed": 345.0
     },
     "magneticField": {
-      "time": "2026-09-24T07:47:00Z",
-      "bt": 14.0,
-      "bz": -10.0
+      "time": "2026-09-24T08:05:00Z",
+      "bt": 15.0,
+      "bz": -12.0
     },
     "kp": {
       "time": "2026-09-24T03:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 42.0,
-      "display": "MAX 42.0%",
+      "value": 44.0,
+      "display": "MAX 44.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T07:44:00Z",
-      "forecastTime": "2026-09-24T09:03:00Z"
+      "observationTime": "2026-09-24T08:02:00Z",
+      "forecastTime": "2026-09-24T09:23:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
