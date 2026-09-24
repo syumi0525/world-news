@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T13:10:58.939551+00:00",
+  "generatedAt": "2026-09-24T13:33:01.564183+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Balcones (8677680208).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
-    "license": "Public domain",
+    "title": "File:Nilüfer kanak köprüsü.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Balcones_%288677680208%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "UAAA",
-    "station": "UAAA",
-    "lat": 43.35,
-    "lon": 77.027,
+    "name": "HTKJ",
+    "station": "HTKJ",
+    "lat": -3.427,
+    "lon": 37.058,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 7.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
+    "temperature": 31.0,
+    "dewpoint": 14.0,
+    "windSpeed": 12.0,
+    "windDirection": 60.0,
     "visibility": "6+",
     "flightCategory": "VFR",
     "observationTime": "2026-09-24T13:00:00.000Z",
     "observationTimestamp": "2026-09-24T13:00:00+00:00",
-    "raw": "METAR UAAA 241300Z VRB01MPS 9999 SCT050CB BKN100 22/07 Q1014 NOSIG"
+    "raw": "METAR HTKJ 241300Z 06012KT 030V090 9999 FEW032 31/14 Q1018 NOSIG"
   },
   "randomPlace": {
-    "name": "CYVM",
-    "station": "CYVM",
-    "lat": 67.552,
-    "lon": -64.026,
-    "weather": "-RA",
-    "temperature": 4.0,
-    "dewpoint": 4.0,
-    "windSpeed": 4.0,
-    "windDirection": 40.0,
-    "visibility": "8",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-24T13:00:00.000Z",
-    "observationTimestamp": "2026-09-24T13:00:00+00:00",
-    "raw": "METAR CYVM 241300Z 04004KT 8SM -RA SCT004 OVC009 04/04 A2964 RMK ST4ST4 SLP038"
+    "name": "KGTU",
+    "station": "KGTU",
+    "lat": 30.6809,
+    "lon": -97.6767,
+    "weather": "No coded weather",
+    "temperature": 24.4,
+    "dewpoint": 22.2,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T12:55:00.000Z",
+    "observationTimestamp": "2026-09-24T12:55:00+00:00",
+    "raw": "METAR KGTU 241255Z 00000KT 10SM CLR 24/22 A3012 RMK AO2 SLP191 T02440222"
   },
   "globalPulse": {
     "population": {
-      "value": 8208496804,
-      "display": "8,208,496,804",
+      "value": 8208499674,
+      "display": "8,208,499,674",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T13:02:00Z",
+      "time": "2026-09-24T13:25:00Z",
       "speed": 376.0
     },
     "magneticField": {
-      "time": "2026-09-24T13:02:00Z",
-      "bt": 9.0,
-      "bz": 2.0
+      "time": "2026-09-24T13:25:00Z",
+      "bt": 11.0,
+      "bz": -3.0
     },
     "kp": {
       "time": "2026-09-24T09:00:00",
       "kp": 4.33
     },
     "aurora": {
-      "value": 32.0,
-      "display": "MAX 32.0%",
+      "value": 34.0,
+      "display": "MAX 34.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T12:59:00Z",
-      "forecastTime": "2026-09-24T14:10:00Z"
+      "observationTime": "2026-09-24T13:20:00Z",
+      "forecastTime": "2026-09-24T14:30:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
