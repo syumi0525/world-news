@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T10:31:21.413832+00:00",
+  "generatedAt": "2026-09-24T10:49:13.519944+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:DSC 9881 (49995148081).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94157272@N06\">Scott Willoughby</a>",
-    "license": "Public domain",
+    "title": "File:20260822 092805 vista panorámica.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maria_Belen_Sirpa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maria Belen Sirpa (page does not exist)\">Maria Belen Sirpa</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:DSC_9881_%2849995148081%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20260822_092805_vista_panor%C3%A1mica.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KW43",
-    "station": "KW43",
-    "lat": 44.6607,
-    "lon": -104.5677,
+    "name": "KVPC",
+    "station": "KVPC",
+    "lat": 34.1159,
+    "lon": -84.8507,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 8.0,
-    "windSpeed": null,
-    "windDirection": null,
+    "temperature": 19.0,
+    "dewpoint": 17.0,
+    "windSpeed": 5.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T10:15:00.000Z",
-    "observationTimestamp": "2026-09-24T10:15:00+00:00",
-    "raw": "METAR KW43 241015Z AUTO 10SM CLR 10/08 A3022 RMK AO2"
+    "observationTime": "2026-09-24T10:35:00.000Z",
+    "observationTimestamp": "2026-09-24T10:35:00+00:00",
+    "raw": "METAR KVPC 241035Z AUTO VRB05G10KT 10SM 19/17 A3017 RMK AO2"
   },
   "randomPlace": {
-    "name": "KHPN",
-    "station": "KHPN",
-    "lat": 41.0624,
-    "lon": -73.7045,
+    "name": "CYCA",
+    "station": "CYCA",
+    "lat": 53.683,
+    "lon": -57.042,
     "weather": "No coded weather",
-    "temperature": 9.4,
-    "dewpoint": 7.2,
-    "windSpeed": 8.0,
-    "windDirection": 10.0,
-    "visibility": "10+",
+    "temperature": 12.0,
+    "dewpoint": 7.0,
+    "windSpeed": 7.0,
+    "windDirection": 220.0,
+    "visibility": "9",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T09:56:00.000Z",
-    "observationTimestamp": "2026-09-24T09:56:00+00:00",
-    "raw": "METAR KHPN 240956Z 01008KT 10SM SCT025 09/07 A3042 RMK AO2 SLP302 T00940072"
+    "observationTime": "2026-09-24T10:00:00.000Z",
+    "observationTimestamp": "2026-09-24T10:00:00+00:00",
+    "raw": "METAR CYCA 241000Z AUTO 22007KT 9SM CLR 12/07 A3002 RMK SLP168"
   },
   "globalPulse": {
     "population": {
-      "value": 8208476055,
-      "display": "8,208,476,055",
+      "value": 8208478361,
+      "display": "8,208,478,361",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T10:24:00Z",
-      "speed": 382.0
+      "time": "2026-09-24T10:42:00Z",
+      "speed": 399.0
     },
     "magneticField": {
-      "time": "2026-09-24T10:24:00Z",
-      "bt": 10.0,
-      "bz": 5.0
+      "time": "2026-09-24T10:42:00Z",
+      "bt": 11.0,
+      "bz": -7.0
     },
     "kp": {
       "time": "2026-09-24T06:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 34.0,
-      "display": "MAX 34.0%",
+      "value": 36.0,
+      "display": "MAX 36.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T10:19:00Z",
-      "forecastTime": "2026-09-24T11:30:00Z"
+      "observationTime": "2026-09-24T10:39:00Z",
+      "forecastTime": "2026-09-24T11:49:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
