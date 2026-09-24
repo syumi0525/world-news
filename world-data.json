@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T05:57:30.290456+00:00",
+  "generatedAt": "2026-09-24T06:15:06.883696+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Felsenbirne (Amelanchier) berries.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Speakfluid&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Speakfluid (page does not exist)\">Speakfluid</a>",
+    "title": "File:Albino snail on green moss turn arround.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hariyono_Suwardi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hariyono Suwardi (page does not exist)\">Hariyono Suwardi</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Felsenbirne_%28Amelanchier%29_berries.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Albino_snail_on_green_moss_turn_arround.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LGLM",
-    "station": "LGLM",
-    "lat": 39.917,
-    "lon": 25.236,
+    "name": "KEDJ",
+    "station": "KEDJ",
+    "lat": 40.3714,
+    "lon": -83.8142,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 13.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 15.0,
+    "dewpoint": 15.0,
+    "windSpeed": 3.0,
+    "windDirection": 100.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T05:50:00.000Z",
-    "observationTimestamp": "2026-09-24T05:50:00+00:00",
-    "raw": "METAR LGLM 240550Z 00000KT 9999 FEW012 FEW018TCU SCT025 17/13 Q1021"
+    "observationTime": "2026-09-24T05:55:00.000Z",
+    "observationTimestamp": "2026-09-24T05:55:00+00:00",
+    "raw": "METAR KEDJ 240555Z AUTO 10003KT 10SM BKN037 OVC043 15/15 A3030 RMK A01"
   },
   "randomPlace": {
-    "name": "DBBB",
-    "station": "DBBB",
-    "lat": 6.357,
-    "lon": 2.384,
+    "name": "K1BW",
+    "station": "K1BW",
+    "lat": 41.511,
+    "lon": -103.995,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 24.0,
-    "windSpeed": 4.0,
-    "windDirection": 250.0,
-    "visibility": "5.59",
+    "temperature": 15.4,
+    "dewpoint": 10.2,
+    "windSpeed": 11.0,
+    "windDirection": 230.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T05:00:00.000Z",
-    "observationTimestamp": "2026-09-24T05:00:00+00:00",
-    "raw": "METAR DBBB 240500Z 25004KT 9000 SCT008 25/24 Q1013 NOSIG"
+    "observationTime": "2026-09-24T05:55:00.000Z",
+    "observationTimestamp": "2026-09-24T05:55:00+00:00",
+    "raw": "METAR K1BW 240555Z AUTO 23011KT 10SM FEW090 BKN210 15/10 A3024 RMK AO2 SLP190 60004 T01540102 10174 20149 53003 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8208440410,
-      "display": "8,208,440,410",
+      "value": 8208442679,
+      "display": "8,208,442,679",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-24T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.0,
-      "display": "Kp 3.0",
+      "value": 2.3,
+      "display": "Kp 2.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-24T00:00:00"
+      "time": "2026-09-24T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T05:49:00Z",
-      "speed": 333.0
+      "time": "2026-09-24T06:07:00Z",
+      "speed": 332.0
     },
     "magneticField": {
-      "time": "2026-09-24T05:49:00Z",
-      "bt": 14.0,
-      "bz": -4.0
+      "time": "2026-09-24T06:07:00Z",
+      "bt": 15.0,
+      "bz": -1.0
     },
     "kp": {
-      "time": "2026-09-24T00:00:00",
-      "kp": 3.0
+      "time": "2026-09-24T03:00:00",
+      "kp": 2.33
     },
     "aurora": {
-      "value": 37.0,
-      "display": "MAX 37.0%",
+      "value": 38.0,
+      "display": "MAX 38.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T05:44:00Z",
-      "forecastTime": "2026-09-24T07:05:00Z"
+      "observationTime": "2026-09-24T06:04:00Z",
+      "forecastTime": "2026-09-24T07:24:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
