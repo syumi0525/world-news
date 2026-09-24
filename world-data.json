@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T04:16:08.256843+00:00",
+  "generatedAt": "2026-09-24T04:32:02.099820+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Albino snail on green moss turn arround.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hariyono_Suwardi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hariyono Suwardi (page does not exist)\">Hariyono Suwardi</a>",
-    "license": "CC0",
+    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
+    "artist": "Gardner, Alexander, 1821-1882",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Albino_snail_on_green_moss_turn_arround.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "PHKO",
-    "station": "PHKO",
-    "lat": 19.7378,
-    "lon": -156.048,
+    "name": "WIII",
+    "station": "WIII",
+    "lat": -6.125,
+    "lon": 106.659,
     "weather": "No coded weather",
-    "temperature": 28.9,
-    "dewpoint": 24.4,
-    "windSpeed": 8.0,
-    "windDirection": 190.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-24T03:53:00.000Z",
-    "observationTimestamp": "2026-09-24T03:53:00+00:00",
-    "raw": "METAR PHKO 240353Z 19008KT 10SM FEW035 OVC050 29/24 A2982 RMK AO2 SLP097 T02890244"
-  },
-  "randomPlace": {
-    "name": "VERW",
-    "station": "VERW",
-    "lat": 24.5034,
-    "lon": 81.2203,
-    "weather": "BR",
-    "temperature": 25.0,
+    "temperature": 33.0,
     "dewpoint": 24.0,
-    "windSpeed": 8.0,
-    "windDirection": 50.0,
-    "visibility": "1.86",
-    "flightCategory": "IFR",
+    "windSpeed": 11.0,
+    "windDirection": 40.0,
+    "visibility": "4.35",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-24T04:00:00.000Z",
     "observationTimestamp": "2026-09-24T04:00:00+00:00",
-    "raw": "METAR VERW 240400Z 05008KT 3000 BR SCT010 BKN020 BKN100 25/24 Q1008 NOSIG"
+    "raw": "METAR WIII 240400Z 04011KT 350V070 7000 FEW020 33/24 Q1012 NOSIG"
+  },
+  "randomPlace": {
+    "name": "CYBG",
+    "station": "CYBG",
+    "lat": 48.331,
+    "lon": -70.989,
+    "weather": "No coded weather",
+    "temperature": 7.0,
+    "dewpoint": 6.0,
+    "windSpeed": 3.0,
+    "windDirection": 170.0,
+    "visibility": "25",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T04:00:00.000Z",
+    "observationTimestamp": "2026-09-24T04:00:00+00:00",
+    "raw": "METAR CYBG 240400Z 17003KT 25SM SKC 07/06 A3059 RMK DENSITY ALT -1031FT SLP364"
   },
   "globalPulse": {
     "population": {
-      "value": 8208427203,
-      "display": "8,208,427,203",
+      "value": 8208429284,
+      "display": "8,208,429,284",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T04:07:00Z",
-      "speed": 352.0
+      "time": "2026-09-24T04:20:00Z",
+      "speed": 330.0
     },
     "magneticField": {
-      "time": "2026-09-24T04:07:00Z",
-      "bt": 9.0,
-      "bz": -8.0
+      "time": "2026-09-24T04:20:00Z",
+      "bt": 13.0,
+      "bz": -6.0
     },
     "kp": {
       "time": "2026-09-24T00:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 29.0,
+      "display": "MAX 29.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T04:05:00Z",
-      "forecastTime": "2026-09-24T05:23:00Z"
+      "observationTime": "2026-09-24T04:25:00Z",
+      "forecastTime": "2026-09-24T05:44:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
