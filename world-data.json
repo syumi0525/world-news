@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T04:32:02.099820+00:00",
+  "generatedAt": "2026-09-24T04:48:13.231698+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
-    "artist": "Gardner, Alexander, 1821-1882",
-    "license": "Public domain",
+    "title": "File:Candies in water.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Gepsimos\" title=\"User:Gepsimos\">Gepsimos</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Candies_in_water.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "WIII",
-    "station": "WIII",
-    "lat": -6.125,
-    "lon": 106.659,
+    "name": "KATP",
+    "station": "KATP",
+    "lat": 27.1956,
+    "lon": -90.0269,
     "weather": "No coded weather",
-    "temperature": 33.0,
+    "temperature": 30.0,
     "dewpoint": 24.0,
-    "windSpeed": 11.0,
-    "windDirection": 40.0,
-    "visibility": "4.35",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-24T04:00:00.000Z",
-    "observationTimestamp": "2026-09-24T04:00:00+00:00",
-    "raw": "METAR WIII 240400Z 04011KT 350V070 7000 FEW020 33/24 Q1012 NOSIG"
+    "windSpeed": 15.0,
+    "windDirection": 90.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T04:35:00.000Z",
+    "observationTimestamp": "2026-09-24T04:35:00+00:00",
+    "raw": "METAR KATP 240435Z AUTO 09015KT 10SM SCT028 BKN095 30/24 A3001 RMK A01"
   },
   "randomPlace": {
-    "name": "CYBG",
-    "station": "CYBG",
-    "lat": 48.331,
-    "lon": -70.989,
+    "name": "FYKM",
+    "station": "FYKM",
+    "lat": -17.634,
+    "lon": 24.177,
     "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": 6.0,
-    "windSpeed": 3.0,
-    "windDirection": 170.0,
-    "visibility": "25",
-    "flightCategory": "VFR",
+    "temperature": 17.0,
+    "dewpoint": 14.0,
+    "windSpeed": 2.0,
+    "windDirection": 160.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
     "observationTime": "2026-09-24T04:00:00.000Z",
     "observationTimestamp": "2026-09-24T04:00:00+00:00",
-    "raw": "METAR CYBG 240400Z 17003KT 25SM SKC 07/06 A3059 RMK DENSITY ALT -1031FT SLP364"
+    "raw": "METAR FYKM 240400Z AUTO 16002KT //// // ////// 17/14 Q1020"
   },
   "globalPulse": {
     "population": {
-      "value": 8208429284,
-      "display": "8,208,429,284",
+      "value": 8208431384,
+      "display": "8,208,431,384",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T04:20:00Z",
-      "speed": 330.0
+      "time": "2026-09-24T04:38:00Z",
+      "speed": 329.0
     },
     "magneticField": {
-      "time": "2026-09-24T04:20:00Z",
-      "bt": 13.0,
-      "bz": -6.0
+      "time": "2026-09-24T04:38:00Z",
+      "bt": 14.0,
+      "bz": -2.0
     },
     "kp": {
       "time": "2026-09-24T00:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 29.0,
-      "display": "MAX 29.0%",
+      "value": 30.0,
+      "display": "MAX 30.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T04:25:00Z",
-      "forecastTime": "2026-09-24T05:44:00Z"
+      "observationTime": "2026-09-24T04:40:00Z",
+      "forecastTime": "2026-09-24T05:59:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
