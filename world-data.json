@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T13:50:26.920080+00:00",
+  "generatedAt": "2026-09-24T14:23:39.902967+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brule Lake from solomon hazy.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
-    "license": "CC0",
+    "title": "File:Danau Tigi - Deiyai.jpg",
+    "artist": "Government of Deiyai, Indonesia",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Brule_Lake_from_solomon_hazy.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDUB",
-    "station": "KDUB",
-    "lat": 43.5485,
-    "lon": -109.6839,
+    "name": "RJKA",
+    "station": "RJKA",
+    "lat": 28.431,
+    "lon": 129.713,
     "weather": "No coded weather",
-    "temperature": 2.0,
-    "dewpoint": 0.0,
-    "windSpeed": 6.0,
-    "windDirection": 290.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-24T13:35:00.000Z",
-    "observationTimestamp": "2026-09-24T13:35:00+00:00",
-    "raw": "METAR KDUB 241335Z AUTO 29006KT 10SM CLR 02/00 A3039 RMK AO2"
-  },
-  "randomPlace": {
-    "name": "GAGO",
-    "station": "GAGO",
-    "lat": 16.247,
-    "lon": -0.006,
-    "weather": "No coded weather",
-    "temperature": 38.0,
+    "temperature": 24.0,
     "dewpoint": 22.0,
     "windSpeed": 2.0,
-    "windDirection": 320.0,
+    "windDirection": 350.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T13:00:00.000Z",
-    "observationTimestamp": "2026-09-24T13:00:00+00:00",
-    "raw": "METAR GAGO 241300Z 32002KT 9999 FEW020 38/22 Q1013"
+    "observationTime": "2026-09-24T14:00:00.000Z",
+    "observationTimestamp": "2026-09-24T14:00:00+00:00",
+    "raw": "METAR RJKA 241400Z AUTO 35002KT 9999 BKN036 OVC039 24/22 Q1015"
+  },
+  "randomPlace": {
+    "name": "LTAP",
+    "station": "LTAP",
+    "lat": 40.826,
+    "lon": 35.52,
+    "weather": "No coded weather",
+    "temperature": 15.0,
+    "dewpoint": 10.0,
+    "windSpeed": 14.0,
+    "windDirection": 50.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T13:50:00.000Z",
+    "observationTimestamp": "2026-09-24T13:50:00+00:00",
+    "raw": "METAR LTAP 241350Z 05014KT 9999 BKN035 15/10 Q1021 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208501937,
-      "display": "8,208,501,937",
+      "value": 8208506269,
+      "display": "8,208,506,269",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T13:43:00Z",
-      "speed": 372.0
+      "time": "2026-09-24T14:14:00Z",
+      "speed": 385.0
     },
     "magneticField": {
-      "time": "2026-09-24T13:43:00Z",
-      "bt": 10.0,
-      "bz": 2.0
+      "time": "2026-09-24T14:14:00Z",
+      "bt": 11.0,
+      "bz": -9.0
     },
     "kp": {
       "time": "2026-09-24T09:00:00",
       "kp": 4.33
     },
     "aurora": {
-      "value": 34.0,
-      "display": "MAX 34.0%",
+      "value": 33.0,
+      "display": "MAX 33.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T13:40:00Z",
-      "forecastTime": "2026-09-24T14:50:00Z"
+      "observationTime": "2026-09-24T14:09:00Z",
+      "forecastTime": "2026-09-24T15:21:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
