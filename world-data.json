@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T03:11:59.420162+00:00",
+  "generatedAt": "2026-09-24T03:31:06.622340+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Doubtful Sound - Patea - DoubtfulSound9081.jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/199350666@N08\">lumoplank</a>",
+    "title": "File:Ndongo bridge road.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nkwada_Nora&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nkwada Nora (page does not exist)\">Nkwada Nora</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Doubtful_Sound_-_Patea_-_DoubtfulSound9081.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ndongo_bridge_road.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "GMFK",
-    "station": "GMFK",
-    "lat": 31.946,
-    "lon": -4.399,
+    "name": "CYLL",
+    "station": "CYLL",
+    "lat": 53.312,
+    "lon": -110.074,
     "weather": "No coded weather",
-    "temperature": 19.0,
-    "dewpoint": 8.0,
-    "windSpeed": 1.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 14.0,
+    "dewpoint": 11.0,
+    "windSpeed": 8.0,
+    "windDirection": 320.0,
+    "visibility": "15",
     "flightCategory": "VFR",
     "observationTime": "2026-09-24T03:00:00.000Z",
     "observationTimestamp": "2026-09-24T03:00:00+00:00",
-    "raw": "METAR GMFK 240300Z VRB01KT CAVOK 19/08 Q1025 NOSIG"
+    "raw": "METAR CYLL 240300Z 32008KT 15SM BKN240 14/11 A2993 RMK CI7 SLP148 DENSITY ALT 2600FT"
   },
   "randomPlace": {
-    "name": "KLUV",
-    "station": "KLUV",
-    "lat": 32.7481,
-    "lon": -101.9127,
+    "name": "KBBB",
+    "station": "KBBB",
+    "lat": 45.331,
+    "lon": -95.6469,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 16.0,
-    "windSpeed": 6.0,
-    "windDirection": 140.0,
+    "temperature": 17.0,
+    "dewpoint": 11.0,
+    "windSpeed": 10.0,
+    "windDirection": 130.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T02:55:00.000Z",
-    "observationTimestamp": "2026-09-24T02:55:00+00:00",
-    "raw": "METAR KLUV 240255Z AUTO 14006KT 10SM CLR 25/16 A3014 RMK AO2"
+    "observationTime": "2026-09-24T03:15:00.000Z",
+    "observationTimestamp": "2026-09-24T03:15:00+00:00",
+    "raw": "METAR KBBB 240315Z AUTO 13010G17KT 10SM SCT044 OVC080 17/11 A3025 RMK AO2 LTG DSNT N"
   },
   "globalPulse": {
     "population": {
-      "value": 8208418845,
-      "display": "8,208,418,845",
+      "value": 8208421333,
+      "display": "8,208,421,333",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T03:03:00Z",
-      "speed": 343.0
+      "time": "2026-09-24T03:23:00Z",
+      "speed": 352.0
     },
     "magneticField": {
-      "time": "2026-09-24T03:03:00Z",
+      "time": "2026-09-24T03:23:00Z",
       "bt": 14.0,
-      "bz": 1.0
+      "bz": 5.0
     },
     "kp": {
       "time": "2026-09-24T00:00:00",
       "kp": 3.0
     },
     "aurora": {
-      "value": 23.0,
-      "display": "MAX 23.0%",
+      "value": 24.0,
+      "display": "MAX 24.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T03:01:00Z",
-      "forecastTime": "2026-09-24T04:22:00Z"
+      "observationTime": "2026-09-24T03:20:00Z",
+      "forecastTime": "2026-09-24T04:41:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
