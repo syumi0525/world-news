@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T12:17:44.892618+00:00",
+  "generatedAt": "2026-09-24T12:39:00.468534+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Danau Tigi - Deiyai.jpg",
-    "artist": "Government of Deiyai, Indonesia",
+    "title": "File:Benue River (early 1900s).jpg",
+    "artist": "Hans Dominik",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Benue_River_%28early_1900s%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KJCA",
-    "station": "KJCA",
-    "lat": 34.1739,
-    "lon": -83.5583,
+    "name": "KT41",
+    "station": "KT41",
+    "lat": 29.6709,
+    "lon": -95.0644,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 15.0,
-    "windSpeed": 10.0,
-    "windDirection": 80.0,
+    "temperature": 26.0,
+    "dewpoint": 23.0,
+    "windSpeed": 8.0,
+    "windDirection": 70.0,
     "visibility": "10+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-09-24T11:55:00.000Z",
-    "observationTimestamp": "2026-09-24T11:55:00+00:00",
-    "raw": "METAR KJCA 241155Z AUTO 08010G15KT 10SM OVC007 15/15 A3021 RMK AO2 T01500150 10168 20150 70002"
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-24T12:15:00.000Z",
+    "observationTimestamp": "2026-09-24T12:15:00+00:00",
+    "raw": "METAR KT41 241215Z AUTO 07008KT 10SM CLR 26/23 A3005 RMK AO2"
   },
   "randomPlace": {
-    "name": "EGUW",
-    "station": "EGUW",
-    "lat": 52.124,
-    "lon": 0.957,
+    "name": "SBSL",
+    "station": "SBSL",
+    "lat": -2.585,
+    "lon": -44.234,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 9.0,
-    "windSpeed": 6.0,
-    "windDirection": 190.0,
+    "temperature": 29.0,
+    "dewpoint": 23.0,
+    "windSpeed": 14.0,
+    "windDirection": 70.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T11:50:00.000Z",
-    "observationTimestamp": "2026-09-24T11:50:00+00:00",
-    "raw": "METAR EGUW 241150Z 19006KT 9999 FEW035 BKN300 18/09 Q1025 NOSIG RMK BLU BLU"
+    "observationTime": "2026-09-24T12:00:00.000Z",
+    "observationTimestamp": "2026-09-24T12:00:00+00:00",
+    "raw": "METAR SBSL 241200Z 07014KT 9999 SCT025 29/23 Q1012"
   },
   "globalPulse": {
     "population": {
-      "value": 8208489875,
-      "display": "8,208,489,875",
+      "value": 8208492648,
+      "display": "8,208,492,648",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T12:09:00Z",
-      "speed": 375.0
+      "time": "2026-09-24T12:32:00Z",
+      "speed": 366.0
     },
     "magneticField": {
-      "time": "2026-09-24T12:09:00Z",
-      "bt": 11.0,
-      "bz": 2.0
+      "time": "2026-09-24T12:32:00Z",
+      "bt": 10.0,
+      "bz": -1.0
     },
     "kp": {
       "time": "2026-09-24T09:00:00",
       "kp": 4.33
     },
     "aurora": {
-      "value": 33.0,
-      "display": "MAX 33.0%",
+      "value": 30.0,
+      "display": "MAX 30.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T12:04:00Z",
-      "forecastTime": "2026-09-24T13:15:00Z"
+      "observationTime": "2026-09-24T12:29:00Z",
+      "forecastTime": "2026-09-24T13:40:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
