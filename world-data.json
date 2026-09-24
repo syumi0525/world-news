@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T11:48:07.663060+00:00",
+  "generatedAt": "2026-09-24T11:57:39.291820+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 16.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:Abandoned Boat on Tranquil Lakeshore.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Romijac67&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Romijac67 (page does not exist)\">Romijac67</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_16.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Abandoned_Boat_on_Tranquil_Lakeshore.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K0S9",
-    "station": "K0S9",
-    "lat": 48.0554,
-    "lon": -122.8115,
+    "name": "MMDO",
+    "station": "MMDO",
+    "lat": 24.124,
+    "lon": -104.532,
     "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 7.0,
-    "windSpeed": 5.0,
-    "windDirection": 290.0,
-    "visibility": "10+",
+    "temperature": 15.0,
+    "dewpoint": 15.0,
+    "windSpeed": 3.0,
+    "windDirection": 350.0,
+    "visibility": "6",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-24T11:35:00.000Z",
-    "observationTimestamp": "2026-09-24T11:35:00+00:00",
-    "raw": "METAR K0S9 241135Z AUTO 29005KT 10SM FEW046 12/07 A3002 RMK AO2"
+    "observationTime": "2026-09-24T10:55:00.000Z",
+    "observationTimestamp": "2026-09-24T10:55:00+00:00",
+    "raw": "METAR MMDO 241055Z 35003KT 6SM FEW030 SCT070 15/15 A3027 RMK 8/490 RTS"
   },
   "randomPlace": {
-    "name": "SAAR",
-    "station": "SAAR",
-    "lat": -32.918,
-    "lon": -60.782,
-    "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 7.0,
-    "windSpeed": 7.0,
-    "windDirection": 10.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
+    "name": "SAZS",
+    "station": "SAZS",
+    "lat": -41.151,
+    "lon": -71.157,
+    "weather": "-RA",
+    "temperature": 9.0,
+    "dewpoint": 6.0,
+    "windSpeed": 9.0,
+    "windDirection": 290.0,
+    "visibility": "4.97",
+    "flightCategory": "MVFR",
     "observationTime": "2026-09-24T11:00:00.000Z",
     "observationTimestamp": "2026-09-24T11:00:00+00:00",
-    "raw": "METAR SAAR 241100Z 01007KT CAVOK 12/07 Q1011"
+    "raw": "METAR SAZS 241100Z 29009KT 8000 -RA FEW016 SCT036 BKN044 09/06 Q1000"
   },
   "globalPulse": {
     "population": {
-      "value": 8208486049,
-      "display": "8,208,486,049",
+      "value": 8208487277,
+      "display": "8,208,487,277",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,11 +97,11 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-24T11:41:00Z",
-      "speed": 378.0
+      "time": "2026-09-24T11:48:00Z",
+      "speed": 386.0
     },
     "magneticField": {
-      "time": "2026-09-24T11:41:00Z",
+      "time": "2026-09-24T11:48:00Z",
       "bt": 10.0,
       "bz": -3.0
     },
@@ -113,8 +113,8 @@
       "value": 34.0,
       "display": "MAX 34.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-24T11:41:00Z",
-      "forecastTime": "2026-09-24T12:49:00Z"
+      "observationTime": "2026-09-24T11:48:00Z",
+      "forecastTime": "2026-09-24T13:00:00Z"
     },
     "flux10cm": {
       "time": "2026-09-23T20:00:00",
