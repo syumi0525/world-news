@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T10:24:03.528207+00:00",
+  "generatedAt": "2026-09-25T15:25:16.804476+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Fusagasugá 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wilferpc&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wilferpc (page does not exist)\">Wilferpc</a>",
-    "license": "CC0",
+    "title": "File:DSC 9881 (49995148081).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94157272@N06\">Scott Willoughby</a>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Fusagasug%C3%A1_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:DSC_9881_%2849995148081%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KJAX",
-    "station": "KJAX",
-    "lat": 30.4953,
-    "lon": -81.6937,
+    "name": "WAPP",
+    "station": "WAPP",
+    "lat": -3.71,
+    "lon": 128.089,
     "weather": "No coded weather",
-    "temperature": 17.8,
-    "dewpoint": 15.6,
-    "windSpeed": 9.0,
-    "windDirection": 350.0,
-    "visibility": "10+",
+    "temperature": 25.0,
+    "dewpoint": 23.0,
+    "windSpeed": 2.0,
+    "windDirection": 330.0,
+    "visibility": "4.97",
     "flightCategory": "MVFR",
-    "observationTime": "2026-09-25T09:56:00.000Z",
-    "observationTimestamp": "2026-09-25T09:56:00+00:00",
-    "raw": "METAR KJAX 250956Z 35009G17KT 10SM BKN012 OVC040 18/16 A3002 RMK AO2 SLP166 T01780156 $"
+    "observationTime": "2026-09-25T15:00:00.000Z",
+    "observationTimestamp": "2026-09-25T15:00:00+00:00",
+    "raw": "METAR WAPP 251500Z 33002KT 8000 SCT017 25/23 Q1015 NOSIG"
   },
   "randomPlace": {
-    "name": "ZGGG",
-    "station": "ZGGG",
-    "lat": 23.392,
-    "lon": 113.307,
+    "name": "KCLL",
+    "station": "KCLL",
+    "lat": 30.5912,
+    "lon": -96.3631,
     "weather": "No coded weather",
-    "temperature": 33.0,
-    "dewpoint": 23.0,
-    "windSpeed": 6.0,
-    "windDirection": 190.0,
-    "visibility": "6+",
+    "temperature": 25.6,
+    "dewpoint": 16.1,
+    "windSpeed": 7.0,
+    "windDirection": 90.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-25T10:00:00.000Z",
-    "observationTimestamp": "2026-09-25T10:00:00+00:00",
-    "raw": "METAR ZGGG 251000Z 19003MPS 160V240 CAVOK 33/23 Q1010 NOSIG"
+    "observationTime": "2026-09-25T14:53:00.000Z",
+    "observationTimestamp": "2026-09-25T14:53:00+00:00",
+    "raw": "METAR KCLL 251453Z 09007KT 10SM CLR 26/16 A3010 RMK AO2 SLP188 T02560161 51005"
   },
   "globalPulse": {
     "population": {
-      "value": 8208662533,
-      "display": "8,208,662,533",
+      "value": 8208701718,
+      "display": "8,208,701,718",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-25T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 4.0,
-      "display": "Kp 4.0",
+      "value": 3.7,
+      "display": "Kp 3.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-25T06:00:00"
+      "time": "2026-09-25T12:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-25T10:13:00Z",
-      "speed": 444.0
+      "time": "2026-09-25T15:15:00Z",
+      "speed": 462.0
     },
     "magneticField": {
-      "time": "2026-09-25T10:13:00Z",
+      "time": "2026-09-25T15:15:00Z",
       "bt": 8.0,
-      "bz": -5.0
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-09-25T06:00:00",
-      "kp": 4.0
+      "time": "2026-09-25T12:00:00",
+      "kp": 3.67
     },
     "aurora": {
-      "value": 49.0,
-      "display": "MAX 49.0%",
+      "value": 31.0,
+      "display": "MAX 31.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-25T10:09:00Z",
-      "forecastTime": "2026-09-25T11:16:00Z"
+      "observationTime": "2026-09-25T15:15:00Z",
+      "forecastTime": "2026-09-25T16:14:00Z"
     },
     "flux10cm": {
       "time": "2026-09-24T20:00:00",
