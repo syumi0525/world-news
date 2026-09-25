@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T15:25:16.804476+00:00",
+  "generatedAt": "2026-09-25T19:25:17.632788+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:DSC 9881 (49995148081).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94157272@N06\">Scott Willoughby</a>",
-    "license": "Public domain",
+    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:DSC_9881_%2849995148081%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "WAPP",
-    "station": "WAPP",
-    "lat": -3.71,
-    "lon": 128.089,
-    "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 23.0,
-    "windSpeed": 2.0,
-    "windDirection": 330.0,
-    "visibility": "4.97",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-25T15:00:00.000Z",
-    "observationTimestamp": "2026-09-25T15:00:00+00:00",
-    "raw": "METAR WAPP 251500Z 33002KT 8000 SCT017 25/23 Q1015 NOSIG"
+    "name": "RJAA",
+    "station": "RJAA",
+    "lat": 35.765,
+    "lon": 140.386,
+    "weather": "-RA",
+    "temperature": 21.0,
+    "dewpoint": 20.0,
+    "windSpeed": 3.0,
+    "windDirection": 150.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-25T19:00:00.000Z",
+    "observationTimestamp": "2026-09-25T19:00:00+00:00",
+    "raw": "METAR RJAA 251900Z AUTO 15003KT 9999 -RA FEW050 SCT070 BKN090 //////TCU 21/20 Q1012 TEMPO 4000 -SHRA BR FEW005 BKN008"
   },
   "randomPlace": {
-    "name": "KCLL",
-    "station": "KCLL",
-    "lat": 30.5912,
-    "lon": -96.3631,
+    "name": "UWKE",
+    "station": "UWKE",
+    "lat": 55.566,
+    "lon": 52.1,
     "weather": "No coded weather",
-    "temperature": 25.6,
-    "dewpoint": 16.1,
-    "windSpeed": 7.0,
-    "windDirection": 90.0,
-    "visibility": "10+",
+    "temperature": 12.0,
+    "dewpoint": 8.0,
+    "windSpeed": 6.0,
+    "windDirection": 70.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-25T14:53:00.000Z",
-    "observationTimestamp": "2026-09-25T14:53:00+00:00",
-    "raw": "METAR KCLL 251453Z 09007KT 10SM CLR 26/16 A3010 RMK AO2 SLP188 T02560161 51005"
+    "observationTime": "2026-09-25T19:00:00.000Z",
+    "observationTimestamp": "2026-09-25T19:00:00+00:00",
+    "raw": "METAR UWKE 251900Z 07003MPS CAVOK 12/08 Q1032 R21/090070 NOSIG RMK TDZ R21/07003MPS QFE757/1010"
   },
   "globalPulse": {
     "population": {
-      "value": 8208701718,
-      "display": "8,208,701,718",
+      "value": 8208732985,
+      "display": "8,208,732,985",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.5,
-      "display": "61.5%",
+      "value": 61.6,
+      "display": "61.6%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-25T06:00:00Z"
+      "time": "2026-09-25T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.7,
-      "display": "Kp 3.7",
+      "value": 2.3,
+      "display": "Kp 2.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-25T12:00:00"
+      "time": "2026-09-25T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-25T15:15:00Z",
-      "speed": 462.0
+      "time": "2026-09-25T19:18:00Z",
+      "speed": 503.0
     },
     "magneticField": {
-      "time": "2026-09-25T15:15:00Z",
-      "bt": 8.0,
-      "bz": 0.0
+      "time": "2026-09-25T19:18:00Z",
+      "bt": 4.0,
+      "bz": -3.0
     },
     "kp": {
-      "time": "2026-09-25T12:00:00",
-      "kp": 3.67
+      "time": "2026-09-25T15:00:00",
+      "kp": 2.33
     },
     "aurora": {
-      "value": 31.0,
-      "display": "MAX 31.0%",
+      "value": 37.0,
+      "display": "MAX 37.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-25T15:15:00Z",
-      "forecastTime": "2026-09-25T16:14:00Z"
+      "observationTime": "2026-09-25T19:13:00Z",
+      "forecastTime": "2026-09-25T20:08:00Z"
     },
     "flux10cm": {
       "time": "2026-09-24T20:00:00",
