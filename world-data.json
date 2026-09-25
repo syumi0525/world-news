@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T00:32:12.989482+00:00",
+  "generatedAt": "2026-09-25T05:21:24.913990+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Abandoned power station (41186569745).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/136665246@N05\">Dmitriy Protsenko</a> from Dubna, Russia",
-    "license": "Public domain",
+    "title": "File:Cargo Ship Fivelborg.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:GuavaTrain\" title=\"User:GuavaTrain\">GuavaTrain</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Abandoned_power_station_%2841186569745%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cargo_Ship_Fivelborg.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWLC",
-    "station": "CWLC",
-    "lat": 54.296,
-    "lon": -130.609,
+    "name": "WARR",
+    "station": "WARR",
+    "lat": -7.38,
+    "lon": 112.787,
     "weather": "No coded weather",
-    "temperature": 11.5,
-    "dewpoint": 7.5,
-    "windSpeed": 10.0,
-    "windDirection": 330.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-09-25T00:00:00.000Z",
-    "observationTimestamp": "2026-09-25T00:00:00+00:00",
-    "raw": "METAR CWLC 250000Z AUTO 33010KT 12/08 RMK AO1 T01150075"
+    "temperature": 33.0,
+    "dewpoint": 21.0,
+    "windSpeed": 19.0,
+    "windDirection": 80.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-25T05:00:00.000Z",
+    "observationTimestamp": "2026-09-25T05:00:00+00:00",
+    "raw": "METAR WARR 250500Z 08019KT CAVOK 33/21 Q1013 NOSIG"
   },
   "randomPlace": {
-    "name": "CYRQ",
-    "station": "CYRQ",
-    "lat": 46.358,
-    "lon": -72.68,
+    "name": "UASK",
+    "station": "UASK",
+    "lat": 50.027,
+    "lon": 82.5,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 10.0,
-    "windSpeed": 0.0,
+    "temperature": 13.0,
+    "dewpoint": 8.0,
+    "windSpeed": 2.0,
     "windDirection": 0.0,
-    "visibility": "9",
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-25T00:00:00.000Z",
-    "observationTimestamp": "2026-09-25T00:00:00+00:00",
-    "raw": "METAR CYRQ 250000Z AUTO 00000KT 9SM CLR 11/10 A3041 RMK SLP301"
+    "observationTime": "2026-09-25T05:00:00.000Z",
+    "observationTimestamp": "2026-09-25T05:00:00+00:00",
+    "raw": "METAR UASK 250500Z VRB01MPS 9999 NSC 13/08 Q1020 NOSIG RMK QFE740/0986"
   },
   "globalPulse": {
     "population": {
-      "value": 8208585459,
-      "display": "8,208,585,459",
+      "value": 8208623138,
+      "display": "8,208,623,138",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.3,
-      "display": "62.3%",
+      "value": 60.6,
+      "display": "60.6%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-24T12:00:00Z"
+      "time": "2026-09-25T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.7,
-      "display": "Kp 2.7",
+      "value": 3.7,
+      "display": "Kp 3.7",
       "source": "NOAA SWPC",
-      "time": "2026-09-24T21:00:00"
+      "time": "2026-09-25T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-25T00:22:00Z",
-      "speed": 448.0
+      "time": "2026-09-25T05:03:00Z",
+      "speed": 429.0
     },
     "magneticField": {
-      "time": "2026-09-25T00:20:00Z",
-      "bt": 7.0,
-      "bz": -4.0
+      "time": "2026-09-25T05:07:00Z",
+      "bt": 8.0,
+      "bz": -7.0
     },
     "kp": {
-      "time": "2026-09-24T21:00:00",
-      "kp": 2.67
+      "time": "2026-09-25T00:00:00",
+      "kp": 3.67
     },
     "aurora": {
-      "value": 33.0,
-      "display": "MAX 33.0%",
+      "value": 36.0,
+      "display": "MAX 36.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-25T00:20:00Z",
-      "forecastTime": "2026-09-25T01:22:00Z"
+      "observationTime": "2026-09-25T05:07:00Z",
+      "forecastTime": "2026-09-25T06:18:00Z"
     },
     "flux10cm": {
       "time": "2026-09-24T20:00:00",
