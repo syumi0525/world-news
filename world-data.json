@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T21:00:54.529529+00:00",
+  "generatedAt": "2026-09-26T23:33:55.326014+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Architect Dudok.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stopperspil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stopperspil (page does not exist)\">Stopperspil</a>",
-    "license": "CC0",
+    "title": "File:Driving in the village (49286320817).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147755034@N05\">Angelo Brathot</a> from Sologne-France",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Architect_Dudok.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Driving_in_the_village_%2849286320817%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLAL",
-    "station": "KLAL",
-    "lat": 27.9866,
-    "lon": -82.0193,
+    "name": "KSAC",
+    "station": "KSAC",
+    "lat": 38.5066,
+    "lon": -121.496,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 16.0,
+    "temperature": 28.3,
+    "dewpoint": 5.6,
     "windSpeed": 6.0,
-    "windDirection": 330.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-26T20:50:00.000Z",
-    "observationTimestamp": "2026-09-26T20:50:00+00:00",
-    "raw": "METAR KLAL 262050Z 33006KT 10SM SKC 28/16 A2990"
+    "observationTime": "2026-09-26T22:53:00.000Z",
+    "observationTimestamp": "2026-09-26T22:53:00+00:00",
+    "raw": "METAR KSAC 262253Z 20006KT 10SM CLR 28/06 A2984 RMK AO2 SLP105 T02830056"
   },
   "randomPlace": {
-    "name": "EYVI",
-    "station": "EYVI",
-    "lat": 54.634,
-    "lon": 25.286,
-    "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 11.0,
-    "windSpeed": 9.0,
-    "windDirection": 210.0,
-    "visibility": "4.35",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-09-26T20:50:00.000Z",
-    "observationTimestamp": "2026-09-26T20:50:00+00:00",
-    "raw": "METAR EYVI 262050Z 21009KT 7000 OVC003 11/11 Q1025 NOSIG"
+    "name": "WIMN",
+    "station": "WIMN",
+    "lat": 2.2597,
+    "lon": 98.9919,
+    "weather": "BR",
+    "temperature": 16.0,
+    "dewpoint": 16.0,
+    "windSpeed": 5.0,
+    "windDirection": 240.0,
+    "visibility": "2.49",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-26T23:00:00.000Z",
+    "observationTimestamp": "2026-09-26T23:00:00+00:00",
+    "raw": "METAR WIMN 262300Z 24005KT 4000 BR OVC010 16/16 Q1019 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208932861,
-      "display": "8,208,932,861",
+      "value": 8208952773,
+      "display": "8,208,952,773",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-26T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.0,
-      "display": "Kp 1.0",
+      "value": 2.3,
+      "display": "Kp 2.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-26T15:00:00"
+      "time": "2026-09-26T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-26T20:52:00Z",
-      "speed": 442.0
+      "time": "2026-09-26T23:26:00Z",
+      "speed": 450.0
     },
     "magneticField": {
-      "time": "2026-09-26T20:55:00Z",
+      "time": "2026-09-26T23:26:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": -1.0
     },
     "kp": {
-      "time": "2026-09-26T15:00:00",
-      "kp": 1.0
+      "time": "2026-09-26T18:00:00",
+      "kp": 2.33
     },
     "aurora": {
-      "value": 33.0,
-      "display": "MAX 33.0%",
+      "value": 30.0,
+      "display": "MAX 30.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-26T20:50:00Z",
-      "forecastTime": "2026-09-26T21:49:00Z"
+      "observationTime": "2026-09-26T23:24:00Z",
+      "forecastTime": "2026-09-27T00:24:00Z"
     },
     "flux10cm": {
       "time": "2026-09-26T20:00:00",
