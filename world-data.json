@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T18:00:02.385062+00:00",
+  "generatedAt": "2026-09-26T21:00:54.529529+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Информационный щит \"Грациозная обитательница гор. Кавказская серна\".jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Azol159&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Azol159 (page does not exist)\">Azol159</a>",
+    "title": "File:Architect Dudok.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stopperspil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stopperspil (page does not exist)\">Stopperspil</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D1%89%D0%B8%D1%82_%22%D0%93%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%B7%D0%BD%D0%B0%D1%8F_%D0%BE%D0%B1%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B0_%D0%B3%D0%BE%D1%80._%D0%9A%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B5%D1%80%D0%BD%D0%B0%22.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Architect_Dudok.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KSXT",
-    "station": "KSXT",
-    "lat": 42.6,
-    "lon": -123.366,
+    "name": "KLAL",
+    "station": "KLAL",
+    "lat": 27.9866,
+    "lon": -82.0193,
     "weather": "No coded weather",
-    "temperature": 12.8,
-    "dewpoint": 6.7,
-    "windSpeed": 5.0,
-    "windDirection": 0.0,
+    "temperature": 28.0,
+    "dewpoint": 16.0,
+    "windSpeed": 6.0,
+    "windDirection": 330.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-26T17:56:00.000Z",
-    "observationTimestamp": "2026-09-26T17:56:00+00:00",
-    "raw": "METAR KSXT 261756Z AUTO VRB05KT 10SM CLR 13/07 A3006 RMK AO2 SLP162 T01280067 10128 20044 58005"
+    "observationTime": "2026-09-26T20:50:00.000Z",
+    "observationTimestamp": "2026-09-26T20:50:00+00:00",
+    "raw": "METAR KLAL 262050Z 33006KT 10SM SKC 28/16 A2990"
   },
   "randomPlace": {
-    "name": "UWOO",
-    "station": "UWOO",
-    "lat": 51.795,
-    "lon": 55.457,
+    "name": "EYVI",
+    "station": "EYVI",
+    "lat": 54.634,
+    "lon": 25.286,
     "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 1.0,
-    "windSpeed": 4.0,
-    "windDirection": 40.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-26T17:30:00.000Z",
-    "observationTimestamp": "2026-09-26T17:30:00+00:00",
-    "raw": "METAR UWOO 261730Z 04002MPS CAVOK 09/01 Q1034 R26/CLRD60 NOSIG RMK QFE764/1019"
+    "temperature": 11.0,
+    "dewpoint": 11.0,
+    "windSpeed": 9.0,
+    "windDirection": 210.0,
+    "visibility": "4.35",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-09-26T20:50:00.000Z",
+    "observationTimestamp": "2026-09-26T20:50:00+00:00",
+    "raw": "METAR EYVI 262050Z 21009KT 7000 OVC003 11/11 Q1025 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8208909313,
-      "display": "8,208,909,313",
+      "value": 8208932861,
+      "display": "8,208,932,861",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,36 +89,36 @@
       "time": "2026-09-26T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.7,
-      "display": "Kp 1.7",
+      "value": 1.0,
+      "display": "Kp 1.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-26T12:00:00"
+      "time": "2026-09-26T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-26T17:51:00Z",
-      "speed": 470.0
+      "time": "2026-09-26T20:52:00Z",
+      "speed": 442.0
     },
     "magneticField": {
-      "time": "2026-09-26T17:51:00Z",
-      "bt": 3.0,
-      "bz": 0.0
+      "time": "2026-09-26T20:55:00Z",
+      "bt": 4.0,
+      "bz": -2.0
     },
     "kp": {
-      "time": "2026-09-26T12:00:00",
-      "kp": 1.67
+      "time": "2026-09-26T15:00:00",
+      "kp": 1.0
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 33.0,
+      "display": "MAX 33.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-26T17:48:00Z",
-      "forecastTime": "2026-09-26T18:49:00Z"
+      "observationTime": "2026-09-26T20:50:00Z",
+      "forecastTime": "2026-09-26T21:49:00Z"
     },
     "flux10cm": {
-      "time": "2026-09-25T20:00:00",
-      "flux": 105.0
+      "time": "2026-09-26T20:00:00",
+      "flux": 101.0
     }
   }
 }
