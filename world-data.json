@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T01:45:37.712651+00:00",
+  "generatedAt": "2026-09-27T07:09:12.954794+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 184514(0) Schätzl-Villa mit Garten.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "title": "File:American Craftsman home.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Onthehilltop&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Onthehilltop (page does not exist)\">Onthehilltop</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_184514%280%29_Sch%C3%A4tzl-Villa_mit_Garten.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:American_Craftsman_home.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MMUN",
-    "station": "MMUN",
-    "lat": 21.038,
-    "lon": -86.855,
+    "name": "EDMA",
+    "station": "EDMA",
+    "lat": 48.425,
+    "lon": 10.932,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 25.0,
+    "temperature": 11.0,
+    "dewpoint": 7.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "7",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-27T00:44:00.000Z",
-    "observationTimestamp": "2026-09-27T00:44:00+00:00",
-    "raw": "METAR MMUN 270044Z 00000KT 7SM FEW080 SCT250 28/25 A2990 RMK 8/031 CU"
-  },
-  "randomPlace": {
-    "name": "SAZM",
-    "station": "SAZM",
-    "lat": -37.932,
-    "lon": -57.581,
-    "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 7.0,
-    "windSpeed": 9.0,
-    "windDirection": 80.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-27T01:00:00.000Z",
-    "observationTimestamp": "2026-09-27T01:00:00+00:00",
-    "raw": "METAR SAZM 270100Z 08009KT CAVOK 09/07 Q1021"
+    "observationTime": "2026-09-27T06:50:00.000Z",
+    "observationTimestamp": "2026-09-27T06:50:00+00:00",
+    "raw": "METAR EDMA 270650Z 00000KT CAVOK 11/07 Q1023"
+  },
+  "randomPlace": {
+    "name": "LBPL",
+    "station": "LBPL",
+    "lat": 43.453,
+    "lon": 24.504,
+    "weather": "No coded weather",
+    "temperature": 12.4,
+    "dewpoint": 11.9,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "1.12",
+    "flightCategory": "IFR",
+    "observationTime": "2026-09-27T07:00:00.000Z",
+    "observationTimestamp": "2026-09-27T07:00:00+00:00",
+    "raw": "METAR LBPL 270700Z 00000KT 1800 REFG BKN006 12/12 Q1026 RMK T01240119"
   },
   "globalPulse": {
     "population": {
-      "value": 8208969892,
-      "display": "8,208,969,892",
+      "value": 8209012012,
+      "display": "8,209,012,012",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -86,35 +86,35 @@
       "value": 61.1,
       "display": "61.1%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-09-26T12:00:00Z"
+      "time": "2026-09-27T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.7,
-      "display": "Kp 2.7",
+      "value": 3.3,
+      "display": "Kp 3.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-26T21:00:00"
+      "time": "2026-09-27T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-27T01:17:00Z",
-      "speed": 451.0
+      "time": "2026-09-27T06:59:00Z",
+      "speed": 441.0
     },
     "magneticField": {
-      "time": "2026-09-27T01:17:00Z",
-      "bt": 5.0,
-      "bz": -2.0
+      "time": "2026-09-27T07:02:00Z",
+      "bt": 4.0,
+      "bz": -3.0
     },
     "kp": {
-      "time": "2026-09-26T21:00:00",
-      "kp": 2.67
+      "time": "2026-09-27T03:00:00",
+      "kp": 3.33
     },
     "aurora": {
-      "value": 31.0,
-      "display": "MAX 31.0%",
+      "value": 29.0,
+      "display": "MAX 29.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-27T01:17:00Z",
-      "forecastTime": "2026-09-27T02:35:00Z"
+      "observationTime": "2026-09-27T06:59:00Z",
+      "forecastTime": "2026-09-27T08:01:00Z"
     },
     "flux10cm": {
       "time": "2026-09-26T20:00:00",
