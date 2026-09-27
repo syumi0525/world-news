@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T17:40:01.596623+00:00",
+  "generatedAt": "2026-09-27T20:24:01.182120+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A good view of the beach cliffs.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Slinkyw\" title=\"User:Slinkyw\">Slinkyw</a>",
-    "license": "CC0",
+    "title": "File:Abandoned power station (41186569745).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/136665246@N05\">Dmitriy Protsenko</a> from Dubna, Russia",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_good_view_of_the_beach_cliffs.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Abandoned_power_station_%2841186569745%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KIZG",
-    "station": "KIZG",
-    "lat": 43.9899,
-    "lon": -70.9501,
-    "weather": "-RA",
-    "temperature": 13.3,
-    "dewpoint": 10.6,
-    "windSpeed": 8.0,
-    "windDirection": 10.0,
-    "visibility": "4",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-09-27T16:54:00.000Z",
-    "observationTimestamp": "2026-09-27T16:54:00+00:00",
-    "raw": "METAR KIZG 271654Z AUTO 01008KT 4SM -RA OVC023 13/11 A3002 RMK AO2 RAE08B35 SLP167 P0001 T01330106 $"
+    "name": "KE41",
+    "station": "KE41",
+    "lat": 31.1945,
+    "lon": -101.4732,
+    "weather": "No coded weather",
+    "temperature": 32.3,
+    "dewpoint": 15.0,
+    "windSpeed": 16.0,
+    "windDirection": 200.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-27T20:15:00.000Z",
+    "observationTimestamp": "2026-09-27T20:15:00+00:00",
+    "raw": "METAR KE41 272015Z AUTO 20016G22KT 10SM SCT095 32/15 A2998 RMK AO2 LTG DSNT SE THRU NW T03230150"
   },
   "randomPlace": {
-    "name": "EGNR",
-    "station": "EGNR",
-    "lat": 53.175,
-    "lon": -2.987,
-    "weather": "VCSH",
-    "temperature": 16.0,
-    "dewpoint": 12.0,
-    "windSpeed": 4.0,
-    "windDirection": 280.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-27T16:50:00.000Z",
-    "observationTimestamp": "2026-09-27T16:50:00+00:00",
-    "raw": "METAR EGNR 271650Z 28004KT 9999 VCSH SCT023 16/12 Q1010"
+    "name": "CYIK",
+    "station": "CYIK",
+    "lat": 62.417,
+    "lon": -77.925,
+    "weather": "No coded weather",
+    "temperature": 9.0,
+    "dewpoint": 7.0,
+    "windSpeed": 17.0,
+    "windDirection": 130.0,
+    "visibility": "15",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-09-27T20:00:00.000Z",
+    "observationTimestamp": "2026-09-27T20:00:00+00:00",
+    "raw": "METAR CYIK 272000Z 13017G24KT 15SM BKN011 BKN013 BKN019 OVC037 09/07 A2981 RMK ST5ST1SC1SC1 PRESFR SLP099"
   },
   "globalPulse": {
     "population": {
-      "value": 8209094141,
-      "display": "8,209,094,141",
+      "value": 8209115487,
+      "display": "8,209,115,487",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-09-27T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.3,
-      "display": "Kp 1.3",
+      "value": 0.3,
+      "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-09-27T12:00:00"
+      "time": "2026-09-27T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-27T17:29:00Z",
-      "speed": 398.0
+      "time": "2026-09-27T20:14:00Z",
+      "speed": 381.0
     },
     "magneticField": {
-      "time": "2026-09-27T17:29:00Z",
-      "bt": 2.0,
+      "time": "2026-09-27T20:14:00Z",
+      "bt": 3.0,
       "bz": 0.0
     },
     "kp": {
-      "time": "2026-09-27T12:00:00",
-      "kp": 1.33
+      "time": "2026-09-27T15:00:00",
+      "kp": 0.33
     },
     "aurora": {
       "value": 14.0,
       "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-27T17:29:00Z",
-      "forecastTime": "2026-09-27T18:37:00Z"
+      "observationTime": "2026-09-27T20:14:00Z",
+      "forecastTime": "2026-09-27T21:24:00Z"
     },
     "flux10cm": {
       "time": "2026-09-26T20:00:00",
