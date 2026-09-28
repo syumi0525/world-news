@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T16:03:02.478161+00:00",
+  "generatedAt": "2026-09-28T21:54:41.853028+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bali Island.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:ASIRICHAILORDSIN\" title=\"User:ASIRICHAILORDSIN\">ASIRICHAILORDSIN</a>",
+    "title": "File:Patrick Hendry 2016-09-24 (Unsplash).jpg",
+    "artist": "Patrick Hendry <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@worldsbetweenlines\">worldsbetweenlines</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bali_Island.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Patrick_Hendry_2016-09-24_%28Unsplash%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KTCY",
-    "station": "KTCY",
-    "lat": 37.6919,
-    "lon": -121.4442,
+    "name": "KL35",
+    "station": "KL35",
+    "lat": 34.2626,
+    "lon": -116.8551,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 9.0,
-    "windSpeed": 0.0,
+    "temperature": 16.3,
+    "dewpoint": -0.3,
+    "windSpeed": 11.0,
+    "windDirection": 270.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-09-28T21:35:00.000Z",
+    "observationTimestamp": "2026-09-28T21:35:00+00:00",
+    "raw": "METAR KL35 282135Z AUTO 27011G16KT 10SM CLR 16/M00 A2999 RMK AO2 T01631003 $"
+  },
+  "randomPlace": {
+    "name": "KDTS",
+    "station": "KDTS",
+    "lat": 30.3933,
+    "lon": -86.4674,
+    "weather": "No coded weather",
+    "temperature": 29.4,
+    "dewpoint": 12.8,
+    "windSpeed": 5.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-09-28T15:55:00.000Z",
-    "observationTimestamp": "2026-09-28T15:55:00+00:00",
-    "raw": "METAR KTCY 281555Z AUTO 00000KT 10SM CLR 16/09 A2990 RMK A01"
-  },
-  "randomPlace": {
-    "name": "CYNA",
-    "station": "CYNA",
-    "lat": 50.19,
-    "lon": -61.789,
-    "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 4.0,
-    "windSpeed": 4.0,
-    "windDirection": 200.0,
-    "visibility": "9",
-    "flightCategory": "VFR",
-    "observationTime": "2026-09-28T15:00:00.000Z",
-    "observationTimestamp": "2026-09-28T15:00:00+00:00",
-    "raw": "METAR CYNA 281500Z AUTO 20004KT 150V240 9SM CLR 14/04 A3028 RMK SLP256"
+    "observationTime": "2026-09-28T20:53:00.000Z",
+    "observationTimestamp": "2026-09-28T20:53:00+00:00",
+    "raw": "METAR KDTS 282053Z VRB05KT 10SM CLR 29/13 A2989 RMK AO2 SLP120 T02940128 56016"
   },
   "globalPulse": {
     "population": {
-      "value": 8209268948,
-      "display": "8,209,268,948",
+      "value": 8209314719,
+      "display": "8,209,314,719",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,36 +89,36 @@
       "time": "2026-09-28T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.3,
-      "display": "Kp 1.3",
+      "value": 1.0,
+      "display": "Kp 1.0",
       "source": "NOAA SWPC",
-      "time": "2026-09-28T12:00:00"
+      "time": "2026-09-28T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-09-28T15:56:00Z",
-      "speed": 324.0
+      "time": "2026-09-28T21:43:00Z",
+      "speed": 322.0
     },
     "magneticField": {
-      "time": "2026-09-28T15:56:00Z",
-      "bt": 4.0,
+      "time": "2026-09-28T21:43:00Z",
+      "bt": 3.0,
       "bz": -1.0
     },
     "kp": {
-      "time": "2026-09-28T12:00:00",
-      "kp": 1.33
+      "time": "2026-09-28T18:00:00",
+      "kp": 1.0
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-09-28T15:56:00Z",
-      "forecastTime": "2026-09-28T17:16:00Z"
+      "observationTime": "2026-09-28T21:43:00Z",
+      "forecastTime": "2026-09-28T23:07:00Z"
     },
     "flux10cm": {
-      "time": "2026-09-27T20:00:00",
-      "flux": 97.0
+      "time": "2026-09-28T20:00:00",
+      "flux": 95.0
     }
   }
 }
