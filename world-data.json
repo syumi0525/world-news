@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:04:35.073609+00:00",
+  "generatedAt": "2026-10-10T21:36:16.384668+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A picturesque view of Canterbury Cathedral with surrounding gardens.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fejoy58342&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fejoy58342 (page does not exist)\">Fejoy58342</a>",
+    "title": "File:Schmalblättriges Greiskraut, Blätter.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Submeir&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Submeir (page does not exist)\">Submeir</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_picturesque_view_of_Canterbury_Cathedral_with_surrounding_gardens.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Schmalbl%C3%A4ttriges_Greiskraut%2C_Bl%C3%A4tter.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFHR",
-    "station": "KFHR",
-    "lat": 48.52,
-    "lon": -123.0264,
-    "weather": "No coded weather",
-    "temperature": 10.6,
-    "dewpoint": 8.9,
-    "windSpeed": 4.0,
-    "windDirection": 350.0,
-    "visibility": "10+",
+    "name": "PAMY",
+    "station": "PAMY",
+    "lat": 60.376,
+    "lon": -166.262,
+    "weather": "-RA BR",
+    "temperature": 7.2,
+    "dewpoint": 6.7,
+    "windSpeed": 22.0,
+    "windDirection": 170.0,
+    "visibility": "5",
     "flightCategory": "MVFR",
-    "observationTime": "2026-10-10T17:53:00.000Z",
-    "observationTimestamp": "2026-10-10T17:53:00+00:00",
-    "raw": "METAR KFHR 101753Z AUTO 35004KT 10SM SCT009 BKN017 11/09 A2986 RMK AO2 RAB15E28 SLP112 P0000 60005 T01060089 10111 20083 50005"
+    "observationTime": "2026-10-10T20:56:00.000Z",
+    "observationTimestamp": "2026-10-10T20:56:00+00:00",
+    "raw": "METAR PAMY 102056Z AUTO 17022G26KT 5SM -RA BR FEW015 BKN036 OVC047 07/07 A2930 RMK AO2 PK WND 17026/2055 RAE20B51 SLP922 P0000 60000 T00720067 50003"
   },
   "randomPlace": {
-    "name": "KFRI",
-    "station": "KFRI",
-    "lat": 39.0568,
-    "lon": -96.7617,
+    "name": "KOLF",
+    "station": "KOLF",
+    "lat": 48.0942,
+    "lon": -105.5784,
     "weather": "No coded weather",
-    "temperature": 30.8,
-    "dewpoint": 11.2,
-    "windSpeed": 18.0,
-    "windDirection": 210.0,
+    "temperature": 13.9,
+    "dewpoint": 4.4,
+    "windSpeed": 13.0,
+    "windDirection": 350.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-10T17:55:00.000Z",
-    "observationTimestamp": "2026-10-10T17:55:00+00:00",
-    "raw": "METAR KFRI 101755Z AUTO 21018G27KT 10SM CLR 31/11 A2988 RMK AO2 PK WND 20027/51 SLP107 T03080112 10310 20185 57013"
+    "observationTime": "2026-10-10T20:53:00.000Z",
+    "observationTimestamp": "2026-10-10T20:53:00+00:00",
+    "raw": "METAR KOLF 102053Z AUTO 35013KT 10SM CLR 14/04 A2971 RMK AO2 SLP063 T01390044 53014 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211533938,
-      "display": "8,211,533,938",
+      "value": 8211561493,
+      "display": "8,211,561,493",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,36 +89,36 @@
       "time": "2026-10-10T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 7.0,
-      "display": "Kp 7.0",
+      "value": 6.7,
+      "display": "Kp 6.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-10T15:00:00"
+      "time": "2026-10-10T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-10T17:56:00Z",
-      "speed": 881.0
+      "time": "2026-10-10T21:28:00Z",
+      "speed": 763.0
     },
     "magneticField": {
-      "time": "2026-10-10T17:56:00Z",
-      "bt": 27.0,
-      "bz": -2.0
+      "time": "2026-10-10T21:28:00Z",
+      "bt": 16.0,
+      "bz": 2.0
     },
     "kp": {
-      "time": "2026-10-10T15:00:00",
-      "kp": 7.0
+      "time": "2026-10-10T18:00:00",
+      "kp": 6.67
     },
     "aurora": {
       "value": 100.0,
       "display": "MAX 100.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-10T17:53:00Z",
-      "forecastTime": "2026-10-10T18:31:00Z"
+      "observationTime": "2026-10-10T21:22:00Z",
+      "forecastTime": "2026-10-10T22:02:00Z"
     },
     "flux10cm": {
-      "time": "2026-10-09T20:00:00",
-      "flux": 121.0
+      "time": "2026-10-10T20:00:00",
+      "flux": 126.0
     }
   }
 }
