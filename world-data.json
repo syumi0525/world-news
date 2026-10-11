@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T06:14:43.405927+00:00",
+  "generatedAt": "2026-10-11T13:00:56.753997+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cambridge South Station August 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Bellowhead678\" title=\"User:Bellowhead678\">Bellowhead678</a>",
-    "license": "CC0",
+    "title": "File:A Journey to Lhasa and Central Tibet p219.jpg",
+    "artist": "Sarat Chandra Das",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cambridge_South_Station_August_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_Journey_to_Lhasa_and_Central_Tibet_p219.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KOMK",
-    "station": "KOMK",
-    "lat": 48.4611,
-    "lon": -119.5209,
-    "weather": "No coded weather",
-    "temperature": 8.3,
-    "dewpoint": 5.6,
-    "windSpeed": 9.0,
-    "windDirection": 330.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-11T05:53:00.000Z",
-    "observationTimestamp": "2026-10-11T05:53:00+00:00",
-    "raw": "METAR KOMK 110553Z AUTO 33009KT 10SM BKN070 OVC080 08/06 A2990 RMK AO2 PK WND 36027/0454 RAE47 SLP127 P0000 60000 T00830056 10122 20083 51015"
+    "name": "KMWK",
+    "station": "KMWK",
+    "lat": 36.4568,
+    "lon": -80.5549,
+    "weather": "-RA BR",
+    "temperature": 17.0,
+    "dewpoint": 16.0,
+    "windSpeed": 17.0,
+    "windDirection": 80.0,
+    "visibility": "6",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-10-11T12:35:00.000Z",
+    "observationTimestamp": "2026-10-11T12:35:00+00:00",
+    "raw": "METAR KMWK 111235Z AUTO 08017G23KT 6SM -RA BR FEW005 OVC017 17/16 A2997 RMK AO2 LTG DSNT SE AND S AND NW"
   },
   "randomPlace": {
-    "name": "LELC",
-    "station": "LELC",
-    "lat": 37.775,
-    "lon": -0.812,
+    "name": "LIRN",
+    "station": "LIRN",
+    "lat": 40.885,
+    "lon": 14.292,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": 13.0,
-    "windSpeed": 2.0,
-    "windDirection": 270.0,
+    "temperature": 23.0,
+    "dewpoint": 16.0,
+    "windSpeed": 6.0,
+    "windDirection": 220.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-11T06:00:00.000Z",
-    "observationTimestamp": "2026-10-11T06:00:00+00:00",
-    "raw": "METAR LELC 110600Z 27002KT CAVOK 14/13 Q1016 NOSIG"
+    "observationTime": "2026-10-11T12:50:00.000Z",
+    "observationTimestamp": "2026-10-11T12:50:00+00:00",
+    "raw": "METAR LIRN 111250Z 22006KT 190V250 9999 FEW030 23/16 Q1011 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8211628743,
-      "display": "8,211,628,743",
+      "value": 8211681826,
+      "display": "8,211,681,826",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.5,
-      "display": "61.5%",
+      "value": 61.9,
+      "display": "61.9%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-11T00:00:00Z"
+      "time": "2026-10-11T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.7,
-      "display": "Kp 3.7",
+      "value": 3.0,
+      "display": "Kp 3.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-11T03:00:00"
+      "time": "2026-10-11T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-11T06:07:00Z",
-      "speed": 637.0
+      "time": "2026-10-11T12:52:00Z",
+      "speed": 578.0
     },
     "magneticField": {
-      "time": "2026-10-11T06:07:00Z",
-      "bt": 17.0,
-      "bz": 7.0
+      "time": "2026-10-11T12:52:00Z",
+      "bt": 5.0,
+      "bz": 1.0
     },
     "kp": {
-      "time": "2026-10-11T03:00:00",
-      "kp": 3.67
+      "time": "2026-10-11T09:00:00",
+      "kp": 3.0
     },
     "aurora": {
       "value": 11.0,
       "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-11T06:04:00Z",
-      "forecastTime": "2026-10-11T06:49:00Z"
+      "observationTime": "2026-10-11T12:49:00Z",
+      "forecastTime": "2026-10-11T13:37:00Z"
     },
     "flux10cm": {
       "time": "2026-10-10T20:00:00",
