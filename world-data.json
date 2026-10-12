@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:41:30.512402+00:00",
+  "generatedAt": "2026-10-12T23:15:42.676390+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Danau Tigi - Deiyai.jpg",
-    "artist": "Government of Deiyai, Indonesia",
-    "license": "Public domain",
+    "title": "File:Vanšu Bridge (Riga), june 2026.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Frippouille22&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Frippouille22 (page does not exist)\">Frippouille22</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Van%C5%A1u_Bridge_%28Riga%29%2C_june_2026.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EVVA",
-    "station": "EVVA",
-    "lat": 57.361,
-    "lon": 21.545,
+    "name": "KALW",
+    "station": "KALW",
+    "lat": 46.0946,
+    "lon": -118.2857,
     "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 9.0,
-    "windSpeed": 2.0,
+    "temperature": 12.8,
+    "dewpoint": -1.1,
+    "windSpeed": 6.0,
     "windDirection": 0.0,
-    "visibility": "6+",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-12T16:20:00.000Z",
-    "observationTimestamp": "2026-10-12T16:20:00+00:00",
-    "raw": "METAR EVVA 121620Z AUTO VRB02KT 9999 SCT046 BKN060 10/09 Q1013"
+    "observationTime": "2026-10-12T22:53:00.000Z",
+    "observationTimestamp": "2026-10-12T22:53:00+00:00",
+    "raw": "METAR KALW 122253Z VRB06KT 10SM SCT095 13/M01 A3002 RMK AO2 SLP168 T01281011"
   },
   "randomPlace": {
-    "name": "KTMT",
-    "station": "KTMT",
-    "lat": 39.4643,
-    "lon": -117.1972,
-    "weather": "-RA",
-    "temperature": 3.0,
-    "dewpoint": 2.3,
-    "windSpeed": 5.0,
-    "windDirection": 40.0,
+    "name": "KMGJ",
+    "station": "KMGJ",
+    "lat": 41.5091,
+    "lon": -74.2645,
+    "weather": "No coded weather",
+    "temperature": 17.2,
+    "dewpoint": 12.2,
+    "windSpeed": 9.0,
+    "windDirection": 300.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-12T16:35:00.000Z",
-    "observationTimestamp": "2026-10-12T16:35:00+00:00",
-    "raw": "METAR KTMT 121635Z AUTO 04005KT 10SM -RA SCT022 BKN027 OVC035 03/02 A2992 RMK AO2 T00300023"
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-12T22:54:00.000Z",
+    "observationTimestamp": "2026-10-12T22:54:00+00:00",
+    "raw": "METAR KMGJ 122254Z AUTO 30009KT 10SM CLR 17/12 A2983 RMK AO2 SLP102 T01720122 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8211897990,
-      "display": "8,211,897,990",
+      "value": 8211949297,
+      "display": "8,211,949,297",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,36 +89,36 @@
       "time": "2026-10-12T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.7,
-      "display": "Kp 0.7",
+      "value": 2.0,
+      "display": "Kp 2.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-12T12:00:00"
+      "time": "2026-10-12T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-12T16:33:00Z",
-      "speed": 456.0
+      "time": "2026-10-12T23:07:00Z",
+      "speed": 450.0
     },
     "magneticField": {
-      "time": "2026-10-12T16:33:00Z",
-      "bt": 6.0,
-      "bz": 0.0
+      "time": "2026-10-12T23:07:00Z",
+      "bt": 9.0,
+      "bz": 4.0
     },
     "kp": {
-      "time": "2026-10-12T12:00:00",
-      "kp": 0.67
+      "time": "2026-10-12T18:00:00",
+      "kp": 2.0
     },
     "aurora": {
       "value": 13.0,
       "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-12T16:30:00Z",
-      "forecastTime": "2026-10-12T17:30:00Z"
+      "observationTime": "2026-10-12T23:04:00Z",
+      "forecastTime": "2026-10-13T00:02:00Z"
     },
     "flux10cm": {
-      "time": "2026-10-11T20:00:00",
-      "flux": 122.0
+      "time": "2026-10-12T20:00:00",
+      "flux": 123.0
     }
   }
 }
