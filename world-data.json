@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T07:03:33.717727+00:00",
+  "generatedAt": "2026-10-12T16:41:30.512402+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:-i---i- (31387900023).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/62300657@N05\">Papa Pic</a> from Eldorado, Argentina",
-    "license": "CC0",
+    "title": "File:Danau Tigi - Deiyai.jpg",
+    "artist": "Government of Deiyai, Indonesia",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:-i---i-_%2831387900023%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Danau_Tigi_-_Deiyai.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KVNY",
-    "station": "KVNY",
-    "lat": 34.2121,
-    "lon": -118.4915,
+    "name": "EVVA",
+    "station": "EVVA",
+    "lat": 57.361,
+    "lon": 21.545,
     "weather": "No coded weather",
-    "temperature": 16.1,
-    "dewpoint": 11.1,
-    "windSpeed": 0.0,
+    "temperature": 10.0,
+    "dewpoint": 9.0,
+    "windSpeed": 2.0,
     "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-12T06:51:00.000Z",
-    "observationTimestamp": "2026-10-12T06:51:00+00:00",
-    "raw": "METAR KVNY 120651Z 00000KT 10SM FEW030 SCT045 OVC055 16/11 A2983 RMK AO2 SLP093 T01610111"
-  },
-  "randomPlace": {
-    "name": "RJFT",
-    "station": "RJFT",
-    "lat": 32.837,
-    "lon": 130.855,
-    "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 19.0,
-    "windSpeed": 6.0,
-    "windDirection": 220.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-12T06:00:00.000Z",
-    "observationTimestamp": "2026-10-12T06:00:00+00:00",
-    "raw": "METAR RJFT 120600Z 22006KT 190V270 9999 FEW050 29/19 Q1016"
+    "observationTime": "2026-10-12T16:20:00.000Z",
+    "observationTimestamp": "2026-10-12T16:20:00+00:00",
+    "raw": "METAR EVVA 121620Z AUTO VRB02KT 9999 SCT046 BKN060 10/09 Q1013"
+  },
+  "randomPlace": {
+    "name": "KTMT",
+    "station": "KTMT",
+    "lat": 39.4643,
+    "lon": -117.1972,
+    "weather": "-RA",
+    "temperature": 3.0,
+    "dewpoint": 2.3,
+    "windSpeed": 5.0,
+    "windDirection": 40.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-10-12T16:35:00.000Z",
+    "observationTimestamp": "2026-10-12T16:35:00+00:00",
+    "raw": "METAR KTMT 121635Z AUTO 04005KT 10SM -RA SCT022 BKN027 OVC035 03/02 A2992 RMK AO2 T00300023"
   },
   "globalPulse": {
     "population": {
-      "value": 8211822740,
-      "display": "8,211,822,740",
+      "value": 8211897990,
+      "display": "8,211,897,990",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.3,
-      "display": "62.3%",
+      "value": 63.6,
+      "display": "63.6%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-12T00:00:00Z"
+      "time": "2026-10-12T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.3,
-      "display": "Kp 2.3",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-12T03:00:00"
+      "time": "2026-10-12T12:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-12T06:56:00Z",
-      "speed": 494.0
+      "time": "2026-10-12T16:33:00Z",
+      "speed": 456.0
     },
     "magneticField": {
-      "time": "2026-10-12T06:56:00Z",
-      "bt": 7.0,
+      "time": "2026-10-12T16:33:00Z",
+      "bt": 6.0,
       "bz": 0.0
     },
     "kp": {
-      "time": "2026-10-12T03:00:00",
-      "kp": 2.33
+      "time": "2026-10-12T12:00:00",
+      "kp": 0.67
     },
     "aurora": {
-      "value": 29.0,
-      "display": "MAX 29.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-12T06:53:00Z",
-      "forecastTime": "2026-10-12T07:51:00Z"
+      "observationTime": "2026-10-12T16:30:00Z",
+      "forecastTime": "2026-10-12T17:30:00Z"
     },
     "flux10cm": {
       "time": "2026-10-11T20:00:00",
