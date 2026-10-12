@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T21:52:00.464260+00:00",
+  "generatedAt": "2026-10-12T00:57:37.333568+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A misty forest road in Coonoor.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
+    "title": "File:Schmalblättriges Greiskraut, Blätter.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Submeir&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Submeir (page does not exist)\">Submeir</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Schmalbl%C3%A4ttriges_Greiskraut%2C_Bl%C3%A4tter.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KVHN",
-    "station": "KVHN",
-    "lat": 31.0602,
-    "lon": -104.7832,
+    "name": "KORG",
+    "station": "KORG",
+    "lat": 30.068,
+    "lon": -93.8043,
     "weather": "No coded weather",
-    "temperature": 31.1,
-    "dewpoint": 11.7,
-    "windSpeed": 10.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-11T21:35:00.000Z",
-    "observationTimestamp": "2026-10-11T21:35:00+00:00",
-    "raw": "METAR KVHN 112135Z AUTO 20010KT 10SM CLR 31/12 A3000 RMK AO2 T03110117"
-  },
-  "randomPlace": {
-    "name": "OEAO",
-    "station": "OEAO",
-    "lat": 26.483,
-    "lon": 38.117,
-    "weather": "No coded weather",
-    "temperature": 32.0,
-    "dewpoint": 9.0,
+    "temperature": 22.9,
+    "dewpoint": 19.1,
     "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "6+",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-11T21:00:00.000Z",
-    "observationTimestamp": "2026-10-11T21:00:00+00:00",
-    "raw": "METAR OEAO 112100Z 00000KT CAVOK 32/09 Q1013 NOSIG"
+    "observationTime": "2026-10-12T00:30:00.000Z",
+    "observationTimestamp": "2026-10-12T00:30:00+00:00",
+    "raw": "METAR KORG 120030Z AUTO 00000KT 10SM CLR 23/19 A3009 RMK AO2 T02290191 PWINO"
+  },
+  "randomPlace": {
+    "name": "K1B9",
+    "station": "K1B9",
+    "lat": 42.0,
+    "lon": -71.197,
+    "weather": "RA BR",
+    "temperature": 11.3,
+    "dewpoint": 11.2,
+    "windSpeed": 4.0,
+    "windDirection": 80.0,
+    "visibility": "2.5",
+    "flightCategory": "IFR",
+    "observationTime": "2026-10-11T23:35:00.000Z",
+    "observationTimestamp": "2026-10-11T23:35:00+00:00",
+    "raw": "METAR K1B9 112335Z AUTO 08004KT 2 1/2SM RA BR FEW005 OVC060 11/11 A3010 RMK AO2 P0032 T01130112"
   },
   "globalPulse": {
     "population": {
-      "value": 8211750957,
-      "display": "8,211,750,957",
+      "value": 8211775095,
+      "display": "8,211,775,095",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 1.7,
       "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-11T18:00:00"
+      "time": "2026-10-11T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-11T21:42:00Z",
-      "speed": 514.0
+      "time": "2026-10-12T00:49:00Z",
+      "speed": 495.0
     },
     "magneticField": {
-      "time": "2026-10-11T21:44:00Z",
+      "time": "2026-10-12T00:49:00Z",
       "bt": 6.0,
       "bz": 0.0
     },
     "kp": {
-      "time": "2026-10-11T18:00:00",
+      "time": "2026-10-11T21:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-11T21:39:00Z",
-      "forecastTime": "2026-10-11T22:33:00Z"
+      "observationTime": "2026-10-12T00:49:00Z",
+      "forecastTime": "2026-10-12T01:45:00Z"
     },
     "flux10cm": {
       "time": "2026-10-11T20:00:00",
