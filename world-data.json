@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T18:12:20.804712+00:00",
+  "generatedAt": "2026-10-13T22:51:36.673034+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:08020047.JPG",
-    "artist": "Catalina Holguin",
-    "license": "Public domain",
+    "title": "File:Active Wave At Popham Beach, Popham, Maine.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FlaggSwagg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FlaggSwagg (page does not exist)\">FlaggSwagg</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:08020047.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Active_Wave_At_Popham_Beach%2C_Popham%2C_Maine.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMGG",
-    "station": "KMGG",
-    "lat": 45.2354,
-    "lon": -93.9896,
+    "name": "LFJR",
+    "station": "LFJR",
+    "lat": 47.562,
+    "lon": -0.317,
     "weather": "No coded weather",
-    "temperature": 12.5,
-    "dewpoint": 7.1,
-    "windSpeed": 4.0,
-    "windDirection": 250.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-13T17:55:00.000Z",
-    "observationTimestamp": "2026-10-13T17:55:00+00:00",
-    "raw": "METAR KMGG 131755Z AUTO 25004KT 10SM OVC018 13/07 A2995 RMK AO2 T01250071 10126 20110"
+    "temperature": 14.0,
+    "dewpoint": 13.0,
+    "windSpeed": 5.0,
+    "windDirection": 350.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-13T22:30:00.000Z",
+    "observationTimestamp": "2026-10-13T22:30:00+00:00",
+    "raw": "METAR LFJR 132230Z AUTO 35005KT 9999 BKN049 14/13 Q1030"
   },
   "randomPlace": {
-    "name": "LGSR",
-    "station": "LGSR",
-    "lat": 36.399,
-    "lon": 25.479,
+    "name": "KLAS",
+    "station": "KLAS",
+    "lat": 36.0719,
+    "lon": -115.1634,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 17.0,
-    "windSpeed": 9.0,
-    "windDirection": 200.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-13T17:50:00.000Z",
-    "observationTimestamp": "2026-10-13T17:50:00+00:00",
-    "raw": "METAR LGSR 131750Z 20009KT 9999 FEW016TCU BKN020 21/17 Q1011"
+    "temperature": 16.1,
+    "dewpoint": -3.3,
+    "windSpeed": 18.0,
+    "windDirection": 340.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-13T21:56:00.000Z",
+    "observationTimestamp": "2026-10-13T21:56:00+00:00",
+    "raw": "METAR KLAS 132156Z 34018G32KT 10SM SCT070 BKN100 16/M03 A3002 RMK AO2 PK WND 34034/2142 SLP156 T01611033"
   },
   "globalPulse": {
     "population": {
-      "value": 8212097229,
-      "display": "8,212,097,229",
+      "value": 8212133593,
+      "display": "8,212,133,593",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,36 +89,36 @@
       "time": "2026-10-13T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.3,
-      "display": "Kp 2.3",
+      "value": 3.0,
+      "display": "Kp 3.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-13T15:00:00"
+      "time": "2026-10-13T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-13T18:03:00Z",
-      "speed": 626.0
+      "time": "2026-10-13T22:41:00Z",
+      "speed": 605.0
     },
     "magneticField": {
-      "time": "2026-10-13T18:03:00Z",
-      "bt": 9.0,
-      "bz": 1.0
+      "time": "2026-10-13T22:41:00Z",
+      "bt": 5.0,
+      "bz": 3.0
     },
     "kp": {
-      "time": "2026-10-13T15:00:00",
-      "kp": 2.33
+      "time": "2026-10-13T18:00:00",
+      "kp": 3.0
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-13T18:03:00Z",
-      "forecastTime": "2026-10-13T18:52:00Z"
+      "observationTime": "2026-10-13T22:38:00Z",
+      "forecastTime": "2026-10-13T23:26:00Z"
     },
     "flux10cm": {
-      "time": "2026-10-12T20:00:00",
-      "flux": 123.0
+      "time": "2026-10-13T20:00:00",
+      "flux": 136.0
     }
   }
 }
