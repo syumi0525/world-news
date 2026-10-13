@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T23:15:42.676390+00:00",
+  "generatedAt": "2026-10-13T11:04:52.888169+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Vanšu Bridge (Riga), june 2026.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Frippouille22&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Frippouille22 (page does not exist)\">Frippouille22</a>",
+    "title": "File:Bunganya tanaman lidah buaya.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tohcey&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tohcey (page does not exist)\">Tohcey</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Van%C5%A1u_Bridge_%28Riga%29%2C_june_2026.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bunganya_tanaman_lidah_buaya.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KALW",
-    "station": "KALW",
-    "lat": 46.0946,
-    "lon": -118.2857,
+    "name": "K1CM",
+    "station": "K1CM",
+    "lat": 47.096,
+    "lon": -110.164,
     "weather": "No coded weather",
-    "temperature": 12.8,
-    "dewpoint": -1.1,
-    "windSpeed": 6.0,
+    "temperature": 0.5,
+    "dewpoint": -3.6,
+    "windSpeed": 8.0,
+    "windDirection": 210.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-13T10:55:00.000Z",
+    "observationTimestamp": "2026-10-13T10:55:00+00:00",
+    "raw": "METAR K1CM 131055Z AUTO 21008KT 10SM CLR 01/M04 A2989 RMK AO2 SLP145 T00051036 $"
+  },
+  "randomPlace": {
+    "name": "KAQX",
+    "station": "KAQX",
+    "lat": 32.9941,
+    "lon": -81.271,
+    "weather": "No coded weather",
+    "temperature": 15.0,
+    "dewpoint": 15.0,
+    "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-12T22:53:00.000Z",
-    "observationTimestamp": "2026-10-12T22:53:00+00:00",
-    "raw": "METAR KALW 122253Z VRB06KT 10SM SCT095 13/M01 A3002 RMK AO2 SLP168 T01281011"
-  },
-  "randomPlace": {
-    "name": "KMGJ",
-    "station": "KMGJ",
-    "lat": 41.5091,
-    "lon": -74.2645,
-    "weather": "No coded weather",
-    "temperature": 17.2,
-    "dewpoint": 12.2,
-    "windSpeed": 9.0,
-    "windDirection": 300.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-12T22:54:00.000Z",
-    "observationTimestamp": "2026-10-12T22:54:00+00:00",
-    "raw": "METAR KMGJ 122254Z AUTO 30009KT 10SM CLR 17/12 A2983 RMK AO2 SLP102 T01720122 $"
+    "observationTime": "2026-10-13T10:55:00.000Z",
+    "observationTimestamp": "2026-10-13T10:55:00+00:00",
+    "raw": "METAR KAQX 131055Z AUTO 00000KT 10SM CLR 15/15 A3005 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8211949297,
-      "display": "8,211,949,297",
+      "value": 8212041603,
+      "display": "8,212,041,603",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 63.6,
-      "display": "63.6%",
+      "value": 61.4,
+      "display": "61.4%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-12T12:00:00Z"
+      "time": "2026-10-13T06:00:00Z"
     },
     "geomagnetic": {
       "value": 2.0,
       "display": "Kp 2.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-12T18:00:00"
+      "time": "2026-10-13T06:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-12T23:07:00Z",
-      "speed": 450.0
+      "time": "2026-10-13T10:57:00Z",
+      "speed": 506.0
     },
     "magneticField": {
-      "time": "2026-10-12T23:07:00Z",
-      "bt": 9.0,
-      "bz": 4.0
+      "time": "2026-10-13T10:57:00Z",
+      "bt": 10.0,
+      "bz": 7.0
     },
     "kp": {
-      "time": "2026-10-12T18:00:00",
+      "time": "2026-10-13T06:00:00",
       "kp": 2.0
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-12T23:04:00Z",
-      "forecastTime": "2026-10-13T00:02:00Z"
+      "observationTime": "2026-10-13T10:54:00Z",
+      "forecastTime": "2026-10-13T11:50:00Z"
     },
     "flux10cm": {
       "time": "2026-10-12T20:00:00",
