@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T06:40:27.703977+00:00",
+  "generatedAt": "2026-10-14T12:24:24.590443+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brule Lake from solomon hazy.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benfwilliamson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benfwilliamson (page does not exist)\">Benfwilliamson</a>",
+    "title": "File:Cidades do principado de Sedfo.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sedfo_Wikis&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sedfo Wikis (page does not exist)\">Sedfo Wikis</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Brule_Lake_from_solomon_hazy.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cidades_do_principado_de_Sedfo.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "VCBI",
-    "station": "VCBI",
-    "lat": 7.181,
-    "lon": 79.884,
+    "name": "EGXT",
+    "station": "EGXT",
+    "lat": 52.611,
+    "lon": -0.461,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 27.0,
-    "windSpeed": 4.0,
-    "windDirection": 280.0,
+    "temperature": 17.0,
+    "dewpoint": 10.0,
+    "windSpeed": 15.0,
+    "windDirection": 210.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-14T06:10:00.000Z",
-    "observationTimestamp": "2026-10-14T06:10:00+00:00",
-    "raw": "METAR VCBI 140610Z 28004KT 240V310 9999 FEW014 SCT016 FEW018CB 29/27 Q1010 NOSIG RMK CB S SW"
+    "observationTime": "2026-10-14T11:50:00.000Z",
+    "observationTimestamp": "2026-10-14T11:50:00+00:00",
+    "raw": "METAR EGXT 141150Z 21015KT 9999 FEW025 17/10 Q1026 RMK BLU"
   },
   "randomPlace": {
-    "name": "KFQD",
-    "station": "KFQD",
-    "lat": 35.43,
-    "lon": -81.936,
-    "weather": "BR",
-    "temperature": 15.0,
-    "dewpoint": 15.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "0.75",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-10-14T06:15:00.000Z",
-    "observationTimestamp": "2026-10-14T06:15:00+00:00",
-    "raw": "METAR KFQD 140615Z AUTO 00000KT 3/4SM BR BKN002 15/15 A3009 RMK AO2"
+    "name": "KPHP",
+    "station": "KPHP",
+    "lat": 44.051,
+    "lon": -101.6014,
+    "weather": "No coded weather",
+    "temperature": 5.0,
+    "dewpoint": 2.8,
+    "windSpeed": 3.0,
+    "windDirection": 340.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-14T11:55:00.000Z",
+    "observationTimestamp": "2026-10-14T11:55:00+00:00",
+    "raw": "METAR KPHP 141155Z AUTO 34003KT 10SM CLR 05/03 A3019 RMK AO2 SLP230 T00500028 10089 20044 53005"
   },
   "globalPulse": {
     "population": {
-      "value": 8212194597,
-      "display": "8,212,194,597",
+      "value": 8212239364,
+      "display": "8,212,239,364",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.0,
-      "display": "61.0%",
+      "value": 62.3,
+      "display": "62.3%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-14T00:00:00Z"
+      "time": "2026-10-14T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.3,
-      "display": "Kp 3.3",
+      "value": 2.3,
+      "display": "Kp 2.3",
       "source": "NOAA SWPC",
-      "time": "2026-10-14T03:00:00"
+      "time": "2026-10-14T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-14T06:33:00Z",
-      "speed": 590.0
+      "time": "2026-10-14T12:15:00Z",
+      "speed": 513.0
     },
     "magneticField": {
-      "time": "2026-10-14T06:33:00Z",
+      "time": "2026-10-14T12:15:00Z",
       "bt": 3.0,
-      "bz": 2.0
+      "bz": -1.0
     },
     "kp": {
-      "time": "2026-10-14T03:00:00",
-      "kp": 3.33
+      "time": "2026-10-14T09:00:00",
+      "kp": 2.33
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-14T06:30:00Z",
-      "forecastTime": "2026-10-14T07:18:00Z"
+      "observationTime": "2026-10-14T12:15:00Z",
+      "forecastTime": "2026-10-14T13:06:00Z"
     },
     "flux10cm": {
       "time": "2026-10-13T20:00:00",
