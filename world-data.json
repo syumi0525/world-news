@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T20:53:11.816190+00:00",
+  "generatedAt": "2026-10-14T23:40:09.369230+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ditches, Dust, and Distance - DPLA - 62b7f33dfac43e4f5d60db1effaae5eb.jpg",
-    "artist": "Department of the Interior. Bureau of Indian Affairs. Pierre Agency. 1954-1972",
-    "license": "Public domain",
+    "title": "File:Cia Gould 2015 (Unsplash).jpg",
+    "artist": "Cia Gould <a rel=\"mw:ExtLink nofollow\" href=\"https://unsplash.com/@ciagould\" class=\"external text\">ciagould</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ditches%2C_Dust%2C_and_Distance_-_DPLA_-_62b7f33dfac43e4f5d60db1effaae5eb.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cia_Gould_2015_%28Unsplash%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWNM",
-    "station": "CWNM",
-    "lat": 49.491,
-    "lon": -117.305,
-    "weather": "No coded weather",
-    "temperature": 15.5,
-    "dewpoint": 3.8,
-    "windSpeed": 10.0,
-    "windDirection": 270.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-10-14T20:00:00.000Z",
-    "observationTimestamp": "2026-10-14T20:00:00+00:00",
-    "raw": "METAR CWNM 142000Z AUTO 27010KT 16/04 RMK AO1 SLP249 T01550038 58006"
+    "name": "CYZV",
+    "station": "CYZV",
+    "lat": 50.217,
+    "lon": -66.26,
+    "weather": "-RA BR",
+    "temperature": 5.0,
+    "dewpoint": 5.0,
+    "windSpeed": 8.0,
+    "windDirection": 120.0,
+    "visibility": "2",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-10-14T23:26:00.000Z",
+    "observationTimestamp": "2026-10-14T23:26:00+00:00",
+    "raw": "SPECI CYZV 142326Z 12008KT 2SM -RA BR OVC003 05/05 A2974 RMK SC8 SLP077"
   },
   "randomPlace": {
-    "name": "KISP",
-    "station": "KISP",
-    "lat": 40.7939,
-    "lon": -73.1018,
+    "name": "KPPA",
+    "station": "KPPA",
+    "lat": 35.6139,
+    "lon": -100.9972,
     "weather": "No coded weather",
-    "temperature": 24.4,
-    "dewpoint": 18.9,
-    "windSpeed": 10.0,
-    "windDirection": 230.0,
+    "temperature": 20.1,
+    "dewpoint": 18.1,
+    "windSpeed": 12.0,
+    "windDirection": 130.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-14T19:56:00.000Z",
-    "observationTimestamp": "2026-10-14T19:56:00+00:00",
-    "raw": "METAR KISP 141956Z 23010KT 10SM FEW035 FEW150 SCT250 24/19 A2981 RMK AO2 SLP093 T02440189"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-10-14T23:10:00.000Z",
+    "observationTimestamp": "2026-10-14T23:10:00+00:00",
+    "raw": "METAR KPPA 142310Z AUTO 13012KT 10SM BKN017 BKN027 OVC050 20/18 A2998 RMK AO2 T02010181"
   },
   "globalPulse": {
     "population": {
-      "value": 8212305607,
-      "display": "8,212,305,607",
+      "value": 8212327329,
+      "display": "8,212,327,329",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-14T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 2.7,
+      "display": "Kp 2.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-14T15:00:00"
+      "time": "2026-10-14T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-14T20:44:00Z",
-      "speed": 536.0
+      "time": "2026-10-14T23:30:00Z",
+      "speed": 530.0
     },
     "magneticField": {
-      "time": "2026-10-14T20:44:00Z",
-      "bt": 7.0,
-      "bz": 4.0
+      "time": "2026-10-14T23:30:00Z",
+      "bt": 6.0,
+      "bz": -2.0
     },
     "kp": {
-      "time": "2026-10-14T15:00:00",
-      "kp": 2.0
+      "time": "2026-10-14T18:00:00",
+      "kp": 2.67
     },
     "aurora": {
-      "value": 24.0,
-      "display": "MAX 24.0%",
+      "value": 27.0,
+      "display": "MAX 27.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-14T20:44:00Z",
-      "forecastTime": "2026-10-14T21:35:00Z"
+      "observationTime": "2026-10-14T23:27:00Z",
+      "forecastTime": "2026-10-15T00:21:00Z"
     },
     "flux10cm": {
       "time": "2026-10-14T20:00:00",
