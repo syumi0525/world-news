@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T12:29:12.636550+00:00",
+  "generatedAt": "2026-10-15T17:17:33.102055+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Vehicles in Shibuya (69786).jpg",
-    "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Syced\" title=\"User:Syced\">Syced</a>",
+    "title": "File:Basilique de Fourvière à Lyon, vue d'en bas.jpg",
+    "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:PerrineSCDUM?action=edit&amp;redlink=1\" title=\"User:PerrineSCDUM (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:PerrineSCDUM\"]}}'>PerrineSCDUM</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Vehicles_in_Shibuya_%2869786%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_%C3%A0_Lyon%2C_vue_d%27en_bas.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KWRL",
-    "station": "KWRL",
-    "lat": 43.9654,
-    "lon": -107.9502,
+    "name": "KCUT",
+    "station": "KCUT",
+    "lat": 43.7331,
+    "lon": -103.6151,
     "weather": "No coded weather",
-    "temperature": 6.1,
-    "dewpoint": 1.1,
-    "windSpeed": 6.0,
+    "temperature": 7.8,
+    "dewpoint": -4.4,
+    "windSpeed": 11.0,
     "windDirection": 340.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-15T11:53:00.000Z",
-    "observationTimestamp": "2026-10-15T11:53:00+00:00",
-    "raw": "METAR KWRL 151153Z AUTO 34006KT 10SM CLR 06/01 A3041 RMK AO2 SLP301 70002 T00610011 10078 20050 53032"
+    "observationTime": "2026-10-15T16:53:00.000Z",
+    "observationTimestamp": "2026-10-15T16:53:00+00:00",
+    "raw": "METAR KCUT 151653Z AUTO 34011G26KT 10SM CLR 08/M04 A3040 RMK AO2 PK WND 35026/1647 SLP286 T00781044"
   },
   "randomPlace": {
-    "name": "SBRF",
-    "station": "SBRF",
-    "lat": -8.126,
-    "lon": -34.923,
+    "name": "K8D3",
+    "station": "K8D3",
+    "lat": 45.669,
+    "lon": -96.9918,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 22.0,
-    "windSpeed": 9.0,
-    "windDirection": 90.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-15T12:00:00.000Z",
-    "observationTimestamp": "2026-10-15T12:00:00+00:00",
-    "raw": "METAR SBRF 151200Z 09009KT 050V120 9999 BKN025 29/22 Q1015"
+    "temperature": 11.1,
+    "dewpoint": 7.8,
+    "windSpeed": 14.0,
+    "windDirection": 290.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-10-15T16:56:00.000Z",
+    "observationTimestamp": "2026-10-15T16:56:00+00:00",
+    "raw": "METAR K8D3 151656Z AUTO 29014KT 11/08 A3004 RMK AO1 SLP175 T01110078"
   },
   "globalPulse": {
     "population": {
-      "value": 8212427420,
-      "display": "8,212,427,420",
+      "value": 8212464971,
+      "display": "8,212,464,971",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.3,
-      "display": "62.3%",
+      "value": 62.9,
+      "display": "62.9%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-15T06:00:00Z"
+      "time": "2026-10-15T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.0,
-      "display": "Kp 3.0",
+      "value": 2.7,
+      "display": "Kp 2.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-15T09:00:00"
+      "time": "2026-10-15T12:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-15T12:19:00Z",
-      "speed": 500.0
+      "time": "2026-10-15T17:11:00Z",
+      "speed": 466.0
     },
     "magneticField": {
-      "time": "2026-10-15T12:19:00Z",
+      "time": "2026-10-15T17:11:00Z",
       "bt": 5.0,
-      "bz": 1.0
+      "bz": -4.0
     },
     "kp": {
-      "time": "2026-10-15T09:00:00",
-      "kp": 3.0
+      "time": "2026-10-15T12:00:00",
+      "kp": 2.67
     },
     "aurora": {
-      "value": 34.0,
-      "display": "MAX 34.0%",
+      "value": 31.0,
+      "display": "MAX 31.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-15T12:19:00Z",
-      "forecastTime": "2026-10-15T13:17:00Z"
+      "observationTime": "2026-10-15T17:08:00Z",
+      "forecastTime": "2026-10-15T18:08:00Z"
     },
     "flux10cm": {
       "time": "2026-10-14T20:00:00",
