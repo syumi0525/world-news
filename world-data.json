@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T01:51:21.802742+00:00",
+  "generatedAt": "2026-10-15T06:56:27.052306+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:1910-07-25 RPPC Penn Yann Dea friend your letter received A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Description needed. (26526457164).jpg",
+    "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/124103604@N02\" class=\"external text\">cotterillmike</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:1910-07-25_RPPC_Penn_Yann_Dea_friend_your_letter_received_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Description_needed._%2826526457164%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRIC",
-    "station": "KRIC",
-    "lat": 37.5115,
-    "lon": -77.3234,
+    "name": "K16J",
+    "station": "K16J",
+    "lat": 31.7435,
+    "lon": -84.417,
     "weather": "No coded weather",
-    "temperature": 24.4,
-    "dewpoint": 18.9,
-    "windSpeed": 5.0,
-    "windDirection": 180.0,
+    "temperature": 17.0,
+    "dewpoint": 17.0,
+    "windSpeed": 1.0,
+    "windDirection": 340.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-15T00:54:00.000Z",
-    "observationTimestamp": "2026-10-15T00:54:00+00:00",
-    "raw": "METAR KRIC 150054Z 18005KT 10SM SCT150 24/19 A2997 RMK AO2 SLP151 T02440189"
+    "observationTime": "2026-10-15T06:35:00.000Z",
+    "observationTimestamp": "2026-10-15T06:35:00+00:00",
+    "raw": "METAR K16J 150635Z AUTO 34001KT 10SM CLR 17/17 A3009 RMK AO2"
   },
   "randomPlace": {
-    "name": "KOMA",
-    "station": "KOMA",
-    "lat": 41.3119,
-    "lon": -95.9018,
+    "name": "EGGP",
+    "station": "EGGP",
+    "lat": 53.334,
+    "lon": -2.85,
     "weather": "No coded weather",
-    "temperature": 14.4,
-    "dewpoint": 7.8,
-    "windSpeed": 5.0,
-    "windDirection": 70.0,
-    "visibility": "10+",
+    "temperature": 16.0,
+    "dewpoint": 9.0,
+    "windSpeed": 9.0,
+    "windDirection": 220.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-15T00:52:00.000Z",
-    "observationTimestamp": "2026-10-15T00:52:00+00:00",
-    "raw": "METAR KOMA 150052Z 07005KT 10SM OVC043 14/08 A3011 RMK AO2 SLP198 T01440078"
+    "observationTime": "2026-10-15T06:20:00.000Z",
+    "observationTimestamp": "2026-10-15T06:20:00+00:00",
+    "raw": "METAR EGGP 150620Z 22009KT 180V250 9999 SCT039 16/09 Q1014"
   },
   "globalPulse": {
     "population": {
-      "value": 8212344390,
-      "display": "8,212,344,390",
+      "value": 8212384111,
+      "display": "8,212,384,111",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.7,
-      "display": "62.7%",
+      "value": 61.4,
+      "display": "61.4%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-14T12:00:00Z"
+      "time": "2026-10-15T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.7,
-      "display": "Kp 2.7",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-14T21:00:00"
+      "time": "2026-10-15T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-15T01:41:00Z",
-      "speed": 538.0
+      "time": "2026-10-15T06:47:00Z",
+      "speed": 477.0
     },
     "magneticField": {
-      "time": "2026-10-15T01:41:00Z",
-      "bt": 6.0,
-      "bz": 2.0
+      "time": "2026-10-15T06:50:00Z",
+      "bt": 5.0,
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-10-14T21:00:00",
-      "kp": 2.67
+      "time": "2026-10-15T03:00:00",
+      "kp": 0.67
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-15T01:38:00Z",
-      "forecastTime": "2026-10-15T02:32:00Z"
+      "observationTime": "2026-10-15T06:44:00Z",
+      "forecastTime": "2026-10-15T07:42:00Z"
     },
     "flux10cm": {
       "time": "2026-10-14T20:00:00",
