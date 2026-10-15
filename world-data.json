@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T23:40:09.369230+00:00",
+  "generatedAt": "2026-10-15T01:51:21.802742+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cia Gould 2015 (Unsplash).jpg",
-    "artist": "Cia Gould <a rel=\"mw:ExtLink nofollow\" href=\"https://unsplash.com/@ciagould\" class=\"external text\">ciagould</a>",
-    "license": "CC0",
+    "title": "File:1910-07-25 RPPC Penn Yann Dea friend your letter received A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cia_Gould_2015_%28Unsplash%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1910-07-25_RPPC_Penn_Yann_Dea_friend_your_letter_received_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYZV",
-    "station": "CYZV",
-    "lat": 50.217,
-    "lon": -66.26,
-    "weather": "-RA BR",
-    "temperature": 5.0,
-    "dewpoint": 5.0,
-    "windSpeed": 8.0,
-    "windDirection": 120.0,
-    "visibility": "2",
-    "flightCategory": "LIFR",
-    "observationTime": "2026-10-14T23:26:00.000Z",
-    "observationTimestamp": "2026-10-14T23:26:00+00:00",
-    "raw": "SPECI CYZV 142326Z 12008KT 2SM -RA BR OVC003 05/05 A2974 RMK SC8 SLP077"
+    "name": "KRIC",
+    "station": "KRIC",
+    "lat": 37.5115,
+    "lon": -77.3234,
+    "weather": "No coded weather",
+    "temperature": 24.4,
+    "dewpoint": 18.9,
+    "windSpeed": 5.0,
+    "windDirection": 180.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-15T00:54:00.000Z",
+    "observationTimestamp": "2026-10-15T00:54:00+00:00",
+    "raw": "METAR KRIC 150054Z 18005KT 10SM SCT150 24/19 A2997 RMK AO2 SLP151 T02440189"
   },
   "randomPlace": {
-    "name": "KPPA",
-    "station": "KPPA",
-    "lat": 35.6139,
-    "lon": -100.9972,
+    "name": "KOMA",
+    "station": "KOMA",
+    "lat": 41.3119,
+    "lon": -95.9018,
     "weather": "No coded weather",
-    "temperature": 20.1,
-    "dewpoint": 18.1,
-    "windSpeed": 12.0,
-    "windDirection": 130.0,
+    "temperature": 14.4,
+    "dewpoint": 7.8,
+    "windSpeed": 5.0,
+    "windDirection": 70.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-14T23:10:00.000Z",
-    "observationTimestamp": "2026-10-14T23:10:00+00:00",
-    "raw": "METAR KPPA 142310Z AUTO 13012KT 10SM BKN017 BKN027 OVC050 20/18 A2998 RMK AO2 T02010181"
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-15T00:52:00.000Z",
+    "observationTimestamp": "2026-10-15T00:52:00+00:00",
+    "raw": "METAR KOMA 150052Z 07005KT 10SM OVC043 14/08 A3011 RMK AO2 SLP198 T01440078"
   },
   "globalPulse": {
     "population": {
-      "value": 8212327329,
-      "display": "8,212,327,329",
+      "value": 8212344390,
+      "display": "8,212,344,390",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 2.7,
       "display": "Kp 2.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-14T18:00:00"
+      "time": "2026-10-14T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-14T23:30:00Z",
-      "speed": 530.0
+      "time": "2026-10-15T01:41:00Z",
+      "speed": 538.0
     },
     "magneticField": {
-      "time": "2026-10-14T23:30:00Z",
+      "time": "2026-10-15T01:41:00Z",
       "bt": 6.0,
-      "bz": -2.0
+      "bz": 2.0
     },
     "kp": {
-      "time": "2026-10-14T18:00:00",
+      "time": "2026-10-14T21:00:00",
       "kp": 2.67
     },
     "aurora": {
-      "value": 27.0,
-      "display": "MAX 27.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-14T23:27:00Z",
-      "forecastTime": "2026-10-15T00:21:00Z"
+      "observationTime": "2026-10-15T01:38:00Z",
+      "forecastTime": "2026-10-15T02:32:00Z"
     },
     "flux10cm": {
       "time": "2026-10-14T20:00:00",
