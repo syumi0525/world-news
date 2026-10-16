@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T06:11:23.667303+00:00",
+  "generatedAt": "2026-10-16T11:32:53.234809+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Acesso principal ao edifício JMM 01.jpg",
-    "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Rqltst?action=edit&amp;redlink=1\" title=\"User:Rqltst (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Rqltst\"]}}'>Rqltst</a>",
-    "license": "CC0",
+    "title": "File:Bamnera River.jpg",
+    "artist": "",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Acesso_principal_ao_edif%C3%ADcio_JMM_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bamnera_River.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LGKV",
-    "station": "LGKV",
-    "lat": 40.915,
-    "lon": 24.622,
+    "name": "SBEG",
+    "station": "SBEG",
+    "lat": -3.039,
+    "lon": -60.05,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 8.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-16T05:50:00.000Z",
-    "observationTimestamp": "2026-10-16T05:50:00+00:00",
-    "raw": "METAR LGKV 160550Z 00000KT 9999 FEW030TCU BKN070 11/08 Q1018"
+    "temperature": 28.0,
+    "dewpoint": 22.0,
+    "windSpeed": 6.0,
+    "windDirection": 80.0,
+    "visibility": "4.97",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-10-16T11:00:00.000Z",
+    "observationTimestamp": "2026-10-16T11:00:00+00:00",
+    "raw": "METAR SBEG 161100Z 08006KT 8000 NSC 28/22 Q1011"
   },
   "randomPlace": {
-    "name": "KFNT",
-    "station": "KFNT",
-    "lat": 42.9669,
-    "lon": -83.75,
+    "name": "CWSA",
+    "station": "CWSA",
+    "lat": 43.933,
+    "lon": -60.002,
     "weather": "No coded weather",
-    "temperature": 17.8,
-    "dewpoint": 17.2,
+    "temperature": 9.0,
+    "dewpoint": 4.0,
     "windSpeed": 10.0,
-    "windDirection": 230.0,
-    "visibility": "7",
-    "flightCategory": "IFR",
-    "observationTime": "2026-10-16T05:53:00.000Z",
-    "observationTimestamp": "2026-10-16T05:53:00+00:00",
-    "raw": "METAR KFNT 160553Z AUTO 23010KT 7SM OVC008 18/17 A2964 RMK AO2 CIG 006V013 SLP036 P0001 60017 T01780172 10178 20128 56033"
+    "windDirection": 350.0,
+    "visibility": "9",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-16T11:00:00.000Z",
+    "observationTimestamp": "2026-10-16T11:00:00+00:00",
+    "raw": "METAR CWSA 161100Z AUTO 35010G16KT 9SM BKN033 09/04 A3007 RMK SLP183"
   },
   "globalPulse": {
     "population": {
-      "value": 8212565661,
-      "display": "8,212,565,661",
+      "value": 8212607542,
+      "display": "8,212,607,542",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.1,
-      "display": "61.1%",
+      "value": 62.2,
+      "display": "62.2%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-16T00:00:00Z"
+      "time": "2026-10-16T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-16T03:00:00"
+      "time": "2026-10-16T06:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-16T06:02:00Z",
-      "speed": 433.0
+      "time": "2026-10-16T11:24:00Z",
+      "speed": 429.0
     },
     "magneticField": {
-      "time": "2026-10-16T06:02:00Z",
-      "bt": 4.0,
-      "bz": -1.0
+      "time": "2026-10-16T11:21:00Z",
+      "bt": 5.0,
+      "bz": 3.0
     },
     "kp": {
-      "time": "2026-10-16T03:00:00",
-      "kp": 2.0
+      "time": "2026-10-16T06:00:00",
+      "kp": 1.67
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-16T05:58:00Z",
-      "forecastTime": "2026-10-16T07:01:00Z"
+      "observationTime": "2026-10-16T11:24:00Z",
+      "forecastTime": "2026-10-16T12:26:00Z"
     },
     "flux10cm": {
       "time": "2026-10-15T20:00:00",
