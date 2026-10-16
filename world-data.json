@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T23:10:25.728069+00:00",
+  "generatedAt": "2026-10-16T01:27:00.711776+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:RPPC From GS Jean Smith A.jpg",
-    "artist": "Unknown author<link rel=\"mw:PageProp/Category\" href=\"./Category:Template_Unknown_(author)\"><span style=\"display: none;\">Unknown author</span>",
+    "title": "File:Brume matinale (44974906495).jpg",
+    "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/147755034@N05\" class=\"external text\">Angelo Brathot</a> from Sologne-France",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:RPPC_From_GS_Jean_Smith_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brume_matinale_%2844974906495%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KSGR",
-    "station": "KSGR",
-    "lat": 29.6197,
-    "lon": -95.6575,
+    "name": "KROC",
+    "station": "KROC",
+    "lat": 43.1172,
+    "lon": -77.6754,
     "weather": "No coded weather",
-    "temperature": 30.6,
-    "dewpoint": 21.1,
-    "windSpeed": 10.0,
-    "windDirection": 140.0,
+    "temperature": 10.6,
+    "dewpoint": 6.1,
+    "windSpeed": 7.0,
+    "windDirection": 110.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-15T22:53:00.000Z",
-    "observationTimestamp": "2026-10-15T22:53:00+00:00",
-    "raw": "METAR KSGR 152253Z 14010KT 10SM CLR 31/21 A2994 RMK AO2 SLP140 T03060211"
+    "observationTime": "2026-10-16T00:54:00.000Z",
+    "observationTimestamp": "2026-10-16T00:54:00+00:00",
+    "raw": "METAR KROC 160054Z 11007KT 10SM SCT160 BKN220 11/06 A3003 RMK AO2 SLP173 T01060061 $"
   },
   "randomPlace": {
-    "name": "KNSI",
-    "station": "KNSI",
-    "lat": 33.2338,
-    "lon": -119.4559,
+    "name": "KGGE",
+    "station": "KGGE",
+    "lat": 33.3138,
+    "lon": -79.3187,
     "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": -0.6,
-    "windSpeed": 6.0,
-    "windDirection": 330.0,
+    "temperature": 22.0,
+    "dewpoint": 21.0,
+    "windSpeed": 4.0,
+    "windDirection": 190.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-15T22:53:00.000Z",
-    "observationTimestamp": "2026-10-15T22:53:00+00:00",
-    "raw": "METAR KNSI 152253Z AUTO 33006KT 10SM CLR 30/M01 A2997 RMK AO2 SLP141 T03001006 $"
+    "observationTime": "2026-10-16T01:15:00.000Z",
+    "observationTimestamp": "2026-10-16T01:15:00+00:00",
+    "raw": "METAR KGGE 160115Z AUTO 19004KT 10SM CLR 22/21 A3009 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212510905,
-      "display": "8,212,510,905",
+      "value": 8212528661,
+      "display": "8,212,528,661",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 2.3,
       "display": "Kp 2.3",
       "source": "NOAA SWPC",
-      "time": "2026-10-15T18:00:00"
+      "time": "2026-10-15T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-15T23:00:00Z",
-      "speed": 441.0
+      "time": "2026-10-16T01:16:00Z",
+      "speed": 452.0
     },
     "magneticField": {
-      "time": "2026-10-15T23:00:00Z",
+      "time": "2026-10-16T01:16:00Z",
       "bt": 5.0,
-      "bz": -1.0
+      "bz": 2.0
     },
     "kp": {
-      "time": "2026-10-15T18:00:00",
+      "time": "2026-10-15T21:00:00",
       "kp": 2.33
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-15T22:57:00Z",
-      "forecastTime": "2026-10-16T00:00:00Z"
+      "observationTime": "2026-10-16T01:13:00Z",
+      "forecastTime": "2026-10-16T02:15:00Z"
     },
     "flux10cm": {
       "time": "2026-10-15T20:00:00",
