@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T11:32:53.234809+00:00",
+  "generatedAt": "2026-10-16T15:31:06.712508+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bamnera River.jpg",
-    "artist": "",
-    "license": "Public domain",
+    "title": "File:Cloudpeak.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Akashpandey91\" title=\"User:Akashpandey91\">Akashpandey91</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bamnera_River.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cloudpeak.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SBEG",
-    "station": "SBEG",
-    "lat": -3.039,
-    "lon": -60.05,
-    "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 22.0,
-    "windSpeed": 6.0,
-    "windDirection": 80.0,
-    "visibility": "4.97",
+    "name": "KPJC",
+    "station": "KPJC",
+    "lat": 40.8009,
+    "lon": -80.1624,
+    "weather": "-DZ",
+    "temperature": 19.0,
+    "dewpoint": 17.0,
+    "windSpeed": 3.0,
+    "windDirection": 280.0,
+    "visibility": "7",
     "flightCategory": "MVFR",
-    "observationTime": "2026-10-16T11:00:00.000Z",
-    "observationTimestamp": "2026-10-16T11:00:00+00:00",
-    "raw": "METAR SBEG 161100Z 08006KT 8000 NSC 28/22 Q1011"
+    "observationTime": "2026-10-16T15:15:00.000Z",
+    "observationTimestamp": "2026-10-16T15:15:00+00:00",
+    "raw": "METAR KPJC 161515Z AUTO 28003KT 7SM -DZ BKN023 OVC027 19/17 A2978 RMK AO2"
   },
   "randomPlace": {
-    "name": "CWSA",
-    "station": "CWSA",
-    "lat": 43.933,
-    "lon": -60.002,
+    "name": "KERV",
+    "station": "KERV",
+    "lat": 29.9779,
+    "lon": -99.0872,
     "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 4.0,
-    "windSpeed": 10.0,
+    "temperature": 15.0,
+    "dewpoint": 7.3,
+    "windSpeed": 11.0,
     "windDirection": 350.0,
-    "visibility": "9",
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-16T11:00:00.000Z",
-    "observationTimestamp": "2026-10-16T11:00:00+00:00",
-    "raw": "METAR CWSA 161100Z AUTO 35010G16KT 9SM BKN033 09/04 A3007 RMK SLP183"
+    "observationTime": "2026-10-16T15:15:00.000Z",
+    "observationTimestamp": "2026-10-16T15:15:00+00:00",
+    "raw": "METAR KERV 161515Z AUTO 35011G25KT 10SM OVC050 15/07 A3044 RMK AO2 T01500073"
   },
   "globalPulse": {
     "population": {
-      "value": 8212607542,
-      "display": "8,212,607,542",
+      "value": 8212638525,
+      "display": "8,212,638,525",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 1.7,
       "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-16T06:00:00"
+      "time": "2026-10-16T12:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-16T11:24:00Z",
-      "speed": 429.0
+      "time": "2026-10-16T15:23:00Z",
+      "speed": 449.0
     },
     "magneticField": {
-      "time": "2026-10-16T11:21:00Z",
-      "bt": 5.0,
-      "bz": 3.0
+      "time": "2026-10-16T15:23:00Z",
+      "bt": 3.0,
+      "bz": -2.0
     },
     "kp": {
-      "time": "2026-10-16T06:00:00",
+      "time": "2026-10-16T12:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 32.0,
+      "display": "MAX 32.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-16T11:24:00Z",
-      "forecastTime": "2026-10-16T12:26:00Z"
+      "observationTime": "2026-10-16T15:20:00Z",
+      "forecastTime": "2026-10-16T16:20:00Z"
     },
     "flux10cm": {
       "time": "2026-10-15T20:00:00",
