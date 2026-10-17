@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T21:59:10.936352+00:00",
+  "generatedAt": "2026-10-17T00:16:44.165755+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Vehicles in Shibuya (69786).jpg",
-    "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Syced\" title=\"User:Syced\">Syced</a>",
+    "title": "File:Kalanchoe × richaudii in cultivation 2.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Asphodelus003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Asphodelus003 (page does not exist)\">Asphodelus003</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Vehicles_in_Shibuya_%2869786%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Kalanchoe_%C3%97_richaudii_in_cultivation_2.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ENHD",
-    "station": "ENHD",
-    "lat": 59.341,
-    "lon": 5.22,
-    "weather": "-RA RA",
-    "temperature": 9.0,
-    "dewpoint": 6.0,
-    "windSpeed": 17.0,
-    "windDirection": 10.0,
-    "visibility": "6+",
+    "name": "KDIJ",
+    "station": "KDIJ",
+    "lat": 43.745,
+    "lon": -111.0913,
+    "weather": "No coded weather",
+    "temperature": 15.0,
+    "dewpoint": 2.2,
+    "windSpeed": 6.0,
+    "windDirection": 310.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-16T21:50:00.000Z",
-    "observationTimestamp": "2026-10-16T21:50:00+00:00",
-    "raw": "METAR ENHD 162150Z AUTO 01017KT 9999 -RA FEW016/// SCT021/// BKN042/// 09/06 Q1023 REDZRA RERA"
+    "observationTime": "2026-10-16T23:56:00.000Z",
+    "observationTimestamp": "2026-10-16T23:56:00+00:00",
+    "raw": "METAR KDIJ 162356Z AUTO 31006KT 10SM CLR 15/02 A3057 RMK AO2 SLP351 T01500022 10178 20139 56010"
   },
   "randomPlace": {
-    "name": "PAPO",
-    "station": "PAPO",
-    "lat": 68.345,
-    "lon": -166.807,
+    "name": "K0J4",
+    "station": "K0J4",
+    "lat": 31.0447,
+    "lon": -86.3119,
     "weather": "No coded weather",
-    "temperature": -2.8,
-    "dewpoint": -6.7,
-    "windSpeed": 16.0,
-    "windDirection": 10.0,
+    "temperature": 22.8,
+    "dewpoint": 21.1,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-16T21:56:00.000Z",
-    "observationTimestamp": "2026-10-16T21:56:00+00:00",
-    "raw": "METAR PAPO 162156Z AUTO 01016KT 10SM OVC017 M03/M07 A2946 RMK AO2 SLP976 T10281067 FZRANO"
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-16T23:58:00.000Z",
+    "observationTimestamp": "2026-10-16T23:58:00+00:00",
+    "raw": "METAR K0J4 162358Z AUTO 00000KT 10SM CLR 23/21 A3000 RMK AO2 SLP156 60001 T02280211 10300 20228 58001"
   },
   "globalPulse": {
     "population": {
-      "value": 8212689053,
-      "display": "8,212,689,053",
+      "value": 8212706922,
+      "display": "8,212,706,922",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-16T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.7,
-      "display": "Kp 3.7",
+      "value": 2.3,
+      "display": "Kp 2.3",
       "source": "NOAA SWPC",
-      "time": "2026-10-16T18:00:00"
+      "time": "2026-10-16T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-16T21:52:00Z",
-      "speed": 472.0
+      "time": "2026-10-17T00:09:00Z",
+      "speed": 468.0
     },
     "magneticField": {
-      "time": "2026-10-16T21:49:00Z",
-      "bt": 5.0,
-      "bz": 1.0
+      "time": "2026-10-17T00:09:00Z",
+      "bt": 4.0,
+      "bz": -2.0
     },
     "kp": {
-      "time": "2026-10-16T18:00:00",
-      "kp": 3.67
+      "time": "2026-10-16T21:00:00",
+      "kp": 2.33
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-16T21:49:00Z",
-      "forecastTime": "2026-10-16T22:48:00Z"
+      "observationTime": "2026-10-17T00:03:00Z",
+      "forecastTime": "2026-10-17T01:03:00Z"
     },
     "flux10cm": {
       "time": "2026-10-16T20:00:00",
