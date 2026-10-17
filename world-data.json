@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T04:38:55.380594+00:00",
+  "generatedAt": "2026-10-17T08:48:27.438565+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chorvoq lake.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Behruznurullayevv\" title=\"User:Behruznurullayevv\">Behruznurullayevv</a>",
+    "title": "File:AcapulcoJulio2024.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Floppy2024&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Floppy2024 (page does not exist)\">Floppy2024</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chorvoq_lake.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AcapulcoJulio2024.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPNS",
-    "station": "KPNS",
-    "lat": 30.478,
-    "lon": -87.1869,
+    "name": "KORL",
+    "station": "KORL",
+    "lat": 28.5465,
+    "lon": -81.3354,
     "weather": "No coded weather",
-    "temperature": 18.9,
-    "dewpoint": 14.4,
-    "windSpeed": 18.0,
-    "windDirection": 350.0,
+    "temperature": 24.4,
+    "dewpoint": 23.3,
+    "windSpeed": 4.0,
+    "windDirection": 290.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-17T03:53:00.000Z",
-    "observationTimestamp": "2026-10-17T03:53:00+00:00",
-    "raw": "METAR KPNS 170353Z 35018G25KT 10SM OVC036 19/14 A3011 RMK AO2 PK WND 34031/0324 RAE0254 SLP195 P0000 T01890144"
+    "observationTime": "2026-10-17T07:53:00.000Z",
+    "observationTimestamp": "2026-10-17T07:53:00+00:00",
+    "raw": "METAR KORL 170753Z AUTO 29004KT 10SM SCT065 OVC085 24/23 A2996 RMK AO2 SLP149 T02440233"
   },
   "randomPlace": {
-    "name": "VELR",
-    "station": "VELR",
-    "lat": 27.296,
-    "lon": 94.098,
+    "name": "LGKO",
+    "station": "LGKO",
+    "lat": 36.801,
+    "lon": 27.091,
     "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 21.0,
-    "windSpeed": 1.0,
-    "windDirection": 310.0,
-    "visibility": "3.73",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-17T04:00:00.000Z",
-    "observationTimestamp": "2026-10-17T04:00:00+00:00",
-    "raw": "METAR VELR 170400Z 31001KT 6000 FEW025 BKN090 30/21 Q1015 NOSIG"
+    "temperature": 14.0,
+    "dewpoint": 12.0,
+    "windSpeed": 6.0,
+    "windDirection": 340.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-17T08:20:00.000Z",
+    "observationTimestamp": "2026-10-17T08:20:00+00:00",
+    "raw": "METAR LGKO 170820Z 34006KT 9999 FEW015 SCT020 14/12 Q1009 RERA"
   },
   "globalPulse": {
     "population": {
-      "value": 8212741087,
-      "display": "8,212,741,087",
+      "value": 8212773544,
+      "display": "8,212,773,544",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-17T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 1.0,
+      "display": "Kp 1.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-17T00:00:00"
+      "time": "2026-10-17T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-17T04:30:00Z",
-      "speed": 446.0
+      "time": "2026-10-17T08:41:00Z",
+      "speed": 472.0
     },
     "magneticField": {
-      "time": "2026-10-17T04:30:00Z",
+      "time": "2026-10-17T08:41:00Z",
       "bt": 6.0,
-      "bz": 3.0
+      "bz": 1.0
     },
     "kp": {
-      "time": "2026-10-17T00:00:00",
-      "kp": 2.0
+      "time": "2026-10-17T03:00:00",
+      "kp": 1.0
     },
     "aurora": {
       "value": 15.0,
       "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-17T04:30:00Z",
-      "forecastTime": "2026-10-17T05:29:00Z"
+      "observationTime": "2026-10-17T08:38:00Z",
+      "forecastTime": "2026-10-17T09:40:00Z"
     },
     "flux10cm": {
       "time": "2026-10-16T20:00:00",
