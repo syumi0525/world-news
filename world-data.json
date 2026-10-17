@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T20:33:19.043016+00:00",
+  "generatedAt": "2026-10-17T22:37:53.648648+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Damnairobi.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Coolbrizzy\" title=\"User:Coolbrizzy\">Coolbrizzy</a>",
+    "title": "File:20190415 Yehliu geopark beach-2.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Damnairobi.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RKSM",
-    "station": "RKSM",
-    "lat": 37.446,
-    "lon": 127.114,
+    "name": "MDPP",
+    "station": "MDPP",
+    "lat": 19.759,
+    "lon": -70.571,
     "weather": "No coded weather",
-    "temperature": 20.0,
-    "dewpoint": 10.0,
-    "windSpeed": 10.0,
-    "windDirection": 170.0,
+    "temperature": 30.0,
+    "dewpoint": 24.0,
+    "windSpeed": 8.0,
+    "windDirection": 90.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-17T20:00:00.000Z",
-    "observationTimestamp": "2026-10-17T20:00:00+00:00",
-    "raw": "METAR RKSM 172000Z 17010KT 9999 SCT120 BKN200 20/10 A3009"
+    "observationTime": "2026-10-17T22:00:00.000Z",
+    "observationTimestamp": "2026-10-17T22:00:00+00:00",
+    "raw": "METAR MDPP 172200Z 09008KT 9999 FEW024 30/24 Q1011"
   },
   "randomPlace": {
-    "name": "KLSB",
-    "station": "KLSB",
-    "lat": 32.334,
-    "lon": -108.6955,
+    "name": "K1JM",
+    "station": "K1JM",
+    "lat": 47.751,
+    "lon": -111.547,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": -7.0,
-    "windSpeed": 21.0,
-    "windDirection": 120.0,
+    "temperature": 22.2,
+    "dewpoint": -3.3,
+    "windSpeed": 29.0,
+    "windDirection": 220.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-17T20:15:00.000Z",
-    "observationTimestamp": "2026-10-17T20:15:00+00:00",
-    "raw": "METAR KLSB 172015Z AUTO 12021G29KT 10SM CLR 17/M07 A3036 RMK AO2"
+    "observationTime": "2026-10-17T21:55:00.000Z",
+    "observationTimestamp": "2026-10-17T21:55:00+00:00",
+    "raw": "METAR K1JM 172155Z AUTO 22029G35KT 10SM M 22/M03 A2983 RMK AO2 PK WND 22035/29 SLP094 T02221033 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8212865310,
-      "display": "8,212,865,310",
+      "value": 8212881528,
+      "display": "8,212,881,528",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,36 +89,36 @@
       "time": "2026-10-17T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.7,
-      "display": "Kp 2.7",
+      "value": 3.0,
+      "display": "Kp 3.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-17T15:00:00"
+      "time": "2026-10-17T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-17T20:26:00Z",
-      "speed": 470.0
+      "time": "2026-10-17T22:29:00Z",
+      "speed": 488.0
     },
     "magneticField": {
-      "time": "2026-10-17T20:22:00Z",
-      "bt": 4.0,
-      "bz": 4.0
+      "time": "2026-10-17T22:29:00Z",
+      "bt": 5.0,
+      "bz": 1.0
     },
     "kp": {
-      "time": "2026-10-17T15:00:00",
-      "kp": 2.67
+      "time": "2026-10-17T18:00:00",
+      "kp": 3.0
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-17T20:22:00Z",
-      "forecastTime": "2026-10-17T21:22:00Z"
+      "observationTime": "2026-10-17T22:26:00Z",
+      "forecastTime": "2026-10-17T23:27:00Z"
     },
     "flux10cm": {
-      "time": "2026-10-16T20:00:00",
-      "flux": 131.0
+      "time": "2026-10-17T20:00:00",
+      "flux": 132.0
     }
   }
 }
