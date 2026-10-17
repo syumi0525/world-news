@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T18:08:41.908256+00:00",
+  "generatedAt": "2026-10-17T20:33:19.043016+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Kupu-kupu di daun.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nayla_FN&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nayla FN (page does not exist)\">Nayla FN</a>",
+    "title": "File:Damnairobi.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Coolbrizzy\" title=\"User:Coolbrizzy\">Coolbrizzy</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Kupu-kupu_di_daun.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Damnairobi.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ESSP",
-    "station": "ESSP",
-    "lat": 58.584,
-    "lon": 16.255,
+    "name": "RKSM",
+    "station": "RKSM",
+    "lat": 37.446,
+    "lon": 127.114,
     "weather": "No coded weather",
-    "temperature": 6.0,
-    "dewpoint": 1.0,
-    "windSpeed": 5.0,
-    "windDirection": 330.0,
+    "temperature": 20.0,
+    "dewpoint": 10.0,
+    "windSpeed": 10.0,
+    "windDirection": 170.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-17T17:50:00.000Z",
-    "observationTimestamp": "2026-10-17T17:50:00+00:00",
-    "raw": "METAR ESSP 171750Z AUTO 33005KT 9999 NCD 06/01 Q1029"
+    "observationTime": "2026-10-17T20:00:00.000Z",
+    "observationTimestamp": "2026-10-17T20:00:00+00:00",
+    "raw": "METAR RKSM 172000Z 17010KT 9999 SCT120 BKN200 20/10 A3009"
   },
   "randomPlace": {
-    "name": "KONT",
-    "station": "KONT",
-    "lat": 34.0531,
-    "lon": -117.5769,
+    "name": "KLSB",
+    "station": "KLSB",
+    "lat": 32.334,
+    "lon": -108.6955,
     "weather": "No coded weather",
-    "temperature": 27.8,
-    "dewpoint": 3.9,
-    "windSpeed": 7.0,
-    "windDirection": 140.0,
+    "temperature": 17.0,
+    "dewpoint": -7.0,
+    "windSpeed": 21.0,
+    "windDirection": 120.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-17T17:53:00.000Z",
-    "observationTimestamp": "2026-10-17T17:53:00+00:00",
-    "raw": "METAR KONT 171753Z 14007KT 10SM BKN160 BKN250 28/04 A3005 RMK AO2 SLP155 T02780039 10278 20206 50005"
+    "observationTime": "2026-10-17T20:15:00.000Z",
+    "observationTimestamp": "2026-10-17T20:15:00+00:00",
+    "raw": "METAR KLSB 172015Z AUTO 12021G29KT 10SM CLR 17/M07 A3036 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8212846491,
-      "display": "8,212,846,491",
+      "value": 8212865310,
+      "display": "8,212,865,310",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-17T17:58:00Z",
-      "speed": 456.0
+      "time": "2026-10-17T20:26:00Z",
+      "speed": 470.0
     },
     "magneticField": {
-      "time": "2026-10-17T17:58:00Z",
-      "bt": 7.0,
-      "bz": 6.0
+      "time": "2026-10-17T20:22:00Z",
+      "bt": 4.0,
+      "bz": 4.0
     },
     "kp": {
       "time": "2026-10-17T15:00:00",
       "kp": 2.67
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-17T17:58:00Z",
-      "forecastTime": "2026-10-17T18:59:00Z"
+      "observationTime": "2026-10-17T20:22:00Z",
+      "forecastTime": "2026-10-17T21:22:00Z"
     },
     "flux10cm": {
       "time": "2026-10-16T20:00:00",
