@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T00:16:44.165755+00:00",
+  "generatedAt": "2026-10-17T04:38:55.380594+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Kalanchoe × richaudii in cultivation 2.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Asphodelus003&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Asphodelus003 (page does not exist)\">Asphodelus003</a>",
+    "title": "File:Chorvoq lake.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Behruznurullayevv\" title=\"User:Behruznurullayevv\">Behruznurullayevv</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Kalanchoe_%C3%97_richaudii_in_cultivation_2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chorvoq_lake.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KDIJ",
-    "station": "KDIJ",
-    "lat": 43.745,
-    "lon": -111.0913,
+    "name": "KPNS",
+    "station": "KPNS",
+    "lat": 30.478,
+    "lon": -87.1869,
     "weather": "No coded weather",
-    "temperature": 15.0,
-    "dewpoint": 2.2,
-    "windSpeed": 6.0,
-    "windDirection": 310.0,
+    "temperature": 18.9,
+    "dewpoint": 14.4,
+    "windSpeed": 18.0,
+    "windDirection": 350.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-16T23:56:00.000Z",
-    "observationTimestamp": "2026-10-16T23:56:00+00:00",
-    "raw": "METAR KDIJ 162356Z AUTO 31006KT 10SM CLR 15/02 A3057 RMK AO2 SLP351 T01500022 10178 20139 56010"
+    "observationTime": "2026-10-17T03:53:00.000Z",
+    "observationTimestamp": "2026-10-17T03:53:00+00:00",
+    "raw": "METAR KPNS 170353Z 35018G25KT 10SM OVC036 19/14 A3011 RMK AO2 PK WND 34031/0324 RAE0254 SLP195 P0000 T01890144"
   },
   "randomPlace": {
-    "name": "K0J4",
-    "station": "K0J4",
-    "lat": 31.0447,
-    "lon": -86.3119,
+    "name": "VELR",
+    "station": "VELR",
+    "lat": 27.296,
+    "lon": 94.098,
     "weather": "No coded weather",
-    "temperature": 22.8,
-    "dewpoint": 21.1,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-16T23:58:00.000Z",
-    "observationTimestamp": "2026-10-16T23:58:00+00:00",
-    "raw": "METAR K0J4 162358Z AUTO 00000KT 10SM CLR 23/21 A3000 RMK AO2 SLP156 60001 T02280211 10300 20228 58001"
+    "temperature": 30.0,
+    "dewpoint": 21.0,
+    "windSpeed": 1.0,
+    "windDirection": 310.0,
+    "visibility": "3.73",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-10-17T04:00:00.000Z",
+    "observationTimestamp": "2026-10-17T04:00:00+00:00",
+    "raw": "METAR VELR 170400Z 31001KT 6000 FEW025 BKN090 30/21 Q1015 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212706922,
-      "display": "8,212,706,922",
+      "value": 8212741087,
+      "display": "8,212,741,087",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 63.0,
-      "display": "63.0%",
+      "value": 60.4,
+      "display": "60.4%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-16T12:00:00Z"
+      "time": "2026-10-17T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.3,
-      "display": "Kp 2.3",
+      "value": 2.0,
+      "display": "Kp 2.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-16T21:00:00"
+      "time": "2026-10-17T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-17T00:09:00Z",
-      "speed": 468.0
+      "time": "2026-10-17T04:30:00Z",
+      "speed": 446.0
     },
     "magneticField": {
-      "time": "2026-10-17T00:09:00Z",
-      "bt": 4.0,
-      "bz": -2.0
+      "time": "2026-10-17T04:30:00Z",
+      "bt": 6.0,
+      "bz": 3.0
     },
     "kp": {
-      "time": "2026-10-16T21:00:00",
-      "kp": 2.33
+      "time": "2026-10-17T00:00:00",
+      "kp": 2.0
     },
     "aurora": {
-      "value": 12.0,
-      "display": "MAX 12.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-17T00:03:00Z",
-      "forecastTime": "2026-10-17T01:03:00Z"
+      "observationTime": "2026-10-17T04:30:00Z",
+      "forecastTime": "2026-10-17T05:29:00Z"
     },
     "flux10cm": {
       "time": "2026-10-16T20:00:00",
