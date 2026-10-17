@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T15:51:36.030752+00:00",
+  "generatedAt": "2026-10-17T18:08:41.908256+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ditches, Dust, and Distance - DPLA - 62b7f33dfac43e4f5d60db1effaae5eb.jpg",
-    "artist": "Department of the Interior. Bureau of Indian Affairs. Pierre Agency. 1954-1972",
-    "license": "Public domain",
+    "title": "File:Kupu-kupu di daun.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nayla_FN&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nayla FN (page does not exist)\">Nayla FN</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ditches%2C_Dust%2C_and_Distance_-_DPLA_-_62b7f33dfac43e4f5d60db1effaae5eb.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Kupu-kupu_di_daun.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLAR",
-    "station": "KLAR",
-    "lat": 41.3165,
-    "lon": -105.6729,
+    "name": "ESSP",
+    "station": "ESSP",
+    "lat": 58.584,
+    "lon": 16.255,
     "weather": "No coded weather",
-    "temperature": 5.6,
-    "dewpoint": -3.9,
-    "windSpeed": 3.0,
-    "windDirection": 150.0,
-    "visibility": "10+",
+    "temperature": 6.0,
+    "dewpoint": 1.0,
+    "windSpeed": 5.0,
+    "windDirection": 330.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-17T14:53:00.000Z",
-    "observationTimestamp": "2026-10-17T14:53:00+00:00",
-    "raw": "METAR KLAR 171453Z AUTO 15003KT 10SM CLR 06/M04 A3045 RMK AO2 SLP283 T00561039 56005"
+    "observationTime": "2026-10-17T17:50:00.000Z",
+    "observationTimestamp": "2026-10-17T17:50:00+00:00",
+    "raw": "METAR ESSP 171750Z AUTO 33005KT 9999 NCD 06/01 Q1029"
   },
   "randomPlace": {
-    "name": "KSNT",
-    "station": "KSNT",
-    "lat": 44.1708,
-    "lon": -114.9269,
+    "name": "KONT",
+    "station": "KONT",
+    "lat": 34.0531,
+    "lon": -117.5769,
     "weather": "No coded weather",
-    "temperature": -4.4,
-    "dewpoint": -7.2,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-10-17T14:51:00.000Z",
-    "observationTimestamp": "2026-10-17T14:51:00+00:00",
-    "raw": "METAR KSNT 171451Z AUTO 00000KT M04/M07 A3040 RMK AO1 SLP270 T10441072 58002"
+    "temperature": 27.8,
+    "dewpoint": 3.9,
+    "windSpeed": 7.0,
+    "windDirection": 140.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-17T17:53:00.000Z",
+    "observationTimestamp": "2026-10-17T17:53:00+00:00",
+    "raw": "METAR KONT 171753Z 14007KT 10SM BKN160 BKN250 28/04 A3005 RMK AO2 SLP155 T02780039 10278 20206 50005"
   },
   "globalPulse": {
     "population": {
-      "value": 8212828648,
-      "display": "8,212,828,648",
+      "value": 8212846491,
+      "display": "8,212,846,491",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-17T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.7,
-      "display": "Kp 0.7",
+      "value": 2.7,
+      "display": "Kp 2.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-17T12:00:00"
+      "time": "2026-10-17T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-17T15:43:00Z",
-      "speed": 452.0
+      "time": "2026-10-17T17:58:00Z",
+      "speed": 456.0
     },
     "magneticField": {
-      "time": "2026-10-17T15:43:00Z",
+      "time": "2026-10-17T17:58:00Z",
       "bt": 7.0,
-      "bz": 5.0
+      "bz": 6.0
     },
     "kp": {
-      "time": "2026-10-17T12:00:00",
-      "kp": 0.67
+      "time": "2026-10-17T15:00:00",
+      "kp": 2.67
     },
     "aurora": {
-      "value": 29.0,
-      "display": "MAX 29.0%",
+      "value": 25.0,
+      "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-17T15:40:00Z",
-      "forecastTime": "2026-10-17T16:39:00Z"
+      "observationTime": "2026-10-17T17:58:00Z",
+      "forecastTime": "2026-10-17T18:59:00Z"
     },
     "flux10cm": {
       "time": "2026-10-16T20:00:00",
