@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T16:34:55.663343+00:00",
+  "generatedAt": "2026-10-18T18:53:19.753081+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Bidon dans un robinet.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:KUBWIMANA_Bienvenu\" title=\"User:KUBWIMANA Bienvenu\">KUBWIMANA Bienvenu</a>",
-    "license": "CC0",
+    "title": "File:Belem - Consulate Office Building - 1972 - DPLA - ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg",
+    "artist": "Department of State. Office of the Undersecretary for Management. Bureau of Overseas Buildings Operations. (2001)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Bidon_dans_un_robinet.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Belem_-_Consulate_Office_Building_-_1972_-_DPLA_-_ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CWEW",
-    "station": "CWEW",
-    "lat": 45.809,
-    "lon": -73.435,
-    "weather": "No coded weather",
-    "temperature": 10.4,
-    "dewpoint": 2.2,
-    "windSpeed": 7.0,
-    "windDirection": 220.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-10-18T16:00:00.000Z",
-    "observationTimestamp": "2026-10-18T16:00:00+00:00",
-    "raw": "METAR CWEW 181600Z AUTO 22007KT 10/02 RMK AO1 SLP310 T01040022 58004"
+    "name": "LFSB",
+    "station": "LFSB",
+    "lat": 47.614,
+    "lon": 7.51,
+    "weather": "-RA",
+    "temperature": 9.0,
+    "dewpoint": 9.0,
+    "windSpeed": 3.0,
+    "windDirection": 320.0,
+    "visibility": "6+",
+    "flightCategory": "IFR",
+    "observationTime": "2026-10-18T18:30:00.000Z",
+    "observationTimestamp": "2026-10-18T18:30:00+00:00",
+    "raw": "METAR LFSB 181830Z AUTO 32003KT 9999 -RA OVC005 09/09 Q1024 TEMPO 4000 -RADZ"
   },
   "randomPlace": {
-    "name": "KNXP",
-    "station": "KNXP",
-    "lat": 34.294,
-    "lon": -116.1472,
+    "name": "FMMI",
+    "station": "FMMI",
+    "lat": -18.797,
+    "lon": 47.479,
     "weather": "No coded weather",
-    "temperature": 17.2,
-    "dewpoint": 2.2,
-    "windSpeed": 3.0,
-    "windDirection": 310.0,
-    "visibility": "10+",
+    "temperature": 16.0,
+    "dewpoint": 14.0,
+    "windSpeed": 8.0,
+    "windDirection": 100.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-18T15:54:00.000Z",
-    "observationTimestamp": "2026-10-18T15:54:00+00:00",
-    "raw": "METAR KNXP 181554Z AUTO 31003KT 10SM BKN095 17/02 A3017 RMK AO2 SLP190 T01720022 $"
+    "observationTime": "2026-10-18T18:30:00.000Z",
+    "observationTimestamp": "2026-10-18T18:30:00+00:00",
+    "raw": "METAR FMMI 181830Z 10008KT 9999 FEW017 16/14 Q1025 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8213021717,
-      "display": "8,213,021,717",
+      "value": 8213039731,
+      "display": "8,213,039,731",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-18T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.3,
-      "display": "Kp 0.3",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-18T12:00:00"
+      "time": "2026-10-18T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-18T16:24:00Z",
-      "speed": 429.0
+      "time": "2026-10-18T18:45:00Z",
+      "speed": 421.0
     },
     "magneticField": {
-      "time": "2026-10-18T16:27:00Z",
+      "time": "2026-10-18T18:45:00Z",
       "bt": 5.0,
-      "bz": 2.0
+      "bz": 3.0
     },
     "kp": {
-      "time": "2026-10-18T12:00:00",
-      "kp": 0.33
+      "time": "2026-10-18T15:00:00",
+      "kp": 1.67
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-18T16:24:00Z",
-      "forecastTime": "2026-10-18T17:28:00Z"
+      "observationTime": "2026-10-18T18:42:00Z",
+      "forecastTime": "2026-10-18T19:49:00Z"
     },
     "flux10cm": {
       "time": "2026-10-17T20:00:00",
