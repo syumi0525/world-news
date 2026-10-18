@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T09:09:14.683528+00:00",
+  "generatedAt": "2026-10-18T13:15:31.810300+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Explanation of axle arrangement.jpg",
-    "artist": "Illustrierte Technik für Jedermann",
-    "license": "Public domain",
+    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Explanation_of_axle_arrangement.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLBF",
-    "station": "KLBF",
-    "lat": 41.122,
-    "lon": -100.6689,
+    "name": "FGSL",
+    "station": "FGSL",
+    "lat": 3.756,
+    "lon": 8.71,
     "weather": "No coded weather",
-    "temperature": 7.2,
-    "dewpoint": -1.1,
-    "windSpeed": 3.0,
-    "windDirection": 160.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-18T08:53:00.000Z",
-    "observationTimestamp": "2026-10-18T08:53:00+00:00",
-    "raw": "METAR KLBF 180853Z AUTO 16003KT 10SM CLR 07/M01 A3010 RMK AO2 SLP183 T00721011 58010 $"
-  },
-  "randomPlace": {
-    "name": "ENRA",
-    "station": "ENRA",
-    "lat": 66.364,
-    "lon": 14.302,
-    "weather": "No coded weather",
-    "temperature": 3.0,
-    "dewpoint": 3.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
+    "temperature": 29.0,
+    "dewpoint": 26.0,
+    "windSpeed": 8.0,
+    "windDirection": 60.0,
     "visibility": "6+",
     "flightCategory": "MVFR",
-    "observationTime": "2026-10-18T08:50:00.000Z",
-    "observationTimestamp": "2026-10-18T08:50:00+00:00",
-    "raw": "METAR ENRA 180850Z AUTO VRB02KT 9999 FEW015/// BKN021/// OVC035/// 03/03 Q1032"
+    "observationTime": "2026-10-18T13:00:00.000Z",
+    "observationTimestamp": "2026-10-18T13:00:00+00:00",
+    "raw": "METAR FGSL 181300Z 06008KT 030V090 9999 SCT008 FEW018CB BKN030 29/26 Q1012 TEMPO 4000 TSRA"
+  },
+  "randomPlace": {
+    "name": "LOWS",
+    "station": "LOWS",
+    "lat": 47.789,
+    "lon": 13.009,
+    "weather": "No coded weather",
+    "temperature": 15.0,
+    "dewpoint": 12.0,
+    "windSpeed": 3.0,
+    "windDirection": 340.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-10-18T12:50:00.000Z",
+    "observationTimestamp": "2026-10-18T12:50:00+00:00",
+    "raw": "METAR LOWS 181250Z 34003KT 300V010 9999 FEW014 BKN019 15/12 Q1020 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8212963680,
-      "display": "8,212,963,680",
+      "value": 8212995732,
+      "display": "8,212,995,732",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 60.7,
-      "display": "60.7%",
+      "value": 61.7,
+      "display": "61.7%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-18T00:00:00Z"
+      "time": "2026-10-18T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-18T06:00:00"
+      "time": "2026-10-18T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-18T08:59:00Z",
-      "speed": 478.0
+      "time": "2026-10-18T13:05:00Z",
+      "speed": 448.0
     },
     "magneticField": {
-      "time": "2026-10-18T08:59:00Z",
-      "bt": 4.0,
-      "bz": 4.0
+      "time": "2026-10-18T13:05:00Z",
+      "bt": 1.0,
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-10-18T06:00:00",
-      "kp": 2.0
+      "time": "2026-10-18T09:00:00",
+      "kp": 1.67
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-18T08:59:00Z",
-      "forecastTime": "2026-10-18T09:58:00Z"
+      "observationTime": "2026-10-18T13:01:00Z",
+      "forecastTime": "2026-10-18T14:05:00Z"
     },
     "flux10cm": {
       "time": "2026-10-17T20:00:00",
