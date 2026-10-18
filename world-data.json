@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T21:14:49.747390+00:00",
+  "generatedAt": "2026-10-18T23:19:37.814555+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:P16736coll5 792 large.jpg",
-    "artist": "California Sales Co. Publishing",
-    "license": "Public domain",
+    "title": "File:Batiment aunsein de la Ville de Majunga 08.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:P16736coll5_792_large.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_08.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRVF",
-    "station": "KRVF",
-    "lat": 45.534,
-    "lon": -112.303,
+    "name": "KBPK",
+    "station": "KBPK",
+    "lat": 36.3706,
+    "lon": -92.4719,
     "weather": "No coded weather",
-    "temperature": 17.0,
-    "dewpoint": 1.0,
+    "temperature": 17.2,
+    "dewpoint": 3.3,
+    "windSpeed": 4.0,
+    "windDirection": 150.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-18T22:53:00.000Z",
+    "observationTimestamp": "2026-10-18T22:53:00+00:00",
+    "raw": "METAR KBPK 182253Z AUTO 15004KT 10SM CLR 17/03 A3033 RMK AO2 SLP268 T01720033"
+  },
+  "randomPlace": {
+    "name": "KFRH",
+    "station": "KFRH",
+    "lat": 38.5034,
+    "lon": -86.6442,
+    "weather": "No coded weather",
+    "temperature": 15.0,
+    "dewpoint": 0.0,
     "windSpeed": 0.0,
     "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-18T20:50:00.000Z",
-    "observationTimestamp": "2026-10-18T20:50:00+00:00",
-    "raw": "METAR KRVF 182050Z AUTO 00000KT 10SM CLR 17/01 A3009 RMK A01"
-  },
-  "randomPlace": {
-    "name": "KONO",
-    "station": "KONO",
-    "lat": 44.0142,
-    "lon": -117.0081,
-    "weather": "No coded weather",
-    "temperature": 19.4,
-    "dewpoint": 1.7,
-    "windSpeed": 4.0,
-    "windDirection": 130.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-18T20:53:00.000Z",
-    "observationTimestamp": "2026-10-18T20:53:00+00:00",
-    "raw": "METAR KONO 182053Z AUTO 13004KT 10SM CLR 19/02 A3004 RMK AO2 SLP170 T01940017 58022 $"
+    "observationTime": "2026-10-18T23:15:00.000Z",
+    "observationTimestamp": "2026-10-18T23:15:00+00:00",
+    "raw": "METAR KFRH 182315Z AUTO 00000KT 10SM CLR 15/00 A3041 RMK AO1"
   },
   "globalPulse": {
     "population": {
-      "value": 8213058149,
-      "display": "8,213,058,149",
+      "value": 8213074397,
+      "display": "8,213,074,397",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,12 +97,12 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-18T21:06:00Z",
-      "speed": 410.0
+      "time": "2026-10-18T23:10:00Z",
+      "speed": 413.0
     },
     "magneticField": {
-      "time": "2026-10-18T21:06:00Z",
-      "bt": 4.0,
+      "time": "2026-10-18T23:10:00Z",
+      "bt": 5.0,
       "bz": 3.0
     },
     "kp": {
@@ -110,11 +110,11 @@
       "kp": 1.67
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-18T21:03:00Z",
-      "forecastTime": "2026-10-18T22:10:00Z"
+      "observationTime": "2026-10-18T23:07:00Z",
+      "forecastTime": "2026-10-19T00:15:00Z"
     },
     "flux10cm": {
       "time": "2026-10-18T20:00:00",
