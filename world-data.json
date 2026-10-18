@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T22:37:53.648648+00:00",
+  "generatedAt": "2026-10-18T00:17:43.024707+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20190415 Yehliu geopark beach-2.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "title": "File:Cidades do principado de Sedfo.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sedfo_Wikis&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sedfo Wikis (page does not exist)\">Sedfo Wikis</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cidades_do_principado_de_Sedfo.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MDPP",
-    "station": "MDPP",
-    "lat": 19.759,
-    "lon": -70.571,
+    "name": "KPRS",
+    "station": "KPRS",
+    "lat": 29.6346,
+    "lon": -104.3585,
     "weather": "No coded weather",
-    "temperature": 30.0,
-    "dewpoint": 24.0,
-    "windSpeed": 8.0,
-    "windDirection": 90.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-17T22:00:00.000Z",
-    "observationTimestamp": "2026-10-17T22:00:00+00:00",
-    "raw": "METAR MDPP 172200Z 09008KT 9999 FEW024 30/24 Q1011"
-  },
-  "randomPlace": {
-    "name": "K1JM",
-    "station": "K1JM",
-    "lat": 47.751,
-    "lon": -111.547,
-    "weather": "No coded weather",
-    "temperature": 22.2,
-    "dewpoint": -3.3,
-    "windSpeed": 29.0,
-    "windDirection": 220.0,
+    "temperature": 16.7,
+    "dewpoint": 1.9,
+    "windSpeed": 4.0,
+    "windDirection": 70.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-17T21:55:00.000Z",
-    "observationTimestamp": "2026-10-17T21:55:00+00:00",
-    "raw": "METAR K1JM 172155Z AUTO 22029G35KT 10SM M 22/M03 A2983 RMK AO2 PK WND 22035/29 SLP094 T02221033 $"
+    "observationTime": "2026-10-17T23:55:00.000Z",
+    "observationTimestamp": "2026-10-17T23:55:00+00:00",
+    "raw": "METAR KPRS 172355Z AUTO 07004KT 10SM CLR 17/02 A3039 RMK AO2 T01670019 10175 20136"
+  },
+  "randomPlace": {
+    "name": "ESIB",
+    "station": "ESIB",
+    "lat": 58.431,
+    "lon": 12.71,
+    "weather": "No coded weather",
+    "temperature": 3.0,
+    "dewpoint": 1.0,
+    "windSpeed": 3.0,
+    "windDirection": 10.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-17T23:50:00.000Z",
+    "observationTimestamp": "2026-10-17T23:50:00+00:00",
+    "raw": "METAR ESIB 172350Z AUTO 01003KT 320V060 9999 NCD 03/01 Q1032"
   },
   "globalPulse": {
     "population": {
-      "value": 8212881528,
-      "display": "8,212,881,528",
+      "value": 8212894500,
+      "display": "8,212,894,500",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-17T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.0,
-      "display": "Kp 3.0",
+      "value": 1.0,
+      "display": "Kp 1.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-17T18:00:00"
+      "time": "2026-10-17T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-17T22:29:00Z",
-      "speed": 488.0
+      "time": "2026-10-18T00:09:00Z",
+      "speed": 500.0
     },
     "magneticField": {
-      "time": "2026-10-17T22:29:00Z",
+      "time": "2026-10-18T00:09:00Z",
       "bt": 5.0,
-      "bz": 1.0
+      "bz": -4.0
     },
     "kp": {
-      "time": "2026-10-17T18:00:00",
-      "kp": 3.0
+      "time": "2026-10-17T21:00:00",
+      "kp": 1.0
     },
     "aurora": {
       "value": 19.0,
       "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-17T22:26:00Z",
-      "forecastTime": "2026-10-17T23:27:00Z"
+      "observationTime": "2026-10-18T00:09:00Z",
+      "forecastTime": "2026-10-18T01:06:00Z"
     },
     "flux10cm": {
       "time": "2026-10-17T20:00:00",
