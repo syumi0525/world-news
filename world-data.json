@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T01:24:39.737448+00:00",
+  "generatedAt": "2026-10-19T06:31:45.170353+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Au bonheur des tags (Démolition avant reconversion) (37932924806).jpg",
-    "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/110273693@N04\" class=\"external text\">Sylvie burr</a>",
+    "title": "File:Bunga Lantana Berwarna Kuning Keemasan.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rhmwu&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rhmwu (page does not exist)\">Rhmwu</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Au_bonheur_des_tags_%28D%C3%A9molition_avant_reconversion%29_%2837932924806%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bunga_Lantana_Berwarna_Kuning_Keemasan.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFDY",
-    "station": "KFDY",
-    "lat": 41.0137,
-    "lon": -83.6681,
+    "name": "LFBL",
+    "station": "LFBL",
+    "lat": 45.863,
+    "lon": 1.179,
     "weather": "No coded weather",
-    "temperature": 9.4,
-    "dewpoint": 0.6,
+    "temperature": 4.0,
+    "dewpoint": 2.0,
     "windSpeed": 5.0,
-    "windDirection": 160.0,
-    "visibility": "10+",
+    "windDirection": 30.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-19T00:53:00.000Z",
-    "observationTimestamp": "2026-10-19T00:53:00+00:00",
-    "raw": "METAR KFDY 190053Z AUTO 16005KT 10SM CLR 09/01 A3045 RMK AO2 SLP313 T00940006 $"
+    "observationTime": "2026-10-19T06:00:00.000Z",
+    "observationTimestamp": "2026-10-19T06:00:00+00:00",
+    "raw": "METAR LFBL 190600Z AUTO 03005KT CAVOK 04/02 Q1020 NOSIG"
   },
   "randomPlace": {
-    "name": "LFOH",
-    "station": "LFOH",
-    "lat": 49.533,
-    "lon": 0.091,
-    "weather": "BR",
-    "temperature": 6.0,
-    "dewpoint": 6.0,
-    "windSpeed": 5.0,
+    "name": "KTPH",
+    "station": "KTPH",
+    "lat": 38.0505,
+    "lon": -117.0906,
+    "weather": "No coded weather",
+    "temperature": 8.9,
+    "dewpoint": -5.6,
+    "windSpeed": 4.0,
     "windDirection": 100.0,
-    "visibility": "3.11",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-19T01:00:00.000Z",
-    "observationTimestamp": "2026-10-19T01:00:00+00:00",
-    "raw": "METAR LFOH 190100Z AUTO 10005KT 5000 BR NSC 06/06 Q1024"
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-19T05:56:00.000Z",
+    "observationTimestamp": "2026-10-19T05:56:00+00:00",
+    "raw": "METAR KTPH 190556Z AUTO 10004KT 10SM CLR 09/M06 A3018 RMK AO2 SLP183 T00891056 10211 20078 53013"
   },
   "globalPulse": {
     "population": {
-      "value": 8213090643,
-      "display": "8,213,090,643",
+      "value": 8213130605,
+      "display": "8,213,130,605",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.6,
-      "display": "62.6%",
+      "value": 61.4,
+      "display": "61.4%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-18T12:00:00Z"
+      "time": "2026-10-19T00:00:00Z"
     },
     "geomagnetic": {
       "value": 0.3,
       "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-10-18T21:00:00"
+      "time": "2026-10-19T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-19T01:15:00Z",
-      "speed": 390.0
+      "time": "2026-10-19T06:23:00Z",
+      "speed": 371.0
     },
     "magneticField": {
-      "time": "2026-10-19T01:15:00Z",
+      "time": "2026-10-19T06:23:00Z",
       "bt": 5.0,
-      "bz": 2.0
+      "bz": 3.0
     },
     "kp": {
-      "time": "2026-10-18T21:00:00",
+      "time": "2026-10-19T03:00:00",
       "kp": 0.33
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 11.0,
+      "display": "MAX 11.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-19T01:12:00Z",
-      "forecastTime": "2026-10-19T02:23:00Z"
+      "observationTime": "2026-10-19T06:20:00Z",
+      "forecastTime": "2026-10-19T07:31:00Z"
     },
     "flux10cm": {
       "time": "2026-10-18T20:00:00",
