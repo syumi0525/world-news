@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T13:54:37.513227+00:00",
+  "generatedAt": "2026-10-19T19:38:46.881309+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Correspondence with Walter Deane BHL40320244.jpg",
-    "artist": "Barnes, Charles Reid; Deane, Walter; Kennedy, George G.",
+    "title": "File:Belem - Consulate Office Building - 1972 - DPLA - ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg",
+    "artist": "Department of State. Office of the Undersecretary for Management. Bureau of Overseas Buildings Operations. (2001)",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Correspondence_with_Walter_Deane_BHL40320244.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Belem_-_Consulate_Office_Building_-_1972_-_DPLA_-_ba46ac61d1eb0ff7e68ac9df87e3dd69.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K1HW",
-    "station": "K1HW",
-    "lat": 41.325,
-    "lon": -102.83,
-    "weather": "No coded weather",
-    "temperature": 3.1,
-    "dewpoint": 1.6,
-    "windSpeed": 8.0,
-    "windDirection": 330.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-19T12:55:00.000Z",
-    "observationTimestamp": "2026-10-19T12:55:00+00:00",
-    "raw": "METAR K1HW 191255Z AUTO 33008KT 10SM CLR 03/02 A3017 RMK AO2 SLP214 T00310016 $"
+    "name": "VOCI",
+    "station": "VOCI",
+    "lat": 10.152,
+    "lon": 76.402,
+    "weather": "-RA",
+    "temperature": 26.0,
+    "dewpoint": 25.0,
+    "windSpeed": 2.0,
+    "windDirection": 0.0,
+    "visibility": "0.93",
+    "flightCategory": "LIFR",
+    "observationTime": "2026-10-19T19:30:00.000Z",
+    "observationTimestamp": "2026-10-19T19:30:00+00:00",
+    "raw": "METAR VOCI 191930Z VRB02KT 1500 -RA FEW008 SCT012 FEW025CB BKN080 26/25 Q1012 NOSIG"
   },
   "randomPlace": {
-    "name": "KETH",
-    "station": "KETH",
-    "lat": 45.7828,
-    "lon": -96.5461,
+    "name": "KJKA",
+    "station": "KJKA",
+    "lat": 30.291,
+    "lon": -87.661,
     "weather": "No coded weather",
-    "temperature": 1.0,
-    "dewpoint": -1.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 22.0,
+    "dewpoint": 12.0,
+    "windSpeed": 8.0,
+    "windDirection": 10.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-19T13:33:00.000Z",
-    "observationTimestamp": "2026-10-19T13:33:00+00:00",
-    "raw": "METAR KETH 191333Z AUTO 00000KT 10SM CLR 01/M01 A3033 RMK AO2"
+    "observationTime": "2026-10-19T18:55:00.000Z",
+    "observationTimestamp": "2026-10-19T18:55:00+00:00",
+    "raw": "METAR KJKA 191855Z 01008KT 10SM CLR 22/12 A3020"
   },
   "globalPulse": {
     "population": {
-      "value": 8213188261,
-      "display": "8,213,188,261",
+      "value": 8213233075,
+      "display": "8,213,233,075",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.3,
-      "display": "62.3%",
+      "value": 63.2,
+      "display": "63.2%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-19T06:00:00Z"
+      "time": "2026-10-19T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.0,
-      "display": "Kp 1.0",
+      "value": 0.3,
+      "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-10-19T09:00:00"
+      "time": "2026-10-19T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-19T13:47:00Z",
-      "speed": 393.0
+      "time": "2026-10-19T19:32:00Z",
+      "speed": 373.0
     },
     "magneticField": {
-      "time": "2026-10-19T13:47:00Z",
-      "bt": 4.0,
+      "time": "2026-10-19T19:32:00Z",
+      "bt": 5.0,
       "bz": 3.0
     },
     "kp": {
-      "time": "2026-10-19T09:00:00",
-      "kp": 1.0
+      "time": "2026-10-19T15:00:00",
+      "kp": 0.33
     },
     "aurora": {
-      "value": 11.0,
-      "display": "MAX 11.0%",
+      "value": 13.0,
+      "display": "MAX 13.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-19T13:43:00Z",
-      "forecastTime": "2026-10-19T14:56:00Z"
+      "observationTime": "2026-10-19T19:28:00Z",
+      "forecastTime": "2026-10-19T20:41:00Z"
     },
     "flux10cm": {
       "time": "2026-10-18T20:00:00",
