@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T06:41:54.442023+00:00",
+  "generatedAt": "2026-10-20T12:18:30.797235+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ausfahrsignal Freiburg Richtung Basel zeigt Fahrt Hp 1 mit Geschwindigkeitsanzeiger Kennziffer 6.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fabi_B%C3%BCKa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fabi BüKa (page does not exist)\">Fabi BüKa</a>",
+    "title": "File:Aulario de la FAPyD de la UNR.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Biancalois&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Biancalois (page does not exist)\">Biancalois</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ausfahrsignal_Freiburg_Richtung_Basel_zeigt_Fahrt_Hp_1_mit_Geschwindigkeitsanzeiger_Kennziffer_6.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aulario_de_la_FAPyD_de_la_UNR.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CZEL",
-    "station": "CZEL",
-    "lat": 43.642,
-    "lon": -80.412,
+    "name": "KMHS",
+    "station": "KMHS",
+    "lat": 41.3149,
+    "lon": -122.3171,
     "weather": "No coded weather",
-    "temperature": 7.5,
-    "dewpoint": 4.9,
-    "windSpeed": 7.0,
-    "windDirection": 20.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-10-20T06:00:00.000Z",
-    "observationTimestamp": "2026-10-20T06:00:00+00:00",
-    "raw": "METAR CZEL 200600Z AUTO 02007KT 08/05 RMK AO1 SLP288 T00750049 52002"
+    "temperature": 2.8,
+    "dewpoint": -0.6,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-20T11:56:00.000Z",
+    "observationTimestamp": "2026-10-20T11:56:00+00:00",
+    "raw": "METAR KMHS 201156Z AUTO 00000KT 10SM CLR 03/M01 A2992 RMK AO2 SLP144 T00281006 10089 20028 52001 $"
   },
   "randomPlace": {
-    "name": "TXKF",
-    "station": "TXKF",
-    "lat": 32.364,
-    "lon": -64.679,
-    "weather": "VCSH",
-    "temperature": 27.0,
-    "dewpoint": 24.0,
-    "windSpeed": 15.0,
-    "windDirection": 170.0,
-    "visibility": "6+",
+    "name": "KAIA",
+    "station": "KAIA",
+    "lat": 42.0573,
+    "lon": -102.8017,
+    "weather": "No coded weather",
+    "temperature": 2.2,
+    "dewpoint": 1.7,
+    "windSpeed": 3.0,
+    "windDirection": 160.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-20T05:55:00.000Z",
-    "observationTimestamp": "2026-10-20T05:55:00+00:00",
-    "raw": "METAR TXKF 200555Z 17015KT 9999 VCSH FEW017 SCT064 SCT300 27/24 Q1013"
+    "observationTime": "2026-10-20T11:53:00.000Z",
+    "observationTimestamp": "2026-10-20T11:53:00+00:00",
+    "raw": "METAR KAIA 201153Z AUTO 16003KT 10SM CLR 02/02 A3012 RMK AO2 SLP196 T00220017 10050 20006 56005"
   },
   "globalPulse": {
     "population": {
-      "value": 8213319367,
-      "display": "8,213,319,367",
+      "value": 8213363184,
+      "display": "8,213,363,184",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.6,
-      "display": "61.6%",
+      "value": 62.1,
+      "display": "62.1%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-20T00:00:00Z"
+      "time": "2026-10-20T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.0,
-      "display": "Kp 1.0",
+      "value": 2.0,
+      "display": "Kp 2.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-20T03:00:00"
+      "time": "2026-10-20T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-20T06:33:00Z",
-      "speed": 323.0
+      "time": "2026-10-20T12:08:00Z",
+      "speed": 346.0
     },
     "magneticField": {
-      "time": "2026-10-20T06:33:00Z",
-      "bt": 5.0,
-      "bz": 0.0
+      "time": "2026-10-20T12:08:00Z",
+      "bt": 8.0,
+      "bz": 7.0
     },
     "kp": {
-      "time": "2026-10-20T03:00:00",
-      "kp": 1.0
+      "time": "2026-10-20T09:00:00",
+      "kp": 2.0
     },
     "aurora": {
-      "value": 18.0,
-      "display": "MAX 18.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-20T06:26:00Z",
-      "forecastTime": "2026-10-20T07:51:00Z"
+      "observationTime": "2026-10-20T12:08:00Z",
+      "forecastTime": "2026-10-20T13:26:00Z"
     },
     "flux10cm": {
       "time": "2026-10-19T20:00:00",
