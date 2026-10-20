@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T23:05:13.435665+00:00",
+  "generatedAt": "2026-10-20T01:45:27.049432+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A park bench and waysides with a view at Lake Dardanelle State Park in Russellville, Arkansas (cf773068-fe65-4a9c-8b59-8a95ddf9d70e).JPG",
-    "artist": "National Trails Office (<i>US National Park Service</i>)",
-    "license": "Public domain",
+    "title": "File:Bibi Ka Maqbara Front Gate.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Learning_To_See&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Learning To See (page does not exist)\">Learning To See</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_park_bench_and_waysides_with_a_view_at_Lake_Dardanelle_State_Park_in_Russellville%2C_Arkansas_%28cf773068-fe65-4a9c-8b59-8a95ddf9d70e%29.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Bibi_Ka_Maqbara_Front_Gate.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "CYZX",
-    "station": "CYZX",
-    "lat": 44.985,
-    "lon": -64.912,
-    "weather": "No coded weather",
-    "temperature": 10.0,
-    "dewpoint": 5.0,
-    "windSpeed": 4.0,
-    "windDirection": 170.0,
-    "visibility": "15",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-19T22:00:00.000Z",
-    "observationTimestamp": "2026-10-19T22:00:00+00:00",
-    "raw": "METAR CYZX 192200Z 17004KT 15SM SCT180 BKN240 10/05 A3036 RMK AC3CS4 DENSITY ALT -892FT SLP282"
+    "name": "RJOR",
+    "station": "RJOR",
+    "lat": 35.53,
+    "lon": 134.165,
+    "weather": "-SHRA",
+    "temperature": 20.0,
+    "dewpoint": 18.0,
+    "windSpeed": 10.0,
+    "windDirection": 70.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-10-20T01:00:00.000Z",
+    "observationTimestamp": "2026-10-20T01:00:00+00:00",
+    "raw": "METAR RJOR 200100Z 07010KT 9999 -SHRA FEW006 SCT010 BKN020 20/18 Q1020"
   },
   "randomPlace": {
-    "name": "LSGS",
-    "station": "LSGS",
-    "lat": 46.219,
-    "lon": 7.33,
+    "name": "KI68",
+    "station": "KI68",
+    "lat": 39.4664,
+    "lon": -84.2532,
     "weather": "No coded weather",
-    "temperature": 8.0,
-    "dewpoint": 8.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 13.0,
+    "dewpoint": 4.0,
+    "windSpeed": 4.0,
+    "windDirection": 360.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-19T22:50:00.000Z",
-    "observationTimestamp": "2026-10-19T22:50:00+00:00",
-    "raw": "METAR LSGS 192250Z AUTO VRB02KT CAVOK 08/08 Q1019"
+    "observationTime": "2026-10-20T01:35:00.000Z",
+    "observationTimestamp": "2026-10-20T01:35:00+00:00",
+    "raw": "METAR KI68 200135Z AUTO 36004KT 10SM CLR 13/04 A3035 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8213259947,
-      "display": "8,213,259,947",
+      "value": 8213280777,
+      "display": "8,213,280,777",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 0.7,
       "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-19T18:00:00"
+      "time": "2026-10-19T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-19T22:56:00Z",
-      "speed": 359.0
+      "time": "2026-10-20T01:36:00Z",
+      "speed": 355.0
     },
     "magneticField": {
-      "time": "2026-10-19T22:59:00Z",
-      "bt": 5.0,
-      "bz": 4.0
+      "time": "2026-10-20T01:36:00Z",
+      "bt": 3.0,
+      "bz": 2.0
     },
     "kp": {
-      "time": "2026-10-19T18:00:00",
+      "time": "2026-10-19T21:00:00",
       "kp": 0.67
     },
     "aurora": {
       "value": 12.0,
       "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-19T22:52:00Z",
-      "forecastTime": "2026-10-20T00:10:00Z"
+      "observationTime": "2026-10-20T01:33:00Z",
+      "forecastTime": "2026-10-20T02:50:00Z"
     },
     "flux10cm": {
       "time": "2026-10-19T20:00:00",
