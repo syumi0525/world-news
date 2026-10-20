@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T17:20:09.269519+00:00",
+  "generatedAt": "2026-10-20T20:43:07.265534+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ausfahrsignal Freiburg Richtung Basel zeigt Fahrt Hp 1 mit Geschwindigkeitsanzeiger Kennziffer 6.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fabi_B%C3%BCKa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fabi BüKa (page does not exist)\">Fabi BüKa</a>",
+    "title": "File:Luribay.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nicol_Andrade&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nicol Andrade (page does not exist)\">Nicol Andrade</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ausfahrsignal_Freiburg_Richtung_Basel_zeigt_Fahrt_Hp_1_mit_Geschwindigkeitsanzeiger_Kennziffer_6.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Luribay.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KRKD",
-    "station": "KRKD",
-    "lat": 44.0611,
-    "lon": -69.1014,
+    "name": "ROYN",
+    "station": "ROYN",
+    "lat": 24.467,
+    "lon": 122.978,
     "weather": "No coded weather",
-    "temperature": 14.4,
-    "dewpoint": 5.6,
-    "windSpeed": 9.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-20T16:56:00.000Z",
-    "observationTimestamp": "2026-10-20T16:56:00+00:00",
-    "raw": "METAR KRKD 201656Z AUTO 03009G17KT 10SM CLR 14/06 A3026 RMK AO2 SLPNO T01440056"
-  },
-  "randomPlace": {
-    "name": "FYWB",
-    "station": "FYWB",
-    "lat": -22.98,
-    "lon": 14.645,
-    "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 12.0,
-    "windSpeed": 10.0,
-    "windDirection": 270.0,
+    "temperature": 27.0,
+    "dewpoint": 24.0,
+    "windSpeed": 11.0,
+    "windDirection": 50.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-20T17:00:00.000Z",
-    "observationTimestamp": "2026-10-20T17:00:00+00:00",
-    "raw": "METAR FYWB 201700Z 27010KT CAVOK 16/12 Q1015"
+    "observationTime": "2026-10-20T20:00:00.000Z",
+    "observationTimestamp": "2026-10-20T20:00:00+00:00",
+    "raw": "METAR ROYN 202000Z AUTO 05011KT 9999 NCD 27/24 Q1013"
+  },
+  "randomPlace": {
+    "name": "LEAM",
+    "station": "LEAM",
+    "lat": 36.846,
+    "lon": -2.357,
+    "weather": "No coded weather",
+    "temperature": 21.0,
+    "dewpoint": 17.0,
+    "windSpeed": 6.0,
+    "windDirection": 260.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-20T20:30:00.000Z",
+    "observationTimestamp": "2026-10-20T20:30:00+00:00",
+    "raw": "METAR LEAM 202030Z 26006KT 230V290 CAVOK 21/17 Q1015"
   },
   "globalPulse": {
     "population": {
-      "value": 8213402460,
-      "display": "8,213,402,460",
+      "value": 8213428884,
+      "display": "8,213,428,884",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-20T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 2.7,
+      "display": "Kp 2.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-20T12:00:00"
+      "time": "2026-10-20T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-20T17:09:00Z",
-      "speed": 364.0
+      "time": "2026-10-20T20:05:00Z",
+      "speed": 390.0
     },
     "magneticField": {
-      "time": "2026-10-20T17:09:00Z",
-      "bt": 9.0,
-      "bz": 0.0
+      "time": "2026-10-20T20:05:00Z",
+      "bt": 8.0,
+      "bz": -3.0
     },
     "kp": {
-      "time": "2026-10-20T12:00:00",
-      "kp": 2.0
+      "time": "2026-10-20T15:00:00",
+      "kp": 2.67
     },
     "aurora": {
-      "value": 41.0,
-      "display": "MAX 41.0%",
+      "value": 30.0,
+      "display": "MAX 30.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-20T17:09:00Z",
-      "forecastTime": "2026-10-20T18:22:00Z"
+      "observationTime": "2026-10-20T20:05:00Z",
+      "forecastTime": "2026-10-20T21:45:00Z"
     },
     "flux10cm": {
       "time": "2026-10-19T20:00:00",
