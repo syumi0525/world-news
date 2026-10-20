@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T20:43:07.265534+00:00",
+  "generatedAt": "2026-10-20T23:27:54.168468+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Luribay.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nicol_Andrade&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nicol Andrade (page does not exist)\">Nicol Andrade</a>",
-    "license": "CC0",
+    "title": "File:A creek meanders through the maritime forest.jpg",
+    "artist": "Hillebrand Steve, U.S. Fish and Wildlife Service",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Luribay.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_creek_meanders_through_the_maritime_forest.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "ROYN",
-    "station": "ROYN",
-    "lat": 24.467,
-    "lon": 122.978,
+    "name": "SCGZ",
+    "station": "SCGZ",
+    "lat": -54.932,
+    "lon": -67.631,
     "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 24.0,
-    "windSpeed": 11.0,
-    "windDirection": 50.0,
+    "temperature": 7.0,
+    "dewpoint": -1.0,
+    "windSpeed": 3.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-20T20:00:00.000Z",
-    "observationTimestamp": "2026-10-20T20:00:00+00:00",
-    "raw": "METAR ROYN 202000Z AUTO 05011KT 9999 NCD 27/24 Q1013"
+    "observationTime": "2026-10-20T23:00:00.000Z",
+    "observationTimestamp": "2026-10-20T23:00:00+00:00",
+    "raw": "METAR SCGZ 202300Z AUTO VRB03KT 9999 BKN054/// 07/M01 Q1025"
   },
   "randomPlace": {
-    "name": "LEAM",
-    "station": "LEAM",
-    "lat": 36.846,
-    "lon": -2.357,
+    "name": "KSFO",
+    "station": "KSFO",
+    "lat": 37.6196,
+    "lon": -122.3656,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 17.0,
-    "windSpeed": 6.0,
-    "windDirection": 260.0,
-    "visibility": "6+",
+    "temperature": 19.4,
+    "dewpoint": 10.6,
+    "windSpeed": 4.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-20T20:30:00.000Z",
-    "observationTimestamp": "2026-10-20T20:30:00+00:00",
-    "raw": "METAR LEAM 202030Z 26006KT 230V290 CAVOK 21/17 Q1015"
+    "observationTime": "2026-10-20T22:56:00.000Z",
+    "observationTimestamp": "2026-10-20T22:56:00+00:00",
+    "raw": "METAR KSFO 202256Z 03004KT 10SM FEW060 SCT140 BKN200 19/11 A2983 RMK AO2 SLP101 T01940106"
   },
   "globalPulse": {
     "population": {
-      "value": 8213428884,
-      "display": "8,213,428,884",
+      "value": 8213450333,
+      "display": "8,213,450,333",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,32 +92,32 @@
       "value": 2.7,
       "display": "Kp 2.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-20T15:00:00"
+      "time": "2026-10-20T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-20T20:05:00Z",
-      "speed": 390.0
+      "time": "2026-10-20T23:18:00Z",
+      "speed": 403.0
     },
     "magneticField": {
-      "time": "2026-10-20T20:05:00Z",
-      "bt": 8.0,
-      "bz": -3.0
+      "time": "2026-10-20T23:18:00Z",
+      "bt": 10.0,
+      "bz": -4.0
     },
     "kp": {
-      "time": "2026-10-20T15:00:00",
+      "time": "2026-10-20T18:00:00",
       "kp": 2.67
     },
     "aurora": {
-      "value": 30.0,
-      "display": "MAX 30.0%",
+      "value": 46.0,
+      "display": "MAX 46.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-20T20:05:00Z",
-      "forecastTime": "2026-10-20T21:45:00Z"
+      "observationTime": "2026-10-20T23:18:00Z",
+      "forecastTime": "2026-10-21T00:25:00Z"
     },
     "flux10cm": {
-      "time": "2026-10-19T20:00:00",
+      "time": "2026-10-20T20:00:00",
       "flux": 121.0
     }
   }
