@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T01:53:26.861049+00:00",
+  "generatedAt": "2026-10-21T07:02:07.508476+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Aulario de la FAPyD de la UNR.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Biancalois&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Biancalois (page does not exist)\">Biancalois</a>",
-    "license": "CC0",
+    "title": "File:Benue River (early 1900s).jpg",
+    "artist": "Hans Dominik",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Aulario_de_la_FAPyD_de_la_UNR.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Benue_River_%28early_1900s%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "UASK",
-    "station": "UASK",
-    "lat": 50.027,
-    "lon": 82.5,
-    "weather": "SHSN",
-    "temperature": 0.0,
-    "dewpoint": -1.0,
-    "windSpeed": 10.0,
-    "windDirection": 150.0,
-    "visibility": "1.3",
-    "flightCategory": "IFR",
-    "observationTime": "2026-10-21T01:30:00.000Z",
-    "observationTimestamp": "2026-10-21T01:30:00+00:00",
-    "raw": "METAR UASK 210130Z 15005MPS 2100 SHSN FEW005 BKN019CB OVC034 M00/M01 Q1010 NOSIG RMK QBB160 QFE732/0977"
+    "name": "UASP",
+    "station": "UASP",
+    "lat": 52.202,
+    "lon": 77.078,
+    "weather": "No coded weather",
+    "temperature": 4.0,
+    "dewpoint": 2.0,
+    "windSpeed": 21.0,
+    "windDirection": 290.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-10-21T06:34:00.000Z",
+    "observationTimestamp": "2026-10-21T06:34:00+00:00",
+    "raw": "SPECI UASP 210634Z 29011G16MPS 9999 BKN016CB 04/02 Q1008 NOSIG RMK QFE745/0993"
   },
   "randomPlace": {
-    "name": "KBIF",
-    "station": "KBIF",
-    "lat": 31.861,
-    "lon": -106.369,
+    "name": "SBGR",
+    "station": "SBGR",
+    "lat": -23.432,
+    "lon": -46.469,
     "weather": "No coded weather",
-    "temperature": 23.1,
-    "dewpoint": 15.9,
-    "windSpeed": 6.0,
-    "windDirection": 350.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-21T00:55:00.000Z",
-    "observationTimestamp": "2026-10-21T00:55:00+00:00",
-    "raw": "METAR KBIF 210055Z AUTO 35006KT 10SM CLR 23/16 A3012 RMK AO2 SLP148 T02310159 $"
+    "temperature": 16.0,
+    "dewpoint": 13.0,
+    "windSpeed": 5.0,
+    "windDirection": 120.0,
+    "visibility": "6+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-10-21T07:00:00.000Z",
+    "observationTimestamp": "2026-10-21T07:00:00+00:00",
+    "raw": "METAR SBGR 210700Z 12005KT 9999 OVC013 16/13 Q1021"
   },
   "globalPulse": {
     "population": {
-      "value": 8213469254,
-      "display": "8,213,469,254",
+      "value": 8213509425,
+      "display": "8,213,509,425",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.7,
-      "display": "62.7%",
+      "value": 61.3,
+      "display": "61.3%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-20T12:00:00Z"
+      "time": "2026-10-21T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.0,
-      "display": "Kp 3.0",
+      "value": 4.0,
+      "display": "Kp 4.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-20T21:00:00"
+      "time": "2026-10-21T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-21T01:44:00Z",
-      "speed": 416.0
+      "time": "2026-10-21T06:52:00Z",
+      "speed": 394.0
     },
     "magneticField": {
-      "time": "2026-10-21T01:44:00Z",
-      "bt": 9.0,
-      "bz": -7.0
+      "time": "2026-10-21T06:52:00Z",
+      "bt": 10.0,
+      "bz": 2.0
     },
     "kp": {
-      "time": "2026-10-20T21:00:00",
-      "kp": 3.0
+      "time": "2026-10-21T03:00:00",
+      "kp": 4.0
     },
     "aurora": {
-      "value": 33.0,
-      "display": "MAX 33.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-21T01:44:00Z",
-      "forecastTime": "2026-10-21T02:53:00Z"
+      "observationTime": "2026-10-21T06:49:00Z",
+      "forecastTime": "2026-10-21T07:58:00Z"
     },
     "flux10cm": {
       "time": "2026-10-20T20:00:00",
