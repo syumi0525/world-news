@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T12:53:42.785151+00:00",
+  "generatedAt": "2026-10-21T17:54:02.154103+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:CDF Alais Beaucaire carte.jpg",
-    "artist": "Talabot frères (1833)",
+    "title": "File:08020047.JPG",
+    "artist": "Catalina Holguin",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:CDF_Alais_Beaucaire_carte.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:08020047.JPG"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFZG",
-    "station": "KFZG",
-    "lat": 31.684,
-    "lon": -83.2712,
+    "name": "KMHR",
+    "station": "KMHR",
+    "lat": 38.56,
+    "lon": -121.284,
     "weather": "No coded weather",
-    "temperature": 11.1,
-    "dewpoint": 6.1,
-    "windSpeed": 3.0,
-    "windDirection": 40.0,
+    "temperature": 16.7,
+    "dewpoint": 11.2,
+    "windSpeed": 6.0,
+    "windDirection": 90.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-21T12:35:00.000Z",
-    "observationTimestamp": "2026-10-21T12:35:00+00:00",
-    "raw": "METAR KFZG 211235Z AUTO 04003KT 10SM CLR 11/06 A3019 RMK AO2 T01110061"
+    "observationTime": "2026-10-21T17:35:00.000Z",
+    "observationTimestamp": "2026-10-21T17:35:00+00:00",
+    "raw": "METAR KMHR 211735Z AUTO 09006KT 10SM OVC110 17/11 A2984 RMK AO2 T01670112"
   },
   "randomPlace": {
-    "name": "CAHR",
-    "station": "CAHR",
-    "lat": 46.344,
-    "lon": -63.17,
+    "name": "K5SM",
+    "station": "K5SM",
+    "lat": 39.426,
+    "lon": -107.38,
     "weather": "No coded weather",
-    "temperature": 6.8,
-    "dewpoint": 5.6,
-    "windSpeed": 2.0,
-    "windDirection": 360.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-10-21T12:00:00.000Z",
-    "observationTimestamp": "2026-10-21T12:00:00+00:00",
-    "raw": "METAR CAHR 211200Z AUTO 36002KT 07/06 RMK AO1 3PAST HR 2018 SLP286 P0001 T00680056 50003"
+    "temperature": 6.0,
+    "dewpoint": 0.0,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-21T17:21:00.000Z",
+    "observationTimestamp": "2026-10-21T17:21:00+00:00",
+    "raw": "METAR K5SM 211721Z AUTO 10SM OVC100 06/00 A3057 RMK AO2 LTG DSNT SW"
   },
   "globalPulse": {
     "population": {
-      "value": 8213555192,
-      "display": "8,213,555,192",
+      "value": 8213594305,
+      "display": "8,213,594,305",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.1,
-      "display": "62.1%",
+      "value": 62.3,
+      "display": "62.3%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-21T06:00:00Z"
+      "time": "2026-10-21T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.3,
-      "display": "Kp 2.3",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-21T09:00:00"
+      "time": "2026-10-21T12:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-21T12:43:00Z",
-      "speed": 430.0
+      "time": "2026-10-21T17:43:00Z",
+      "speed": 456.0
     },
     "magneticField": {
-      "time": "2026-10-21T12:43:00Z",
-      "bt": 8.0,
-      "bz": 4.0
+      "time": "2026-10-21T17:43:00Z",
+      "bt": 10.0,
+      "bz": -7.0
     },
     "kp": {
-      "time": "2026-10-21T09:00:00",
-      "kp": 2.33
+      "time": "2026-10-21T12:00:00",
+      "kp": 1.67
     },
     "aurora": {
-      "value": 25.0,
-      "display": "MAX 25.0%",
+      "value": 66.0,
+      "display": "MAX 66.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-21T12:43:00Z",
-      "forecastTime": "2026-10-21T13:47:00Z"
+      "observationTime": "2026-10-21T17:43:00Z",
+      "forecastTime": "2026-10-21T18:42:00Z"
     },
     "flux10cm": {
       "time": "2026-10-20T20:00:00",
