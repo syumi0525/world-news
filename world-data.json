@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T07:02:07.508476+00:00",
+  "generatedAt": "2026-10-21T12:53:42.785151+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Benue River (early 1900s).jpg",
-    "artist": "Hans Dominik",
+    "title": "File:CDF Alais Beaucaire carte.jpg",
+    "artist": "Talabot frères (1833)",
     "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Benue_River_%28early_1900s%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CDF_Alais_Beaucaire_carte.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "UASP",
-    "station": "UASP",
-    "lat": 52.202,
-    "lon": 77.078,
+    "name": "KFZG",
+    "station": "KFZG",
+    "lat": 31.684,
+    "lon": -83.2712,
     "weather": "No coded weather",
-    "temperature": 4.0,
-    "dewpoint": 2.0,
-    "windSpeed": 21.0,
-    "windDirection": 290.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-21T06:34:00.000Z",
-    "observationTimestamp": "2026-10-21T06:34:00+00:00",
-    "raw": "SPECI UASP 210634Z 29011G16MPS 9999 BKN016CB 04/02 Q1008 NOSIG RMK QFE745/0993"
+    "temperature": 11.1,
+    "dewpoint": 6.1,
+    "windSpeed": 3.0,
+    "windDirection": 40.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-21T12:35:00.000Z",
+    "observationTimestamp": "2026-10-21T12:35:00+00:00",
+    "raw": "METAR KFZG 211235Z AUTO 04003KT 10SM CLR 11/06 A3019 RMK AO2 T01110061"
   },
   "randomPlace": {
-    "name": "SBGR",
-    "station": "SBGR",
-    "lat": -23.432,
-    "lon": -46.469,
+    "name": "CAHR",
+    "station": "CAHR",
+    "lat": 46.344,
+    "lon": -63.17,
     "weather": "No coded weather",
-    "temperature": 16.0,
-    "dewpoint": 13.0,
-    "windSpeed": 5.0,
-    "windDirection": 120.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-21T07:00:00.000Z",
-    "observationTimestamp": "2026-10-21T07:00:00+00:00",
-    "raw": "METAR SBGR 210700Z 12005KT 9999 OVC013 16/13 Q1021"
+    "temperature": 6.8,
+    "dewpoint": 5.6,
+    "windSpeed": 2.0,
+    "windDirection": 360.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-10-21T12:00:00.000Z",
+    "observationTimestamp": "2026-10-21T12:00:00+00:00",
+    "raw": "METAR CAHR 211200Z AUTO 36002KT 07/06 RMK AO1 3PAST HR 2018 SLP286 P0001 T00680056 50003"
   },
   "globalPulse": {
     "population": {
-      "value": 8213509425,
-      "display": "8,213,509,425",
+      "value": 8213555192,
+      "display": "8,213,555,192",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.3,
-      "display": "61.3%",
+      "value": 62.1,
+      "display": "62.1%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-21T00:00:00Z"
+      "time": "2026-10-21T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 4.0,
-      "display": "Kp 4.0",
+      "value": 2.3,
+      "display": "Kp 2.3",
       "source": "NOAA SWPC",
-      "time": "2026-10-21T03:00:00"
+      "time": "2026-10-21T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-21T06:52:00Z",
-      "speed": 394.0
+      "time": "2026-10-21T12:43:00Z",
+      "speed": 430.0
     },
     "magneticField": {
-      "time": "2026-10-21T06:52:00Z",
-      "bt": 10.0,
-      "bz": 2.0
+      "time": "2026-10-21T12:43:00Z",
+      "bt": 8.0,
+      "bz": 4.0
     },
     "kp": {
-      "time": "2026-10-21T03:00:00",
-      "kp": 4.0
+      "time": "2026-10-21T09:00:00",
+      "kp": 2.33
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 25.0,
+      "display": "MAX 25.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-21T06:49:00Z",
-      "forecastTime": "2026-10-21T07:58:00Z"
+      "observationTime": "2026-10-21T12:43:00Z",
+      "forecastTime": "2026-10-21T13:47:00Z"
     },
     "flux10cm": {
       "time": "2026-10-20T20:00:00",
