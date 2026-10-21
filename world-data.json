@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T17:54:02.154103+00:00",
+  "generatedAt": "2026-10-21T21:14:20.566970+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:08020047.JPG",
-    "artist": "Catalina Holguin",
-    "license": "Public domain",
+    "title": "File:Boulder in snowy mountains.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AdvaitaMakaranda&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AdvaitaMakaranda (page does not exist)\">AdvaitaMakaranda</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:08020047.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Boulder_in_snowy_mountains.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KMHR",
-    "station": "KMHR",
-    "lat": 38.56,
-    "lon": -121.284,
-    "weather": "No coded weather",
-    "temperature": 16.7,
-    "dewpoint": 11.2,
-    "windSpeed": 6.0,
-    "windDirection": 90.0,
-    "visibility": "10+",
+    "name": "LHPP",
+    "station": "LHPP",
+    "lat": 45.991,
+    "lon": 18.241,
+    "weather": "-SHRA",
+    "temperature": 16.0,
+    "dewpoint": 14.0,
+    "windSpeed": 3.0,
+    "windDirection": 190.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-21T17:35:00.000Z",
-    "observationTimestamp": "2026-10-21T17:35:00+00:00",
-    "raw": "METAR KMHR 211735Z AUTO 09006KT 10SM OVC110 17/11 A2984 RMK AO2 T01670112"
+    "observationTime": "2026-10-21T20:45:00.000Z",
+    "observationTimestamp": "2026-10-21T20:45:00+00:00",
+    "raw": "METAR LHPP 212045Z AUTO 19003KT 140V250 9999 -SHRA NSC 16/14 Q1011"
   },
   "randomPlace": {
-    "name": "K5SM",
-    "station": "K5SM",
-    "lat": 39.426,
-    "lon": -107.38,
+    "name": "KF05",
+    "station": "KF05",
+    "lat": 34.2283,
+    "lon": -99.2834,
     "weather": "No coded weather",
-    "temperature": 6.0,
-    "dewpoint": 0.0,
-    "windSpeed": null,
-    "windDirection": null,
+    "temperature": 29.1,
+    "dewpoint": 12.5,
+    "windSpeed": 9.0,
+    "windDirection": 170.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-21T17:21:00.000Z",
-    "observationTimestamp": "2026-10-21T17:21:00+00:00",
-    "raw": "METAR K5SM 211721Z AUTO 10SM OVC100 06/00 A3057 RMK AO2 LTG DSNT SW"
+    "observationTime": "2026-10-21T20:55:00.000Z",
+    "observationTimestamp": "2026-10-21T20:55:00+00:00",
+    "raw": "METAR KF05 212055Z AUTO 17009KT 10SM CLR 29/13 A3014 RMK AO2 T02910125"
   },
   "globalPulse": {
     "population": {
-      "value": 8213594305,
-      "display": "8,213,594,305",
+      "value": 8213620372,
+      "display": "8,213,620,372",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,36 +89,36 @@
       "time": "2026-10-21T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.7,
-      "display": "Kp 1.7",
+      "value": 3.7,
+      "display": "Kp 3.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-21T12:00:00"
+      "time": "2026-10-21T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-21T17:43:00Z",
-      "speed": 456.0
+      "time": "2026-10-21T21:01:00Z",
+      "speed": 481.0
     },
     "magneticField": {
-      "time": "2026-10-21T17:43:00Z",
-      "bt": 10.0,
-      "bz": -7.0
+      "time": "2026-10-21T21:01:00Z",
+      "bt": 9.0,
+      "bz": -6.0
     },
     "kp": {
-      "time": "2026-10-21T12:00:00",
-      "kp": 1.67
+      "time": "2026-10-21T18:00:00",
+      "kp": 3.67
     },
     "aurora": {
-      "value": 66.0,
-      "display": "MAX 66.0%",
+      "value": 55.0,
+      "display": "MAX 55.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-21T17:43:00Z",
-      "forecastTime": "2026-10-21T18:42:00Z"
+      "observationTime": "2026-10-21T21:01:00Z",
+      "forecastTime": "2026-10-21T22:03:00Z"
     },
     "flux10cm": {
-      "time": "2026-10-20T20:00:00",
-      "flux": 121.0
+      "time": "2026-10-21T20:00:00",
+      "flux": 115.0
     }
   }
 }
