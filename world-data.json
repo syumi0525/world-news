@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T00:01:59.886704+00:00",
+  "generatedAt": "2026-10-22T04:34:50.613382+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Aulario de la FAPyD de la UNR.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Biancalois&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Biancalois (page does not exist)\">Biancalois</a>",
+    "title": "File:20190415 Yehliu geopark beach-1.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Aulario_de_la_FAPyD_de_la_UNR.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-1.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "K3LF",
-    "station": "K3LF",
-    "lat": 39.1605,
-    "lon": -89.6742,
+    "name": "LTCB",
+    "station": "LTCB",
+    "lat": 40.967,
+    "lon": 38.081,
     "weather": "No coded weather",
-    "temperature": 15.2,
-    "dewpoint": 6.5,
-    "windSpeed": 3.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-21T23:55:00.000Z",
-    "observationTimestamp": "2026-10-21T23:55:00+00:00",
-    "raw": "METAR K3LF 212355Z AUTO 20003KT 10SM CLR 15/07 A3022 RMK AO2 T01520065 10231 20152"
-  },
-  "randomPlace": {
-    "name": "TAPA",
-    "station": "TAPA",
-    "lat": 17.135,
-    "lon": -61.797,
-    "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 26.0,
-    "windSpeed": 4.0,
-    "windDirection": 110.0,
+    "temperature": 13.0,
+    "dewpoint": 13.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-21T23:00:00.000Z",
-    "observationTimestamp": "2026-10-21T23:00:00+00:00",
-    "raw": "METAR TAPA 212300Z 11004KT 040V170 9999 SCT020 29/26 Q1014 NOSIG"
+    "observationTime": "2026-10-22T03:50:00.000Z",
+    "observationTimestamp": "2026-10-22T03:50:00+00:00",
+    "raw": "METAR LTCB 220350Z 00000KT 9999 SCT035 13/13 Q1023 NOSIG"
+  },
+  "randomPlace": {
+    "name": "KMLU",
+    "station": "KMLU",
+    "lat": 32.5155,
+    "lon": -92.0299,
+    "weather": "No coded weather",
+    "temperature": 12.8,
+    "dewpoint": 9.4,
+    "windSpeed": 4.0,
+    "windDirection": 40.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-22T03:53:00.000Z",
+    "observationTimestamp": "2026-10-22T03:53:00+00:00",
+    "raw": "METAR KMLU 220353Z AUTO 04004KT 10SM CLR 13/09 A3019 RMK AO2 SLP222 T01280094"
   },
   "globalPulse": {
     "population": {
-      "value": 8213642170,
-      "display": "8,213,642,170",
+      "value": 8213677699,
+      "display": "8,213,677,699",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.3,
-      "display": "62.3%",
+      "value": 61.3,
+      "display": "61.3%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-21T12:00:00Z"
+      "time": "2026-10-22T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.7,
-      "display": "Kp 3.7",
+      "value": 2.3,
+      "display": "Kp 2.3",
       "source": "NOAA SWPC",
-      "time": "2026-10-21T18:00:00"
+      "time": "2026-10-22T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-21T23:53:00Z",
-      "speed": 459.0
+      "time": "2026-10-22T04:24:00Z",
+      "speed": 456.0
     },
     "magneticField": {
-      "time": "2026-10-21T23:53:00Z",
-      "bt": 9.0,
-      "bz": 1.0
+      "time": "2026-10-22T04:24:00Z",
+      "bt": 7.0,
+      "bz": -5.0
     },
     "kp": {
-      "time": "2026-10-21T18:00:00",
-      "kp": 3.67
+      "time": "2026-10-22T00:00:00",
+      "kp": 2.33
     },
     "aurora": {
-      "value": 39.0,
-      "display": "MAX 39.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-21T23:47:00Z",
-      "forecastTime": "2026-10-22T00:48:00Z"
+      "observationTime": "2026-10-22T04:24:00Z",
+      "forecastTime": "2026-10-22T05:23:00Z"
     },
     "flux10cm": {
       "time": "2026-10-21T20:00:00",
