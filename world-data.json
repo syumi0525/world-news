@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T21:14:20.566970+00:00",
+  "generatedAt": "2026-10-22T00:01:59.886704+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Boulder in snowy mountains.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AdvaitaMakaranda&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AdvaitaMakaranda (page does not exist)\">AdvaitaMakaranda</a>",
+    "title": "File:Aulario de la FAPyD de la UNR.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Biancalois&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Biancalois (page does not exist)\">Biancalois</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Boulder_in_snowy_mountains.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aulario_de_la_FAPyD_de_la_UNR.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LHPP",
-    "station": "LHPP",
-    "lat": 45.991,
-    "lon": 18.241,
-    "weather": "-SHRA",
-    "temperature": 16.0,
-    "dewpoint": 14.0,
-    "windSpeed": 3.0,
-    "windDirection": 190.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-21T20:45:00.000Z",
-    "observationTimestamp": "2026-10-21T20:45:00+00:00",
-    "raw": "METAR LHPP 212045Z AUTO 19003KT 140V250 9999 -SHRA NSC 16/14 Q1011"
-  },
-  "randomPlace": {
-    "name": "KF05",
-    "station": "KF05",
-    "lat": 34.2283,
-    "lon": -99.2834,
+    "name": "K3LF",
+    "station": "K3LF",
+    "lat": 39.1605,
+    "lon": -89.6742,
     "weather": "No coded weather",
-    "temperature": 29.1,
-    "dewpoint": 12.5,
-    "windSpeed": 9.0,
-    "windDirection": 170.0,
+    "temperature": 15.2,
+    "dewpoint": 6.5,
+    "windSpeed": 3.0,
+    "windDirection": 200.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-21T20:55:00.000Z",
-    "observationTimestamp": "2026-10-21T20:55:00+00:00",
-    "raw": "METAR KF05 212055Z AUTO 17009KT 10SM CLR 29/13 A3014 RMK AO2 T02910125"
+    "observationTime": "2026-10-21T23:55:00.000Z",
+    "observationTimestamp": "2026-10-21T23:55:00+00:00",
+    "raw": "METAR K3LF 212355Z AUTO 20003KT 10SM CLR 15/07 A3022 RMK AO2 T01520065 10231 20152"
+  },
+  "randomPlace": {
+    "name": "TAPA",
+    "station": "TAPA",
+    "lat": 17.135,
+    "lon": -61.797,
+    "weather": "No coded weather",
+    "temperature": 29.0,
+    "dewpoint": 26.0,
+    "windSpeed": 4.0,
+    "windDirection": 110.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-21T23:00:00.000Z",
+    "observationTimestamp": "2026-10-21T23:00:00+00:00",
+    "raw": "METAR TAPA 212300Z 11004KT 040V170 9999 SCT020 29/26 Q1014 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8213620372,
-      "display": "8,213,620,372",
+      "value": 8213642170,
+      "display": "8,213,642,170",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-21T21:01:00Z",
-      "speed": 481.0
+      "time": "2026-10-21T23:53:00Z",
+      "speed": 459.0
     },
     "magneticField": {
-      "time": "2026-10-21T21:01:00Z",
+      "time": "2026-10-21T23:53:00Z",
       "bt": 9.0,
-      "bz": -6.0
+      "bz": 1.0
     },
     "kp": {
       "time": "2026-10-21T18:00:00",
       "kp": 3.67
     },
     "aurora": {
-      "value": 55.0,
-      "display": "MAX 55.0%",
+      "value": 39.0,
+      "display": "MAX 39.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-21T21:01:00Z",
-      "forecastTime": "2026-10-21T22:03:00Z"
+      "observationTime": "2026-10-21T23:47:00Z",
+      "forecastTime": "2026-10-22T00:48:00Z"
     },
     "flux10cm": {
       "time": "2026-10-21T20:00:00",
