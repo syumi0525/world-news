@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T14:39:06.564408+00:00",
+  "generatedAt": "2026-10-22T18:49:09.104335+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Railroad Bridge across the Kaw at state line, Kansas. - DPLA - d3748f364ec28e77a8a82c4ae4140103.jpg",
-    "artist": "Gardner, Alexander, 1821-1882",
-    "license": "Public domain",
+    "title": "File:Aigle origami.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:LAiglebleu&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:LAiglebleu (page does not exist)\">LAiglebleu</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Railroad_Bridge_across_the_Kaw_at_state_line%2C_Kansas._-_DPLA_-_d3748f364ec28e77a8a82c4ae4140103.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aigle_origami.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "DAOI",
-    "station": "DAOI",
-    "lat": 36.213,
-    "lon": 1.332,
+    "name": "KAUM",
+    "station": "KAUM",
+    "lat": 43.6688,
+    "lon": -92.9321,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 8.0,
-    "windSpeed": 5.0,
+    "temperature": 23.4,
+    "dewpoint": 13.1,
+    "windSpeed": 8.0,
+    "windDirection": 200.0,
+    "visibility": "9",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-22T18:35:00.000Z",
+    "observationTimestamp": "2026-10-22T18:35:00+00:00",
+    "raw": "METAR KAUM 221835Z AUTO 20008KT 9SM CLR 23/13 A3018 RMK AO2 T02340131"
+  },
+  "randomPlace": {
+    "name": "DAUL",
+    "station": "DAUL",
+    "lat": 33.764,
+    "lon": 2.928,
+    "weather": "No coded weather",
+    "temperature": 22.0,
+    "dewpoint": 5.0,
+    "windSpeed": 4.0,
     "windDirection": 220.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-22T14:00:00.000Z",
-    "observationTimestamp": "2026-10-22T14:00:00+00:00",
-    "raw": "METAR DAOI 221400Z 22005KT 150V240 9999 FEW023 26/08 Q1024"
-  },
-  "randomPlace": {
-    "name": "KGRK",
-    "station": "KGRK",
-    "lat": 31.0779,
-    "lon": -97.8323,
-    "weather": "No coded weather",
-    "temperature": 16.8,
-    "dewpoint": 10.9,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-22T13:55:00.000Z",
-    "observationTimestamp": "2026-10-22T13:55:00+00:00",
-    "raw": "METAR KGRK 221355Z AUTO 00000KT 10SM CLR 17/11 A3021 RMK AO2 SLP224 T01680109"
+    "observationTime": "2026-10-22T18:00:00.000Z",
+    "observationTimestamp": "2026-10-22T18:00:00+00:00",
+    "raw": "METAR DAUL 221800Z 22004KT 9999 FEW033 SCT200 22/05 Q1025"
   },
   "globalPulse": {
     "population": {
-      "value": 8213756344,
-      "display": "8,213,756,344",
+      "value": 8213788910,
+      "display": "8,213,788,910",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.9,
-      "display": "61.9%",
+      "value": 62.4,
+      "display": "62.4%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-22T06:00:00Z"
+      "time": "2026-10-22T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 4.3,
-      "display": "Kp 4.3",
+      "value": 3.7,
+      "display": "Kp 3.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-22T09:00:00"
+      "time": "2026-10-22T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-22T14:29:00Z",
-      "speed": 425.0
+      "time": "2026-10-22T18:38:00Z",
+      "speed": 436.0
     },
     "magneticField": {
-      "time": "2026-10-22T14:29:00Z",
+      "time": "2026-10-22T18:38:00Z",
       "bt": 6.0,
-      "bz": -5.0
+      "bz": -4.0
     },
     "kp": {
-      "time": "2026-10-22T09:00:00",
-      "kp": 4.33
+      "time": "2026-10-22T15:00:00",
+      "kp": 3.67
     },
     "aurora": {
-      "value": 36.0,
-      "display": "MAX 36.0%",
+      "value": 40.0,
+      "display": "MAX 40.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-22T14:29:00Z",
-      "forecastTime": "2026-10-22T15:32:00Z"
+      "observationTime": "2026-10-22T18:38:00Z",
+      "forecastTime": "2026-10-22T19:42:00Z"
     },
     "flux10cm": {
       "time": "2026-10-21T20:00:00",
