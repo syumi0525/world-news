@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T18:49:09.104335+00:00",
+  "generatedAt": "2026-10-22T21:57:02.279271+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Aigle origami.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:LAiglebleu&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:LAiglebleu (page does not exist)\">LAiglebleu</a>",
+    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Aigle_origami.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAUM",
-    "station": "KAUM",
-    "lat": 43.6688,
-    "lon": -92.9321,
+    "name": "MMML",
+    "station": "MMML",
+    "lat": 32.631,
+    "lon": -115.238,
     "weather": "No coded weather",
-    "temperature": 23.4,
-    "dewpoint": 13.1,
-    "windSpeed": 8.0,
-    "windDirection": 200.0,
-    "visibility": "9",
+    "temperature": 29.0,
+    "dewpoint": 1.0,
+    "windSpeed": 9.0,
+    "windDirection": 250.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-22T18:35:00.000Z",
-    "observationTimestamp": "2026-10-22T18:35:00+00:00",
-    "raw": "METAR KAUM 221835Z AUTO 20008KT 9SM CLR 23/13 A3018 RMK AO2 T02340131"
+    "observationTime": "2026-10-22T20:41:00.000Z",
+    "observationTimestamp": "2026-10-22T20:41:00+00:00",
+    "raw": "METAR MMML 222041Z 25009KT 10SM SCT080 29/01 A2987 RMK SLP115 57013 930 8/040 DSNT SC-SW"
   },
   "randomPlace": {
-    "name": "DAUL",
-    "station": "DAUL",
-    "lat": 33.764,
-    "lon": 2.928,
+    "name": "KSNA",
+    "station": "KSNA",
+    "lat": 33.6798,
+    "lon": -117.8675,
     "weather": "No coded weather",
-    "temperature": 22.0,
-    "dewpoint": 5.0,
-    "windSpeed": 4.0,
-    "windDirection": 220.0,
-    "visibility": "6+",
+    "temperature": 21.1,
+    "dewpoint": 11.7,
+    "windSpeed": 7.0,
+    "windDirection": 250.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-22T18:00:00.000Z",
-    "observationTimestamp": "2026-10-22T18:00:00+00:00",
-    "raw": "METAR DAUL 221800Z 22004KT 9999 FEW033 SCT200 22/05 Q1025"
+    "observationTime": "2026-10-22T21:53:00.000Z",
+    "observationTimestamp": "2026-10-22T21:53:00+00:00",
+    "raw": "METAR KSNA 222153Z 25007KT 10SM SCT043 BKN050 BKN060 21/12 A2995 RMK AO2 SLP142 T02110117"
   },
   "globalPulse": {
     "population": {
-      "value": 8213788910,
-      "display": "8,213,788,910",
+      "value": 8213813369,
+      "display": "8,213,813,369",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,33 +92,33 @@
       "value": 3.7,
       "display": "Kp 3.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-22T15:00:00"
+      "time": "2026-10-22T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-22T18:38:00Z",
-      "speed": 436.0
+      "time": "2026-10-22T21:47:00Z",
+      "speed": 419.0
     },
     "magneticField": {
-      "time": "2026-10-22T18:38:00Z",
+      "time": "2026-10-22T21:47:00Z",
       "bt": 6.0,
-      "bz": -4.0
+      "bz": -3.0
     },
     "kp": {
-      "time": "2026-10-22T15:00:00",
+      "time": "2026-10-22T18:00:00",
       "kp": 3.67
     },
     "aurora": {
-      "value": 40.0,
-      "display": "MAX 40.0%",
+      "value": 43.0,
+      "display": "MAX 43.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-22T18:38:00Z",
-      "forecastTime": "2026-10-22T19:42:00Z"
+      "observationTime": "2026-10-22T21:44:00Z",
+      "forecastTime": "2026-10-22T22:48:00Z"
     },
     "flux10cm": {
-      "time": "2026-10-21T20:00:00",
-      "flux": 115.0
+      "time": "2026-10-22T20:00:00",
+      "flux": 106.0
     }
   }
 }
