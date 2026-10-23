@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T00:27:14.742697+00:00",
+  "generatedAt": "2026-10-23T05:12:45.605676+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Am Ludwigskanal bei Schwarzenbruck.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peukerthomas1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peukerthomas1 (page does not exist)\">Peukerthomas1</a>",
+    "title": "File:Cia Gould 2015 (Unsplash).jpg",
+    "artist": "Cia Gould <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@ciagould\">ciagould</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Am_Ludwigskanal_bei_Schwarzenbruck.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cia_Gould_2015_%28Unsplash%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPOB",
-    "station": "KPOB",
-    "lat": 35.175,
-    "lon": -79.008,
+    "name": "KMTK",
+    "station": "KMTK",
+    "lat": 28.6967,
+    "lon": -89.3958,
     "weather": "No coded weather",
-    "temperature": 12.4,
-    "dewpoint": 7.9,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 23.0,
+    "dewpoint": 13.0,
+    "windSpeed": 4.0,
+    "windDirection": 40.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-22T23:55:00.000Z",
-    "observationTimestamp": "2026-10-22T23:55:00+00:00",
-    "raw": "METAR KPOB 222355Z AUTO 00000KT 10SM CLR 12/08 A3009 RMK AO2 SLP193 T01240079 10228 20123 52017 $"
+    "observationTime": "2026-10-23T05:00:00.000Z",
+    "observationTimestamp": "2026-10-23T05:00:00+00:00",
+    "raw": "METAR KMTK 230500Z AUTO 04004KT 10SM CLR 23/13 A3010 RMK A01"
   },
   "randomPlace": {
-    "name": "OPLA",
-    "station": "OPLA",
-    "lat": 31.522,
-    "lon": 74.404,
-    "weather": "FU",
-    "temperature": 22.0,
-    "dewpoint": 21.0,
-    "windSpeed": 2.0,
-    "windDirection": 190.0,
-    "visibility": "2.49",
-    "flightCategory": "IFR",
-    "observationTime": "2026-10-23T00:00:00.000Z",
-    "observationTimestamp": "2026-10-23T00:00:00+00:00",
-    "raw": "METAR OPLA 230000Z 19002KT 4000 FU NSC 22/21 Q1014 BECMG 3500 BR RMK QFE988 A29.94"
+    "name": "KU55",
+    "station": "KU55",
+    "lat": 37.8511,
+    "lon": -112.3912,
+    "weather": "No coded weather",
+    "temperature": 7.0,
+    "dewpoint": 5.0,
+    "windSpeed": 13.0,
+    "windDirection": 180.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-23T04:55:00.000Z",
+    "observationTimestamp": "2026-10-23T04:55:00+00:00",
+    "raw": "METAR KU55 230455Z AUTO 18013KT 10SM 07/05 A3001 RMK A01"
   },
   "globalPulse": {
     "population": {
-      "value": 8213832891,
-      "display": "8,213,832,891",
+      "value": 8213870080,
+      "display": "8,213,870,080",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.4,
-      "display": "62.4%",
+      "value": 60.5,
+      "display": "60.5%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-22T12:00:00Z"
+      "time": "2026-10-23T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.3,
-      "display": "Kp 3.3",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-22T21:00:00"
+      "time": "2026-10-23T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-23T00:20:00Z",
-      "speed": 445.0
+      "time": "2026-10-23T05:02:00Z",
+      "speed": 432.0
     },
     "magneticField": {
-      "time": "2026-10-23T00:20:00Z",
+      "time": "2026-10-23T05:02:00Z",
       "bt": 6.0,
-      "bz": 6.0
+      "bz": -3.0
     },
     "kp": {
-      "time": "2026-10-22T21:00:00",
-      "kp": 3.33
+      "time": "2026-10-23T00:00:00",
+      "kp": 1.67
     },
     "aurora": {
-      "value": 21.0,
-      "display": "MAX 21.0%",
+      "value": 19.0,
+      "display": "MAX 19.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-23T00:13:00Z",
-      "forecastTime": "2026-10-23T01:17:00Z"
+      "observationTime": "2026-10-23T05:02:00Z",
+      "forecastTime": "2026-10-23T06:07:00Z"
     },
     "flux10cm": {
       "time": "2026-10-22T20:00:00",
