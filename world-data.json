@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T10:10:22.217288+00:00",
+  "generatedAt": "2026-10-23T15:10:23.570795+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Morondava route 03.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:A misty forest road in Coonoor.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Smritivs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Smritivs (page does not exist)\">Smritivs</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Morondava_route_03.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_misty_forest_road_in_Coonoor.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EKSB",
-    "station": "EKSB",
-    "lat": 54.962,
-    "lon": 9.787,
+    "name": "KPHL",
+    "station": "KPHL",
+    "lat": 39.8733,
+    "lon": -75.2268,
     "weather": "No coded weather",
-    "temperature": 11.0,
-    "dewpoint": 9.0,
-    "windSpeed": 11.0,
-    "windDirection": 130.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-23T09:50:00.000Z",
-    "observationTimestamp": "2026-10-23T09:50:00+00:00",
-    "raw": "METAR EKSB 230950Z 13011KT CAVOK 11/09 Q1008"
-  },
-  "randomPlace": {
-    "name": "KPIH",
-    "station": "KPIH",
-    "lat": 42.9197,
-    "lon": -112.5723,
-    "weather": "-RA",
-    "temperature": 9.4,
-    "dewpoint": 7.8,
-    "windSpeed": 7.0,
-    "windDirection": 170.0,
+    "temperature": 13.9,
+    "dewpoint": 2.8,
+    "windSpeed": 10.0,
+    "windDirection": 60.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-23T09:53:00.000Z",
-    "observationTimestamp": "2026-10-23T09:53:00+00:00",
-    "raw": "METAR KPIH 230953Z AUTO 17007KT 10SM -RA BKN050 OVC060 09/08 A2980 RMK AO2 SLP062 P0001 T00940078"
+    "observationTime": "2026-10-23T14:54:00.000Z",
+    "observationTimestamp": "2026-10-23T14:54:00+00:00",
+    "raw": "METAR KPHL 231454Z 06010G17KT 10SM FEW045 14/03 A3036 RMK AO2 SLP281 T01390028 51022 $"
+  },
+  "randomPlace": {
+    "name": "KSVR",
+    "station": "KSVR",
+    "lat": 40.6196,
+    "lon": -111.9902,
+    "weather": "No coded weather",
+    "temperature": 10.0,
+    "dewpoint": 4.0,
+    "windSpeed": null,
+    "windDirection": null,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-23T14:55:00.000Z",
+    "observationTimestamp": "2026-10-23T14:55:00+00:00",
+    "raw": "METAR KSVR 231455Z AUTO 10SM OVC090 10/04 A2996 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8213908818,
-      "display": "8,213,908,818",
+      "value": 8213947847,
+      "display": "8,213,947,847",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-23T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.7,
-      "display": "Kp 1.7",
+      "value": 2.7,
+      "display": "Kp 2.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-23T06:00:00"
+      "time": "2026-10-23T12:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-23T10:01:00Z",
-      "speed": 412.0
+      "time": "2026-10-23T15:01:00Z",
+      "speed": 420.0
     },
     "magneticField": {
-      "time": "2026-10-23T10:01:00Z",
+      "time": "2026-10-23T15:01:00Z",
       "bt": 6.0,
-      "bz": -2.0
+      "bz": 2.0
     },
     "kp": {
-      "time": "2026-10-23T06:00:00",
-      "kp": 1.67
+      "time": "2026-10-23T12:00:00",
+      "kp": 2.67
     },
     "aurora": {
       "value": 28.0,
       "display": "MAX 28.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-23T09:58:00Z",
-      "forecastTime": "2026-10-23T11:05:00Z"
+      "observationTime": "2026-10-23T14:57:00Z",
+      "forecastTime": "2026-10-23T16:03:00Z"
     },
     "flux10cm": {
       "time": "2026-10-22T20:00:00",
