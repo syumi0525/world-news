@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T21:57:02.279271+00:00",
+  "generatedAt": "2026-10-23T00:27:14.742697+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:76a Monmouth Road -Archibald Wakley.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Markt1966!&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Markt1966! (page does not exist)\">Markt1966!</a>",
+    "title": "File:Am Ludwigskanal bei Schwarzenbruck.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peukerthomas1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peukerthomas1 (page does not exist)\">Peukerthomas1</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:76a_Monmouth_Road_-Archibald_Wakley.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Am_Ludwigskanal_bei_Schwarzenbruck.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "MMML",
-    "station": "MMML",
-    "lat": 32.631,
-    "lon": -115.238,
+    "name": "KPOB",
+    "station": "KPOB",
+    "lat": 35.175,
+    "lon": -79.008,
     "weather": "No coded weather",
-    "temperature": 29.0,
-    "dewpoint": 1.0,
-    "windSpeed": 9.0,
-    "windDirection": 250.0,
+    "temperature": 12.4,
+    "dewpoint": 7.9,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-22T20:41:00.000Z",
-    "observationTimestamp": "2026-10-22T20:41:00+00:00",
-    "raw": "METAR MMML 222041Z 25009KT 10SM SCT080 29/01 A2987 RMK SLP115 57013 930 8/040 DSNT SC-SW"
+    "observationTime": "2026-10-22T23:55:00.000Z",
+    "observationTimestamp": "2026-10-22T23:55:00+00:00",
+    "raw": "METAR KPOB 222355Z AUTO 00000KT 10SM CLR 12/08 A3009 RMK AO2 SLP193 T01240079 10228 20123 52017 $"
   },
   "randomPlace": {
-    "name": "KSNA",
-    "station": "KSNA",
-    "lat": 33.6798,
-    "lon": -117.8675,
-    "weather": "No coded weather",
-    "temperature": 21.1,
-    "dewpoint": 11.7,
-    "windSpeed": 7.0,
-    "windDirection": 250.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-22T21:53:00.000Z",
-    "observationTimestamp": "2026-10-22T21:53:00+00:00",
-    "raw": "METAR KSNA 222153Z 25007KT 10SM SCT043 BKN050 BKN060 21/12 A2995 RMK AO2 SLP142 T02110117"
+    "name": "OPLA",
+    "station": "OPLA",
+    "lat": 31.522,
+    "lon": 74.404,
+    "weather": "FU",
+    "temperature": 22.0,
+    "dewpoint": 21.0,
+    "windSpeed": 2.0,
+    "windDirection": 190.0,
+    "visibility": "2.49",
+    "flightCategory": "IFR",
+    "observationTime": "2026-10-23T00:00:00.000Z",
+    "observationTimestamp": "2026-10-23T00:00:00+00:00",
+    "raw": "METAR OPLA 230000Z 19002KT 4000 FU NSC 22/21 Q1014 BECMG 3500 BR RMK QFE988 A29.94"
   },
   "globalPulse": {
     "population": {
-      "value": 8213813369,
-      "display": "8,213,813,369",
+      "value": 8213832891,
+      "display": "8,213,832,891",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-22T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 3.7,
-      "display": "Kp 3.7",
+      "value": 3.3,
+      "display": "Kp 3.3",
       "source": "NOAA SWPC",
-      "time": "2026-10-22T18:00:00"
+      "time": "2026-10-22T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-22T21:47:00Z",
-      "speed": 419.0
+      "time": "2026-10-23T00:20:00Z",
+      "speed": 445.0
     },
     "magneticField": {
-      "time": "2026-10-22T21:47:00Z",
+      "time": "2026-10-23T00:20:00Z",
       "bt": 6.0,
-      "bz": -3.0
+      "bz": 6.0
     },
     "kp": {
-      "time": "2026-10-22T18:00:00",
-      "kp": 3.67
+      "time": "2026-10-22T21:00:00",
+      "kp": 3.33
     },
     "aurora": {
-      "value": 43.0,
-      "display": "MAX 43.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-22T21:44:00Z",
-      "forecastTime": "2026-10-22T22:48:00Z"
+      "observationTime": "2026-10-23T00:13:00Z",
+      "forecastTime": "2026-10-23T01:17:00Z"
     },
     "flux10cm": {
       "time": "2026-10-22T20:00:00",
