@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T22:17:20.872312+00:00",
+  "generatedAt": "2026-10-24T00:48:23.715430+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Aulario de la FAPyD de la UNR.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Biancalois&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Biancalois (page does not exist)\">Biancalois</a>",
+    "title": "File:Comapedrosa with snow.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:FrameOverdose\" title=\"User:FrameOverdose\">FrameOverdose</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Aulario_de_la_FAPyD_de_la_UNR.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Comapedrosa_with_snow.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "WIOO",
-    "station": "WIOO",
-    "lat": -0.151,
-    "lon": 109.404,
-    "weather": "FU",
-    "temperature": 26.0,
-    "dewpoint": 25.0,
-    "windSpeed": 4.0,
-    "windDirection": 90.0,
-    "visibility": "1.68",
-    "flightCategory": "IFR",
-    "observationTime": "2026-10-23T22:00:00.000Z",
-    "observationTimestamp": "2026-10-23T22:00:00+00:00",
-    "raw": "METAR WIOO 232200Z 09004KT 2700 FU VV008 26/25 Q1007 NOSIG"
+    "name": "K4M3",
+    "station": "K4M3",
+    "lat": 34.804,
+    "lon": -91.707,
+    "weather": "No coded weather",
+    "temperature": 19.0,
+    "dewpoint": 6.0,
+    "windSpeed": 6.0,
+    "windDirection": 60.0,
+    "visibility": "9",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-24T00:35:00.000Z",
+    "observationTimestamp": "2026-10-24T00:35:00+00:00",
+    "raw": "METAR K4M3 240035Z AUTO 06006KT 9SM FEW024 FEW040 19/06 A3016 RMK A01"
   },
   "randomPlace": {
-    "name": "OIAI",
-    "station": "OIAI",
-    "lat": 32.001,
-    "lon": 49.27,
+    "name": "KEQA",
+    "station": "KEQA",
+    "lat": 37.7753,
+    "lon": -96.8145,
     "weather": "No coded weather",
-    "temperature": 26.0,
-    "dewpoint": 11.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "temperature": 20.0,
+    "dewpoint": 7.0,
+    "windSpeed": 7.0,
+    "windDirection": 140.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-23T21:00:00.000Z",
-    "observationTimestamp": "2026-10-23T21:00:00+00:00",
-    "raw": "METAR OIAI 232100Z 00000KT CAVOK 26/11 Q1013"
+    "observationTime": "2026-10-24T00:35:00.000Z",
+    "observationTimestamp": "2026-10-24T00:35:00+00:00",
+    "raw": "METAR KEQA 240035Z AUTO 14007KT 10SM CLR 20/07 A3012 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8214003445,
-      "display": "8,214,003,445",
+      "value": 8214023082,
+      "display": "8,214,023,082",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-23T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 4.3,
-      "display": "Kp 4.3",
+      "value": 1.7,
+      "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-23T18:00:00"
+      "time": "2026-10-23T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-23T22:09:00Z",
-      "speed": 422.0
+      "time": "2026-10-24T00:38:00Z",
+      "speed": 418.0
     },
     "magneticField": {
-      "time": "2026-10-23T22:09:00Z",
+      "time": "2026-10-24T00:38:00Z",
       "bt": 4.0,
-      "bz": 0.0
+      "bz": -1.0
     },
     "kp": {
-      "time": "2026-10-23T18:00:00",
-      "kp": 4.33
+      "time": "2026-10-23T21:00:00",
+      "kp": 1.67
     },
     "aurora": {
-      "value": 20.0,
-      "display": "MAX 20.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-23T22:09:00Z",
-      "forecastTime": "2026-10-23T23:13:00Z"
+      "observationTime": "2026-10-24T00:38:00Z",
+      "forecastTime": "2026-10-24T01:44:00Z"
     },
     "flux10cm": {
       "time": "2026-10-23T20:00:00",
