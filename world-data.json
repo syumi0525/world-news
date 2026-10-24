@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T16:56:10.815492+00:00",
+  "generatedAt": "2026-10-24T19:15:33.642188+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Rat pancaking.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Theshoedchicken&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Theshoedchicken (page does not exist)\">Theshoedchicken</a>",
+    "title": "File:Morondava route 01.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Rat_pancaking.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Morondava_route_01.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LTAF",
-    "station": "LTAF",
-    "lat": 36.989,
-    "lon": 35.293,
+    "name": "CXZV",
+    "station": "CXZV",
+    "lat": 50.217,
+    "lon": -66.26,
     "weather": "No coded weather",
-    "temperature": 21.0,
-    "dewpoint": 16.0,
-    "windSpeed": 3.0,
-    "windDirection": 210.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-24T16:20:00.000Z",
-    "observationTimestamp": "2026-10-24T16:20:00+00:00",
-    "raw": "METAR LTAF 241620Z 21003KT CAVOK 21/16 Q1013 NOSIG RMK RWY23 24004KT SKC"
+    "temperature": 6.9,
+    "dewpoint": 2.0,
+    "windSpeed": 5.0,
+    "windDirection": 250.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-10-24T19:00:00.000Z",
+    "observationTimestamp": "2026-10-24T19:00:00+00:00",
+    "raw": "METAR CXZV 241900Z AUTO 25005KT 07/02 RMK AO1 SLP252 T00690020 58018"
   },
   "randomPlace": {
-    "name": "ULWC",
-    "station": "ULWC",
-    "lat": 59.281,
-    "lon": 38.019,
+    "name": "KWAL",
+    "station": "KWAL",
+    "lat": 37.9372,
+    "lon": -75.4662,
     "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 3.0,
-    "windSpeed": 4.0,
-    "windDirection": 120.0,
-    "visibility": "6+",
+    "temperature": 16.1,
+    "dewpoint": 9.4,
+    "windSpeed": 18.0,
+    "windDirection": 50.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-24T16:30:00.000Z",
-    "observationTimestamp": "2026-10-24T16:30:00+00:00",
-    "raw": "METAR ULWC 241630Z 12002MPS 9999 SCT026 09/03 Q1028 R21/190060 NOSIG RMK QFE761/1014"
+    "observationTime": "2026-10-24T18:54:00.000Z",
+    "observationTimestamp": "2026-10-24T18:54:00+00:00",
+    "raw": "METAR KWAL 241854Z AUTO 05018KT 10SM SCT050 16/09 A3051 RMK AO2 SLP327 T01610094 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8214149066,
-      "display": "8,214,149,066",
+      "value": 8214167213,
+      "display": "8,214,167,213",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 1.7,
       "display": "Kp 1.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-24T12:00:00"
+      "time": "2026-10-24T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-24T16:49:00Z",
-      "speed": 389.0
+      "time": "2026-10-24T19:07:00Z",
+      "speed": 373.0
     },
     "magneticField": {
-      "time": "2026-10-24T16:49:00Z",
-      "bt": 4.0,
+      "time": "2026-10-24T19:07:00Z",
+      "bt": 3.0,
       "bz": -1.0
     },
     "kp": {
-      "time": "2026-10-24T12:00:00",
+      "time": "2026-10-24T15:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 23.0,
-      "display": "MAX 23.0%",
+      "value": 21.0,
+      "display": "MAX 21.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-24T16:42:00Z",
-      "forecastTime": "2026-10-24T17:53:00Z"
+      "observationTime": "2026-10-24T19:03:00Z",
+      "forecastTime": "2026-10-24T20:16:00Z"
     },
     "flux10cm": {
       "time": "2026-10-23T20:00:00",
