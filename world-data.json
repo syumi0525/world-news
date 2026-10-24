@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T21:39:40.676064+00:00",
+  "generatedAt": "2026-10-24T23:44:11.604419+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 14.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:Luribay.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nicol_Andrade&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nicol Andrade (page does not exist)\">Nicol Andrade</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_14.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Luribay.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LJCE",
-    "station": "LJCE",
-    "lat": 45.899,
-    "lon": 15.523,
+    "name": "EDHI",
+    "station": "EDHI",
+    "lat": 53.536,
+    "lon": 9.837,
     "weather": "No coded weather",
-    "temperature": 8.0,
-    "dewpoint": 7.0,
-    "windSpeed": 4.0,
-    "windDirection": 260.0,
+    "temperature": 9.0,
+    "dewpoint": 5.0,
+    "windSpeed": 12.0,
+    "windDirection": 180.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-24T21:30:00.000Z",
-    "observationTimestamp": "2026-10-24T21:30:00+00:00",
-    "raw": "METAR LJCE 242130Z AUTO 26004KT 9999 FEW035/// BKN049/// 08/07 Q1020"
+    "observationTime": "2026-10-24T23:20:00.000Z",
+    "observationTimestamp": "2026-10-24T23:20:00+00:00",
+    "raw": "METAR EDHI 242320Z AUTO 18012G24KT 150V210 9999 // SCT033/// BKN086/// OVC100/// 09/05 Q0999"
   },
   "randomPlace": {
-    "name": "ZSNB",
-    "station": "ZSNB",
-    "lat": 29.827,
-    "lon": 121.462,
-    "weather": "-SHRA BR",
-    "temperature": 20.0,
-    "dewpoint": 19.0,
-    "windSpeed": 10.0,
-    "windDirection": 340.0,
-    "visibility": "3.11",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-24T21:00:00.000Z",
-    "observationTimestamp": "2026-10-24T21:00:00+00:00",
-    "raw": "METAR ZSNB 242100Z 34005MPS 310V010 5000 -SHRA BR SCT004 BKN016 20/19 Q1012 NOSIG"
+    "name": "K9S9",
+    "station": "K9S9",
+    "lat": 45.4551,
+    "lon": -119.6859,
+    "weather": "No coded weather",
+    "temperature": 13.0,
+    "dewpoint": 0.0,
+    "windSpeed": 6.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-24T23:30:00.000Z",
+    "observationTimestamp": "2026-10-24T23:30:00+00:00",
+    "raw": "METAR K9S9 242330Z AUTO 03006KT 10SM CLR 13/M00 A3011 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8214185967,
-      "display": "8,214,185,967",
+      "value": 8214202176,
+      "display": "8,214,202,176",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -97,24 +97,24 @@
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-24T21:32:00Z",
-      "speed": 370.0
+      "time": "2026-10-24T23:37:00Z",
+      "speed": 356.0
     },
     "magneticField": {
-      "time": "2026-10-24T21:32:00Z",
-      "bt": 3.0,
-      "bz": 1.0
+      "time": "2026-10-24T23:34:00Z",
+      "bt": 2.0,
+      "bz": 0.0
     },
     "kp": {
       "time": "2026-10-24T18:00:00",
       "kp": 1.67
     },
     "aurora": {
-      "value": 17.0,
-      "display": "MAX 17.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-24T21:28:00Z",
-      "forecastTime": "2026-10-24T22:42:00Z"
+      "observationTime": "2026-10-24T23:34:00Z",
+      "forecastTime": "2026-10-25T00:48:00Z"
     },
     "flux10cm": {
       "time": "2026-10-24T20:00:00",
