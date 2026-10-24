@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T05:07:12.660762+00:00",
+  "generatedAt": "2026-10-24T09:29:15.677045+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Ferrovia Mesolcinese - Betriebstage 2005.jpg",
-    "artist": "Ferrovia Mesolcinese",
-    "license": "Public domain",
+    "title": "File:20190415 Yehliu geopark beach-1.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Ferrovia_Mesolcinese_-_Betriebstage_2005.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20190415_Yehliu_geopark_beach-1.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KVBW",
-    "station": "KVBW",
-    "lat": 38.366,
-    "lon": -78.968,
+    "name": "KUWL",
+    "station": "KUWL",
+    "lat": 39.8752,
+    "lon": -85.3313,
     "weather": "No coded weather",
-    "temperature": 2.8,
-    "dewpoint": 2.8,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": 8.0,
+    "dewpoint": 7.0,
+    "windSpeed": 3.0,
+    "windDirection": 80.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-24T04:55:00.000Z",
-    "observationTimestamp": "2026-10-24T04:55:00+00:00",
-    "raw": "METAR KVBW 240455Z AUTO 00000KT 10SM CLR 03/03 A3044 RMK AO1 T00280028"
+    "observationTime": "2026-10-24T09:15:00.000Z",
+    "observationTimestamp": "2026-10-24T09:15:00+00:00",
+    "raw": "METAR KUWL 240915Z AUTO 08003KT 10SM CLR 08/07 A3036 RMK A01"
   },
   "randomPlace": {
-    "name": "HCMF",
-    "station": "HCMF",
-    "lat": 11.277,
-    "lon": 49.141,
-    "weather": "No coded weather",
-    "temperature": 27.0,
-    "dewpoint": 23.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
+    "name": "PAPN",
+    "station": "PAPN",
+    "lat": 57.578,
+    "lon": -157.569,
+    "weather": "-RA",
+    "temperature": 5.6,
+    "dewpoint": 3.3,
+    "windSpeed": 18.0,
+    "windDirection": 140.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-24T04:00:00.000Z",
-    "observationTimestamp": "2026-10-24T04:00:00+00:00",
-    "raw": "METAR HCMF 240400Z 00000KT 9999 FEW025 27/23 Q1012"
+    "observationTime": "2026-10-24T08:56:00.000Z",
+    "observationTimestamp": "2026-10-24T08:56:00+00:00",
+    "raw": "METAR PAPN 240856Z AUTO 14018G23KT 10SM -RA FEW050 BKN060 OVC075 06/03 A3002 RMK AO2 PK WND 13027/0813 SLP165 P0000 60008 T00560033 400671050 51008"
   },
   "globalPulse": {
     "population": {
-      "value": 8214056785,
-      "display": "8,214,056,785",
+      "value": 8214090874,
+      "display": "8,214,090,874",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-24T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-24T00:00:00"
+      "time": "2026-10-24T06:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-24T04:59:00Z",
-      "speed": 408.0
+      "time": "2026-10-24T09:20:00Z",
+      "speed": 390.0
     },
     "magneticField": {
-      "time": "2026-10-24T04:59:00Z",
-      "bt": 4.0,
-      "bz": 1.0
+      "time": "2026-10-24T09:20:00Z",
+      "bt": 5.0,
+      "bz": -2.0
     },
     "kp": {
-      "time": "2026-10-24T00:00:00",
-      "kp": 2.0
+      "time": "2026-10-24T06:00:00",
+      "kp": 0.67
     },
     "aurora": {
-      "value": 19.0,
-      "display": "MAX 19.0%",
+      "value": 20.0,
+      "display": "MAX 20.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-24T04:52:00Z",
-      "forecastTime": "2026-10-24T06:01:00Z"
+      "observationTime": "2026-10-24T09:16:00Z",
+      "forecastTime": "2026-10-24T10:28:00Z"
     },
     "flux10cm": {
       "time": "2026-10-23T20:00:00",
