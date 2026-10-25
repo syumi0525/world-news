@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T01:44:22.821084+00:00",
+  "generatedAt": "2026-10-25T06:57:22.018307+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chirchiq kanali 01.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sevindikovna_Feruza&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sevindikovna Feruza (page does not exist)\">Sevindikovna Feruza</a>",
-    "license": "CC0",
+    "title": "File:Bishopsteignton in 2006.jpg",
+    "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Keith_Ball\" class=\"extiw\" title=\"w:User:Keith Ball\">Keith_Ball</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Keith_Ball\" class=\"extiw\" title=\"w:User talk:Keith Ball\">talk</a>) (<a href=\"https://en.wikipedia.org/wiki/Special:ListFiles/Keith_Ball\" class=\"extiw\" title=\"w:Special:ListFiles/Keith Ball\">Uploads</a>)",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chirchiq_kanali_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bishopsteignton_in_2006.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFSM",
-    "station": "KFSM",
-    "lat": 35.3335,
-    "lon": -94.3653,
+    "name": "KACY",
+    "station": "KACY",
+    "lat": 39.452,
+    "lon": -74.567,
     "weather": "No coded weather",
-    "temperature": 20.6,
-    "dewpoint": 8.9,
-    "windSpeed": 5.0,
-    "windDirection": 60.0,
+    "temperature": 2.2,
+    "dewpoint": 0.6,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-25T00:53:00.000Z",
-    "observationTimestamp": "2026-10-25T00:53:00+00:00",
-    "raw": "METAR KFSM 250053Z 06005KT 10SM CLR 21/09 A3025 RMK AO2 SLP243 T02060089"
+    "observationTime": "2026-10-25T05:54:00.000Z",
+    "observationTimestamp": "2026-10-25T05:54:00+00:00",
+    "raw": "METAR KACY 250554Z 00000KT 10SM CLR 02/01 A3056 RMK AO2 SLP348 T00220006 10083 20022 55000 $"
   },
   "randomPlace": {
-    "name": "LFAT",
-    "station": "LFAT",
-    "lat": 50.515,
-    "lon": 1.623,
-    "weather": "No coded weather",
-    "temperature": 13.0,
-    "dewpoint": 12.0,
-    "windSpeed": 19.0,
-    "windDirection": 290.0,
-    "visibility": "3.73",
+    "name": "KCFJ",
+    "station": "KCFJ",
+    "lat": 39.9767,
+    "lon": -86.9148,
+    "weather": "HZ",
+    "temperature": 5.8,
+    "dewpoint": 3.5,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "4",
     "flightCategory": "MVFR",
-    "observationTime": "2026-10-25T01:30:00.000Z",
-    "observationTimestamp": "2026-10-25T01:30:00+00:00",
-    "raw": "METAR LFAT 250130Z AUTO 29019KT 270V330 6000 // BKN012/// BKN019/// OVC032/// ///TCU 13/12 Q0994"
+    "observationTime": "2026-10-25T06:55:00.000Z",
+    "observationTimestamp": "2026-10-25T06:55:00+00:00",
+    "raw": "METAR KCFJ 250655Z AUTO 00000KT 4SM HZ CLR 06/04 A3042 RMK AO2 T00580035"
   },
   "globalPulse": {
     "population": {
-      "value": 8214217793,
-      "display": "8,214,217,793",
+      "value": 8214258537,
+      "display": "8,214,258,537",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 63.2,
-      "display": "63.2%",
+      "value": 61.6,
+      "display": "61.6%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-24T12:00:00Z"
+      "time": "2026-10-25T00:00:00Z"
     },
     "geomagnetic": {
       "value": 0.7,
       "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-24T21:00:00"
+      "time": "2026-10-25T03:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-25T01:34:00Z",
-      "speed": 354.0
+      "time": "2026-10-25T06:49:00Z",
+      "speed": 353.0
     },
     "magneticField": {
-      "time": "2026-10-25T01:34:00Z",
+      "time": "2026-10-25T06:49:00Z",
       "bt": 3.0,
       "bz": 1.0
     },
     "kp": {
-      "time": "2026-10-24T21:00:00",
+      "time": "2026-10-25T03:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 13.0,
-      "display": "MAX 13.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-25T01:31:00Z",
-      "forecastTime": "2026-10-25T02:49:00Z"
+      "observationTime": "2026-10-25T06:49:00Z",
+      "forecastTime": "2026-10-25T08:07:00Z"
     },
     "flux10cm": {
       "time": "2026-10-24T20:00:00",
