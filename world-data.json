@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T19:18:06.472670+00:00",
+  "generatedAt": "2026-10-25T23:47:49.467565+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Brake Through Of kpongu Dam AWC Africa Wiki Challenge 309.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mayor_555&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mayor 555 (page does not exist)\">Mayor 555</a>",
+    "title": "File:Buna River.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Planeti\" title=\"User:Planeti\">Planeti</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Brake_Through_Of_kpongu_Dam_AWC_Africa_Wiki_Challenge_309.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Buna_River.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFJR",
-    "station": "LFJR",
-    "lat": 47.562,
-    "lon": -0.317,
+    "name": "KCAD",
+    "station": "KCAD",
+    "lat": 44.2785,
+    "lon": -85.4207,
     "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": 7.0,
-    "windSpeed": 1.0,
-    "windDirection": 100.0,
-    "visibility": "6+",
+    "temperature": 17.0,
+    "dewpoint": 9.0,
+    "windSpeed": 4.0,
+    "windDirection": 270.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-25T19:00:00.000Z",
-    "observationTimestamp": "2026-10-25T19:00:00+00:00",
-    "raw": "METAR LFJR 251900Z AUTO 10001KT CAVOK 07/07 Q1019"
+    "observationTime": "2026-10-25T23:35:00.000Z",
+    "observationTimestamp": "2026-10-25T23:35:00+00:00",
+    "raw": "METAR KCAD 252335Z AUTO 27004KT 10SM OVC120 17/09 A3033 RMK AO2"
   },
   "randomPlace": {
-    "name": "KECS",
-    "station": "KECS",
-    "lat": 43.8845,
-    "lon": -104.312,
+    "name": "K49A",
+    "station": "K49A",
+    "lat": 34.6301,
+    "lon": -84.5271,
     "weather": "No coded weather",
-    "temperature": 5.0,
-    "dewpoint": -2.0,
-    "windSpeed": 6.0,
-    "windDirection": 160.0,
+    "temperature": 14.0,
+    "dewpoint": 11.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-25T18:55:00.000Z",
-    "observationTimestamp": "2026-10-25T18:55:00+00:00",
-    "raw": "METAR KECS 251855Z AUTO 16006KT 10SM OVC029 05/M02 A3034 RMK AO2"
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-25T23:35:00.000Z",
+    "observationTimestamp": "2026-10-25T23:35:00+00:00",
+    "raw": "METAR K49A 252335Z AUTO 00000KT 10SM CLR 14/11 A3037 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8214354973,
-      "display": "8,214,354,973",
+      "value": 8214390082,
+      "display": "8,214,390,082",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,36 +89,36 @@
       "time": "2026-10-25T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.3,
-      "display": "Kp 0.3",
+      "value": 1.0,
+      "display": "Kp 1.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-25T15:00:00"
+      "time": "2026-10-25T18:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-25T19:11:00Z",
-      "speed": 342.0
+      "time": "2026-10-25T23:40:00Z",
+      "speed": 341.0
     },
     "magneticField": {
-      "time": "2026-10-25T19:07:00Z",
+      "time": "2026-10-25T23:40:00Z",
       "bt": 4.0,
-      "bz": -2.0
+      "bz": -1.0
     },
     "kp": {
-      "time": "2026-10-25T15:00:00",
-      "kp": 0.33
+      "time": "2026-10-25T18:00:00",
+      "kp": 1.0
     },
     "aurora": {
-      "value": 20.0,
-      "display": "MAX 20.0%",
+      "value": 17.0,
+      "display": "MAX 17.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-25T19:07:00Z",
-      "forecastTime": "2026-10-25T20:27:00Z"
+      "observationTime": "2026-10-25T23:36:00Z",
+      "forecastTime": "2026-10-26T00:57:00Z"
     },
     "flux10cm": {
-      "time": "2026-10-24T20:00:00",
-      "flux": 93.0
+      "time": "2026-10-25T20:00:00",
+      "flux": 89.0
     }
   }
 }
