@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T07:06:51.203681+00:00",
+  "generatedAt": "2026-10-26T14:11:48.201666+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nilüfer kanak köprüsü.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aahhkk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aahhkk (page does not exist)\">Aahhkk</a>",
+    "title": "File:500px photo (179745421).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_kanak_k%C3%B6pr%C3%BCs%C3%BC.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28179745421%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KPPO",
-    "station": "KPPO",
-    "lat": 41.5705,
-    "lon": -86.7333,
+    "name": "KONO",
+    "station": "KONO",
+    "lat": 44.0142,
+    "lon": -117.0081,
     "weather": "No coded weather",
-    "temperature": 7.0,
-    "dewpoint": 7.0,
-    "windSpeed": 1.0,
-    "windDirection": 90.0,
+    "temperature": 4.4,
+    "dewpoint": 2.8,
+    "windSpeed": 4.0,
+    "windDirection": 270.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-26T06:55:00.000Z",
-    "observationTimestamp": "2026-10-26T06:55:00+00:00",
-    "raw": "METAR KPPO 260655Z AUTO 09001KT 10SM CLR 07/07 A3034 RMK AO2"
+    "observationTime": "2026-10-26T13:53:00.000Z",
+    "observationTimestamp": "2026-10-26T13:53:00+00:00",
+    "raw": "METAR KONO 261353Z AUTO 27004KT 10SM OVC085 04/03 A3001 RMK AO2 SLP171 T00440028"
   },
   "randomPlace": {
-    "name": "PAMR",
-    "station": "PAMR",
-    "lat": 61.215,
-    "lon": -149.85,
+    "name": "LPPT",
+    "station": "LPPT",
+    "lat": 38.781,
+    "lon": -9.136,
     "weather": "No coded weather",
-    "temperature": 5.6,
-    "dewpoint": 0.6,
+    "temperature": 22.0,
+    "dewpoint": 13.0,
     "windSpeed": 5.0,
-    "windDirection": 200.0,
-    "visibility": "10+",
+    "windDirection": 0.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-26T06:53:00.000Z",
-    "observationTimestamp": "2026-10-26T06:53:00+00:00",
-    "raw": "METAR PAMR 260653Z 20005KT 10SM CLR 06/01 A3019 RMK AO2 SLP225 T00560006"
+    "observationTime": "2026-10-26T14:00:00.000Z",
+    "observationTimestamp": "2026-10-26T14:00:00+00:00",
+    "raw": "METAR LPPT 261400Z VRB05KT CAVOK 22/13 Q1018 NOSIG"
   },
   "globalPulse": {
     "population": {
-      "value": 8214447203,
-      "display": "8,214,447,203",
+      "value": 8214502514,
+      "display": "8,214,502,514",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.1,
-      "display": "61.1%",
+      "value": 61.0,
+      "display": "61.0%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-26T00:00:00Z"
+      "time": "2026-10-26T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.0,
-      "display": "Kp 1.0",
+      "value": 2.0,
+      "display": "Kp 2.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-26T03:00:00"
+      "time": "2026-10-26T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-26T06:57:00Z",
-      "speed": 323.0
+      "time": "2026-10-26T14:01:00Z",
+      "speed": 347.0
     },
     "magneticField": {
-      "time": "2026-10-26T06:57:00Z",
+      "time": "2026-10-26T14:01:00Z",
       "bt": 6.0,
-      "bz": 0.0
+      "bz": 2.0
     },
     "kp": {
-      "time": "2026-10-26T03:00:00",
-      "kp": 1.0
+      "time": "2026-10-26T09:00:00",
+      "kp": 2.0
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 22.0,
+      "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-26T06:53:00Z",
-      "forecastTime": "2026-10-26T08:17:00Z"
+      "observationTime": "2026-10-26T13:58:00Z",
+      "forecastTime": "2026-10-26T15:19:00Z"
     },
     "flux10cm": {
       "time": "2026-10-25T20:00:00",
