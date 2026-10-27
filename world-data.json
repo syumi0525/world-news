@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T02:27:41.679143+00:00",
+  "generatedAt": "2026-10-27T14:37:43.687271+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Borehole project 18.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
+    "title": "File:A Spur-winged lapwing bird (Vanellus spinosus) in Lake Naivasha.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:VickyOmondi\" title=\"User:VickyOmondi\">VickyOmondi</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_18.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_Spur-winged_lapwing_bird_%28Vanellus_spinosus%29_in_Lake_Naivasha.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EGDR",
-    "station": "EGDR",
-    "lat": 50.084,
-    "lon": -5.257,
-    "weather": "-RA",
-    "temperature": 14.0,
-    "dewpoint": 14.0,
-    "windSpeed": 15.0,
-    "windDirection": 230.0,
-    "visibility": "3.73",
-    "flightCategory": "IFR",
-    "observationTime": "2026-10-27T01:50:00.000Z",
-    "observationTimestamp": "2026-10-27T01:50:00+00:00",
-    "raw": "METAR EGDR 270150Z AUTO 23015G26KT 6000 -RA OVC006/// 14/14 Q1002"
-  },
-  "randomPlace": {
-    "name": "KDKK",
-    "station": "KDKK",
-    "lat": 42.4932,
-    "lon": -79.2762,
+    "name": "KVQQ",
+    "station": "KVQQ",
+    "lat": 30.2035,
+    "lon": -81.8725,
     "weather": "No coded weather",
-    "temperature": 12.8,
-    "dewpoint": 3.3,
-    "windSpeed": 4.0,
-    "windDirection": 30.0,
+    "temperature": 21.0,
+    "dewpoint": 15.0,
+    "windSpeed": 9.0,
+    "windDirection": 10.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-27T01:53:00.000Z",
-    "observationTimestamp": "2026-10-27T01:53:00+00:00",
-    "raw": "METAR KDKK 270153Z AUTO 03004KT 10SM OVC036 13/03 A3033 RMK AO2 SLP271 T01280033"
+    "observationTime": "2026-10-27T13:50:00.000Z",
+    "observationTimestamp": "2026-10-27T13:50:00+00:00",
+    "raw": "METAR KVQQ 271350Z 01009G17KT 10SM BKN055 21/15 A3018"
+  },
+  "randomPlace": {
+    "name": "KDPA",
+    "station": "KDPA",
+    "lat": 41.8964,
+    "lon": -88.2512,
+    "weather": "No coded weather",
+    "temperature": 12.8,
+    "dewpoint": 11.1,
+    "windSpeed": 6.0,
+    "windDirection": 140.0,
+    "visibility": "7",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-27T13:52:00.000Z",
+    "observationTimestamp": "2026-10-27T13:52:00+00:00",
+    "raw": "METAR KDPA 271352Z 14006KT 7SM CLR 13/11 A3027 RMK AO2 SLP255 T01280111"
   },
   "globalPulse": {
     "population": {
-      "value": 8214598289,
-      "display": "8,214,598,289",
+      "value": 8214693316,
+      "display": "8,214,693,316",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.4,
-      "display": "61.4%",
+      "value": 61.8,
+      "display": "61.8%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-26T12:00:00Z"
+      "time": "2026-10-27T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.7,
-      "display": "Kp 0.7",
+      "value": 1.3,
+      "display": "Kp 1.3",
       "source": "NOAA SWPC",
-      "time": "2026-10-26T21:00:00"
+      "time": "2026-10-27T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-27T02:16:00Z",
-      "speed": 385.0
+      "time": "2026-10-27T14:29:00Z",
+      "speed": 416.0
     },
     "magneticField": {
-      "time": "2026-10-27T02:20:00Z",
-      "bt": 7.0,
-      "bz": 1.0
+      "time": "2026-10-27T14:29:00Z",
+      "bt": 5.0,
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-10-26T21:00:00",
-      "kp": 0.67
+      "time": "2026-10-27T09:00:00",
+      "kp": 1.33
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 23.0,
+      "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-27T02:12:00Z",
-      "forecastTime": "2026-10-27T03:25:00Z"
+      "observationTime": "2026-10-27T14:29:00Z",
+      "forecastTime": "2026-10-27T15:34:00Z"
     },
     "flux10cm": {
       "time": "2026-10-26T20:00:00",
