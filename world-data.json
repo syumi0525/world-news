@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T23:41:25.934440+00:00",
+  "generatedAt": "2026-10-27T02:27:41.679143+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Le soleil depuis un stade.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Walid25d&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Walid25d (page does not exist)\">Walid25d</a>",
+    "title": "File:Borehole project 18.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iciro_Iciro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iciro Iciro (page does not exist)\">Iciro Iciro</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Le_soleil_depuis_un_stade.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Borehole_project_18.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LTFC",
-    "station": "LTFC",
-    "lat": 37.855,
-    "lon": 30.368,
-    "weather": "SHRA",
-    "temperature": 11.0,
-    "dewpoint": 11.0,
-    "windSpeed": 4.0,
-    "windDirection": 80.0,
-    "visibility": "4.97",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-10-26T23:20:00.000Z",
-    "observationTimestamp": "2026-10-26T23:20:00+00:00",
-    "raw": "METAR LTFC 262320Z 08004KT 8000 SHRA FEW025CB BKN030 11/11 Q1013 RMK RWY23 09003KT 040V170 1CB025 6CU030"
+    "name": "EGDR",
+    "station": "EGDR",
+    "lat": 50.084,
+    "lon": -5.257,
+    "weather": "-RA",
+    "temperature": 14.0,
+    "dewpoint": 14.0,
+    "windSpeed": 15.0,
+    "windDirection": 230.0,
+    "visibility": "3.73",
+    "flightCategory": "IFR",
+    "observationTime": "2026-10-27T01:50:00.000Z",
+    "observationTimestamp": "2026-10-27T01:50:00+00:00",
+    "raw": "METAR EGDR 270150Z AUTO 23015G26KT 6000 -RA OVC006/// 14/14 Q1002"
   },
   "randomPlace": {
-    "name": "KOVS",
-    "station": "KOVS",
-    "lat": 43.1561,
-    "lon": -90.6775,
+    "name": "KDKK",
+    "station": "KDKK",
+    "lat": 42.4932,
+    "lon": -79.2762,
     "weather": "No coded weather",
-    "temperature": 14.4,
+    "temperature": 12.8,
     "dewpoint": 3.3,
     "windSpeed": 4.0,
-    "windDirection": 60.0,
+    "windDirection": 30.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-26T22:53:00.000Z",
-    "observationTimestamp": "2026-10-26T22:53:00+00:00",
-    "raw": "METAR KOVS 262253Z AUTO 06004KT 10SM CLR 14/03 A3030 RMK AO2 SLP263 T01440033"
+    "observationTime": "2026-10-27T01:53:00.000Z",
+    "observationTimestamp": "2026-10-27T01:53:00+00:00",
+    "raw": "METAR KDKK 270153Z AUTO 03004KT 10SM OVC036 13/03 A3033 RMK AO2 SLP271 T01280033"
   },
   "globalPulse": {
     "population": {
-      "value": 8214576678,
-      "display": "8,214,576,678",
+      "value": 8214598289,
+      "display": "8,214,598,289",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 0.7,
       "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-26T18:00:00"
+      "time": "2026-10-26T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-26T23:33:00Z",
-      "speed": 387.0
+      "time": "2026-10-27T02:16:00Z",
+      "speed": 385.0
     },
     "magneticField": {
-      "time": "2026-10-26T23:33:00Z",
-      "bt": 6.0,
+      "time": "2026-10-27T02:20:00Z",
+      "bt": 7.0,
       "bz": 1.0
     },
     "kp": {
-      "time": "2026-10-26T18:00:00",
+      "time": "2026-10-26T21:00:00",
       "kp": 0.67
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-26T23:30:00Z",
-      "forecastTime": "2026-10-27T00:42:00Z"
+      "observationTime": "2026-10-27T02:12:00Z",
+      "forecastTime": "2026-10-27T03:25:00Z"
     },
     "flux10cm": {
       "time": "2026-10-26T20:00:00",
