@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T23:10:29.968030+00:00",
+  "generatedAt": "2026-10-28T02:21:54.276751+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:A HamerKop (Scopus umbretta) in Lake Naivasha.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:VickyOmondi\" title=\"User:VickyOmondi\">VickyOmondi</a>",
+    "title": "File:500px photo (168208635).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Fanni666\">Gyori Fanni</a></div>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:A_HamerKop_%28Scopus_umbretta%29_in_Lake_Naivasha.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28168208635%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-19 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-18 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "UBBN",
-    "station": "UBBN",
-    "lat": 39.189,
-    "lon": 45.458,
+    "name": "KPCD",
+    "station": "KPCD",
+    "lat": 37.8749,
+    "lon": -89.8582,
     "weather": "No coded weather",
-    "temperature": 12.0,
-    "dewpoint": 8.0,
-    "windSpeed": 8.0,
-    "windDirection": 100.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-27T23:00:00.000Z",
-    "observationTimestamp": "2026-10-27T23:00:00+00:00",
-    "raw": "METAR UBBN 272300Z 10008KT 9999 FEW046 SCT100 12/08 Q1023 NOSIG RMK QFE692"
-  },
-  "randomPlace": {
-    "name": "KJAX",
-    "station": "KJAX",
-    "lat": 30.4953,
-    "lon": -81.6937,
-    "weather": "No coded weather",
-    "temperature": 20.6,
-    "dewpoint": 15.0,
-    "windSpeed": 10.0,
-    "windDirection": 20.0,
+    "temperature": 11.7,
+    "dewpoint": 7.6,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-27T22:56:00.000Z",
-    "observationTimestamp": "2026-10-27T22:56:00+00:00",
-    "raw": "METAR KJAX 272256Z 02010KT 10SM FEW050 21/15 A3015 RMK AO2 SLP208 T02060150 $"
+    "observationTime": "2026-10-28T02:15:00.000Z",
+    "observationTimestamp": "2026-10-28T02:15:00+00:00",
+    "raw": "METAR KPCD 280215Z AUTO 00000KT 10SM CLR 12/08 A3021 RMK AO2 T01170076"
+  },
+  "randomPlace": {
+    "name": "ETMN",
+    "station": "ETMN",
+    "lat": 53.765,
+    "lon": 8.658,
+    "weather": "No coded weather",
+    "temperature": 9.0,
+    "dewpoint": 9.0,
+    "windSpeed": 7.0,
+    "windDirection": 220.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-28T01:20:00.000Z",
+    "observationTimestamp": "2026-10-28T01:20:00+00:00",
+    "raw": "METAR ETMN 280120Z AUTO 22007KT 9999 // ////// 09/09 Q1018 ///"
   },
   "globalPulse": {
     "population": {
-      "value": 8214760076,
-      "display": "8,214,760,076",
+      "value": 8214784975,
+      "display": "8,214,784,975",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-27T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 1.0,
+      "display": "Kp 1.0",
       "source": "NOAA SWPC",
-      "time": "2026-10-27T18:00:00"
+      "time": "2026-10-27T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-27T23:02:00Z",
-      "speed": 382.0
+      "time": "2026-10-28T02:10:00Z",
+      "speed": 390.0
     },
     "magneticField": {
-      "time": "2026-10-27T23:02:00Z",
-      "bt": 4.0,
-      "bz": 3.0
+      "time": "2026-10-28T02:10:00Z",
+      "bt": 6.0,
+      "bz": 1.0
     },
     "kp": {
-      "time": "2026-10-27T18:00:00",
-      "kp": 2.0
+      "time": "2026-10-27T21:00:00",
+      "kp": 1.0
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 12.0,
+      "display": "MAX 12.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-27T22:58:00Z",
-      "forecastTime": "2026-10-28T00:09:00Z"
+      "observationTime": "2026-10-28T02:07:00Z",
+      "forecastTime": "2026-10-28T03:19:00Z"
     },
     "flux10cm": {
       "time": "2026-10-27T20:00:00",
