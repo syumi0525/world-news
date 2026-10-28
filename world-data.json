@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T15:43:08.514855+00:00",
+  "generatedAt": "2026-10-28T20:35:26.709612+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Barhakune photo by Sangharsh Acharya.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scandinaviastats&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scandinaviastats (page does not exist)\">Scandinaviastats</a>",
+    "title": "File:Chirchiq kanali 01.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sevindikovna_Feruza&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sevindikovna Feruza (page does not exist)\">Sevindikovna Feruza</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Barhakune_photo_by_Sangharsh_Acharya.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chirchiq_kanali_01.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KAFJ",
-    "station": "KAFJ",
-    "lat": 40.1362,
-    "lon": -80.2851,
+    "name": "LIMN",
+    "station": "LIMN",
+    "lat": 45.53,
+    "lon": 8.669,
     "weather": "No coded weather",
-    "temperature": 16.7,
-    "dewpoint": 10.0,
-    "windSpeed": 4.0,
-    "windDirection": 210.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-10-28T14:56:00.000Z",
-    "observationTimestamp": "2026-10-28T14:56:00+00:00",
-    "raw": "METAR KAFJ 281456Z AUTO 21004KT 10SM CLR 17/10 A3036 RMK AO2 SLP282 T01670100 50006 $"
+    "temperature": 8.0,
+    "dewpoint": 8.0,
+    "windSpeed": 1.0,
+    "windDirection": 0.0,
+    "visibility": "N/A",
+    "flightCategory": "null",
+    "observationTime": "2026-10-28T19:55:00.000Z",
+    "observationTimestamp": "2026-10-28T19:55:00+00:00",
+    "raw": "METAR LIMN 281955Z AUTO VRB01KT //// // ///////// 08/08 Q1022 RMK /// WIND THR/////KT"
   },
   "randomPlace": {
-    "name": "K1HW",
-    "station": "K1HW",
-    "lat": 41.325,
-    "lon": -102.83,
+    "name": "KPCD",
+    "station": "KPCD",
+    "lat": 37.8749,
+    "lon": -89.8582,
     "weather": "No coded weather",
-    "temperature": 6.5,
-    "dewpoint": 6.2,
-    "windSpeed": 4.0,
-    "windDirection": 260.0,
+    "temperature": 25.9,
+    "dewpoint": 9.0,
+    "windSpeed": 9.0,
+    "windDirection": 180.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-10-28T14:55:00.000Z",
-    "observationTimestamp": "2026-10-28T14:55:00+00:00",
-    "raw": "METAR K1HW 281455Z AUTO 26004KT 10SM CLR 07/06 A2994 RMK AO2 SLP137 60000 T00650062 52014 $"
+    "observationTime": "2026-10-28T20:15:00.000Z",
+    "observationTimestamp": "2026-10-28T20:15:00+00:00",
+    "raw": "METAR KPCD 282015Z AUTO 18009KT 10SM CLR 26/09 A3016 RMK AO2 T02590090"
   },
   "globalPulse": {
     "population": {
-      "value": 8214889288,
-      "display": "8,214,889,288",
+      "value": 8214927330,
+      "display": "8,214,927,330",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,32 +89,32 @@
       "time": "2026-10-28T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.7,
-      "display": "Kp 0.7",
+      "value": 1.3,
+      "display": "Kp 1.3",
       "source": "NOAA SWPC",
-      "time": "2026-10-28T12:00:00"
+      "time": "2026-10-28T15:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-28T15:33:00Z",
-      "speed": 394.0
+      "time": "2026-10-28T20:24:00Z",
+      "speed": 403.0
     },
     "magneticField": {
-      "time": "2026-10-28T15:33:00Z",
-      "bt": 7.0,
-      "bz": 1.0
+      "time": "2026-10-28T20:24:00Z",
+      "bt": 5.0,
+      "bz": -4.0
     },
     "kp": {
-      "time": "2026-10-28T12:00:00",
-      "kp": 0.67
+      "time": "2026-10-28T15:00:00",
+      "kp": 1.33
     },
     "aurora": {
-      "value": 16.0,
-      "display": "MAX 16.0%",
+      "value": 27.0,
+      "display": "MAX 27.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-28T15:33:00Z",
-      "forecastTime": "2026-10-28T16:43:00Z"
+      "observationTime": "2026-10-28T20:24:00Z",
+      "forecastTime": "2026-10-28T21:32:00Z"
     },
     "flux10cm": {
       "time": "2026-10-27T20:00:00",
