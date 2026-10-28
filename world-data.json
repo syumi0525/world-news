@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T08:50:47.924098+00:00",
+  "generatedAt": "2026-10-28T15:43:08.514855+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Cordillera del Aramo (13736818533).jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44048553@N03\">Nacho</a>",
+    "title": "File:Barhakune photo by Sangharsh Acharya.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Scandinaviastats&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Scandinaviastats (page does not exist)\">Scandinaviastats</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_del_Aramo_%2813736818533%29.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Barhakune_photo_by_Sangharsh_Acharya.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "EFKS",
-    "station": "EFKS",
-    "lat": 65.992,
-    "lon": 29.236,
+    "name": "KAFJ",
+    "station": "KAFJ",
+    "lat": 40.1362,
+    "lon": -80.2851,
     "weather": "No coded weather",
-    "temperature": 9.0,
-    "dewpoint": 8.0,
-    "windSpeed": 12.0,
+    "temperature": 16.7,
+    "dewpoint": 10.0,
+    "windSpeed": 4.0,
     "windDirection": 210.0,
-    "visibility": "6+",
-    "flightCategory": "IFR",
-    "observationTime": "2026-10-28T08:20:00.000Z",
-    "observationTimestamp": "2026-10-28T08:20:00+00:00",
-    "raw": "METAR EFKS 280820Z AUTO 21012KT 9999 OVC006 09/08 Q1011"
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-28T14:56:00.000Z",
+    "observationTimestamp": "2026-10-28T14:56:00+00:00",
+    "raw": "METAR KAFJ 281456Z AUTO 21004KT 10SM CLR 17/10 A3036 RMK AO2 SLP282 T01670100 50006 $"
   },
   "randomPlace": {
-    "name": "CMFM",
-    "station": "CMFM",
-    "lat": 47.323,
-    "lon": -71.148,
+    "name": "K1HW",
+    "station": "K1HW",
+    "lat": 41.325,
+    "lon": -102.83,
     "weather": "No coded weather",
-    "temperature": -7.3,
-    "dewpoint": -9.1,
-    "windSpeed": 1.0,
-    "windDirection": 340.0,
-    "visibility": "N/A",
-    "flightCategory": "null",
-    "observationTime": "2026-10-28T08:00:00.000Z",
-    "observationTimestamp": "2026-10-28T08:00:00+00:00",
-    "raw": "METAR CMFM 280800Z AUTO 34001KT M07/M09 RMK AO1 SLP304 T10731091 55002"
+    "temperature": 6.5,
+    "dewpoint": 6.2,
+    "windSpeed": 4.0,
+    "windDirection": 260.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-10-28T14:55:00.000Z",
+    "observationTimestamp": "2026-10-28T14:55:00+00:00",
+    "raw": "METAR K1HW 281455Z AUTO 26004KT 10SM CLR 07/06 A2994 RMK AO2 SLP137 60000 T00650062 52014 $"
   },
   "globalPulse": {
     "population": {
-      "value": 8214835595,
-      "display": "8,214,835,595",
+      "value": 8214889288,
+      "display": "8,214,889,288",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 61.5,
-      "display": "61.5%",
+      "value": 63.3,
+      "display": "63.3%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-10-28T00:00:00Z"
+      "time": "2026-10-28T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.7,
-      "display": "Kp 1.7",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-10-28T03:00:00"
+      "time": "2026-10-28T12:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-10-28T08:41:00Z",
-      "speed": 395.0
+      "time": "2026-10-28T15:33:00Z",
+      "speed": 394.0
     },
     "magneticField": {
-      "time": "2026-10-28T08:41:00Z",
+      "time": "2026-10-28T15:33:00Z",
       "bt": 7.0,
-      "bz": 2.0
+      "bz": 1.0
     },
     "kp": {
-      "time": "2026-10-28T03:00:00",
-      "kp": 1.67
+      "time": "2026-10-28T12:00:00",
+      "kp": 0.67
     },
     "aurora": {
-      "value": 24.0,
-      "display": "MAX 24.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-10-28T08:38:00Z",
-      "forecastTime": "2026-10-28T09:50:00Z"
+      "observationTime": "2026-10-28T15:33:00Z",
+      "forecastTime": "2026-10-28T16:43:00Z"
     },
     "flux10cm": {
       "time": "2026-10-27T20:00:00",
