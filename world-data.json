@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:47:07.833732+00:00",
+  "generatedAt": "2026-11-21T01:49:15.707105+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:20260803 184506 Schätzl-Villa mit Garten.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ElisabethRied&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ElisabethRied (page does not exist)\">ElisabethRied</a>",
+    "title": "File:Au bonheur des tags (Démolition avant reconversion) (37932924806).jpg",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/110273693@N04\">Sylvie burr</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:20260803_184506_Sch%C3%A4tzl-Villa_mit_Garten.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Au_bonheur_des_tags_%28D%C3%A9molition_avant_reconversion%29_%2837932924806%29.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KLWS",
-    "station": "KLWS",
-    "lat": 46.3746,
-    "lon": -117.0153,
-    "weather": "BR",
-    "temperature": 6.7,
-    "dewpoint": 1.1,
-    "windSpeed": 6.0,
-    "windDirection": 330.0,
-    "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-11-20T20:41:00.000Z",
-    "observationTimestamp": "2026-11-20T20:41:00+00:00",
-    "raw": "SPECI KLWS 202041Z 33006KT 10SM BR BKN026 07/01 A2997 RMK AO2 T00670011"
+    "name": "TJBQ",
+    "station": "TJBQ",
+    "lat": 18.494,
+    "lon": -67.128,
+    "weather": "VCTS",
+    "temperature": 25.0,
+    "dewpoint": 24.0,
+    "windSpeed": 3.0,
+    "windDirection": 20.0,
+    "visibility": "7",
+    "flightCategory": "VFR",
+    "observationTime": "2026-11-21T00:50:00.000Z",
+    "observationTimestamp": "2026-11-21T00:50:00+00:00",
+    "raw": "METAR TJBQ 210050Z 02003KT 7SM VCTS SCFEW008 25/24 A3001"
   },
   "randomPlace": {
-    "name": "KFAF",
-    "station": "KFAF",
-    "lat": 37.134,
-    "lon": -76.61,
+    "name": "PADU",
+    "station": "PADU",
+    "lat": 53.896,
+    "lon": -166.543,
     "weather": "No coded weather",
-    "temperature": 21.7,
-    "dewpoint": 3.4,
-    "windSpeed": 3.0,
-    "windDirection": 350.0,
+    "temperature": 7.2,
+    "dewpoint": 1.7,
+    "windSpeed": 14.0,
+    "windDirection": 220.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-11-20T19:55:00.000Z",
-    "observationTimestamp": "2026-11-20T19:55:00+00:00",
-    "raw": "METAR KFAF 201955Z 35003KT 10SM SCT250 22/03 A3030 RMK AO2A SLP264 T02170034 $"
+    "observationTime": "2026-11-21T00:56:00.000Z",
+    "observationTimestamp": "2026-11-21T00:56:00+00:00",
+    "raw": "METAR PADU 210056Z 22014G24KT 10SM BKN038 BKN050 07/02 A2947 RMK AO2 SLP979 T00720017 PNO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8223902672,
-      "display": "8,223,902,672",
+      "value": 8223942300,
+      "display": "8,223,942,300",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -89,36 +89,36 @@
       "time": "2026-11-20T12:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.3,
-      "display": "Kp 0.3",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-11-20T15:00:00"
+      "time": "2026-11-20T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-11-20T20:43:00Z",
-      "speed": 361.0
+      "time": "2026-11-21T01:44:00Z",
+      "speed": 346.0
     },
     "magneticField": {
-      "time": "2026-11-20T20:43:00Z",
-      "bt": 6.0,
-      "bz": 2.0
+      "time": "2026-11-21T01:44:00Z",
+      "bt": 5.0,
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-11-20T15:00:00",
-      "kp": 0.33
+      "time": "2026-11-20T21:00:00",
+      "kp": 0.67
     },
     "aurora": {
-      "value": 27.0,
-      "display": "MAX 27.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-11-20T20:43:00Z",
-      "forecastTime": "2026-11-20T21:52:00Z"
+      "observationTime": "2026-11-21T01:42:00Z",
+      "forecastTime": "2026-11-21T02:56:00Z"
     },
     "flux10cm": {
-      "time": "2026-11-19T20:00:00",
-      "flux": 107.0
+      "time": "2026-11-20T20:00:00",
+      "flux": 103.0
     }
   }
 }
