@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T01:54:12.146582+00:00",
+  "generatedAt": "2026-11-22T09:20:28.752420+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Nastawnia CS Czestochowa Stradom.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cody3223&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cody3223 (page does not exist)\">Cody3223</a>",
+    "title": "File:Morondava Ville 13.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Nastawnia_CS_Czestochowa_Stradom.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Morondava_Ville_13.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "RODN",
-    "station": "RODN",
-    "lat": 26.356,
-    "lon": 127.768,
-    "weather": "No coded weather",
-    "temperature": 21.2,
-    "dewpoint": 8.5,
-    "windSpeed": 5.0,
-    "windDirection": 30.0,
-    "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-11-22T00:55:00.000Z",
-    "observationTimestamp": "2026-11-22T00:55:00+00:00",
-    "raw": "METAR RODN 220055Z AUTO 03005KT 10SM FEW055 21/09 A3036 RMK AO2 SLP283 T02120085 $"
+    "name": "KAUW",
+    "station": "KAUW",
+    "lat": 44.9265,
+    "lon": -89.6248,
+    "weather": "-RA BR",
+    "temperature": 8.3,
+    "dewpoint": 7.8,
+    "windSpeed": 7.0,
+    "windDirection": 310.0,
+    "visibility": "5",
+    "flightCategory": "IFR",
+    "observationTime": "2026-11-22T08:54:00.000Z",
+    "observationTimestamp": "2026-11-22T08:54:00+00:00",
+    "raw": "METAR KAUW 220854Z AUTO 31007KT 5SM -RA BR OVC006 08/08 A2974 RMK AO2 RAB26 SLP078 P0004 60009 T00830078 55004"
   },
   "randomPlace": {
-    "name": "ENVD",
-    "station": "ENVD",
-    "lat": 70.065,
-    "lon": 29.835,
+    "name": "K54A",
+    "station": "K54A",
+    "lat": 26.8601,
+    "lon": -82.2468,
     "weather": "No coded weather",
-    "temperature": -3.0,
-    "dewpoint": -6.0,
-    "windSpeed": 10.0,
-    "windDirection": 290.0,
-    "visibility": "6+",
+    "temperature": 18.0,
+    "dewpoint": 18.0,
+    "windSpeed": 0.0,
+    "windDirection": 0.0,
+    "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-11-22T01:20:00.000Z",
-    "observationTimestamp": "2026-11-22T01:20:00+00:00",
-    "raw": "METAR ENVD 220120Z AUTO 29010KT 9999 FEW012/// SCT039/// M03/M06 Q1005"
+    "observationTime": "2026-11-22T09:15:00.000Z",
+    "observationTimestamp": "2026-11-22T09:15:00+00:00",
+    "raw": "METAR K54A 220915Z AUTO 00000KT 10SM CLR 18/18 A2988 RMK AO2"
   },
   "globalPulse": {
     "population": {
-      "value": 8224131994,
-      "display": "8,224,131,994",
+      "value": 8224190580,
+      "display": "8,224,190,580",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 64.9,
-      "display": "64.9%",
+      "value": 63.1,
+      "display": "63.1%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-11-21T12:00:00Z"
+      "time": "2026-11-22T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 1.3,
-      "display": "Kp 1.3",
+      "value": 2.3,
+      "display": "Kp 2.3",
       "source": "NOAA SWPC",
-      "time": "2026-11-21T21:00:00"
+      "time": "2026-11-22T06:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-11-22T01:49:00Z",
-      "speed": 340.0
+      "time": "2026-11-22T09:16:00Z",
+      "speed": 375.0
     },
     "magneticField": {
-      "time": "2026-11-22T01:49:00Z",
-      "bt": 4.0,
-      "bz": 0.0
+      "time": "2026-11-22T09:14:00Z",
+      "bt": 6.0,
+      "bz": 4.0
     },
     "kp": {
-      "time": "2026-11-21T21:00:00",
-      "kp": 1.33
+      "time": "2026-11-22T06:00:00",
+      "kp": 2.33
     },
     "aurora": {
-      "value": 15.0,
-      "display": "MAX 15.0%",
+      "value": 16.0,
+      "display": "MAX 16.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-11-22T01:48:00Z",
-      "forecastTime": "2026-11-22T03:04:00Z"
+      "observationTime": "2026-11-22T09:12:00Z",
+      "forecastTime": "2026-11-22T10:20:00Z"
     },
     "flux10cm": {
       "time": "2026-11-21T20:00:00",
