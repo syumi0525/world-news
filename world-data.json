@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T21:51:57.742242+00:00",
+  "generatedAt": "2026-11-22T01:54:12.146582+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:1907 Hold on! Half time! A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:Nastawnia CS Czestochowa Stradom.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cody3223&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cody3223 (page does not exist)\">Cody3223</a>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:1907_Hold_on%21_Half_time%21_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nastawnia_CS_Czestochowa_Stradom.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "SANR",
-    "station": "SANR",
-    "lat": -27.497,
-    "lon": -64.936,
+    "name": "RODN",
+    "station": "RODN",
+    "lat": 26.356,
+    "lon": 127.768,
     "weather": "No coded weather",
-    "temperature": 28.0,
-    "dewpoint": 23.0,
-    "windSpeed": 8.0,
-    "windDirection": 230.0,
-    "visibility": "6+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-11-21T21:00:00.000Z",
-    "observationTimestamp": "2026-11-21T21:00:00+00:00",
-    "raw": "METAR SANR 212100Z 23008KT 9999 BKN030 BKN035 28/23 Q1003"
+    "temperature": 21.2,
+    "dewpoint": 8.5,
+    "windSpeed": 5.0,
+    "windDirection": 30.0,
+    "visibility": "10+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-11-22T00:55:00.000Z",
+    "observationTimestamp": "2026-11-22T00:55:00+00:00",
+    "raw": "METAR RODN 220055Z AUTO 03005KT 10SM FEW055 21/09 A3036 RMK AO2 SLP283 T02120085 $"
   },
   "randomPlace": {
-    "name": "WBGG",
-    "station": "WBGG",
-    "lat": 1.484,
-    "lon": 110.34,
+    "name": "ENVD",
+    "station": "ENVD",
+    "lat": 70.065,
+    "lon": 29.835,
     "weather": "No coded weather",
-    "temperature": 25.0,
-    "dewpoint": 25.0,
-    "windSpeed": 0.0,
-    "windDirection": 0.0,
+    "temperature": -3.0,
+    "dewpoint": -6.0,
+    "windSpeed": 10.0,
+    "windDirection": 290.0,
     "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-11-21T21:30:00.000Z",
-    "observationTimestamp": "2026-11-21T21:30:00+00:00",
-    "raw": "METAR WBGG 212130Z 00000KT 9999 FEW020 25/25 Q1012 NOSIG"
+    "observationTime": "2026-11-22T01:20:00.000Z",
+    "observationTimestamp": "2026-11-22T01:20:00+00:00",
+    "raw": "METAR ENVD 220120Z AUTO 29010KT 9999 FEW012/// SCT039/// M03/M06 Q1005"
   },
   "globalPulse": {
     "population": {
-      "value": 8224100219,
-      "display": "8,224,100,219",
+      "value": 8224131994,
+      "display": "8,224,131,994",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -92,29 +92,29 @@
       "value": 1.3,
       "display": "Kp 1.3",
       "source": "NOAA SWPC",
-      "time": "2026-11-21T18:00:00"
+      "time": "2026-11-21T21:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-11-21T21:45:00Z",
-      "speed": 338.0
+      "time": "2026-11-22T01:49:00Z",
+      "speed": 340.0
     },
     "magneticField": {
-      "time": "2026-11-21T21:45:00Z",
-      "bt": 6.0,
-      "bz": 2.0
+      "time": "2026-11-22T01:49:00Z",
+      "bt": 4.0,
+      "bz": 0.0
     },
     "kp": {
-      "time": "2026-11-21T18:00:00",
+      "time": "2026-11-21T21:00:00",
       "kp": 1.33
     },
     "aurora": {
-      "value": 21.0,
-      "display": "MAX 21.0%",
+      "value": 15.0,
+      "display": "MAX 15.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-11-21T21:42:00Z",
-      "forecastTime": "2026-11-21T23:00:00Z"
+      "observationTime": "2026-11-22T01:48:00Z",
+      "forecastTime": "2026-11-22T03:04:00Z"
     },
     "flux10cm": {
       "time": "2026-11-21T20:00:00",
