@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T20:23:25.090267+00:00",
+  "generatedAt": "2026-11-25T03:39:20.165061+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Milliy bog'.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Lerabithia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lerabithia (page does not exist)\">Lerabithia</a>",
+    "title": "File:Cloudpeak.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Akashpandey91\" title=\"User:Akashpandey91\">Akashpandey91</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Milliy_bog%27.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cloudpeak.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "OEAB",
-    "station": "OEAB",
-    "lat": 18.24,
-    "lon": 42.657,
+    "name": "PATO",
+    "station": "PATO",
+    "lat": 60.783,
+    "lon": -148.843,
     "weather": "No coded weather",
-    "temperature": 14.0,
-    "dewpoint": -6.0,
+    "temperature": -5.0,
+    "dewpoint": -6.1,
     "windSpeed": 0.0,
     "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-11-24T20:00:00.000Z",
-    "observationTimestamp": "2026-11-24T20:00:00+00:00",
-    "raw": "METAR OEAB 242000Z 00000KT CAVOK 14/M06 Q1028 NOSIG"
-  },
-  "randomPlace": {
-    "name": "KRCR",
-    "station": "KRCR",
-    "lat": 41.0651,
-    "lon": -86.1864,
-    "weather": "No coded weather",
-    "temperature": 3.0,
-    "dewpoint": -6.0,
-    "windSpeed": 9.0,
-    "windDirection": 30.0,
     "visibility": "10+",
     "flightCategory": "VFR",
-    "observationTime": "2026-11-24T20:15:00.000Z",
-    "observationTimestamp": "2026-11-24T20:15:00+00:00",
-    "raw": "METAR KRCR 242015Z AUTO 03009G14KT 10SM CLR 03/M06 A3050 RMK AO2"
+    "observationTime": "2026-11-25T02:53:00.000Z",
+    "observationTimestamp": "2026-11-25T02:53:00+00:00",
+    "raw": "METAR PATO 250253Z AUTO 00000KT 10SM OVC100 M05/M06 A2933 RMK AO2 SLP932 T10501061 56008 TSNO"
+  },
+  "randomPlace": {
+    "name": "KMWM",
+    "station": "KMWM",
+    "lat": 43.91,
+    "lon": -95.1073,
+    "weather": "No coded weather",
+    "temperature": -0.7,
+    "dewpoint": -7.4,
+    "windSpeed": 8.0,
+    "windDirection": 200.0,
+    "visibility": "10+",
+    "flightCategory": "MVFR",
+    "observationTime": "2026-11-25T03:35:00.000Z",
+    "observationTimestamp": "2026-11-25T03:35:00+00:00",
+    "raw": "METAR KMWM 250335Z AUTO 20008KT 10SM BKN022 OVC028 M01/M07 A3041 RMK AO2 T10071074"
   },
   "globalPulse": {
     "population": {
-      "value": 8224655703,
-      "display": "8,224,655,703",
+      "value": 8224712928,
+      "display": "8,224,712,928",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,42 +83,42 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 64.9,
-      "display": "64.9%",
+      "value": 64.7,
+      "display": "64.7%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-11-24T12:00:00Z"
+      "time": "2026-11-25T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.7,
-      "display": "Kp 0.7",
+      "value": 3.0,
+      "display": "Kp 3.0",
       "source": "NOAA SWPC",
-      "time": "2026-11-24T15:00:00"
+      "time": "2026-11-25T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-11-24T20:17:00Z",
-      "speed": 316.0
+      "time": "2026-11-25T03:34:00Z",
+      "speed": 344.0
     },
     "magneticField": {
-      "time": "2026-11-24T20:17:00Z",
-      "bt": 6.0,
-      "bz": 6.0
+      "time": "2026-11-25T03:34:00Z",
+      "bt": 8.0,
+      "bz": 1.0
     },
     "kp": {
-      "time": "2026-11-24T15:00:00",
-      "kp": 0.67
+      "time": "2026-11-25T00:00:00",
+      "kp": 3.0
     },
     "aurora": {
-      "value": 29.0,
-      "display": "MAX 29.0%",
+      "value": 22.0,
+      "display": "MAX 22.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-11-24T20:17:00Z",
-      "forecastTime": "2026-11-24T21:39:00Z"
+      "observationTime": "2026-11-25T03:32:00Z",
+      "forecastTime": "2026-11-25T04:48:00Z"
     },
     "flux10cm": {
-      "time": "2026-11-23T20:00:00",
-      "flux": 90.0
+      "time": "2026-11-24T20:00:00",
+      "flux": 88.0
     }
   }
 }
