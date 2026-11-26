@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T04:29:25.522743+00:00",
+  "generatedAt": "2026-11-26T14:17:21.109819+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Chief Inspector Albert Macintosh - Flickr - trebble.chris.jpg",
-    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/129172152@N02\">Chris Trebble</a>",
+    "title": "File:Shukan Kabewa.jpg 02.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:M_Bash_Ne\" title=\"User:M Bash Ne\">M Bash Ne</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Chief_Inspector_Albert_Macintosh_-_Flickr_-_trebble.chris.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Shukan_Kabewa.jpg_02.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LSZA",
-    "station": "LSZA",
-    "lat": 46.004,
-    "lon": 8.91,
-    "weather": "No coded weather",
-    "temperature": 6.0,
-    "dewpoint": 5.0,
-    "windSpeed": 2.0,
-    "windDirection": 0.0,
-    "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-11-26T04:20:00.000Z",
-    "observationTimestamp": "2026-11-26T04:20:00+00:00",
-    "raw": "METAR LSZA 260420Z AUTO VRB02KT 9999 SCT075 BKN085 06/05 Q1002"
+    "name": "SCRD",
+    "station": "SCRD",
+    "lat": -33.068,
+    "lon": -71.557,
+    "weather": "BCFG",
+    "temperature": 16.0,
+    "dewpoint": 14.0,
+    "windSpeed": 6.0,
+    "windDirection": 350.0,
+    "visibility": "1.86",
+    "flightCategory": "IFR",
+    "observationTime": "2026-11-26T14:00:00.000Z",
+    "observationTimestamp": "2026-11-26T14:00:00+00:00",
+    "raw": "METAR SCRD 261400Z 35006KT 3000 0400SW BCFG OVC005 16/14 Q1015"
   },
   "randomPlace": {
-    "name": "KCUB",
-    "station": "KCUB",
-    "lat": 33.972,
-    "lon": -80.9938,
-    "weather": "-RA BR",
-    "temperature": 10.0,
-    "dewpoint": 9.4,
-    "windSpeed": null,
-    "windDirection": null,
-    "visibility": "5",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-11-26T03:53:00.000Z",
-    "observationTimestamp": "2026-11-26T03:53:00+00:00",
-    "raw": "METAR KCUB 260353Z AUTO 5SM -RA BR OVC010 10/09 A2989 RMK AO2 CIG 007V014 SLP122 P0002 T01000094"
+    "name": "LYTV",
+    "station": "LYTV",
+    "lat": 42.405,
+    "lon": 18.723,
+    "weather": "-SHRA",
+    "temperature": 17.0,
+    "dewpoint": 17.0,
+    "windSpeed": 15.0,
+    "windDirection": 160.0,
+    "visibility": "6+",
+    "flightCategory": "VFR",
+    "observationTime": "2026-11-26T14:00:00.000Z",
+    "observationTimestamp": "2026-11-26T14:00:00+00:00",
+    "raw": "METAR LYTV 261400Z 16015G25KT 9999 -SHRA SCT013 FEW026TCU BKN034 17/17 Q1010 RESHRA TEMPO 1000 TSRA SCT012 SCT026CB BKN034"
   },
   "globalPulse": {
     "population": {
-      "value": 8224908545,
-      "display": "8,224,908,545",
+      "value": 8224985698,
+      "display": "8,224,985,698",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.6,
-      "display": "62.6%",
+      "value": 63.2,
+      "display": "63.2%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-11-26T00:00:00Z"
+      "time": "2026-11-26T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.3,
-      "display": "Kp 0.3",
+      "value": 0.7,
+      "display": "Kp 0.7",
       "source": "NOAA SWPC",
-      "time": "2026-11-26T00:00:00"
+      "time": "2026-11-26T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-11-26T04:25:00Z",
-      "speed": 335.0
+      "time": "2026-11-26T14:11:00Z",
+      "speed": 318.0
     },
     "magneticField": {
-      "time": "2026-11-26T04:25:00Z",
+      "time": "2026-11-26T14:11:00Z",
       "bt": 4.0,
       "bz": -1.0
     },
     "kp": {
-      "time": "2026-11-26T00:00:00",
-      "kp": 0.33
+      "time": "2026-11-26T09:00:00",
+      "kp": 0.67
     },
     "aurora": {
-      "value": 22.0,
-      "display": "MAX 22.0%",
+      "value": 23.0,
+      "display": "MAX 23.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-11-26T04:23:00Z",
-      "forecastTime": "2026-11-26T05:38:00Z"
+      "observationTime": "2026-11-26T14:12:00Z",
+      "forecastTime": "2026-11-26T15:33:00Z"
     },
     "flux10cm": {
       "time": "2026-11-25T20:00:00",
