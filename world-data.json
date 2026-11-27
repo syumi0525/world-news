@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T23:05:01.612558+00:00",
+  "generatedAt": "2026-11-27T04:57:34.090796+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Batiment aunsein de la Ville de Majunga 02.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lalinah\" title=\"User:Lalinah\">Lalinah</a>",
+    "title": "File:Shukan Kabewa.jpg 02.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:M_Bash_Ne\" title=\"User:M Bash Ne\">M Bash Ne</a>",
     "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Batiment_aunsein_de_la_Ville_de_Majunga_02.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Shukan_Kabewa.jpg_02.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "KFCM",
-    "station": "KFCM",
-    "lat": 44.8321,
-    "lon": -93.4705,
+    "name": "LFMP",
+    "station": "LFMP",
+    "lat": 42.737,
+    "lon": 2.873,
     "weather": "No coded weather",
-    "temperature": 2.2,
-    "dewpoint": -6.7,
-    "windSpeed": 5.0,
-    "windDirection": 340.0,
-    "visibility": "10+",
+    "temperature": 8.0,
+    "dewpoint": 4.0,
+    "windSpeed": 3.0,
+    "windDirection": 250.0,
+    "visibility": "6+",
     "flightCategory": "VFR",
-    "observationTime": "2026-11-26T22:53:00.000Z",
-    "observationTimestamp": "2026-11-26T22:53:00+00:00",
-    "raw": "METAR KFCM 262253Z 34005KT 10SM CLR 02/M07 A3016 RMK AO2 SLP226 T00221067"
+    "observationTime": "2026-11-27T04:30:00.000Z",
+    "observationTimestamp": "2026-11-27T04:30:00+00:00",
+    "raw": "METAR LFMP 270430Z AUTO 25003KT 180V330 CAVOK 08/04 Q1015 TEMPO 31015G25KT"
   },
   "randomPlace": {
-    "name": "KMEZ",
-    "station": "KMEZ",
-    "lat": 34.5414,
-    "lon": -94.1918,
+    "name": "KASX",
+    "station": "KASX",
+    "lat": 46.5468,
+    "lon": -90.9184,
     "weather": "No coded weather",
-    "temperature": 5.6,
-    "dewpoint": -3.9,
-    "windSpeed": 11.0,
-    "windDirection": 300.0,
+    "temperature": 0.0,
+    "dewpoint": -1.1,
+    "windSpeed": 6.0,
+    "windDirection": 70.0,
     "visibility": "10+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-11-26T22:55:00.000Z",
-    "observationTimestamp": "2026-11-26T22:55:00+00:00",
-    "raw": "METAR KMEZ 262255Z AUTO 30011G18KT 10SM BKN043 06/M04 A3008 RMK AO2 T00561039"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-11-27T04:53:00.000Z",
+    "observationTimestamp": "2026-11-27T04:53:00+00:00",
+    "raw": "METAR KASX 270453Z AUTO 07006KT 10SM OVC011 00/M01 A3003 RMK AO2 SLP182 T00001011"
   },
   "globalPulse": {
     "population": {
-      "value": 8225054991,
-      "display": "8,225,054,991",
+      "value": 8225101274,
+      "display": "8,225,101,274",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 63.4,
-      "display": "63.4%",
+      "value": 62.0,
+      "display": "62.0%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-11-26T12:00:00Z"
+      "time": "2026-11-27T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.7,
-      "display": "Kp 0.7",
+      "value": 2.0,
+      "display": "Kp 2.0",
       "source": "NOAA SWPC",
-      "time": "2026-11-26T18:00:00"
+      "time": "2026-11-27T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-11-26T23:01:00Z",
-      "speed": 296.0
+      "time": "2026-11-27T04:51:00Z",
+      "speed": 285.0
     },
     "magneticField": {
-      "time": "2026-11-26T23:01:00Z",
+      "time": "2026-11-27T04:51:00Z",
       "bt": 5.0,
-      "bz": -2.0
+      "bz": -3.0
     },
     "kp": {
-      "time": "2026-11-26T18:00:00",
-      "kp": 0.67
+      "time": "2026-11-27T00:00:00",
+      "kp": 2.0
     },
     "aurora": {
-      "value": 29.0,
-      "display": "MAX 29.0%",
+      "value": 26.0,
+      "display": "MAX 26.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-11-26T22:57:00Z",
-      "forecastTime": "2026-11-27T00:23:00Z"
+      "observationTime": "2026-11-27T04:52:00Z",
+      "forecastTime": "2026-11-27T06:22:00Z"
     },
     "flux10cm": {
       "time": "2026-11-26T20:00:00",
