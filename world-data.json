@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T04:57:34.090796+00:00",
+  "generatedAt": "2026-11-27T14:48:44.580701+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,53 +15,53 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:Shukan Kabewa.jpg 02.jpg",
-    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:M_Bash_Ne\" title=\"User:M Bash Ne\">M Bash Ne</a>",
-    "license": "CC0",
+    "title": "File:I will meet you at the depot A.jpg",
+    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "Public domain",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:Shukan_Kabewa.jpg_02.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
-    "name": "NOAA GOES-18 CONUS",
-    "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/GEOCOLOR/1250x750.jpg"
+    "name": "NOAA GOES-19 CONUS",
+    "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LFMP",
-    "station": "LFMP",
-    "lat": 42.737,
-    "lon": 2.873,
+    "name": "LGMK",
+    "station": "LGMK",
+    "lat": 37.435,
+    "lon": 25.348,
     "weather": "No coded weather",
-    "temperature": 8.0,
-    "dewpoint": 4.0,
-    "windSpeed": 3.0,
-    "windDirection": 250.0,
+    "temperature": 18.0,
+    "dewpoint": 15.0,
+    "windSpeed": 8.0,
+    "windDirection": 180.0,
     "visibility": "6+",
-    "flightCategory": "VFR",
-    "observationTime": "2026-11-27T04:30:00.000Z",
-    "observationTimestamp": "2026-11-27T04:30:00+00:00",
-    "raw": "METAR LFMP 270430Z AUTO 25003KT 180V330 CAVOK 08/04 Q1015 TEMPO 31015G25KT"
+    "flightCategory": "MVFR",
+    "observationTime": "2026-11-27T14:20:00.000Z",
+    "observationTimestamp": "2026-11-27T14:20:00+00:00",
+    "raw": "METAR LGMK 271420Z 18008KT 9999 FEW016 BKN030 18/15 Q1017"
   },
   "randomPlace": {
-    "name": "KASX",
-    "station": "KASX",
-    "lat": 46.5468,
-    "lon": -90.9184,
+    "name": "PFNO",
+    "station": "PFNO",
+    "lat": 66.819,
+    "lon": -161.024,
     "weather": "No coded weather",
-    "temperature": 0.0,
-    "dewpoint": -1.1,
-    "windSpeed": 6.0,
+    "temperature": -14.4,
+    "dewpoint": -17.2,
+    "windSpeed": 17.0,
     "windDirection": 70.0,
     "visibility": "10+",
-    "flightCategory": "MVFR",
-    "observationTime": "2026-11-27T04:53:00.000Z",
-    "observationTimestamp": "2026-11-27T04:53:00+00:00",
-    "raw": "METAR KASX 270453Z AUTO 07006KT 10SM OVC011 00/M01 A3003 RMK AO2 SLP182 T00001011"
+    "flightCategory": "VFR",
+    "observationTime": "2026-11-27T13:56:00.000Z",
+    "observationTimestamp": "2026-11-27T13:56:00+00:00",
+    "raw": "METAR PFNO 271356Z AUTO 07017KT 10SM CLR M14/M17 A2955 RMK AO2 SLP009 T11441172 FZRANO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8225101274,
-      "display": "8,225,101,274",
+      "value": 8225178853,
+      "display": "8,225,178,853",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,38 +83,38 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 62.0,
-      "display": "62.0%",
+      "value": 63.6,
+      "display": "63.6%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-11-27T00:00:00Z"
+      "time": "2026-11-27T06:00:00Z"
     },
     "geomagnetic": {
-      "value": 2.0,
-      "display": "Kp 2.0",
+      "value": 0.3,
+      "display": "Kp 0.3",
       "source": "NOAA SWPC",
-      "time": "2026-11-27T00:00:00"
+      "time": "2026-11-27T09:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-11-27T04:51:00Z",
-      "speed": 285.0
+      "time": "2026-11-27T14:43:00Z",
+      "speed": 325.0
     },
     "magneticField": {
-      "time": "2026-11-27T04:51:00Z",
-      "bt": 5.0,
-      "bz": -3.0
+      "time": "2026-11-27T14:43:00Z",
+      "bt": 9.0,
+      "bz": 4.0
     },
     "kp": {
-      "time": "2026-11-27T00:00:00",
-      "kp": 2.0
+      "time": "2026-11-27T09:00:00",
+      "kp": 0.33
     },
     "aurora": {
-      "value": 26.0,
-      "display": "MAX 26.0%",
+      "value": 14.0,
+      "display": "MAX 14.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-11-27T04:52:00Z",
-      "forecastTime": "2026-11-27T06:22:00Z"
+      "observationTime": "2026-11-27T14:42:00Z",
+      "forecastTime": "2026-11-27T16:02:00Z"
     },
     "flux10cm": {
       "time": "2026-11-26T20:00:00",
