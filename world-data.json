@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T14:48:44.580701+00:00",
+  "generatedAt": "2026-11-28T04:42:15.500245+00:00",
   "sources": {
     "weather": "AviationWeather.gov",
     "spaceWeather": "NOAA SWPC",
@@ -15,11 +15,11 @@
   },
   "mediaSignal1": {
     "source": "Wikimedia Commons",
-    "title": "File:I will meet you at the depot A.jpg",
-    "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
+    "title": "File:500px photo (212154965).jpeg",
+    "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/pascalestrand\">Pascal Estrand</a></div>",
+    "license": "CC0",
     "rights": "CC0/Public Domain only; selected automatically for commercial-use safety.",
-    "page": "https://commons.wikimedia.org/wiki/File:I_will_meet_you_at_the_depot_A.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:500px_photo_%28212154965%29.jpeg"
   },
   "mediaSignal2": {
     "source": "NOAA GOES",
@@ -27,41 +27,41 @@
     "url": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg"
   },
   "atmosphere": {
-    "name": "LGMK",
-    "station": "LGMK",
-    "lat": 37.435,
-    "lon": 25.348,
+    "name": "CYVO",
+    "station": "CYVO",
+    "lat": 48.056,
+    "lon": -77.779,
     "weather": "No coded weather",
-    "temperature": 18.0,
-    "dewpoint": 15.0,
-    "windSpeed": 8.0,
-    "windDirection": 180.0,
-    "visibility": "6+",
+    "temperature": 0.0,
+    "dewpoint": -6.0,
+    "windSpeed": 10.0,
+    "windDirection": 10.0,
+    "visibility": "9",
     "flightCategory": "MVFR",
-    "observationTime": "2026-11-27T14:20:00.000Z",
-    "observationTimestamp": "2026-11-27T14:20:00+00:00",
-    "raw": "METAR LGMK 271420Z 18008KT 9999 FEW016 BKN030 18/15 Q1017"
+    "observationTime": "2026-11-28T04:24:00.000Z",
+    "observationTimestamp": "2026-11-28T04:24:00+00:00",
+    "raw": "SPECI CYVO 280424Z AUTO 01010KT 9SM BKN015 BKN100 M00/M06 A2938 RMK SLP969"
   },
   "randomPlace": {
-    "name": "PFNO",
-    "station": "PFNO",
-    "lat": 66.819,
-    "lon": -161.024,
-    "weather": "No coded weather",
-    "temperature": -14.4,
-    "dewpoint": -17.2,
-    "windSpeed": 17.0,
-    "windDirection": 70.0,
-    "visibility": "10+",
+    "name": "PFWS",
+    "station": "PFWS",
+    "lat": 58.704,
+    "lon": -157.005,
+    "weather": "-SN",
+    "temperature": null,
+    "dewpoint": null,
+    "windSpeed": 11.0,
+    "windDirection": 170.0,
+    "visibility": "7",
     "flightCategory": "VFR",
-    "observationTime": "2026-11-27T13:56:00.000Z",
-    "observationTimestamp": "2026-11-27T13:56:00+00:00",
-    "raw": "METAR PFNO 271356Z AUTO 07017KT 10SM CLR M14/M17 A2955 RMK AO2 SLP009 T11441172 FZRANO $"
+    "observationTime": "2026-11-28T04:08:00.000Z",
+    "observationTimestamp": "2026-11-28T04:08:00+00:00",
+    "raw": "SPECI PFWS 280408Z AUTO 17011KT 7SM -SN FEW008 RMK AO2 SNB02 P0000 FZRANO $"
   },
   "globalPulse": {
     "population": {
-      "value": 8225178853,
-      "display": "8,225,178,853",
+      "value": 8225288291,
+      "display": "8,225,288,291",
       "source": "U.S. Census Bureau"
     },
     "co2": {
@@ -83,42 +83,42 @@
       "source": "Solar geometry (global area split)"
     },
     "cloudCover": {
-      "value": 63.6,
-      "display": "63.6%",
+      "value": 62.9,
+      "display": "62.9%",
       "source": "NOAA/NCEP GFS Total Cloud Cover (TCDC)",
-      "time": "2026-11-27T06:00:00Z"
+      "time": "2026-11-28T00:00:00Z"
     },
     "geomagnetic": {
-      "value": 0.3,
-      "display": "Kp 0.3",
+      "value": 4.0,
+      "display": "Kp 4.0",
       "source": "NOAA SWPC",
-      "time": "2026-11-27T09:00:00"
+      "time": "2026-11-28T00:00:00"
     }
   },
   "space": {
     "solarWind": {
-      "time": "2026-11-27T14:43:00Z",
-      "speed": 325.0
+      "time": "2026-11-28T04:36:00Z",
+      "speed": 389.0
     },
     "magneticField": {
-      "time": "2026-11-27T14:43:00Z",
-      "bt": 9.0,
-      "bz": 4.0
+      "time": "2026-11-28T04:36:00Z",
+      "bt": 6.0,
+      "bz": -3.0
     },
     "kp": {
-      "time": "2026-11-27T09:00:00",
-      "kp": 0.33
+      "time": "2026-11-28T00:00:00",
+      "kp": 4.0
     },
     "aurora": {
-      "value": 14.0,
-      "display": "MAX 14.0%",
+      "value": 33.0,
+      "display": "MAX 33.0%",
       "source": "NOAA SWPC OVATION",
-      "observationTime": "2026-11-27T14:42:00Z",
-      "forecastTime": "2026-11-27T16:02:00Z"
+      "observationTime": "2026-11-28T04:32:00Z",
+      "forecastTime": "2026-11-28T05:39:00Z"
     },
     "flux10cm": {
-      "time": "2026-11-26T20:00:00",
-      "flux": 87.0
+      "time": "2026-11-27T20:00:00",
+      "flux": 91.0
     }
   }
 }
